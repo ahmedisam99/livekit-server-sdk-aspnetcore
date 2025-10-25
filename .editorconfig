@@ -1,0 +1,26 @@
+root = true
+
+# All files
+[*]
+charset = utf-8
+indent_style = space
+tab_width = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+end_of_line = crlf
+
+# .sh files
+[*.sh]
+end_of_line = lf
+
+# XML and JSON files
+[*.{xml,xaml,csproj,props,targets,json,Config,dcproj,yml,yaml}]
+indent_size = 2
+ij_json_keep_blank_lines_in_code = 1
+
+# C# files
+[*.{cs,vb}]
+indent_size = 4
+
+[*.{xml,csproj,props}]
+ij_xml_space_inside_empty_tag = true
