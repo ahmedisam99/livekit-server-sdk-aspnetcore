@@ -6,6 +6,10 @@ namespace LiveKit.Authentication;
 
 /// <summary>
 /// Builder for creating LiveKit authentication tokens.
+/// <para>
+/// Provides a fluent API for constructing access tokens with video grants, SIP grants, and participant attributes.
+/// See <see href="https://docs.livekit.io/home/get-started/authentication/">LiveKit Authentication Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitTokenBuilder
 {

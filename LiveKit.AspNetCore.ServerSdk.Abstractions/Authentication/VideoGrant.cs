@@ -4,7 +4,10 @@ namespace LiveKit.Authentication;
 
 /// <summary>
 /// Video grant containing room permissions and participant capabilities.
+/// <para>
 /// Room permissions are specified in the video field of a decoded join token.
+/// See <see href="https://docs.livekit.io/home/get-started/authentication/#video-grant">Video Grant Documentation</see> for details on available permissions.
+/// </para>
 /// </summary>
 public sealed class VideoGrant
 {

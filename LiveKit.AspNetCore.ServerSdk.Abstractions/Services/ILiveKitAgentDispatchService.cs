@@ -6,6 +6,10 @@ namespace LiveKit.Services;
 
 /// <summary>
 /// Service for managing agent dispatches to rooms.
+/// <para>
+/// Provides methods for dispatching AI agents to rooms based on room configuration or on-demand.
+/// See <see href="https://docs.livekit.io/home/get-started/authentication/#room-configuration">Agent Dispatch Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitAgentDispatchService
 {

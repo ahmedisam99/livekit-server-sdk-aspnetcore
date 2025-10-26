@@ -6,7 +6,11 @@ using LiveKit.Proto;
 namespace LiveKit.Services;
 
 /// <summary>
-/// SIP service for managing SIP trunks, dispatch rules, and participants.
+/// Service for managing SIP trunks, dispatch rules, and participants.
+/// <para>
+/// Provides methods for SIP integration, including managing trunks, dispatch rules, and making SIP calls.
+/// See <see href="https://docs.livekit.io/reference/server/server-apis/#sip-service">LiveKit SIP Service Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitSipService
 {

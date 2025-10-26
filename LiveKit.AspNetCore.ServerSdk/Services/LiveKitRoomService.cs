@@ -7,83 +7,101 @@ using Microsoft.Extensions.Logging;
 
 namespace LiveKit.Services;
 
+/// <inheritdoc cref="ILiveKitRoomService" />
 public sealed class LiveKitRoomService : TwirpClient, ILiveKitRoomService
 {
     private const string ServiceName = "RoomService";
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="LiveKitRoomService"/> class.
+    /// </summary>
     public LiveKitRoomService(HttpClient httpClient, ILogger<LiveKitRoomService> logger, ILiveKitTokenService _tokenService)
         : base(httpClient, logger, ServiceName, _tokenService)
     {
     }
 
+    /// <inheritdoc/>
     public async Task<Room> CreateRoomAsync(CreateRoomRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<Room>("CreateRoom", request.Name, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<ListRoomsResponse> ListRoomsAsync(ListRoomsRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<ListRoomsResponse>("ListRooms", null, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<DeleteRoomResponse> DeleteRoomAsync(DeleteRoomRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<DeleteRoomResponse>("DeleteRoom", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<ListParticipantsResponse> ListParticipantsAsync(ListParticipantsRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<ListParticipantsResponse>("ListParticipants", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<ParticipantInfo> GetParticipantAsync(RoomParticipantIdentity request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<ParticipantInfo>("GetParticipant", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<RemoveParticipantResponse> RemoveParticipantAsync(RoomParticipantIdentity request,
         CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<RemoveParticipantResponse>("RemoveParticipant", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<MuteRoomTrackResponse> MutePublishedTrackAsync(MuteRoomTrackRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<MuteRoomTrackResponse>("MutePublishedTrack", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<ParticipantInfo> UpdateParticipantAsync(UpdateParticipantRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<ParticipantInfo>("UpdateParticipant", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<UpdateSubscriptionsResponse> UpdateSubscriptionsAsync(UpdateSubscriptionsRequest request,
         CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<UpdateSubscriptionsResponse>("UpdateSubscriptions", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<SendDataResponse> SendDataAsync(SendDataRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<SendDataResponse>("SendData", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<Room> UpdateRoomMetadataAsync(UpdateRoomMetadataRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<Room>("UpdateRoomMetadata", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<ForwardParticipantResponse> ForwardParticipantAsync(ForwardParticipantRequest request,
         CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<ForwardParticipantResponse>("ForwardParticipant", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<MoveParticipantResponse> MoveParticipantAsync(MoveParticipantRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<MoveParticipantResponse>("MoveParticipant", request.Room, request, null, cancellationToken);
     }
 
+    /// <inheritdoc/>
     public async Task<PerformRpcResponse> PerformRpcAsync(PerformRpcRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<PerformRpcResponse>("PerformRpc", request.Room, request, null, cancellationToken);

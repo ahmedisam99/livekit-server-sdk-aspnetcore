@@ -5,7 +5,11 @@ using LiveKit.Proto;
 namespace LiveKit.Services;
 
 /// <summary>
-/// Room service for managing LiveKit rooms and participants.
+/// Service for managing LiveKit rooms and participants.
+/// <para>
+/// Provides methods for room creation, participant management, and room operations.
+/// See <see href="https://docs.livekit.io/reference/server/server-apis/#room-service">LiveKit Room Service Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitRoomService
 {

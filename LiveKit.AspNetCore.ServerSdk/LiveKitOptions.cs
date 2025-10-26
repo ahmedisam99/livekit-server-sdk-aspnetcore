@@ -4,6 +4,10 @@ namespace LiveKit;
 
 /// <summary>
 /// Configuration options for LiveKit services.
+/// <para>
+/// Contains settings for API authentication, server URL, and webhook validation.
+/// See <see href="https://docs.livekit.io/home/get-started/">LiveKit Documentation</see> for setup instructions.
+/// </para>
 /// </summary>
 public sealed class LiveKitOptions
 {

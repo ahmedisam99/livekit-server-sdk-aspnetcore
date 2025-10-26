@@ -5,7 +5,11 @@ using LiveKit.Proto;
 namespace LiveKit.Services;
 
 /// <summary>
-/// Cloud Agent service for managing LiveKit Cloud agents.
+/// Service for managing LiveKit Cloud agents.
+/// <para>
+/// Provides methods for deploying, managing, and monitoring AI agent deployments on LiveKit Cloud.
+/// See <see href="https://docs.livekit.io/reference/server/server-apis/#cloud-agent-service">Cloud Agent Service Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitCloudAgentService
 {

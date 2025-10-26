@@ -5,7 +5,11 @@ using LiveKit.Proto;
 namespace LiveKit.Services;
 
 /// <summary>
-/// Ingress service for managing media ingress (RTMP, WHIP, URL pull).
+/// Service for managing media ingress (RTMP, WHIP, URL pull).
+/// <para>
+/// Provides methods for creating and managing ingress endpoints for bringing external media into LiveKit rooms.
+/// See <see href="https://docs.livekit.io/home/ingress/overview/#api">LiveKit Ingress API Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitIngressService
 {

@@ -4,6 +4,10 @@ namespace LiveKit.Authentication;
 
 /// <summary>
 /// Service for creating LiveKit authentication tokens.
+/// <para>
+/// Provides methods for generating JWT tokens for participant authentication and server API access.
+/// See <see href="https://docs.livekit.io/home/get-started/authentication/">LiveKit Authentication Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitTokenService
 {

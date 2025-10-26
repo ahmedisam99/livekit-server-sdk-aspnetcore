@@ -11,6 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace LiveKit.Authentication;
 
+/// <inheritdoc/>
 public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
 {
     private string Identity { get; set; }
@@ -28,6 +29,12 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
     private readonly string _apiSecret;
     private readonly JsonSerializerOptions _jsonOptions;
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="LiveKitTokenBuilder"/> class.
+    /// </summary>
+    /// <param name="apiKey">The LiveKit API key.</param>
+    /// <param name="apiSecret">The LiveKit API secret.</param>
+    /// <param name="identity">The unique identity for the participant.</param>
     public LiveKitTokenBuilder(string apiKey, string apiSecret, string identity)
     {
         _apiKey = apiKey;
@@ -47,6 +54,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         };
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithParticipantName(string name)
     {
         Name = name;
@@ -54,6 +62,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithMetadata(string metadata)
     {
         Metadata = metadata;
@@ -61,6 +70,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithAttribute(string key, string value)
     {
         Attributes ??= new Dictionary<string, string>();
@@ -69,6 +79,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithAttributeIf(bool cond, string key, string value)
     {
         if (!cond)
@@ -82,6 +93,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithAttributes(IDictionary<string, string> attributes)
     {
         Attributes = attributes;
@@ -89,6 +101,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithKind(string kind)
     {
         Kind = kind;
@@ -96,6 +109,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithRoomPreset(string roomPreset)
     {
         RoomPreset = roomPreset;
@@ -103,6 +117,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithVideoGrant(Action<VideoGrant> configureVideoGrant)
     {
         var videoGrant = new VideoGrant();
@@ -112,6 +127,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithVideoGrant(VideoGrant videoGrant)
     {
         VideoGrant = videoGrant;
@@ -119,6 +135,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithSipGrant(Action<SipGrant> configureSipGrant)
     {
         var sipGrant = new SipGrant();
@@ -128,6 +145,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithSipGrant(SipGrant sipGrant)
     {
         SipGrant = sipGrant;
@@ -135,6 +153,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithRoomConfiguration(Action<RoomConfiguration> configureRoomConfiguration)
     {
         var roomConfiguration = new RoomConfiguration();
@@ -144,6 +163,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithRoomConfiguration(RoomConfiguration roomConfiguration)
     {
         RoomConfiguration = roomConfiguration;
@@ -151,6 +171,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithTimeToLive(TimeSpan ttl)
     {
         Ttl = ttl;
@@ -158,6 +179,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         return this;
     }
 
+    /// <inheritdoc/>
     public string ToJwt()
     {
         var now = DateTime.UtcNow;

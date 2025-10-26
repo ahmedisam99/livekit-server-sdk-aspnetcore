@@ -8,9 +8,7 @@ using LiveKit.Proto;
 
 namespace LiveKit.Services;
 
-/// <summary>
-/// Service for receiving and validating LiveKit webhook events.
-/// </summary>
+/// <inheritdoc/>
 public sealed class LiveKitWebhookReceiver : ILiveKitWebhookReceiver
 {
     private readonly ILiveKitTokenVerifier _tokenVerifier;

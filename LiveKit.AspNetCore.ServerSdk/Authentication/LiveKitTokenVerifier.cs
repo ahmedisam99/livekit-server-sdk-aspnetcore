@@ -8,9 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace LiveKit.Authentication;
 
-/// <summary>
-/// Service for verifying LiveKit JWT tokens.
-/// </summary>
+/// <inheritdoc/>
 public sealed class LiveKitTokenVerifier : ILiveKitTokenVerifier
 {
     private readonly LiveKitOptions _options;

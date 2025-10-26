@@ -5,7 +5,11 @@ using LiveKit.Proto;
 namespace LiveKit.Services;
 
 /// <summary>
-/// Egress service for recording and streaming rooms, participants, or tracks.
+/// Service for recording and streaming rooms, participants, or tracks.
+/// <para>
+/// Provides methods for starting and managing egress (recording/streaming) sessions.
+/// See <see href="https://docs.livekit.io/home/egress/api/">LiveKit Egress API Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitEgressService
 {

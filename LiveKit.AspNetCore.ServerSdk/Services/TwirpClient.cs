@@ -9,6 +9,13 @@ using Microsoft.Extensions.Logging;
 
 namespace LiveKit.Services;
 
+/// <summary>
+/// Base class for LiveKit Twirp client services.
+/// <para>
+/// Provides a common implementation for making authenticated HTTP requests to LiveKit's Twirp-based services.
+/// This class handles JSON serialization of protobuf messages and authentication token management.
+/// </para>
+/// </summary>
 public abstract class TwirpClient
 {
     private readonly HttpClient _httpClient;
@@ -19,6 +26,13 @@ public abstract class TwirpClient
     private readonly JsonFormatter _jsonFormatter;
     private readonly JsonParser _jsonParser;
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="TwirpClient"/> class.
+    /// </summary>
+    /// <param name="httpClient">The HTTP client for making requests.</param>
+    /// <param name="logger">The logger for diagnostic messages.</param>
+    /// <param name="serviceName">The name of the Twirp service.</param>
+    /// <param name="tokenService">The LiveKit token service for authentication.</param>
     protected TwirpClient(HttpClient httpClient, ILogger logger, string serviceName, ILiveKitTokenService tokenService)
     {
         _httpClient = httpClient;
@@ -30,6 +44,16 @@ public abstract class TwirpClient
         _jsonParser = new JsonParser(JsonParser.Settings.Default.WithIgnoreUnknownFields(true));
     }
 
+    /// <summary>
+    /// Makes an authenticated HTTP request to a LiveKit Twirp service.
+    /// </summary>
+    /// <typeparam name="TResponse">The protobuf message type for the response.</typeparam>
+    /// <param name="methodName">The name of the Twirp method to call.</param>
+    /// <param name="roomName">The name of the room (optional, for logging).</param>
+    /// <param name="requestBody">The request body as a protobuf message.</param>
+    /// <param name="token">Optional authentication token. If not provided, a server token will be used.</param>
+    /// <param name="cancellationToken">Cancellation token.</param>
+    /// <returns>The response as a protobuf message.</returns>
     protected async Task<TResponse> MakeRequestAsync<TResponse>(
         string methodName,
         string? roomName,

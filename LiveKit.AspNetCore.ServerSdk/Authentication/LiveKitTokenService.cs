@@ -3,10 +3,15 @@ using Microsoft.Extensions.Options;
 
 namespace LiveKit.Authentication;
 
+/// <inheritdoc/>
 public sealed class LiveKitTokenService : ILiveKitTokenService
 {
     private readonly LiveKitOptions _options;
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="LiveKitTokenService"/> class.
+    /// </summary>
+    /// <param name="options">The LiveKit configuration options.</param>
     public LiveKitTokenService(IOptions<LiveKitOptions> options)
     {
         _options = options.Value ?? throw new ArgumentNullException(nameof(options));
@@ -22,6 +27,7 @@ public sealed class LiveKitTokenService : ILiveKitTokenService
         }
     }
 
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder CreateTokenBuilder(string identity)
     {
         if (string.IsNullOrWhiteSpace(identity))
@@ -32,6 +38,7 @@ public sealed class LiveKitTokenService : ILiveKitTokenService
         return new LiveKitTokenBuilder(_options.ApiKey, _options.ApiSecret, identity);
     }
 
+    /// <inheritdoc/>
     public string CreateServerToken(string? roomName = null, TimeSpan? ttl = null)
     {
         return new LiveKitTokenBuilder(_options.ApiKey, _options.ApiSecret, "server")

@@ -5,7 +5,11 @@ using Livekit;
 namespace LiveKit.Services;
 
 /// <summary>
-/// Phone Number service for managing phone numbers for SIP integration.
+/// Service for managing phone numbers for SIP integration.
+/// <para>
+/// Provides methods for searching, purchasing, and managing phone numbers for SIP trunk configuration.
+/// See <see href="https://docs.livekit.io/reference/server/server-apis/#phone-number-service">Phone Number Service Documentation</see> for more information.
+/// </para>
 /// </summary>
 public interface ILiveKitPhoneNumberService
 {
