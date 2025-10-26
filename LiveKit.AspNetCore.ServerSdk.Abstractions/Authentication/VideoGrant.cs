@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using LiveKit.Proto;
 
 namespace LiveKit.Authentication;
 
@@ -53,8 +52,9 @@ public sealed class VideoGrant
     /// <summary>
     /// TrackSource types that the participant is allowed to publish.
     /// When set, it supersedes CanPublish. Only sources explicitly set here can be published.
+    /// <see cref="LiveKit.Proto.TrackSource"/>
     /// </summary>
-    public List<TrackSource>? CanPublishSources { get; set; }
+    public List<string>? CanPublishSources { get; set; }
 
     /// <summary>
     /// Allow participant to subscribe to other tracks.

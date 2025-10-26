@@ -31,6 +31,8 @@ public static class ServiceCollectionExtensions
 
         services.Configure(configure);
         services.AddTransient<ILiveKitTokenService, LiveKitTokenService>();
+        services.AddTransient<ILiveKitTokenVerifier, LiveKitTokenVerifier>();
+        services.AddTransient<ILiveKitWebhookReceiver, LiveKitWebhookReceiver>();
 
         RegisterHttpClient<ILiveKitRoomService, LiveKitRoomService>(services);
         RegisterHttpClient<ILiveKitEgressService, LiveKitEgressService>(services);

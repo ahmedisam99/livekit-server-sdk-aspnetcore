@@ -1,3 +1,5 @@
+using System;
+
 namespace LiveKit;
 
 /// <summary>
@@ -19,4 +21,10 @@ public sealed class LiveKitOptions
     /// Gets or sets the API secret for authentication.
     /// </summary>
     public string ApiSecret { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Gets or sets the clock tolerance for webhook JWT token validation.
+    /// Defaults to 10 seconds to account for clock skew between servers.
+    /// </summary>
+    public TimeSpan WebhookClockTolerance { get; set; } = TimeSpan.FromSeconds(10);
 }

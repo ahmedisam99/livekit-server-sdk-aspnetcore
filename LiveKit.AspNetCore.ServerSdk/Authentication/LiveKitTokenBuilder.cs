@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Google.Protobuf;
 using LiveKit.Proto;
 using Microsoft.IdentityModel.Tokens;
 
@@ -205,7 +206,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
 
         if (RoomConfiguration is not null)
         {
-            var roomConfigJson = JsonSerializer.Serialize(RoomConfiguration, _jsonOptions);
+            var roomConfigJson = JsonFormatter.Default.Format(RoomConfiguration);
             claims.Add(new Claim(LiveKitClaims.RoomConfig, roomConfigJson, JsonClaimValueTypes.Json));
         }
 

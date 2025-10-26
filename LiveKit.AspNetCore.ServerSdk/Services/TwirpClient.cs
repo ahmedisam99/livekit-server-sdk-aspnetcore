@@ -1,9 +1,7 @@
-using System;
+using Google.Protobuf;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 using LiveKit.Authentication;
@@ -11,16 +9,15 @@ using Microsoft.Extensions.Logging;
 
 namespace LiveKit.Services;
 
-/// <summary>
-/// Base class for Twirp protocol clients.
-/// </summary>
 public abstract class TwirpClient
 {
     private readonly HttpClient _httpClient;
     private readonly ILogger _logger;
     private readonly string _serviceName;
-    private readonly JsonSerializerOptions _jsonOptions;
     private readonly ILiveKitTokenService _tokenService;
+
+    private readonly JsonFormatter _jsonFormatter;
+    private readonly JsonParser _jsonParser;
 
     protected TwirpClient(HttpClient httpClient, ILogger logger, string serviceName, ILiveKitTokenService tokenService)
     {
@@ -29,25 +26,17 @@ public abstract class TwirpClient
         _serviceName = serviceName;
         _tokenService = tokenService;
 
-        _jsonOptions = new JsonSerializerOptions
-        {
-            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-            DictionaryKeyPolicy = JsonNamingPolicy.CamelCase,
-            WriteIndented = false,
-            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
-            Converters =
-            {
-                new JsonStringEnumConverter(JsonNamingPolicy.CamelCase)
-            }
-        };
+        _jsonFormatter = new JsonFormatter(JsonFormatter.Settings.Default);
+        _jsonParser = new JsonParser(JsonParser.Settings.Default.WithIgnoreUnknownFields(true));
     }
 
     protected async Task<TResponse> MakeRequestAsync<TResponse>(
         string methodName,
         string? roomName,
-        object? requestBody,
+        IMessage? requestBody,
         string? token,
         CancellationToken cancellationToken = default)
+        where TResponse : IMessage<TResponse>, new()
     {
         var authToken = token ?? _tokenService.CreateServerToken();
         var url = $"/twirp/livekit.{_serviceName}/{methodName}";
@@ -57,7 +46,7 @@ public abstract class TwirpClient
 
         if (requestBody != null)
         {
-            var json = JsonSerializer.Serialize(requestBody, _jsonOptions);
+            var json = _jsonFormatter.Format(requestBody);
             request.Content = new StringContent(json, Encoding.UTF8, "application/json");
         }
         else
@@ -81,10 +70,9 @@ public abstract class TwirpClient
 
         if (string.IsNullOrEmpty(responseContent) || responseContent == "{}")
         {
-            return default!;
+            return new TResponse();
         }
 
-        return JsonSerializer.Deserialize<TResponse>(responseContent, _jsonOptions) ??
-               throw new InvalidOperationException("Failed to deserialize response");
+        return _jsonParser.Parse<TResponse>(responseContent);
     }
 }
