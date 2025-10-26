@@ -62,7 +62,7 @@ public class TokenController : ControllerBase
     {
         var token = _tokenService
             .CreateTokenBuilder(identity)
-            .WithKind(ParticipantInfo.Types.Kind.Publisher)
+            .WithKind(ParticipantInfo.Types.Kind.Standard)
             .WithVideoGrant(video =>
             {
                 video.RoomJoin = true;
