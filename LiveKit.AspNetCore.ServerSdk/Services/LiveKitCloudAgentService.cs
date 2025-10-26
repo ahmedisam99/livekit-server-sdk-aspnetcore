@@ -23,68 +23,68 @@ public sealed class LiveKitCloudAgentService : TwirpClient, ILiveKitCloudAgentSe
     /// <inheritdoc/>
     public async Task<CreateAgentResponse> CreateAgentAsync(CreateAgentRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<CreateAgentResponse>("CreateAgent", null, request, null, cancellationToken);
+        return await MakeRequestAsync<CreateAgentResponse>("CreateAgent", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<ListAgentsResponse> ListAgentsAsync(ListAgentsRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ListAgentsResponse>("ListAgents", null, request, null, cancellationToken);
+        return await MakeRequestAsync<ListAgentsResponse>("ListAgents", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<ListAgentVersionsResponse> ListAgentVersionsAsync(ListAgentVersionsRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ListAgentVersionsResponse>("ListAgentVersions", null, request, null, cancellationToken);
+        return await MakeRequestAsync<ListAgentVersionsResponse>("ListAgentVersions", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<ListAgentSecretsResponse> ListAgentSecretsAsync(ListAgentSecretsRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ListAgentSecretsResponse>("ListAgentSecrets", null, request, null, cancellationToken);
+        return await MakeRequestAsync<ListAgentSecretsResponse>("ListAgentSecrets", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<UpdateAgentResponse> UpdateAgentAsync(UpdateAgentRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<UpdateAgentResponse>("UpdateAgent", null, request, null, cancellationToken);
+        return await MakeRequestAsync<UpdateAgentResponse>("UpdateAgent", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<RestartAgentResponse> RestartAgentAsync(RestartAgentRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<RestartAgentResponse>("RestartAgent", null, request, null, cancellationToken);
+        return await MakeRequestAsync<RestartAgentResponse>("RestartAgent", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<DeployAgentResponse> DeployAgentAsync(DeployAgentRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<DeployAgentResponse>("DeployAgent", null, request, null, cancellationToken);
+        return await MakeRequestAsync<DeployAgentResponse>("DeployAgent", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<UpdateAgentSecretsResponse> UpdateAgentSecretsAsync(UpdateAgentSecretsRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<UpdateAgentSecretsResponse>("UpdateAgentSecrets", null, request, null, cancellationToken);
+        return await MakeRequestAsync<UpdateAgentSecretsResponse>("UpdateAgentSecrets", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<RollbackAgentResponse> RollbackAgentAsync(RollbackAgentRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<RollbackAgentResponse>("RollbackAgent", null, request, null, cancellationToken);
+        return await MakeRequestAsync<RollbackAgentResponse>("RollbackAgent", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<DeleteAgentResponse> DeleteAgentAsync(DeleteAgentRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<DeleteAgentResponse>("DeleteAgent", null, request, null, cancellationToken);
+        return await MakeRequestAsync<DeleteAgentResponse>("DeleteAgent", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<ClientSettingsResponse> GetClientSettingsAsync(ClientSettingsRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ClientSettingsResponse>("GetClientSettings", null, request, null, cancellationToken);
+        return await MakeRequestAsync<ClientSettingsResponse>("GetClientSettings", null, request, cancellationToken);
     }
 }

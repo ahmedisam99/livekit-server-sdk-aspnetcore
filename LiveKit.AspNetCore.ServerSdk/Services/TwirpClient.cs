@@ -49,20 +49,18 @@ public abstract class TwirpClient
     /// </summary>
     /// <typeparam name="TResponse">The protobuf message type for the response.</typeparam>
     /// <param name="methodName">The name of the Twirp method to call.</param>
-    /// <param name="roomName">The name of the room (optional, for logging).</param>
+    /// <param name="roomName">The name of the room (optional, used to create server token).</param>
     /// <param name="requestBody">The request body as a protobuf message.</param>
-    /// <param name="token">Optional authentication token. If not provided, a server token will be used.</param>
     /// <param name="cancellationToken">Cancellation token.</param>
     /// <returns>The response as a protobuf message.</returns>
     protected async Task<TResponse> MakeRequestAsync<TResponse>(
         string methodName,
         string? roomName,
         IMessage? requestBody,
-        string? token,
         CancellationToken cancellationToken = default)
         where TResponse : IMessage<TResponse>, new()
     {
-        var authToken = token ?? _tokenService.CreateServerToken();
+        var authToken = _tokenService.CreateServerToken(roomName);
         var url = $"/twirp/livekit.{_serviceName}/{methodName}";
 
         var request = new HttpRequestMessage(HttpMethod.Post, url);
@@ -85,14 +83,14 @@ public abstract class TwirpClient
 
         if (!response.IsSuccessStatusCode)
         {
-            _logger.LogError("Request to '{Url}' failed with status {StatusCode}: {Content}", url, response.StatusCode, responseContent);
+            _logger.LogWarning("Request to '{Url}' failed with status {StatusCode}: {Content}", url, response.StatusCode, responseContent);
 
             throw new HttpRequestException($"Request to '{url}' failed with status {response.StatusCode}: {responseContent}");
         }
 
         _logger.LogDebug("Response received: {Content}", responseContent);
 
-        if (string.IsNullOrEmpty(responseContent) || responseContent == "{}")
+        if (string.IsNullOrWhiteSpace(responseContent) || responseContent == "{}")
         {
             return new TResponse();
         }

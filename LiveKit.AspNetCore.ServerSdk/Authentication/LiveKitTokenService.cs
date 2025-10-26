@@ -57,7 +57,12 @@ public sealed class LiveKitTokenService : ILiveKitTokenService
                 grant.CanPublishData = true;
                 grant.CanUpdateOwnMetadata = true;
             })
-            .WithTimeToLive(ttl ?? TimeSpan.FromHours(1))
+            .WithSipGrant(options =>
+            {
+                options.Admin = true;
+                options.Call = true;
+            })
+            .WithTimeToLive(ttl ?? TimeSpan.FromMinutes(5))
             .ToJwt();
     }
 }

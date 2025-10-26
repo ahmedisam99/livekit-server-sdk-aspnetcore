@@ -23,24 +23,24 @@ public sealed class LiveKitIngressService : TwirpClient, ILiveKitIngressService
     /// <inheritdoc/>
     public async Task<IngressInfo> CreateIngressAsync(CreateIngressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<IngressInfo>("CreateIngress", request.RoomName, request, null, cancellationToken);
+        return await MakeRequestAsync<IngressInfo>("CreateIngress", request.RoomName, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<IngressInfo> UpdateIngressAsync(UpdateIngressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<IngressInfo>("UpdateIngress", request.RoomName, request, null, cancellationToken);
+        return await MakeRequestAsync<IngressInfo>("UpdateIngress", request.RoomName, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<ListIngressResponse> ListIngressAsync(ListIngressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ListIngressResponse>("ListIngress", request.RoomName, request, null, cancellationToken);
+        return await MakeRequestAsync<ListIngressResponse>("ListIngress", request.RoomName, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<IngressInfo> DeleteIngressAsync(DeleteIngressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<IngressInfo>("DeleteIngress", null, request, null, cancellationToken);
+        return await MakeRequestAsync<IngressInfo>("DeleteIngress", null, request, cancellationToken);
     }
 }

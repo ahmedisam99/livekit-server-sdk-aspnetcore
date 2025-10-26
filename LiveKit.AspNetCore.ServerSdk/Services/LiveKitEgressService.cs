@@ -23,54 +23,54 @@ public sealed class LiveKitEgressService : TwirpClient, ILiveKitEgressService
     /// <inheritdoc/>
     public async Task<EgressInfo> StartRoomCompositeEgressAsync(RoomCompositeEgressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<EgressInfo>("StartRoomCompositeEgress", request.RoomName, request, null, cancellationToken);
+        return await MakeRequestAsync<EgressInfo>("StartRoomCompositeEgress", request.RoomName, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<EgressInfo> StartWebEgressAsync(WebEgressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<EgressInfo>("StartWebEgress", null, request, null, cancellationToken);
+        return await MakeRequestAsync<EgressInfo>("StartWebEgress", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<EgressInfo> StartParticipantEgressAsync(ParticipantEgressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<EgressInfo>("StartParticipantEgress", request.RoomName, request, null, cancellationToken);
+        return await MakeRequestAsync<EgressInfo>("StartParticipantEgress", request.RoomName, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<EgressInfo> StartTrackCompositeEgressAsync(TrackCompositeEgressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<EgressInfo>("StartTrackCompositeEgress", request.RoomName, request, null, cancellationToken);
+        return await MakeRequestAsync<EgressInfo>("StartTrackCompositeEgress", request.RoomName, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<EgressInfo> StartTrackEgressAsync(TrackEgressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<EgressInfo>("StartTrackEgress", request.RoomName, request, null, cancellationToken);
+        return await MakeRequestAsync<EgressInfo>("StartTrackEgress", request.RoomName, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<EgressInfo> UpdateLayoutAsync(UpdateLayoutRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<EgressInfo>("UpdateLayout", null, request, null, cancellationToken);
+        return await MakeRequestAsync<EgressInfo>("UpdateLayout", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<EgressInfo> UpdateStreamAsync(UpdateStreamRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<EgressInfo>("UpdateStream", null, request, null, cancellationToken);
+        return await MakeRequestAsync<EgressInfo>("UpdateStream", null, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<ListEgressResponse> ListEgressAsync(ListEgressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ListEgressResponse>("ListEgress", request.RoomName, request, null, cancellationToken);
+        return await MakeRequestAsync<ListEgressResponse>("ListEgress", request.RoomName, request, cancellationToken);
     }
 
     /// <inheritdoc/>
     public async Task<EgressInfo> StopEgressAsync(StopEgressRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<EgressInfo>("StopEgress", null, request, null, cancellationToken);
+        return await MakeRequestAsync<EgressInfo>("StopEgress", null, request, cancellationToken);
     }
 }
