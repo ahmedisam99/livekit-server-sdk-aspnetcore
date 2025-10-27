@@ -170,27 +170,27 @@ public class WebhookController : ControllerBase
 ## Available Services
 
 ### Room Service
-`ILiveKitRoomService` - Manage rooms and participants
+[`ILiveKitRoomService`](/api/LiveKit.Services.ILiveKitRoomService.html) - Manage rooms and participants
 
 ### Egress Service
-`ILiveKitEgressService` - Record and stream content
+[`ILiveKitEgressService`](/api/LiveKit.Services.ILiveKitEgressService.html) - Record and stream content
 
 ### Ingress Service
-`ILiveKitIngressService` - Create ingress endpoints for external media
+[`ILiveKitIngressService`](/api/LiveKit.Services.ILiveKitIngressService.html) - Create ingress endpoints for external media
 
 ### SIP Service
-`ILiveKitSipService` - Manage SIP trunks and dispatch rules
+[`ILiveKitSipService`](/api/LiveKit.Services.ILiveKitSipService.html) - Manage SIP trunks and dispatch rules
 
 ### Token Service
-`ILiveKitTokenService` - Generate JWT tokens for client authentication
+[`ILiveKitTokenService`](/api/LiveKit.Services.ILiveKitTokenService.html) - Generate JWT tokens for client authentication
 
 ### Webhook Receiver
-`ILiveKitWebhookReceiver` - Validate and parse webhook events
+[`ILiveKitWebhookReceiver`](/api/LiveKit.Services.ILiveKitWebhookReceiver.html) - Validate and parse webhook events
 
 ### Additional Services
-- `ILiveKitAgentDispatchService` - Deploy agents to rooms
-- `ILiveKitPhoneNumberService` - Manage phone numbers
-- `ILiveKitCloudAgentService` - Manage LiveKit Cloud agents
+- [`ILiveKitAgentDispatchService`](/api/LiveKit.Services.ILiveKitAgentDispatchService.html) - Deploy agents to rooms
+- [`ILiveKitPhoneNumberService`](/api/LiveKit.Services.ILiveKitPhoneNumberService.html) - Manage phone numbers
+- [`ILiveKitCloudAgentService`](/api/LiveKit.Services.ILiveKitCloudAgentService.html) - Manage LiveKit Cloud agents
 
 ## Documentation
 

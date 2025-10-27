@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace LiveKit.Proto {
+namespace Livekit {
 
   /// <summary>Holder for reflection information generated from livekit_phone_number.proto</summary>
   public static partial class LivekitPhoneNumberReflection {
@@ -85,20 +85,20 @@ namespace LiveKit.Proto {
             "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.PhoneNumberStatus), typeof(global::LiveKit.Proto.PhoneNumberType), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SearchPhoneNumbersRequest), global::LiveKit.Proto.SearchPhoneNumbersRequest.Parser, new[]{ "CountryCode", "AreaCode", "Limit", "PageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SearchPhoneNumbersResponse), global::LiveKit.Proto.SearchPhoneNumbersResponse.Parser, new[]{ "Items", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PurchasePhoneNumberRequest), global::LiveKit.Proto.PurchasePhoneNumberRequest.Parser, new[]{ "PhoneNumbers", "SipDispatchRuleId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PurchasePhoneNumberResponse), global::LiveKit.Proto.PurchasePhoneNumberResponse.Parser, new[]{ "PhoneNumbers" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListPhoneNumbersRequest), global::LiveKit.Proto.ListPhoneNumbersRequest.Parser, new[]{ "Limit", "Status", "PageToken", "SipDispatchRuleId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListPhoneNumbersResponse), global::LiveKit.Proto.ListPhoneNumbersResponse.Parser, new[]{ "Items", "NextPageToken", "TotalCount" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetPhoneNumberRequest), global::LiveKit.Proto.GetPhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetPhoneNumberResponse), global::LiveKit.Proto.GetPhoneNumberResponse.Parser, new[]{ "PhoneNumber" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdatePhoneNumberRequest), global::LiveKit.Proto.UpdatePhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdatePhoneNumberResponse), global::LiveKit.Proto.UpdatePhoneNumberResponse.Parser, new[]{ "PhoneNumber" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ReleasePhoneNumbersRequest), global::LiveKit.Proto.ReleasePhoneNumbersRequest.Parser, new[]{ "Ids", "PhoneNumbers" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ReleasePhoneNumbersResponse), global::LiveKit.Proto.ReleasePhoneNumbersResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PhoneNumber), global::LiveKit.Proto.PhoneNumber.Parser, new[]{ "Id", "E164Format", "CountryCode", "AreaCode", "NumberType", "Locality", "Region", "SpamScore", "CreatedAt", "UpdatedAt", "Capabilities", "Status", "AssignedAt", "ReleasedAt", "SipDispatchRuleId" }, null, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Livekit.PhoneNumberStatus), typeof(global::Livekit.PhoneNumberType), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.SearchPhoneNumbersRequest), global::Livekit.SearchPhoneNumbersRequest.Parser, new[]{ "CountryCode", "AreaCode", "Limit", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.SearchPhoneNumbersResponse), global::Livekit.SearchPhoneNumbersResponse.Parser, new[]{ "Items", "NextPageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.PurchasePhoneNumberRequest), global::Livekit.PurchasePhoneNumberRequest.Parser, new[]{ "PhoneNumbers", "SipDispatchRuleId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.PurchasePhoneNumberResponse), global::Livekit.PurchasePhoneNumberResponse.Parser, new[]{ "PhoneNumbers" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.ListPhoneNumbersRequest), global::Livekit.ListPhoneNumbersRequest.Parser, new[]{ "Limit", "Status", "PageToken", "SipDispatchRuleId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.ListPhoneNumbersResponse), global::Livekit.ListPhoneNumbersResponse.Parser, new[]{ "Items", "NextPageToken", "TotalCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.GetPhoneNumberRequest), global::Livekit.GetPhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.GetPhoneNumberResponse), global::Livekit.GetPhoneNumberResponse.Parser, new[]{ "PhoneNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.UpdatePhoneNumberRequest), global::Livekit.UpdatePhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.UpdatePhoneNumberResponse), global::Livekit.UpdatePhoneNumberResponse.Parser, new[]{ "PhoneNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.ReleasePhoneNumbersRequest), global::Livekit.ReleasePhoneNumbersRequest.Parser, new[]{ "Ids", "PhoneNumbers" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.ReleasePhoneNumbersResponse), global::Livekit.ReleasePhoneNumbersResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.PhoneNumber), global::Livekit.PhoneNumber.Parser, new[]{ "Id", "E164Format", "CountryCode", "AreaCode", "NumberType", "Locality", "Region", "SpamScore", "CreatedAt", "UpdatedAt", "Capabilities", "Status", "AssignedAt", "ReleasedAt", "SipDispatchRuleId" }, null, null, null, null)
           }));
     }
     #endregion
@@ -170,7 +170,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -503,7 +503,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -536,15 +536,15 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "items" field.</summary>
     public const int ItemsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::LiveKit.Proto.PhoneNumber> _repeated_items_codec
-        = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.PhoneNumber.Parser);
-    private readonly pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber> items_ = new pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber>();
+    private static readonly pb::FieldCodec<global::Livekit.PhoneNumber> _repeated_items_codec
+        = pb::FieldCodec.ForMessage(10, global::Livekit.PhoneNumber.Parser);
+    private readonly pbc::RepeatedField<global::Livekit.PhoneNumber> items_ = new pbc::RepeatedField<global::Livekit.PhoneNumber>();
     /// <summary>
     /// List of available phone numbers
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber> Items {
+    public pbc::RepeatedField<global::Livekit.PhoneNumber> Items {
       get { return items_; }
     }
 
@@ -745,7 +745,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -978,7 +978,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1010,15 +1010,15 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "phone_numbers" field.</summary>
     public const int PhoneNumbersFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::LiveKit.Proto.PhoneNumber> _repeated_phoneNumbers_codec
-        = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.PhoneNumber.Parser);
-    private readonly pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber> phoneNumbers_ = new pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber>();
+    private static readonly pb::FieldCodec<global::Livekit.PhoneNumber> _repeated_phoneNumbers_codec
+        = pb::FieldCodec.ForMessage(10, global::Livekit.PhoneNumber.Parser);
+    private readonly pbc::RepeatedField<global::Livekit.PhoneNumber> phoneNumbers_ = new pbc::RepeatedField<global::Livekit.PhoneNumber>();
     /// <summary>
     /// Details of the purchased phone numbers
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber> PhoneNumbers {
+    public pbc::RepeatedField<global::Livekit.PhoneNumber> PhoneNumbers {
       get { return phoneNumbers_; }
     }
 
@@ -1171,7 +1171,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1221,13 +1221,13 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 2;
-    private global::LiveKit.Proto.PhoneNumberStatus status_ = global::LiveKit.Proto.PhoneNumberStatus.Unspecified;
+    private global::Livekit.PhoneNumberStatus status_ = global::Livekit.PhoneNumberStatus.Unspecified;
     /// <summary>
     /// Optional: Filter by status (active, pending, released)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::LiveKit.Proto.PhoneNumberStatus Status {
+    public global::Livekit.PhoneNumberStatus Status {
       get { return status_; }
       set {
         status_ = value;
@@ -1291,7 +1291,7 @@ namespace LiveKit.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (Limit != 0) hash ^= Limit.GetHashCode();
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) hash ^= Status.GetHashCode();
+      if (Status != global::Livekit.PhoneNumberStatus.Unspecified) hash ^= Status.GetHashCode();
       if (pageToken_ != null) hash ^= PageToken.GetHashCode();
       if (SipDispatchRuleId.Length != 0) hash ^= SipDispatchRuleId.GetHashCode();
       if (_unknownFields != null) {
@@ -1342,7 +1342,7 @@ namespace LiveKit.Proto {
         output.WriteRawTag(8);
         output.WriteInt32(Limit);
       }
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
+      if (Status != global::Livekit.PhoneNumberStatus.Unspecified) {
         output.WriteRawTag(16);
         output.WriteEnum((int) Status);
       }
@@ -1367,7 +1367,7 @@ namespace LiveKit.Proto {
       if (Limit != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Limit);
       }
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
+      if (Status != global::Livekit.PhoneNumberStatus.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (pageToken_ != null) {
@@ -1391,7 +1391,7 @@ namespace LiveKit.Proto {
       if (other.Limit != 0) {
         Limit = other.Limit;
       }
-      if (other.Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
+      if (other.Status != global::Livekit.PhoneNumberStatus.Unspecified) {
         Status = other.Status;
       }
       if (other.pageToken_ != null) {
@@ -1465,7 +1465,7 @@ namespace LiveKit.Proto {
             break;
           }
           case 16: {
-            Status = (global::LiveKit.Proto.PhoneNumberStatus) input.ReadEnum();
+            Status = (global::Livekit.PhoneNumberStatus) input.ReadEnum();
             break;
           }
           case 26: {
@@ -1504,7 +1504,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1538,15 +1538,15 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "items" field.</summary>
     public const int ItemsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::LiveKit.Proto.PhoneNumber> _repeated_items_codec
-        = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.PhoneNumber.Parser);
-    private readonly pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber> items_ = new pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber>();
+    private static readonly pb::FieldCodec<global::Livekit.PhoneNumber> _repeated_items_codec
+        = pb::FieldCodec.ForMessage(10, global::Livekit.PhoneNumber.Parser);
+    private readonly pbc::RepeatedField<global::Livekit.PhoneNumber> items_ = new pbc::RepeatedField<global::Livekit.PhoneNumber>();
     /// <summary>
     /// List of phone numbers
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::LiveKit.Proto.PhoneNumber> Items {
+    public pbc::RepeatedField<global::Livekit.PhoneNumber> Items {
       get { return items_; }
     }
 
@@ -1786,7 +1786,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2030,7 +2030,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2062,13 +2062,13 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "phone_number" field.</summary>
     public const int PhoneNumberFieldNumber = 1;
-    private global::LiveKit.Proto.PhoneNumber phoneNumber_;
+    private global::Livekit.PhoneNumber phoneNumber_;
     /// <summary>
     /// The phone number details
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::LiveKit.Proto.PhoneNumber PhoneNumber {
+    public global::Livekit.PhoneNumber PhoneNumber {
       get { return phoneNumber_; }
       set {
         phoneNumber_ = value;
@@ -2162,7 +2162,7 @@ namespace LiveKit.Proto {
       }
       if (other.phoneNumber_ != null) {
         if (phoneNumber_ == null) {
-          PhoneNumber = new global::LiveKit.Proto.PhoneNumber();
+          PhoneNumber = new global::Livekit.PhoneNumber();
         }
         PhoneNumber.MergeFrom(other.PhoneNumber);
       }
@@ -2213,7 +2213,7 @@ namespace LiveKit.Proto {
             break;
           case 10: {
             if (phoneNumber_ == null) {
-              PhoneNumber = new global::LiveKit.Proto.PhoneNumber();
+              PhoneNumber = new global::Livekit.PhoneNumber();
             }
             input.ReadMessage(PhoneNumber);
             break;
@@ -2243,7 +2243,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2527,7 +2527,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2559,13 +2559,13 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "phone_number" field.</summary>
     public const int PhoneNumberFieldNumber = 1;
-    private global::LiveKit.Proto.PhoneNumber phoneNumber_;
+    private global::Livekit.PhoneNumber phoneNumber_;
     /// <summary>
     /// The updated phone number details
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::LiveKit.Proto.PhoneNumber PhoneNumber {
+    public global::Livekit.PhoneNumber PhoneNumber {
       get { return phoneNumber_; }
       set {
         phoneNumber_ = value;
@@ -2659,7 +2659,7 @@ namespace LiveKit.Proto {
       }
       if (other.phoneNumber_ != null) {
         if (phoneNumber_ == null) {
-          PhoneNumber = new global::LiveKit.Proto.PhoneNumber();
+          PhoneNumber = new global::Livekit.PhoneNumber();
         }
         PhoneNumber.MergeFrom(other.PhoneNumber);
       }
@@ -2710,7 +2710,7 @@ namespace LiveKit.Proto {
             break;
           case 10: {
             if (phoneNumber_ == null) {
-              PhoneNumber = new global::LiveKit.Proto.PhoneNumber();
+              PhoneNumber = new global::Livekit.PhoneNumber();
             }
             input.ReadMessage(PhoneNumber);
             break;
@@ -2740,7 +2740,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2962,7 +2962,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3126,7 +3126,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitPhoneNumberReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Livekit.LivekitPhoneNumberReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3232,13 +3232,13 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "number_type" field.</summary>
     public const int NumberTypeFieldNumber = 5;
-    private global::LiveKit.Proto.PhoneNumberType numberType_ = global::LiveKit.Proto.PhoneNumberType.Unknown;
+    private global::Livekit.PhoneNumberType numberType_ = global::Livekit.PhoneNumberType.Unknown;
     /// <summary>
     /// Number type (mobile, local, toll-free, unknown)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::LiveKit.Proto.PhoneNumberType NumberType {
+    public global::Livekit.PhoneNumberType NumberType {
       get { return numberType_; }
       set {
         numberType_ = value;
@@ -3336,13 +3336,13 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 12;
-    private global::LiveKit.Proto.PhoneNumberStatus status_ = global::LiveKit.Proto.PhoneNumberStatus.Unspecified;
+    private global::Livekit.PhoneNumberStatus status_ = global::Livekit.PhoneNumberStatus.Unspecified;
     /// <summary>
     /// Current status
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::LiveKit.Proto.PhoneNumberStatus Status {
+    public global::Livekit.PhoneNumberStatus Status {
       get { return status_; }
       set {
         status_ = value;
@@ -3435,14 +3435,14 @@ namespace LiveKit.Proto {
       if (E164Format.Length != 0) hash ^= E164Format.GetHashCode();
       if (CountryCode.Length != 0) hash ^= CountryCode.GetHashCode();
       if (AreaCode.Length != 0) hash ^= AreaCode.GetHashCode();
-      if (NumberType != global::LiveKit.Proto.PhoneNumberType.Unknown) hash ^= NumberType.GetHashCode();
+      if (NumberType != global::Livekit.PhoneNumberType.Unknown) hash ^= NumberType.GetHashCode();
       if (Locality.Length != 0) hash ^= Locality.GetHashCode();
       if (Region.Length != 0) hash ^= Region.GetHashCode();
       if (SpamScore != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(SpamScore);
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
       hash ^= capabilities_.GetHashCode();
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) hash ^= Status.GetHashCode();
+      if (Status != global::Livekit.PhoneNumberStatus.Unspecified) hash ^= Status.GetHashCode();
       if (assignedAt_ != null) hash ^= AssignedAt.GetHashCode();
       if (releasedAt_ != null) hash ^= ReleasedAt.GetHashCode();
       if (SipDispatchRuleId.Length != 0) hash ^= SipDispatchRuleId.GetHashCode();
@@ -3547,7 +3547,7 @@ namespace LiveKit.Proto {
         output.WriteRawTag(34);
         output.WriteString(AreaCode);
       }
-      if (NumberType != global::LiveKit.Proto.PhoneNumberType.Unknown) {
+      if (NumberType != global::Livekit.PhoneNumberType.Unknown) {
         output.WriteRawTag(40);
         output.WriteEnum((int) NumberType);
       }
@@ -3572,7 +3572,7 @@ namespace LiveKit.Proto {
         output.WriteMessage(UpdatedAt);
       }
       capabilities_.WriteTo(ref output, _repeated_capabilities_codec);
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
+      if (Status != global::Livekit.PhoneNumberStatus.Unspecified) {
         output.WriteRawTag(96);
         output.WriteEnum((int) Status);
       }
@@ -3610,7 +3610,7 @@ namespace LiveKit.Proto {
       if (AreaCode.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AreaCode);
       }
-      if (NumberType != global::LiveKit.Proto.PhoneNumberType.Unknown) {
+      if (NumberType != global::Livekit.PhoneNumberType.Unknown) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) NumberType);
       }
       if (Locality.Length != 0) {
@@ -3629,7 +3629,7 @@ namespace LiveKit.Proto {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(UpdatedAt);
       }
       size += capabilities_.CalculateSize(_repeated_capabilities_codec);
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
+      if (Status != global::Livekit.PhoneNumberStatus.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (assignedAt_ != null) {
@@ -3665,7 +3665,7 @@ namespace LiveKit.Proto {
       if (other.AreaCode.Length != 0) {
         AreaCode = other.AreaCode;
       }
-      if (other.NumberType != global::LiveKit.Proto.PhoneNumberType.Unknown) {
+      if (other.NumberType != global::Livekit.PhoneNumberType.Unknown) {
         NumberType = other.NumberType;
       }
       if (other.Locality.Length != 0) {
@@ -3690,7 +3690,7 @@ namespace LiveKit.Proto {
         UpdatedAt.MergeFrom(other.UpdatedAt);
       }
       capabilities_.Add(other.capabilities_);
-      if (other.Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
+      if (other.Status != global::Livekit.PhoneNumberStatus.Unspecified) {
         Status = other.Status;
       }
       if (other.assignedAt_ != null) {
@@ -3835,7 +3835,7 @@ namespace LiveKit.Proto {
             break;
           }
           case 40: {
-            NumberType = (global::LiveKit.Proto.PhoneNumberType) input.ReadEnum();
+            NumberType = (global::Livekit.PhoneNumberType) input.ReadEnum();
             break;
           }
           case 50: {
@@ -3869,7 +3869,7 @@ namespace LiveKit.Proto {
             break;
           }
           case 96: {
-            Status = (global::LiveKit.Proto.PhoneNumberStatus) input.ReadEnum();
+            Status = (global::Livekit.PhoneNumberStatus) input.ReadEnum();
             break;
           }
           case 106: {
