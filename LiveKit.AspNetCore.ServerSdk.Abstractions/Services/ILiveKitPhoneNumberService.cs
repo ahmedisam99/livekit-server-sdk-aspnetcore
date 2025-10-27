@@ -1,6 +1,6 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Livekit;
+using LiveKit.Proto;
 
 namespace LiveKit.Services;
 

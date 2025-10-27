@@ -1,7 +1,7 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Livekit;
+using LiveKit.Proto;
 using LiveKit.Authentication;
 using Microsoft.Extensions.Logging;
 
