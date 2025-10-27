@@ -1,0 +1,1009 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder
+  commentId: T:LiveKit.Authentication.ILiveKitTokenBuilder
+  id: ILiveKitTokenBuilder
+  parent: LiveKit.Authentication
+  children:
+  - LiveKit.Authentication.ILiveKitTokenBuilder.ToJwt
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute(System.String,System.String)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf(System.Boolean,System.String,System.String)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes(System.Collections.Generic.IDictionary{System.String,System.String})
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithKind(System.String)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata(System.String)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName(System.String)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(LiveKit.Proto.RoomConfiguration)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(System.Action{LiveKit.Proto.RoomConfiguration})
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset(System.String)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(LiveKit.Authentication.SipGrant)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(System.Action{LiveKit.Authentication.SipGrant})
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithTimeToLive(System.TimeSpan)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(LiveKit.Authentication.VideoGrant)
+  - LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(System.Action{LiveKit.Authentication.VideoGrant})
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitTokenBuilder
+  nameWithType: ILiveKitTokenBuilder
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitTokenBuilder
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 13
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: >-
+    Builder for creating LiveKit authentication tokens.
+
+    <p>
+
+    Provides a fluent API for constructing access tokens with video grants, SIP grants, and participant attributes.
+
+    See <a href="https://docs.livekit.io/home/get-started/authentication/">LiveKit Authentication Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitTokenBuilder
+    content.vb: Public Interface ILiveKitTokenBuilder
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName(System.String)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName(System.String)
+  id: WithParticipantName(System.String)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithParticipantName(string)
+  nameWithType: ILiveKitTokenBuilder.WithParticipantName(string)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName(string)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithParticipantName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 18
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets the participant name.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithParticipantName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithParticipantName(name As String) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName*
+  nameWithType.vb: ILiveKitTokenBuilder.WithParticipantName(String)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName(String)
+  name.vb: WithParticipantName(String)
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata(System.String)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata(System.String)
+  id: WithMetadata(System.String)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithMetadata(string)
+  nameWithType: ILiveKitTokenBuilder.WithMetadata(string)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata(string)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 23
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets the metadata for the participant.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithMetadata(string metadata)
+    parameters:
+    - id: metadata
+      type: System.String
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithMetadata(metadata As String) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata*
+  nameWithType.vb: ILiveKitTokenBuilder.WithMetadata(String)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata(String)
+  name.vb: WithMetadata(String)
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute(System.String,System.String)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute(System.String,System.String)
+  id: WithAttribute(System.String,System.String)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithAttribute(string, string)
+  nameWithType: ILiveKitTokenBuilder.WithAttribute(string, string)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute(string, string)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithAttribute
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 28
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Adds a single attribute.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithAttribute(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithAttribute(key As String, value As String) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute*
+  nameWithType.vb: ILiveKitTokenBuilder.WithAttribute(String, String)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute(String, String)
+  name.vb: WithAttribute(String, String)
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf(System.Boolean,System.String,System.String)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf(System.Boolean,System.String,System.String)
+  id: WithAttributeIf(System.Boolean,System.String,System.String)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithAttributeIf(bool, string, string)
+  nameWithType: ILiveKitTokenBuilder.WithAttributeIf(bool, string, string)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf(bool, string, string)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithAttributeIf
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 33
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Conditionally adds an attribute.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithAttributeIf(bool cond, string key, string value)
+    parameters:
+    - id: cond
+      type: System.Boolean
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithAttributeIf(cond As Boolean, key As String, value As String) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf*
+  nameWithType.vb: ILiveKitTokenBuilder.WithAttributeIf(Boolean, String, String)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf(Boolean, String, String)
+  name.vb: WithAttributeIf(Boolean, String, String)
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes(System.Collections.Generic.IDictionary{System.String,System.String})
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes(System.Collections.Generic.IDictionary{System.String,System.String})
+  id: WithAttributes(System.Collections.Generic.IDictionary{System.String,System.String})
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithAttributes(IDictionary<string, string>)
+  nameWithType: ILiveKitTokenBuilder.WithAttributes(IDictionary<string, string>)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes(System.Collections.Generic.IDictionary<string, string>)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithAttributes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 38
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets all attributes.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithAttributes(IDictionary<string, string> attributes)
+    parameters:
+    - id: attributes
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithAttributes(attributes As IDictionary(Of String, String)) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes*
+  nameWithType.vb: ILiveKitTokenBuilder.WithAttributes(IDictionary(Of String, String))
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes(System.Collections.Generic.IDictionary(Of String, String))
+  name.vb: WithAttributes(IDictionary(Of String, String))
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithKind(System.String)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithKind(System.String)
+  id: WithKind(System.String)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithKind(string)
+  nameWithType: ILiveKitTokenBuilder.WithKind(string)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithKind(string)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithKind
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 43
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets the participant kind.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithKind(string kind)
+    parameters:
+    - id: kind
+      type: System.String
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithKind(kind As String) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithKind*
+  nameWithType.vb: ILiveKitTokenBuilder.WithKind(String)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithKind(String)
+  name.vb: WithKind(String)
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset(System.String)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset(System.String)
+  id: WithRoomPreset(System.String)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithRoomPreset(string)
+  nameWithType: ILiveKitTokenBuilder.WithRoomPreset(string)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset(string)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithRoomPreset
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 48
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets the room preset.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithRoomPreset(string roomPreset)
+    parameters:
+    - id: roomPreset
+      type: System.String
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithRoomPreset(roomPreset As String) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset*
+  nameWithType.vb: ILiveKitTokenBuilder.WithRoomPreset(String)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset(String)
+  name.vb: WithRoomPreset(String)
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(System.Action{LiveKit.Authentication.VideoGrant})
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(System.Action{LiveKit.Authentication.VideoGrant})
+  id: WithVideoGrant(System.Action{LiveKit.Authentication.VideoGrant})
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithVideoGrant(Action<VideoGrant>)
+  nameWithType: ILiveKitTokenBuilder.WithVideoGrant(Action<VideoGrant>)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(System.Action<LiveKit.Authentication.VideoGrant>)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithVideoGrant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 53
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Configures video grant permissions.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithVideoGrant(Action<VideoGrant> configureVideoGrant)
+    parameters:
+    - id: configureVideoGrant
+      type: System.Action{LiveKit.Authentication.VideoGrant}
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithVideoGrant(configureVideoGrant As Action(Of VideoGrant)) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant*
+  nameWithType.vb: ILiveKitTokenBuilder.WithVideoGrant(Action(Of VideoGrant))
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(System.Action(Of LiveKit.Authentication.VideoGrant))
+  name.vb: WithVideoGrant(Action(Of VideoGrant))
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(LiveKit.Authentication.VideoGrant)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(LiveKit.Authentication.VideoGrant)
+  id: WithVideoGrant(LiveKit.Authentication.VideoGrant)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithVideoGrant(VideoGrant)
+  nameWithType: ILiveKitTokenBuilder.WithVideoGrant(VideoGrant)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant(LiveKit.Authentication.VideoGrant)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithVideoGrant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 58
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets video grant permissions.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithVideoGrant(VideoGrant videoGrant)
+    parameters:
+    - id: videoGrant
+      type: LiveKit.Authentication.VideoGrant
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithVideoGrant(videoGrant As VideoGrant) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant*
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(System.Action{LiveKit.Authentication.SipGrant})
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(System.Action{LiveKit.Authentication.SipGrant})
+  id: WithSipGrant(System.Action{LiveKit.Authentication.SipGrant})
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithSipGrant(Action<SipGrant>)
+  nameWithType: ILiveKitTokenBuilder.WithSipGrant(Action<SipGrant>)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(System.Action<LiveKit.Authentication.SipGrant>)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithSipGrant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 63
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Configures SIP grant permissions.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithSipGrant(Action<SipGrant> configureSipGrant)
+    parameters:
+    - id: configureSipGrant
+      type: System.Action{LiveKit.Authentication.SipGrant}
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithSipGrant(configureSipGrant As Action(Of SipGrant)) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant*
+  nameWithType.vb: ILiveKitTokenBuilder.WithSipGrant(Action(Of SipGrant))
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(System.Action(Of LiveKit.Authentication.SipGrant))
+  name.vb: WithSipGrant(Action(Of SipGrant))
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(LiveKit.Authentication.SipGrant)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(LiveKit.Authentication.SipGrant)
+  id: WithSipGrant(LiveKit.Authentication.SipGrant)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithSipGrant(SipGrant)
+  nameWithType: ILiveKitTokenBuilder.WithSipGrant(SipGrant)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant(LiveKit.Authentication.SipGrant)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithSipGrant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 68
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets SIP grant permissions.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithSipGrant(SipGrant sipGrant)
+    parameters:
+    - id: sipGrant
+      type: LiveKit.Authentication.SipGrant
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithSipGrant(sipGrant As SipGrant) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant*
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(System.Action{LiveKit.Proto.RoomConfiguration})
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(System.Action{LiveKit.Proto.RoomConfiguration})
+  id: WithRoomConfiguration(System.Action{LiveKit.Proto.RoomConfiguration})
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithRoomConfiguration(Action<RoomConfiguration>)
+  nameWithType: ILiveKitTokenBuilder.WithRoomConfiguration(Action<RoomConfiguration>)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(System.Action<LiveKit.Proto.RoomConfiguration>)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithRoomConfiguration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 73
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Configures room configuration.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithRoomConfiguration(Action<RoomConfiguration> configureRoomConfiguration)
+    parameters:
+    - id: configureRoomConfiguration
+      type: System.Action{LiveKit.Proto.RoomConfiguration}
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithRoomConfiguration(configureRoomConfiguration As Action(Of RoomConfiguration)) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration*
+  nameWithType.vb: ILiveKitTokenBuilder.WithRoomConfiguration(Action(Of RoomConfiguration))
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(System.Action(Of LiveKit.Proto.RoomConfiguration))
+  name.vb: WithRoomConfiguration(Action(Of RoomConfiguration))
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(LiveKit.Proto.RoomConfiguration)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(LiveKit.Proto.RoomConfiguration)
+  id: WithRoomConfiguration(LiveKit.Proto.RoomConfiguration)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithRoomConfiguration(RoomConfiguration)
+  nameWithType: ILiveKitTokenBuilder.WithRoomConfiguration(RoomConfiguration)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration(LiveKit.Proto.RoomConfiguration)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithRoomConfiguration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 78
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets room configuration.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithRoomConfiguration(RoomConfiguration roomConfiguration)
+    parameters:
+    - id: roomConfiguration
+      type: LiveKit.Proto.RoomConfiguration
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithRoomConfiguration(roomConfiguration As RoomConfiguration) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration*
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithTimeToLive(System.TimeSpan)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.WithTimeToLive(System.TimeSpan)
+  id: WithTimeToLive(System.TimeSpan)
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithTimeToLive(TimeSpan)
+  nameWithType: ILiveKitTokenBuilder.WithTimeToLive(TimeSpan)
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithTimeToLive(System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WithTimeToLive
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 83
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Sets the token time-to-live.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder WithTimeToLive(TimeSpan ttl)
+    parameters:
+    - id: ttl
+      type: System.TimeSpan
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function WithTimeToLive(ttl As TimeSpan) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.WithTimeToLive*
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.ToJwt
+  commentId: M:LiveKit.Authentication.ILiveKitTokenBuilder.ToJwt
+  id: ToJwt
+  parent: LiveKit.Authentication.ILiveKitTokenBuilder
+  langs:
+  - csharp
+  - vb
+  name: ToJwt()
+  nameWithType: ILiveKitTokenBuilder.ToJwt()
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.ToJwt()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToJwt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenBuilder.cs
+    startLine: 88
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Builds and returns the JWT token string.
+  example: []
+  syntax:
+    content: string ToJwt()
+    return:
+      type: System.String
+    content.vb: Function ToJwt() As String
+  overload: LiveKit.Authentication.ILiveKitTokenBuilder.ToJwt*
+references:
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithParticipantName_System_String_
+  name: WithParticipantName
+  nameWithType: ILiveKitTokenBuilder.WithParticipantName
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithParticipantName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder
+  commentId: T:LiveKit.Authentication.ILiveKitTokenBuilder
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html
+  name: ILiveKitTokenBuilder
+  nameWithType: ILiveKitTokenBuilder
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithMetadata_System_String_
+  name: WithMetadata
+  nameWithType: ILiveKitTokenBuilder.WithMetadata
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithMetadata
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithAttribute_System_String_System_String_
+  name: WithAttribute
+  nameWithType: ILiveKitTokenBuilder.WithAttribute
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttribute
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithAttributeIf_System_Boolean_System_String_System_String_
+  name: WithAttributeIf
+  nameWithType: ILiveKitTokenBuilder.WithAttributeIf
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributeIf
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithAttributes_System_Collections_Generic_IDictionary_System_String_System_String__
+  name: WithAttributes
+  nameWithType: ILiveKitTokenBuilder.WithAttributes
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithAttributes
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<string, string>
+  nameWithType: IDictionary<string, string>
+  fullName: System.Collections.Generic.IDictionary<string, string>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithKind*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithKind
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithKind_System_String_
+  name: WithKind
+  nameWithType: ILiveKitTokenBuilder.WithKind
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithKind
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithRoomPreset_System_String_
+  name: WithRoomPreset
+  nameWithType: ILiveKitTokenBuilder.WithRoomPreset
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomPreset
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithVideoGrant_System_Action_LiveKit_Authentication_VideoGrant__
+  name: WithVideoGrant
+  nameWithType: ILiveKitTokenBuilder.WithVideoGrant
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithVideoGrant
+- uid: System.Action{LiveKit.Authentication.VideoGrant}
+  commentId: T:System.Action{LiveKit.Authentication.VideoGrant}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<VideoGrant>
+  nameWithType: Action<VideoGrant>
+  fullName: System.Action<LiveKit.Authentication.VideoGrant>
+  nameWithType.vb: Action(Of VideoGrant)
+  fullName.vb: System.Action(Of LiveKit.Authentication.VideoGrant)
+  name.vb: Action(Of VideoGrant)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: LiveKit.Authentication.VideoGrant
+    name: VideoGrant
+    href: LiveKit.Authentication.VideoGrant.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Authentication.VideoGrant
+    name: VideoGrant
+    href: LiveKit.Authentication.VideoGrant.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Authentication.VideoGrant
+  commentId: T:LiveKit.Authentication.VideoGrant
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.VideoGrant.html
+  name: VideoGrant
+  nameWithType: VideoGrant
+  fullName: LiveKit.Authentication.VideoGrant
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithSipGrant_System_Action_LiveKit_Authentication_SipGrant__
+  name: WithSipGrant
+  nameWithType: ILiveKitTokenBuilder.WithSipGrant
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithSipGrant
+- uid: System.Action{LiveKit.Authentication.SipGrant}
+  commentId: T:System.Action{LiveKit.Authentication.SipGrant}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<SipGrant>
+  nameWithType: Action<SipGrant>
+  fullName: System.Action<LiveKit.Authentication.SipGrant>
+  nameWithType.vb: Action(Of SipGrant)
+  fullName.vb: System.Action(Of LiveKit.Authentication.SipGrant)
+  name.vb: Action(Of SipGrant)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: LiveKit.Authentication.SipGrant
+    name: SipGrant
+    href: LiveKit.Authentication.SipGrant.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Authentication.SipGrant
+    name: SipGrant
+    href: LiveKit.Authentication.SipGrant.html
+  - name: )
+- uid: LiveKit.Authentication.SipGrant
+  commentId: T:LiveKit.Authentication.SipGrant
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.SipGrant.html
+  name: SipGrant
+  nameWithType: SipGrant
+  fullName: LiveKit.Authentication.SipGrant
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithRoomConfiguration_System_Action_LiveKit_Proto_RoomConfiguration__
+  name: WithRoomConfiguration
+  nameWithType: ILiveKitTokenBuilder.WithRoomConfiguration
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithRoomConfiguration
+- uid: System.Action{LiveKit.Proto.RoomConfiguration}
+  commentId: T:System.Action{LiveKit.Proto.RoomConfiguration}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<RoomConfiguration>
+  nameWithType: Action<RoomConfiguration>
+  fullName: System.Action<LiveKit.Proto.RoomConfiguration>
+  nameWithType.vb: Action(Of RoomConfiguration)
+  fullName.vb: System.Action(Of LiveKit.Proto.RoomConfiguration)
+  name.vb: Action(Of RoomConfiguration)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: LiveKit.Proto.RoomConfiguration
+    name: RoomConfiguration
+    href: LiveKit.Proto.RoomConfiguration.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RoomConfiguration
+    name: RoomConfiguration
+    href: LiveKit.Proto.RoomConfiguration.html
+  - name: )
+- uid: LiveKit.Proto.RoomConfiguration
+  commentId: T:LiveKit.Proto.RoomConfiguration
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RoomConfiguration.html
+  name: RoomConfiguration
+  nameWithType: RoomConfiguration
+  fullName: LiveKit.Proto.RoomConfiguration
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.WithTimeToLive*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.WithTimeToLive
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_WithTimeToLive_System_TimeSpan_
+  name: WithTimeToLive
+  nameWithType: ILiveKitTokenBuilder.WithTimeToLive
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.WithTimeToLive
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder.ToJwt*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenBuilder.ToJwt
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html#LiveKit_Authentication_ILiveKitTokenBuilder_ToJwt
+  name: ToJwt
+  nameWithType: ILiveKitTokenBuilder.ToJwt
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder.ToJwt

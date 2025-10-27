@@ -1,0 +1,2498 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo
+  commentId: T:LiveKit.Proto.SIPOutboundTrunkInfo
+  id: SIPOutboundTrunkInfo
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SIPOutboundTrunkInfo.#ctor
+  - LiveKit.Proto.SIPOutboundTrunkInfo.#ctor(LiveKit.Proto.SIPOutboundTrunkInfo)
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Address
+  - LiveKit.Proto.SIPOutboundTrunkInfo.AddressFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeaders
+  - LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeadersFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.AuthPassword
+  - LiveKit.Proto.SIPOutboundTrunkInfo.AuthPasswordFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsername
+  - LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsernameFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.CalculateSize
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Clone
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Descriptor
+  - LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountry
+  - LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountryFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Equals(System.Object)
+  - LiveKit.Proto.SIPOutboundTrunkInfo.GetHashCode
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Headers
+  - LiveKit.Proto.SIPOutboundTrunkInfo.HeadersFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributes
+  - LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributesFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeaders
+  - LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeadersFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryption
+  - LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryptionFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Metadata
+  - LiveKit.Proto.SIPOutboundTrunkInfo.MetadataFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Name
+  - LiveKit.Proto.SIPOutboundTrunkInfo.NameFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Numbers
+  - LiveKit.Proto.SIPOutboundTrunkInfo.NumbersFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Parser
+  - LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkId
+  - LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkIdFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.ToString
+  - LiveKit.Proto.SIPOutboundTrunkInfo.Transport
+  - LiveKit.Proto.SIPOutboundTrunkInfo.TransportFieldNumber
+  - LiveKit.Proto.SIPOutboundTrunkInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SIPOutboundTrunkInfo
+  nameWithType: SIPOutboundTrunkInfo
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SIPOutboundTrunkInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4683
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SIPOutboundTrunkInfo : IMessage<SIPOutboundTrunkInfo>, IEquatable<SIPOutboundTrunkInfo>, IDeepCloneable<SIPOutboundTrunkInfo>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SIPOutboundTrunkInfo Implements IMessage(Of SIPOutboundTrunkInfo), IEquatable(Of SIPOutboundTrunkInfo), IDeepCloneable(Of SIPOutboundTrunkInfo), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}
+  - System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Parser
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.Parser
+  id: Parser
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SIPOutboundTrunkInfo.Parser
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4691
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SIPOutboundTrunkInfo> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SIPOutboundTrunkInfo}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SIPOutboundTrunkInfo)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Parser*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Descriptor
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SIPOutboundTrunkInfo.Descriptor
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4695
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Descriptor*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.#ctor
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: SIPOutboundTrunkInfo()
+  nameWithType: SIPOutboundTrunkInfo.SIPOutboundTrunkInfo()
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.SIPOutboundTrunkInfo()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4707
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPOutboundTrunkInfo()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.#ctor*
+  nameWithType.vb: SIPOutboundTrunkInfo.New()
+  fullName.vb: LiveKit.Proto.SIPOutboundTrunkInfo.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.#ctor(LiveKit.Proto.SIPOutboundTrunkInfo)
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.#ctor(LiveKit.Proto.SIPOutboundTrunkInfo)
+  id: '#ctor(LiveKit.Proto.SIPOutboundTrunkInfo)'
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: SIPOutboundTrunkInfo(SIPOutboundTrunkInfo)
+  nameWithType: SIPOutboundTrunkInfo.SIPOutboundTrunkInfo(SIPOutboundTrunkInfo)
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.SIPOutboundTrunkInfo(LiveKit.Proto.SIPOutboundTrunkInfo)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4715
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPOutboundTrunkInfo(SIPOutboundTrunkInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPOutboundTrunkInfo
+    content.vb: Public Sub New(other As SIPOutboundTrunkInfo)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.#ctor*
+  nameWithType.vb: SIPOutboundTrunkInfo.New(SIPOutboundTrunkInfo)
+  fullName.vb: LiveKit.Proto.SIPOutboundTrunkInfo.New(LiveKit.Proto.SIPOutboundTrunkInfo)
+  name.vb: New(SIPOutboundTrunkInfo)
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Clone
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.Clone
+  id: Clone
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SIPOutboundTrunkInfo.Clone()
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4735
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SIPOutboundTrunkInfo Clone()
+    return:
+      type: LiveKit.Proto.SIPOutboundTrunkInfo
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SIPOutboundTrunkInfo
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}.Clone
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkIdFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkIdFieldNumber
+  id: SipTrunkIdFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: SipTrunkIdFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.SipTrunkIdFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipTrunkIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4742
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sip_trunk_id" field.
+  example: []
+  syntax:
+    content: public const int SipTrunkIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const SipTrunkIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkId
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkId
+  id: SipTrunkId
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: SipTrunkId
+  nameWithType: SIPOutboundTrunkInfo.SipTrunkId
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipTrunkId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4744
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string SipTrunkId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SipTrunkId As String
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkId*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.NameFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.NameFieldNumber
+  id: NameFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.NameFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.NameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4754
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "name" field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Name
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.Name
+  id: Name
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SIPOutboundTrunkInfo.Name
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Name
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Name
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4759
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Human-readable name for the Trunk.
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Name*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.MetadataFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.MetadataFieldNumber
+  id: MetadataFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: MetadataFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.MetadataFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.MetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4769
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "metadata" field.
+  example: []
+  syntax:
+    content: public const int MetadataFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const MetadataFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Metadata
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.Metadata
+  id: Metadata
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: SIPOutboundTrunkInfo.Metadata
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Metadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Metadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4774
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: User-defined metadata for the Trunk.
+  example: []
+  syntax:
+    content: public string Metadata { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Metadata As String
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Metadata*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AddressFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.AddressFieldNumber
+  id: AddressFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: AddressFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.AddressFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AddressFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AddressFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4784
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "address" field.
+  example: []
+  syntax:
+    content: public const int AddressFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const AddressFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Address
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.Address
+  id: Address
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: SIPOutboundTrunkInfo.Address
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Address
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Address
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4790
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    Hostname or IP that SIP INVITE is sent too.
+
+    Note that this is not a SIP URI and should not contain the 'sip:' protocol prefix.
+  example: []
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Address*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountryFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountryFieldNumber
+  id: DestinationCountryFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: DestinationCountryFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.DestinationCountryFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountryFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationCountryFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4800
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "destination_country" field.
+  example: []
+  syntax:
+    content: public const int DestinationCountryFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const DestinationCountryFieldNumber As Integer = 14
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountry
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountry
+  id: DestinationCountry
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: DestinationCountry
+  nameWithType: SIPOutboundTrunkInfo.DestinationCountry
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountry
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationCountry
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4805
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: country where the call terminates as ISO 3166-1 alpha-2 (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). This will be used by the livekit infrastructure to route calls.
+  example: []
+  syntax:
+    content: public string DestinationCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DestinationCountry As String
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountry*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.TransportFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.TransportFieldNumber
+  id: TransportFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: TransportFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.TransportFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.TransportFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TransportFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4815
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "transport" field.
+  example: []
+  syntax:
+    content: public const int TransportFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const TransportFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Transport
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.Transport
+  id: Transport
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Transport
+  nameWithType: SIPOutboundTrunkInfo.Transport
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Transport
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Transport
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4820
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: SIP Transport used for outbound call.
+  example: []
+  syntax:
+    content: public SIPTransport Transport { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPTransport
+    content.vb: Public Property Transport As SIPTransport
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Transport*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.NumbersFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.NumbersFieldNumber
+  id: NumbersFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: NumbersFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.NumbersFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.NumbersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumbersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4830
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "numbers" field.
+  example: []
+  syntax:
+    content: public const int NumbersFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const NumbersFieldNumber As Integer = 6
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Numbers
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.Numbers
+  id: Numbers
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Numbers
+  nameWithType: SIPOutboundTrunkInfo.Numbers
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Numbers
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Numbers
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4837
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Numbers used to make the calls. Random one from this list will be selected.
+  example: []
+  syntax:
+    content: public RepeatedField<string> Numbers { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property Numbers As RepeatedField(Of String)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Numbers*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsernameFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsernameFieldNumber
+  id: AuthUsernameFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: AuthUsernameFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.AuthUsernameFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsernameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AuthUsernameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4844
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "auth_username" field.
+  example: []
+  syntax:
+    content: public const int AuthUsernameFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const AuthUsernameFieldNumber As Integer = 7
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsername
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsername
+  id: AuthUsername
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: AuthUsername
+  nameWithType: SIPOutboundTrunkInfo.AuthUsername
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsername
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AuthUsername
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4850
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    Username and password used to authenticate with SIP server.
+
+    May be empty to have no authentication.
+  example: []
+  syntax:
+    content: public string AuthUsername { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AuthUsername As String
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsername*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AuthPasswordFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.AuthPasswordFieldNumber
+  id: AuthPasswordFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: AuthPasswordFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.AuthPasswordFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AuthPasswordFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AuthPasswordFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4860
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "auth_password" field.
+  example: []
+  syntax:
+    content: public const int AuthPasswordFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const AuthPasswordFieldNumber As Integer = 8
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AuthPassword
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.AuthPassword
+  id: AuthPassword
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: AuthPassword
+  nameWithType: SIPOutboundTrunkInfo.AuthPassword
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AuthPassword
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AuthPassword
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4862
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AuthPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AuthPassword As String
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.AuthPassword*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.HeadersFieldNumber
+  id: HeadersFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: HeadersFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.HeadersFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HeadersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4872
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "headers" field.
+  example: []
+  syntax:
+    content: public const int HeadersFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const HeadersFieldNumber As Integer = 9
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Headers
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.Headers
+  id: Headers
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: SIPOutboundTrunkInfo.Headers
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Headers
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Headers
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4880
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    Include these SIP X-* headers in INVITE request.
+
+    These headers are sent as-is and may help identify this call as coming from LiveKit for the other SIP endpoint.
+  example: []
+  syntax:
+    content: public MapField<string, string> Headers { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property Headers As MapField(Of String, String)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Headers*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributesFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributesFieldNumber
+  id: HeadersToAttributesFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: HeadersToAttributesFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.HeadersToAttributesFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HeadersToAttributesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4887
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "headers_to_attributes" field.
+  example: []
+  syntax:
+    content: public const int HeadersToAttributesFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const HeadersToAttributesFieldNumber As Integer = 10
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributes
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributes
+  id: HeadersToAttributes
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: HeadersToAttributes
+  nameWithType: SIPOutboundTrunkInfo.HeadersToAttributes
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HeadersToAttributes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4895
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    Map SIP X-* headers from 200 OK to SIP participant attributes.
+
+    Keys are the names of X-* headers and values are the names of attributes they will be mapped to.
+  example: []
+  syntax:
+    content: public MapField<string, string> HeadersToAttributes { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property HeadersToAttributes As MapField(Of String, String)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributes*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeadersFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeadersFieldNumber
+  id: AttributesToHeadersFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: AttributesToHeadersFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.AttributesToHeadersFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeadersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AttributesToHeadersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4902
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "attributes_to_headers" field.
+  example: []
+  syntax:
+    content: public const int AttributesToHeadersFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const AttributesToHeadersFieldNumber As Integer = 11
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeaders
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeaders
+  id: AttributesToHeaders
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: AttributesToHeaders
+  nameWithType: SIPOutboundTrunkInfo.AttributesToHeaders
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeaders
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AttributesToHeaders
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4910
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    Map LiveKit attributes to SIP X-* headers when sending BYE or REFER requests.
+
+    Keys are the names of attributes and values are the names of X-* headers they will be mapped to.
+  example: []
+  syntax:
+    content: public MapField<string, string> AttributesToHeaders { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property AttributesToHeaders As MapField(Of String, String)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeaders*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeadersFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeadersFieldNumber
+  id: IncludeHeadersFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: IncludeHeadersFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.IncludeHeadersFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeadersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IncludeHeadersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4917
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "include_headers" field.
+  example: []
+  syntax:
+    content: public const int IncludeHeadersFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const IncludeHeadersFieldNumber As Integer = 12
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeaders
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeaders
+  id: IncludeHeaders
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: IncludeHeaders
+  nameWithType: SIPOutboundTrunkInfo.IncludeHeaders
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeaders
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IncludeHeaders
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4927
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    Map SIP headers from 200 OK to sip.h.* participant attributes automatically.
+
+
+    When the names of required headers is known, using headers_to_attributes is strongly recommended.
+
+
+    When mapping 200 OK headers to follow-up request headers with attributes_to_headers map,
+
+    lowercase header names should be used, for example: sip.h.x-custom-header.
+  example: []
+  syntax:
+    content: public SIPHeaderOptions IncludeHeaders { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPHeaderOptions
+    content.vb: Public Property IncludeHeaders As SIPHeaderOptions
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeaders*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryptionFieldNumber
+  commentId: F:LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryptionFieldNumber
+  id: MediaEncryptionFieldNumber
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: MediaEncryptionFieldNumber
+  nameWithType: SIPOutboundTrunkInfo.MediaEncryptionFieldNumber
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryptionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MediaEncryptionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4937
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "media_encryption" field.
+  example: []
+  syntax:
+    content: public const int MediaEncryptionFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const MediaEncryptionFieldNumber As Integer = 13
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryption
+  commentId: P:LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryption
+  id: MediaEncryption
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: MediaEncryption
+  nameWithType: SIPOutboundTrunkInfo.MediaEncryption
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryption
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MediaEncryption
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4939
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPMediaEncryption MediaEncryption { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPMediaEncryption
+    content.vb: Public Property MediaEncryption As SIPMediaEncryption
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryption*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SIPOutboundTrunkInfo.Equals(object)
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4948
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Equals*
+  nameWithType.vb: SIPOutboundTrunkInfo.Equals(Object)
+  fullName.vb: LiveKit.Proto.SIPOutboundTrunkInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  id: Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(SIPOutboundTrunkInfo)
+  nameWithType: SIPOutboundTrunkInfo.Equals(SIPOutboundTrunkInfo)
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4954
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SIPOutboundTrunkInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPOutboundTrunkInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SIPOutboundTrunkInfo) As Boolean
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.GetHashCode
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SIPOutboundTrunkInfo.GetHashCode()
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 4980
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.GetHashCode*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.ToString
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.ToString
+  id: ToString
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SIPOutboundTrunkInfo.ToString()
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 5004
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.ToString*
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SIPOutboundTrunkInfo.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 5010
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.CalculateSize
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SIPOutboundTrunkInfo.CalculateSize()
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 5120
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  id: MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SIPOutboundTrunkInfo)
+  nameWithType: SIPOutboundTrunkInfo.MergeFrom(SIPOutboundTrunkInfo)
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 5164
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SIPOutboundTrunkInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPOutboundTrunkInfo
+    content.vb: Public Sub MergeFrom(other As SIPOutboundTrunkInfo)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SIPOutboundTrunkInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SIPOutboundTrunkInfo.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 5207
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  name: IMessage<SIPOutboundTrunkInfo>
+  nameWithType: IMessage<SIPOutboundTrunkInfo>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SIPOutboundTrunkInfo>
+  nameWithType.vb: IMessage(Of SIPOutboundTrunkInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SIPOutboundTrunkInfo)
+  name.vb: IMessage(Of SIPOutboundTrunkInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}
+  commentId: T:System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SIPOutboundTrunkInfo>
+  nameWithType: IEquatable<SIPOutboundTrunkInfo>
+  fullName: System.IEquatable<LiveKit.Proto.SIPOutboundTrunkInfo>
+  nameWithType.vb: IEquatable(Of SIPOutboundTrunkInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SIPOutboundTrunkInfo)
+  name.vb: IEquatable(Of SIPOutboundTrunkInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  name: IDeepCloneable<SIPOutboundTrunkInfo>
+  nameWithType: IDeepCloneable<SIPOutboundTrunkInfo>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SIPOutboundTrunkInfo>
+  nameWithType.vb: IDeepCloneable(Of SIPOutboundTrunkInfo)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SIPOutboundTrunkInfo)
+  name.vb: IDeepCloneable(Of SIPOutboundTrunkInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Parser*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Parser
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Parser
+  name: Parser
+  nameWithType: SIPOutboundTrunkInfo.Parser
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SIPOutboundTrunkInfo}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SIPOutboundTrunkInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  name: MessageParser<SIPOutboundTrunkInfo>
+  nameWithType: MessageParser<SIPOutboundTrunkInfo>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SIPOutboundTrunkInfo>
+  nameWithType.vb: MessageParser(Of SIPOutboundTrunkInfo)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SIPOutboundTrunkInfo)
+  name.vb: MessageParser(Of SIPOutboundTrunkInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Descriptor*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Descriptor
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Descriptor
+  name: Descriptor
+  nameWithType: SIPOutboundTrunkInfo.Descriptor
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.#ctor*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.#ctor
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo__ctor
+  name: SIPOutboundTrunkInfo
+  nameWithType: SIPOutboundTrunkInfo.SIPOutboundTrunkInfo
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.SIPOutboundTrunkInfo
+  nameWithType.vb: SIPOutboundTrunkInfo.New
+  fullName.vb: LiveKit.Proto.SIPOutboundTrunkInfo.New
+  name.vb: New
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo
+  commentId: T:LiveKit.Proto.SIPOutboundTrunkInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  name: SIPOutboundTrunkInfo
+  nameWithType: SIPOutboundTrunkInfo
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Clone*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Clone
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Clone
+  name: Clone
+  nameWithType: SIPOutboundTrunkInfo.Clone
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SIPOutboundTrunkInfo>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SIPOutboundTrunkInfo>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SIPOutboundTrunkInfo).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SIPOutboundTrunkInfo).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPOutboundTrunkInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkId*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkId
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_SipTrunkId
+  name: SipTrunkId
+  nameWithType: SIPOutboundTrunkInfo.SipTrunkId
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.SipTrunkId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Name*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Name
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Name
+  name: Name
+  nameWithType: SIPOutboundTrunkInfo.Name
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Name
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Metadata*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Metadata
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Metadata
+  name: Metadata
+  nameWithType: SIPOutboundTrunkInfo.Metadata
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Metadata
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Address*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Address
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Address
+  name: Address
+  nameWithType: SIPOutboundTrunkInfo.Address
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Address
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountry*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountry
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_DestinationCountry
+  name: DestinationCountry
+  nameWithType: SIPOutboundTrunkInfo.DestinationCountry
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.DestinationCountry
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Transport*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Transport
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Transport
+  name: Transport
+  nameWithType: SIPOutboundTrunkInfo.Transport
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Transport
+- uid: LiveKit.Proto.SIPTransport
+  commentId: T:LiveKit.Proto.SIPTransport
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPTransport.html
+  name: SIPTransport
+  nameWithType: SIPTransport
+  fullName: LiveKit.Proto.SIPTransport
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Numbers*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Numbers
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Numbers
+  name: Numbers
+  nameWithType: SIPOutboundTrunkInfo.Numbers
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Numbers
+- uid: Google.Protobuf.Collections.RepeatedField{System.String}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RepeatedField<string>
+  nameWithType: RepeatedField<string>
+  fullName: Google.Protobuf.Collections.RepeatedField<string>
+  nameWithType.vb: RepeatedField(Of String)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of String)
+  name.vb: RepeatedField(Of String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsername*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsername
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_AuthUsername
+  name: AuthUsername
+  nameWithType: SIPOutboundTrunkInfo.AuthUsername
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AuthUsername
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AuthPassword*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.AuthPassword
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_AuthPassword
+  name: AuthPassword
+  nameWithType: SIPOutboundTrunkInfo.AuthPassword
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AuthPassword
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Headers*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Headers
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Headers
+  name: Headers
+  nameWithType: SIPOutboundTrunkInfo.Headers
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Headers
+- uid: Google.Protobuf.Collections.MapField{System.String,System.String}
+  commentId: T:Google.Protobuf.Collections.MapField{System.String,System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.MapField`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MapField<string, string>
+  nameWithType: MapField<string, string>
+  fullName: Google.Protobuf.Collections.MapField<string, string>
+  nameWithType.vb: MapField(Of String, String)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of String, String)
+  name.vb: MapField(Of String, String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.MapField`2
+  commentId: T:Google.Protobuf.Collections.MapField`2
+  isExternal: true
+  name: MapField<TKey, TValue>
+  nameWithType: MapField<TKey, TValue>
+  fullName: Google.Protobuf.Collections.MapField<TKey, TValue>
+  nameWithType.vb: MapField(Of TKey, TValue)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of TKey, TValue)
+  name.vb: MapField(Of TKey, TValue)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributes*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributes
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_HeadersToAttributes
+  name: HeadersToAttributes
+  nameWithType: SIPOutboundTrunkInfo.HeadersToAttributes
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.HeadersToAttributes
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeaders*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeaders
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_AttributesToHeaders
+  name: AttributesToHeaders
+  nameWithType: SIPOutboundTrunkInfo.AttributesToHeaders
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.AttributesToHeaders
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeaders*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeaders
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_IncludeHeaders
+  name: IncludeHeaders
+  nameWithType: SIPOutboundTrunkInfo.IncludeHeaders
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.IncludeHeaders
+- uid: LiveKit.Proto.SIPHeaderOptions
+  commentId: T:LiveKit.Proto.SIPHeaderOptions
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPHeaderOptions.html
+  name: SIPHeaderOptions
+  nameWithType: SIPHeaderOptions
+  fullName: LiveKit.Proto.SIPHeaderOptions
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryption*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryption
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_MediaEncryption
+  name: MediaEncryption
+  nameWithType: SIPOutboundTrunkInfo.MediaEncryption
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.MediaEncryption
+- uid: LiveKit.Proto.SIPMediaEncryption
+  commentId: T:LiveKit.Proto.SIPMediaEncryption
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPMediaEncryption.html
+  name: SIPMediaEncryption
+  nameWithType: SIPMediaEncryption
+  fullName: LiveKit.Proto.SIPMediaEncryption
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.Equals*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.Equals
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_Equals_System_Object_
+  name: Equals
+  nameWithType: SIPOutboundTrunkInfo.Equals
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  commentId: M:System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  parent: System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SIPOutboundTrunkInfo)
+  nameWithType: IEquatable<SIPOutboundTrunkInfo>.Equals(SIPOutboundTrunkInfo)
+  fullName: System.IEquatable<LiveKit.Proto.SIPOutboundTrunkInfo>.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  nameWithType.vb: IEquatable(Of SIPOutboundTrunkInfo).Equals(SIPOutboundTrunkInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SIPOutboundTrunkInfo).Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SIPOutboundTrunkInfo}.Equals(LiveKit.Proto.SIPOutboundTrunkInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.GetHashCode
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: SIPOutboundTrunkInfo.GetHashCode
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.ToString*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.ToString
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_ToString
+  name: ToString
+  nameWithType: SIPOutboundTrunkInfo.ToString
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.ToString
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.WriteTo*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.WriteTo
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SIPOutboundTrunkInfo.WriteTo
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.CalculateSize
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_CalculateSize
+  name: CalculateSize
+  nameWithType: SIPOutboundTrunkInfo.CalculateSize
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html#LiveKit_Proto_SIPOutboundTrunkInfo_MergeFrom_LiveKit_Proto_SIPOutboundTrunkInfo_
+  name: MergeFrom
+  nameWithType: SIPOutboundTrunkInfo.MergeFrom
+  fullName: LiveKit.Proto.SIPOutboundTrunkInfo.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  name: MergeFrom(SIPOutboundTrunkInfo)
+  nameWithType: IMessage<SIPOutboundTrunkInfo>.MergeFrom(SIPOutboundTrunkInfo)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SIPOutboundTrunkInfo>.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  nameWithType.vb: IMessage(Of SIPOutboundTrunkInfo).MergeFrom(SIPOutboundTrunkInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SIPOutboundTrunkInfo).MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPOutboundTrunkInfo}.MergeFrom(LiveKit.Proto.SIPOutboundTrunkInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

@@ -1,0 +1,3402 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SIPCallInfo
+  commentId: T:LiveKit.Proto.SIPCallInfo
+  id: SIPCallInfo
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SIPCallInfo.#ctor
+  - LiveKit.Proto.SIPCallInfo.#ctor(LiveKit.Proto.SIPCallInfo)
+  - LiveKit.Proto.SIPCallInfo.AudioCodec
+  - LiveKit.Proto.SIPCallInfo.AudioCodecFieldNumber
+  - LiveKit.Proto.SIPCallInfo.CalculateSize
+  - LiveKit.Proto.SIPCallInfo.CallContext
+  - LiveKit.Proto.SIPCallInfo.CallContextFieldNumber
+  - LiveKit.Proto.SIPCallInfo.CallDirection
+  - LiveKit.Proto.SIPCallInfo.CallDirectionFieldNumber
+  - LiveKit.Proto.SIPCallInfo.CallId
+  - LiveKit.Proto.SIPCallInfo.CallIdFieldNumber
+  - LiveKit.Proto.SIPCallInfo.CallStatus
+  - LiveKit.Proto.SIPCallInfo.CallStatusCode
+  - LiveKit.Proto.SIPCallInfo.CallStatusCodeFieldNumber
+  - LiveKit.Proto.SIPCallInfo.CallStatusFieldNumber
+  - LiveKit.Proto.SIPCallInfo.Clone
+  - LiveKit.Proto.SIPCallInfo.CreatedAt
+  - LiveKit.Proto.SIPCallInfo.CreatedAtFieldNumber
+  - LiveKit.Proto.SIPCallInfo.CreatedAtNs
+  - LiveKit.Proto.SIPCallInfo.CreatedAtNsFieldNumber
+  - LiveKit.Proto.SIPCallInfo.Descriptor
+  - LiveKit.Proto.SIPCallInfo.DisconnectReason
+  - LiveKit.Proto.SIPCallInfo.DisconnectReasonFieldNumber
+  - LiveKit.Proto.SIPCallInfo.DispatchRuleId
+  - LiveKit.Proto.SIPCallInfo.DispatchRuleIdFieldNumber
+  - LiveKit.Proto.SIPCallInfo.EnabledFeatures
+  - LiveKit.Proto.SIPCallInfo.EnabledFeaturesFieldNumber
+  - LiveKit.Proto.SIPCallInfo.EndedAt
+  - LiveKit.Proto.SIPCallInfo.EndedAtFieldNumber
+  - LiveKit.Proto.SIPCallInfo.EndedAtNs
+  - LiveKit.Proto.SIPCallInfo.EndedAtNsFieldNumber
+  - LiveKit.Proto.SIPCallInfo.Equals(LiveKit.Proto.SIPCallInfo)
+  - LiveKit.Proto.SIPCallInfo.Equals(System.Object)
+  - LiveKit.Proto.SIPCallInfo.Error
+  - LiveKit.Proto.SIPCallInfo.ErrorFieldNumber
+  - LiveKit.Proto.SIPCallInfo.FromUri
+  - LiveKit.Proto.SIPCallInfo.FromUriFieldNumber
+  - LiveKit.Proto.SIPCallInfo.GetHashCode
+  - LiveKit.Proto.SIPCallInfo.MediaEncryption
+  - LiveKit.Proto.SIPCallInfo.MediaEncryptionFieldNumber
+  - LiveKit.Proto.SIPCallInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SIPCallInfo.MergeFrom(LiveKit.Proto.SIPCallInfo)
+  - LiveKit.Proto.SIPCallInfo.Parser
+  - LiveKit.Proto.SIPCallInfo.ParticipantAttributes
+  - LiveKit.Proto.SIPCallInfo.ParticipantAttributesFieldNumber
+  - LiveKit.Proto.SIPCallInfo.ParticipantIdentity
+  - LiveKit.Proto.SIPCallInfo.ParticipantIdentityFieldNumber
+  - LiveKit.Proto.SIPCallInfo.PcapFileLink
+  - LiveKit.Proto.SIPCallInfo.PcapFileLinkFieldNumber
+  - LiveKit.Proto.SIPCallInfo.ProviderInfo
+  - LiveKit.Proto.SIPCallInfo.ProviderInfoFieldNumber
+  - LiveKit.Proto.SIPCallInfo.Region
+  - LiveKit.Proto.SIPCallInfo.RegionFieldNumber
+  - LiveKit.Proto.SIPCallInfo.RoomId
+  - LiveKit.Proto.SIPCallInfo.RoomIdFieldNumber
+  - LiveKit.Proto.SIPCallInfo.RoomName
+  - LiveKit.Proto.SIPCallInfo.RoomNameFieldNumber
+  - LiveKit.Proto.SIPCallInfo.StartedAt
+  - LiveKit.Proto.SIPCallInfo.StartedAtFieldNumber
+  - LiveKit.Proto.SIPCallInfo.StartedAtNs
+  - LiveKit.Proto.SIPCallInfo.StartedAtNsFieldNumber
+  - LiveKit.Proto.SIPCallInfo.ToString
+  - LiveKit.Proto.SIPCallInfo.ToUri
+  - LiveKit.Proto.SIPCallInfo.ToUriFieldNumber
+  - LiveKit.Proto.SIPCallInfo.TrunkId
+  - LiveKit.Proto.SIPCallInfo.TrunkIdFieldNumber
+  - LiveKit.Proto.SIPCallInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SIPCallInfo
+  nameWithType: SIPCallInfo
+  fullName: LiveKit.Proto.SIPCallInfo
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SIPCallInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14162
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SIPCallInfo : IMessage<SIPCallInfo>, IEquatable<SIPCallInfo>, IDeepCloneable<SIPCallInfo>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SIPCallInfo Implements IMessage(Of SIPCallInfo), IEquatable(Of SIPCallInfo), IDeepCloneable(Of SIPCallInfo), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}
+  - System.IEquatable{LiveKit.Proto.SIPCallInfo}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SIPCallInfo.Parser
+  commentId: P:LiveKit.Proto.SIPCallInfo.Parser
+  id: Parser
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SIPCallInfo.Parser
+  fullName: LiveKit.Proto.SIPCallInfo.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14170
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SIPCallInfo> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SIPCallInfo}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SIPCallInfo)
+  overload: LiveKit.Proto.SIPCallInfo.Parser*
+- uid: LiveKit.Proto.SIPCallInfo.Descriptor
+  commentId: P:LiveKit.Proto.SIPCallInfo.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SIPCallInfo.Descriptor
+  fullName: LiveKit.Proto.SIPCallInfo.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14174
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SIPCallInfo.Descriptor*
+- uid: LiveKit.Proto.SIPCallInfo.#ctor
+  commentId: M:LiveKit.Proto.SIPCallInfo.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: SIPCallInfo()
+  nameWithType: SIPCallInfo.SIPCallInfo()
+  fullName: LiveKit.Proto.SIPCallInfo.SIPCallInfo()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14186
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPCallInfo()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SIPCallInfo.#ctor*
+  nameWithType.vb: SIPCallInfo.New()
+  fullName.vb: LiveKit.Proto.SIPCallInfo.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SIPCallInfo.#ctor(LiveKit.Proto.SIPCallInfo)
+  commentId: M:LiveKit.Proto.SIPCallInfo.#ctor(LiveKit.Proto.SIPCallInfo)
+  id: '#ctor(LiveKit.Proto.SIPCallInfo)'
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: SIPCallInfo(SIPCallInfo)
+  nameWithType: SIPCallInfo.SIPCallInfo(SIPCallInfo)
+  fullName: LiveKit.Proto.SIPCallInfo.SIPCallInfo(LiveKit.Proto.SIPCallInfo)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14194
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPCallInfo(SIPCallInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPCallInfo
+    content.vb: Public Sub New(other As SIPCallInfo)
+  overload: LiveKit.Proto.SIPCallInfo.#ctor*
+  nameWithType.vb: SIPCallInfo.New(SIPCallInfo)
+  fullName.vb: LiveKit.Proto.SIPCallInfo.New(LiveKit.Proto.SIPCallInfo)
+  name.vb: New(SIPCallInfo)
+- uid: LiveKit.Proto.SIPCallInfo.Clone
+  commentId: M:LiveKit.Proto.SIPCallInfo.Clone
+  id: Clone
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SIPCallInfo.Clone()
+  fullName: LiveKit.Proto.SIPCallInfo.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14227
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SIPCallInfo Clone()
+    return:
+      type: LiveKit.Proto.SIPCallInfo
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SIPCallInfo
+  overload: LiveKit.Proto.SIPCallInfo.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}.Clone
+- uid: LiveKit.Proto.SIPCallInfo.CallIdFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.CallIdFieldNumber
+  id: CallIdFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallIdFieldNumber
+  nameWithType: SIPCallInfo.CallIdFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.CallIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14234
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "call_id" field.
+  example: []
+  syntax:
+    content: public const int CallIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const CallIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SIPCallInfo.CallId
+  commentId: P:LiveKit.Proto.SIPCallInfo.CallId
+  id: CallId
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallId
+  nameWithType: SIPCallInfo.CallId
+  fullName: LiveKit.Proto.SIPCallInfo.CallId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14236
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string CallId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CallId As String
+  overload: LiveKit.Proto.SIPCallInfo.CallId*
+- uid: LiveKit.Proto.SIPCallInfo.TrunkIdFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.TrunkIdFieldNumber
+  id: TrunkIdFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: TrunkIdFieldNumber
+  nameWithType: SIPCallInfo.TrunkIdFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.TrunkIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrunkIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14246
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "trunk_id" field.
+  example: []
+  syntax:
+    content: public const int TrunkIdFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const TrunkIdFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SIPCallInfo.TrunkId
+  commentId: P:LiveKit.Proto.SIPCallInfo.TrunkId
+  id: TrunkId
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: TrunkId
+  nameWithType: SIPCallInfo.TrunkId
+  fullName: LiveKit.Proto.SIPCallInfo.TrunkId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrunkId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14248
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string TrunkId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TrunkId As String
+  overload: LiveKit.Proto.SIPCallInfo.TrunkId*
+- uid: LiveKit.Proto.SIPCallInfo.DispatchRuleIdFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.DispatchRuleIdFieldNumber
+  id: DispatchRuleIdFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: DispatchRuleIdFieldNumber
+  nameWithType: SIPCallInfo.DispatchRuleIdFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.DispatchRuleIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DispatchRuleIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14258
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "dispatch_rule_id" field.
+  example: []
+  syntax:
+    content: public const int DispatchRuleIdFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const DispatchRuleIdFieldNumber As Integer = 16
+- uid: LiveKit.Proto.SIPCallInfo.DispatchRuleId
+  commentId: P:LiveKit.Proto.SIPCallInfo.DispatchRuleId
+  id: DispatchRuleId
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: DispatchRuleId
+  nameWithType: SIPCallInfo.DispatchRuleId
+  fullName: LiveKit.Proto.SIPCallInfo.DispatchRuleId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DispatchRuleId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14260
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string DispatchRuleId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DispatchRuleId As String
+  overload: LiveKit.Proto.SIPCallInfo.DispatchRuleId*
+- uid: LiveKit.Proto.SIPCallInfo.RegionFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.RegionFieldNumber
+  id: RegionFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: RegionFieldNumber
+  nameWithType: SIPCallInfo.RegionFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.RegionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RegionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14270
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "region" field.
+  example: []
+  syntax:
+    content: public const int RegionFieldNumber = 17
+    return:
+      type: System.Int32
+    content.vb: Public Const RegionFieldNumber As Integer = 17
+- uid: LiveKit.Proto.SIPCallInfo.Region
+  commentId: P:LiveKit.Proto.SIPCallInfo.Region
+  id: Region
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: Region
+  nameWithType: SIPCallInfo.Region
+  fullName: LiveKit.Proto.SIPCallInfo.Region
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Region
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14272
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Region { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Region As String
+  overload: LiveKit.Proto.SIPCallInfo.Region*
+- uid: LiveKit.Proto.SIPCallInfo.RoomNameFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.RoomNameFieldNumber
+  id: RoomNameFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomNameFieldNumber
+  nameWithType: SIPCallInfo.RoomNameFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.RoomNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14282
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_name" field.
+  example: []
+  syntax:
+    content: public const int RoomNameFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomNameFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SIPCallInfo.RoomName
+  commentId: P:LiveKit.Proto.SIPCallInfo.RoomName
+  id: RoomName
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomName
+  nameWithType: SIPCallInfo.RoomName
+  fullName: LiveKit.Proto.SIPCallInfo.RoomName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14284
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string RoomName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomName As String
+  overload: LiveKit.Proto.SIPCallInfo.RoomName*
+- uid: LiveKit.Proto.SIPCallInfo.RoomIdFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.RoomIdFieldNumber
+  id: RoomIdFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomIdFieldNumber
+  nameWithType: SIPCallInfo.RoomIdFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.RoomIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14294
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_id" field.
+  example: []
+  syntax:
+    content: public const int RoomIdFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomIdFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SIPCallInfo.RoomId
+  commentId: P:LiveKit.Proto.SIPCallInfo.RoomId
+  id: RoomId
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomId
+  nameWithType: SIPCallInfo.RoomId
+  fullName: LiveKit.Proto.SIPCallInfo.RoomId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14299
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: ID of the current/previous room published to
+  example: []
+  syntax:
+    content: public string RoomId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomId As String
+  overload: LiveKit.Proto.SIPCallInfo.RoomId*
+- uid: LiveKit.Proto.SIPCallInfo.ParticipantIdentityFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.ParticipantIdentityFieldNumber
+  id: ParticipantIdentityFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentityFieldNumber
+  nameWithType: SIPCallInfo.ParticipantIdentityFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.ParticipantIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14309
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_identity" field.
+  example: []
+  syntax:
+    content: public const int ParticipantIdentityFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantIdentityFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SIPCallInfo.ParticipantIdentity
+  commentId: P:LiveKit.Proto.SIPCallInfo.ParticipantIdentity
+  id: ParticipantIdentity
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentity
+  nameWithType: SIPCallInfo.ParticipantIdentity
+  fullName: LiveKit.Proto.SIPCallInfo.ParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14311
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ParticipantIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantIdentity As String
+  overload: LiveKit.Proto.SIPCallInfo.ParticipantIdentity*
+- uid: LiveKit.Proto.SIPCallInfo.ParticipantAttributesFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.ParticipantAttributesFieldNumber
+  id: ParticipantAttributesFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantAttributesFieldNumber
+  nameWithType: SIPCallInfo.ParticipantAttributesFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.ParticipantAttributesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantAttributesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14321
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_attributes" field.
+  example: []
+  syntax:
+    content: public const int ParticipantAttributesFieldNumber = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantAttributesFieldNumber As Integer = 18
+- uid: LiveKit.Proto.SIPCallInfo.ParticipantAttributes
+  commentId: P:LiveKit.Proto.SIPCallInfo.ParticipantAttributes
+  id: ParticipantAttributes
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantAttributes
+  nameWithType: SIPCallInfo.ParticipantAttributes
+  fullName: LiveKit.Proto.SIPCallInfo.ParticipantAttributes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantAttributes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14325
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public MapField<string, string> ParticipantAttributes { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property ParticipantAttributes As MapField(Of String, String)
+  overload: LiveKit.Proto.SIPCallInfo.ParticipantAttributes*
+- uid: LiveKit.Proto.SIPCallInfo.FromUriFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.FromUriFieldNumber
+  id: FromUriFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: FromUriFieldNumber
+  nameWithType: SIPCallInfo.FromUriFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.FromUriFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FromUriFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14332
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "from_uri" field.
+  example: []
+  syntax:
+    content: public const int FromUriFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const FromUriFieldNumber As Integer = 6
+- uid: LiveKit.Proto.SIPCallInfo.FromUri
+  commentId: P:LiveKit.Proto.SIPCallInfo.FromUri
+  id: FromUri
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: FromUri
+  nameWithType: SIPCallInfo.FromUri
+  fullName: LiveKit.Proto.SIPCallInfo.FromUri
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FromUri
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14334
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPUri FromUri { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPUri
+    content.vb: Public Property FromUri As SIPUri
+  overload: LiveKit.Proto.SIPCallInfo.FromUri*
+- uid: LiveKit.Proto.SIPCallInfo.ToUriFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.ToUriFieldNumber
+  id: ToUriFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ToUriFieldNumber
+  nameWithType: SIPCallInfo.ToUriFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.ToUriFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToUriFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14344
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "to_uri" field.
+  example: []
+  syntax:
+    content: public const int ToUriFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const ToUriFieldNumber As Integer = 7
+- uid: LiveKit.Proto.SIPCallInfo.ToUri
+  commentId: P:LiveKit.Proto.SIPCallInfo.ToUri
+  id: ToUri
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ToUri
+  nameWithType: SIPCallInfo.ToUri
+  fullName: LiveKit.Proto.SIPCallInfo.ToUri
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToUri
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14346
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPUri ToUri { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPUri
+    content.vb: Public Property ToUri As SIPUri
+  overload: LiveKit.Proto.SIPCallInfo.ToUri*
+- uid: LiveKit.Proto.SIPCallInfo.CreatedAtFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.CreatedAtFieldNumber
+  id: CreatedAtFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedAtFieldNumber
+  nameWithType: SIPCallInfo.CreatedAtFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.CreatedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreatedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14356
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "created_at" field.
+  example: []
+  syntax:
+    content: public const int CreatedAtFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const CreatedAtFieldNumber As Integer = 9
+- uid: LiveKit.Proto.SIPCallInfo.CreatedAt
+  commentId: P:LiveKit.Proto.SIPCallInfo.CreatedAt
+  id: CreatedAt
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: SIPCallInfo.CreatedAt
+  fullName: LiveKit.Proto.SIPCallInfo.CreatedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreatedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14358
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public long CreatedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <Obsolete>
+
+      Public Property CreatedAt As Long
+  overload: LiveKit.Proto.SIPCallInfo.CreatedAt*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.SIPCallInfo.StartedAtFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.StartedAtFieldNumber
+  id: StartedAtFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: StartedAtFieldNumber
+  nameWithType: SIPCallInfo.StartedAtFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.StartedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14369
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "started_at" field.
+  example: []
+  syntax:
+    content: public const int StartedAtFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const StartedAtFieldNumber As Integer = 10
+- uid: LiveKit.Proto.SIPCallInfo.StartedAt
+  commentId: P:LiveKit.Proto.SIPCallInfo.StartedAt
+  id: StartedAt
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: StartedAt
+  nameWithType: SIPCallInfo.StartedAt
+  fullName: LiveKit.Proto.SIPCallInfo.StartedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14371
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public long StartedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <Obsolete>
+
+      Public Property StartedAt As Long
+  overload: LiveKit.Proto.SIPCallInfo.StartedAt*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.SIPCallInfo.EndedAtFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.EndedAtFieldNumber
+  id: EndedAtFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: EndedAtFieldNumber
+  nameWithType: SIPCallInfo.EndedAtFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.EndedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14382
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ended_at" field.
+  example: []
+  syntax:
+    content: public const int EndedAtFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const EndedAtFieldNumber As Integer = 11
+- uid: LiveKit.Proto.SIPCallInfo.EndedAt
+  commentId: P:LiveKit.Proto.SIPCallInfo.EndedAt
+  id: EndedAt
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: EndedAt
+  nameWithType: SIPCallInfo.EndedAt
+  fullName: LiveKit.Proto.SIPCallInfo.EndedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14384
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public long EndedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: >-
+      <Obsolete>
+
+      Public Property EndedAt As Long
+  overload: LiveKit.Proto.SIPCallInfo.EndedAt*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.SIPCallInfo.EnabledFeaturesFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.EnabledFeaturesFieldNumber
+  id: EnabledFeaturesFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: EnabledFeaturesFieldNumber
+  nameWithType: SIPCallInfo.EnabledFeaturesFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.EnabledFeaturesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnabledFeaturesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14395
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "enabled_features" field.
+  example: []
+  syntax:
+    content: public const int EnabledFeaturesFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const EnabledFeaturesFieldNumber As Integer = 14
+- uid: LiveKit.Proto.SIPCallInfo.EnabledFeatures
+  commentId: P:LiveKit.Proto.SIPCallInfo.EnabledFeatures
+  id: EnabledFeatures
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: EnabledFeatures
+  nameWithType: SIPCallInfo.EnabledFeatures
+  fullName: LiveKit.Proto.SIPCallInfo.EnabledFeatures
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnabledFeatures
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14399
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<SIPFeature> EnabledFeatures { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SIPFeature}
+    content.vb: Public ReadOnly Property EnabledFeatures As RepeatedField(Of SIPFeature)
+  overload: LiveKit.Proto.SIPCallInfo.EnabledFeatures*
+- uid: LiveKit.Proto.SIPCallInfo.CallDirectionFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.CallDirectionFieldNumber
+  id: CallDirectionFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallDirectionFieldNumber
+  nameWithType: SIPCallInfo.CallDirectionFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.CallDirectionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallDirectionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14406
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "call_direction" field.
+  example: []
+  syntax:
+    content: public const int CallDirectionFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const CallDirectionFieldNumber As Integer = 15
+- uid: LiveKit.Proto.SIPCallInfo.CallDirection
+  commentId: P:LiveKit.Proto.SIPCallInfo.CallDirection
+  id: CallDirection
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallDirection
+  nameWithType: SIPCallInfo.CallDirection
+  fullName: LiveKit.Proto.SIPCallInfo.CallDirection
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallDirection
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14408
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPCallDirection CallDirection { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPCallDirection
+    content.vb: Public Property CallDirection As SIPCallDirection
+  overload: LiveKit.Proto.SIPCallInfo.CallDirection*
+- uid: LiveKit.Proto.SIPCallInfo.CallStatusFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.CallStatusFieldNumber
+  id: CallStatusFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallStatusFieldNumber
+  nameWithType: SIPCallInfo.CallStatusFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.CallStatusFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallStatusFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14418
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "call_status" field.
+  example: []
+  syntax:
+    content: public const int CallStatusFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const CallStatusFieldNumber As Integer = 8
+- uid: LiveKit.Proto.SIPCallInfo.CallStatus
+  commentId: P:LiveKit.Proto.SIPCallInfo.CallStatus
+  id: CallStatus
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallStatus
+  nameWithType: SIPCallInfo.CallStatus
+  fullName: LiveKit.Proto.SIPCallInfo.CallStatus
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallStatus
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14420
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPCallStatus CallStatus { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPCallStatus
+    content.vb: Public Property CallStatus As SIPCallStatus
+  overload: LiveKit.Proto.SIPCallInfo.CallStatus*
+- uid: LiveKit.Proto.SIPCallInfo.CreatedAtNsFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.CreatedAtNsFieldNumber
+  id: CreatedAtNsFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedAtNsFieldNumber
+  nameWithType: SIPCallInfo.CreatedAtNsFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.CreatedAtNsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreatedAtNsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14430
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "created_at_ns" field.
+  example: []
+  syntax:
+    content: public const int CreatedAtNsFieldNumber = 22
+    return:
+      type: System.Int32
+    content.vb: Public Const CreatedAtNsFieldNumber As Integer = 22
+- uid: LiveKit.Proto.SIPCallInfo.CreatedAtNs
+  commentId: P:LiveKit.Proto.SIPCallInfo.CreatedAtNs
+  id: CreatedAtNs
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedAtNs
+  nameWithType: SIPCallInfo.CreatedAtNs
+  fullName: LiveKit.Proto.SIPCallInfo.CreatedAtNs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreatedAtNs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14432
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long CreatedAtNs { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property CreatedAtNs As Long
+  overload: LiveKit.Proto.SIPCallInfo.CreatedAtNs*
+- uid: LiveKit.Proto.SIPCallInfo.StartedAtNsFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.StartedAtNsFieldNumber
+  id: StartedAtNsFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: StartedAtNsFieldNumber
+  nameWithType: SIPCallInfo.StartedAtNsFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.StartedAtNsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAtNsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14442
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "started_at_ns" field.
+  example: []
+  syntax:
+    content: public const int StartedAtNsFieldNumber = 23
+    return:
+      type: System.Int32
+    content.vb: Public Const StartedAtNsFieldNumber As Integer = 23
+- uid: LiveKit.Proto.SIPCallInfo.StartedAtNs
+  commentId: P:LiveKit.Proto.SIPCallInfo.StartedAtNs
+  id: StartedAtNs
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: StartedAtNs
+  nameWithType: SIPCallInfo.StartedAtNs
+  fullName: LiveKit.Proto.SIPCallInfo.StartedAtNs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAtNs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14444
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long StartedAtNs { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property StartedAtNs As Long
+  overload: LiveKit.Proto.SIPCallInfo.StartedAtNs*
+- uid: LiveKit.Proto.SIPCallInfo.EndedAtNsFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.EndedAtNsFieldNumber
+  id: EndedAtNsFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: EndedAtNsFieldNumber
+  nameWithType: SIPCallInfo.EndedAtNsFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.EndedAtNsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAtNsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14454
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ended_at_ns" field.
+  example: []
+  syntax:
+    content: public const int EndedAtNsFieldNumber = 24
+    return:
+      type: System.Int32
+    content.vb: Public Const EndedAtNsFieldNumber As Integer = 24
+- uid: LiveKit.Proto.SIPCallInfo.EndedAtNs
+  commentId: P:LiveKit.Proto.SIPCallInfo.EndedAtNs
+  id: EndedAtNs
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: EndedAtNs
+  nameWithType: SIPCallInfo.EndedAtNs
+  fullName: LiveKit.Proto.SIPCallInfo.EndedAtNs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAtNs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14456
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long EndedAtNs { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property EndedAtNs As Long
+  overload: LiveKit.Proto.SIPCallInfo.EndedAtNs*
+- uid: LiveKit.Proto.SIPCallInfo.DisconnectReasonFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.DisconnectReasonFieldNumber
+  id: DisconnectReasonFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReasonFieldNumber
+  nameWithType: SIPCallInfo.DisconnectReasonFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.DisconnectReasonFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectReasonFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14466
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "disconnect_reason" field.
+  example: []
+  syntax:
+    content: public const int DisconnectReasonFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const DisconnectReasonFieldNumber As Integer = 12
+- uid: LiveKit.Proto.SIPCallInfo.DisconnectReason
+  commentId: P:LiveKit.Proto.SIPCallInfo.DisconnectReason
+  id: DisconnectReason
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReason
+  nameWithType: SIPCallInfo.DisconnectReason
+  fullName: LiveKit.Proto.SIPCallInfo.DisconnectReason
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectReason
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14468
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DisconnectReason DisconnectReason { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: Public Property DisconnectReason As DisconnectReason
+  overload: LiveKit.Proto.SIPCallInfo.DisconnectReason*
+- uid: LiveKit.Proto.SIPCallInfo.ErrorFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.ErrorFieldNumber
+  id: ErrorFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorFieldNumber
+  nameWithType: SIPCallInfo.ErrorFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.ErrorFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ErrorFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14478
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "error" field.
+  example: []
+  syntax:
+    content: public const int ErrorFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const ErrorFieldNumber As Integer = 13
+- uid: LiveKit.Proto.SIPCallInfo.Error
+  commentId: P:LiveKit.Proto.SIPCallInfo.Error
+  id: Error
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: SIPCallInfo.Error
+  fullName: LiveKit.Proto.SIPCallInfo.Error
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Error
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14480
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Error { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property [Error] As String
+  overload: LiveKit.Proto.SIPCallInfo.Error*
+- uid: LiveKit.Proto.SIPCallInfo.CallStatusCodeFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.CallStatusCodeFieldNumber
+  id: CallStatusCodeFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallStatusCodeFieldNumber
+  nameWithType: SIPCallInfo.CallStatusCodeFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.CallStatusCodeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallStatusCodeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14490
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "call_status_code" field.
+  example: []
+  syntax:
+    content: public const int CallStatusCodeFieldNumber = 19
+    return:
+      type: System.Int32
+    content.vb: Public Const CallStatusCodeFieldNumber As Integer = 19
+- uid: LiveKit.Proto.SIPCallInfo.CallStatusCode
+  commentId: P:LiveKit.Proto.SIPCallInfo.CallStatusCode
+  id: CallStatusCode
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallStatusCode
+  nameWithType: SIPCallInfo.CallStatusCode
+  fullName: LiveKit.Proto.SIPCallInfo.CallStatusCode
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallStatusCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14492
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPStatus CallStatusCode { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPStatus
+    content.vb: Public Property CallStatusCode As SIPStatus
+  overload: LiveKit.Proto.SIPCallInfo.CallStatusCode*
+- uid: LiveKit.Proto.SIPCallInfo.AudioCodecFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.AudioCodecFieldNumber
+  id: AudioCodecFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: AudioCodecFieldNumber
+  nameWithType: SIPCallInfo.AudioCodecFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.AudioCodecFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioCodecFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14502
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "audio_codec" field.
+  example: []
+  syntax:
+    content: public const int AudioCodecFieldNumber = 20
+    return:
+      type: System.Int32
+    content.vb: Public Const AudioCodecFieldNumber As Integer = 20
+- uid: LiveKit.Proto.SIPCallInfo.AudioCodec
+  commentId: P:LiveKit.Proto.SIPCallInfo.AudioCodec
+  id: AudioCodec
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: AudioCodec
+  nameWithType: SIPCallInfo.AudioCodec
+  fullName: LiveKit.Proto.SIPCallInfo.AudioCodec
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioCodec
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14504
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AudioCodec { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AudioCodec As String
+  overload: LiveKit.Proto.SIPCallInfo.AudioCodec*
+- uid: LiveKit.Proto.SIPCallInfo.MediaEncryptionFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.MediaEncryptionFieldNumber
+  id: MediaEncryptionFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: MediaEncryptionFieldNumber
+  nameWithType: SIPCallInfo.MediaEncryptionFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.MediaEncryptionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MediaEncryptionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14514
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "media_encryption" field.
+  example: []
+  syntax:
+    content: public const int MediaEncryptionFieldNumber = 21
+    return:
+      type: System.Int32
+    content.vb: Public Const MediaEncryptionFieldNumber As Integer = 21
+- uid: LiveKit.Proto.SIPCallInfo.MediaEncryption
+  commentId: P:LiveKit.Proto.SIPCallInfo.MediaEncryption
+  id: MediaEncryption
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: MediaEncryption
+  nameWithType: SIPCallInfo.MediaEncryption
+  fullName: LiveKit.Proto.SIPCallInfo.MediaEncryption
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MediaEncryption
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14516
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string MediaEncryption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MediaEncryption As String
+  overload: LiveKit.Proto.SIPCallInfo.MediaEncryption*
+- uid: LiveKit.Proto.SIPCallInfo.PcapFileLinkFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.PcapFileLinkFieldNumber
+  id: PcapFileLinkFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: PcapFileLinkFieldNumber
+  nameWithType: SIPCallInfo.PcapFileLinkFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.PcapFileLinkFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PcapFileLinkFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14526
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "pcap_file_link" field.
+  example: []
+  syntax:
+    content: public const int PcapFileLinkFieldNumber = 25
+    return:
+      type: System.Int32
+    content.vb: Public Const PcapFileLinkFieldNumber As Integer = 25
+- uid: LiveKit.Proto.SIPCallInfo.PcapFileLink
+  commentId: P:LiveKit.Proto.SIPCallInfo.PcapFileLink
+  id: PcapFileLink
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: PcapFileLink
+  nameWithType: SIPCallInfo.PcapFileLink
+  fullName: LiveKit.Proto.SIPCallInfo.PcapFileLink
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PcapFileLink
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14528
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string PcapFileLink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PcapFileLink As String
+  overload: LiveKit.Proto.SIPCallInfo.PcapFileLink*
+- uid: LiveKit.Proto.SIPCallInfo.CallContextFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.CallContextFieldNumber
+  id: CallContextFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallContextFieldNumber
+  nameWithType: SIPCallInfo.CallContextFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.CallContextFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallContextFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14538
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "call_context" field.
+  example: []
+  syntax:
+    content: public const int CallContextFieldNumber = 26
+    return:
+      type: System.Int32
+    content.vb: Public Const CallContextFieldNumber As Integer = 26
+- uid: LiveKit.Proto.SIPCallInfo.CallContext
+  commentId: P:LiveKit.Proto.SIPCallInfo.CallContext
+  id: CallContext
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CallContext
+  nameWithType: SIPCallInfo.CallContext
+  fullName: LiveKit.Proto.SIPCallInfo.CallContext
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CallContext
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14542
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<Any> CallContext { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{Google.Protobuf.WellKnownTypes.Any}
+    content.vb: Public ReadOnly Property CallContext As RepeatedField(Of Any)
+  overload: LiveKit.Proto.SIPCallInfo.CallContext*
+- uid: LiveKit.Proto.SIPCallInfo.ProviderInfoFieldNumber
+  commentId: F:LiveKit.Proto.SIPCallInfo.ProviderInfoFieldNumber
+  id: ProviderInfoFieldNumber
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ProviderInfoFieldNumber
+  nameWithType: SIPCallInfo.ProviderInfoFieldNumber
+  fullName: LiveKit.Proto.SIPCallInfo.ProviderInfoFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ProviderInfoFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14549
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "provider_info" field.
+  example: []
+  syntax:
+    content: public const int ProviderInfoFieldNumber = 27
+    return:
+      type: System.Int32
+    content.vb: Public Const ProviderInfoFieldNumber As Integer = 27
+- uid: LiveKit.Proto.SIPCallInfo.ProviderInfo
+  commentId: P:LiveKit.Proto.SIPCallInfo.ProviderInfo
+  id: ProviderInfo
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ProviderInfo
+  nameWithType: SIPCallInfo.ProviderInfo
+  fullName: LiveKit.Proto.SIPCallInfo.ProviderInfo
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ProviderInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14551
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ProviderInfo ProviderInfo { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ProviderInfo
+    content.vb: Public Property ProviderInfo As ProviderInfo
+  overload: LiveKit.Proto.SIPCallInfo.ProviderInfo*
+- uid: LiveKit.Proto.SIPCallInfo.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SIPCallInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SIPCallInfo.Equals(object)
+  fullName: LiveKit.Proto.SIPCallInfo.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14560
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SIPCallInfo.Equals*
+  nameWithType.vb: SIPCallInfo.Equals(Object)
+  fullName.vb: LiveKit.Proto.SIPCallInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SIPCallInfo.Equals(LiveKit.Proto.SIPCallInfo)
+  commentId: M:LiveKit.Proto.SIPCallInfo.Equals(LiveKit.Proto.SIPCallInfo)
+  id: Equals(LiveKit.Proto.SIPCallInfo)
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(SIPCallInfo)
+  nameWithType: SIPCallInfo.Equals(SIPCallInfo)
+  fullName: LiveKit.Proto.SIPCallInfo.Equals(LiveKit.Proto.SIPCallInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14566
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SIPCallInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPCallInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SIPCallInfo) As Boolean
+  overload: LiveKit.Proto.SIPCallInfo.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SIPCallInfo}.Equals(LiveKit.Proto.SIPCallInfo)
+- uid: LiveKit.Proto.SIPCallInfo.GetHashCode
+  commentId: M:LiveKit.Proto.SIPCallInfo.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SIPCallInfo.GetHashCode()
+  fullName: LiveKit.Proto.SIPCallInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14605
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SIPCallInfo.GetHashCode*
+- uid: LiveKit.Proto.SIPCallInfo.ToString
+  commentId: M:LiveKit.Proto.SIPCallInfo.ToString
+  id: ToString
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SIPCallInfo.ToString()
+  fullName: LiveKit.Proto.SIPCallInfo.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14642
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SIPCallInfo.ToString*
+- uid: LiveKit.Proto.SIPCallInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SIPCallInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SIPCallInfo.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SIPCallInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14648
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SIPCallInfo.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SIPCallInfo.CalculateSize
+  commentId: M:LiveKit.Proto.SIPCallInfo.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SIPCallInfo.CalculateSize()
+  fullName: LiveKit.Proto.SIPCallInfo.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14868
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SIPCallInfo.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SIPCallInfo.MergeFrom(LiveKit.Proto.SIPCallInfo)
+  commentId: M:LiveKit.Proto.SIPCallInfo.MergeFrom(LiveKit.Proto.SIPCallInfo)
+  id: MergeFrom(LiveKit.Proto.SIPCallInfo)
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SIPCallInfo)
+  nameWithType: SIPCallInfo.MergeFrom(SIPCallInfo)
+  fullName: LiveKit.Proto.SIPCallInfo.MergeFrom(LiveKit.Proto.SIPCallInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 14953
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SIPCallInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPCallInfo
+    content.vb: Public Sub MergeFrom(other As SIPCallInfo)
+  overload: LiveKit.Proto.SIPCallInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}.MergeFrom(LiveKit.Proto.SIPCallInfo)
+- uid: LiveKit.Proto.SIPCallInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SIPCallInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SIPCallInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SIPCallInfo.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SIPCallInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15049
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SIPCallInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SIPCallInfo.html
+  name: IMessage<SIPCallInfo>
+  nameWithType: IMessage<SIPCallInfo>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SIPCallInfo>
+  nameWithType.vb: IMessage(Of SIPCallInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SIPCallInfo)
+  name.vb: IMessage(Of SIPCallInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SIPCallInfo}
+  commentId: T:System.IEquatable{LiveKit.Proto.SIPCallInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SIPCallInfo>
+  nameWithType: IEquatable<SIPCallInfo>
+  fullName: System.IEquatable<LiveKit.Proto.SIPCallInfo>
+  nameWithType.vb: IEquatable(Of SIPCallInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SIPCallInfo)
+  name.vb: IEquatable(Of SIPCallInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SIPCallInfo.html
+  name: IDeepCloneable<SIPCallInfo>
+  nameWithType: IDeepCloneable<SIPCallInfo>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SIPCallInfo>
+  nameWithType.vb: IDeepCloneable(Of SIPCallInfo)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SIPCallInfo)
+  name.vb: IDeepCloneable(Of SIPCallInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SIPCallInfo.Parser*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.Parser
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_Parser
+  name: Parser
+  nameWithType: SIPCallInfo.Parser
+  fullName: LiveKit.Proto.SIPCallInfo.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SIPCallInfo}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SIPCallInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SIPCallInfo.html
+  name: MessageParser<SIPCallInfo>
+  nameWithType: MessageParser<SIPCallInfo>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SIPCallInfo>
+  nameWithType.vb: MessageParser(Of SIPCallInfo)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SIPCallInfo)
+  name.vb: MessageParser(Of SIPCallInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SIPCallInfo.Descriptor*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.Descriptor
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_Descriptor
+  name: Descriptor
+  nameWithType: SIPCallInfo.Descriptor
+  fullName: LiveKit.Proto.SIPCallInfo.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SIPCallInfo.#ctor*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.#ctor
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo__ctor
+  name: SIPCallInfo
+  nameWithType: SIPCallInfo.SIPCallInfo
+  fullName: LiveKit.Proto.SIPCallInfo.SIPCallInfo
+  nameWithType.vb: SIPCallInfo.New
+  fullName.vb: LiveKit.Proto.SIPCallInfo.New
+  name.vb: New
+- uid: LiveKit.Proto.SIPCallInfo
+  commentId: T:LiveKit.Proto.SIPCallInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPCallInfo.html
+  name: SIPCallInfo
+  nameWithType: SIPCallInfo
+  fullName: LiveKit.Proto.SIPCallInfo
+- uid: LiveKit.Proto.SIPCallInfo.Clone*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.Clone
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_Clone
+  name: Clone
+  nameWithType: SIPCallInfo.Clone
+  fullName: LiveKit.Proto.SIPCallInfo.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SIPCallInfo>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SIPCallInfo>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SIPCallInfo).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SIPCallInfo).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPCallInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SIPCallInfo.CallId*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.CallId
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_CallId
+  name: CallId
+  nameWithType: SIPCallInfo.CallId
+  fullName: LiveKit.Proto.SIPCallInfo.CallId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SIPCallInfo.TrunkId*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.TrunkId
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_TrunkId
+  name: TrunkId
+  nameWithType: SIPCallInfo.TrunkId
+  fullName: LiveKit.Proto.SIPCallInfo.TrunkId
+- uid: LiveKit.Proto.SIPCallInfo.DispatchRuleId*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.DispatchRuleId
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_DispatchRuleId
+  name: DispatchRuleId
+  nameWithType: SIPCallInfo.DispatchRuleId
+  fullName: LiveKit.Proto.SIPCallInfo.DispatchRuleId
+- uid: LiveKit.Proto.SIPCallInfo.Region*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.Region
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_Region
+  name: Region
+  nameWithType: SIPCallInfo.Region
+  fullName: LiveKit.Proto.SIPCallInfo.Region
+- uid: LiveKit.Proto.SIPCallInfo.RoomName*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.RoomName
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_RoomName
+  name: RoomName
+  nameWithType: SIPCallInfo.RoomName
+  fullName: LiveKit.Proto.SIPCallInfo.RoomName
+- uid: LiveKit.Proto.SIPCallInfo.RoomId*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.RoomId
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_RoomId
+  name: RoomId
+  nameWithType: SIPCallInfo.RoomId
+  fullName: LiveKit.Proto.SIPCallInfo.RoomId
+- uid: LiveKit.Proto.SIPCallInfo.ParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.ParticipantIdentity
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_ParticipantIdentity
+  name: ParticipantIdentity
+  nameWithType: SIPCallInfo.ParticipantIdentity
+  fullName: LiveKit.Proto.SIPCallInfo.ParticipantIdentity
+- uid: LiveKit.Proto.SIPCallInfo.ParticipantAttributes*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.ParticipantAttributes
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_ParticipantAttributes
+  name: ParticipantAttributes
+  nameWithType: SIPCallInfo.ParticipantAttributes
+  fullName: LiveKit.Proto.SIPCallInfo.ParticipantAttributes
+- uid: Google.Protobuf.Collections.MapField{System.String,System.String}
+  commentId: T:Google.Protobuf.Collections.MapField{System.String,System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.MapField`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MapField<string, string>
+  nameWithType: MapField<string, string>
+  fullName: Google.Protobuf.Collections.MapField<string, string>
+  nameWithType.vb: MapField(Of String, String)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of String, String)
+  name.vb: MapField(Of String, String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.MapField`2
+  commentId: T:Google.Protobuf.Collections.MapField`2
+  isExternal: true
+  name: MapField<TKey, TValue>
+  nameWithType: MapField<TKey, TValue>
+  fullName: Google.Protobuf.Collections.MapField<TKey, TValue>
+  nameWithType.vb: MapField(Of TKey, TValue)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of TKey, TValue)
+  name.vb: MapField(Of TKey, TValue)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.SIPCallInfo.FromUri*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.FromUri
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_FromUri
+  name: FromUri
+  nameWithType: SIPCallInfo.FromUri
+  fullName: LiveKit.Proto.SIPCallInfo.FromUri
+- uid: LiveKit.Proto.SIPUri
+  commentId: T:LiveKit.Proto.SIPUri
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPUri.html
+  name: SIPUri
+  nameWithType: SIPUri
+  fullName: LiveKit.Proto.SIPUri
+- uid: LiveKit.Proto.SIPCallInfo.ToUri*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.ToUri
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_ToUri
+  name: ToUri
+  nameWithType: SIPCallInfo.ToUri
+  fullName: LiveKit.Proto.SIPCallInfo.ToUri
+- uid: LiveKit.Proto.SIPCallInfo.CreatedAt*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.CreatedAt
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_CreatedAt
+  name: CreatedAt
+  nameWithType: SIPCallInfo.CreatedAt
+  fullName: LiveKit.Proto.SIPCallInfo.CreatedAt
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.SIPCallInfo.StartedAt*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.StartedAt
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_StartedAt
+  name: StartedAt
+  nameWithType: SIPCallInfo.StartedAt
+  fullName: LiveKit.Proto.SIPCallInfo.StartedAt
+- uid: LiveKit.Proto.SIPCallInfo.EndedAt*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.EndedAt
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_EndedAt
+  name: EndedAt
+  nameWithType: SIPCallInfo.EndedAt
+  fullName: LiveKit.Proto.SIPCallInfo.EndedAt
+- uid: LiveKit.Proto.SIPCallInfo.EnabledFeatures*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.EnabledFeatures
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_EnabledFeatures
+  name: EnabledFeatures
+  nameWithType: SIPCallInfo.EnabledFeatures
+  fullName: LiveKit.Proto.SIPCallInfo.EnabledFeatures
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SIPFeature}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SIPFeature}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.SIPFeature.html
+  name: RepeatedField<SIPFeature>
+  nameWithType: RepeatedField<SIPFeature>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.SIPFeature>
+  nameWithType.vb: RepeatedField(Of SIPFeature)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.SIPFeature)
+  name.vb: RepeatedField(Of SIPFeature)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPFeature
+    name: SIPFeature
+    href: LiveKit.Proto.SIPFeature.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPFeature
+    name: SIPFeature
+    href: LiveKit.Proto.SIPFeature.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SIPCallInfo.CallDirection*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.CallDirection
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_CallDirection
+  name: CallDirection
+  nameWithType: SIPCallInfo.CallDirection
+  fullName: LiveKit.Proto.SIPCallInfo.CallDirection
+- uid: LiveKit.Proto.SIPCallDirection
+  commentId: T:LiveKit.Proto.SIPCallDirection
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPCallDirection.html
+  name: SIPCallDirection
+  nameWithType: SIPCallDirection
+  fullName: LiveKit.Proto.SIPCallDirection
+- uid: LiveKit.Proto.SIPCallInfo.CallStatus*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.CallStatus
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_CallStatus
+  name: CallStatus
+  nameWithType: SIPCallInfo.CallStatus
+  fullName: LiveKit.Proto.SIPCallInfo.CallStatus
+- uid: LiveKit.Proto.SIPCallStatus
+  commentId: T:LiveKit.Proto.SIPCallStatus
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPCallStatus.html
+  name: SIPCallStatus
+  nameWithType: SIPCallStatus
+  fullName: LiveKit.Proto.SIPCallStatus
+- uid: LiveKit.Proto.SIPCallInfo.CreatedAtNs*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.CreatedAtNs
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_CreatedAtNs
+  name: CreatedAtNs
+  nameWithType: SIPCallInfo.CreatedAtNs
+  fullName: LiveKit.Proto.SIPCallInfo.CreatedAtNs
+- uid: LiveKit.Proto.SIPCallInfo.StartedAtNs*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.StartedAtNs
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_StartedAtNs
+  name: StartedAtNs
+  nameWithType: SIPCallInfo.StartedAtNs
+  fullName: LiveKit.Proto.SIPCallInfo.StartedAtNs
+- uid: LiveKit.Proto.SIPCallInfo.EndedAtNs*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.EndedAtNs
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_EndedAtNs
+  name: EndedAtNs
+  nameWithType: SIPCallInfo.EndedAtNs
+  fullName: LiveKit.Proto.SIPCallInfo.EndedAtNs
+- uid: LiveKit.Proto.SIPCallInfo.DisconnectReason*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.DisconnectReason
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_DisconnectReason
+  name: DisconnectReason
+  nameWithType: SIPCallInfo.DisconnectReason
+  fullName: LiveKit.Proto.SIPCallInfo.DisconnectReason
+- uid: LiveKit.Proto.DisconnectReason
+  commentId: T:LiveKit.Proto.DisconnectReason
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DisconnectReason.html
+  name: DisconnectReason
+  nameWithType: DisconnectReason
+  fullName: LiveKit.Proto.DisconnectReason
+- uid: LiveKit.Proto.SIPCallInfo.Error*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.Error
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_Error
+  name: Error
+  nameWithType: SIPCallInfo.Error
+  fullName: LiveKit.Proto.SIPCallInfo.Error
+- uid: LiveKit.Proto.SIPCallInfo.CallStatusCode*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.CallStatusCode
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_CallStatusCode
+  name: CallStatusCode
+  nameWithType: SIPCallInfo.CallStatusCode
+  fullName: LiveKit.Proto.SIPCallInfo.CallStatusCode
+- uid: LiveKit.Proto.SIPStatus
+  commentId: T:LiveKit.Proto.SIPStatus
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPStatus.html
+  name: SIPStatus
+  nameWithType: SIPStatus
+  fullName: LiveKit.Proto.SIPStatus
+- uid: LiveKit.Proto.SIPCallInfo.AudioCodec*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.AudioCodec
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_AudioCodec
+  name: AudioCodec
+  nameWithType: SIPCallInfo.AudioCodec
+  fullName: LiveKit.Proto.SIPCallInfo.AudioCodec
+- uid: LiveKit.Proto.SIPCallInfo.MediaEncryption*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.MediaEncryption
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_MediaEncryption
+  name: MediaEncryption
+  nameWithType: SIPCallInfo.MediaEncryption
+  fullName: LiveKit.Proto.SIPCallInfo.MediaEncryption
+- uid: LiveKit.Proto.SIPCallInfo.PcapFileLink*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.PcapFileLink
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_PcapFileLink
+  name: PcapFileLink
+  nameWithType: SIPCallInfo.PcapFileLink
+  fullName: LiveKit.Proto.SIPCallInfo.PcapFileLink
+- uid: LiveKit.Proto.SIPCallInfo.CallContext*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.CallContext
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_CallContext
+  name: CallContext
+  nameWithType: SIPCallInfo.CallContext
+  fullName: LiveKit.Proto.SIPCallInfo.CallContext
+- uid: Google.Protobuf.Collections.RepeatedField{Google.Protobuf.WellKnownTypes.Any}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{Google.Protobuf.WellKnownTypes.Any}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  name: RepeatedField<Any>
+  nameWithType: RepeatedField<Any>
+  fullName: Google.Protobuf.Collections.RepeatedField<Google.Protobuf.WellKnownTypes.Any>
+  nameWithType.vb: RepeatedField(Of Any)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of Google.Protobuf.WellKnownTypes.Any)
+  name.vb: RepeatedField(Of Any)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: Google.Protobuf.WellKnownTypes.Any
+    name: Any
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Google.Protobuf.WellKnownTypes.Any
+    name: Any
+    isExternal: true
+  - name: )
+- uid: LiveKit.Proto.SIPCallInfo.ProviderInfo*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.ProviderInfo
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_ProviderInfo
+  name: ProviderInfo
+  nameWithType: SIPCallInfo.ProviderInfo
+  fullName: LiveKit.Proto.SIPCallInfo.ProviderInfo
+- uid: LiveKit.Proto.ProviderInfo
+  commentId: T:LiveKit.Proto.ProviderInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ProviderInfo.html
+  name: ProviderInfo
+  nameWithType: ProviderInfo
+  fullName: LiveKit.Proto.ProviderInfo
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SIPCallInfo.Equals*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.Equals
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_Equals_System_Object_
+  name: Equals
+  nameWithType: SIPCallInfo.Equals
+  fullName: LiveKit.Proto.SIPCallInfo.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.SIPCallInfo}.Equals(LiveKit.Proto.SIPCallInfo)
+  commentId: M:System.IEquatable{LiveKit.Proto.SIPCallInfo}.Equals(LiveKit.Proto.SIPCallInfo)
+  parent: System.IEquatable{LiveKit.Proto.SIPCallInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SIPCallInfo)
+  nameWithType: IEquatable<SIPCallInfo>.Equals(SIPCallInfo)
+  fullName: System.IEquatable<LiveKit.Proto.SIPCallInfo>.Equals(LiveKit.Proto.SIPCallInfo)
+  nameWithType.vb: IEquatable(Of SIPCallInfo).Equals(SIPCallInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SIPCallInfo).Equals(LiveKit.Proto.SIPCallInfo)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SIPCallInfo}.Equals(LiveKit.Proto.SIPCallInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SIPCallInfo}.Equals(LiveKit.Proto.SIPCallInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPCallInfo.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.GetHashCode
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: SIPCallInfo.GetHashCode
+  fullName: LiveKit.Proto.SIPCallInfo.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPCallInfo.ToString*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.ToString
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_ToString
+  name: ToString
+  nameWithType: SIPCallInfo.ToString
+  fullName: LiveKit.Proto.SIPCallInfo.ToString
+- uid: LiveKit.Proto.SIPCallInfo.WriteTo*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.WriteTo
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SIPCallInfo.WriteTo
+  fullName: LiveKit.Proto.SIPCallInfo.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SIPCallInfo.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.CalculateSize
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_CalculateSize
+  name: CalculateSize
+  nameWithType: SIPCallInfo.CalculateSize
+  fullName: LiveKit.Proto.SIPCallInfo.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPCallInfo.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SIPCallInfo.MergeFrom
+  href: LiveKit.Proto.SIPCallInfo.html#LiveKit_Proto_SIPCallInfo_MergeFrom_LiveKit_Proto_SIPCallInfo_
+  name: MergeFrom
+  nameWithType: SIPCallInfo.MergeFrom
+  fullName: LiveKit.Proto.SIPCallInfo.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}.MergeFrom(LiveKit.Proto.SIPCallInfo)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}.MergeFrom(LiveKit.Proto.SIPCallInfo)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SIPCallInfo.html
+  name: MergeFrom(SIPCallInfo)
+  nameWithType: IMessage<SIPCallInfo>.MergeFrom(SIPCallInfo)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SIPCallInfo>.MergeFrom(LiveKit.Proto.SIPCallInfo)
+  nameWithType.vb: IMessage(Of SIPCallInfo).MergeFrom(SIPCallInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SIPCallInfo).MergeFrom(LiveKit.Proto.SIPCallInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}.MergeFrom(LiveKit.Proto.SIPCallInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPCallInfo}.MergeFrom(LiveKit.Proto.SIPCallInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SIPCallInfo
+    name: SIPCallInfo
+    href: LiveKit.Proto.SIPCallInfo.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

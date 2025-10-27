@@ -1,0 +1,611 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Authentication.LiveKitClaims
+  commentId: T:LiveKit.Authentication.LiveKitClaims
+  id: LiveKitClaims
+  parent: LiveKit.Authentication
+  children:
+  - LiveKit.Authentication.LiveKitClaims.Attributes
+  - LiveKit.Authentication.LiveKitClaims.Identity
+  - LiveKit.Authentication.LiveKitClaims.Kind
+  - LiveKit.Authentication.LiveKitClaims.Metadata
+  - LiveKit.Authentication.LiveKitClaims.Name
+  - LiveKit.Authentication.LiveKitClaims.RoomConfig
+  - LiveKit.Authentication.LiveKitClaims.RoomPreset
+  - LiveKit.Authentication.LiveKitClaims.Sha256
+  - LiveKit.Authentication.LiveKitClaims.Sip
+  - LiveKit.Authentication.LiveKitClaims.Video
+  langs:
+  - csharp
+  - vb
+  name: LiveKitClaims
+  nameWithType: LiveKitClaims
+  fullName: LiveKit.Authentication.LiveKitClaims
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LiveKitClaims
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 7
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: Claim names used in LiveKit authentication tokens.
+  example: []
+  syntax:
+    content: public static class LiveKitClaims
+    content.vb: Public Module LiveKitClaims
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: LiveKit.Authentication.LiveKitClaims.Identity
+  commentId: F:LiveKit.Authentication.LiveKitClaims.Identity
+  id: Identity
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: LiveKitClaims.Identity
+  fullName: LiveKit.Authentication.LiveKitClaims.Identity
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Identity
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 12
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The identity claim (JWT standard "sub" claim).
+  example: []
+  syntax:
+    content: public const string Identity = "sub"
+    return:
+      type: System.String
+    content.vb: Public Const Identity As String = "sub"
+- uid: LiveKit.Authentication.LiveKitClaims.Name
+  commentId: F:LiveKit.Authentication.LiveKitClaims.Name
+  id: Name
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: LiveKitClaims.Name
+  fullName: LiveKit.Authentication.LiveKitClaims.Name
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Name
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 17
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The participant name claim.
+  example: []
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+- uid: LiveKit.Authentication.LiveKitClaims.Metadata
+  commentId: F:LiveKit.Authentication.LiveKitClaims.Metadata
+  id: Metadata
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: LiveKitClaims.Metadata
+  fullName: LiveKit.Authentication.LiveKitClaims.Metadata
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Metadata
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 22
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The metadata claim.
+  example: []
+  syntax:
+    content: public const string Metadata = "metadata"
+    return:
+      type: System.String
+    content.vb: Public Const Metadata As String = "metadata"
+- uid: LiveKit.Authentication.LiveKitClaims.Kind
+  commentId: F:LiveKit.Authentication.LiveKitClaims.Kind
+  id: Kind
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: LiveKitClaims.Kind
+  fullName: LiveKit.Authentication.LiveKitClaims.Kind
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Kind
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 27
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The participant kind claim.
+  example: []
+  syntax:
+    content: public const string Kind = "kind"
+    return:
+      type: System.String
+    content.vb: Public Const Kind As String = "kind"
+- uid: LiveKit.Authentication.LiveKitClaims.Attributes
+  commentId: F:LiveKit.Authentication.LiveKitClaims.Attributes
+  id: Attributes
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: LiveKitClaims.Attributes
+  fullName: LiveKit.Authentication.LiveKitClaims.Attributes
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Attributes
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 32
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The attributes claim.
+  example: []
+  syntax:
+    content: public const string Attributes = "attributes"
+    return:
+      type: System.String
+    content.vb: Public Const Attributes As String = "attributes"
+- uid: LiveKit.Authentication.LiveKitClaims.Video
+  commentId: F:LiveKit.Authentication.LiveKitClaims.Video
+  id: Video
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: LiveKitClaims.Video
+  fullName: LiveKit.Authentication.LiveKitClaims.Video
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Video
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 37
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The video grant claim.
+  example: []
+  syntax:
+    content: public const string Video = "video"
+    return:
+      type: System.String
+    content.vb: Public Const Video As String = "video"
+- uid: LiveKit.Authentication.LiveKitClaims.Sip
+  commentId: F:LiveKit.Authentication.LiveKitClaims.Sip
+  id: Sip
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: Sip
+  nameWithType: LiveKitClaims.Sip
+  fullName: LiveKit.Authentication.LiveKitClaims.Sip
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Sip
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 42
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The SIP grant claim.
+  example: []
+  syntax:
+    content: public const string Sip = "sip"
+    return:
+      type: System.String
+    content.vb: Public Const Sip As String = "sip"
+- uid: LiveKit.Authentication.LiveKitClaims.RoomConfig
+  commentId: F:LiveKit.Authentication.LiveKitClaims.RoomConfig
+  id: RoomConfig
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: RoomConfig
+  nameWithType: LiveKitClaims.RoomConfig
+  fullName: LiveKit.Authentication.LiveKitClaims.RoomConfig
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomConfig
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 47
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The room configuration claim.
+  example: []
+  syntax:
+    content: public const string RoomConfig = "roomConfig"
+    return:
+      type: System.String
+    content.vb: Public Const RoomConfig As String = "roomConfig"
+- uid: LiveKit.Authentication.LiveKitClaims.RoomPreset
+  commentId: F:LiveKit.Authentication.LiveKitClaims.RoomPreset
+  id: RoomPreset
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: RoomPreset
+  nameWithType: LiveKitClaims.RoomPreset
+  fullName: LiveKit.Authentication.LiveKitClaims.RoomPreset
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomPreset
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 52
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The room preset claim.
+  example: []
+  syntax:
+    content: public const string RoomPreset = "roomPreset"
+    return:
+      type: System.String
+    content.vb: Public Const RoomPreset As String = "roomPreset"
+- uid: LiveKit.Authentication.LiveKitClaims.Sha256
+  commentId: F:LiveKit.Authentication.LiveKitClaims.Sha256
+  id: Sha256
+  parent: LiveKit.Authentication.LiveKitClaims
+  langs:
+  - csharp
+  - vb
+  name: Sha256
+  nameWithType: LiveKitClaims.Sha256
+  fullName: LiveKit.Authentication.LiveKitClaims.Sha256
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Sha256
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitClaims.cs
+    startLine: 57
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: The SHA256 hash claim (used for webhook validation).
+  example: []
+  syntax:
+    content: public const string Sha256 = "sha256"
+    return:
+      type: System.String
+    content.vb: Public Const Sha256 As String = "sha256"
+references:
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

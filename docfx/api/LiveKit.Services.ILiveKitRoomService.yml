@@ -1,0 +1,1271 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.ILiveKitRoomService
+  commentId: T:LiveKit.Services.ILiveKitRoomService
+  id: ILiveKitRoomService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.ILiveKitRoomService.CreateRoomAsync(LiveKit.Proto.CreateRoomRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.DeleteRoomAsync(LiveKit.Proto.DeleteRoomRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.ForwardParticipantAsync(LiveKit.Proto.ForwardParticipantRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.GetParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.ListParticipantsAsync(LiveKit.Proto.ListParticipantsRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.ListRoomsAsync(LiveKit.Proto.ListRoomsRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.MoveParticipantAsync(LiveKit.Proto.MoveParticipantRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.MutePublishedTrackAsync(LiveKit.Proto.MuteRoomTrackRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.PerformRpcAsync(LiveKit.Proto.PerformRpcRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.RemoveParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.SendDataAsync(LiveKit.Proto.SendDataRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.UpdateParticipantAsync(LiveKit.Proto.UpdateParticipantRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.UpdateRoomMetadataAsync(LiveKit.Proto.UpdateRoomMetadataRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitRoomService.UpdateSubscriptionsAsync(LiveKit.Proto.UpdateSubscriptionsRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitRoomService
+  nameWithType: ILiveKitRoomService
+  fullName: LiveKit.Services.ILiveKitRoomService
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitRoomService
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 13
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Service for managing LiveKit rooms and participants.
+
+    <p>
+
+    Provides methods for room creation, participant management, and room operations.
+
+    See <a href="https://docs.livekit.io/reference/server/server-apis/#room-service">LiveKit Room Service Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitRoomService
+    content.vb: Public Interface ILiveKitRoomService
+- uid: LiveKit.Services.ILiveKitRoomService.CreateRoomAsync(LiveKit.Proto.CreateRoomRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.CreateRoomAsync(LiveKit.Proto.CreateRoomRequest,System.Threading.CancellationToken)
+  id: CreateRoomAsync(LiveKit.Proto.CreateRoomRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: CreateRoomAsync(CreateRoomRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.CreateRoomAsync(CreateRoomRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.CreateRoomAsync(LiveKit.Proto.CreateRoomRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateRoomAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 19
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Creates a room with settings. Requires `roomCreate` permission.
+
+    This method is optional; rooms are automatically created when clients connect to them for the first time.
+  example: []
+  syntax:
+    content: Task<Room> CreateRoomAsync(CreateRoomRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateRoomRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.Room}
+    content.vb: Function CreateRoomAsync(request As CreateRoomRequest, cancellationToken As CancellationToken = Nothing) As Task(Of Room)
+  overload: LiveKit.Services.ILiveKitRoomService.CreateRoomAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.ListRoomsAsync(LiveKit.Proto.ListRoomsRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.ListRoomsAsync(LiveKit.Proto.ListRoomsRequest,System.Threading.CancellationToken)
+  id: ListRoomsAsync(LiveKit.Proto.ListRoomsRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: ListRoomsAsync(ListRoomsRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.ListRoomsAsync(ListRoomsRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.ListRoomsAsync(LiveKit.Proto.ListRoomsRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListRoomsAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 24
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists rooms that are active on the server. Requires `roomList` permission.
+  example: []
+  syntax:
+    content: Task<ListRoomsResponse> ListRoomsAsync(ListRoomsRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListRoomsRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListRoomsResponse}
+    content.vb: Function ListRoomsAsync(request As ListRoomsRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListRoomsResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.ListRoomsAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.DeleteRoomAsync(LiveKit.Proto.DeleteRoomRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.DeleteRoomAsync(LiveKit.Proto.DeleteRoomRequest,System.Threading.CancellationToken)
+  id: DeleteRoomAsync(LiveKit.Proto.DeleteRoomRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: DeleteRoomAsync(DeleteRoomRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.DeleteRoomAsync(DeleteRoomRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.DeleteRoomAsync(LiveKit.Proto.DeleteRoomRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteRoomAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 30
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Deletes an existing room by name or id. Requires `roomCreate` permission.
+
+    DeleteRoom will disconnect all participants that are currently in the room.
+  example: []
+  syntax:
+    content: Task<DeleteRoomResponse> DeleteRoomAsync(DeleteRoomRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.DeleteRoomRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.DeleteRoomResponse}
+    content.vb: Function DeleteRoomAsync(request As DeleteRoomRequest, cancellationToken As CancellationToken = Nothing) As Task(Of DeleteRoomResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.DeleteRoomAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.ListParticipantsAsync(LiveKit.Proto.ListParticipantsRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.ListParticipantsAsync(LiveKit.Proto.ListParticipantsRequest,System.Threading.CancellationToken)
+  id: ListParticipantsAsync(LiveKit.Proto.ListParticipantsRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: ListParticipantsAsync(ListParticipantsRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.ListParticipantsAsync(ListParticipantsRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.ListParticipantsAsync(LiveKit.Proto.ListParticipantsRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListParticipantsAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 35
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists participants in a room. Requires `roomAdmin` permission.
+  example: []
+  syntax:
+    content: Task<ListParticipantsResponse> ListParticipantsAsync(ListParticipantsRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListParticipantsRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListParticipantsResponse}
+    content.vb: Function ListParticipantsAsync(request As ListParticipantsRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListParticipantsResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.ListParticipantsAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.GetParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.GetParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)
+  id: GetParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: GetParticipantAsync(RoomParticipantIdentity, CancellationToken)
+  nameWithType: ILiveKitRoomService.GetParticipantAsync(RoomParticipantIdentity, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.GetParticipantAsync(LiveKit.Proto.RoomParticipantIdentity, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetParticipantAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 40
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Gets information on a specific participant. Requires `roomAdmin` permission.
+  example: []
+  syntax:
+    content: Task<ParticipantInfo> GetParticipantAsync(RoomParticipantIdentity request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.RoomParticipantIdentity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ParticipantInfo}
+    content.vb: Function GetParticipantAsync(request As RoomParticipantIdentity, cancellationToken As CancellationToken = Nothing) As Task(Of ParticipantInfo)
+  overload: LiveKit.Services.ILiveKitRoomService.GetParticipantAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.RemoveParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.RemoveParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)
+  id: RemoveParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: RemoveParticipantAsync(RoomParticipantIdentity, CancellationToken)
+  nameWithType: ILiveKitRoomService.RemoveParticipantAsync(RoomParticipantIdentity, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.RemoveParticipantAsync(LiveKit.Proto.RoomParticipantIdentity, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RemoveParticipantAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 45
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Removes a participant from room. Requires `roomAdmin` permission.
+  example: []
+  syntax:
+    content: Task<RemoveParticipantResponse> RemoveParticipantAsync(RoomParticipantIdentity request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.RoomParticipantIdentity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.RemoveParticipantResponse}
+    content.vb: Function RemoveParticipantAsync(request As RoomParticipantIdentity, cancellationToken As CancellationToken = Nothing) As Task(Of RemoveParticipantResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.RemoveParticipantAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.MutePublishedTrackAsync(LiveKit.Proto.MuteRoomTrackRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.MutePublishedTrackAsync(LiveKit.Proto.MuteRoomTrackRequest,System.Threading.CancellationToken)
+  id: MutePublishedTrackAsync(LiveKit.Proto.MuteRoomTrackRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: MutePublishedTrackAsync(MuteRoomTrackRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.MutePublishedTrackAsync(MuteRoomTrackRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.MutePublishedTrackAsync(LiveKit.Proto.MuteRoomTrackRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MutePublishedTrackAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 50
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Mutes or unmutes a participant's track. Requires `roomAdmin` permission.
+  example: []
+  syntax:
+    content: Task<MuteRoomTrackResponse> MutePublishedTrackAsync(MuteRoomTrackRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.MuteRoomTrackRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.MuteRoomTrackResponse}
+    content.vb: Function MutePublishedTrackAsync(request As MuteRoomTrackRequest, cancellationToken As CancellationToken = Nothing) As Task(Of MuteRoomTrackResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.MutePublishedTrackAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.UpdateParticipantAsync(LiveKit.Proto.UpdateParticipantRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.UpdateParticipantAsync(LiveKit.Proto.UpdateParticipantRequest,System.Threading.CancellationToken)
+  id: UpdateParticipantAsync(LiveKit.Proto.UpdateParticipantRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: UpdateParticipantAsync(UpdateParticipantRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.UpdateParticipantAsync(UpdateParticipantRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.UpdateParticipantAsync(LiveKit.Proto.UpdateParticipantRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateParticipantAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 55
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates participant metadata. Will cause updates to be broadcasted to everyone in the room. Requires `roomAdmin` permission.
+  example: []
+  syntax:
+    content: Task<ParticipantInfo> UpdateParticipantAsync(UpdateParticipantRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateParticipantRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ParticipantInfo}
+    content.vb: Function UpdateParticipantAsync(request As UpdateParticipantRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ParticipantInfo)
+  overload: LiveKit.Services.ILiveKitRoomService.UpdateParticipantAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.UpdateSubscriptionsAsync(LiveKit.Proto.UpdateSubscriptionsRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.UpdateSubscriptionsAsync(LiveKit.Proto.UpdateSubscriptionsRequest,System.Threading.CancellationToken)
+  id: UpdateSubscriptionsAsync(LiveKit.Proto.UpdateSubscriptionsRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: UpdateSubscriptionsAsync(UpdateSubscriptionsRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.UpdateSubscriptionsAsync(UpdateSubscriptionsRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.UpdateSubscriptionsAsync(LiveKit.Proto.UpdateSubscriptionsRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateSubscriptionsAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 60
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Subscribes or unsubscribes a participant from tracks. Requires `roomAdmin` permission.
+  example: []
+  syntax:
+    content: Task<UpdateSubscriptionsResponse> UpdateSubscriptionsAsync(UpdateSubscriptionsRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateSubscriptionsRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.UpdateSubscriptionsResponse}
+    content.vb: Function UpdateSubscriptionsAsync(request As UpdateSubscriptionsRequest, cancellationToken As CancellationToken = Nothing) As Task(Of UpdateSubscriptionsResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.UpdateSubscriptionsAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.SendDataAsync(LiveKit.Proto.SendDataRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.SendDataAsync(LiveKit.Proto.SendDataRequest,System.Threading.CancellationToken)
+  id: SendDataAsync(LiveKit.Proto.SendDataRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: SendDataAsync(SendDataRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.SendDataAsync(SendDataRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.SendDataAsync(LiveKit.Proto.SendDataRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SendDataAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 65
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Sends data over data channel to participants in a room. Requires `roomAdmin` permission.
+  example: []
+  syntax:
+    content: Task<SendDataResponse> SendDataAsync(SendDataRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.SendDataRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SendDataResponse}
+    content.vb: Function SendDataAsync(request As SendDataRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SendDataResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.SendDataAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.UpdateRoomMetadataAsync(LiveKit.Proto.UpdateRoomMetadataRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.UpdateRoomMetadataAsync(LiveKit.Proto.UpdateRoomMetadataRequest,System.Threading.CancellationToken)
+  id: UpdateRoomMetadataAsync(LiveKit.Proto.UpdateRoomMetadataRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: UpdateRoomMetadataAsync(UpdateRoomMetadataRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.UpdateRoomMetadataAsync(UpdateRoomMetadataRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.UpdateRoomMetadataAsync(LiveKit.Proto.UpdateRoomMetadataRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateRoomMetadataAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 70
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates room metadata. Will cause updates to be broadcasted to everyone in the room. Requires `roomAdmin` permission.
+  example: []
+  syntax:
+    content: Task<Room> UpdateRoomMetadataAsync(UpdateRoomMetadataRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateRoomMetadataRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.Room}
+    content.vb: Function UpdateRoomMetadataAsync(request As UpdateRoomMetadataRequest, cancellationToken As CancellationToken = Nothing) As Task(Of Room)
+  overload: LiveKit.Services.ILiveKitRoomService.UpdateRoomMetadataAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.ForwardParticipantAsync(LiveKit.Proto.ForwardParticipantRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.ForwardParticipantAsync(LiveKit.Proto.ForwardParticipantRequest,System.Threading.CancellationToken)
+  id: ForwardParticipantAsync(LiveKit.Proto.ForwardParticipantRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: ForwardParticipantAsync(ForwardParticipantRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.ForwardParticipantAsync(ForwardParticipantRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.ForwardParticipantAsync(LiveKit.Proto.ForwardParticipantRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ForwardParticipantAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 76
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Cloud-only: Forwards a connected participant's track(s) to another room. Requires `roomAdmin` and `destinationRoom` permissions.
+
+    The forwarding will stop when the participant leaves the room or RemoveParticipant has been called in the destination room.
+  example: []
+  syntax:
+    content: Task<ForwardParticipantResponse> ForwardParticipantAsync(ForwardParticipantRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ForwardParticipantRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ForwardParticipantResponse}
+    content.vb: Function ForwardParticipantAsync(request As ForwardParticipantRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ForwardParticipantResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.ForwardParticipantAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.MoveParticipantAsync(LiveKit.Proto.MoveParticipantRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.MoveParticipantAsync(LiveKit.Proto.MoveParticipantRequest,System.Threading.CancellationToken)
+  id: MoveParticipantAsync(LiveKit.Proto.MoveParticipantRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: MoveParticipantAsync(MoveParticipantRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.MoveParticipantAsync(MoveParticipantRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.MoveParticipantAsync(LiveKit.Proto.MoveParticipantRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MoveParticipantAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 82
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Cloud-only: Moves a connected participant to a different room. Requires `roomAdmin` and `destinationRoom` permissions.
+
+    The participant will be removed from the current room and added to the destination room.
+  example: []
+  syntax:
+    content: Task<MoveParticipantResponse> MoveParticipantAsync(MoveParticipantRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.MoveParticipantRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.MoveParticipantResponse}
+    content.vb: Function MoveParticipantAsync(request As MoveParticipantRequest, cancellationToken As CancellationToken = Nothing) As Task(Of MoveParticipantResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.MoveParticipantAsync*
+- uid: LiveKit.Services.ILiveKitRoomService.PerformRpcAsync(LiveKit.Proto.PerformRpcRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitRoomService.PerformRpcAsync(LiveKit.Proto.PerformRpcRequest,System.Threading.CancellationToken)
+  id: PerformRpcAsync(LiveKit.Proto.PerformRpcRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitRoomService
+  langs:
+  - csharp
+  - vb
+  name: PerformRpcAsync(PerformRpcRequest, CancellationToken)
+  nameWithType: ILiveKitRoomService.PerformRpcAsync(PerformRpcRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitRoomService.PerformRpcAsync(LiveKit.Proto.PerformRpcRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PerformRpcAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitRoomService.cs
+    startLine: 87
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Performs an RPC call to a participant.
+  example: []
+  syntax:
+    content: Task<PerformRpcResponse> PerformRpcAsync(PerformRpcRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.PerformRpcRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.PerformRpcResponse}
+    content.vb: Function PerformRpcAsync(request As PerformRpcRequest, cancellationToken As CancellationToken = Nothing) As Task(Of PerformRpcResponse)
+  overload: LiveKit.Services.ILiveKitRoomService.PerformRpcAsync*
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: LiveKit.Services.ILiveKitRoomService.CreateRoomAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.CreateRoomAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_CreateRoomAsync_LiveKit_Proto_CreateRoomRequest_System_Threading_CancellationToken_
+  name: CreateRoomAsync
+  nameWithType: ILiveKitRoomService.CreateRoomAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.CreateRoomAsync
+- uid: LiveKit.Proto.CreateRoomRequest
+  commentId: T:LiveKit.Proto.CreateRoomRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateRoomRequest.html
+  name: CreateRoomRequest
+  nameWithType: CreateRoomRequest
+  fullName: LiveKit.Proto.CreateRoomRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.Room}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.Room}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Room>
+  nameWithType: Task<Room>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.Room>
+  nameWithType.vb: Task(Of Room)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.Room)
+  name.vb: Task(Of Room)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.ILiveKitRoomService.ListRoomsAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.ListRoomsAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_ListRoomsAsync_LiveKit_Proto_ListRoomsRequest_System_Threading_CancellationToken_
+  name: ListRoomsAsync
+  nameWithType: ILiveKitRoomService.ListRoomsAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.ListRoomsAsync
+- uid: LiveKit.Proto.ListRoomsRequest
+  commentId: T:LiveKit.Proto.ListRoomsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListRoomsRequest.html
+  name: ListRoomsRequest
+  nameWithType: ListRoomsRequest
+  fullName: LiveKit.Proto.ListRoomsRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListRoomsResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListRoomsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListRoomsResponse>
+  nameWithType: Task<ListRoomsResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListRoomsResponse>
+  nameWithType.vb: Task(Of ListRoomsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListRoomsResponse)
+  name.vb: Task(Of ListRoomsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListRoomsResponse
+    name: ListRoomsResponse
+    href: LiveKit.Proto.ListRoomsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListRoomsResponse
+    name: ListRoomsResponse
+    href: LiveKit.Proto.ListRoomsResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.DeleteRoomAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.DeleteRoomAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_DeleteRoomAsync_LiveKit_Proto_DeleteRoomRequest_System_Threading_CancellationToken_
+  name: DeleteRoomAsync
+  nameWithType: ILiveKitRoomService.DeleteRoomAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.DeleteRoomAsync
+- uid: LiveKit.Proto.DeleteRoomRequest
+  commentId: T:LiveKit.Proto.DeleteRoomRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeleteRoomRequest.html
+  name: DeleteRoomRequest
+  nameWithType: DeleteRoomRequest
+  fullName: LiveKit.Proto.DeleteRoomRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.DeleteRoomResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.DeleteRoomResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DeleteRoomResponse>
+  nameWithType: Task<DeleteRoomResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.DeleteRoomResponse>
+  nameWithType.vb: Task(Of DeleteRoomResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.DeleteRoomResponse)
+  name.vb: Task(Of DeleteRoomResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.DeleteRoomResponse
+    name: DeleteRoomResponse
+    href: LiveKit.Proto.DeleteRoomResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DeleteRoomResponse
+    name: DeleteRoomResponse
+    href: LiveKit.Proto.DeleteRoomResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.ListParticipantsAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.ListParticipantsAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_ListParticipantsAsync_LiveKit_Proto_ListParticipantsRequest_System_Threading_CancellationToken_
+  name: ListParticipantsAsync
+  nameWithType: ILiveKitRoomService.ListParticipantsAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.ListParticipantsAsync
+- uid: LiveKit.Proto.ListParticipantsRequest
+  commentId: T:LiveKit.Proto.ListParticipantsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListParticipantsRequest.html
+  name: ListParticipantsRequest
+  nameWithType: ListParticipantsRequest
+  fullName: LiveKit.Proto.ListParticipantsRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListParticipantsResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListParticipantsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListParticipantsResponse>
+  nameWithType: Task<ListParticipantsResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListParticipantsResponse>
+  nameWithType.vb: Task(Of ListParticipantsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListParticipantsResponse)
+  name.vb: Task(Of ListParticipantsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListParticipantsResponse
+    name: ListParticipantsResponse
+    href: LiveKit.Proto.ListParticipantsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListParticipantsResponse
+    name: ListParticipantsResponse
+    href: LiveKit.Proto.ListParticipantsResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.GetParticipantAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.GetParticipantAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_GetParticipantAsync_LiveKit_Proto_RoomParticipantIdentity_System_Threading_CancellationToken_
+  name: GetParticipantAsync
+  nameWithType: ILiveKitRoomService.GetParticipantAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.GetParticipantAsync
+- uid: LiveKit.Proto.RoomParticipantIdentity
+  commentId: T:LiveKit.Proto.RoomParticipantIdentity
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RoomParticipantIdentity.html
+  name: RoomParticipantIdentity
+  nameWithType: RoomParticipantIdentity
+  fullName: LiveKit.Proto.RoomParticipantIdentity
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ParticipantInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ParticipantInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ParticipantInfo>
+  nameWithType: Task<ParticipantInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ParticipantInfo>
+  nameWithType.vb: Task(Of ParticipantInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ParticipantInfo)
+  name.vb: Task(Of ParticipantInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.RemoveParticipantAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.RemoveParticipantAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_RemoveParticipantAsync_LiveKit_Proto_RoomParticipantIdentity_System_Threading_CancellationToken_
+  name: RemoveParticipantAsync
+  nameWithType: ILiveKitRoomService.RemoveParticipantAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.RemoveParticipantAsync
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.RemoveParticipantResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.RemoveParticipantResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RemoveParticipantResponse>
+  nameWithType: Task<RemoveParticipantResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.RemoveParticipantResponse>
+  nameWithType.vb: Task(Of RemoveParticipantResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.RemoveParticipantResponse)
+  name.vb: Task(Of RemoveParticipantResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.RemoveParticipantResponse
+    name: RemoveParticipantResponse
+    href: LiveKit.Proto.RemoveParticipantResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RemoveParticipantResponse
+    name: RemoveParticipantResponse
+    href: LiveKit.Proto.RemoveParticipantResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.MutePublishedTrackAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.MutePublishedTrackAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_MutePublishedTrackAsync_LiveKit_Proto_MuteRoomTrackRequest_System_Threading_CancellationToken_
+  name: MutePublishedTrackAsync
+  nameWithType: ILiveKitRoomService.MutePublishedTrackAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.MutePublishedTrackAsync
+- uid: LiveKit.Proto.MuteRoomTrackRequest
+  commentId: T:LiveKit.Proto.MuteRoomTrackRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.MuteRoomTrackRequest.html
+  name: MuteRoomTrackRequest
+  nameWithType: MuteRoomTrackRequest
+  fullName: LiveKit.Proto.MuteRoomTrackRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.MuteRoomTrackResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.MuteRoomTrackResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MuteRoomTrackResponse>
+  nameWithType: Task<MuteRoomTrackResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.MuteRoomTrackResponse>
+  nameWithType.vb: Task(Of MuteRoomTrackResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.MuteRoomTrackResponse)
+  name.vb: Task(Of MuteRoomTrackResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.MuteRoomTrackResponse
+    name: MuteRoomTrackResponse
+    href: LiveKit.Proto.MuteRoomTrackResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.MuteRoomTrackResponse
+    name: MuteRoomTrackResponse
+    href: LiveKit.Proto.MuteRoomTrackResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.UpdateParticipantAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.UpdateParticipantAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_UpdateParticipantAsync_LiveKit_Proto_UpdateParticipantRequest_System_Threading_CancellationToken_
+  name: UpdateParticipantAsync
+  nameWithType: ILiveKitRoomService.UpdateParticipantAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.UpdateParticipantAsync
+- uid: LiveKit.Proto.UpdateParticipantRequest
+  commentId: T:LiveKit.Proto.UpdateParticipantRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateParticipantRequest.html
+  name: UpdateParticipantRequest
+  nameWithType: UpdateParticipantRequest
+  fullName: LiveKit.Proto.UpdateParticipantRequest
+- uid: LiveKit.Services.ILiveKitRoomService.UpdateSubscriptionsAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.UpdateSubscriptionsAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_UpdateSubscriptionsAsync_LiveKit_Proto_UpdateSubscriptionsRequest_System_Threading_CancellationToken_
+  name: UpdateSubscriptionsAsync
+  nameWithType: ILiveKitRoomService.UpdateSubscriptionsAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.UpdateSubscriptionsAsync
+- uid: LiveKit.Proto.UpdateSubscriptionsRequest
+  commentId: T:LiveKit.Proto.UpdateSubscriptionsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSubscriptionsRequest.html
+  name: UpdateSubscriptionsRequest
+  nameWithType: UpdateSubscriptionsRequest
+  fullName: LiveKit.Proto.UpdateSubscriptionsRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.UpdateSubscriptionsResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.UpdateSubscriptionsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UpdateSubscriptionsResponse>
+  nameWithType: Task<UpdateSubscriptionsResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.UpdateSubscriptionsResponse>
+  nameWithType.vb: Task(Of UpdateSubscriptionsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.UpdateSubscriptionsResponse)
+  name.vb: Task(Of UpdateSubscriptionsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.UpdateSubscriptionsResponse
+    name: UpdateSubscriptionsResponse
+    href: LiveKit.Proto.UpdateSubscriptionsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSubscriptionsResponse
+    name: UpdateSubscriptionsResponse
+    href: LiveKit.Proto.UpdateSubscriptionsResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.SendDataAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.SendDataAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_SendDataAsync_LiveKit_Proto_SendDataRequest_System_Threading_CancellationToken_
+  name: SendDataAsync
+  nameWithType: ILiveKitRoomService.SendDataAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.SendDataAsync
+- uid: LiveKit.Proto.SendDataRequest
+  commentId: T:LiveKit.Proto.SendDataRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SendDataRequest.html
+  name: SendDataRequest
+  nameWithType: SendDataRequest
+  fullName: LiveKit.Proto.SendDataRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.SendDataResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.SendDataResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SendDataResponse>
+  nameWithType: Task<SendDataResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.SendDataResponse>
+  nameWithType.vb: Task(Of SendDataResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.SendDataResponse)
+  name.vb: Task(Of SendDataResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.SendDataResponse
+    name: SendDataResponse
+    href: LiveKit.Proto.SendDataResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SendDataResponse
+    name: SendDataResponse
+    href: LiveKit.Proto.SendDataResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.UpdateRoomMetadataAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.UpdateRoomMetadataAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_UpdateRoomMetadataAsync_LiveKit_Proto_UpdateRoomMetadataRequest_System_Threading_CancellationToken_
+  name: UpdateRoomMetadataAsync
+  nameWithType: ILiveKitRoomService.UpdateRoomMetadataAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.UpdateRoomMetadataAsync
+- uid: LiveKit.Proto.UpdateRoomMetadataRequest
+  commentId: T:LiveKit.Proto.UpdateRoomMetadataRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateRoomMetadataRequest.html
+  name: UpdateRoomMetadataRequest
+  nameWithType: UpdateRoomMetadataRequest
+  fullName: LiveKit.Proto.UpdateRoomMetadataRequest
+- uid: LiveKit.Services.ILiveKitRoomService.ForwardParticipantAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.ForwardParticipantAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_ForwardParticipantAsync_LiveKit_Proto_ForwardParticipantRequest_System_Threading_CancellationToken_
+  name: ForwardParticipantAsync
+  nameWithType: ILiveKitRoomService.ForwardParticipantAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.ForwardParticipantAsync
+- uid: LiveKit.Proto.ForwardParticipantRequest
+  commentId: T:LiveKit.Proto.ForwardParticipantRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ForwardParticipantRequest.html
+  name: ForwardParticipantRequest
+  nameWithType: ForwardParticipantRequest
+  fullName: LiveKit.Proto.ForwardParticipantRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ForwardParticipantResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ForwardParticipantResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ForwardParticipantResponse>
+  nameWithType: Task<ForwardParticipantResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ForwardParticipantResponse>
+  nameWithType.vb: Task(Of ForwardParticipantResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ForwardParticipantResponse)
+  name.vb: Task(Of ForwardParticipantResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ForwardParticipantResponse
+    name: ForwardParticipantResponse
+    href: LiveKit.Proto.ForwardParticipantResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ForwardParticipantResponse
+    name: ForwardParticipantResponse
+    href: LiveKit.Proto.ForwardParticipantResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.MoveParticipantAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.MoveParticipantAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_MoveParticipantAsync_LiveKit_Proto_MoveParticipantRequest_System_Threading_CancellationToken_
+  name: MoveParticipantAsync
+  nameWithType: ILiveKitRoomService.MoveParticipantAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.MoveParticipantAsync
+- uid: LiveKit.Proto.MoveParticipantRequest
+  commentId: T:LiveKit.Proto.MoveParticipantRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.MoveParticipantRequest.html
+  name: MoveParticipantRequest
+  nameWithType: MoveParticipantRequest
+  fullName: LiveKit.Proto.MoveParticipantRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.MoveParticipantResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.MoveParticipantResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MoveParticipantResponse>
+  nameWithType: Task<MoveParticipantResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.MoveParticipantResponse>
+  nameWithType.vb: Task(Of MoveParticipantResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.MoveParticipantResponse)
+  name.vb: Task(Of MoveParticipantResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.MoveParticipantResponse
+    name: MoveParticipantResponse
+    href: LiveKit.Proto.MoveParticipantResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.MoveParticipantResponse
+    name: MoveParticipantResponse
+    href: LiveKit.Proto.MoveParticipantResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitRoomService.PerformRpcAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitRoomService.PerformRpcAsync
+  href: LiveKit.Services.ILiveKitRoomService.html#LiveKit_Services_ILiveKitRoomService_PerformRpcAsync_LiveKit_Proto_PerformRpcRequest_System_Threading_CancellationToken_
+  name: PerformRpcAsync
+  nameWithType: ILiveKitRoomService.PerformRpcAsync
+  fullName: LiveKit.Services.ILiveKitRoomService.PerformRpcAsync
+- uid: LiveKit.Proto.PerformRpcRequest
+  commentId: T:LiveKit.Proto.PerformRpcRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.PerformRpcRequest.html
+  name: PerformRpcRequest
+  nameWithType: PerformRpcRequest
+  fullName: LiveKit.Proto.PerformRpcRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.PerformRpcResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.PerformRpcResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PerformRpcResponse>
+  nameWithType: Task<PerformRpcResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.PerformRpcResponse>
+  nameWithType.vb: Task(Of PerformRpcResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.PerformRpcResponse)
+  name.vb: Task(Of PerformRpcResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.PerformRpcResponse
+    name: PerformRpcResponse
+    href: LiveKit.Proto.PerformRpcResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.PerformRpcResponse
+    name: PerformRpcResponse
+    href: LiveKit.Proto.PerformRpcResponse.html
+  - name: )

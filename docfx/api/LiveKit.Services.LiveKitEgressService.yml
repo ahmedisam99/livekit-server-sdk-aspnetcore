@@ -1,0 +1,1480 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.LiveKitEgressService
+  commentId: T:LiveKit.Services.LiveKitEgressService
+  id: LiveKitEgressService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.LiveKitEgressService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitEgressService},LiveKit.Authentication.ILiveKitTokenService)
+  - LiveKit.Services.LiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: LiveKitEgressService
+  nameWithType: LiveKitEgressService
+  fullName: LiveKit.Services.LiveKitEgressService
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LiveKitEgressService
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 10
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: >-
+    Service for recording and streaming rooms, participants, or tracks.
+
+    <p>
+
+    Provides methods for starting and managing egress (recording/streaming) sessions.
+
+    See <a href="https://docs.livekit.io/home/egress/api/">LiveKit Egress API Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: 'public sealed class LiveKitEgressService : TwirpClient, ILiveKitEgressService'
+    content.vb: Public NotInheritable Class LiveKitEgressService Inherits TwirpClient Implements ILiveKitEgressService
+  inheritance:
+  - System.Object
+  - LiveKit.Services.TwirpClient
+  implements:
+  - LiveKit.Services.ILiveKitEgressService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: LiveKit.Services.LiveKitEgressService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitEgressService},LiveKit.Authentication.ILiveKitTokenService)
+  commentId: M:LiveKit.Services.LiveKitEgressService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitEgressService},LiveKit.Authentication.ILiveKitTokenService)
+  id: '#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitEgressService},LiveKit.Authentication.ILiveKitTokenService)'
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: LiveKitEgressService(HttpClient, ILogger<LiveKitEgressService>, ILiveKitTokenService)
+  nameWithType: LiveKitEgressService.LiveKitEgressService(HttpClient, ILogger<LiveKitEgressService>, ILiveKitTokenService)
+  fullName: LiveKit.Services.LiveKitEgressService.LiveKitEgressService(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger<LiveKit.Services.LiveKitEgressService>, LiveKit.Authentication.ILiveKitTokenService)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 17
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Initializes a new instance of the <xref href="LiveKit.Services.LiveKitEgressService" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public LiveKitEgressService(HttpClient httpClient, ILogger<LiveKitEgressService> logger, ILiveKitTokenService _tokenService)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitEgressService}
+    - id: _tokenService
+      type: LiveKit.Authentication.ILiveKitTokenService
+    content.vb: Public Sub New(httpClient As HttpClient, logger As ILogger(Of LiveKitEgressService), _tokenService As ILiveKitTokenService)
+  overload: LiveKit.Services.LiveKitEgressService.#ctor*
+  nameWithType.vb: LiveKitEgressService.New(HttpClient, ILogger(Of LiveKitEgressService), ILiveKitTokenService)
+  fullName.vb: LiveKit.Services.LiveKitEgressService.New(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger(Of LiveKit.Services.LiveKitEgressService), LiveKit.Authentication.ILiveKitTokenService)
+  name.vb: New(HttpClient, ILogger(Of LiveKitEgressService), ILiveKitTokenService)
+- uid: LiveKit.Services.LiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  id: StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartRoomCompositeEgressAsync(RoomCompositeEgressRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.StartRoomCompositeEgressAsync(RoomCompositeEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartRoomCompositeEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 23
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Starts a room composite egress (recording or streaming).
+  example: []
+  syntax:
+    content: public Task<EgressInfo> StartRoomCompositeEgressAsync(RoomCompositeEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.RoomCompositeEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Public Function StartRoomCompositeEgressAsync(request As RoomCompositeEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.LiveKitEgressService.StartRoomCompositeEgressAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  id: StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartWebEgressAsync(WebEgressRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.StartWebEgressAsync(WebEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartWebEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 29
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Starts a web egress to record any website.
+  example: []
+  syntax:
+    content: public Task<EgressInfo> StartWebEgressAsync(WebEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.WebEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Public Function StartWebEgressAsync(request As WebEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.LiveKitEgressService.StartWebEgressAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  id: StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartParticipantEgressAsync(ParticipantEgressRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.StartParticipantEgressAsync(ParticipantEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartParticipantEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 35
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Starts a participant egress to record a single participant.
+  example: []
+  syntax:
+    content: public Task<EgressInfo> StartParticipantEgressAsync(ParticipantEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ParticipantEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Public Function StartParticipantEgressAsync(request As ParticipantEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.LiveKitEgressService.StartParticipantEgressAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  id: StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartTrackCompositeEgressAsync(TrackCompositeEgressRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.StartTrackCompositeEgressAsync(TrackCompositeEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartTrackCompositeEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 41
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Starts a track composite egress to record specific tracks.
+  example: []
+  syntax:
+    content: public Task<EgressInfo> StartTrackCompositeEgressAsync(TrackCompositeEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.TrackCompositeEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Public Function StartTrackCompositeEgressAsync(request As TrackCompositeEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.LiveKitEgressService.StartTrackCompositeEgressAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  id: StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartTrackEgressAsync(TrackEgressRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.StartTrackEgressAsync(TrackEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartTrackEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 47
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Starts a track egress to record a single track without transcoding.
+  example: []
+  syntax:
+    content: public Task<EgressInfo> StartTrackEgressAsync(TrackEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.TrackEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Public Function StartTrackEgressAsync(request As TrackEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.LiveKitEgressService.StartTrackEgressAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  id: UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: UpdateLayoutAsync(UpdateLayoutRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.UpdateLayoutAsync(UpdateLayoutRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateLayoutAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 53
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Updates the layout of a web composite egress.
+  example: []
+  syntax:
+    content: public Task<EgressInfo> UpdateLayoutAsync(UpdateLayoutRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateLayoutRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Public Function UpdateLayoutAsync(request As UpdateLayoutRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.LiveKitEgressService.UpdateLayoutAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  id: UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: UpdateStreamAsync(UpdateStreamRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.UpdateStreamAsync(UpdateStreamRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateStreamAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 59
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Adds or removes stream endpoints for an active egress.
+  example: []
+  syntax:
+    content: public Task<EgressInfo> UpdateStreamAsync(UpdateStreamRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateStreamRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Public Function UpdateStreamAsync(request As UpdateStreamRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.LiveKitEgressService.UpdateStreamAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  id: ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: ListEgressAsync(ListEgressRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.ListEgressAsync(ListEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 65
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Lists active and completed egresses.
+  example: []
+  syntax:
+    content: public Task<ListEgressResponse> ListEgressAsync(ListEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListEgressResponse}
+    content.vb: Public Function ListEgressAsync(request As ListEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListEgressResponse)
+  overload: LiveKit.Services.LiveKitEgressService.ListEgressAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  id: StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StopEgressAsync(StopEgressRequest, CancellationToken)
+  nameWithType: LiveKitEgressService.StopEgressAsync(StopEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StopEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitEgressService.cs
+    startLine: 71
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Stops an active egress.
+  example: []
+  syntax:
+    content: public Task<EgressInfo> StopEgressAsync(StopEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.StopEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Public Function StopEgressAsync(request As StopEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.LiveKitEgressService.StopEgressAsync*
+  implements:
+  - LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: LiveKit.Services.TwirpClient
+  commentId: T:LiveKit.Services.TwirpClient
+  parent: LiveKit.Services
+  href: LiveKit.Services.TwirpClient.html
+  name: TwirpClient
+  nameWithType: TwirpClient
+  fullName: LiveKit.Services.TwirpClient
+- uid: LiveKit.Services.ILiveKitEgressService
+  commentId: T:LiveKit.Services.ILiveKitEgressService
+  parent: LiveKit.Services
+  href: LiveKit.Services.ILiveKitEgressService.html
+  name: ILiveKitEgressService
+  nameWithType: ILiveKitEgressService
+  fullName: LiveKit.Services.ILiveKitEgressService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LiveKit.Services.LiveKitEgressService
+  commentId: T:LiveKit.Services.LiveKitEgressService
+  href: LiveKit.Services.LiveKitEgressService.html
+  name: LiveKitEgressService
+  nameWithType: LiveKitEgressService
+  fullName: LiveKit.Services.LiveKitEgressService
+- uid: LiveKit.Services.LiveKitEgressService.#ctor*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.#ctor
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Logging_ILogger_LiveKit_Services_LiveKitEgressService__LiveKit_Authentication_ILiveKitTokenService_
+  name: LiveKitEgressService
+  nameWithType: LiveKitEgressService.LiveKitEgressService
+  fullName: LiveKit.Services.LiveKitEgressService.LiveKitEgressService
+  nameWithType.vb: LiveKitEgressService.New
+  fullName.vb: LiveKit.Services.LiveKitEgressService.New
+  name.vb: New
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitEgressService}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitEgressService}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<LiveKitEgressService>
+  nameWithType: ILogger<LiveKitEgressService>
+  fullName: Microsoft.Extensions.Logging.ILogger<LiveKit.Services.LiveKitEgressService>
+  nameWithType.vb: ILogger(Of LiveKitEgressService)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of LiveKit.Services.LiveKitEgressService)
+  name.vb: ILogger(Of LiveKitEgressService)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: LiveKit.Services.LiveKitEgressService
+    name: LiveKitEgressService
+    href: LiveKit.Services.LiveKitEgressService.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Services.LiveKitEgressService
+    name: LiveKitEgressService
+    href: LiveKit.Services.LiveKitEgressService.html
+  - name: )
+- uid: LiveKit.Authentication.ILiveKitTokenService
+  commentId: T:LiveKit.Authentication.ILiveKitTokenService
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.ILiveKitTokenService.html
+  name: ILiveKitTokenService
+  nameWithType: ILiveKitTokenService
+  fullName: LiveKit.Authentication.ILiveKitTokenService
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: LiveKit.Services.LiveKitEgressService.StartRoomCompositeEgressAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.StartRoomCompositeEgressAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_StartRoomCompositeEgressAsync_LiveKit_Proto_RoomCompositeEgressRequest_System_Threading_CancellationToken_
+  name: StartRoomCompositeEgressAsync
+  nameWithType: LiveKitEgressService.StartRoomCompositeEgressAsync
+  fullName: LiveKit.Services.LiveKitEgressService.StartRoomCompositeEgressAsync
+- uid: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: StartRoomCompositeEgressAsync(RoomCompositeEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartRoomCompositeEgressAsync(RoomCompositeEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+    name: StartRoomCompositeEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.RoomCompositeEgressRequest
+    name: RoomCompositeEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+    name: StartRoomCompositeEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.RoomCompositeEgressRequest
+    name: RoomCompositeEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.RoomCompositeEgressRequest
+  commentId: T:LiveKit.Proto.RoomCompositeEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RoomCompositeEgressRequest.html
+  name: RoomCompositeEgressRequest
+  nameWithType: RoomCompositeEgressRequest
+  fullName: LiveKit.Proto.RoomCompositeEgressRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<EgressInfo>
+  nameWithType: Task<EgressInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.EgressInfo>
+  nameWithType.vb: Task(Of EgressInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.EgressInfo)
+  name.vb: Task(Of EgressInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.LiveKitEgressService.StartWebEgressAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.StartWebEgressAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_StartWebEgressAsync_LiveKit_Proto_WebEgressRequest_System_Threading_CancellationToken_
+  name: StartWebEgressAsync
+  nameWithType: LiveKitEgressService.StartWebEgressAsync
+  fullName: LiveKit.Services.LiveKitEgressService.StartWebEgressAsync
+- uid: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: StartWebEgressAsync(WebEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartWebEgressAsync(WebEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+    name: StartWebEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+    name: StartWebEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest
+  commentId: T:LiveKit.Proto.WebEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: WebEgressRequest
+  nameWithType: WebEgressRequest
+  fullName: LiveKit.Proto.WebEgressRequest
+- uid: LiveKit.Services.LiveKitEgressService.StartParticipantEgressAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.StartParticipantEgressAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_StartParticipantEgressAsync_LiveKit_Proto_ParticipantEgressRequest_System_Threading_CancellationToken_
+  name: StartParticipantEgressAsync
+  nameWithType: LiveKitEgressService.StartParticipantEgressAsync
+  fullName: LiveKit.Services.LiveKitEgressService.StartParticipantEgressAsync
+- uid: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: StartParticipantEgressAsync(ParticipantEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartParticipantEgressAsync(ParticipantEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+    name: StartParticipantEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.ParticipantEgressRequest
+    name: ParticipantEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+    name: StartParticipantEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.ParticipantEgressRequest
+    name: ParticipantEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.ParticipantEgressRequest
+  commentId: T:LiveKit.Proto.ParticipantEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantEgressRequest.html
+  name: ParticipantEgressRequest
+  nameWithType: ParticipantEgressRequest
+  fullName: LiveKit.Proto.ParticipantEgressRequest
+- uid: LiveKit.Services.LiveKitEgressService.StartTrackCompositeEgressAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.StartTrackCompositeEgressAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_StartTrackCompositeEgressAsync_LiveKit_Proto_TrackCompositeEgressRequest_System_Threading_CancellationToken_
+  name: StartTrackCompositeEgressAsync
+  nameWithType: LiveKitEgressService.StartTrackCompositeEgressAsync
+  fullName: LiveKit.Services.LiveKitEgressService.StartTrackCompositeEgressAsync
+- uid: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: StartTrackCompositeEgressAsync(TrackCompositeEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartTrackCompositeEgressAsync(TrackCompositeEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+    name: StartTrackCompositeEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.TrackCompositeEgressRequest
+    name: TrackCompositeEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+    name: StartTrackCompositeEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.TrackCompositeEgressRequest
+    name: TrackCompositeEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.TrackCompositeEgressRequest
+  commentId: T:LiveKit.Proto.TrackCompositeEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrackCompositeEgressRequest.html
+  name: TrackCompositeEgressRequest
+  nameWithType: TrackCompositeEgressRequest
+  fullName: LiveKit.Proto.TrackCompositeEgressRequest
+- uid: LiveKit.Services.LiveKitEgressService.StartTrackEgressAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.StartTrackEgressAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_StartTrackEgressAsync_LiveKit_Proto_TrackEgressRequest_System_Threading_CancellationToken_
+  name: StartTrackEgressAsync
+  nameWithType: LiveKitEgressService.StartTrackEgressAsync
+  fullName: LiveKit.Services.LiveKitEgressService.StartTrackEgressAsync
+- uid: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: StartTrackEgressAsync(TrackEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartTrackEgressAsync(TrackEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+    name: StartTrackEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.TrackEgressRequest
+    name: TrackEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+    name: StartTrackEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.TrackEgressRequest
+    name: TrackEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.TrackEgressRequest
+  commentId: T:LiveKit.Proto.TrackEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrackEgressRequest.html
+  name: TrackEgressRequest
+  nameWithType: TrackEgressRequest
+  fullName: LiveKit.Proto.TrackEgressRequest
+- uid: LiveKit.Services.LiveKitEgressService.UpdateLayoutAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.UpdateLayoutAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_UpdateLayoutAsync_LiveKit_Proto_UpdateLayoutRequest_System_Threading_CancellationToken_
+  name: UpdateLayoutAsync
+  nameWithType: LiveKitEgressService.UpdateLayoutAsync
+  fullName: LiveKit.Services.LiveKitEgressService.UpdateLayoutAsync
+- uid: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: UpdateLayoutAsync(UpdateLayoutRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.UpdateLayoutAsync(UpdateLayoutRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+    name: UpdateLayoutAsync
+  - name: (
+  - uid: LiveKit.Proto.UpdateLayoutRequest
+    name: UpdateLayoutRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+    name: UpdateLayoutAsync
+  - name: (
+  - uid: LiveKit.Proto.UpdateLayoutRequest
+    name: UpdateLayoutRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.UpdateLayoutRequest
+  commentId: T:LiveKit.Proto.UpdateLayoutRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateLayoutRequest.html
+  name: UpdateLayoutRequest
+  nameWithType: UpdateLayoutRequest
+  fullName: LiveKit.Proto.UpdateLayoutRequest
+- uid: LiveKit.Services.LiveKitEgressService.UpdateStreamAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.UpdateStreamAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_UpdateStreamAsync_LiveKit_Proto_UpdateStreamRequest_System_Threading_CancellationToken_
+  name: UpdateStreamAsync
+  nameWithType: LiveKitEgressService.UpdateStreamAsync
+  fullName: LiveKit.Services.LiveKitEgressService.UpdateStreamAsync
+- uid: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: UpdateStreamAsync(UpdateStreamRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.UpdateStreamAsync(UpdateStreamRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+    name: UpdateStreamAsync
+  - name: (
+  - uid: LiveKit.Proto.UpdateStreamRequest
+    name: UpdateStreamRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+    name: UpdateStreamAsync
+  - name: (
+  - uid: LiveKit.Proto.UpdateStreamRequest
+    name: UpdateStreamRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.UpdateStreamRequest
+  commentId: T:LiveKit.Proto.UpdateStreamRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateStreamRequest.html
+  name: UpdateStreamRequest
+  nameWithType: UpdateStreamRequest
+  fullName: LiveKit.Proto.UpdateStreamRequest
+- uid: LiveKit.Services.LiveKitEgressService.ListEgressAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.ListEgressAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_ListEgressAsync_LiveKit_Proto_ListEgressRequest_System_Threading_CancellationToken_
+  name: ListEgressAsync
+  nameWithType: LiveKitEgressService.ListEgressAsync
+  fullName: LiveKit.Services.LiveKitEgressService.ListEgressAsync
+- uid: LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: ListEgressAsync(ListEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.ListEgressAsync(ListEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+    name: ListEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.ListEgressRequest
+    name: ListEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+    name: ListEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.ListEgressRequest
+    name: ListEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.ListEgressRequest
+  commentId: T:LiveKit.Proto.ListEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListEgressRequest.html
+  name: ListEgressRequest
+  nameWithType: ListEgressRequest
+  fullName: LiveKit.Proto.ListEgressRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListEgressResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListEgressResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListEgressResponse>
+  nameWithType: Task<ListEgressResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListEgressResponse>
+  nameWithType.vb: Task(Of ListEgressResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListEgressResponse)
+  name.vb: Task(Of ListEgressResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListEgressResponse
+    name: ListEgressResponse
+    href: LiveKit.Proto.ListEgressResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListEgressResponse
+    name: ListEgressResponse
+    href: LiveKit.Proto.ListEgressResponse.html
+  - name: )
+- uid: LiveKit.Services.LiveKitEgressService.StopEgressAsync*
+  commentId: Overload:LiveKit.Services.LiveKitEgressService.StopEgressAsync
+  href: LiveKit.Services.LiveKitEgressService.html#LiveKit_Services_LiveKitEgressService_StopEgressAsync_LiveKit_Proto_StopEgressRequest_System_Threading_CancellationToken_
+  name: StopEgressAsync
+  nameWithType: LiveKitEgressService.StopEgressAsync
+  fullName: LiveKit.Services.LiveKitEgressService.StopEgressAsync
+- uid: LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: StopEgressAsync(StopEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StopEgressAsync(StopEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+    name: StopEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.StopEgressRequest
+    name: StopEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+    name: StopEgressAsync
+  - name: (
+  - uid: LiveKit.Proto.StopEgressRequest
+    name: StopEgressRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.StopEgressRequest
+  commentId: T:LiveKit.Proto.StopEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.StopEgressRequest.html
+  name: StopEgressRequest
+  nameWithType: StopEgressRequest
+  fullName: LiveKit.Proto.StopEgressRequest

@@ -1,0 +1,2596 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.IngressInfo
+  commentId: T:LiveKit.Proto.IngressInfo
+  id: IngressInfo
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.IngressInfo.#ctor
+  - LiveKit.Proto.IngressInfo.#ctor(LiveKit.Proto.IngressInfo)
+  - LiveKit.Proto.IngressInfo.Audio
+  - LiveKit.Proto.IngressInfo.AudioFieldNumber
+  - LiveKit.Proto.IngressInfo.BypassTranscoding
+  - LiveKit.Proto.IngressInfo.BypassTranscodingFieldNumber
+  - LiveKit.Proto.IngressInfo.CalculateSize
+  - LiveKit.Proto.IngressInfo.ClearEnableTranscoding
+  - LiveKit.Proto.IngressInfo.ClearEnabled
+  - LiveKit.Proto.IngressInfo.Clone
+  - LiveKit.Proto.IngressInfo.Descriptor
+  - LiveKit.Proto.IngressInfo.EnableTranscoding
+  - LiveKit.Proto.IngressInfo.EnableTranscodingFieldNumber
+  - LiveKit.Proto.IngressInfo.Enabled
+  - LiveKit.Proto.IngressInfo.EnabledFieldNumber
+  - LiveKit.Proto.IngressInfo.Equals(LiveKit.Proto.IngressInfo)
+  - LiveKit.Proto.IngressInfo.Equals(System.Object)
+  - LiveKit.Proto.IngressInfo.GetHashCode
+  - LiveKit.Proto.IngressInfo.HasEnableTranscoding
+  - LiveKit.Proto.IngressInfo.HasEnabled
+  - LiveKit.Proto.IngressInfo.IngressId
+  - LiveKit.Proto.IngressInfo.IngressIdFieldNumber
+  - LiveKit.Proto.IngressInfo.InputType
+  - LiveKit.Proto.IngressInfo.InputTypeFieldNumber
+  - LiveKit.Proto.IngressInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.IngressInfo.MergeFrom(LiveKit.Proto.IngressInfo)
+  - LiveKit.Proto.IngressInfo.Name
+  - LiveKit.Proto.IngressInfo.NameFieldNumber
+  - LiveKit.Proto.IngressInfo.Parser
+  - LiveKit.Proto.IngressInfo.ParticipantIdentity
+  - LiveKit.Proto.IngressInfo.ParticipantIdentityFieldNumber
+  - LiveKit.Proto.IngressInfo.ParticipantMetadata
+  - LiveKit.Proto.IngressInfo.ParticipantMetadataFieldNumber
+  - LiveKit.Proto.IngressInfo.ParticipantName
+  - LiveKit.Proto.IngressInfo.ParticipantNameFieldNumber
+  - LiveKit.Proto.IngressInfo.Reusable
+  - LiveKit.Proto.IngressInfo.ReusableFieldNumber
+  - LiveKit.Proto.IngressInfo.RoomName
+  - LiveKit.Proto.IngressInfo.RoomNameFieldNumber
+  - LiveKit.Proto.IngressInfo.State
+  - LiveKit.Proto.IngressInfo.StateFieldNumber
+  - LiveKit.Proto.IngressInfo.StreamKey
+  - LiveKit.Proto.IngressInfo.StreamKeyFieldNumber
+  - LiveKit.Proto.IngressInfo.ToString
+  - LiveKit.Proto.IngressInfo.Url
+  - LiveKit.Proto.IngressInfo.UrlFieldNumber
+  - LiveKit.Proto.IngressInfo.Video
+  - LiveKit.Proto.IngressInfo.VideoFieldNumber
+  - LiveKit.Proto.IngressInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: IngressInfo
+  nameWithType: IngressInfo
+  fullName: LiveKit.Proto.IngressInfo
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2202
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class IngressInfo : IMessage<IngressInfo>, IEquatable<IngressInfo>, IDeepCloneable<IngressInfo>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class IngressInfo Implements IMessage(Of IngressInfo), IEquatable(Of IngressInfo), IDeepCloneable(Of IngressInfo), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}
+  - System.IEquatable{LiveKit.Proto.IngressInfo}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.IngressInfo.Parser
+  commentId: P:LiveKit.Proto.IngressInfo.Parser
+  id: Parser
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: IngressInfo.Parser
+  fullName: LiveKit.Proto.IngressInfo.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2211
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<IngressInfo> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.IngressInfo}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of IngressInfo)
+  overload: LiveKit.Proto.IngressInfo.Parser*
+- uid: LiveKit.Proto.IngressInfo.Descriptor
+  commentId: P:LiveKit.Proto.IngressInfo.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: IngressInfo.Descriptor
+  fullName: LiveKit.Proto.IngressInfo.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2215
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.IngressInfo.Descriptor*
+- uid: LiveKit.Proto.IngressInfo.#ctor
+  commentId: M:LiveKit.Proto.IngressInfo.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: IngressInfo()
+  nameWithType: IngressInfo.IngressInfo()
+  fullName: LiveKit.Proto.IngressInfo.IngressInfo()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2227
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public IngressInfo()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.IngressInfo.#ctor*
+  nameWithType.vb: IngressInfo.New()
+  fullName.vb: LiveKit.Proto.IngressInfo.New()
+  name.vb: New()
+- uid: LiveKit.Proto.IngressInfo.#ctor(LiveKit.Proto.IngressInfo)
+  commentId: M:LiveKit.Proto.IngressInfo.#ctor(LiveKit.Proto.IngressInfo)
+  id: '#ctor(LiveKit.Proto.IngressInfo)'
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: IngressInfo(IngressInfo)
+  nameWithType: IngressInfo.IngressInfo(IngressInfo)
+  fullName: LiveKit.Proto.IngressInfo.IngressInfo(LiveKit.Proto.IngressInfo)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2235
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public IngressInfo(IngressInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.IngressInfo
+    content.vb: Public Sub New(other As IngressInfo)
+  overload: LiveKit.Proto.IngressInfo.#ctor*
+  nameWithType.vb: IngressInfo.New(IngressInfo)
+  fullName.vb: LiveKit.Proto.IngressInfo.New(LiveKit.Proto.IngressInfo)
+  name.vb: New(IngressInfo)
+- uid: LiveKit.Proto.IngressInfo.Clone
+  commentId: M:LiveKit.Proto.IngressInfo.Clone
+  id: Clone
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: IngressInfo.Clone()
+  fullName: LiveKit.Proto.IngressInfo.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2258
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public IngressInfo Clone()
+    return:
+      type: LiveKit.Proto.IngressInfo
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As IngressInfo
+  overload: LiveKit.Proto.IngressInfo.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}.Clone
+- uid: LiveKit.Proto.IngressInfo.IngressIdFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.IngressIdFieldNumber
+  id: IngressIdFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: IngressIdFieldNumber
+  nameWithType: IngressInfo.IngressIdFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.IngressIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2265
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ingress_id" field.
+  example: []
+  syntax:
+    content: public const int IngressIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const IngressIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.IngressInfo.IngressId
+  commentId: P:LiveKit.Proto.IngressInfo.IngressId
+  id: IngressId
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: IngressId
+  nameWithType: IngressInfo.IngressId
+  fullName: LiveKit.Proto.IngressInfo.IngressId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2267
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string IngressId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IngressId As String
+  overload: LiveKit.Proto.IngressInfo.IngressId*
+- uid: LiveKit.Proto.IngressInfo.NameFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.NameFieldNumber
+  id: NameFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: IngressInfo.NameFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.NameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2277
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "name" field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 2
+- uid: LiveKit.Proto.IngressInfo.Name
+  commentId: P:LiveKit.Proto.IngressInfo.Name
+  id: Name
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IngressInfo.Name
+  fullName: LiveKit.Proto.IngressInfo.Name
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Name
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2279
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: LiveKit.Proto.IngressInfo.Name*
+- uid: LiveKit.Proto.IngressInfo.StreamKeyFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.StreamKeyFieldNumber
+  id: StreamKeyFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: StreamKeyFieldNumber
+  nameWithType: IngressInfo.StreamKeyFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.StreamKeyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamKeyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2289
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "stream_key" field.
+  example: []
+  syntax:
+    content: public const int StreamKeyFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const StreamKeyFieldNumber As Integer = 3
+- uid: LiveKit.Proto.IngressInfo.StreamKey
+  commentId: P:LiveKit.Proto.IngressInfo.StreamKey
+  id: StreamKey
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: StreamKey
+  nameWithType: IngressInfo.StreamKey
+  fullName: LiveKit.Proto.IngressInfo.StreamKey
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamKey
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2291
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string StreamKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StreamKey As String
+  overload: LiveKit.Proto.IngressInfo.StreamKey*
+- uid: LiveKit.Proto.IngressInfo.UrlFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.UrlFieldNumber
+  id: UrlFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: UrlFieldNumber
+  nameWithType: IngressInfo.UrlFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.UrlFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UrlFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2301
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "url" field.
+  example: []
+  syntax:
+    content: public const int UrlFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const UrlFieldNumber As Integer = 4
+- uid: LiveKit.Proto.IngressInfo.Url
+  commentId: P:LiveKit.Proto.IngressInfo.Url
+  id: Url
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: IngressInfo.Url
+  fullName: LiveKit.Proto.IngressInfo.Url
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Url
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2306
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: URL to point the encoder to for push (RTMP, WHIP), or location to pull media from for pull (URL)
+  example: []
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: LiveKit.Proto.IngressInfo.Url*
+- uid: LiveKit.Proto.IngressInfo.InputTypeFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.InputTypeFieldNumber
+  id: InputTypeFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: InputTypeFieldNumber
+  nameWithType: IngressInfo.InputTypeFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.InputTypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: InputTypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2316
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "input_type" field.
+  example: []
+  syntax:
+    content: public const int InputTypeFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const InputTypeFieldNumber As Integer = 5
+- uid: LiveKit.Proto.IngressInfo.InputType
+  commentId: P:LiveKit.Proto.IngressInfo.InputType
+  id: InputType
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: InputType
+  nameWithType: IngressInfo.InputType
+  fullName: LiveKit.Proto.IngressInfo.InputType
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: InputType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2323
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    for RTMP input, it'll be a rtmp:// URL
+
+    for FILE input, it'll be a http:// URL
+
+    for SRT input, it'll be a srt:// URL
+  example: []
+  syntax:
+    content: public IngressInput InputType { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.IngressInput
+    content.vb: Public Property InputType As IngressInput
+  overload: LiveKit.Proto.IngressInfo.InputType*
+- uid: LiveKit.Proto.IngressInfo.BypassTranscodingFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.BypassTranscodingFieldNumber
+  id: BypassTranscodingFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: BypassTranscodingFieldNumber
+  nameWithType: IngressInfo.BypassTranscodingFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.BypassTranscodingFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BypassTranscodingFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2333
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "bypass_transcoding" field.
+  example: []
+  syntax:
+    content: public const int BypassTranscodingFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const BypassTranscodingFieldNumber As Integer = 13
+- uid: LiveKit.Proto.IngressInfo.BypassTranscoding
+  commentId: P:LiveKit.Proto.IngressInfo.BypassTranscoding
+  id: BypassTranscoding
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: BypassTranscoding
+  nameWithType: IngressInfo.BypassTranscoding
+  fullName: LiveKit.Proto.IngressInfo.BypassTranscoding
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BypassTranscoding
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2335
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public bool BypassTranscoding { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Obsolete>
+
+      Public Property BypassTranscoding As Boolean
+  overload: LiveKit.Proto.IngressInfo.BypassTranscoding*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.IngressInfo.EnableTranscodingFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.EnableTranscodingFieldNumber
+  id: EnableTranscodingFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: EnableTranscodingFieldNumber
+  nameWithType: IngressInfo.EnableTranscodingFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.EnableTranscodingFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnableTranscodingFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2346
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "enable_transcoding" field.
+  example: []
+  syntax:
+    content: public const int EnableTranscodingFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const EnableTranscodingFieldNumber As Integer = 15
+- uid: LiveKit.Proto.IngressInfo.EnableTranscoding
+  commentId: P:LiveKit.Proto.IngressInfo.EnableTranscoding
+  id: EnableTranscoding
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: EnableTranscoding
+  nameWithType: IngressInfo.EnableTranscoding
+  fullName: LiveKit.Proto.IngressInfo.EnableTranscoding
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnableTranscoding
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2350
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool EnableTranscoding { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableTranscoding As Boolean
+  overload: LiveKit.Proto.IngressInfo.EnableTranscoding*
+- uid: LiveKit.Proto.IngressInfo.HasEnableTranscoding
+  commentId: P:LiveKit.Proto.IngressInfo.HasEnableTranscoding
+  id: HasEnableTranscoding
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: HasEnableTranscoding
+  nameWithType: IngressInfo.HasEnableTranscoding
+  fullName: LiveKit.Proto.IngressInfo.HasEnableTranscoding
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasEnableTranscoding
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2360
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "enable_transcoding" field is set
+  example: []
+  syntax:
+    content: public bool HasEnableTranscoding { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasEnableTranscoding As Boolean
+  overload: LiveKit.Proto.IngressInfo.HasEnableTranscoding*
+- uid: LiveKit.Proto.IngressInfo.ClearEnableTranscoding
+  commentId: M:LiveKit.Proto.IngressInfo.ClearEnableTranscoding
+  id: ClearEnableTranscoding
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ClearEnableTranscoding()
+  nameWithType: IngressInfo.ClearEnableTranscoding()
+  fullName: LiveKit.Proto.IngressInfo.ClearEnableTranscoding()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearEnableTranscoding
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2366
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "enable_transcoding" field
+  example: []
+  syntax:
+    content: public void ClearEnableTranscoding()
+    content.vb: Public Sub ClearEnableTranscoding()
+  overload: LiveKit.Proto.IngressInfo.ClearEnableTranscoding*
+- uid: LiveKit.Proto.IngressInfo.AudioFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.AudioFieldNumber
+  id: AudioFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: AudioFieldNumber
+  nameWithType: IngressInfo.AudioFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.AudioFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2373
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "audio" field.
+  example: []
+  syntax:
+    content: public const int AudioFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const AudioFieldNumber As Integer = 6
+- uid: LiveKit.Proto.IngressInfo.Audio
+  commentId: P:LiveKit.Proto.IngressInfo.Audio
+  id: Audio
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Audio
+  nameWithType: IngressInfo.Audio
+  fullName: LiveKit.Proto.IngressInfo.Audio
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Audio
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2375
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public IngressAudioOptions Audio { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.IngressAudioOptions
+    content.vb: Public Property Audio As IngressAudioOptions
+  overload: LiveKit.Proto.IngressInfo.Audio*
+- uid: LiveKit.Proto.IngressInfo.VideoFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.VideoFieldNumber
+  id: VideoFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: VideoFieldNumber
+  nameWithType: IngressInfo.VideoFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.VideoFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2385
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "video" field.
+  example: []
+  syntax:
+    content: public const int VideoFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const VideoFieldNumber As Integer = 7
+- uid: LiveKit.Proto.IngressInfo.Video
+  commentId: P:LiveKit.Proto.IngressInfo.Video
+  id: Video
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: IngressInfo.Video
+  fullName: LiveKit.Proto.IngressInfo.Video
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Video
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2387
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public IngressVideoOptions Video { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.IngressVideoOptions
+    content.vb: Public Property Video As IngressVideoOptions
+  overload: LiveKit.Proto.IngressInfo.Video*
+- uid: LiveKit.Proto.IngressInfo.RoomNameFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.RoomNameFieldNumber
+  id: RoomNameFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomNameFieldNumber
+  nameWithType: IngressInfo.RoomNameFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.RoomNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2397
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_name" field.
+  example: []
+  syntax:
+    content: public const int RoomNameFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomNameFieldNumber As Integer = 8
+- uid: LiveKit.Proto.IngressInfo.RoomName
+  commentId: P:LiveKit.Proto.IngressInfo.RoomName
+  id: RoomName
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomName
+  nameWithType: IngressInfo.RoomName
+  fullName: LiveKit.Proto.IngressInfo.RoomName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2399
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string RoomName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomName As String
+  overload: LiveKit.Proto.IngressInfo.RoomName*
+- uid: LiveKit.Proto.IngressInfo.ParticipantIdentityFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.ParticipantIdentityFieldNumber
+  id: ParticipantIdentityFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentityFieldNumber
+  nameWithType: IngressInfo.ParticipantIdentityFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.ParticipantIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2409
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_identity" field.
+  example: []
+  syntax:
+    content: public const int ParticipantIdentityFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantIdentityFieldNumber As Integer = 9
+- uid: LiveKit.Proto.IngressInfo.ParticipantIdentity
+  commentId: P:LiveKit.Proto.IngressInfo.ParticipantIdentity
+  id: ParticipantIdentity
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentity
+  nameWithType: IngressInfo.ParticipantIdentity
+  fullName: LiveKit.Proto.IngressInfo.ParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2411
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ParticipantIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantIdentity As String
+  overload: LiveKit.Proto.IngressInfo.ParticipantIdentity*
+- uid: LiveKit.Proto.IngressInfo.ParticipantNameFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.ParticipantNameFieldNumber
+  id: ParticipantNameFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantNameFieldNumber
+  nameWithType: IngressInfo.ParticipantNameFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.ParticipantNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2421
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_name" field.
+  example: []
+  syntax:
+    content: public const int ParticipantNameFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantNameFieldNumber As Integer = 10
+- uid: LiveKit.Proto.IngressInfo.ParticipantName
+  commentId: P:LiveKit.Proto.IngressInfo.ParticipantName
+  id: ParticipantName
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantName
+  nameWithType: IngressInfo.ParticipantName
+  fullName: LiveKit.Proto.IngressInfo.ParticipantName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2423
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ParticipantName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantName As String
+  overload: LiveKit.Proto.IngressInfo.ParticipantName*
+- uid: LiveKit.Proto.IngressInfo.ParticipantMetadataFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.ParticipantMetadataFieldNumber
+  id: ParticipantMetadataFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantMetadataFieldNumber
+  nameWithType: IngressInfo.ParticipantMetadataFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.ParticipantMetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantMetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2433
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_metadata" field.
+  example: []
+  syntax:
+    content: public const int ParticipantMetadataFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantMetadataFieldNumber As Integer = 14
+- uid: LiveKit.Proto.IngressInfo.ParticipantMetadata
+  commentId: P:LiveKit.Proto.IngressInfo.ParticipantMetadata
+  id: ParticipantMetadata
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantMetadata
+  nameWithType: IngressInfo.ParticipantMetadata
+  fullName: LiveKit.Proto.IngressInfo.ParticipantMetadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2435
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ParticipantMetadata { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantMetadata As String
+  overload: LiveKit.Proto.IngressInfo.ParticipantMetadata*
+- uid: LiveKit.Proto.IngressInfo.ReusableFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.ReusableFieldNumber
+  id: ReusableFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ReusableFieldNumber
+  nameWithType: IngressInfo.ReusableFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.ReusableFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReusableFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2445
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "reusable" field.
+  example: []
+  syntax:
+    content: public const int ReusableFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const ReusableFieldNumber As Integer = 11
+- uid: LiveKit.Proto.IngressInfo.Reusable
+  commentId: P:LiveKit.Proto.IngressInfo.Reusable
+  id: Reusable
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Reusable
+  nameWithType: IngressInfo.Reusable
+  fullName: LiveKit.Proto.IngressInfo.Reusable
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Reusable
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2447
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool Reusable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Reusable As Boolean
+  overload: LiveKit.Proto.IngressInfo.Reusable*
+- uid: LiveKit.Proto.IngressInfo.StateFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.StateFieldNumber
+  id: StateFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: StateFieldNumber
+  nameWithType: IngressInfo.StateFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.StateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2457
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "state" field.
+  example: []
+  syntax:
+    content: public const int StateFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const StateFieldNumber As Integer = 12
+- uid: LiveKit.Proto.IngressInfo.State
+  commentId: P:LiveKit.Proto.IngressInfo.State
+  id: State
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: IngressInfo.State
+  fullName: LiveKit.Proto.IngressInfo.State
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: State
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2462
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Description of error/stream non compliance and debug info for publisher otherwise (received bitrate, resolution, bandwidth)
+  example: []
+  syntax:
+    content: public IngressState State { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.IngressState
+    content.vb: Public Property State As IngressState
+  overload: LiveKit.Proto.IngressInfo.State*
+- uid: LiveKit.Proto.IngressInfo.EnabledFieldNumber
+  commentId: F:LiveKit.Proto.IngressInfo.EnabledFieldNumber
+  id: EnabledFieldNumber
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: EnabledFieldNumber
+  nameWithType: IngressInfo.EnabledFieldNumber
+  fullName: LiveKit.Proto.IngressInfo.EnabledFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnabledFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2472
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "enabled" field.
+  example: []
+  syntax:
+    content: public const int EnabledFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const EnabledFieldNumber As Integer = 16
+- uid: LiveKit.Proto.IngressInfo.Enabled
+  commentId: P:LiveKit.Proto.IngressInfo.Enabled
+  id: Enabled
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: IngressInfo.Enabled
+  fullName: LiveKit.Proto.IngressInfo.Enabled
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Enabled
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2479
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: The default value is true and when set to false, the new connection attempts will be rejected
+  example: []
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: LiveKit.Proto.IngressInfo.Enabled*
+- uid: LiveKit.Proto.IngressInfo.HasEnabled
+  commentId: P:LiveKit.Proto.IngressInfo.HasEnabled
+  id: HasEnabled
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: HasEnabled
+  nameWithType: IngressInfo.HasEnabled
+  fullName: LiveKit.Proto.IngressInfo.HasEnabled
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasEnabled
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2489
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "enabled" field is set
+  example: []
+  syntax:
+    content: public bool HasEnabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasEnabled As Boolean
+  overload: LiveKit.Proto.IngressInfo.HasEnabled*
+- uid: LiveKit.Proto.IngressInfo.ClearEnabled
+  commentId: M:LiveKit.Proto.IngressInfo.ClearEnabled
+  id: ClearEnabled
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ClearEnabled()
+  nameWithType: IngressInfo.ClearEnabled()
+  fullName: LiveKit.Proto.IngressInfo.ClearEnabled()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearEnabled
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2495
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "enabled" field
+  example: []
+  syntax:
+    content: public void ClearEnabled()
+    content.vb: Public Sub ClearEnabled()
+  overload: LiveKit.Proto.IngressInfo.ClearEnabled*
+- uid: LiveKit.Proto.IngressInfo.Equals(System.Object)
+  commentId: M:LiveKit.Proto.IngressInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: IngressInfo.Equals(object)
+  fullName: LiveKit.Proto.IngressInfo.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2501
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.IngressInfo.Equals*
+  nameWithType.vb: IngressInfo.Equals(Object)
+  fullName.vb: LiveKit.Proto.IngressInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.IngressInfo.Equals(LiveKit.Proto.IngressInfo)
+  commentId: M:LiveKit.Proto.IngressInfo.Equals(LiveKit.Proto.IngressInfo)
+  id: Equals(LiveKit.Proto.IngressInfo)
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(IngressInfo)
+  nameWithType: IngressInfo.Equals(IngressInfo)
+  fullName: LiveKit.Proto.IngressInfo.Equals(LiveKit.Proto.IngressInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2507
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(IngressInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.IngressInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As IngressInfo) As Boolean
+  overload: LiveKit.Proto.IngressInfo.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.IngressInfo}.Equals(LiveKit.Proto.IngressInfo)
+- uid: LiveKit.Proto.IngressInfo.GetHashCode
+  commentId: M:LiveKit.Proto.IngressInfo.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: IngressInfo.GetHashCode()
+  fullName: LiveKit.Proto.IngressInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2535
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.IngressInfo.GetHashCode*
+- uid: LiveKit.Proto.IngressInfo.ToString
+  commentId: M:LiveKit.Proto.IngressInfo.ToString
+  id: ToString
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: IngressInfo.ToString()
+  fullName: LiveKit.Proto.IngressInfo.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2561
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.IngressInfo.ToString*
+- uid: LiveKit.Proto.IngressInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.IngressInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IngressInfo.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.IngressInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2567
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.IngressInfo.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.IngressInfo.CalculateSize
+  commentId: M:LiveKit.Proto.IngressInfo.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: IngressInfo.CalculateSize()
+  fullName: LiveKit.Proto.IngressInfo.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2717
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.IngressInfo.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.IngressInfo.MergeFrom(LiveKit.Proto.IngressInfo)
+  commentId: M:LiveKit.Proto.IngressInfo.MergeFrom(LiveKit.Proto.IngressInfo)
+  id: MergeFrom(LiveKit.Proto.IngressInfo)
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(IngressInfo)
+  nameWithType: IngressInfo.MergeFrom(IngressInfo)
+  fullName: LiveKit.Proto.IngressInfo.MergeFrom(LiveKit.Proto.IngressInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2775
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(IngressInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.IngressInfo
+    content.vb: Public Sub MergeFrom(other As IngressInfo)
+  overload: LiveKit.Proto.IngressInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}.MergeFrom(LiveKit.Proto.IngressInfo)
+- uid: LiveKit.Proto.IngressInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.IngressInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.IngressInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IngressInfo.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.IngressInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 2841
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.IngressInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.IngressInfo.html
+  name: IMessage<IngressInfo>
+  nameWithType: IMessage<IngressInfo>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.IngressInfo>
+  nameWithType.vb: IMessage(Of IngressInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.IngressInfo)
+  name.vb: IMessage(Of IngressInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.IngressInfo}
+  commentId: T:System.IEquatable{LiveKit.Proto.IngressInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<IngressInfo>
+  nameWithType: IEquatable<IngressInfo>
+  fullName: System.IEquatable<LiveKit.Proto.IngressInfo>
+  nameWithType.vb: IEquatable(Of IngressInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.IngressInfo)
+  name.vb: IEquatable(Of IngressInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.IngressInfo.html
+  name: IDeepCloneable<IngressInfo>
+  nameWithType: IDeepCloneable<IngressInfo>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.IngressInfo>
+  nameWithType.vb: IDeepCloneable(Of IngressInfo)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.IngressInfo)
+  name.vb: IDeepCloneable(Of IngressInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.IngressInfo.Parser*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Parser
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Parser
+  name: Parser
+  nameWithType: IngressInfo.Parser
+  fullName: LiveKit.Proto.IngressInfo.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.IngressInfo}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.IngressInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.IngressInfo.html
+  name: MessageParser<IngressInfo>
+  nameWithType: MessageParser<IngressInfo>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.IngressInfo>
+  nameWithType.vb: MessageParser(Of IngressInfo)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.IngressInfo)
+  name.vb: MessageParser(Of IngressInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.IngressInfo.Descriptor*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Descriptor
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Descriptor
+  name: Descriptor
+  nameWithType: IngressInfo.Descriptor
+  fullName: LiveKit.Proto.IngressInfo.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.IngressInfo.#ctor*
+  commentId: Overload:LiveKit.Proto.IngressInfo.#ctor
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo__ctor
+  name: IngressInfo
+  nameWithType: IngressInfo.IngressInfo
+  fullName: LiveKit.Proto.IngressInfo.IngressInfo
+  nameWithType.vb: IngressInfo.New
+  fullName.vb: LiveKit.Proto.IngressInfo.New
+  name.vb: New
+- uid: LiveKit.Proto.IngressInfo
+  commentId: T:LiveKit.Proto.IngressInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.IngressInfo.html
+  name: IngressInfo
+  nameWithType: IngressInfo
+  fullName: LiveKit.Proto.IngressInfo
+- uid: LiveKit.Proto.IngressInfo.Clone*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Clone
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Clone
+  name: Clone
+  nameWithType: IngressInfo.Clone
+  fullName: LiveKit.Proto.IngressInfo.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<IngressInfo>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.IngressInfo>.Clone()
+  nameWithType.vb: IDeepCloneable(Of IngressInfo).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.IngressInfo).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.IngressInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.IngressInfo.IngressId*
+  commentId: Overload:LiveKit.Proto.IngressInfo.IngressId
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_IngressId
+  name: IngressId
+  nameWithType: IngressInfo.IngressId
+  fullName: LiveKit.Proto.IngressInfo.IngressId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.IngressInfo.Name*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Name
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Name
+  name: Name
+  nameWithType: IngressInfo.Name
+  fullName: LiveKit.Proto.IngressInfo.Name
+- uid: LiveKit.Proto.IngressInfo.StreamKey*
+  commentId: Overload:LiveKit.Proto.IngressInfo.StreamKey
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_StreamKey
+  name: StreamKey
+  nameWithType: IngressInfo.StreamKey
+  fullName: LiveKit.Proto.IngressInfo.StreamKey
+- uid: LiveKit.Proto.IngressInfo.Url*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Url
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Url
+  name: Url
+  nameWithType: IngressInfo.Url
+  fullName: LiveKit.Proto.IngressInfo.Url
+- uid: LiveKit.Proto.IngressInfo.InputType*
+  commentId: Overload:LiveKit.Proto.IngressInfo.InputType
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_InputType
+  name: InputType
+  nameWithType: IngressInfo.InputType
+  fullName: LiveKit.Proto.IngressInfo.InputType
+- uid: LiveKit.Proto.IngressInput
+  commentId: T:LiveKit.Proto.IngressInput
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.IngressInput.html
+  name: IngressInput
+  nameWithType: IngressInput
+  fullName: LiveKit.Proto.IngressInput
+- uid: LiveKit.Proto.IngressInfo.BypassTranscoding*
+  commentId: Overload:LiveKit.Proto.IngressInfo.BypassTranscoding
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_BypassTranscoding
+  name: BypassTranscoding
+  nameWithType: IngressInfo.BypassTranscoding
+  fullName: LiveKit.Proto.IngressInfo.BypassTranscoding
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.IngressInfo.EnableTranscoding*
+  commentId: Overload:LiveKit.Proto.IngressInfo.EnableTranscoding
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_EnableTranscoding
+  name: EnableTranscoding
+  nameWithType: IngressInfo.EnableTranscoding
+  fullName: LiveKit.Proto.IngressInfo.EnableTranscoding
+- uid: LiveKit.Proto.IngressInfo.HasEnableTranscoding*
+  commentId: Overload:LiveKit.Proto.IngressInfo.HasEnableTranscoding
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_HasEnableTranscoding
+  name: HasEnableTranscoding
+  nameWithType: IngressInfo.HasEnableTranscoding
+  fullName: LiveKit.Proto.IngressInfo.HasEnableTranscoding
+- uid: LiveKit.Proto.IngressInfo.ClearEnableTranscoding*
+  commentId: Overload:LiveKit.Proto.IngressInfo.ClearEnableTranscoding
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_ClearEnableTranscoding
+  name: ClearEnableTranscoding
+  nameWithType: IngressInfo.ClearEnableTranscoding
+  fullName: LiveKit.Proto.IngressInfo.ClearEnableTranscoding
+- uid: LiveKit.Proto.IngressInfo.Audio*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Audio
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Audio
+  name: Audio
+  nameWithType: IngressInfo.Audio
+  fullName: LiveKit.Proto.IngressInfo.Audio
+- uid: LiveKit.Proto.IngressAudioOptions
+  commentId: T:LiveKit.Proto.IngressAudioOptions
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.IngressAudioOptions.html
+  name: IngressAudioOptions
+  nameWithType: IngressAudioOptions
+  fullName: LiveKit.Proto.IngressAudioOptions
+- uid: LiveKit.Proto.IngressInfo.Video*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Video
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Video
+  name: Video
+  nameWithType: IngressInfo.Video
+  fullName: LiveKit.Proto.IngressInfo.Video
+- uid: LiveKit.Proto.IngressVideoOptions
+  commentId: T:LiveKit.Proto.IngressVideoOptions
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.IngressVideoOptions.html
+  name: IngressVideoOptions
+  nameWithType: IngressVideoOptions
+  fullName: LiveKit.Proto.IngressVideoOptions
+- uid: LiveKit.Proto.IngressInfo.RoomName*
+  commentId: Overload:LiveKit.Proto.IngressInfo.RoomName
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_RoomName
+  name: RoomName
+  nameWithType: IngressInfo.RoomName
+  fullName: LiveKit.Proto.IngressInfo.RoomName
+- uid: LiveKit.Proto.IngressInfo.ParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.IngressInfo.ParticipantIdentity
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_ParticipantIdentity
+  name: ParticipantIdentity
+  nameWithType: IngressInfo.ParticipantIdentity
+  fullName: LiveKit.Proto.IngressInfo.ParticipantIdentity
+- uid: LiveKit.Proto.IngressInfo.ParticipantName*
+  commentId: Overload:LiveKit.Proto.IngressInfo.ParticipantName
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_ParticipantName
+  name: ParticipantName
+  nameWithType: IngressInfo.ParticipantName
+  fullName: LiveKit.Proto.IngressInfo.ParticipantName
+- uid: LiveKit.Proto.IngressInfo.ParticipantMetadata*
+  commentId: Overload:LiveKit.Proto.IngressInfo.ParticipantMetadata
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_ParticipantMetadata
+  name: ParticipantMetadata
+  nameWithType: IngressInfo.ParticipantMetadata
+  fullName: LiveKit.Proto.IngressInfo.ParticipantMetadata
+- uid: LiveKit.Proto.IngressInfo.Reusable*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Reusable
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Reusable
+  name: Reusable
+  nameWithType: IngressInfo.Reusable
+  fullName: LiveKit.Proto.IngressInfo.Reusable
+- uid: LiveKit.Proto.IngressInfo.State*
+  commentId: Overload:LiveKit.Proto.IngressInfo.State
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_State
+  name: State
+  nameWithType: IngressInfo.State
+  fullName: LiveKit.Proto.IngressInfo.State
+- uid: LiveKit.Proto.IngressState
+  commentId: T:LiveKit.Proto.IngressState
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.IngressState.html
+  name: IngressState
+  nameWithType: IngressState
+  fullName: LiveKit.Proto.IngressState
+- uid: LiveKit.Proto.IngressInfo.Enabled*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Enabled
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Enabled
+  name: Enabled
+  nameWithType: IngressInfo.Enabled
+  fullName: LiveKit.Proto.IngressInfo.Enabled
+- uid: LiveKit.Proto.IngressInfo.HasEnabled*
+  commentId: Overload:LiveKit.Proto.IngressInfo.HasEnabled
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_HasEnabled
+  name: HasEnabled
+  nameWithType: IngressInfo.HasEnabled
+  fullName: LiveKit.Proto.IngressInfo.HasEnabled
+- uid: LiveKit.Proto.IngressInfo.ClearEnabled*
+  commentId: Overload:LiveKit.Proto.IngressInfo.ClearEnabled
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_ClearEnabled
+  name: ClearEnabled
+  nameWithType: IngressInfo.ClearEnabled
+  fullName: LiveKit.Proto.IngressInfo.ClearEnabled
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.IngressInfo.Equals*
+  commentId: Overload:LiveKit.Proto.IngressInfo.Equals
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_Equals_System_Object_
+  name: Equals
+  nameWithType: IngressInfo.Equals
+  fullName: LiveKit.Proto.IngressInfo.Equals
+- uid: System.IEquatable{LiveKit.Proto.IngressInfo}.Equals(LiveKit.Proto.IngressInfo)
+  commentId: M:System.IEquatable{LiveKit.Proto.IngressInfo}.Equals(LiveKit.Proto.IngressInfo)
+  parent: System.IEquatable{LiveKit.Proto.IngressInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(IngressInfo)
+  nameWithType: IEquatable<IngressInfo>.Equals(IngressInfo)
+  fullName: System.IEquatable<LiveKit.Proto.IngressInfo>.Equals(LiveKit.Proto.IngressInfo)
+  nameWithType.vb: IEquatable(Of IngressInfo).Equals(IngressInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.IngressInfo).Equals(LiveKit.Proto.IngressInfo)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.IngressInfo}.Equals(LiveKit.Proto.IngressInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.IngressInfo}.Equals(LiveKit.Proto.IngressInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.IngressInfo.GetHashCode*
+  commentId: Overload:LiveKit.Proto.IngressInfo.GetHashCode
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: IngressInfo.GetHashCode
+  fullName: LiveKit.Proto.IngressInfo.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.IngressInfo.ToString*
+  commentId: Overload:LiveKit.Proto.IngressInfo.ToString
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_ToString
+  name: ToString
+  nameWithType: IngressInfo.ToString
+  fullName: LiveKit.Proto.IngressInfo.ToString
+- uid: LiveKit.Proto.IngressInfo.WriteTo*
+  commentId: Overload:LiveKit.Proto.IngressInfo.WriteTo
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: IngressInfo.WriteTo
+  fullName: LiveKit.Proto.IngressInfo.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.IngressInfo.CalculateSize*
+  commentId: Overload:LiveKit.Proto.IngressInfo.CalculateSize
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_CalculateSize
+  name: CalculateSize
+  nameWithType: IngressInfo.CalculateSize
+  fullName: LiveKit.Proto.IngressInfo.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.IngressInfo.MergeFrom*
+  commentId: Overload:LiveKit.Proto.IngressInfo.MergeFrom
+  href: LiveKit.Proto.IngressInfo.html#LiveKit_Proto_IngressInfo_MergeFrom_LiveKit_Proto_IngressInfo_
+  name: MergeFrom
+  nameWithType: IngressInfo.MergeFrom
+  fullName: LiveKit.Proto.IngressInfo.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}.MergeFrom(LiveKit.Proto.IngressInfo)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}.MergeFrom(LiveKit.Proto.IngressInfo)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.IngressInfo.html
+  name: MergeFrom(IngressInfo)
+  nameWithType: IMessage<IngressInfo>.MergeFrom(IngressInfo)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.IngressInfo>.MergeFrom(LiveKit.Proto.IngressInfo)
+  nameWithType.vb: IMessage(Of IngressInfo).MergeFrom(IngressInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.IngressInfo).MergeFrom(LiveKit.Proto.IngressInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}.MergeFrom(LiveKit.Proto.IngressInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.IngressInfo}.MergeFrom(LiveKit.Proto.IngressInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class S3Upload | livekit-server-sdk-aspnetcore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class S3Upload | livekit-server-sdk-aspnetcore ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/new/main/apiSpec/new?filename=LiveKit_Proto_S3Upload.md&amp;value=---%0Auid%3A%20LiveKit.Proto.S3Upload%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="livekit-server-sdk-aspnetcore">
+            livekit-server-sdk-aspnetcore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveKit.Proto.S3Upload">
+
+
+
+  <h1 id="LiveKit_Proto_S3Upload" data-uid="LiveKit.Proto.S3Upload" class="text-break">
+Class S3Upload  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6087"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveKit.html">LiveKit</a>.<a class="xref" href="LiveKit.Proto.html">Proto</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveKit.AspNetCore.ServerSdk.Abstractions.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class S3Upload : IMessage&lt;S3Upload&gt;, IEquatable&lt;S3Upload&gt;, IDeepCloneable&lt;S3Upload&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">S3Upload</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="LiveKit.Proto.S3Upload.html">S3Upload</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="LiveKit.Proto.S3Upload.html">S3Upload</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="LiveKit.Proto.S3Upload.html">S3Upload</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveKit_Proto_S3Upload__ctor_" data-uid="LiveKit.Proto.S3Upload.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload__ctor" data-uid="LiveKit.Proto.S3Upload.#ctor">
+  S3Upload()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public S3Upload()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload__ctor_" data-uid="LiveKit.Proto.S3Upload.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload__ctor_LiveKit_Proto_S3Upload_" data-uid="LiveKit.Proto.S3Upload.#ctor(LiveKit.Proto.S3Upload)">
+  S3Upload(S3Upload)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public S3Upload(S3Upload other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.S3Upload.html">S3Upload</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_AccessKeyFieldNumber" data-uid="LiveKit.Proto.S3Upload.AccessKeyFieldNumber">
+  AccessKeyFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;access_key&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AccessKeyFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_AssumeRoleArnFieldNumber" data-uid="LiveKit.Proto.S3Upload.AssumeRoleArnFieldNumber">
+  AssumeRoleArnFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;assume_role_arn&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AssumeRoleArnFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_AssumeRoleExternalIdFieldNumber" data-uid="LiveKit.Proto.S3Upload.AssumeRoleExternalIdFieldNumber">
+  AssumeRoleExternalIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;assume_role_external_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AssumeRoleExternalIdFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_BucketFieldNumber" data-uid="LiveKit.Proto.S3Upload.BucketFieldNumber">
+  BucketFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;bucket&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BucketFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_ContentDispositionFieldNumber" data-uid="LiveKit.Proto.S3Upload.ContentDispositionFieldNumber">
+  ContentDispositionFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;content_disposition&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ContentDispositionFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_EndpointFieldNumber" data-uid="LiveKit.Proto.S3Upload.EndpointFieldNumber">
+  EndpointFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;endpoint&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EndpointFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_ForcePathStyleFieldNumber" data-uid="LiveKit.Proto.S3Upload.ForcePathStyleFieldNumber">
+  ForcePathStyleFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;force_path_style&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ForcePathStyleFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_MetadataFieldNumber" data-uid="LiveKit.Proto.S3Upload.MetadataFieldNumber">
+  MetadataFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;metadata&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MetadataFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_ProxyFieldNumber" data-uid="LiveKit.Proto.S3Upload.ProxyFieldNumber">
+  ProxyFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;proxy&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ProxyFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_RegionFieldNumber" data-uid="LiveKit.Proto.S3Upload.RegionFieldNumber">
+  RegionFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;region&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RegionFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_SecretFieldNumber" data-uid="LiveKit.Proto.S3Upload.SecretFieldNumber">
+  SecretFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;secret&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SecretFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_SessionTokenFieldNumber" data-uid="LiveKit.Proto.S3Upload.SessionTokenFieldNumber">
+  SessionTokenFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;session_token&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SessionTokenFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_S3Upload_TaggingFieldNumber" data-uid="LiveKit.Proto.S3Upload.TaggingFieldNumber">
+  TaggingFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;tagging&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TaggingFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="LiveKit_Proto_S3Upload_AccessKey_" data-uid="LiveKit.Proto.S3Upload.AccessKey*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_AccessKey" data-uid="LiveKit.Proto.S3Upload.AccessKey">
+  AccessKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AccessKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_AssumeRoleArn_" data-uid="LiveKit.Proto.S3Upload.AssumeRoleArn*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_AssumeRoleArn" data-uid="LiveKit.Proto.S3Upload.AssumeRoleArn">
+  AssumeRoleArn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ARN of the role to assume for file upload. Egress will make an AssumeRole API call using the provided access_key and secret to assume that role. On LiveKit cloud, this is only available on accounts that have the feature enabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AssumeRoleArn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_AssumeRoleExternalId_" data-uid="LiveKit.Proto.S3Upload.AssumeRoleExternalId*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_AssumeRoleExternalId" data-uid="LiveKit.Proto.S3Upload.AssumeRoleExternalId">
+  AssumeRoleExternalId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ExternalID to use when assuming role for upload</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AssumeRoleExternalId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Bucket_" data-uid="LiveKit.Proto.S3Upload.Bucket*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Bucket" data-uid="LiveKit.Proto.S3Upload.Bucket">
+  Bucket
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Bucket { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_ContentDisposition_" data-uid="LiveKit.Proto.S3Upload.ContentDisposition*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_ContentDisposition" data-uid="LiveKit.Proto.S3Upload.ContentDisposition">
+  ContentDisposition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Content-Disposition header</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ContentDisposition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Descriptor_" data-uid="LiveKit.Proto.S3Upload.Descriptor*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Descriptor" data-uid="LiveKit.Proto.S3Upload.Descriptor">
+  Descriptor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6099"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Endpoint_" data-uid="LiveKit.Proto.S3Upload.Endpoint*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Endpoint" data-uid="LiveKit.Proto.S3Upload.Endpoint">
+  Endpoint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Endpoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_ForcePathStyle_" data-uid="LiveKit.Proto.S3Upload.ForcePathStyle*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_ForcePathStyle" data-uid="LiveKit.Proto.S3Upload.ForcePathStyle">
+  ForcePathStyle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ForcePathStyle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Metadata_" data-uid="LiveKit.Proto.S3Upload.Metadata*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Metadata" data-uid="LiveKit.Proto.S3Upload.Metadata">
+  Metadata
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MapField&lt;string, string&gt; Metadata { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MapField</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Parser_" data-uid="LiveKit.Proto.S3Upload.Parser*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Parser" data-uid="LiveKit.Proto.S3Upload.Parser">
+  Parser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6095"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;S3Upload&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="LiveKit.Proto.S3Upload.html">S3Upload</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Proxy_" data-uid="LiveKit.Proto.S3Upload.Proxy*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Proxy" data-uid="LiveKit.Proto.S3Upload.Proxy">
+  Proxy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProxyConfig Proxy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.ProxyConfig.html">ProxyConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Region_" data-uid="LiveKit.Proto.S3Upload.Region*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Region" data-uid="LiveKit.Proto.S3Upload.Region">
+  Region
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Region { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Secret_" data-uid="LiveKit.Proto.S3Upload.Secret*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Secret" data-uid="LiveKit.Proto.S3Upload.Secret">
+  Secret
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Secret { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_SessionToken_" data-uid="LiveKit.Proto.S3Upload.SessionToken*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_SessionToken" data-uid="LiveKit.Proto.S3Upload.SessionToken">
+  SessionToken
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SessionToken { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Tagging_" data-uid="LiveKit.Proto.S3Upload.Tagging*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Tagging" data-uid="LiveKit.Proto.S3Upload.Tagging">
+  Tagging
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Tagging { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveKit_Proto_S3Upload_CalculateSize_" data-uid="LiveKit.Proto.S3Upload.CalculateSize*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_CalculateSize" data-uid="LiveKit.Proto.S3Upload.CalculateSize">
+  CalculateSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the size of this message in Protocol Buffer wire format, in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of bytes required to write this message
+to a coded output stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Clone_" data-uid="LiveKit.Proto.S3Upload.Clone*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Clone" data-uid="LiveKit.Proto.S3Upload.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a deep clone of this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public S3Upload Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.S3Upload.html">S3Upload</a></dt>
+    <dd><p>A deep clone of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Equals_" data-uid="LiveKit.Proto.S3Upload.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Equals_LiveKit_Proto_S3Upload_" data-uid="LiveKit.Proto.S3Upload.Equals(LiveKit.Proto.S3Upload)">
+  Equals(S3Upload)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(S3Upload other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.S3Upload.html">S3Upload</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_Equals_" data-uid="LiveKit.Proto.S3Upload.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_Equals_System_Object_" data-uid="LiveKit.Proto.S3Upload.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6308"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_GetHashCode_" data-uid="LiveKit.Proto.S3Upload.GetHashCode*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_GetHashCode" data-uid="LiveKit.Proto.S3Upload.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_MergeFrom_" data-uid="LiveKit.Proto.S3Upload.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="LiveKit.Proto.S3Upload.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6584"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the data from the specified coded input stream with the current message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_S3Upload_MergeFrom_Google_Protobuf_CodedInputStream__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_MergeFrom_" data-uid="LiveKit.Proto.S3Upload.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_MergeFrom_LiveKit_Proto_S3Upload_" data-uid="LiveKit.Proto.S3Upload.MergeFrom(LiveKit.Proto.S3Upload)">
+  MergeFrom(S3Upload)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6535"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the given message into this one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(S3Upload other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.S3Upload.html">S3Upload</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_S3Upload_MergeFrom_LiveKit_Proto_S3Upload__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_ToString_" data-uid="LiveKit.Proto.S3Upload.ToString*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_ToString" data-uid="LiveKit.Proto.S3Upload.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_S3Upload_WriteTo_" data-uid="LiveKit.Proto.S3Upload.WriteTo*"></a>
+
+  <h3 id="LiveKit_Proto_S3Upload_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="LiveKit.Proto.S3Upload.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6368"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the data to the given coded output stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd><p>Coded output stream to write the data to. Must not be null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs/#L6087" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

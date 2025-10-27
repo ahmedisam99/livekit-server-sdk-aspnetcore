@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SIPTransferStatus
+  commentId: T:LiveKit.Proto.SIPTransferStatus
+  id: SIPTransferStatus
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SIPTransferStatus.StsTransferFailed
+  - LiveKit.Proto.SIPTransferStatus.StsTransferOngoing
+  - LiveKit.Proto.SIPTransferStatus.StsTransferSuccessful
+  langs:
+  - csharp
+  - vb
+  name: SIPTransferStatus
+  nameWithType: SIPTransferStatus
+  fullName: LiveKit.Proto.SIPTransferStatus
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SIPTransferStatus
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 511
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum SIPTransferStatus
+    content.vb: Public Enum SIPTransferStatus
+- uid: LiveKit.Proto.SIPTransferStatus.StsTransferOngoing
+  commentId: F:LiveKit.Proto.SIPTransferStatus.StsTransferOngoing
+  id: StsTransferOngoing
+  parent: LiveKit.Proto.SIPTransferStatus
+  langs:
+  - csharp
+  - vb
+  name: StsTransferOngoing
+  nameWithType: SIPTransferStatus.StsTransferOngoing
+  fullName: LiveKit.Proto.SIPTransferStatus.StsTransferOngoing
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StsTransferOngoing
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 512
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("STS_TRANSFER_ONGOING")]
+
+      StsTransferOngoing = 0
+    return:
+      type: LiveKit.Proto.SIPTransferStatus
+    content.vb: >-
+      <OriginalName("STS_TRANSFER_ONGOING")>
+
+      StsTransferOngoing = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: STS_TRANSFER_ONGOING
+- uid: LiveKit.Proto.SIPTransferStatus.StsTransferFailed
+  commentId: F:LiveKit.Proto.SIPTransferStatus.StsTransferFailed
+  id: StsTransferFailed
+  parent: LiveKit.Proto.SIPTransferStatus
+  langs:
+  - csharp
+  - vb
+  name: StsTransferFailed
+  nameWithType: SIPTransferStatus.StsTransferFailed
+  fullName: LiveKit.Proto.SIPTransferStatus.StsTransferFailed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StsTransferFailed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 513
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("STS_TRANSFER_FAILED")]
+
+      StsTransferFailed = 1
+    return:
+      type: LiveKit.Proto.SIPTransferStatus
+    content.vb: >-
+      <OriginalName("STS_TRANSFER_FAILED")>
+
+      StsTransferFailed = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: STS_TRANSFER_FAILED
+- uid: LiveKit.Proto.SIPTransferStatus.StsTransferSuccessful
+  commentId: F:LiveKit.Proto.SIPTransferStatus.StsTransferSuccessful
+  id: StsTransferSuccessful
+  parent: LiveKit.Proto.SIPTransferStatus
+  langs:
+  - csharp
+  - vb
+  name: StsTransferSuccessful
+  nameWithType: SIPTransferStatus.StsTransferSuccessful
+  fullName: LiveKit.Proto.SIPTransferStatus.StsTransferSuccessful
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StsTransferSuccessful
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 514
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("STS_TRANSFER_SUCCESSFUL")]
+
+      StsTransferSuccessful = 2
+    return:
+      type: LiveKit.Proto.SIPTransferStatus
+    content.vb: >-
+      <OriginalName("STS_TRANSFER_SUCCESSFUL")>
+
+      StsTransferSuccessful = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: STS_TRANSFER_SUCCESSFUL
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.SIPTransferStatus
+  commentId: T:LiveKit.Proto.SIPTransferStatus
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPTransferStatus.html
+  name: SIPTransferStatus
+  nameWithType: SIPTransferStatus
+  fullName: LiveKit.Proto.SIPTransferStatus

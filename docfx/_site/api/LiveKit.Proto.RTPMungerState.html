@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RTPMungerState | livekit-server-sdk-aspnetcore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RTPMungerState | livekit-server-sdk-aspnetcore ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/new/main/apiSpec/new?filename=LiveKit_Proto_RTPMungerState.md&amp;value=---%0Auid%3A%20LiveKit.Proto.RTPMungerState%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="livekit-server-sdk-aspnetcore">
+            livekit-server-sdk-aspnetcore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveKit.Proto.RTPMungerState">
+
+
+
+  <h1 id="LiveKit_Proto_RTPMungerState" data-uid="LiveKit.Proto.RTPMungerState" class="text-break">
+Class RTPMungerState  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16559"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveKit.html">LiveKit</a>.<a class="xref" href="LiveKit.Proto.html">Proto</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveKit.AspNetCore.ServerSdk.Abstractions.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class RTPMungerState : IMessage&lt;RTPMungerState&gt;, IEquatable&lt;RTPMungerState&gt;, IDeepCloneable&lt;RTPMungerState&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RTPMungerState</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="LiveKit.Proto.RTPMungerState.html">RTPMungerState</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="LiveKit.Proto.RTPMungerState.html">RTPMungerState</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="LiveKit.Proto.RTPMungerState.html">RTPMungerState</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveKit_Proto_RTPMungerState__ctor_" data-uid="LiveKit.Proto.RTPMungerState.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState__ctor" data-uid="LiveKit.Proto.RTPMungerState.#ctor">
+  RTPMungerState()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16583"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTPMungerState()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState__ctor_" data-uid="LiveKit.Proto.RTPMungerState.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState__ctor_LiveKit_Proto_RTPMungerState_" data-uid="LiveKit.Proto.RTPMungerState.#ctor(LiveKit.Proto.RTPMungerState)">
+  RTPMungerState(RTPMungerState)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16591"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTPMungerState(RTPMungerState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.RTPMungerState.html">RTPMungerState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ExtLastSequenceNumberFieldNumber" data-uid="LiveKit.Proto.RTPMungerState.ExtLastSequenceNumberFieldNumber">
+  ExtLastSequenceNumberFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16610"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;ext_last_sequence_number&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtLastSequenceNumberFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ExtLastTimestampFieldNumber" data-uid="LiveKit.Proto.RTPMungerState.ExtLastTimestampFieldNumber">
+  ExtLastTimestampFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16634"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;ext_last_timestamp&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtLastTimestampFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ExtSecondLastSequenceNumberFieldNumber" data-uid="LiveKit.Proto.RTPMungerState.ExtSecondLastSequenceNumberFieldNumber">
+  ExtSecondLastSequenceNumberFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16622"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;ext_second_last_sequence_number&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtSecondLastSequenceNumberFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ExtSecondLastTimestampFieldNumber" data-uid="LiveKit.Proto.RTPMungerState.ExtSecondLastTimestampFieldNumber">
+  ExtSecondLastTimestampFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16646"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;ext_second_last_timestamp&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ExtSecondLastTimestampFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_RTPMungerState_LastMarkerFieldNumber" data-uid="LiveKit.Proto.RTPMungerState.LastMarkerFieldNumber">
+  LastMarkerFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16658"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;last_marker&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int LastMarkerFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_RTPMungerState_SecondLastMarkerFieldNumber" data-uid="LiveKit.Proto.RTPMungerState.SecondLastMarkerFieldNumber">
+  SecondLastMarkerFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16670"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;second_last_marker&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SecondLastMarkerFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="LiveKit_Proto_RTPMungerState_Descriptor_" data-uid="LiveKit.Proto.RTPMungerState.Descriptor*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_Descriptor" data-uid="LiveKit.Proto.RTPMungerState.Descriptor">
+  Descriptor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16571"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_ExtLastSequenceNumber_" data-uid="LiveKit.Proto.RTPMungerState.ExtLastSequenceNumber*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ExtLastSequenceNumber" data-uid="LiveKit.Proto.RTPMungerState.ExtLastSequenceNumber">
+  ExtLastSequenceNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16612"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ExtLastSequenceNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_ExtLastTimestamp_" data-uid="LiveKit.Proto.RTPMungerState.ExtLastTimestamp*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ExtLastTimestamp" data-uid="LiveKit.Proto.RTPMungerState.ExtLastTimestamp">
+  ExtLastTimestamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16636"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ExtLastTimestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_ExtSecondLastSequenceNumber_" data-uid="LiveKit.Proto.RTPMungerState.ExtSecondLastSequenceNumber*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ExtSecondLastSequenceNumber" data-uid="LiveKit.Proto.RTPMungerState.ExtSecondLastSequenceNumber">
+  ExtSecondLastSequenceNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16624"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ExtSecondLastSequenceNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_ExtSecondLastTimestamp_" data-uid="LiveKit.Proto.RTPMungerState.ExtSecondLastTimestamp*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ExtSecondLastTimestamp" data-uid="LiveKit.Proto.RTPMungerState.ExtSecondLastTimestamp">
+  ExtSecondLastTimestamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16648"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ExtSecondLastTimestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_LastMarker_" data-uid="LiveKit.Proto.RTPMungerState.LastMarker*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_LastMarker" data-uid="LiveKit.Proto.RTPMungerState.LastMarker">
+  LastMarker
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16660"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LastMarker { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_Parser_" data-uid="LiveKit.Proto.RTPMungerState.Parser*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_Parser" data-uid="LiveKit.Proto.RTPMungerState.Parser">
+  Parser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16567"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;RTPMungerState&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="LiveKit.Proto.RTPMungerState.html">RTPMungerState</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_SecondLastMarker_" data-uid="LiveKit.Proto.RTPMungerState.SecondLastMarker*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_SecondLastMarker" data-uid="LiveKit.Proto.RTPMungerState.SecondLastMarker">
+  SecondLastMarker
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16672"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SecondLastMarker { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveKit_Proto_RTPMungerState_CalculateSize_" data-uid="LiveKit.Proto.RTPMungerState.CalculateSize*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_CalculateSize" data-uid="LiveKit.Proto.RTPMungerState.CalculateSize">
+  CalculateSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16797"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the size of this message in Protocol Buffer wire format, in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of bytes required to write this message
+to a coded output stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_Clone_" data-uid="LiveKit.Proto.RTPMungerState.Clone*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_Clone" data-uid="LiveKit.Proto.RTPMungerState.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16603"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a deep clone of this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTPMungerState Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.RTPMungerState.html">RTPMungerState</a></dt>
+    <dd><p>A deep clone of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_Equals_" data-uid="LiveKit.Proto.RTPMungerState.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_Equals_LiveKit_Proto_RTPMungerState_" data-uid="LiveKit.Proto.RTPMungerState.Equals(LiveKit.Proto.RTPMungerState)">
+  Equals(RTPMungerState)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16687"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(RTPMungerState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.RTPMungerState.html">RTPMungerState</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_Equals_" data-uid="LiveKit.Proto.RTPMungerState.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_Equals_System_Object_" data-uid="LiveKit.Proto.RTPMungerState.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16681"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_GetHashCode_" data-uid="LiveKit.Proto.RTPMungerState.GetHashCode*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_GetHashCode" data-uid="LiveKit.Proto.RTPMungerState.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16705"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_MergeFrom_" data-uid="LiveKit.Proto.RTPMungerState.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="LiveKit.Proto.RTPMungerState.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16852"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the data from the specified coded input stream with the current message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_RTPMungerState_MergeFrom_Google_Protobuf_CodedInputStream__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_MergeFrom_" data-uid="LiveKit.Proto.RTPMungerState.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_MergeFrom_LiveKit_Proto_RTPMungerState_" data-uid="LiveKit.Proto.RTPMungerState.MergeFrom(LiveKit.Proto.RTPMungerState)">
+  MergeFrom(RTPMungerState)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16825"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the given message into this one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(RTPMungerState other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.RTPMungerState.html">RTPMungerState</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_RTPMungerState_MergeFrom_LiveKit_Proto_RTPMungerState__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_ToString_" data-uid="LiveKit.Proto.RTPMungerState.ToString*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_ToString" data-uid="LiveKit.Proto.RTPMungerState.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16721"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_RTPMungerState_WriteTo_" data-uid="LiveKit.Proto.RTPMungerState.WriteTo*"></a>
+
+  <h3 id="LiveKit_Proto_RTPMungerState_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="LiveKit.Proto.RTPMungerState.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16727"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the data to the given coded output stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd><p>Coded output stream to write the data to. Must not be null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L16559" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

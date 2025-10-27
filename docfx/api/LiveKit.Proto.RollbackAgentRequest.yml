@@ -1,0 +1,1541 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.RollbackAgentRequest
+  commentId: T:LiveKit.Proto.RollbackAgentRequest
+  id: RollbackAgentRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.RollbackAgentRequest.#ctor
+  - LiveKit.Proto.RollbackAgentRequest.#ctor(LiveKit.Proto.RollbackAgentRequest)
+  - LiveKit.Proto.RollbackAgentRequest.AgentId
+  - LiveKit.Proto.RollbackAgentRequest.AgentIdFieldNumber
+  - LiveKit.Proto.RollbackAgentRequest.AgentName
+  - LiveKit.Proto.RollbackAgentRequest.AgentNameFieldNumber
+  - LiveKit.Proto.RollbackAgentRequest.CalculateSize
+  - LiveKit.Proto.RollbackAgentRequest.Clone
+  - LiveKit.Proto.RollbackAgentRequest.Descriptor
+  - LiveKit.Proto.RollbackAgentRequest.Equals(LiveKit.Proto.RollbackAgentRequest)
+  - LiveKit.Proto.RollbackAgentRequest.Equals(System.Object)
+  - LiveKit.Proto.RollbackAgentRequest.GetHashCode
+  - LiveKit.Proto.RollbackAgentRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.RollbackAgentRequest.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  - LiveKit.Proto.RollbackAgentRequest.Parser
+  - LiveKit.Proto.RollbackAgentRequest.ToString
+  - LiveKit.Proto.RollbackAgentRequest.Version
+  - LiveKit.Proto.RollbackAgentRequest.VersionFieldNumber
+  - LiveKit.Proto.RollbackAgentRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: RollbackAgentRequest
+  nameWithType: RollbackAgentRequest
+  fullName: LiveKit.Proto.RollbackAgentRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RollbackAgentRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6193
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class RollbackAgentRequest : IMessage<RollbackAgentRequest>, IEquatable<RollbackAgentRequest>, IDeepCloneable<RollbackAgentRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class RollbackAgentRequest Implements IMessage(Of RollbackAgentRequest), IEquatable(Of RollbackAgentRequest), IDeepCloneable(Of RollbackAgentRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}
+  - System.IEquatable{LiveKit.Proto.RollbackAgentRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.RollbackAgentRequest.Parser
+  commentId: P:LiveKit.Proto.RollbackAgentRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: RollbackAgentRequest.Parser
+  fullName: LiveKit.Proto.RollbackAgentRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6201
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<RollbackAgentRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.RollbackAgentRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of RollbackAgentRequest)
+  overload: LiveKit.Proto.RollbackAgentRequest.Parser*
+- uid: LiveKit.Proto.RollbackAgentRequest.Descriptor
+  commentId: P:LiveKit.Proto.RollbackAgentRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: RollbackAgentRequest.Descriptor
+  fullName: LiveKit.Proto.RollbackAgentRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6205
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.RollbackAgentRequest.Descriptor*
+- uid: LiveKit.Proto.RollbackAgentRequest.#ctor
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: RollbackAgentRequest()
+  nameWithType: RollbackAgentRequest.RollbackAgentRequest()
+  fullName: LiveKit.Proto.RollbackAgentRequest.RollbackAgentRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6217
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RollbackAgentRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.RollbackAgentRequest.#ctor*
+  nameWithType.vb: RollbackAgentRequest.New()
+  fullName.vb: LiveKit.Proto.RollbackAgentRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.RollbackAgentRequest.#ctor(LiveKit.Proto.RollbackAgentRequest)
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.#ctor(LiveKit.Proto.RollbackAgentRequest)
+  id: '#ctor(LiveKit.Proto.RollbackAgentRequest)'
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: RollbackAgentRequest(RollbackAgentRequest)
+  nameWithType: RollbackAgentRequest.RollbackAgentRequest(RollbackAgentRequest)
+  fullName: LiveKit.Proto.RollbackAgentRequest.RollbackAgentRequest(LiveKit.Proto.RollbackAgentRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6225
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RollbackAgentRequest(RollbackAgentRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RollbackAgentRequest
+    content.vb: Public Sub New(other As RollbackAgentRequest)
+  overload: LiveKit.Proto.RollbackAgentRequest.#ctor*
+  nameWithType.vb: RollbackAgentRequest.New(RollbackAgentRequest)
+  fullName.vb: LiveKit.Proto.RollbackAgentRequest.New(LiveKit.Proto.RollbackAgentRequest)
+  name.vb: New(RollbackAgentRequest)
+- uid: LiveKit.Proto.RollbackAgentRequest.Clone
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: RollbackAgentRequest.Clone()
+  fullName: LiveKit.Proto.RollbackAgentRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6234
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public RollbackAgentRequest Clone()
+    return:
+      type: LiveKit.Proto.RollbackAgentRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As RollbackAgentRequest
+  overload: LiveKit.Proto.RollbackAgentRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}.Clone
+- uid: LiveKit.Proto.RollbackAgentRequest.AgentIdFieldNumber
+  commentId: F:LiveKit.Proto.RollbackAgentRequest.AgentIdFieldNumber
+  id: AgentIdFieldNumber
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentIdFieldNumber
+  nameWithType: RollbackAgentRequest.AgentIdFieldNumber
+  fullName: LiveKit.Proto.RollbackAgentRequest.AgentIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6241
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "agent_id" field.
+  example: []
+  syntax:
+    content: public const int AgentIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const AgentIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.RollbackAgentRequest.AgentId
+  commentId: P:LiveKit.Proto.RollbackAgentRequest.AgentId
+  id: AgentId
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentId
+  nameWithType: RollbackAgentRequest.AgentId
+  fullName: LiveKit.Proto.RollbackAgentRequest.AgentId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6243
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AgentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AgentId As String
+  overload: LiveKit.Proto.RollbackAgentRequest.AgentId*
+- uid: LiveKit.Proto.RollbackAgentRequest.AgentNameFieldNumber
+  commentId: F:LiveKit.Proto.RollbackAgentRequest.AgentNameFieldNumber
+  id: AgentNameFieldNumber
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentNameFieldNumber
+  nameWithType: RollbackAgentRequest.AgentNameFieldNumber
+  fullName: LiveKit.Proto.RollbackAgentRequest.AgentNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6253
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "agent_name" field.
+  example: []
+  syntax:
+    content: public const int AgentNameFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AgentNameFieldNumber As Integer = 2
+- uid: LiveKit.Proto.RollbackAgentRequest.AgentName
+  commentId: P:LiveKit.Proto.RollbackAgentRequest.AgentName
+  id: AgentName
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentName
+  nameWithType: RollbackAgentRequest.AgentName
+  fullName: LiveKit.Proto.RollbackAgentRequest.AgentName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6255
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AgentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AgentName As String
+  overload: LiveKit.Proto.RollbackAgentRequest.AgentName*
+- uid: LiveKit.Proto.RollbackAgentRequest.VersionFieldNumber
+  commentId: F:LiveKit.Proto.RollbackAgentRequest.VersionFieldNumber
+  id: VersionFieldNumber
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: VersionFieldNumber
+  nameWithType: RollbackAgentRequest.VersionFieldNumber
+  fullName: LiveKit.Proto.RollbackAgentRequest.VersionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VersionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6265
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "version" field.
+  example: []
+  syntax:
+    content: public const int VersionFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const VersionFieldNumber As Integer = 3
+- uid: LiveKit.Proto.RollbackAgentRequest.Version
+  commentId: P:LiveKit.Proto.RollbackAgentRequest.Version
+  id: Version
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: RollbackAgentRequest.Version
+  fullName: LiveKit.Proto.RollbackAgentRequest.Version
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Version
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6267
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Version As String
+  overload: LiveKit.Proto.RollbackAgentRequest.Version*
+- uid: LiveKit.Proto.RollbackAgentRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: RollbackAgentRequest.Equals(object)
+  fullName: LiveKit.Proto.RollbackAgentRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6276
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.RollbackAgentRequest.Equals*
+  nameWithType.vb: RollbackAgentRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.RollbackAgentRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.RollbackAgentRequest.Equals(LiveKit.Proto.RollbackAgentRequest)
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.Equals(LiveKit.Proto.RollbackAgentRequest)
+  id: Equals(LiveKit.Proto.RollbackAgentRequest)
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(RollbackAgentRequest)
+  nameWithType: RollbackAgentRequest.Equals(RollbackAgentRequest)
+  fullName: LiveKit.Proto.RollbackAgentRequest.Equals(LiveKit.Proto.RollbackAgentRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6282
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(RollbackAgentRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RollbackAgentRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As RollbackAgentRequest) As Boolean
+  overload: LiveKit.Proto.RollbackAgentRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.RollbackAgentRequest}.Equals(LiveKit.Proto.RollbackAgentRequest)
+- uid: LiveKit.Proto.RollbackAgentRequest.GetHashCode
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RollbackAgentRequest.GetHashCode()
+  fullName: LiveKit.Proto.RollbackAgentRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6297
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.RollbackAgentRequest.GetHashCode*
+- uid: LiveKit.Proto.RollbackAgentRequest.ToString
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RollbackAgentRequest.ToString()
+  fullName: LiveKit.Proto.RollbackAgentRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6310
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.RollbackAgentRequest.ToString*
+- uid: LiveKit.Proto.RollbackAgentRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: RollbackAgentRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.RollbackAgentRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6316
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.RollbackAgentRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.RollbackAgentRequest.CalculateSize
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: RollbackAgentRequest.CalculateSize()
+  fullName: LiveKit.Proto.RollbackAgentRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6362
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.RollbackAgentRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.RollbackAgentRequest.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  id: MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(RollbackAgentRequest)
+  nameWithType: RollbackAgentRequest.MergeFrom(RollbackAgentRequest)
+  fullName: LiveKit.Proto.RollbackAgentRequest.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6381
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(RollbackAgentRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RollbackAgentRequest
+    content.vb: Public Sub MergeFrom(other As RollbackAgentRequest)
+  overload: LiveKit.Proto.RollbackAgentRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+- uid: LiveKit.Proto.RollbackAgentRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.RollbackAgentRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.RollbackAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: RollbackAgentRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.RollbackAgentRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 6399
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.RollbackAgentRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.RollbackAgentRequest.html
+  name: IMessage<RollbackAgentRequest>
+  nameWithType: IMessage<RollbackAgentRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.RollbackAgentRequest>
+  nameWithType.vb: IMessage(Of RollbackAgentRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.RollbackAgentRequest)
+  name.vb: IMessage(Of RollbackAgentRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.RollbackAgentRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.RollbackAgentRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RollbackAgentRequest>
+  nameWithType: IEquatable<RollbackAgentRequest>
+  fullName: System.IEquatable<LiveKit.Proto.RollbackAgentRequest>
+  nameWithType.vb: IEquatable(Of RollbackAgentRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.RollbackAgentRequest)
+  name.vb: IEquatable(Of RollbackAgentRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.RollbackAgentRequest.html
+  name: IDeepCloneable<RollbackAgentRequest>
+  nameWithType: IDeepCloneable<RollbackAgentRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.RollbackAgentRequest>
+  nameWithType.vb: IDeepCloneable(Of RollbackAgentRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.RollbackAgentRequest)
+  name.vb: IDeepCloneable(Of RollbackAgentRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.RollbackAgentRequest.Parser*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.Parser
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_Parser
+  name: Parser
+  nameWithType: RollbackAgentRequest.Parser
+  fullName: LiveKit.Proto.RollbackAgentRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.RollbackAgentRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.RollbackAgentRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.RollbackAgentRequest.html
+  name: MessageParser<RollbackAgentRequest>
+  nameWithType: MessageParser<RollbackAgentRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.RollbackAgentRequest>
+  nameWithType.vb: MessageParser(Of RollbackAgentRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.RollbackAgentRequest)
+  name.vb: MessageParser(Of RollbackAgentRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.RollbackAgentRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.Descriptor
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_Descriptor
+  name: Descriptor
+  nameWithType: RollbackAgentRequest.Descriptor
+  fullName: LiveKit.Proto.RollbackAgentRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.RollbackAgentRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.#ctor
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest__ctor
+  name: RollbackAgentRequest
+  nameWithType: RollbackAgentRequest.RollbackAgentRequest
+  fullName: LiveKit.Proto.RollbackAgentRequest.RollbackAgentRequest
+  nameWithType.vb: RollbackAgentRequest.New
+  fullName.vb: LiveKit.Proto.RollbackAgentRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.RollbackAgentRequest
+  commentId: T:LiveKit.Proto.RollbackAgentRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RollbackAgentRequest.html
+  name: RollbackAgentRequest
+  nameWithType: RollbackAgentRequest
+  fullName: LiveKit.Proto.RollbackAgentRequest
+- uid: LiveKit.Proto.RollbackAgentRequest.Clone*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.Clone
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_Clone
+  name: Clone
+  nameWithType: RollbackAgentRequest.Clone
+  fullName: LiveKit.Proto.RollbackAgentRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<RollbackAgentRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.RollbackAgentRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of RollbackAgentRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.RollbackAgentRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RollbackAgentRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.RollbackAgentRequest.AgentId*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.AgentId
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_AgentId
+  name: AgentId
+  nameWithType: RollbackAgentRequest.AgentId
+  fullName: LiveKit.Proto.RollbackAgentRequest.AgentId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.RollbackAgentRequest.AgentName*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.AgentName
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_AgentName
+  name: AgentName
+  nameWithType: RollbackAgentRequest.AgentName
+  fullName: LiveKit.Proto.RollbackAgentRequest.AgentName
+- uid: LiveKit.Proto.RollbackAgentRequest.Version*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.Version
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_Version
+  name: Version
+  nameWithType: RollbackAgentRequest.Version
+  fullName: LiveKit.Proto.RollbackAgentRequest.Version
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.RollbackAgentRequest.Equals*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.Equals
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: RollbackAgentRequest.Equals
+  fullName: LiveKit.Proto.RollbackAgentRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.RollbackAgentRequest}.Equals(LiveKit.Proto.RollbackAgentRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.RollbackAgentRequest}.Equals(LiveKit.Proto.RollbackAgentRequest)
+  parent: System.IEquatable{LiveKit.Proto.RollbackAgentRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RollbackAgentRequest)
+  nameWithType: IEquatable<RollbackAgentRequest>.Equals(RollbackAgentRequest)
+  fullName: System.IEquatable<LiveKit.Proto.RollbackAgentRequest>.Equals(LiveKit.Proto.RollbackAgentRequest)
+  nameWithType.vb: IEquatable(Of RollbackAgentRequest).Equals(RollbackAgentRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.RollbackAgentRequest).Equals(LiveKit.Proto.RollbackAgentRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.RollbackAgentRequest}.Equals(LiveKit.Proto.RollbackAgentRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.RollbackAgentRequest}.Equals(LiveKit.Proto.RollbackAgentRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RollbackAgentRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.GetHashCode
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: RollbackAgentRequest.GetHashCode
+  fullName: LiveKit.Proto.RollbackAgentRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RollbackAgentRequest.ToString*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.ToString
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_ToString
+  name: ToString
+  nameWithType: RollbackAgentRequest.ToString
+  fullName: LiveKit.Proto.RollbackAgentRequest.ToString
+- uid: LiveKit.Proto.RollbackAgentRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.WriteTo
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: RollbackAgentRequest.WriteTo
+  fullName: LiveKit.Proto.RollbackAgentRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.RollbackAgentRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.CalculateSize
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: RollbackAgentRequest.CalculateSize
+  fullName: LiveKit.Proto.RollbackAgentRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RollbackAgentRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.RollbackAgentRequest.MergeFrom
+  href: LiveKit.Proto.RollbackAgentRequest.html#LiveKit_Proto_RollbackAgentRequest_MergeFrom_LiveKit_Proto_RollbackAgentRequest_
+  name: MergeFrom
+  nameWithType: RollbackAgentRequest.MergeFrom
+  fullName: LiveKit.Proto.RollbackAgentRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.RollbackAgentRequest.html
+  name: MergeFrom(RollbackAgentRequest)
+  nameWithType: IMessage<RollbackAgentRequest>.MergeFrom(RollbackAgentRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.RollbackAgentRequest>.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  nameWithType.vb: IMessage(Of RollbackAgentRequest).MergeFrom(RollbackAgentRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.RollbackAgentRequest).MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.RollbackAgentRequest}.MergeFrom(LiveKit.Proto.RollbackAgentRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.RollbackAgentRequest
+    name: RollbackAgentRequest
+    href: LiveKit.Proto.RollbackAgentRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

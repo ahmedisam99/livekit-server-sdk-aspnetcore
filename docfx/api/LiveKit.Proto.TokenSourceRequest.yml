@@ -1,0 +1,2161 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.TokenSourceRequest
+  commentId: T:LiveKit.Proto.TokenSourceRequest
+  id: TokenSourceRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.TokenSourceRequest.#ctor
+  - LiveKit.Proto.TokenSourceRequest.#ctor(LiveKit.Proto.TokenSourceRequest)
+  - LiveKit.Proto.TokenSourceRequest.CalculateSize
+  - LiveKit.Proto.TokenSourceRequest.ClearParticipantIdentity
+  - LiveKit.Proto.TokenSourceRequest.ClearParticipantMetadata
+  - LiveKit.Proto.TokenSourceRequest.ClearParticipantName
+  - LiveKit.Proto.TokenSourceRequest.ClearRoomName
+  - LiveKit.Proto.TokenSourceRequest.Clone
+  - LiveKit.Proto.TokenSourceRequest.Descriptor
+  - LiveKit.Proto.TokenSourceRequest.Equals(LiveKit.Proto.TokenSourceRequest)
+  - LiveKit.Proto.TokenSourceRequest.Equals(System.Object)
+  - LiveKit.Proto.TokenSourceRequest.GetHashCode
+  - LiveKit.Proto.TokenSourceRequest.HasParticipantIdentity
+  - LiveKit.Proto.TokenSourceRequest.HasParticipantMetadata
+  - LiveKit.Proto.TokenSourceRequest.HasParticipantName
+  - LiveKit.Proto.TokenSourceRequest.HasRoomName
+  - LiveKit.Proto.TokenSourceRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.TokenSourceRequest.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  - LiveKit.Proto.TokenSourceRequest.Parser
+  - LiveKit.Proto.TokenSourceRequest.ParticipantAttributes
+  - LiveKit.Proto.TokenSourceRequest.ParticipantAttributesFieldNumber
+  - LiveKit.Proto.TokenSourceRequest.ParticipantIdentity
+  - LiveKit.Proto.TokenSourceRequest.ParticipantIdentityFieldNumber
+  - LiveKit.Proto.TokenSourceRequest.ParticipantMetadata
+  - LiveKit.Proto.TokenSourceRequest.ParticipantMetadataFieldNumber
+  - LiveKit.Proto.TokenSourceRequest.ParticipantName
+  - LiveKit.Proto.TokenSourceRequest.ParticipantNameFieldNumber
+  - LiveKit.Proto.TokenSourceRequest.RoomConfig
+  - LiveKit.Proto.TokenSourceRequest.RoomConfigFieldNumber
+  - LiveKit.Proto.TokenSourceRequest.RoomName
+  - LiveKit.Proto.TokenSourceRequest.RoomNameFieldNumber
+  - LiveKit.Proto.TokenSourceRequest.ToString
+  - LiveKit.Proto.TokenSourceRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: TokenSourceRequest
+  nameWithType: TokenSourceRequest
+  fullName: LiveKit.Proto.TokenSourceRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TokenSourceRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 52
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class TokenSourceRequest : IMessage<TokenSourceRequest>, IEquatable<TokenSourceRequest>, IDeepCloneable<TokenSourceRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class TokenSourceRequest Implements IMessage(Of TokenSourceRequest), IEquatable(Of TokenSourceRequest), IDeepCloneable(Of TokenSourceRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}
+  - System.IEquatable{LiveKit.Proto.TokenSourceRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.TokenSourceRequest.Parser
+  commentId: P:LiveKit.Proto.TokenSourceRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: TokenSourceRequest.Parser
+  fullName: LiveKit.Proto.TokenSourceRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 60
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<TokenSourceRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.TokenSourceRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of TokenSourceRequest)
+  overload: LiveKit.Proto.TokenSourceRequest.Parser*
+- uid: LiveKit.Proto.TokenSourceRequest.Descriptor
+  commentId: P:LiveKit.Proto.TokenSourceRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: TokenSourceRequest.Descriptor
+  fullName: LiveKit.Proto.TokenSourceRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 64
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.TokenSourceRequest.Descriptor*
+- uid: LiveKit.Proto.TokenSourceRequest.#ctor
+  commentId: M:LiveKit.Proto.TokenSourceRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: TokenSourceRequest()
+  nameWithType: TokenSourceRequest.TokenSourceRequest()
+  fullName: LiveKit.Proto.TokenSourceRequest.TokenSourceRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 76
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TokenSourceRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.TokenSourceRequest.#ctor*
+  nameWithType.vb: TokenSourceRequest.New()
+  fullName.vb: LiveKit.Proto.TokenSourceRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.TokenSourceRequest.#ctor(LiveKit.Proto.TokenSourceRequest)
+  commentId: M:LiveKit.Proto.TokenSourceRequest.#ctor(LiveKit.Proto.TokenSourceRequest)
+  id: '#ctor(LiveKit.Proto.TokenSourceRequest)'
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: TokenSourceRequest(TokenSourceRequest)
+  nameWithType: TokenSourceRequest.TokenSourceRequest(TokenSourceRequest)
+  fullName: LiveKit.Proto.TokenSourceRequest.TokenSourceRequest(LiveKit.Proto.TokenSourceRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 84
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TokenSourceRequest(TokenSourceRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TokenSourceRequest
+    content.vb: Public Sub New(other As TokenSourceRequest)
+  overload: LiveKit.Proto.TokenSourceRequest.#ctor*
+  nameWithType.vb: TokenSourceRequest.New(TokenSourceRequest)
+  fullName.vb: LiveKit.Proto.TokenSourceRequest.New(LiveKit.Proto.TokenSourceRequest)
+  name.vb: New(TokenSourceRequest)
+- uid: LiveKit.Proto.TokenSourceRequest.Clone
+  commentId: M:LiveKit.Proto.TokenSourceRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: TokenSourceRequest.Clone()
+  fullName: LiveKit.Proto.TokenSourceRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 96
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public TokenSourceRequest Clone()
+    return:
+      type: LiveKit.Proto.TokenSourceRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As TokenSourceRequest
+  overload: LiveKit.Proto.TokenSourceRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}.Clone
+- uid: LiveKit.Proto.TokenSourceRequest.RoomNameFieldNumber
+  commentId: F:LiveKit.Proto.TokenSourceRequest.RoomNameFieldNumber
+  id: RoomNameFieldNumber
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomNameFieldNumber
+  nameWithType: TokenSourceRequest.RoomNameFieldNumber
+  fullName: LiveKit.Proto.TokenSourceRequest.RoomNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 103
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_name" field.
+  example: []
+  syntax:
+    content: public const int RoomNameFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomNameFieldNumber As Integer = 1
+- uid: LiveKit.Proto.TokenSourceRequest.RoomName
+  commentId: P:LiveKit.Proto.TokenSourceRequest.RoomName
+  id: RoomName
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomName
+  nameWithType: TokenSourceRequest.RoomName
+  fullName: LiveKit.Proto.TokenSourceRequest.RoomName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 110
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: The name of the room being requested when generating credentials
+  example: []
+  syntax:
+    content: public string RoomName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomName As String
+  overload: LiveKit.Proto.TokenSourceRequest.RoomName*
+- uid: LiveKit.Proto.TokenSourceRequest.HasRoomName
+  commentId: P:LiveKit.Proto.TokenSourceRequest.HasRoomName
+  id: HasRoomName
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: HasRoomName
+  nameWithType: TokenSourceRequest.HasRoomName
+  fullName: LiveKit.Proto.TokenSourceRequest.HasRoomName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasRoomName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 119
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "room_name" field is set
+  example: []
+  syntax:
+    content: public bool HasRoomName { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasRoomName As Boolean
+  overload: LiveKit.Proto.TokenSourceRequest.HasRoomName*
+- uid: LiveKit.Proto.TokenSourceRequest.ClearRoomName
+  commentId: M:LiveKit.Proto.TokenSourceRequest.ClearRoomName
+  id: ClearRoomName
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearRoomName()
+  nameWithType: TokenSourceRequest.ClearRoomName()
+  fullName: LiveKit.Proto.TokenSourceRequest.ClearRoomName()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearRoomName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 125
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "room_name" field
+  example: []
+  syntax:
+    content: public void ClearRoomName()
+    content.vb: Public Sub ClearRoomName()
+  overload: LiveKit.Proto.TokenSourceRequest.ClearRoomName*
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantNameFieldNumber
+  commentId: F:LiveKit.Proto.TokenSourceRequest.ParticipantNameFieldNumber
+  id: ParticipantNameFieldNumber
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantNameFieldNumber
+  nameWithType: TokenSourceRequest.ParticipantNameFieldNumber
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 132
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_name" field.
+  example: []
+  syntax:
+    content: public const int ParticipantNameFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantNameFieldNumber As Integer = 2
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantName
+  commentId: P:LiveKit.Proto.TokenSourceRequest.ParticipantName
+  id: ParticipantName
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantName
+  nameWithType: TokenSourceRequest.ParticipantName
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 139
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: The name of the participant being requested for this client when generating credentials
+  example: []
+  syntax:
+    content: public string ParticipantName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantName As String
+  overload: LiveKit.Proto.TokenSourceRequest.ParticipantName*
+- uid: LiveKit.Proto.TokenSourceRequest.HasParticipantName
+  commentId: P:LiveKit.Proto.TokenSourceRequest.HasParticipantName
+  id: HasParticipantName
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: HasParticipantName
+  nameWithType: TokenSourceRequest.HasParticipantName
+  fullName: LiveKit.Proto.TokenSourceRequest.HasParticipantName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasParticipantName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 148
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "participant_name" field is set
+  example: []
+  syntax:
+    content: public bool HasParticipantName { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasParticipantName As Boolean
+  overload: LiveKit.Proto.TokenSourceRequest.HasParticipantName*
+- uid: LiveKit.Proto.TokenSourceRequest.ClearParticipantName
+  commentId: M:LiveKit.Proto.TokenSourceRequest.ClearParticipantName
+  id: ClearParticipantName
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearParticipantName()
+  nameWithType: TokenSourceRequest.ClearParticipantName()
+  fullName: LiveKit.Proto.TokenSourceRequest.ClearParticipantName()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearParticipantName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 154
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "participant_name" field
+  example: []
+  syntax:
+    content: public void ClearParticipantName()
+    content.vb: Public Sub ClearParticipantName()
+  overload: LiveKit.Proto.TokenSourceRequest.ClearParticipantName*
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantIdentityFieldNumber
+  commentId: F:LiveKit.Proto.TokenSourceRequest.ParticipantIdentityFieldNumber
+  id: ParticipantIdentityFieldNumber
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentityFieldNumber
+  nameWithType: TokenSourceRequest.ParticipantIdentityFieldNumber
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 161
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_identity" field.
+  example: []
+  syntax:
+    content: public const int ParticipantIdentityFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantIdentityFieldNumber As Integer = 3
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantIdentity
+  commentId: P:LiveKit.Proto.TokenSourceRequest.ParticipantIdentity
+  id: ParticipantIdentity
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentity
+  nameWithType: TokenSourceRequest.ParticipantIdentity
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 168
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: The identity of the participant being requested for this client when generating credentials
+  example: []
+  syntax:
+    content: public string ParticipantIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantIdentity As String
+  overload: LiveKit.Proto.TokenSourceRequest.ParticipantIdentity*
+- uid: LiveKit.Proto.TokenSourceRequest.HasParticipantIdentity
+  commentId: P:LiveKit.Proto.TokenSourceRequest.HasParticipantIdentity
+  id: HasParticipantIdentity
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: HasParticipantIdentity
+  nameWithType: TokenSourceRequest.HasParticipantIdentity
+  fullName: LiveKit.Proto.TokenSourceRequest.HasParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 177
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "participant_identity" field is set
+  example: []
+  syntax:
+    content: public bool HasParticipantIdentity { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasParticipantIdentity As Boolean
+  overload: LiveKit.Proto.TokenSourceRequest.HasParticipantIdentity*
+- uid: LiveKit.Proto.TokenSourceRequest.ClearParticipantIdentity
+  commentId: M:LiveKit.Proto.TokenSourceRequest.ClearParticipantIdentity
+  id: ClearParticipantIdentity
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearParticipantIdentity()
+  nameWithType: TokenSourceRequest.ClearParticipantIdentity()
+  fullName: LiveKit.Proto.TokenSourceRequest.ClearParticipantIdentity()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 183
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "participant_identity" field
+  example: []
+  syntax:
+    content: public void ClearParticipantIdentity()
+    content.vb: Public Sub ClearParticipantIdentity()
+  overload: LiveKit.Proto.TokenSourceRequest.ClearParticipantIdentity*
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantMetadataFieldNumber
+  commentId: F:LiveKit.Proto.TokenSourceRequest.ParticipantMetadataFieldNumber
+  id: ParticipantMetadataFieldNumber
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantMetadataFieldNumber
+  nameWithType: TokenSourceRequest.ParticipantMetadataFieldNumber
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantMetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantMetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 190
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_metadata" field.
+  example: []
+  syntax:
+    content: public const int ParticipantMetadataFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantMetadataFieldNumber As Integer = 4
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantMetadata
+  commentId: P:LiveKit.Proto.TokenSourceRequest.ParticipantMetadata
+  id: ParticipantMetadata
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantMetadata
+  nameWithType: TokenSourceRequest.ParticipantMetadata
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantMetadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 197
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Any participant metadata being included along with the credentials generation operation
+  example: []
+  syntax:
+    content: public string ParticipantMetadata { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantMetadata As String
+  overload: LiveKit.Proto.TokenSourceRequest.ParticipantMetadata*
+- uid: LiveKit.Proto.TokenSourceRequest.HasParticipantMetadata
+  commentId: P:LiveKit.Proto.TokenSourceRequest.HasParticipantMetadata
+  id: HasParticipantMetadata
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: HasParticipantMetadata
+  nameWithType: TokenSourceRequest.HasParticipantMetadata
+  fullName: LiveKit.Proto.TokenSourceRequest.HasParticipantMetadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasParticipantMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 206
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "participant_metadata" field is set
+  example: []
+  syntax:
+    content: public bool HasParticipantMetadata { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasParticipantMetadata As Boolean
+  overload: LiveKit.Proto.TokenSourceRequest.HasParticipantMetadata*
+- uid: LiveKit.Proto.TokenSourceRequest.ClearParticipantMetadata
+  commentId: M:LiveKit.Proto.TokenSourceRequest.ClearParticipantMetadata
+  id: ClearParticipantMetadata
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearParticipantMetadata()
+  nameWithType: TokenSourceRequest.ClearParticipantMetadata()
+  fullName: LiveKit.Proto.TokenSourceRequest.ClearParticipantMetadata()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearParticipantMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 212
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "participant_metadata" field
+  example: []
+  syntax:
+    content: public void ClearParticipantMetadata()
+    content.vb: Public Sub ClearParticipantMetadata()
+  overload: LiveKit.Proto.TokenSourceRequest.ClearParticipantMetadata*
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantAttributesFieldNumber
+  commentId: F:LiveKit.Proto.TokenSourceRequest.ParticipantAttributesFieldNumber
+  id: ParticipantAttributesFieldNumber
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantAttributesFieldNumber
+  nameWithType: TokenSourceRequest.ParticipantAttributesFieldNumber
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantAttributesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantAttributesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 219
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_attributes" field.
+  example: []
+  syntax:
+    content: public const int ParticipantAttributesFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantAttributesFieldNumber As Integer = 5
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantAttributes
+  commentId: P:LiveKit.Proto.TokenSourceRequest.ParticipantAttributes
+  id: ParticipantAttributes
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantAttributes
+  nameWithType: TokenSourceRequest.ParticipantAttributes
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantAttributes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantAttributes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 226
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Any participant attributes being included along with the credentials generation operation
+  example: []
+  syntax:
+    content: public MapField<string, string> ParticipantAttributes { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property ParticipantAttributes As MapField(Of String, String)
+  overload: LiveKit.Proto.TokenSourceRequest.ParticipantAttributes*
+- uid: LiveKit.Proto.TokenSourceRequest.RoomConfigFieldNumber
+  commentId: F:LiveKit.Proto.TokenSourceRequest.RoomConfigFieldNumber
+  id: RoomConfigFieldNumber
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomConfigFieldNumber
+  nameWithType: TokenSourceRequest.RoomConfigFieldNumber
+  fullName: LiveKit.Proto.TokenSourceRequest.RoomConfigFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomConfigFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 233
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_config" field.
+  example: []
+  syntax:
+    content: public const int RoomConfigFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomConfigFieldNumber As Integer = 6
+- uid: LiveKit.Proto.TokenSourceRequest.RoomConfig
+  commentId: P:LiveKit.Proto.TokenSourceRequest.RoomConfig
+  id: RoomConfig
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomConfig
+  nameWithType: TokenSourceRequest.RoomConfig
+  fullName: LiveKit.Proto.TokenSourceRequest.RoomConfig
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomConfig
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 240
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    A RoomConfiguration object can be passed to request extra parameters should be included when
+
+    generating connection credentials - dispatching agents, defining egress settings, etc
+
+    More info: https://docs.livekit.io/home/get-started/authentication/#room-configuration
+  example: []
+  syntax:
+    content: public RoomConfiguration RoomConfig { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.RoomConfiguration
+    content.vb: Public Property RoomConfig As RoomConfiguration
+  overload: LiveKit.Proto.TokenSourceRequest.RoomConfig*
+- uid: LiveKit.Proto.TokenSourceRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.TokenSourceRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: TokenSourceRequest.Equals(object)
+  fullName: LiveKit.Proto.TokenSourceRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 249
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.TokenSourceRequest.Equals*
+  nameWithType.vb: TokenSourceRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.TokenSourceRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.TokenSourceRequest.Equals(LiveKit.Proto.TokenSourceRequest)
+  commentId: M:LiveKit.Proto.TokenSourceRequest.Equals(LiveKit.Proto.TokenSourceRequest)
+  id: Equals(LiveKit.Proto.TokenSourceRequest)
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(TokenSourceRequest)
+  nameWithType: TokenSourceRequest.Equals(TokenSourceRequest)
+  fullName: LiveKit.Proto.TokenSourceRequest.Equals(LiveKit.Proto.TokenSourceRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 255
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(TokenSourceRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TokenSourceRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As TokenSourceRequest) As Boolean
+  overload: LiveKit.Proto.TokenSourceRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.TokenSourceRequest}.Equals(LiveKit.Proto.TokenSourceRequest)
+- uid: LiveKit.Proto.TokenSourceRequest.GetHashCode
+  commentId: M:LiveKit.Proto.TokenSourceRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TokenSourceRequest.GetHashCode()
+  fullName: LiveKit.Proto.TokenSourceRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 273
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.TokenSourceRequest.GetHashCode*
+- uid: LiveKit.Proto.TokenSourceRequest.ToString
+  commentId: M:LiveKit.Proto.TokenSourceRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TokenSourceRequest.ToString()
+  fullName: LiveKit.Proto.TokenSourceRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 289
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.TokenSourceRequest.ToString*
+- uid: LiveKit.Proto.TokenSourceRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.TokenSourceRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: TokenSourceRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.TokenSourceRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 295
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.TokenSourceRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.TokenSourceRequest.CalculateSize
+  commentId: M:LiveKit.Proto.TokenSourceRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: TokenSourceRequest.CalculateSize()
+  fullName: LiveKit.Proto.TokenSourceRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 359
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.TokenSourceRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.TokenSourceRequest.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  commentId: M:LiveKit.Proto.TokenSourceRequest.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  id: MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(TokenSourceRequest)
+  nameWithType: TokenSourceRequest.MergeFrom(TokenSourceRequest)
+  fullName: LiveKit.Proto.TokenSourceRequest.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 385
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(TokenSourceRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TokenSourceRequest
+    content.vb: Public Sub MergeFrom(other As TokenSourceRequest)
+  overload: LiveKit.Proto.TokenSourceRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+- uid: LiveKit.Proto.TokenSourceRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.TokenSourceRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.TokenSourceRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: TokenSourceRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.TokenSourceRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitTokenSource.cs
+    startLine: 413
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.TokenSourceRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.TokenSourceRequest.html
+  name: IMessage<TokenSourceRequest>
+  nameWithType: IMessage<TokenSourceRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.TokenSourceRequest>
+  nameWithType.vb: IMessage(Of TokenSourceRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.TokenSourceRequest)
+  name.vb: IMessage(Of TokenSourceRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.TokenSourceRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.TokenSourceRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TokenSourceRequest>
+  nameWithType: IEquatable<TokenSourceRequest>
+  fullName: System.IEquatable<LiveKit.Proto.TokenSourceRequest>
+  nameWithType.vb: IEquatable(Of TokenSourceRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.TokenSourceRequest)
+  name.vb: IEquatable(Of TokenSourceRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.TokenSourceRequest.html
+  name: IDeepCloneable<TokenSourceRequest>
+  nameWithType: IDeepCloneable<TokenSourceRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.TokenSourceRequest>
+  nameWithType.vb: IDeepCloneable(Of TokenSourceRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.TokenSourceRequest)
+  name.vb: IDeepCloneable(Of TokenSourceRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.TokenSourceRequest.Parser*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.Parser
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_Parser
+  name: Parser
+  nameWithType: TokenSourceRequest.Parser
+  fullName: LiveKit.Proto.TokenSourceRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.TokenSourceRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.TokenSourceRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.TokenSourceRequest.html
+  name: MessageParser<TokenSourceRequest>
+  nameWithType: MessageParser<TokenSourceRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.TokenSourceRequest>
+  nameWithType.vb: MessageParser(Of TokenSourceRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.TokenSourceRequest)
+  name.vb: MessageParser(Of TokenSourceRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.TokenSourceRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.Descriptor
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_Descriptor
+  name: Descriptor
+  nameWithType: TokenSourceRequest.Descriptor
+  fullName: LiveKit.Proto.TokenSourceRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.TokenSourceRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.#ctor
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest__ctor
+  name: TokenSourceRequest
+  nameWithType: TokenSourceRequest.TokenSourceRequest
+  fullName: LiveKit.Proto.TokenSourceRequest.TokenSourceRequest
+  nameWithType.vb: TokenSourceRequest.New
+  fullName.vb: LiveKit.Proto.TokenSourceRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.TokenSourceRequest
+  commentId: T:LiveKit.Proto.TokenSourceRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TokenSourceRequest.html
+  name: TokenSourceRequest
+  nameWithType: TokenSourceRequest
+  fullName: LiveKit.Proto.TokenSourceRequest
+- uid: LiveKit.Proto.TokenSourceRequest.Clone*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.Clone
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_Clone
+  name: Clone
+  nameWithType: TokenSourceRequest.Clone
+  fullName: LiveKit.Proto.TokenSourceRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<TokenSourceRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.TokenSourceRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of TokenSourceRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.TokenSourceRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TokenSourceRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.TokenSourceRequest.RoomName*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.RoomName
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_RoomName
+  name: RoomName
+  nameWithType: TokenSourceRequest.RoomName
+  fullName: LiveKit.Proto.TokenSourceRequest.RoomName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.TokenSourceRequest.HasRoomName*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.HasRoomName
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_HasRoomName
+  name: HasRoomName
+  nameWithType: TokenSourceRequest.HasRoomName
+  fullName: LiveKit.Proto.TokenSourceRequest.HasRoomName
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.TokenSourceRequest.ClearRoomName*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ClearRoomName
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ClearRoomName
+  name: ClearRoomName
+  nameWithType: TokenSourceRequest.ClearRoomName
+  fullName: LiveKit.Proto.TokenSourceRequest.ClearRoomName
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantName*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ParticipantName
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ParticipantName
+  name: ParticipantName
+  nameWithType: TokenSourceRequest.ParticipantName
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantName
+- uid: LiveKit.Proto.TokenSourceRequest.HasParticipantName*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.HasParticipantName
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_HasParticipantName
+  name: HasParticipantName
+  nameWithType: TokenSourceRequest.HasParticipantName
+  fullName: LiveKit.Proto.TokenSourceRequest.HasParticipantName
+- uid: LiveKit.Proto.TokenSourceRequest.ClearParticipantName*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ClearParticipantName
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ClearParticipantName
+  name: ClearParticipantName
+  nameWithType: TokenSourceRequest.ClearParticipantName
+  fullName: LiveKit.Proto.TokenSourceRequest.ClearParticipantName
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ParticipantIdentity
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ParticipantIdentity
+  name: ParticipantIdentity
+  nameWithType: TokenSourceRequest.ParticipantIdentity
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantIdentity
+- uid: LiveKit.Proto.TokenSourceRequest.HasParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.HasParticipantIdentity
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_HasParticipantIdentity
+  name: HasParticipantIdentity
+  nameWithType: TokenSourceRequest.HasParticipantIdentity
+  fullName: LiveKit.Proto.TokenSourceRequest.HasParticipantIdentity
+- uid: LiveKit.Proto.TokenSourceRequest.ClearParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ClearParticipantIdentity
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ClearParticipantIdentity
+  name: ClearParticipantIdentity
+  nameWithType: TokenSourceRequest.ClearParticipantIdentity
+  fullName: LiveKit.Proto.TokenSourceRequest.ClearParticipantIdentity
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantMetadata*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ParticipantMetadata
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ParticipantMetadata
+  name: ParticipantMetadata
+  nameWithType: TokenSourceRequest.ParticipantMetadata
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantMetadata
+- uid: LiveKit.Proto.TokenSourceRequest.HasParticipantMetadata*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.HasParticipantMetadata
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_HasParticipantMetadata
+  name: HasParticipantMetadata
+  nameWithType: TokenSourceRequest.HasParticipantMetadata
+  fullName: LiveKit.Proto.TokenSourceRequest.HasParticipantMetadata
+- uid: LiveKit.Proto.TokenSourceRequest.ClearParticipantMetadata*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ClearParticipantMetadata
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ClearParticipantMetadata
+  name: ClearParticipantMetadata
+  nameWithType: TokenSourceRequest.ClearParticipantMetadata
+  fullName: LiveKit.Proto.TokenSourceRequest.ClearParticipantMetadata
+- uid: LiveKit.Proto.TokenSourceRequest.ParticipantAttributes*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ParticipantAttributes
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ParticipantAttributes
+  name: ParticipantAttributes
+  nameWithType: TokenSourceRequest.ParticipantAttributes
+  fullName: LiveKit.Proto.TokenSourceRequest.ParticipantAttributes
+- uid: Google.Protobuf.Collections.MapField{System.String,System.String}
+  commentId: T:Google.Protobuf.Collections.MapField{System.String,System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.MapField`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MapField<string, string>
+  nameWithType: MapField<string, string>
+  fullName: Google.Protobuf.Collections.MapField<string, string>
+  nameWithType.vb: MapField(Of String, String)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of String, String)
+  name.vb: MapField(Of String, String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.MapField`2
+  commentId: T:Google.Protobuf.Collections.MapField`2
+  isExternal: true
+  name: MapField<TKey, TValue>
+  nameWithType: MapField<TKey, TValue>
+  fullName: Google.Protobuf.Collections.MapField<TKey, TValue>
+  nameWithType.vb: MapField(Of TKey, TValue)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of TKey, TValue)
+  name.vb: MapField(Of TKey, TValue)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.TokenSourceRequest.RoomConfig*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.RoomConfig
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_RoomConfig
+  name: RoomConfig
+  nameWithType: TokenSourceRequest.RoomConfig
+  fullName: LiveKit.Proto.TokenSourceRequest.RoomConfig
+- uid: LiveKit.Proto.RoomConfiguration
+  commentId: T:LiveKit.Proto.RoomConfiguration
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RoomConfiguration.html
+  name: RoomConfiguration
+  nameWithType: RoomConfiguration
+  fullName: LiveKit.Proto.RoomConfiguration
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.TokenSourceRequest.Equals*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.Equals
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: TokenSourceRequest.Equals
+  fullName: LiveKit.Proto.TokenSourceRequest.Equals
+- uid: System.IEquatable{LiveKit.Proto.TokenSourceRequest}.Equals(LiveKit.Proto.TokenSourceRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.TokenSourceRequest}.Equals(LiveKit.Proto.TokenSourceRequest)
+  parent: System.IEquatable{LiveKit.Proto.TokenSourceRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(TokenSourceRequest)
+  nameWithType: IEquatable<TokenSourceRequest>.Equals(TokenSourceRequest)
+  fullName: System.IEquatable<LiveKit.Proto.TokenSourceRequest>.Equals(LiveKit.Proto.TokenSourceRequest)
+  nameWithType.vb: IEquatable(Of TokenSourceRequest).Equals(TokenSourceRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.TokenSourceRequest).Equals(LiveKit.Proto.TokenSourceRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.TokenSourceRequest}.Equals(LiveKit.Proto.TokenSourceRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.TokenSourceRequest}.Equals(LiveKit.Proto.TokenSourceRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TokenSourceRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.GetHashCode
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: TokenSourceRequest.GetHashCode
+  fullName: LiveKit.Proto.TokenSourceRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TokenSourceRequest.ToString*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.ToString
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_ToString
+  name: ToString
+  nameWithType: TokenSourceRequest.ToString
+  fullName: LiveKit.Proto.TokenSourceRequest.ToString
+- uid: LiveKit.Proto.TokenSourceRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.WriteTo
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: TokenSourceRequest.WriteTo
+  fullName: LiveKit.Proto.TokenSourceRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.TokenSourceRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.CalculateSize
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: TokenSourceRequest.CalculateSize
+  fullName: LiveKit.Proto.TokenSourceRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TokenSourceRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.TokenSourceRequest.MergeFrom
+  href: LiveKit.Proto.TokenSourceRequest.html#LiveKit_Proto_TokenSourceRequest_MergeFrom_LiveKit_Proto_TokenSourceRequest_
+  name: MergeFrom
+  nameWithType: TokenSourceRequest.MergeFrom
+  fullName: LiveKit.Proto.TokenSourceRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.TokenSourceRequest.html
+  name: MergeFrom(TokenSourceRequest)
+  nameWithType: IMessage<TokenSourceRequest>.MergeFrom(TokenSourceRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.TokenSourceRequest>.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  nameWithType.vb: IMessage(Of TokenSourceRequest).MergeFrom(TokenSourceRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.TokenSourceRequest).MergeFrom(LiveKit.Proto.TokenSourceRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.TokenSourceRequest}.MergeFrom(LiveKit.Proto.TokenSourceRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.TokenSourceRequest
+    name: TokenSourceRequest
+    href: LiveKit.Proto.TokenSourceRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

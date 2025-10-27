@@ -1,0 +1,2253 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.DialWhatsAppCallRequest
+  commentId: T:LiveKit.Proto.DialWhatsAppCallRequest
+  id: DialWhatsAppCallRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.DialWhatsAppCallRequest.#ctor
+  - LiveKit.Proto.DialWhatsAppCallRequest.#ctor(LiveKit.Proto.DialWhatsAppCallRequest)
+  - LiveKit.Proto.DialWhatsAppCallRequest.Agents
+  - LiveKit.Proto.DialWhatsAppCallRequest.AgentsFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.CalculateSize
+  - LiveKit.Proto.DialWhatsAppCallRequest.Clone
+  - LiveKit.Proto.DialWhatsAppCallRequest.Descriptor
+  - LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountry
+  - LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountryFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  - LiveKit.Proto.DialWhatsAppCallRequest.Equals(System.Object)
+  - LiveKit.Proto.DialWhatsAppCallRequest.GetHashCode
+  - LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  - LiveKit.Proto.DialWhatsAppCallRequest.Parser
+  - LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributes
+  - LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributesFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentity
+  - LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentityFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadata
+  - LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadataFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.ParticipantName
+  - LiveKit.Proto.DialWhatsAppCallRequest.ParticipantNameFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.RoomName
+  - LiveKit.Proto.DialWhatsAppCallRequest.RoomNameFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.ToString
+  - LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKey
+  - LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKeyFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData
+  - LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackDataFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberId
+  - LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberIdFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumberFieldNumber
+  - LiveKit.Proto.DialWhatsAppCallRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: DialWhatsAppCallRequest
+  nameWithType: DialWhatsAppCallRequest
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DialWhatsAppCallRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 92
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class DialWhatsAppCallRequest : IMessage<DialWhatsAppCallRequest>, IEquatable<DialWhatsAppCallRequest>, IDeepCloneable<DialWhatsAppCallRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class DialWhatsAppCallRequest Implements IMessage(Of DialWhatsAppCallRequest), IEquatable(Of DialWhatsAppCallRequest), IDeepCloneable(Of DialWhatsAppCallRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}
+  - System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Parser
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: DialWhatsAppCallRequest.Parser
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 100
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<DialWhatsAppCallRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.DialWhatsAppCallRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of DialWhatsAppCallRequest)
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.Parser*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Descriptor
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: DialWhatsAppCallRequest.Descriptor
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 104
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.Descriptor*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.#ctor
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: DialWhatsAppCallRequest()
+  nameWithType: DialWhatsAppCallRequest.DialWhatsAppCallRequest()
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.DialWhatsAppCallRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 116
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DialWhatsAppCallRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.#ctor*
+  nameWithType.vb: DialWhatsAppCallRequest.New()
+  fullName.vb: LiveKit.Proto.DialWhatsAppCallRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.#ctor(LiveKit.Proto.DialWhatsAppCallRequest)
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.#ctor(LiveKit.Proto.DialWhatsAppCallRequest)
+  id: '#ctor(LiveKit.Proto.DialWhatsAppCallRequest)'
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: DialWhatsAppCallRequest(DialWhatsAppCallRequest)
+  nameWithType: DialWhatsAppCallRequest.DialWhatsAppCallRequest(DialWhatsAppCallRequest)
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.DialWhatsAppCallRequest(LiveKit.Proto.DialWhatsAppCallRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 124
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DialWhatsAppCallRequest(DialWhatsAppCallRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DialWhatsAppCallRequest
+    content.vb: Public Sub New(other As DialWhatsAppCallRequest)
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.#ctor*
+  nameWithType.vb: DialWhatsAppCallRequest.New(DialWhatsAppCallRequest)
+  fullName.vb: LiveKit.Proto.DialWhatsAppCallRequest.New(LiveKit.Proto.DialWhatsAppCallRequest)
+  name.vb: New(DialWhatsAppCallRequest)
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Clone
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: DialWhatsAppCallRequest.Clone()
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 141
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public DialWhatsAppCallRequest Clone()
+    return:
+      type: LiveKit.Proto.DialWhatsAppCallRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As DialWhatsAppCallRequest
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}.Clone
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberIdFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberIdFieldNumber
+  id: WhatsappPhoneNumberIdFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WhatsappPhoneNumberIdFieldNumber
+  nameWithType: DialWhatsAppCallRequest.WhatsappPhoneNumberIdFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhatsappPhoneNumberIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 148
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "whatsapp_phone_number_id" field.
+  example: []
+  syntax:
+    content: public const int WhatsappPhoneNumberIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const WhatsappPhoneNumberIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberId
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberId
+  id: WhatsappPhoneNumberId
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WhatsappPhoneNumberId
+  nameWithType: DialWhatsAppCallRequest.WhatsappPhoneNumberId
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhatsappPhoneNumberId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 153
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: The number of the business that is initiating the call
+  example: []
+  syntax:
+    content: public string WhatsappPhoneNumberId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WhatsappPhoneNumberId As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberId*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumberFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumberFieldNumber
+  id: WhatsappToPhoneNumberFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WhatsappToPhoneNumberFieldNumber
+  nameWithType: DialWhatsAppCallRequest.WhatsappToPhoneNumberFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumberFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhatsappToPhoneNumberFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 163
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "whatsapp_to_phone_number" field.
+  example: []
+  syntax:
+    content: public const int WhatsappToPhoneNumberFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const WhatsappToPhoneNumberFieldNumber As Integer = 2
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumber
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumber
+  id: WhatsappToPhoneNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WhatsappToPhoneNumber
+  nameWithType: DialWhatsAppCallRequest.WhatsappToPhoneNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumber
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhatsappToPhoneNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 168
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: The number of the user that is supossed to receive the call
+  example: []
+  syntax:
+    content: public string WhatsappToPhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WhatsappToPhoneNumber As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumber*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKeyFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKeyFieldNumber
+  id: WhatsappApiKeyFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WhatsappApiKeyFieldNumber
+  nameWithType: DialWhatsAppCallRequest.WhatsappApiKeyFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKeyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhatsappApiKeyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 178
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "whatsapp_api_key" field.
+  example: []
+  syntax:
+    content: public const int WhatsappApiKeyFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const WhatsappApiKeyFieldNumber As Integer = 3
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKey
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKey
+  id: WhatsappApiKey
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WhatsappApiKey
+  nameWithType: DialWhatsAppCallRequest.WhatsappApiKey
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKey
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhatsappApiKey
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 183
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: The API key of the business that is initiating the call
+  example: []
+  syntax:
+    content: public string WhatsappApiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WhatsappApiKey As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKey*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackDataFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackDataFieldNumber
+  id: WhatsappBizOpaqueCallbackDataFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WhatsappBizOpaqueCallbackDataFieldNumber
+  nameWithType: DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackDataFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackDataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhatsappBizOpaqueCallbackDataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 193
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "whatsapp_biz_opaque_callback_data" field.
+  example: []
+  syntax:
+    content: public const int WhatsappBizOpaqueCallbackDataFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const WhatsappBizOpaqueCallbackDataFieldNumber As Integer = 4
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData
+  id: WhatsappBizOpaqueCallbackData
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WhatsappBizOpaqueCallbackData
+  nameWithType: DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhatsappBizOpaqueCallbackData
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 198
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: An arbitrary string you can pass in that is useful for tracking and logging purposes.
+  example: []
+  syntax:
+    content: public string WhatsappBizOpaqueCallbackData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property WhatsappBizOpaqueCallbackData As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.RoomNameFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.RoomNameFieldNumber
+  id: RoomNameFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomNameFieldNumber
+  nameWithType: DialWhatsAppCallRequest.RoomNameFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.RoomNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 208
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_name" field.
+  example: []
+  syntax:
+    content: public const int RoomNameFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomNameFieldNumber As Integer = 5
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.RoomName
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.RoomName
+  id: RoomName
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomName
+  nameWithType: DialWhatsAppCallRequest.RoomName
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.RoomName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 213
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: What LiveKit room should this participant be connected too
+  example: []
+  syntax:
+    content: public string RoomName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomName As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.RoomName*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.AgentsFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.AgentsFieldNumber
+  id: AgentsFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentsFieldNumber
+  nameWithType: DialWhatsAppCallRequest.AgentsFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.AgentsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 223
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "agents" field.
+  example: []
+  syntax:
+    content: public const int AgentsFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const AgentsFieldNumber As Integer = 6
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Agents
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.Agents
+  id: Agents
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: Agents
+  nameWithType: DialWhatsAppCallRequest.Agents
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Agents
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Agents
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 230
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Optional agents to dispatch the call to
+  example: []
+  syntax:
+    content: public RepeatedField<RoomAgentDispatch> Agents { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.RoomAgentDispatch}
+    content.vb: Public ReadOnly Property Agents As RepeatedField(Of RoomAgentDispatch)
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.Agents*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentityFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentityFieldNumber
+  id: ParticipantIdentityFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentityFieldNumber
+  nameWithType: DialWhatsAppCallRequest.ParticipantIdentityFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 237
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_identity" field.
+  example: []
+  syntax:
+    content: public const int ParticipantIdentityFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantIdentityFieldNumber As Integer = 7
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentity
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentity
+  id: ParticipantIdentity
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentity
+  nameWithType: DialWhatsAppCallRequest.ParticipantIdentity
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 242
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Optional identity of the participant in LiveKit room
+  example: []
+  syntax:
+    content: public string ParticipantIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantIdentity As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentity*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantNameFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantNameFieldNumber
+  id: ParticipantNameFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantNameFieldNumber
+  nameWithType: DialWhatsAppCallRequest.ParticipantNameFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 252
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_name" field.
+  example: []
+  syntax:
+    content: public const int ParticipantNameFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantNameFieldNumber As Integer = 8
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantName
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantName
+  id: ParticipantName
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantName
+  nameWithType: DialWhatsAppCallRequest.ParticipantName
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 257
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Optional name of the participant in LiveKit room
+  example: []
+  syntax:
+    content: public string ParticipantName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantName As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantName*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadataFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadataFieldNumber
+  id: ParticipantMetadataFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantMetadataFieldNumber
+  nameWithType: DialWhatsAppCallRequest.ParticipantMetadataFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantMetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 267
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_metadata" field.
+  example: []
+  syntax:
+    content: public const int ParticipantMetadataFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantMetadataFieldNumber As Integer = 9
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadata
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadata
+  id: ParticipantMetadata
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantMetadata
+  nameWithType: DialWhatsAppCallRequest.ParticipantMetadata
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 272
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Optional user-defined metadata. Will be attached to a created Participant in the room.
+  example: []
+  syntax:
+    content: public string ParticipantMetadata { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantMetadata As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadata*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributesFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributesFieldNumber
+  id: ParticipantAttributesFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantAttributesFieldNumber
+  nameWithType: DialWhatsAppCallRequest.ParticipantAttributesFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantAttributesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 282
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_attributes" field.
+  example: []
+  syntax:
+    content: public const int ParticipantAttributesFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantAttributesFieldNumber As Integer = 10
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributes
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributes
+  id: ParticipantAttributes
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantAttributes
+  nameWithType: DialWhatsAppCallRequest.ParticipantAttributes
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantAttributes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 289
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Optional user-defined attributes. Will be attached to a created Participant in the room.
+  example: []
+  syntax:
+    content: public MapField<string, string> ParticipantAttributes { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property ParticipantAttributes As MapField(Of String, String)
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributes*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountryFieldNumber
+  commentId: F:LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountryFieldNumber
+  id: DestinationCountryFieldNumber
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationCountryFieldNumber
+  nameWithType: DialWhatsAppCallRequest.DestinationCountryFieldNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountryFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationCountryFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 296
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "destination_country" field.
+  example: []
+  syntax:
+    content: public const int DestinationCountryFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const DestinationCountryFieldNumber As Integer = 11
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountry
+  commentId: P:LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountry
+  id: DestinationCountry
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationCountry
+  nameWithType: DialWhatsAppCallRequest.DestinationCountry
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountry
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationCountry
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 301
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Country where the call terminates as ISO 3166-1 alpha-2 (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). This will be used by the livekit infrastructure to route calls.
+  example: []
+  syntax:
+    content: public string DestinationCountry { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DestinationCountry As String
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountry*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: DialWhatsAppCallRequest.Equals(object)
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 310
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.Equals*
+  nameWithType.vb: DialWhatsAppCallRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.DialWhatsAppCallRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  id: Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(DialWhatsAppCallRequest)
+  nameWithType: DialWhatsAppCallRequest.Equals(DialWhatsAppCallRequest)
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 316
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(DialWhatsAppCallRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DialWhatsAppCallRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As DialWhatsAppCallRequest) As Boolean
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.GetHashCode
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: DialWhatsAppCallRequest.GetHashCode()
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 339
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.GetHashCode*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ToString
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DialWhatsAppCallRequest.ToString()
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 360
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.ToString*
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: DialWhatsAppCallRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 366
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.CalculateSize
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: DialWhatsAppCallRequest.CalculateSize()
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 464
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  id: MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(DialWhatsAppCallRequest)
+  nameWithType: DialWhatsAppCallRequest.MergeFrom(DialWhatsAppCallRequest)
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 503
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(DialWhatsAppCallRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DialWhatsAppCallRequest
+    content.vb: Public Sub MergeFrom(other As DialWhatsAppCallRequest)
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.DialWhatsAppCallRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: DialWhatsAppCallRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitConnectorWhatsapp.cs
+    startLine: 541
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  name: IMessage<DialWhatsAppCallRequest>
+  nameWithType: IMessage<DialWhatsAppCallRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.DialWhatsAppCallRequest>
+  nameWithType.vb: IMessage(Of DialWhatsAppCallRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.DialWhatsAppCallRequest)
+  name.vb: IMessage(Of DialWhatsAppCallRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<DialWhatsAppCallRequest>
+  nameWithType: IEquatable<DialWhatsAppCallRequest>
+  fullName: System.IEquatable<LiveKit.Proto.DialWhatsAppCallRequest>
+  nameWithType.vb: IEquatable(Of DialWhatsAppCallRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.DialWhatsAppCallRequest)
+  name.vb: IEquatable(Of DialWhatsAppCallRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  name: IDeepCloneable<DialWhatsAppCallRequest>
+  nameWithType: IDeepCloneable<DialWhatsAppCallRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.DialWhatsAppCallRequest>
+  nameWithType.vb: IDeepCloneable(Of DialWhatsAppCallRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.DialWhatsAppCallRequest)
+  name.vb: IDeepCloneable(Of DialWhatsAppCallRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Parser*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.Parser
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_Parser
+  name: Parser
+  nameWithType: DialWhatsAppCallRequest.Parser
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.DialWhatsAppCallRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.DialWhatsAppCallRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  name: MessageParser<DialWhatsAppCallRequest>
+  nameWithType: MessageParser<DialWhatsAppCallRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.DialWhatsAppCallRequest>
+  nameWithType.vb: MessageParser(Of DialWhatsAppCallRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.DialWhatsAppCallRequest)
+  name.vb: MessageParser(Of DialWhatsAppCallRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.Descriptor
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_Descriptor
+  name: Descriptor
+  nameWithType: DialWhatsAppCallRequest.Descriptor
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.#ctor
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest__ctor
+  name: DialWhatsAppCallRequest
+  nameWithType: DialWhatsAppCallRequest.DialWhatsAppCallRequest
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.DialWhatsAppCallRequest
+  nameWithType.vb: DialWhatsAppCallRequest.New
+  fullName.vb: LiveKit.Proto.DialWhatsAppCallRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.DialWhatsAppCallRequest
+  commentId: T:LiveKit.Proto.DialWhatsAppCallRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  name: DialWhatsAppCallRequest
+  nameWithType: DialWhatsAppCallRequest
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Clone*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.Clone
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_Clone
+  name: Clone
+  nameWithType: DialWhatsAppCallRequest.Clone
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<DialWhatsAppCallRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.DialWhatsAppCallRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of DialWhatsAppCallRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.DialWhatsAppCallRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DialWhatsAppCallRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberId*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberId
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_WhatsappPhoneNumberId
+  name: WhatsappPhoneNumberId
+  nameWithType: DialWhatsAppCallRequest.WhatsappPhoneNumberId
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappPhoneNumberId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumber*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumber
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_WhatsappToPhoneNumber
+  name: WhatsappToPhoneNumber
+  nameWithType: DialWhatsAppCallRequest.WhatsappToPhoneNumber
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappToPhoneNumber
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKey*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKey
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_WhatsappApiKey
+  name: WhatsappApiKey
+  nameWithType: DialWhatsAppCallRequest.WhatsappApiKey
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappApiKey
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_WhatsappBizOpaqueCallbackData
+  name: WhatsappBizOpaqueCallbackData
+  nameWithType: DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WhatsappBizOpaqueCallbackData
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.RoomName*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.RoomName
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_RoomName
+  name: RoomName
+  nameWithType: DialWhatsAppCallRequest.RoomName
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.RoomName
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Agents*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.Agents
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_Agents
+  name: Agents
+  nameWithType: DialWhatsAppCallRequest.Agents
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Agents
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.RoomAgentDispatch}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.RoomAgentDispatch}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.RoomAgentDispatch.html
+  name: RepeatedField<RoomAgentDispatch>
+  nameWithType: RepeatedField<RoomAgentDispatch>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.RoomAgentDispatch>
+  nameWithType.vb: RepeatedField(Of RoomAgentDispatch)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.RoomAgentDispatch)
+  name.vb: RepeatedField(Of RoomAgentDispatch)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RoomAgentDispatch
+    name: RoomAgentDispatch
+    href: LiveKit.Proto.RoomAgentDispatch.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RoomAgentDispatch
+    name: RoomAgentDispatch
+    href: LiveKit.Proto.RoomAgentDispatch.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentity
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_ParticipantIdentity
+  name: ParticipantIdentity
+  nameWithType: DialWhatsAppCallRequest.ParticipantIdentity
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantIdentity
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantName*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantName
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_ParticipantName
+  name: ParticipantName
+  nameWithType: DialWhatsAppCallRequest.ParticipantName
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantName
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadata*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadata
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_ParticipantMetadata
+  name: ParticipantMetadata
+  nameWithType: DialWhatsAppCallRequest.ParticipantMetadata
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantMetadata
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributes*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributes
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_ParticipantAttributes
+  name: ParticipantAttributes
+  nameWithType: DialWhatsAppCallRequest.ParticipantAttributes
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ParticipantAttributes
+- uid: Google.Protobuf.Collections.MapField{System.String,System.String}
+  commentId: T:Google.Protobuf.Collections.MapField{System.String,System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.MapField`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MapField<string, string>
+  nameWithType: MapField<string, string>
+  fullName: Google.Protobuf.Collections.MapField<string, string>
+  nameWithType.vb: MapField(Of String, String)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of String, String)
+  name.vb: MapField(Of String, String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.MapField`2
+  commentId: T:Google.Protobuf.Collections.MapField`2
+  isExternal: true
+  name: MapField<TKey, TValue>
+  nameWithType: MapField<TKey, TValue>
+  fullName: Google.Protobuf.Collections.MapField<TKey, TValue>
+  nameWithType.vb: MapField(Of TKey, TValue)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of TKey, TValue)
+  name.vb: MapField(Of TKey, TValue)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountry*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountry
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_DestinationCountry
+  name: DestinationCountry
+  nameWithType: DialWhatsAppCallRequest.DestinationCountry
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.DestinationCountry
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.Equals*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.Equals
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: DialWhatsAppCallRequest.Equals
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  parent: System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(DialWhatsAppCallRequest)
+  nameWithType: IEquatable<DialWhatsAppCallRequest>.Equals(DialWhatsAppCallRequest)
+  fullName: System.IEquatable<LiveKit.Proto.DialWhatsAppCallRequest>.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  nameWithType.vb: IEquatable(Of DialWhatsAppCallRequest).Equals(DialWhatsAppCallRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.DialWhatsAppCallRequest).Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.DialWhatsAppCallRequest}.Equals(LiveKit.Proto.DialWhatsAppCallRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.GetHashCode
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: DialWhatsAppCallRequest.GetHashCode
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.ToString*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.ToString
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_ToString
+  name: ToString
+  nameWithType: DialWhatsAppCallRequest.ToString
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.ToString
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.WriteTo
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: DialWhatsAppCallRequest.WriteTo
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.CalculateSize
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: DialWhatsAppCallRequest.CalculateSize
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html#LiveKit_Proto_DialWhatsAppCallRequest_MergeFrom_LiveKit_Proto_DialWhatsAppCallRequest_
+  name: MergeFrom
+  nameWithType: DialWhatsAppCallRequest.MergeFrom
+  fullName: LiveKit.Proto.DialWhatsAppCallRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  name: MergeFrom(DialWhatsAppCallRequest)
+  nameWithType: IMessage<DialWhatsAppCallRequest>.MergeFrom(DialWhatsAppCallRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.DialWhatsAppCallRequest>.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  nameWithType.vb: IMessage(Of DialWhatsAppCallRequest).MergeFrom(DialWhatsAppCallRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.DialWhatsAppCallRequest).MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.DialWhatsAppCallRequest}.MergeFrom(LiveKit.Proto.DialWhatsAppCallRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.DialWhatsAppCallRequest
+    name: DialWhatsAppCallRequest
+    href: LiveKit.Proto.DialWhatsAppCallRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

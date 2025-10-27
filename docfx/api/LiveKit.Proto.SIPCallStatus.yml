@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SIPCallStatus
+  commentId: T:LiveKit.Proto.SIPCallStatus
+  id: SIPCallStatus
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SIPCallStatus.ScsActive
+  - LiveKit.Proto.SIPCallStatus.ScsCallIncoming
+  - LiveKit.Proto.SIPCallStatus.ScsDisconnected
+  - LiveKit.Proto.SIPCallStatus.ScsError
+  - LiveKit.Proto.SIPCallStatus.ScsParticipantJoined
+  langs:
+  - csharp
+  - vb
+  name: SIPCallStatus
+  nameWithType: SIPCallStatus
+  fullName: LiveKit.Proto.SIPCallStatus
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SIPCallStatus
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 488
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum SIPCallStatus
+    content.vb: Public Enum SIPCallStatus
+- uid: LiveKit.Proto.SIPCallStatus.ScsCallIncoming
+  commentId: F:LiveKit.Proto.SIPCallStatus.ScsCallIncoming
+  id: ScsCallIncoming
+  parent: LiveKit.Proto.SIPCallStatus
+  langs:
+  - csharp
+  - vb
+  name: ScsCallIncoming
+  nameWithType: SIPCallStatus.ScsCallIncoming
+  fullName: LiveKit.Proto.SIPCallStatus.ScsCallIncoming
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ScsCallIncoming
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 492
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Incoming call is being handled by the SIP service. The SIP participant hasn't joined a LiveKit room yet
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SCS_CALL_INCOMING")]
+
+      ScsCallIncoming = 0
+    return:
+      type: LiveKit.Proto.SIPCallStatus
+    content.vb: >-
+      <OriginalName("SCS_CALL_INCOMING")>
+
+      ScsCallIncoming = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SCS_CALL_INCOMING
+- uid: LiveKit.Proto.SIPCallStatus.ScsParticipantJoined
+  commentId: F:LiveKit.Proto.SIPCallStatus.ScsParticipantJoined
+  id: ScsParticipantJoined
+  parent: LiveKit.Proto.SIPCallStatus
+  langs:
+  - csharp
+  - vb
+  name: ScsParticipantJoined
+  nameWithType: SIPCallStatus.ScsParticipantJoined
+  fullName: LiveKit.Proto.SIPCallStatus.ScsParticipantJoined
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ScsParticipantJoined
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 496
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: SIP participant for outgoing call has been created. The SIP outgoing call is being established
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SCS_PARTICIPANT_JOINED")]
+
+      ScsParticipantJoined = 1
+    return:
+      type: LiveKit.Proto.SIPCallStatus
+    content.vb: >-
+      <OriginalName("SCS_PARTICIPANT_JOINED")>
+
+      ScsParticipantJoined = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SCS_PARTICIPANT_JOINED
+- uid: LiveKit.Proto.SIPCallStatus.ScsActive
+  commentId: F:LiveKit.Proto.SIPCallStatus.ScsActive
+  id: ScsActive
+  parent: LiveKit.Proto.SIPCallStatus
+  langs:
+  - csharp
+  - vb
+  name: ScsActive
+  nameWithType: SIPCallStatus.ScsActive
+  fullName: LiveKit.Proto.SIPCallStatus.ScsActive
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ScsActive
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 500
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Call is ongoing. SIP participant is active in the LiveKit room
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SCS_ACTIVE")]
+
+      ScsActive = 2
+    return:
+      type: LiveKit.Proto.SIPCallStatus
+    content.vb: >-
+      <OriginalName("SCS_ACTIVE")>
+
+      ScsActive = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SCS_ACTIVE
+- uid: LiveKit.Proto.SIPCallStatus.ScsDisconnected
+  commentId: F:LiveKit.Proto.SIPCallStatus.ScsDisconnected
+  id: ScsDisconnected
+  parent: LiveKit.Proto.SIPCallStatus
+  langs:
+  - csharp
+  - vb
+  name: ScsDisconnected
+  nameWithType: SIPCallStatus.ScsDisconnected
+  fullName: LiveKit.Proto.SIPCallStatus.ScsDisconnected
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ScsDisconnected
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 504
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Call has ended
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SCS_DISCONNECTED")]
+
+      ScsDisconnected = 3
+    return:
+      type: LiveKit.Proto.SIPCallStatus
+    content.vb: >-
+      <OriginalName("SCS_DISCONNECTED")>
+
+      ScsDisconnected = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SCS_DISCONNECTED
+- uid: LiveKit.Proto.SIPCallStatus.ScsError
+  commentId: F:LiveKit.Proto.SIPCallStatus.ScsError
+  id: ScsError
+  parent: LiveKit.Proto.SIPCallStatus
+  langs:
+  - csharp
+  - vb
+  name: ScsError
+  nameWithType: SIPCallStatus.ScsError
+  fullName: LiveKit.Proto.SIPCallStatus.ScsError
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ScsError
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 508
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Call has ended or never succeeded because of an error
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SCS_ERROR")]
+
+      ScsError = 4
+    return:
+      type: LiveKit.Proto.SIPCallStatus
+    content.vb: >-
+      <OriginalName("SCS_ERROR")>
+
+      ScsError = 4
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SCS_ERROR
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.SIPCallStatus
+  commentId: T:LiveKit.Proto.SIPCallStatus
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPCallStatus.html
+  name: SIPCallStatus
+  nameWithType: SIPCallStatus
+  fullName: LiveKit.Proto.SIPCallStatus

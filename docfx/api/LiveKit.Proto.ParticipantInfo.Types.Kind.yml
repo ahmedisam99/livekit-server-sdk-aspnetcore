@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind
+  commentId: T:LiveKit.Proto.ParticipantInfo.Types.Kind
+  id: ParticipantInfo.Types.Kind
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.ParticipantInfo.Types.Kind.Agent
+  - LiveKit.Proto.ParticipantInfo.Types.Kind.Connector
+  - LiveKit.Proto.ParticipantInfo.Types.Kind.Egress
+  - LiveKit.Proto.ParticipantInfo.Types.Kind.Ingress
+  - LiveKit.Proto.ParticipantInfo.Types.Kind.Sip
+  - LiveKit.Proto.ParticipantInfo.Types.Kind.Standard
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo.Types.Kind
+  nameWithType: ParticipantInfo.Types.Kind
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Kind
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3699
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum ParticipantInfo.Types.Kind
+    content.vb: Public Enum ParticipantInfo.Types.Kind
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind.Standard
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.Kind.Standard
+  id: Standard
+  parent: LiveKit.Proto.ParticipantInfo.Types.Kind
+  langs:
+  - csharp
+  - vb
+  name: Standard
+  nameWithType: ParticipantInfo.Types.Kind.Standard
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind.Standard
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Standard
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3703
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: standard participants, e.g. web clients
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("STANDARD")]
+
+      Standard = 0
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.Kind
+    content.vb: >-
+      <OriginalName("STANDARD")>
+
+      Standard = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: STANDARD
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind.Ingress
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.Kind.Ingress
+  id: Ingress
+  parent: LiveKit.Proto.ParticipantInfo.Types.Kind
+  langs:
+  - csharp
+  - vb
+  name: Ingress
+  nameWithType: ParticipantInfo.Types.Kind.Ingress
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind.Ingress
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Ingress
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3707
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: only ingests streams
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("INGRESS")]
+
+      Ingress = 1
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.Kind
+    content.vb: >-
+      <OriginalName("INGRESS")>
+
+      Ingress = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: INGRESS
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind.Egress
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.Kind.Egress
+  id: Egress
+  parent: LiveKit.Proto.ParticipantInfo.Types.Kind
+  langs:
+  - csharp
+  - vb
+  name: Egress
+  nameWithType: ParticipantInfo.Types.Kind.Egress
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind.Egress
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Egress
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3711
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: only consumes streams
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("EGRESS")]
+
+      Egress = 2
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.Kind
+    content.vb: >-
+      <OriginalName("EGRESS")>
+
+      Egress = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind.Sip
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.Kind.Sip
+  id: Sip
+  parent: LiveKit.Proto.ParticipantInfo.Types.Kind
+  langs:
+  - csharp
+  - vb
+  name: Sip
+  nameWithType: ParticipantInfo.Types.Kind.Sip
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind.Sip
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Sip
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3715
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: SIP participants
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIP")]
+
+      Sip = 3
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.Kind
+    content.vb: >-
+      <OriginalName("SIP")>
+
+      Sip = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind.Agent
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.Kind.Agent
+  id: Agent
+  parent: LiveKit.Proto.ParticipantInfo.Types.Kind
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: ParticipantInfo.Types.Kind.Agent
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind.Agent
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Agent
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3719
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: LiveKit agents
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("AGENT")]
+
+      Agent = 4
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.Kind
+    content.vb: >-
+      <OriginalName("AGENT")>
+
+      Agent = 4
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AGENT
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind.Connector
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.Kind.Connector
+  id: Connector
+  parent: LiveKit.Proto.ParticipantInfo.Types.Kind
+  langs:
+  - csharp
+  - vb
+  name: Connector
+  nameWithType: ParticipantInfo.Types.Kind.Connector
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind.Connector
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Connector
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3723
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Connectors participants
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CONNECTOR")]
+
+      Connector = 7
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.Kind
+    content.vb: >-
+      <OriginalName("CONNECTOR")>
+
+      Connector = 7
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CONNECTOR
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind
+  commentId: T:LiveKit.Proto.ParticipantInfo.Types.Kind
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: ParticipantInfo.Types.Kind
+  nameWithType: ParticipantInfo.Types.Kind
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind
+  spec.csharp:
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.Kind
+    name: Kind
+    href: LiveKit.Proto.ParticipantInfo.Types.Kind.html
+  spec.vb:
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.Kind
+    name: Kind
+    href: LiveKit.Proto.ParticipantInfo.Types.Kind.html

@@ -1,0 +1,1495 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.ConnectionQualityUpdate
+  commentId: T:LiveKit.Proto.ConnectionQualityUpdate
+  id: ConnectionQualityUpdate
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.ConnectionQualityUpdate.#ctor
+  - LiveKit.Proto.ConnectionQualityUpdate.#ctor(LiveKit.Proto.ConnectionQualityUpdate)
+  - LiveKit.Proto.ConnectionQualityUpdate.CalculateSize
+  - LiveKit.Proto.ConnectionQualityUpdate.Clone
+  - LiveKit.Proto.ConnectionQualityUpdate.Descriptor
+  - LiveKit.Proto.ConnectionQualityUpdate.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  - LiveKit.Proto.ConnectionQualityUpdate.Equals(System.Object)
+  - LiveKit.Proto.ConnectionQualityUpdate.GetHashCode
+  - LiveKit.Proto.ConnectionQualityUpdate.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.ConnectionQualityUpdate.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  - LiveKit.Proto.ConnectionQualityUpdate.Parser
+  - LiveKit.Proto.ConnectionQualityUpdate.ToString
+  - LiveKit.Proto.ConnectionQualityUpdate.Updates
+  - LiveKit.Proto.ConnectionQualityUpdate.UpdatesFieldNumber
+  - LiveKit.Proto.ConnectionQualityUpdate.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ConnectionQualityUpdate
+  nameWithType: ConnectionQualityUpdate
+  fullName: LiveKit.Proto.ConnectionQualityUpdate
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ConnectionQualityUpdate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9596
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class ConnectionQualityUpdate : IMessage<ConnectionQualityUpdate>, IEquatable<ConnectionQualityUpdate>, IDeepCloneable<ConnectionQualityUpdate>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class ConnectionQualityUpdate Implements IMessage(Of ConnectionQualityUpdate), IEquatable(Of ConnectionQualityUpdate), IDeepCloneable(Of ConnectionQualityUpdate), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}
+  - System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Parser
+  commentId: P:LiveKit.Proto.ConnectionQualityUpdate.Parser
+  id: Parser
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ConnectionQualityUpdate.Parser
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9604
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<ConnectionQualityUpdate> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.ConnectionQualityUpdate}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of ConnectionQualityUpdate)
+  overload: LiveKit.Proto.ConnectionQualityUpdate.Parser*
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Descriptor
+  commentId: P:LiveKit.Proto.ConnectionQualityUpdate.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ConnectionQualityUpdate.Descriptor
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9608
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.ConnectionQualityUpdate.Descriptor*
+- uid: LiveKit.Proto.ConnectionQualityUpdate.#ctor
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: ConnectionQualityUpdate()
+  nameWithType: ConnectionQualityUpdate.ConnectionQualityUpdate()
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.ConnectionQualityUpdate()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9620
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ConnectionQualityUpdate()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.ConnectionQualityUpdate.#ctor*
+  nameWithType.vb: ConnectionQualityUpdate.New()
+  fullName.vb: LiveKit.Proto.ConnectionQualityUpdate.New()
+  name.vb: New()
+- uid: LiveKit.Proto.ConnectionQualityUpdate.#ctor(LiveKit.Proto.ConnectionQualityUpdate)
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.#ctor(LiveKit.Proto.ConnectionQualityUpdate)
+  id: '#ctor(LiveKit.Proto.ConnectionQualityUpdate)'
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: ConnectionQualityUpdate(ConnectionQualityUpdate)
+  nameWithType: ConnectionQualityUpdate.ConnectionQualityUpdate(ConnectionQualityUpdate)
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.ConnectionQualityUpdate(LiveKit.Proto.ConnectionQualityUpdate)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9628
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ConnectionQualityUpdate(ConnectionQualityUpdate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ConnectionQualityUpdate
+    content.vb: Public Sub New(other As ConnectionQualityUpdate)
+  overload: LiveKit.Proto.ConnectionQualityUpdate.#ctor*
+  nameWithType.vb: ConnectionQualityUpdate.New(ConnectionQualityUpdate)
+  fullName.vb: LiveKit.Proto.ConnectionQualityUpdate.New(LiveKit.Proto.ConnectionQualityUpdate)
+  name.vb: New(ConnectionQualityUpdate)
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Clone
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.Clone
+  id: Clone
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ConnectionQualityUpdate.Clone()
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9635
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public ConnectionQualityUpdate Clone()
+    return:
+      type: LiveKit.Proto.ConnectionQualityUpdate
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As ConnectionQualityUpdate
+  overload: LiveKit.Proto.ConnectionQualityUpdate.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}.Clone
+- uid: LiveKit.Proto.ConnectionQualityUpdate.UpdatesFieldNumber
+  commentId: F:LiveKit.Proto.ConnectionQualityUpdate.UpdatesFieldNumber
+  id: UpdatesFieldNumber
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: UpdatesFieldNumber
+  nameWithType: ConnectionQualityUpdate.UpdatesFieldNumber
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.UpdatesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdatesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9642
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "updates" field.
+  example: []
+  syntax:
+    content: public const int UpdatesFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdatesFieldNumber As Integer = 1
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Updates
+  commentId: P:LiveKit.Proto.ConnectionQualityUpdate.Updates
+  id: Updates
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Updates
+  nameWithType: ConnectionQualityUpdate.Updates
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Updates
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Updates
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9646
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<ConnectionQualityInfo> Updates { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ConnectionQualityInfo}
+    content.vb: Public ReadOnly Property Updates As RepeatedField(Of ConnectionQualityInfo)
+  overload: LiveKit.Proto.ConnectionQualityUpdate.Updates*
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Equals(System.Object)
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ConnectionQualityUpdate.Equals(object)
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9652
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.ConnectionQualityUpdate.Equals*
+  nameWithType.vb: ConnectionQualityUpdate.Equals(Object)
+  fullName.vb: LiveKit.Proto.ConnectionQualityUpdate.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  id: Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Equals(ConnectionQualityUpdate)
+  nameWithType: ConnectionQualityUpdate.Equals(ConnectionQualityUpdate)
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9658
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(ConnectionQualityUpdate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ConnectionQualityUpdate
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ConnectionQualityUpdate) As Boolean
+  overload: LiveKit.Proto.ConnectionQualityUpdate.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+- uid: LiveKit.Proto.ConnectionQualityUpdate.GetHashCode
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ConnectionQualityUpdate.GetHashCode()
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9671
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.ConnectionQualityUpdate.GetHashCode*
+- uid: LiveKit.Proto.ConnectionQualityUpdate.ToString
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.ToString
+  id: ToString
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ConnectionQualityUpdate.ToString()
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9682
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.ConnectionQualityUpdate.ToString*
+- uid: LiveKit.Proto.ConnectionQualityUpdate.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: ConnectionQualityUpdate.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9688
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.ConnectionQualityUpdate.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.ConnectionQualityUpdate.CalculateSize
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ConnectionQualityUpdate.CalculateSize()
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9712
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.ConnectionQualityUpdate.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.ConnectionQualityUpdate.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  id: MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ConnectionQualityUpdate)
+  nameWithType: ConnectionQualityUpdate.MergeFrom(ConnectionQualityUpdate)
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9723
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(ConnectionQualityUpdate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ConnectionQualityUpdate
+    content.vb: Public Sub MergeFrom(other As ConnectionQualityUpdate)
+  overload: LiveKit.Proto.ConnectionQualityUpdate.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+- uid: LiveKit.Proto.ConnectionQualityUpdate.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.ConnectionQualityUpdate.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.ConnectionQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: ConnectionQualityUpdate.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 9733
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.ConnectionQualityUpdate.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.ConnectionQualityUpdate.html
+  name: IMessage<ConnectionQualityUpdate>
+  nameWithType: IMessage<ConnectionQualityUpdate>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.ConnectionQualityUpdate>
+  nameWithType.vb: IMessage(Of ConnectionQualityUpdate)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.ConnectionQualityUpdate)
+  name.vb: IMessage(Of ConnectionQualityUpdate)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}
+  commentId: T:System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ConnectionQualityUpdate>
+  nameWithType: IEquatable<ConnectionQualityUpdate>
+  fullName: System.IEquatable<LiveKit.Proto.ConnectionQualityUpdate>
+  nameWithType.vb: IEquatable(Of ConnectionQualityUpdate)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.ConnectionQualityUpdate)
+  name.vb: IEquatable(Of ConnectionQualityUpdate)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.ConnectionQualityUpdate.html
+  name: IDeepCloneable<ConnectionQualityUpdate>
+  nameWithType: IDeepCloneable<ConnectionQualityUpdate>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.ConnectionQualityUpdate>
+  nameWithType.vb: IDeepCloneable(Of ConnectionQualityUpdate)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.ConnectionQualityUpdate)
+  name.vb: IDeepCloneable(Of ConnectionQualityUpdate)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Parser*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.Parser
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_Parser
+  name: Parser
+  nameWithType: ConnectionQualityUpdate.Parser
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.ConnectionQualityUpdate}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.ConnectionQualityUpdate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.ConnectionQualityUpdate.html
+  name: MessageParser<ConnectionQualityUpdate>
+  nameWithType: MessageParser<ConnectionQualityUpdate>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.ConnectionQualityUpdate>
+  nameWithType.vb: MessageParser(Of ConnectionQualityUpdate)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.ConnectionQualityUpdate)
+  name.vb: MessageParser(Of ConnectionQualityUpdate)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Descriptor*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.Descriptor
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_Descriptor
+  name: Descriptor
+  nameWithType: ConnectionQualityUpdate.Descriptor
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.ConnectionQualityUpdate.#ctor*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.#ctor
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate__ctor
+  name: ConnectionQualityUpdate
+  nameWithType: ConnectionQualityUpdate.ConnectionQualityUpdate
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.ConnectionQualityUpdate
+  nameWithType.vb: ConnectionQualityUpdate.New
+  fullName.vb: LiveKit.Proto.ConnectionQualityUpdate.New
+  name.vb: New
+- uid: LiveKit.Proto.ConnectionQualityUpdate
+  commentId: T:LiveKit.Proto.ConnectionQualityUpdate
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ConnectionQualityUpdate.html
+  name: ConnectionQualityUpdate
+  nameWithType: ConnectionQualityUpdate
+  fullName: LiveKit.Proto.ConnectionQualityUpdate
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Clone*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.Clone
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_Clone
+  name: Clone
+  nameWithType: ConnectionQualityUpdate.Clone
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<ConnectionQualityUpdate>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.ConnectionQualityUpdate>.Clone()
+  nameWithType.vb: IDeepCloneable(Of ConnectionQualityUpdate).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.ConnectionQualityUpdate).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ConnectionQualityUpdate}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Updates*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.Updates
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_Updates
+  name: Updates
+  nameWithType: ConnectionQualityUpdate.Updates
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Updates
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ConnectionQualityInfo}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ConnectionQualityInfo}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.ConnectionQualityInfo.html
+  name: RepeatedField<ConnectionQualityInfo>
+  nameWithType: RepeatedField<ConnectionQualityInfo>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.ConnectionQualityInfo>
+  nameWithType.vb: RepeatedField(Of ConnectionQualityInfo)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.ConnectionQualityInfo)
+  name.vb: RepeatedField(Of ConnectionQualityInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ConnectionQualityInfo
+    name: ConnectionQualityInfo
+    href: LiveKit.Proto.ConnectionQualityInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ConnectionQualityInfo
+    name: ConnectionQualityInfo
+    href: LiveKit.Proto.ConnectionQualityInfo.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.ConnectionQualityUpdate.Equals*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.Equals
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_Equals_System_Object_
+  name: Equals
+  nameWithType: ConnectionQualityUpdate.Equals
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  commentId: M:System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  parent: System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(ConnectionQualityUpdate)
+  nameWithType: IEquatable<ConnectionQualityUpdate>.Equals(ConnectionQualityUpdate)
+  fullName: System.IEquatable<LiveKit.Proto.ConnectionQualityUpdate>.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  nameWithType.vb: IEquatable(Of ConnectionQualityUpdate).Equals(ConnectionQualityUpdate)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.ConnectionQualityUpdate).Equals(LiveKit.Proto.ConnectionQualityUpdate)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.ConnectionQualityUpdate}.Equals(LiveKit.Proto.ConnectionQualityUpdate)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ConnectionQualityUpdate.GetHashCode*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.GetHashCode
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_GetHashCode
+  name: GetHashCode
+  nameWithType: ConnectionQualityUpdate.GetHashCode
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ConnectionQualityUpdate.ToString*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.ToString
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_ToString
+  name: ToString
+  nameWithType: ConnectionQualityUpdate.ToString
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.ConnectionQualityUpdate.WriteTo*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.WriteTo
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: ConnectionQualityUpdate.WriteTo
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.ConnectionQualityUpdate.CalculateSize*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.CalculateSize
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_CalculateSize
+  name: CalculateSize
+  nameWithType: ConnectionQualityUpdate.CalculateSize
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ConnectionQualityUpdate.MergeFrom*
+  commentId: Overload:LiveKit.Proto.ConnectionQualityUpdate.MergeFrom
+  href: LiveKit.Proto.ConnectionQualityUpdate.html#LiveKit_Proto_ConnectionQualityUpdate_MergeFrom_LiveKit_Proto_ConnectionQualityUpdate_
+  name: MergeFrom
+  nameWithType: ConnectionQualityUpdate.MergeFrom
+  fullName: LiveKit.Proto.ConnectionQualityUpdate.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.ConnectionQualityUpdate.html
+  name: MergeFrom(ConnectionQualityUpdate)
+  nameWithType: IMessage<ConnectionQualityUpdate>.MergeFrom(ConnectionQualityUpdate)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.ConnectionQualityUpdate>.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  nameWithType.vb: IMessage(Of ConnectionQualityUpdate).MergeFrom(ConnectionQualityUpdate)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.ConnectionQualityUpdate).MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.ConnectionQualityUpdate}.MergeFrom(LiveKit.Proto.ConnectionQualityUpdate)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.ConnectionQualityUpdate
+    name: ConnectionQualityUpdate
+    href: LiveKit.Proto.ConnectionQualityUpdate.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SIPHeaderOptions
+  commentId: T:LiveKit.Proto.SIPHeaderOptions
+  id: SIPHeaderOptions
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SIPHeaderOptions.SipAllHeaders
+  - LiveKit.Proto.SIPHeaderOptions.SipNoHeaders
+  - LiveKit.Proto.SIPHeaderOptions.SipXHeaders
+  langs:
+  - csharp
+  - vb
+  name: SIPHeaderOptions
+  nameWithType: SIPHeaderOptions
+  fullName: LiveKit.Proto.SIPHeaderOptions
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SIPHeaderOptions
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 446
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum SIPHeaderOptions
+    content.vb: Public Enum SIPHeaderOptions
+- uid: LiveKit.Proto.SIPHeaderOptions.SipNoHeaders
+  commentId: F:LiveKit.Proto.SIPHeaderOptions.SipNoHeaders
+  id: SipNoHeaders
+  parent: LiveKit.Proto.SIPHeaderOptions
+  langs:
+  - csharp
+  - vb
+  name: SipNoHeaders
+  nameWithType: SIPHeaderOptions.SipNoHeaders
+  fullName: LiveKit.Proto.SIPHeaderOptions.SipNoHeaders
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipNoHeaders
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 450
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: do not map any headers, except ones mapped explicitly
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIP_NO_HEADERS")]
+
+      SipNoHeaders = 0
+    return:
+      type: LiveKit.Proto.SIPHeaderOptions
+    content.vb: >-
+      <OriginalName("SIP_NO_HEADERS")>
+
+      SipNoHeaders = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_NO_HEADERS
+- uid: LiveKit.Proto.SIPHeaderOptions.SipXHeaders
+  commentId: F:LiveKit.Proto.SIPHeaderOptions.SipXHeaders
+  id: SipXHeaders
+  parent: LiveKit.Proto.SIPHeaderOptions
+  langs:
+  - csharp
+  - vb
+  name: SipXHeaders
+  nameWithType: SIPHeaderOptions.SipXHeaders
+  fullName: LiveKit.Proto.SIPHeaderOptions.SipXHeaders
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipXHeaders
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 454
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: map all X-* headers to sip.h.x-* attributes
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIP_X_HEADERS")]
+
+      SipXHeaders = 1
+    return:
+      type: LiveKit.Proto.SIPHeaderOptions
+    content.vb: >-
+      <OriginalName("SIP_X_HEADERS")>
+
+      SipXHeaders = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_X_HEADERS
+- uid: LiveKit.Proto.SIPHeaderOptions.SipAllHeaders
+  commentId: F:LiveKit.Proto.SIPHeaderOptions.SipAllHeaders
+  id: SipAllHeaders
+  parent: LiveKit.Proto.SIPHeaderOptions
+  langs:
+  - csharp
+  - vb
+  name: SipAllHeaders
+  nameWithType: SIPHeaderOptions.SipAllHeaders
+  fullName: LiveKit.Proto.SIPHeaderOptions.SipAllHeaders
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipAllHeaders
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 458
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: map all headers to sip.h.* attributes
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIP_ALL_HEADERS")]
+
+      SipAllHeaders = 2
+    return:
+      type: LiveKit.Proto.SIPHeaderOptions
+    content.vb: >-
+      <OriginalName("SIP_ALL_HEADERS")>
+
+      SipAllHeaders = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_ALL_HEADERS
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.SIPHeaderOptions
+  commentId: T:LiveKit.Proto.SIPHeaderOptions
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPHeaderOptions.html
+  name: SIPHeaderOptions
+  nameWithType: SIPHeaderOptions
+  fullName: LiveKit.Proto.SIPHeaderOptions

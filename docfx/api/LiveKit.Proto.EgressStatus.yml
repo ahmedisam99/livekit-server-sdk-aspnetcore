@@ -1,0 +1,338 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.EgressStatus
+  commentId: T:LiveKit.Proto.EgressStatus
+  id: EgressStatus
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.EgressStatus.EgressAborted
+  - LiveKit.Proto.EgressStatus.EgressActive
+  - LiveKit.Proto.EgressStatus.EgressComplete
+  - LiveKit.Proto.EgressStatus.EgressEnding
+  - LiveKit.Proto.EgressStatus.EgressFailed
+  - LiveKit.Proto.EgressStatus.EgressLimitReached
+  - LiveKit.Proto.EgressStatus.EgressStarting
+  langs:
+  - csharp
+  - vb
+  name: EgressStatus
+  nameWithType: EgressStatus
+  fullName: LiveKit.Proto.EgressStatus
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressStatus
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 353
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum EgressStatus
+    content.vb: Public Enum EgressStatus
+- uid: LiveKit.Proto.EgressStatus.EgressStarting
+  commentId: F:LiveKit.Proto.EgressStatus.EgressStarting
+  id: EgressStarting
+  parent: LiveKit.Proto.EgressStatus
+  langs:
+  - csharp
+  - vb
+  name: EgressStarting
+  nameWithType: EgressStatus.EgressStarting
+  fullName: LiveKit.Proto.EgressStatus.EgressStarting
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressStarting
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 354
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_STARTING")]
+
+      EgressStarting = 0
+    return:
+      type: LiveKit.Proto.EgressStatus
+    content.vb: >-
+      <OriginalName("EGRESS_STARTING")>
+
+      EgressStarting = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_STARTING
+- uid: LiveKit.Proto.EgressStatus.EgressActive
+  commentId: F:LiveKit.Proto.EgressStatus.EgressActive
+  id: EgressActive
+  parent: LiveKit.Proto.EgressStatus
+  langs:
+  - csharp
+  - vb
+  name: EgressActive
+  nameWithType: EgressStatus.EgressActive
+  fullName: LiveKit.Proto.EgressStatus.EgressActive
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressActive
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 355
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_ACTIVE")]
+
+      EgressActive = 1
+    return:
+      type: LiveKit.Proto.EgressStatus
+    content.vb: >-
+      <OriginalName("EGRESS_ACTIVE")>
+
+      EgressActive = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_ACTIVE
+- uid: LiveKit.Proto.EgressStatus.EgressEnding
+  commentId: F:LiveKit.Proto.EgressStatus.EgressEnding
+  id: EgressEnding
+  parent: LiveKit.Proto.EgressStatus
+  langs:
+  - csharp
+  - vb
+  name: EgressEnding
+  nameWithType: EgressStatus.EgressEnding
+  fullName: LiveKit.Proto.EgressStatus.EgressEnding
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressEnding
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 356
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_ENDING")]
+
+      EgressEnding = 2
+    return:
+      type: LiveKit.Proto.EgressStatus
+    content.vb: >-
+      <OriginalName("EGRESS_ENDING")>
+
+      EgressEnding = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_ENDING
+- uid: LiveKit.Proto.EgressStatus.EgressComplete
+  commentId: F:LiveKit.Proto.EgressStatus.EgressComplete
+  id: EgressComplete
+  parent: LiveKit.Proto.EgressStatus
+  langs:
+  - csharp
+  - vb
+  name: EgressComplete
+  nameWithType: EgressStatus.EgressComplete
+  fullName: LiveKit.Proto.EgressStatus.EgressComplete
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressComplete
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 357
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_COMPLETE")]
+
+      EgressComplete = 3
+    return:
+      type: LiveKit.Proto.EgressStatus
+    content.vb: >-
+      <OriginalName("EGRESS_COMPLETE")>
+
+      EgressComplete = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_COMPLETE
+- uid: LiveKit.Proto.EgressStatus.EgressFailed
+  commentId: F:LiveKit.Proto.EgressStatus.EgressFailed
+  id: EgressFailed
+  parent: LiveKit.Proto.EgressStatus
+  langs:
+  - csharp
+  - vb
+  name: EgressFailed
+  nameWithType: EgressStatus.EgressFailed
+  fullName: LiveKit.Proto.EgressStatus.EgressFailed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressFailed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 358
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_FAILED")]
+
+      EgressFailed = 4
+    return:
+      type: LiveKit.Proto.EgressStatus
+    content.vb: >-
+      <OriginalName("EGRESS_FAILED")>
+
+      EgressFailed = 4
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_FAILED
+- uid: LiveKit.Proto.EgressStatus.EgressAborted
+  commentId: F:LiveKit.Proto.EgressStatus.EgressAborted
+  id: EgressAborted
+  parent: LiveKit.Proto.EgressStatus
+  langs:
+  - csharp
+  - vb
+  name: EgressAborted
+  nameWithType: EgressStatus.EgressAborted
+  fullName: LiveKit.Proto.EgressStatus.EgressAborted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressAborted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 359
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_ABORTED")]
+
+      EgressAborted = 5
+    return:
+      type: LiveKit.Proto.EgressStatus
+    content.vb: >-
+      <OriginalName("EGRESS_ABORTED")>
+
+      EgressAborted = 5
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_ABORTED
+- uid: LiveKit.Proto.EgressStatus.EgressLimitReached
+  commentId: F:LiveKit.Proto.EgressStatus.EgressLimitReached
+  id: EgressLimitReached
+  parent: LiveKit.Proto.EgressStatus
+  langs:
+  - csharp
+  - vb
+  name: EgressLimitReached
+  nameWithType: EgressStatus.EgressLimitReached
+  fullName: LiveKit.Proto.EgressStatus.EgressLimitReached
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressLimitReached
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 360
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_LIMIT_REACHED")]
+
+      EgressLimitReached = 6
+    return:
+      type: LiveKit.Proto.EgressStatus
+    content.vb: >-
+      <OriginalName("EGRESS_LIMIT_REACHED")>
+
+      EgressLimitReached = 6
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_LIMIT_REACHED
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.EgressStatus
+  commentId: T:LiveKit.Proto.EgressStatus
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EgressStatus.html
+  name: EgressStatus
+  nameWithType: EgressStatus
+  fullName: LiveKit.Proto.EgressStatus

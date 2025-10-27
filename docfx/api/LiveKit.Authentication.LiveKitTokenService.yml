@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Authentication.LiveKitTokenService
+  commentId: T:LiveKit.Authentication.LiveKitTokenService
+  id: LiveKitTokenService
+  parent: LiveKit.Authentication
+  children:
+  - LiveKit.Authentication.LiveKitTokenService.#ctor(Microsoft.Extensions.Options.IOptions{LiveKit.LiveKitOptions})
+  - LiveKit.Authentication.LiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  - LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder(System.String)
+  langs:
+  - csharp
+  - vb
+  name: LiveKitTokenService
+  nameWithType: LiveKitTokenService
+  fullName: LiveKit.Authentication.LiveKitTokenService
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitTokenService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LiveKitTokenService
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitTokenService.cs
+    startLine: 6
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  example: []
+  syntax:
+    content: 'public sealed class LiveKitTokenService : ILiveKitTokenService'
+    content.vb: Public NotInheritable Class LiveKitTokenService Implements ILiveKitTokenService
+  inheritance:
+  - System.Object
+  implements:
+  - LiveKit.Authentication.ILiveKitTokenService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: LiveKit.Authentication.LiveKitTokenService.#ctor(Microsoft.Extensions.Options.IOptions{LiveKit.LiveKitOptions})
+  commentId: M:LiveKit.Authentication.LiveKitTokenService.#ctor(Microsoft.Extensions.Options.IOptions{LiveKit.LiveKitOptions})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{LiveKit.LiveKitOptions})'
+  parent: LiveKit.Authentication.LiveKitTokenService
+  langs:
+  - csharp
+  - vb
+  name: LiveKitTokenService(IOptions<LiveKitOptions>)
+  nameWithType: LiveKitTokenService.LiveKitTokenService(IOptions<LiveKitOptions>)
+  fullName: LiveKit.Authentication.LiveKitTokenService.LiveKitTokenService(Microsoft.Extensions.Options.IOptions<LiveKit.LiveKitOptions>)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitTokenService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitTokenService.cs
+    startLine: 14
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: Initializes a new instance of the <xref href="LiveKit.Authentication.LiveKitTokenService" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public LiveKitTokenService(IOptions<LiveKitOptions> options)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{LiveKit.LiveKitOptions}
+      description: The LiveKit configuration options.
+    content.vb: Public Sub New(options As IOptions(Of LiveKitOptions))
+  overload: LiveKit.Authentication.LiveKitTokenService.#ctor*
+  nameWithType.vb: LiveKitTokenService.New(IOptions(Of LiveKitOptions))
+  fullName.vb: LiveKit.Authentication.LiveKitTokenService.New(Microsoft.Extensions.Options.IOptions(Of LiveKit.LiveKitOptions))
+  name.vb: New(IOptions(Of LiveKitOptions))
+- uid: LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder(System.String)
+  commentId: M:LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder(System.String)
+  id: CreateTokenBuilder(System.String)
+  parent: LiveKit.Authentication.LiveKitTokenService
+  langs:
+  - csharp
+  - vb
+  name: CreateTokenBuilder(string)
+  nameWithType: LiveKitTokenService.CreateTokenBuilder(string)
+  fullName: LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder(string)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitTokenService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateTokenBuilder
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitTokenService.cs
+    startLine: 30
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: Creates a token builder for the specified identity.
+  example: []
+  syntax:
+    content: public ILiveKitTokenBuilder CreateTokenBuilder(string identity)
+    parameters:
+    - id: identity
+      type: System.String
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Public Function CreateTokenBuilder(identity As String) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder*
+  implements:
+  - LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(System.String)
+  nameWithType.vb: LiveKitTokenService.CreateTokenBuilder(String)
+  fullName.vb: LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder(String)
+  name.vb: CreateTokenBuilder(String)
+- uid: LiveKit.Authentication.LiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  commentId: M:LiveKit.Authentication.LiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  id: CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  parent: LiveKit.Authentication.LiveKitTokenService
+  langs:
+  - csharp
+  - vb
+  name: CreateServerToken(string?, TimeSpan?)
+  nameWithType: LiveKitTokenService.CreateServerToken(string?, TimeSpan?)
+  fullName: LiveKit.Authentication.LiveKitTokenService.CreateServerToken(string?, System.TimeSpan?)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitTokenService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateServerToken
+    path: ../LiveKit.AspNetCore.ServerSdk/Authentication/LiveKitTokenService.cs
+    startLine: 41
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Authentication
+  summary: Creates a server token for API calls.
+  example: []
+  syntax:
+    content: public string CreateServerToken(string? roomName = null, TimeSpan? ttl = null)
+    parameters:
+    - id: roomName
+      type: System.String
+    - id: ttl
+      type: System.Nullable{System.TimeSpan}
+    return:
+      type: System.String
+    content.vb: Public Function CreateServerToken(roomName As String = Nothing, ttl As TimeSpan? = Nothing) As String
+  overload: LiveKit.Authentication.LiveKitTokenService.CreateServerToken*
+  implements:
+  - LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  nameWithType.vb: LiveKitTokenService.CreateServerToken(String, TimeSpan?)
+  fullName.vb: LiveKit.Authentication.LiveKitTokenService.CreateServerToken(String, System.TimeSpan?)
+  name.vb: CreateServerToken(String, TimeSpan?)
+references:
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: LiveKit.Authentication.ILiveKitTokenService
+  commentId: T:LiveKit.Authentication.ILiveKitTokenService
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.ILiveKitTokenService.html
+  name: ILiveKitTokenService
+  nameWithType: ILiveKitTokenService
+  fullName: LiveKit.Authentication.ILiveKitTokenService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LiveKit.Authentication.LiveKitTokenService
+  commentId: T:LiveKit.Authentication.LiveKitTokenService
+  href: LiveKit.Authentication.LiveKitTokenService.html
+  name: LiveKitTokenService
+  nameWithType: LiveKitTokenService
+  fullName: LiveKit.Authentication.LiveKitTokenService
+- uid: LiveKit.Authentication.LiveKitTokenService.#ctor*
+  commentId: Overload:LiveKit.Authentication.LiveKitTokenService.#ctor
+  href: LiveKit.Authentication.LiveKitTokenService.html#LiveKit_Authentication_LiveKitTokenService__ctor_Microsoft_Extensions_Options_IOptions_LiveKit_LiveKitOptions__
+  name: LiveKitTokenService
+  nameWithType: LiveKitTokenService.LiveKitTokenService
+  fullName: LiveKit.Authentication.LiveKitTokenService.LiveKitTokenService
+  nameWithType.vb: LiveKitTokenService.New
+  fullName.vb: LiveKit.Authentication.LiveKitTokenService.New
+  name.vb: New
+- uid: Microsoft.Extensions.Options.IOptions{LiveKit.LiveKitOptions}
+  commentId: T:Microsoft.Extensions.Options.IOptions{LiveKit.LiveKitOptions}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  name: IOptions<LiveKitOptions>
+  nameWithType: IOptions<LiveKitOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<LiveKit.LiveKitOptions>
+  nameWithType.vb: IOptions(Of LiveKitOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of LiveKit.LiveKitOptions)
+  name.vb: IOptions(Of LiveKitOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: <
+  - uid: LiveKit.LiveKitOptions
+    name: LiveKitOptions
+    href: LiveKit.LiveKitOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.LiveKitOptions
+    name: LiveKitOptions
+    href: LiveKit.LiveKitOptions.html
+  - name: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: <
+  - name: TOptions
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options.ioptions-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOptions
+  - name: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Options
+    name: Options
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.options
+- uid: LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder*
+  commentId: Overload:LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder
+  href: LiveKit.Authentication.LiveKitTokenService.html#LiveKit_Authentication_LiveKitTokenService_CreateTokenBuilder_System_String_
+  name: CreateTokenBuilder
+  nameWithType: LiveKitTokenService.CreateTokenBuilder
+  fullName: LiveKit.Authentication.LiveKitTokenService.CreateTokenBuilder
+- uid: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(System.String)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(System.String)
+  parent: LiveKit.Authentication.ILiveKitTokenService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CreateTokenBuilder(string)
+  nameWithType: ILiveKitTokenService.CreateTokenBuilder(string)
+  fullName: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(string)
+  nameWithType.vb: ILiveKitTokenService.CreateTokenBuilder(String)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(String)
+  name.vb: CreateTokenBuilder(String)
+  spec.csharp:
+  - uid: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(System.String)
+    name: CreateTokenBuilder
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(System.String)
+    name: CreateTokenBuilder
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder
+  commentId: T:LiveKit.Authentication.ILiveKitTokenBuilder
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html
+  name: ILiveKitTokenBuilder
+  nameWithType: ILiveKitTokenBuilder
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder
+- uid: LiveKit.Authentication.LiveKitTokenService.CreateServerToken*
+  commentId: Overload:LiveKit.Authentication.LiveKitTokenService.CreateServerToken
+  href: LiveKit.Authentication.LiveKitTokenService.html#LiveKit_Authentication_LiveKitTokenService_CreateServerToken_System_String_System_Nullable_System_TimeSpan__
+  name: CreateServerToken
+  nameWithType: LiveKitTokenService.CreateServerToken
+  fullName: LiveKit.Authentication.LiveKitTokenService.CreateServerToken
+- uid: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  commentId: M:LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  parent: LiveKit.Authentication.ILiveKitTokenService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CreateServerToken(string, TimeSpan?)
+  nameWithType: ILiveKitTokenService.CreateServerToken(string, TimeSpan?)
+  fullName: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(string, System.TimeSpan?)
+  nameWithType.vb: ILiveKitTokenService.CreateServerToken(String, TimeSpan?)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(String, System.TimeSpan?)
+  name.vb: CreateServerToken(String, TimeSpan?)
+  spec.csharp:
+  - uid: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+    name: CreateServerToken
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+    name: CreateServerToken
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: '?'
+  - name: )
+- uid: System.Nullable{System.TimeSpan}
+  commentId: T:System.Nullable{System.TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan?
+  nameWithType: TimeSpan?
+  fullName: System.TimeSpan?
+  spec.csharp:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: '?'
+  spec.vb:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

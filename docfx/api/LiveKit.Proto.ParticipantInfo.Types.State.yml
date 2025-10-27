@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.ParticipantInfo.Types.State
+  commentId: T:LiveKit.Proto.ParticipantInfo.Types.State
+  id: ParticipantInfo.Types.State
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.ParticipantInfo.Types.State.Active
+  - LiveKit.Proto.ParticipantInfo.Types.State.Disconnected
+  - LiveKit.Proto.ParticipantInfo.Types.State.Joined
+  - LiveKit.Proto.ParticipantInfo.Types.State.Joining
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo.Types.State
+  nameWithType: ParticipantInfo.Types.State
+  fullName: LiveKit.Proto.ParticipantInfo.Types.State
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: State
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3680
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum ParticipantInfo.Types.State
+    content.vb: Public Enum ParticipantInfo.Types.State
+- uid: LiveKit.Proto.ParticipantInfo.Types.State.Joining
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.State.Joining
+  id: Joining
+  parent: LiveKit.Proto.ParticipantInfo.Types.State
+  langs:
+  - csharp
+  - vb
+  name: Joining
+  nameWithType: ParticipantInfo.Types.State.Joining
+  fullName: LiveKit.Proto.ParticipantInfo.Types.State.Joining
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Joining
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3684
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: websocket' connected, but not offered yet
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("JOINING")]
+
+      Joining = 0
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.State
+    content.vb: >-
+      <OriginalName("JOINING")>
+
+      Joining = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: JOINING
+- uid: LiveKit.Proto.ParticipantInfo.Types.State.Joined
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.State.Joined
+  id: Joined
+  parent: LiveKit.Proto.ParticipantInfo.Types.State
+  langs:
+  - csharp
+  - vb
+  name: Joined
+  nameWithType: ParticipantInfo.Types.State.Joined
+  fullName: LiveKit.Proto.ParticipantInfo.Types.State.Joined
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Joined
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3688
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: server received client offer
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("JOINED")]
+
+      Joined = 1
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.State
+    content.vb: >-
+      <OriginalName("JOINED")>
+
+      Joined = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: JOINED
+- uid: LiveKit.Proto.ParticipantInfo.Types.State.Active
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.State.Active
+  id: Active
+  parent: LiveKit.Proto.ParticipantInfo.Types.State
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: ParticipantInfo.Types.State.Active
+  fullName: LiveKit.Proto.ParticipantInfo.Types.State.Active
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Active
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3692
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: ICE connectivity established
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("ACTIVE")]
+
+      Active = 2
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.State
+    content.vb: >-
+      <OriginalName("ACTIVE")>
+
+      Active = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ACTIVE
+- uid: LiveKit.Proto.ParticipantInfo.Types.State.Disconnected
+  commentId: F:LiveKit.Proto.ParticipantInfo.Types.State.Disconnected
+  id: Disconnected
+  parent: LiveKit.Proto.ParticipantInfo.Types.State
+  langs:
+  - csharp
+  - vb
+  name: Disconnected
+  nameWithType: ParticipantInfo.Types.State.Disconnected
+  fullName: LiveKit.Proto.ParticipantInfo.Types.State.Disconnected
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Disconnected
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3696
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: WS disconnected
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("DISCONNECTED")]
+
+      Disconnected = 3
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.State
+    content.vb: >-
+      <OriginalName("DISCONNECTED")>
+
+      Disconnected = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DISCONNECTED
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.ParticipantInfo.Types.State
+  commentId: T:LiveKit.Proto.ParticipantInfo.Types.State
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: ParticipantInfo.Types.State
+  nameWithType: ParticipantInfo.Types.State
+  fullName: LiveKit.Proto.ParticipantInfo.Types.State
+  spec.csharp:
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.State
+    name: State
+    href: LiveKit.Proto.ParticipantInfo.Types.State.html
+  spec.vb:
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.State
+    name: State
+    href: LiveKit.Proto.ParticipantInfo.Types.State.html

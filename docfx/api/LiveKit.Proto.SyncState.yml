@@ -1,0 +1,2014 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SyncState
+  commentId: T:LiveKit.Proto.SyncState
+  id: SyncState
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SyncState.#ctor
+  - LiveKit.Proto.SyncState.#ctor(LiveKit.Proto.SyncState)
+  - LiveKit.Proto.SyncState.Answer
+  - LiveKit.Proto.SyncState.AnswerFieldNumber
+  - LiveKit.Proto.SyncState.CalculateSize
+  - LiveKit.Proto.SyncState.Clone
+  - LiveKit.Proto.SyncState.DataChannels
+  - LiveKit.Proto.SyncState.DataChannelsFieldNumber
+  - LiveKit.Proto.SyncState.DatachannelReceiveStates
+  - LiveKit.Proto.SyncState.DatachannelReceiveStatesFieldNumber
+  - LiveKit.Proto.SyncState.Descriptor
+  - LiveKit.Proto.SyncState.Equals(LiveKit.Proto.SyncState)
+  - LiveKit.Proto.SyncState.Equals(System.Object)
+  - LiveKit.Proto.SyncState.GetHashCode
+  - LiveKit.Proto.SyncState.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SyncState.MergeFrom(LiveKit.Proto.SyncState)
+  - LiveKit.Proto.SyncState.Offer
+  - LiveKit.Proto.SyncState.OfferFieldNumber
+  - LiveKit.Proto.SyncState.Parser
+  - LiveKit.Proto.SyncState.PublishTracks
+  - LiveKit.Proto.SyncState.PublishTracksFieldNumber
+  - LiveKit.Proto.SyncState.Subscription
+  - LiveKit.Proto.SyncState.SubscriptionFieldNumber
+  - LiveKit.Proto.SyncState.ToString
+  - LiveKit.Proto.SyncState.TrackSidsDisabled
+  - LiveKit.Proto.SyncState.TrackSidsDisabledFieldNumber
+  - LiveKit.Proto.SyncState.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SyncState
+  nameWithType: SyncState
+  fullName: LiveKit.Proto.SyncState
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SyncState
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12295
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SyncState : IMessage<SyncState>, IEquatable<SyncState>, IDeepCloneable<SyncState>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SyncState Implements IMessage(Of SyncState), IEquatable(Of SyncState), IDeepCloneable(Of SyncState), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SyncState}
+  - System.IEquatable{LiveKit.Proto.SyncState}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SyncState.Parser
+  commentId: P:LiveKit.Proto.SyncState.Parser
+  id: Parser
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SyncState.Parser
+  fullName: LiveKit.Proto.SyncState.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12303
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SyncState> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SyncState}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SyncState)
+  overload: LiveKit.Proto.SyncState.Parser*
+- uid: LiveKit.Proto.SyncState.Descriptor
+  commentId: P:LiveKit.Proto.SyncState.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SyncState.Descriptor
+  fullName: LiveKit.Proto.SyncState.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12307
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SyncState.Descriptor*
+- uid: LiveKit.Proto.SyncState.#ctor
+  commentId: M:LiveKit.Proto.SyncState.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SyncState()
+  nameWithType: SyncState.SyncState()
+  fullName: LiveKit.Proto.SyncState.SyncState()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12319
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SyncState()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SyncState.#ctor*
+  nameWithType.vb: SyncState.New()
+  fullName.vb: LiveKit.Proto.SyncState.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SyncState.#ctor(LiveKit.Proto.SyncState)
+  commentId: M:LiveKit.Proto.SyncState.#ctor(LiveKit.Proto.SyncState)
+  id: '#ctor(LiveKit.Proto.SyncState)'
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SyncState(SyncState)
+  nameWithType: SyncState.SyncState(SyncState)
+  fullName: LiveKit.Proto.SyncState.SyncState(LiveKit.Proto.SyncState)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12327
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SyncState(SyncState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SyncState
+    content.vb: Public Sub New(other As SyncState)
+  overload: LiveKit.Proto.SyncState.#ctor*
+  nameWithType.vb: SyncState.New(SyncState)
+  fullName.vb: LiveKit.Proto.SyncState.New(LiveKit.Proto.SyncState)
+  name.vb: New(SyncState)
+- uid: LiveKit.Proto.SyncState.Clone
+  commentId: M:LiveKit.Proto.SyncState.Clone
+  id: Clone
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SyncState.Clone()
+  fullName: LiveKit.Proto.SyncState.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12340
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SyncState Clone()
+    return:
+      type: LiveKit.Proto.SyncState
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SyncState
+  overload: LiveKit.Proto.SyncState.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}.Clone
+- uid: LiveKit.Proto.SyncState.AnswerFieldNumber
+  commentId: F:LiveKit.Proto.SyncState.AnswerFieldNumber
+  id: AnswerFieldNumber
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: AnswerFieldNumber
+  nameWithType: SyncState.AnswerFieldNumber
+  fullName: LiveKit.Proto.SyncState.AnswerFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AnswerFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12347
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "answer" field.
+  example: []
+  syntax:
+    content: public const int AnswerFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const AnswerFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SyncState.Answer
+  commentId: P:LiveKit.Proto.SyncState.Answer
+  id: Answer
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Answer
+  nameWithType: SyncState.Answer
+  fullName: LiveKit.Proto.SyncState.Answer
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Answer
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12354
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    last subscribe/publish answer before reconnecting
+
+    subscribe answer if using dual peer connection
+
+    publish answer if using single peer connection
+  example: []
+  syntax:
+    content: public SessionDescription Answer { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SessionDescription
+    content.vb: Public Property Answer As SessionDescription
+  overload: LiveKit.Proto.SyncState.Answer*
+- uid: LiveKit.Proto.SyncState.SubscriptionFieldNumber
+  commentId: F:LiveKit.Proto.SyncState.SubscriptionFieldNumber
+  id: SubscriptionFieldNumber
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionFieldNumber
+  nameWithType: SyncState.SubscriptionFieldNumber
+  fullName: LiveKit.Proto.SyncState.SubscriptionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriptionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12364
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "subscription" field.
+  example: []
+  syntax:
+    content: public const int SubscriptionFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const SubscriptionFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SyncState.Subscription
+  commentId: P:LiveKit.Proto.SyncState.Subscription
+  id: Subscription
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Subscription
+  nameWithType: SyncState.Subscription
+  fullName: LiveKit.Proto.SyncState.Subscription
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Subscription
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12366
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateSubscription Subscription { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateSubscription
+    content.vb: Public Property Subscription As UpdateSubscription
+  overload: LiveKit.Proto.SyncState.Subscription*
+- uid: LiveKit.Proto.SyncState.PublishTracksFieldNumber
+  commentId: F:LiveKit.Proto.SyncState.PublishTracksFieldNumber
+  id: PublishTracksFieldNumber
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: PublishTracksFieldNumber
+  nameWithType: SyncState.PublishTracksFieldNumber
+  fullName: LiveKit.Proto.SyncState.PublishTracksFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PublishTracksFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12376
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "publish_tracks" field.
+  example: []
+  syntax:
+    content: public const int PublishTracksFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const PublishTracksFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SyncState.PublishTracks
+  commentId: P:LiveKit.Proto.SyncState.PublishTracks
+  id: PublishTracks
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: PublishTracks
+  nameWithType: SyncState.PublishTracks
+  fullName: LiveKit.Proto.SyncState.PublishTracks
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PublishTracks
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12380
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<TrackPublishedResponse> PublishTracks { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackPublishedResponse}
+    content.vb: Public ReadOnly Property PublishTracks As RepeatedField(Of TrackPublishedResponse)
+  overload: LiveKit.Proto.SyncState.PublishTracks*
+- uid: LiveKit.Proto.SyncState.DataChannelsFieldNumber
+  commentId: F:LiveKit.Proto.SyncState.DataChannelsFieldNumber
+  id: DataChannelsFieldNumber
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: DataChannelsFieldNumber
+  nameWithType: SyncState.DataChannelsFieldNumber
+  fullName: LiveKit.Proto.SyncState.DataChannelsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DataChannelsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12387
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "data_channels" field.
+  example: []
+  syntax:
+    content: public const int DataChannelsFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const DataChannelsFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SyncState.DataChannels
+  commentId: P:LiveKit.Proto.SyncState.DataChannels
+  id: DataChannels
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: DataChannels
+  nameWithType: SyncState.DataChannels
+  fullName: LiveKit.Proto.SyncState.DataChannels
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DataChannels
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12391
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<DataChannelInfo> DataChannels { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.DataChannelInfo}
+    content.vb: Public ReadOnly Property DataChannels As RepeatedField(Of DataChannelInfo)
+  overload: LiveKit.Proto.SyncState.DataChannels*
+- uid: LiveKit.Proto.SyncState.OfferFieldNumber
+  commentId: F:LiveKit.Proto.SyncState.OfferFieldNumber
+  id: OfferFieldNumber
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: OfferFieldNumber
+  nameWithType: SyncState.OfferFieldNumber
+  fullName: LiveKit.Proto.SyncState.OfferFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: OfferFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12398
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "offer" field.
+  example: []
+  syntax:
+    content: public const int OfferFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const OfferFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SyncState.Offer
+  commentId: P:LiveKit.Proto.SyncState.Offer
+  id: Offer
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Offer
+  nameWithType: SyncState.Offer
+  fullName: LiveKit.Proto.SyncState.Offer
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Offer
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12405
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    last received server side offer/sent client side offer before reconnecting
+
+    received server side offer if using dual peer connection
+
+    sent client side offer if using single peer connection
+  example: []
+  syntax:
+    content: public SessionDescription Offer { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SessionDescription
+    content.vb: Public Property Offer As SessionDescription
+  overload: LiveKit.Proto.SyncState.Offer*
+- uid: LiveKit.Proto.SyncState.TrackSidsDisabledFieldNumber
+  commentId: F:LiveKit.Proto.SyncState.TrackSidsDisabledFieldNumber
+  id: TrackSidsDisabledFieldNumber
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: TrackSidsDisabledFieldNumber
+  nameWithType: SyncState.TrackSidsDisabledFieldNumber
+  fullName: LiveKit.Proto.SyncState.TrackSidsDisabledFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSidsDisabledFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12415
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_sids_disabled" field.
+  example: []
+  syntax:
+    content: public const int TrackSidsDisabledFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackSidsDisabledFieldNumber As Integer = 6
+- uid: LiveKit.Proto.SyncState.TrackSidsDisabled
+  commentId: P:LiveKit.Proto.SyncState.TrackSidsDisabled
+  id: TrackSidsDisabled
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: TrackSidsDisabled
+  nameWithType: SyncState.TrackSidsDisabled
+  fullName: LiveKit.Proto.SyncState.TrackSidsDisabled
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSidsDisabled
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12419
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<string> TrackSidsDisabled { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property TrackSidsDisabled As RepeatedField(Of String)
+  overload: LiveKit.Proto.SyncState.TrackSidsDisabled*
+- uid: LiveKit.Proto.SyncState.DatachannelReceiveStatesFieldNumber
+  commentId: F:LiveKit.Proto.SyncState.DatachannelReceiveStatesFieldNumber
+  id: DatachannelReceiveStatesFieldNumber
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: DatachannelReceiveStatesFieldNumber
+  nameWithType: SyncState.DatachannelReceiveStatesFieldNumber
+  fullName: LiveKit.Proto.SyncState.DatachannelReceiveStatesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DatachannelReceiveStatesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12426
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "datachannel_receive_states" field.
+  example: []
+  syntax:
+    content: public const int DatachannelReceiveStatesFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const DatachannelReceiveStatesFieldNumber As Integer = 7
+- uid: LiveKit.Proto.SyncState.DatachannelReceiveStates
+  commentId: P:LiveKit.Proto.SyncState.DatachannelReceiveStates
+  id: DatachannelReceiveStates
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: DatachannelReceiveStates
+  nameWithType: SyncState.DatachannelReceiveStates
+  fullName: LiveKit.Proto.SyncState.DatachannelReceiveStates
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DatachannelReceiveStates
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12430
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<DataChannelReceiveState> DatachannelReceiveStates { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.DataChannelReceiveState}
+    content.vb: Public ReadOnly Property DatachannelReceiveStates As RepeatedField(Of DataChannelReceiveState)
+  overload: LiveKit.Proto.SyncState.DatachannelReceiveStates*
+- uid: LiveKit.Proto.SyncState.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SyncState.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SyncState.Equals(object)
+  fullName: LiveKit.Proto.SyncState.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12436
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SyncState.Equals*
+  nameWithType.vb: SyncState.Equals(Object)
+  fullName.vb: LiveKit.Proto.SyncState.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SyncState.Equals(LiveKit.Proto.SyncState)
+  commentId: M:LiveKit.Proto.SyncState.Equals(LiveKit.Proto.SyncState)
+  id: Equals(LiveKit.Proto.SyncState)
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Equals(SyncState)
+  nameWithType: SyncState.Equals(SyncState)
+  fullName: LiveKit.Proto.SyncState.Equals(LiveKit.Proto.SyncState)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12442
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SyncState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SyncState
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SyncState) As Boolean
+  overload: LiveKit.Proto.SyncState.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SyncState}.Equals(LiveKit.Proto.SyncState)
+- uid: LiveKit.Proto.SyncState.GetHashCode
+  commentId: M:LiveKit.Proto.SyncState.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SyncState.GetHashCode()
+  fullName: LiveKit.Proto.SyncState.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12461
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SyncState.GetHashCode*
+- uid: LiveKit.Proto.SyncState.ToString
+  commentId: M:LiveKit.Proto.SyncState.ToString
+  id: ToString
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SyncState.ToString()
+  fullName: LiveKit.Proto.SyncState.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12478
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SyncState.ToString*
+- uid: LiveKit.Proto.SyncState.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SyncState.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SyncState.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SyncState.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12484
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SyncState.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SyncState.CalculateSize
+  commentId: M:LiveKit.Proto.SyncState.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SyncState.CalculateSize()
+  fullName: LiveKit.Proto.SyncState.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12538
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SyncState.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SyncState.MergeFrom(LiveKit.Proto.SyncState)
+  commentId: M:LiveKit.Proto.SyncState.MergeFrom(LiveKit.Proto.SyncState)
+  id: MergeFrom(LiveKit.Proto.SyncState)
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SyncState)
+  nameWithType: SyncState.MergeFrom(SyncState)
+  fullName: LiveKit.Proto.SyncState.MergeFrom(LiveKit.Proto.SyncState)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12561
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SyncState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SyncState
+    content.vb: Public Sub MergeFrom(other As SyncState)
+  overload: LiveKit.Proto.SyncState.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SyncState}.MergeFrom(LiveKit.Proto.SyncState)
+- uid: LiveKit.Proto.SyncState.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SyncState.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SyncState
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SyncState.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SyncState.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 12592
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SyncState.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SyncState}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SyncState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SyncState.html
+  name: IMessage<SyncState>
+  nameWithType: IMessage<SyncState>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SyncState>
+  nameWithType.vb: IMessage(Of SyncState)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SyncState)
+  name.vb: IMessage(Of SyncState)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SyncState}
+  commentId: T:System.IEquatable{LiveKit.Proto.SyncState}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SyncState>
+  nameWithType: IEquatable<SyncState>
+  fullName: System.IEquatable<LiveKit.Proto.SyncState>
+  nameWithType.vb: IEquatable(Of SyncState)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SyncState)
+  name.vb: IEquatable(Of SyncState)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SyncState.html
+  name: IDeepCloneable<SyncState>
+  nameWithType: IDeepCloneable<SyncState>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SyncState>
+  nameWithType.vb: IDeepCloneable(Of SyncState)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SyncState)
+  name.vb: IDeepCloneable(Of SyncState)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SyncState.Parser*
+  commentId: Overload:LiveKit.Proto.SyncState.Parser
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_Parser
+  name: Parser
+  nameWithType: SyncState.Parser
+  fullName: LiveKit.Proto.SyncState.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SyncState}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SyncState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SyncState.html
+  name: MessageParser<SyncState>
+  nameWithType: MessageParser<SyncState>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SyncState>
+  nameWithType.vb: MessageParser(Of SyncState)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SyncState)
+  name.vb: MessageParser(Of SyncState)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SyncState.Descriptor*
+  commentId: Overload:LiveKit.Proto.SyncState.Descriptor
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_Descriptor
+  name: Descriptor
+  nameWithType: SyncState.Descriptor
+  fullName: LiveKit.Proto.SyncState.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SyncState.#ctor*
+  commentId: Overload:LiveKit.Proto.SyncState.#ctor
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState__ctor
+  name: SyncState
+  nameWithType: SyncState.SyncState
+  fullName: LiveKit.Proto.SyncState.SyncState
+  nameWithType.vb: SyncState.New
+  fullName.vb: LiveKit.Proto.SyncState.New
+  name.vb: New
+- uid: LiveKit.Proto.SyncState
+  commentId: T:LiveKit.Proto.SyncState
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SyncState.html
+  name: SyncState
+  nameWithType: SyncState
+  fullName: LiveKit.Proto.SyncState
+- uid: LiveKit.Proto.SyncState.Clone*
+  commentId: Overload:LiveKit.Proto.SyncState.Clone
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_Clone
+  name: Clone
+  nameWithType: SyncState.Clone
+  fullName: LiveKit.Proto.SyncState.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SyncState>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SyncState>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SyncState).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SyncState).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SyncState}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SyncState.Answer*
+  commentId: Overload:LiveKit.Proto.SyncState.Answer
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_Answer
+  name: Answer
+  nameWithType: SyncState.Answer
+  fullName: LiveKit.Proto.SyncState.Answer
+- uid: LiveKit.Proto.SessionDescription
+  commentId: T:LiveKit.Proto.SessionDescription
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SessionDescription.html
+  name: SessionDescription
+  nameWithType: SessionDescription
+  fullName: LiveKit.Proto.SessionDescription
+- uid: LiveKit.Proto.SyncState.Subscription*
+  commentId: Overload:LiveKit.Proto.SyncState.Subscription
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_Subscription
+  name: Subscription
+  nameWithType: SyncState.Subscription
+  fullName: LiveKit.Proto.SyncState.Subscription
+- uid: LiveKit.Proto.UpdateSubscription
+  commentId: T:LiveKit.Proto.UpdateSubscription
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSubscription.html
+  name: UpdateSubscription
+  nameWithType: UpdateSubscription
+  fullName: LiveKit.Proto.UpdateSubscription
+- uid: LiveKit.Proto.SyncState.PublishTracks*
+  commentId: Overload:LiveKit.Proto.SyncState.PublishTracks
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_PublishTracks
+  name: PublishTracks
+  nameWithType: SyncState.PublishTracks
+  fullName: LiveKit.Proto.SyncState.PublishTracks
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackPublishedResponse}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackPublishedResponse}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.TrackPublishedResponse.html
+  name: RepeatedField<TrackPublishedResponse>
+  nameWithType: RepeatedField<TrackPublishedResponse>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.TrackPublishedResponse>
+  nameWithType.vb: RepeatedField(Of TrackPublishedResponse)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.TrackPublishedResponse)
+  name.vb: RepeatedField(Of TrackPublishedResponse)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TrackPublishedResponse
+    name: TrackPublishedResponse
+    href: LiveKit.Proto.TrackPublishedResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TrackPublishedResponse
+    name: TrackPublishedResponse
+    href: LiveKit.Proto.TrackPublishedResponse.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.SyncState.DataChannels*
+  commentId: Overload:LiveKit.Proto.SyncState.DataChannels
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_DataChannels
+  name: DataChannels
+  nameWithType: SyncState.DataChannels
+  fullName: LiveKit.Proto.SyncState.DataChannels
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.DataChannelInfo}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.DataChannelInfo}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.DataChannelInfo.html
+  name: RepeatedField<DataChannelInfo>
+  nameWithType: RepeatedField<DataChannelInfo>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.DataChannelInfo>
+  nameWithType.vb: RepeatedField(Of DataChannelInfo)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.DataChannelInfo)
+  name.vb: RepeatedField(Of DataChannelInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DataChannelInfo
+    name: DataChannelInfo
+    href: LiveKit.Proto.DataChannelInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataChannelInfo
+    name: DataChannelInfo
+    href: LiveKit.Proto.DataChannelInfo.html
+  - name: )
+- uid: LiveKit.Proto.SyncState.Offer*
+  commentId: Overload:LiveKit.Proto.SyncState.Offer
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_Offer
+  name: Offer
+  nameWithType: SyncState.Offer
+  fullName: LiveKit.Proto.SyncState.Offer
+- uid: LiveKit.Proto.SyncState.TrackSidsDisabled*
+  commentId: Overload:LiveKit.Proto.SyncState.TrackSidsDisabled
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_TrackSidsDisabled
+  name: TrackSidsDisabled
+  nameWithType: SyncState.TrackSidsDisabled
+  fullName: LiveKit.Proto.SyncState.TrackSidsDisabled
+- uid: Google.Protobuf.Collections.RepeatedField{System.String}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RepeatedField<string>
+  nameWithType: RepeatedField<string>
+  fullName: Google.Protobuf.Collections.RepeatedField<string>
+  nameWithType.vb: RepeatedField(Of String)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of String)
+  name.vb: RepeatedField(Of String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: LiveKit.Proto.SyncState.DatachannelReceiveStates*
+  commentId: Overload:LiveKit.Proto.SyncState.DatachannelReceiveStates
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_DatachannelReceiveStates
+  name: DatachannelReceiveStates
+  nameWithType: SyncState.DatachannelReceiveStates
+  fullName: LiveKit.Proto.SyncState.DatachannelReceiveStates
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.DataChannelReceiveState}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.DataChannelReceiveState}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.DataChannelReceiveState.html
+  name: RepeatedField<DataChannelReceiveState>
+  nameWithType: RepeatedField<DataChannelReceiveState>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.DataChannelReceiveState>
+  nameWithType.vb: RepeatedField(Of DataChannelReceiveState)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.DataChannelReceiveState)
+  name.vb: RepeatedField(Of DataChannelReceiveState)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DataChannelReceiveState
+    name: DataChannelReceiveState
+    href: LiveKit.Proto.DataChannelReceiveState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataChannelReceiveState
+    name: DataChannelReceiveState
+    href: LiveKit.Proto.DataChannelReceiveState.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SyncState.Equals*
+  commentId: Overload:LiveKit.Proto.SyncState.Equals
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_Equals_System_Object_
+  name: Equals
+  nameWithType: SyncState.Equals
+  fullName: LiveKit.Proto.SyncState.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.SyncState}.Equals(LiveKit.Proto.SyncState)
+  commentId: M:System.IEquatable{LiveKit.Proto.SyncState}.Equals(LiveKit.Proto.SyncState)
+  parent: System.IEquatable{LiveKit.Proto.SyncState}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SyncState)
+  nameWithType: IEquatable<SyncState>.Equals(SyncState)
+  fullName: System.IEquatable<LiveKit.Proto.SyncState>.Equals(LiveKit.Proto.SyncState)
+  nameWithType.vb: IEquatable(Of SyncState).Equals(SyncState)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SyncState).Equals(LiveKit.Proto.SyncState)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SyncState}.Equals(LiveKit.Proto.SyncState)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SyncState}.Equals(LiveKit.Proto.SyncState)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SyncState.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SyncState.GetHashCode
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_GetHashCode
+  name: GetHashCode
+  nameWithType: SyncState.GetHashCode
+  fullName: LiveKit.Proto.SyncState.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SyncState.ToString*
+  commentId: Overload:LiveKit.Proto.SyncState.ToString
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_ToString
+  name: ToString
+  nameWithType: SyncState.ToString
+  fullName: LiveKit.Proto.SyncState.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SyncState.WriteTo*
+  commentId: Overload:LiveKit.Proto.SyncState.WriteTo
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SyncState.WriteTo
+  fullName: LiveKit.Proto.SyncState.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SyncState.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SyncState.CalculateSize
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_CalculateSize
+  name: CalculateSize
+  nameWithType: SyncState.CalculateSize
+  fullName: LiveKit.Proto.SyncState.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SyncState.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SyncState.MergeFrom
+  href: LiveKit.Proto.SyncState.html#LiveKit_Proto_SyncState_MergeFrom_LiveKit_Proto_SyncState_
+  name: MergeFrom
+  nameWithType: SyncState.MergeFrom
+  fullName: LiveKit.Proto.SyncState.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SyncState}.MergeFrom(LiveKit.Proto.SyncState)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SyncState}.MergeFrom(LiveKit.Proto.SyncState)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SyncState}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SyncState.html
+  name: MergeFrom(SyncState)
+  nameWithType: IMessage<SyncState>.MergeFrom(SyncState)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SyncState>.MergeFrom(LiveKit.Proto.SyncState)
+  nameWithType.vb: IMessage(Of SyncState).MergeFrom(SyncState)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SyncState).MergeFrom(LiveKit.Proto.SyncState)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SyncState}.MergeFrom(LiveKit.Proto.SyncState)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SyncState}.MergeFrom(LiveKit.Proto.SyncState)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SyncState
+    name: SyncState
+    href: LiveKit.Proto.SyncState.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class VideoLayer | livekit-server-sdk-aspnetcore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class VideoLayer | livekit-server-sdk-aspnetcore ">
+      
+      <meta name="description" content="provide information about available spatial layers">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/new/main/apiSpec/new?filename=LiveKit_Proto_VideoLayer.md&amp;value=---%0Auid%3A%20LiveKit.Proto.VideoLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="livekit-server-sdk-aspnetcore">
+            livekit-server-sdk-aspnetcore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveKit.Proto.VideoLayer">
+
+
+
+  <h1 id="LiveKit_Proto_VideoLayer" data-uid="LiveKit.Proto.VideoLayer" class="text-break">
+Class VideoLayer  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5204"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveKit.html">LiveKit</a>.<a class="xref" href="LiveKit.Proto.html">Proto</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveKit.AspNetCore.ServerSdk.Abstractions.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>provide information about available spatial layers</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class VideoLayer : IMessage&lt;VideoLayer&gt;, IEquatable&lt;VideoLayer&gt;, IDeepCloneable&lt;VideoLayer&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">VideoLayer</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="LiveKit.Proto.VideoLayer.html">VideoLayer</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="LiveKit.Proto.VideoLayer.html">VideoLayer</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="LiveKit.Proto.VideoLayer.html">VideoLayer</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveKit_Proto_VideoLayer__ctor_" data-uid="LiveKit.Proto.VideoLayer.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer__ctor" data-uid="LiveKit.Proto.VideoLayer.#ctor">
+  VideoLayer()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VideoLayer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer__ctor_" data-uid="LiveKit.Proto.VideoLayer.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer__ctor_LiveKit_Proto_VideoLayer_" data-uid="LiveKit.Proto.VideoLayer.#ctor(LiveKit.Proto.VideoLayer)">
+  VideoLayer(VideoLayer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VideoLayer(VideoLayer other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.VideoLayer.html">VideoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="LiveKit_Proto_VideoLayer_BitrateFieldNumber" data-uid="LiveKit.Proto.VideoLayer.BitrateFieldNumber">
+  BitrateFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;bitrate&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BitrateFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_VideoLayer_HeightFieldNumber" data-uid="LiveKit.Proto.VideoLayer.HeightFieldNumber">
+  HeightFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;height&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int HeightFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_VideoLayer_QualityFieldNumber" data-uid="LiveKit.Proto.VideoLayer.QualityFieldNumber">
+  QualityFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;quality&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int QualityFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_VideoLayer_RidFieldNumber" data-uid="LiveKit.Proto.VideoLayer.RidFieldNumber">
+  RidFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;rid&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RidFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_VideoLayer_SpatialLayerFieldNumber" data-uid="LiveKit.Proto.VideoLayer.SpatialLayerFieldNumber">
+  SpatialLayerFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5322"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;spatial_layer&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SpatialLayerFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_VideoLayer_SsrcFieldNumber" data-uid="LiveKit.Proto.VideoLayer.SsrcFieldNumber">
+  SsrcFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;ssrc&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SsrcFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_VideoLayer_WidthFieldNumber" data-uid="LiveKit.Proto.VideoLayer.WidthFieldNumber">
+  WidthFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;width&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WidthFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="LiveKit_Proto_VideoLayer_Bitrate_" data-uid="LiveKit.Proto.VideoLayer.Bitrate*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Bitrate" data-uid="LiveKit.Proto.VideoLayer.Bitrate">
+  Bitrate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5300"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>target bitrate in bit per second (bps), server will measure actual</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Bitrate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Descriptor_" data-uid="LiveKit.Proto.VideoLayer.Descriptor*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Descriptor" data-uid="LiveKit.Proto.VideoLayer.Descriptor">
+  Descriptor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Height_" data-uid="LiveKit.Proto.VideoLayer.Height*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Height" data-uid="LiveKit.Proto.VideoLayer.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Parser_" data-uid="LiveKit.Proto.VideoLayer.Parser*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Parser" data-uid="LiveKit.Proto.VideoLayer.Parser">
+  Parser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;VideoLayer&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="LiveKit.Proto.VideoLayer.html">VideoLayer</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Quality_" data-uid="LiveKit.Proto.VideoLayer.Quality*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Quality" data-uid="LiveKit.Proto.VideoLayer.Quality">
+  Quality
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>for tracks with a single layer, this should be HIGH</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VideoQuality Quality { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.VideoQuality.html">VideoQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Rid_" data-uid="LiveKit.Proto.VideoLayer.Rid*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Rid" data-uid="LiveKit.Proto.VideoLayer.Rid">
+  Rid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Rid { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_SpatialLayer_" data-uid="LiveKit.Proto.VideoLayer.SpatialLayer*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_SpatialLayer" data-uid="LiveKit.Proto.VideoLayer.SpatialLayer">
+  SpatialLayer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5324"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SpatialLayer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Ssrc_" data-uid="LiveKit.Proto.VideoLayer.Ssrc*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Ssrc" data-uid="LiveKit.Proto.VideoLayer.Ssrc">
+  Ssrc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Ssrc { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Width_" data-uid="LiveKit.Proto.VideoLayer.Width*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Width" data-uid="LiveKit.Proto.VideoLayer.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveKit_Proto_VideoLayer_CalculateSize_" data-uid="LiveKit.Proto.VideoLayer.CalculateSize*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_CalculateSize" data-uid="LiveKit.Proto.VideoLayer.CalculateSize">
+  CalculateSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5471"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the size of this message in Protocol Buffer wire format, in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of bytes required to write this message
+to a coded output stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Clone_" data-uid="LiveKit.Proto.VideoLayer.Clone*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Clone" data-uid="LiveKit.Proto.VideoLayer.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a deep clone of this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VideoLayer Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.VideoLayer.html">VideoLayer</a></dt>
+    <dd><p>A deep clone of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Equals_" data-uid="LiveKit.Proto.VideoLayer.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Equals_LiveKit_Proto_VideoLayer_" data-uid="LiveKit.Proto.VideoLayer.Equals(LiveKit.Proto.VideoLayer)">
+  Equals(VideoLayer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(VideoLayer other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.VideoLayer.html">VideoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_Equals_" data-uid="LiveKit.Proto.VideoLayer.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_Equals_System_Object_" data-uid="LiveKit.Proto.VideoLayer.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_GetHashCode_" data-uid="LiveKit.Proto.VideoLayer.GetHashCode*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_GetHashCode" data-uid="LiveKit.Proto.VideoLayer.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_MergeFrom_" data-uid="LiveKit.Proto.VideoLayer.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="LiveKit.Proto.VideoLayer.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5532"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the data from the specified coded input stream with the current message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_VideoLayer_MergeFrom_Google_Protobuf_CodedInputStream__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_MergeFrom_" data-uid="LiveKit.Proto.VideoLayer.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_MergeFrom_LiveKit_Proto_VideoLayer_" data-uid="LiveKit.Proto.VideoLayer.MergeFrom(LiveKit.Proto.VideoLayer)">
+  MergeFrom(VideoLayer)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5502"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the given message into this one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(VideoLayer other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.VideoLayer.html">VideoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_VideoLayer_MergeFrom_LiveKit_Proto_VideoLayer__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_ToString_" data-uid="LiveKit.Proto.VideoLayer.ToString*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_ToString" data-uid="LiveKit.Proto.VideoLayer.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_VideoLayer_WriteTo_" data-uid="LiveKit.Proto.VideoLayer.WriteTo*"></a>
+
+  <h3 id="LiveKit_Proto_VideoLayer_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="LiveKit.Proto.VideoLayer.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the data to the given coded output stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd><p>Coded output stream to write the data to. Must not be null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs/#L5204" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

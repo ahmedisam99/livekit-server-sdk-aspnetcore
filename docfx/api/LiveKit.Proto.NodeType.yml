@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.NodeType
+  commentId: T:LiveKit.Proto.NodeType
+  id: NodeType
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.NodeType.Controller
+  - LiveKit.Proto.NodeType.Director
+  - LiveKit.Proto.NodeType.HostedAgent
+  - LiveKit.Proto.NodeType.Media
+  - LiveKit.Proto.NodeType.Server
+  - LiveKit.Proto.NodeType.Settings
+  - LiveKit.Proto.NodeType.Sweeper
+  - LiveKit.Proto.NodeType.Turn
+  langs:
+  - csharp
+  - vb
+  name: NodeType
+  nameWithType: NodeType
+  fullName: LiveKit.Proto.NodeType
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NodeType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 127
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum NodeType
+    content.vb: Public Enum NodeType
+- uid: LiveKit.Proto.NodeType.Server
+  commentId: F:LiveKit.Proto.NodeType.Server
+  id: Server
+  parent: LiveKit.Proto.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Server
+  nameWithType: NodeType.Server
+  fullName: LiveKit.Proto.NodeType.Server
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Server
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 128
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SERVER")]
+
+      Server = 0
+    return:
+      type: LiveKit.Proto.NodeType
+    content.vb: >-
+      <OriginalName("SERVER")>
+
+      Server = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SERVER
+- uid: LiveKit.Proto.NodeType.Controller
+  commentId: F:LiveKit.Proto.NodeType.Controller
+  id: Controller
+  parent: LiveKit.Proto.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Controller
+  nameWithType: NodeType.Controller
+  fullName: LiveKit.Proto.NodeType.Controller
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Controller
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 129
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("CONTROLLER")]
+
+      Controller = 1
+    return:
+      type: LiveKit.Proto.NodeType
+    content.vb: >-
+      <OriginalName("CONTROLLER")>
+
+      Controller = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CONTROLLER
+- uid: LiveKit.Proto.NodeType.Media
+  commentId: F:LiveKit.Proto.NodeType.Media
+  id: Media
+  parent: LiveKit.Proto.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Media
+  nameWithType: NodeType.Media
+  fullName: LiveKit.Proto.NodeType.Media
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Media
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 130
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("MEDIA")]
+
+      Media = 2
+    return:
+      type: LiveKit.Proto.NodeType
+    content.vb: >-
+      <OriginalName("MEDIA")>
+
+      Media = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MEDIA
+- uid: LiveKit.Proto.NodeType.Turn
+  commentId: F:LiveKit.Proto.NodeType.Turn
+  id: Turn
+  parent: LiveKit.Proto.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Turn
+  nameWithType: NodeType.Turn
+  fullName: LiveKit.Proto.NodeType.Turn
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Turn
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 131
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TURN")]
+
+      Turn = 4
+    return:
+      type: LiveKit.Proto.NodeType
+    content.vb: >-
+      <OriginalName("TURN")>
+
+      Turn = 4
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TURN
+- uid: LiveKit.Proto.NodeType.Sweeper
+  commentId: F:LiveKit.Proto.NodeType.Sweeper
+  id: Sweeper
+  parent: LiveKit.Proto.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Sweeper
+  nameWithType: NodeType.Sweeper
+  fullName: LiveKit.Proto.NodeType.Sweeper
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Sweeper
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 132
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SWEEPER")]
+
+      Sweeper = 5
+    return:
+      type: LiveKit.Proto.NodeType
+    content.vb: >-
+      <OriginalName("SWEEPER")>
+
+      Sweeper = 5
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SWEEPER
+- uid: LiveKit.Proto.NodeType.Director
+  commentId: F:LiveKit.Proto.NodeType.Director
+  id: Director
+  parent: LiveKit.Proto.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Director
+  nameWithType: NodeType.Director
+  fullName: LiveKit.Proto.NodeType.Director
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Director
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 133
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("DIRECTOR")]
+
+      Director = 6
+    return:
+      type: LiveKit.Proto.NodeType
+    content.vb: >-
+      <OriginalName("DIRECTOR")>
+
+      Director = 6
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DIRECTOR
+- uid: LiveKit.Proto.NodeType.HostedAgent
+  commentId: F:LiveKit.Proto.NodeType.HostedAgent
+  id: HostedAgent
+  parent: LiveKit.Proto.NodeType
+  langs:
+  - csharp
+  - vb
+  name: HostedAgent
+  nameWithType: NodeType.HostedAgent
+  fullName: LiveKit.Proto.NodeType.HostedAgent
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HostedAgent
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 134
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("HOSTED_AGENT")]
+
+      HostedAgent = 7
+    return:
+      type: LiveKit.Proto.NodeType
+    content.vb: >-
+      <OriginalName("HOSTED_AGENT")>
+
+      HostedAgent = 7
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: HOSTED_AGENT
+- uid: LiveKit.Proto.NodeType.Settings
+  commentId: F:LiveKit.Proto.NodeType.Settings
+  id: Settings
+  parent: LiveKit.Proto.NodeType
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: NodeType.Settings
+  fullName: LiveKit.Proto.NodeType.Settings
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Settings
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 135
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SETTINGS")]
+
+      Settings = 8
+    return:
+      type: LiveKit.Proto.NodeType
+    content.vb: >-
+      <OriginalName("SETTINGS")>
+
+      Settings = 8
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SETTINGS
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.NodeType
+  commentId: T:LiveKit.Proto.NodeType
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.NodeType.html
+  name: NodeType
+  nameWithType: NodeType
+  fullName: LiveKit.Proto.NodeType

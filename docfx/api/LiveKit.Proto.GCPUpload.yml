@@ -1,0 +1,1550 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.GCPUpload
+  commentId: T:LiveKit.Proto.GCPUpload
+  id: GCPUpload
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.GCPUpload.#ctor
+  - LiveKit.Proto.GCPUpload.#ctor(LiveKit.Proto.GCPUpload)
+  - LiveKit.Proto.GCPUpload.Bucket
+  - LiveKit.Proto.GCPUpload.BucketFieldNumber
+  - LiveKit.Proto.GCPUpload.CalculateSize
+  - LiveKit.Proto.GCPUpload.Clone
+  - LiveKit.Proto.GCPUpload.Credentials
+  - LiveKit.Proto.GCPUpload.CredentialsFieldNumber
+  - LiveKit.Proto.GCPUpload.Descriptor
+  - LiveKit.Proto.GCPUpload.Equals(LiveKit.Proto.GCPUpload)
+  - LiveKit.Proto.GCPUpload.Equals(System.Object)
+  - LiveKit.Proto.GCPUpload.GetHashCode
+  - LiveKit.Proto.GCPUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.GCPUpload.MergeFrom(LiveKit.Proto.GCPUpload)
+  - LiveKit.Proto.GCPUpload.Parser
+  - LiveKit.Proto.GCPUpload.Proxy
+  - LiveKit.Proto.GCPUpload.ProxyFieldNumber
+  - LiveKit.Proto.GCPUpload.ToString
+  - LiveKit.Proto.GCPUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: GCPUpload
+  nameWithType: GCPUpload
+  fullName: LiveKit.Proto.GCPUpload
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GCPUpload
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6735
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class GCPUpload : IMessage<GCPUpload>, IEquatable<GCPUpload>, IDeepCloneable<GCPUpload>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class GCPUpload Implements IMessage(Of GCPUpload), IEquatable(Of GCPUpload), IDeepCloneable(Of GCPUpload), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}
+  - System.IEquatable{LiveKit.Proto.GCPUpload}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.GCPUpload.Parser
+  commentId: P:LiveKit.Proto.GCPUpload.Parser
+  id: Parser
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: GCPUpload.Parser
+  fullName: LiveKit.Proto.GCPUpload.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6743
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<GCPUpload> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.GCPUpload}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of GCPUpload)
+  overload: LiveKit.Proto.GCPUpload.Parser*
+- uid: LiveKit.Proto.GCPUpload.Descriptor
+  commentId: P:LiveKit.Proto.GCPUpload.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: GCPUpload.Descriptor
+  fullName: LiveKit.Proto.GCPUpload.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6747
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.GCPUpload.Descriptor*
+- uid: LiveKit.Proto.GCPUpload.#ctor
+  commentId: M:LiveKit.Proto.GCPUpload.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: GCPUpload()
+  nameWithType: GCPUpload.GCPUpload()
+  fullName: LiveKit.Proto.GCPUpload.GCPUpload()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6759
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public GCPUpload()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.GCPUpload.#ctor*
+  nameWithType.vb: GCPUpload.New()
+  fullName.vb: LiveKit.Proto.GCPUpload.New()
+  name.vb: New()
+- uid: LiveKit.Proto.GCPUpload.#ctor(LiveKit.Proto.GCPUpload)
+  commentId: M:LiveKit.Proto.GCPUpload.#ctor(LiveKit.Proto.GCPUpload)
+  id: '#ctor(LiveKit.Proto.GCPUpload)'
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: GCPUpload(GCPUpload)
+  nameWithType: GCPUpload.GCPUpload(GCPUpload)
+  fullName: LiveKit.Proto.GCPUpload.GCPUpload(LiveKit.Proto.GCPUpload)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6767
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public GCPUpload(GCPUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.GCPUpload
+    content.vb: Public Sub New(other As GCPUpload)
+  overload: LiveKit.Proto.GCPUpload.#ctor*
+  nameWithType.vb: GCPUpload.New(GCPUpload)
+  fullName.vb: LiveKit.Proto.GCPUpload.New(LiveKit.Proto.GCPUpload)
+  name.vb: New(GCPUpload)
+- uid: LiveKit.Proto.GCPUpload.Clone
+  commentId: M:LiveKit.Proto.GCPUpload.Clone
+  id: Clone
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: GCPUpload.Clone()
+  fullName: LiveKit.Proto.GCPUpload.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6776
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public GCPUpload Clone()
+    return:
+      type: LiveKit.Proto.GCPUpload
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As GCPUpload
+  overload: LiveKit.Proto.GCPUpload.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}.Clone
+- uid: LiveKit.Proto.GCPUpload.CredentialsFieldNumber
+  commentId: F:LiveKit.Proto.GCPUpload.CredentialsFieldNumber
+  id: CredentialsFieldNumber
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: CredentialsFieldNumber
+  nameWithType: GCPUpload.CredentialsFieldNumber
+  fullName: LiveKit.Proto.GCPUpload.CredentialsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CredentialsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6783
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "credentials" field.
+  example: []
+  syntax:
+    content: public const int CredentialsFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const CredentialsFieldNumber As Integer = 1
+- uid: LiveKit.Proto.GCPUpload.Credentials
+  commentId: P:LiveKit.Proto.GCPUpload.Credentials
+  id: Credentials
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: GCPUpload.Credentials
+  fullName: LiveKit.Proto.GCPUpload.Credentials
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Credentials
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6788
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: service account credentials serialized in JSON "credentials.json"
+  example: []
+  syntax:
+    content: public string Credentials { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Credentials As String
+  overload: LiveKit.Proto.GCPUpload.Credentials*
+- uid: LiveKit.Proto.GCPUpload.BucketFieldNumber
+  commentId: F:LiveKit.Proto.GCPUpload.BucketFieldNumber
+  id: BucketFieldNumber
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: BucketFieldNumber
+  nameWithType: GCPUpload.BucketFieldNumber
+  fullName: LiveKit.Proto.GCPUpload.BucketFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BucketFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6798
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "bucket" field.
+  example: []
+  syntax:
+    content: public const int BucketFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const BucketFieldNumber As Integer = 2
+- uid: LiveKit.Proto.GCPUpload.Bucket
+  commentId: P:LiveKit.Proto.GCPUpload.Bucket
+  id: Bucket
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: Bucket
+  nameWithType: GCPUpload.Bucket
+  fullName: LiveKit.Proto.GCPUpload.Bucket
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Bucket
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6800
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Bucket { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Bucket As String
+  overload: LiveKit.Proto.GCPUpload.Bucket*
+- uid: LiveKit.Proto.GCPUpload.ProxyFieldNumber
+  commentId: F:LiveKit.Proto.GCPUpload.ProxyFieldNumber
+  id: ProxyFieldNumber
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: ProxyFieldNumber
+  nameWithType: GCPUpload.ProxyFieldNumber
+  fullName: LiveKit.Proto.GCPUpload.ProxyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ProxyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6810
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "proxy" field.
+  example: []
+  syntax:
+    content: public const int ProxyFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const ProxyFieldNumber As Integer = 3
+- uid: LiveKit.Proto.GCPUpload.Proxy
+  commentId: P:LiveKit.Proto.GCPUpload.Proxy
+  id: Proxy
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: Proxy
+  nameWithType: GCPUpload.Proxy
+  fullName: LiveKit.Proto.GCPUpload.Proxy
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Proxy
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6812
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ProxyConfig Proxy { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ProxyConfig
+    content.vb: Public Property Proxy As ProxyConfig
+  overload: LiveKit.Proto.GCPUpload.Proxy*
+- uid: LiveKit.Proto.GCPUpload.Equals(System.Object)
+  commentId: M:LiveKit.Proto.GCPUpload.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: GCPUpload.Equals(object)
+  fullName: LiveKit.Proto.GCPUpload.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6821
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.GCPUpload.Equals*
+  nameWithType.vb: GCPUpload.Equals(Object)
+  fullName.vb: LiveKit.Proto.GCPUpload.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.GCPUpload.Equals(LiveKit.Proto.GCPUpload)
+  commentId: M:LiveKit.Proto.GCPUpload.Equals(LiveKit.Proto.GCPUpload)
+  id: Equals(LiveKit.Proto.GCPUpload)
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: Equals(GCPUpload)
+  nameWithType: GCPUpload.Equals(GCPUpload)
+  fullName: LiveKit.Proto.GCPUpload.Equals(LiveKit.Proto.GCPUpload)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6827
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(GCPUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.GCPUpload
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As GCPUpload) As Boolean
+  overload: LiveKit.Proto.GCPUpload.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.GCPUpload}.Equals(LiveKit.Proto.GCPUpload)
+- uid: LiveKit.Proto.GCPUpload.GetHashCode
+  commentId: M:LiveKit.Proto.GCPUpload.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: GCPUpload.GetHashCode()
+  fullName: LiveKit.Proto.GCPUpload.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6842
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.GCPUpload.GetHashCode*
+- uid: LiveKit.Proto.GCPUpload.ToString
+  commentId: M:LiveKit.Proto.GCPUpload.ToString
+  id: ToString
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: GCPUpload.ToString()
+  fullName: LiveKit.Proto.GCPUpload.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6855
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.GCPUpload.ToString*
+- uid: LiveKit.Proto.GCPUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.GCPUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: GCPUpload.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.GCPUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6861
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.GCPUpload.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.GCPUpload.CalculateSize
+  commentId: M:LiveKit.Proto.GCPUpload.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: GCPUpload.CalculateSize()
+  fullName: LiveKit.Proto.GCPUpload.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6907
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.GCPUpload.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.GCPUpload.MergeFrom(LiveKit.Proto.GCPUpload)
+  commentId: M:LiveKit.Proto.GCPUpload.MergeFrom(LiveKit.Proto.GCPUpload)
+  id: MergeFrom(LiveKit.Proto.GCPUpload)
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(GCPUpload)
+  nameWithType: GCPUpload.MergeFrom(GCPUpload)
+  fullName: LiveKit.Proto.GCPUpload.MergeFrom(LiveKit.Proto.GCPUpload)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6926
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(GCPUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.GCPUpload
+    content.vb: Public Sub MergeFrom(other As GCPUpload)
+  overload: LiveKit.Proto.GCPUpload.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}.MergeFrom(LiveKit.Proto.GCPUpload)
+- uid: LiveKit.Proto.GCPUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.GCPUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.GCPUpload
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: GCPUpload.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.GCPUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6947
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.GCPUpload.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.GCPUpload.html
+  name: IMessage<GCPUpload>
+  nameWithType: IMessage<GCPUpload>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.GCPUpload>
+  nameWithType.vb: IMessage(Of GCPUpload)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.GCPUpload)
+  name.vb: IMessage(Of GCPUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.GCPUpload}
+  commentId: T:System.IEquatable{LiveKit.Proto.GCPUpload}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<GCPUpload>
+  nameWithType: IEquatable<GCPUpload>
+  fullName: System.IEquatable<LiveKit.Proto.GCPUpload>
+  nameWithType.vb: IEquatable(Of GCPUpload)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.GCPUpload)
+  name.vb: IEquatable(Of GCPUpload)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.GCPUpload.html
+  name: IDeepCloneable<GCPUpload>
+  nameWithType: IDeepCloneable<GCPUpload>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.GCPUpload>
+  nameWithType.vb: IDeepCloneable(Of GCPUpload)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.GCPUpload)
+  name.vb: IDeepCloneable(Of GCPUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.GCPUpload.Parser*
+  commentId: Overload:LiveKit.Proto.GCPUpload.Parser
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_Parser
+  name: Parser
+  nameWithType: GCPUpload.Parser
+  fullName: LiveKit.Proto.GCPUpload.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.GCPUpload}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.GCPUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.GCPUpload.html
+  name: MessageParser<GCPUpload>
+  nameWithType: MessageParser<GCPUpload>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.GCPUpload>
+  nameWithType.vb: MessageParser(Of GCPUpload)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.GCPUpload)
+  name.vb: MessageParser(Of GCPUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.GCPUpload.Descriptor*
+  commentId: Overload:LiveKit.Proto.GCPUpload.Descriptor
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_Descriptor
+  name: Descriptor
+  nameWithType: GCPUpload.Descriptor
+  fullName: LiveKit.Proto.GCPUpload.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.GCPUpload.#ctor*
+  commentId: Overload:LiveKit.Proto.GCPUpload.#ctor
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload__ctor
+  name: GCPUpload
+  nameWithType: GCPUpload.GCPUpload
+  fullName: LiveKit.Proto.GCPUpload.GCPUpload
+  nameWithType.vb: GCPUpload.New
+  fullName.vb: LiveKit.Proto.GCPUpload.New
+  name.vb: New
+- uid: LiveKit.Proto.GCPUpload
+  commentId: T:LiveKit.Proto.GCPUpload
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.GCPUpload.html
+  name: GCPUpload
+  nameWithType: GCPUpload
+  fullName: LiveKit.Proto.GCPUpload
+- uid: LiveKit.Proto.GCPUpload.Clone*
+  commentId: Overload:LiveKit.Proto.GCPUpload.Clone
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_Clone
+  name: Clone
+  nameWithType: GCPUpload.Clone
+  fullName: LiveKit.Proto.GCPUpload.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<GCPUpload>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.GCPUpload>.Clone()
+  nameWithType.vb: IDeepCloneable(Of GCPUpload).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.GCPUpload).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.GCPUpload}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.GCPUpload.Credentials*
+  commentId: Overload:LiveKit.Proto.GCPUpload.Credentials
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_Credentials
+  name: Credentials
+  nameWithType: GCPUpload.Credentials
+  fullName: LiveKit.Proto.GCPUpload.Credentials
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.GCPUpload.Bucket*
+  commentId: Overload:LiveKit.Proto.GCPUpload.Bucket
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_Bucket
+  name: Bucket
+  nameWithType: GCPUpload.Bucket
+  fullName: LiveKit.Proto.GCPUpload.Bucket
+- uid: LiveKit.Proto.GCPUpload.Proxy*
+  commentId: Overload:LiveKit.Proto.GCPUpload.Proxy
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_Proxy
+  name: Proxy
+  nameWithType: GCPUpload.Proxy
+  fullName: LiveKit.Proto.GCPUpload.Proxy
+- uid: LiveKit.Proto.ProxyConfig
+  commentId: T:LiveKit.Proto.ProxyConfig
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ProxyConfig.html
+  name: ProxyConfig
+  nameWithType: ProxyConfig
+  fullName: LiveKit.Proto.ProxyConfig
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.GCPUpload.Equals*
+  commentId: Overload:LiveKit.Proto.GCPUpload.Equals
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_Equals_System_Object_
+  name: Equals
+  nameWithType: GCPUpload.Equals
+  fullName: LiveKit.Proto.GCPUpload.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.GCPUpload}.Equals(LiveKit.Proto.GCPUpload)
+  commentId: M:System.IEquatable{LiveKit.Proto.GCPUpload}.Equals(LiveKit.Proto.GCPUpload)
+  parent: System.IEquatable{LiveKit.Proto.GCPUpload}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(GCPUpload)
+  nameWithType: IEquatable<GCPUpload>.Equals(GCPUpload)
+  fullName: System.IEquatable<LiveKit.Proto.GCPUpload>.Equals(LiveKit.Proto.GCPUpload)
+  nameWithType.vb: IEquatable(Of GCPUpload).Equals(GCPUpload)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.GCPUpload).Equals(LiveKit.Proto.GCPUpload)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.GCPUpload}.Equals(LiveKit.Proto.GCPUpload)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.GCPUpload}.Equals(LiveKit.Proto.GCPUpload)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.GCPUpload.GetHashCode*
+  commentId: Overload:LiveKit.Proto.GCPUpload.GetHashCode
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_GetHashCode
+  name: GetHashCode
+  nameWithType: GCPUpload.GetHashCode
+  fullName: LiveKit.Proto.GCPUpload.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.GCPUpload.ToString*
+  commentId: Overload:LiveKit.Proto.GCPUpload.ToString
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_ToString
+  name: ToString
+  nameWithType: GCPUpload.ToString
+  fullName: LiveKit.Proto.GCPUpload.ToString
+- uid: LiveKit.Proto.GCPUpload.WriteTo*
+  commentId: Overload:LiveKit.Proto.GCPUpload.WriteTo
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: GCPUpload.WriteTo
+  fullName: LiveKit.Proto.GCPUpload.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.GCPUpload.CalculateSize*
+  commentId: Overload:LiveKit.Proto.GCPUpload.CalculateSize
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_CalculateSize
+  name: CalculateSize
+  nameWithType: GCPUpload.CalculateSize
+  fullName: LiveKit.Proto.GCPUpload.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.GCPUpload.MergeFrom*
+  commentId: Overload:LiveKit.Proto.GCPUpload.MergeFrom
+  href: LiveKit.Proto.GCPUpload.html#LiveKit_Proto_GCPUpload_MergeFrom_LiveKit_Proto_GCPUpload_
+  name: MergeFrom
+  nameWithType: GCPUpload.MergeFrom
+  fullName: LiveKit.Proto.GCPUpload.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}.MergeFrom(LiveKit.Proto.GCPUpload)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}.MergeFrom(LiveKit.Proto.GCPUpload)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.GCPUpload.html
+  name: MergeFrom(GCPUpload)
+  nameWithType: IMessage<GCPUpload>.MergeFrom(GCPUpload)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.GCPUpload>.MergeFrom(LiveKit.Proto.GCPUpload)
+  nameWithType.vb: IMessage(Of GCPUpload).MergeFrom(GCPUpload)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.GCPUpload).MergeFrom(LiveKit.Proto.GCPUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}.MergeFrom(LiveKit.Proto.GCPUpload)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.GCPUpload}.MergeFrom(LiveKit.Proto.GCPUpload)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.GCPUpload
+    name: GCPUpload
+    href: LiveKit.Proto.GCPUpload.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

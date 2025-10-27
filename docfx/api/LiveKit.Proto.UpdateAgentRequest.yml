@@ -1,0 +1,1964 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.UpdateAgentRequest
+  commentId: T:LiveKit.Proto.UpdateAgentRequest
+  id: UpdateAgentRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.UpdateAgentRequest.#ctor
+  - LiveKit.Proto.UpdateAgentRequest.#ctor(LiveKit.Proto.UpdateAgentRequest)
+  - LiveKit.Proto.UpdateAgentRequest.AgentId
+  - LiveKit.Proto.UpdateAgentRequest.AgentIdFieldNumber
+  - LiveKit.Proto.UpdateAgentRequest.AgentName
+  - LiveKit.Proto.UpdateAgentRequest.AgentNameFieldNumber
+  - LiveKit.Proto.UpdateAgentRequest.CalculateSize
+  - LiveKit.Proto.UpdateAgentRequest.Clone
+  - LiveKit.Proto.UpdateAgentRequest.CpuReq
+  - LiveKit.Proto.UpdateAgentRequest.CpuReqFieldNumber
+  - LiveKit.Proto.UpdateAgentRequest.Descriptor
+  - LiveKit.Proto.UpdateAgentRequest.Equals(LiveKit.Proto.UpdateAgentRequest)
+  - LiveKit.Proto.UpdateAgentRequest.Equals(System.Object)
+  - LiveKit.Proto.UpdateAgentRequest.GetHashCode
+  - LiveKit.Proto.UpdateAgentRequest.MaxReplicas
+  - LiveKit.Proto.UpdateAgentRequest.MaxReplicasFieldNumber
+  - LiveKit.Proto.UpdateAgentRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.UpdateAgentRequest.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  - LiveKit.Proto.UpdateAgentRequest.Parser
+  - LiveKit.Proto.UpdateAgentRequest.Regions
+  - LiveKit.Proto.UpdateAgentRequest.RegionsFieldNumber
+  - LiveKit.Proto.UpdateAgentRequest.Replicas
+  - LiveKit.Proto.UpdateAgentRequest.ReplicasFieldNumber
+  - LiveKit.Proto.UpdateAgentRequest.Secrets
+  - LiveKit.Proto.UpdateAgentRequest.SecretsFieldNumber
+  - LiveKit.Proto.UpdateAgentRequest.ToString
+  - LiveKit.Proto.UpdateAgentRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: UpdateAgentRequest
+  nameWithType: UpdateAgentRequest
+  fullName: LiveKit.Proto.UpdateAgentRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateAgentRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3822
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class UpdateAgentRequest : IMessage<UpdateAgentRequest>, IEquatable<UpdateAgentRequest>, IDeepCloneable<UpdateAgentRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class UpdateAgentRequest Implements IMessage(Of UpdateAgentRequest), IEquatable(Of UpdateAgentRequest), IDeepCloneable(Of UpdateAgentRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}
+  - System.IEquatable{LiveKit.Proto.UpdateAgentRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.UpdateAgentRequest.Parser
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: UpdateAgentRequest.Parser
+  fullName: LiveKit.Proto.UpdateAgentRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3830
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<UpdateAgentRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.UpdateAgentRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of UpdateAgentRequest)
+  overload: LiveKit.Proto.UpdateAgentRequest.Parser*
+- uid: LiveKit.Proto.UpdateAgentRequest.Descriptor
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: UpdateAgentRequest.Descriptor
+  fullName: LiveKit.Proto.UpdateAgentRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3834
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.UpdateAgentRequest.Descriptor*
+- uid: LiveKit.Proto.UpdateAgentRequest.#ctor
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateAgentRequest()
+  nameWithType: UpdateAgentRequest.UpdateAgentRequest()
+  fullName: LiveKit.Proto.UpdateAgentRequest.UpdateAgentRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3846
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateAgentRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.UpdateAgentRequest.#ctor*
+  nameWithType.vb: UpdateAgentRequest.New()
+  fullName.vb: LiveKit.Proto.UpdateAgentRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.UpdateAgentRequest.#ctor(LiveKit.Proto.UpdateAgentRequest)
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.#ctor(LiveKit.Proto.UpdateAgentRequest)
+  id: '#ctor(LiveKit.Proto.UpdateAgentRequest)'
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateAgentRequest(UpdateAgentRequest)
+  nameWithType: UpdateAgentRequest.UpdateAgentRequest(UpdateAgentRequest)
+  fullName: LiveKit.Proto.UpdateAgentRequest.UpdateAgentRequest(LiveKit.Proto.UpdateAgentRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3854
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateAgentRequest(UpdateAgentRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateAgentRequest
+    content.vb: Public Sub New(other As UpdateAgentRequest)
+  overload: LiveKit.Proto.UpdateAgentRequest.#ctor*
+  nameWithType.vb: UpdateAgentRequest.New(UpdateAgentRequest)
+  fullName.vb: LiveKit.Proto.UpdateAgentRequest.New(LiveKit.Proto.UpdateAgentRequest)
+  name.vb: New(UpdateAgentRequest)
+- uid: LiveKit.Proto.UpdateAgentRequest.Clone
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: UpdateAgentRequest.Clone()
+  fullName: LiveKit.Proto.UpdateAgentRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3867
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public UpdateAgentRequest Clone()
+    return:
+      type: LiveKit.Proto.UpdateAgentRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As UpdateAgentRequest
+  overload: LiveKit.Proto.UpdateAgentRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}.Clone
+- uid: LiveKit.Proto.UpdateAgentRequest.AgentIdFieldNumber
+  commentId: F:LiveKit.Proto.UpdateAgentRequest.AgentIdFieldNumber
+  id: AgentIdFieldNumber
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentIdFieldNumber
+  nameWithType: UpdateAgentRequest.AgentIdFieldNumber
+  fullName: LiveKit.Proto.UpdateAgentRequest.AgentIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3874
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "agent_id" field.
+  example: []
+  syntax:
+    content: public const int AgentIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const AgentIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.UpdateAgentRequest.AgentId
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.AgentId
+  id: AgentId
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentId
+  nameWithType: UpdateAgentRequest.AgentId
+  fullName: LiveKit.Proto.UpdateAgentRequest.AgentId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3876
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AgentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AgentId As String
+  overload: LiveKit.Proto.UpdateAgentRequest.AgentId*
+- uid: LiveKit.Proto.UpdateAgentRequest.AgentNameFieldNumber
+  commentId: F:LiveKit.Proto.UpdateAgentRequest.AgentNameFieldNumber
+  id: AgentNameFieldNumber
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentNameFieldNumber
+  nameWithType: UpdateAgentRequest.AgentNameFieldNumber
+  fullName: LiveKit.Proto.UpdateAgentRequest.AgentNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3886
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "agent_name" field.
+  example: []
+  syntax:
+    content: public const int AgentNameFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AgentNameFieldNumber As Integer = 2
+- uid: LiveKit.Proto.UpdateAgentRequest.AgentName
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.AgentName
+  id: AgentName
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: AgentName
+  nameWithType: UpdateAgentRequest.AgentName
+  fullName: LiveKit.Proto.UpdateAgentRequest.AgentName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3888
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public string AgentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Property AgentName As String
+  overload: LiveKit.Proto.UpdateAgentRequest.AgentName*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.UpdateAgentRequest.ReplicasFieldNumber
+  commentId: F:LiveKit.Proto.UpdateAgentRequest.ReplicasFieldNumber
+  id: ReplicasFieldNumber
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplicasFieldNumber
+  nameWithType: UpdateAgentRequest.ReplicasFieldNumber
+  fullName: LiveKit.Proto.UpdateAgentRequest.ReplicasFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReplicasFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3899
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "replicas" field.
+  example: []
+  syntax:
+    content: public const int ReplicasFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const ReplicasFieldNumber As Integer = 3
+- uid: LiveKit.Proto.UpdateAgentRequest.Replicas
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.Replicas
+  id: Replicas
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Replicas
+  nameWithType: UpdateAgentRequest.Replicas
+  fullName: LiveKit.Proto.UpdateAgentRequest.Replicas
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Replicas
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3901
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public int Replicas { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete>
+
+      Public Property Replicas As Integer
+  overload: LiveKit.Proto.UpdateAgentRequest.Replicas*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.UpdateAgentRequest.MaxReplicasFieldNumber
+  commentId: F:LiveKit.Proto.UpdateAgentRequest.MaxReplicasFieldNumber
+  id: MaxReplicasFieldNumber
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxReplicasFieldNumber
+  nameWithType: UpdateAgentRequest.MaxReplicasFieldNumber
+  fullName: LiveKit.Proto.UpdateAgentRequest.MaxReplicasFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MaxReplicasFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3912
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "max_replicas" field.
+  example: []
+  syntax:
+    content: public const int MaxReplicasFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const MaxReplicasFieldNumber As Integer = 4
+- uid: LiveKit.Proto.UpdateAgentRequest.MaxReplicas
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.MaxReplicas
+  id: MaxReplicas
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: MaxReplicas
+  nameWithType: UpdateAgentRequest.MaxReplicas
+  fullName: LiveKit.Proto.UpdateAgentRequest.MaxReplicas
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MaxReplicas
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3914
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public int MaxReplicas { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Obsolete>
+
+      Public Property MaxReplicas As Integer
+  overload: LiveKit.Proto.UpdateAgentRequest.MaxReplicas*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.UpdateAgentRequest.CpuReqFieldNumber
+  commentId: F:LiveKit.Proto.UpdateAgentRequest.CpuReqFieldNumber
+  id: CpuReqFieldNumber
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: CpuReqFieldNumber
+  nameWithType: UpdateAgentRequest.CpuReqFieldNumber
+  fullName: LiveKit.Proto.UpdateAgentRequest.CpuReqFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CpuReqFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3925
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "cpu_req" field.
+  example: []
+  syntax:
+    content: public const int CpuReqFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const CpuReqFieldNumber As Integer = 5
+- uid: LiveKit.Proto.UpdateAgentRequest.CpuReq
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.CpuReq
+  id: CpuReq
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: CpuReq
+  nameWithType: UpdateAgentRequest.CpuReq
+  fullName: LiveKit.Proto.UpdateAgentRequest.CpuReq
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CpuReq
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3927
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public string CpuReq { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Property CpuReq As String
+  overload: LiveKit.Proto.UpdateAgentRequest.CpuReq*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.UpdateAgentRequest.RegionsFieldNumber
+  commentId: F:LiveKit.Proto.UpdateAgentRequest.RegionsFieldNumber
+  id: RegionsFieldNumber
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: RegionsFieldNumber
+  nameWithType: UpdateAgentRequest.RegionsFieldNumber
+  fullName: LiveKit.Proto.UpdateAgentRequest.RegionsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RegionsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3938
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "regions" field.
+  example: []
+  syntax:
+    content: public const int RegionsFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const RegionsFieldNumber As Integer = 6
+- uid: LiveKit.Proto.UpdateAgentRequest.Regions
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.Regions
+  id: Regions
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Regions
+  nameWithType: UpdateAgentRequest.Regions
+  fullName: LiveKit.Proto.UpdateAgentRequest.Regions
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Regions
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3942
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<string> Regions { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property Regions As RepeatedField(Of String)
+  overload: LiveKit.Proto.UpdateAgentRequest.Regions*
+- uid: LiveKit.Proto.UpdateAgentRequest.SecretsFieldNumber
+  commentId: F:LiveKit.Proto.UpdateAgentRequest.SecretsFieldNumber
+  id: SecretsFieldNumber
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: SecretsFieldNumber
+  nameWithType: UpdateAgentRequest.SecretsFieldNumber
+  fullName: LiveKit.Proto.UpdateAgentRequest.SecretsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SecretsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3949
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "secrets" field.
+  example: []
+  syntax:
+    content: public const int SecretsFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const SecretsFieldNumber As Integer = 7
+- uid: LiveKit.Proto.UpdateAgentRequest.Secrets
+  commentId: P:LiveKit.Proto.UpdateAgentRequest.Secrets
+  id: Secrets
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Secrets
+  nameWithType: UpdateAgentRequest.Secrets
+  fullName: LiveKit.Proto.UpdateAgentRequest.Secrets
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Secrets
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3953
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<AgentSecret> Secrets { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.AgentSecret}
+    content.vb: Public ReadOnly Property Secrets As RepeatedField(Of AgentSecret)
+  overload: LiveKit.Proto.UpdateAgentRequest.Secrets*
+- uid: LiveKit.Proto.UpdateAgentRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: UpdateAgentRequest.Equals(object)
+  fullName: LiveKit.Proto.UpdateAgentRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3959
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.UpdateAgentRequest.Equals*
+  nameWithType.vb: UpdateAgentRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.UpdateAgentRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.UpdateAgentRequest.Equals(LiveKit.Proto.UpdateAgentRequest)
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.Equals(LiveKit.Proto.UpdateAgentRequest)
+  id: Equals(LiveKit.Proto.UpdateAgentRequest)
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(UpdateAgentRequest)
+  nameWithType: UpdateAgentRequest.Equals(UpdateAgentRequest)
+  fullName: LiveKit.Proto.UpdateAgentRequest.Equals(LiveKit.Proto.UpdateAgentRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3965
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(UpdateAgentRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateAgentRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As UpdateAgentRequest) As Boolean
+  overload: LiveKit.Proto.UpdateAgentRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.UpdateAgentRequest}.Equals(LiveKit.Proto.UpdateAgentRequest)
+- uid: LiveKit.Proto.UpdateAgentRequest.GetHashCode
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: UpdateAgentRequest.GetHashCode()
+  fullName: LiveKit.Proto.UpdateAgentRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 3984
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.UpdateAgentRequest.GetHashCode*
+- uid: LiveKit.Proto.UpdateAgentRequest.ToString
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UpdateAgentRequest.ToString()
+  fullName: LiveKit.Proto.UpdateAgentRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 4001
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.UpdateAgentRequest.ToString*
+- uid: LiveKit.Proto.UpdateAgentRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: UpdateAgentRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.UpdateAgentRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 4007
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.UpdateAgentRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.UpdateAgentRequest.CalculateSize
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: UpdateAgentRequest.CalculateSize()
+  fullName: LiveKit.Proto.UpdateAgentRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 4073
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.UpdateAgentRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.UpdateAgentRequest.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  id: MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(UpdateAgentRequest)
+  nameWithType: UpdateAgentRequest.MergeFrom(UpdateAgentRequest)
+  fullName: LiveKit.Proto.UpdateAgentRequest.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 4100
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(UpdateAgentRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateAgentRequest
+    content.vb: Public Sub MergeFrom(other As UpdateAgentRequest)
+  overload: LiveKit.Proto.UpdateAgentRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+- uid: LiveKit.Proto.UpdateAgentRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.UpdateAgentRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.UpdateAgentRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: UpdateAgentRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.UpdateAgentRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 4126
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.UpdateAgentRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.UpdateAgentRequest.html
+  name: IMessage<UpdateAgentRequest>
+  nameWithType: IMessage<UpdateAgentRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.UpdateAgentRequest>
+  nameWithType.vb: IMessage(Of UpdateAgentRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.UpdateAgentRequest)
+  name.vb: IMessage(Of UpdateAgentRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.UpdateAgentRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.UpdateAgentRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<UpdateAgentRequest>
+  nameWithType: IEquatable<UpdateAgentRequest>
+  fullName: System.IEquatable<LiveKit.Proto.UpdateAgentRequest>
+  nameWithType.vb: IEquatable(Of UpdateAgentRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.UpdateAgentRequest)
+  name.vb: IEquatable(Of UpdateAgentRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.UpdateAgentRequest.html
+  name: IDeepCloneable<UpdateAgentRequest>
+  nameWithType: IDeepCloneable<UpdateAgentRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.UpdateAgentRequest>
+  nameWithType.vb: IDeepCloneable(Of UpdateAgentRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.UpdateAgentRequest)
+  name.vb: IDeepCloneable(Of UpdateAgentRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.UpdateAgentRequest.Parser*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.Parser
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_Parser
+  name: Parser
+  nameWithType: UpdateAgentRequest.Parser
+  fullName: LiveKit.Proto.UpdateAgentRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.UpdateAgentRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.UpdateAgentRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.UpdateAgentRequest.html
+  name: MessageParser<UpdateAgentRequest>
+  nameWithType: MessageParser<UpdateAgentRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.UpdateAgentRequest>
+  nameWithType.vb: MessageParser(Of UpdateAgentRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.UpdateAgentRequest)
+  name.vb: MessageParser(Of UpdateAgentRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.UpdateAgentRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.Descriptor
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_Descriptor
+  name: Descriptor
+  nameWithType: UpdateAgentRequest.Descriptor
+  fullName: LiveKit.Proto.UpdateAgentRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.UpdateAgentRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.#ctor
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest__ctor
+  name: UpdateAgentRequest
+  nameWithType: UpdateAgentRequest.UpdateAgentRequest
+  fullName: LiveKit.Proto.UpdateAgentRequest.UpdateAgentRequest
+  nameWithType.vb: UpdateAgentRequest.New
+  fullName.vb: LiveKit.Proto.UpdateAgentRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.UpdateAgentRequest
+  commentId: T:LiveKit.Proto.UpdateAgentRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateAgentRequest.html
+  name: UpdateAgentRequest
+  nameWithType: UpdateAgentRequest
+  fullName: LiveKit.Proto.UpdateAgentRequest
+- uid: LiveKit.Proto.UpdateAgentRequest.Clone*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.Clone
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_Clone
+  name: Clone
+  nameWithType: UpdateAgentRequest.Clone
+  fullName: LiveKit.Proto.UpdateAgentRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<UpdateAgentRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.UpdateAgentRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of UpdateAgentRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.UpdateAgentRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateAgentRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.UpdateAgentRequest.AgentId*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.AgentId
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_AgentId
+  name: AgentId
+  nameWithType: UpdateAgentRequest.AgentId
+  fullName: LiveKit.Proto.UpdateAgentRequest.AgentId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.UpdateAgentRequest.AgentName*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.AgentName
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_AgentName
+  name: AgentName
+  nameWithType: UpdateAgentRequest.AgentName
+  fullName: LiveKit.Proto.UpdateAgentRequest.AgentName
+- uid: LiveKit.Proto.UpdateAgentRequest.Replicas*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.Replicas
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_Replicas
+  name: Replicas
+  nameWithType: UpdateAgentRequest.Replicas
+  fullName: LiveKit.Proto.UpdateAgentRequest.Replicas
+- uid: LiveKit.Proto.UpdateAgentRequest.MaxReplicas*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.MaxReplicas
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_MaxReplicas
+  name: MaxReplicas
+  nameWithType: UpdateAgentRequest.MaxReplicas
+  fullName: LiveKit.Proto.UpdateAgentRequest.MaxReplicas
+- uid: LiveKit.Proto.UpdateAgentRequest.CpuReq*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.CpuReq
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_CpuReq
+  name: CpuReq
+  nameWithType: UpdateAgentRequest.CpuReq
+  fullName: LiveKit.Proto.UpdateAgentRequest.CpuReq
+- uid: LiveKit.Proto.UpdateAgentRequest.Regions*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.Regions
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_Regions
+  name: Regions
+  nameWithType: UpdateAgentRequest.Regions
+  fullName: LiveKit.Proto.UpdateAgentRequest.Regions
+- uid: Google.Protobuf.Collections.RepeatedField{System.String}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RepeatedField<string>
+  nameWithType: RepeatedField<string>
+  fullName: Google.Protobuf.Collections.RepeatedField<string>
+  nameWithType.vb: RepeatedField(Of String)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of String)
+  name.vb: RepeatedField(Of String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.UpdateAgentRequest.Secrets*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.Secrets
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_Secrets
+  name: Secrets
+  nameWithType: UpdateAgentRequest.Secrets
+  fullName: LiveKit.Proto.UpdateAgentRequest.Secrets
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.AgentSecret}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.AgentSecret}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.AgentSecret.html
+  name: RepeatedField<AgentSecret>
+  nameWithType: RepeatedField<AgentSecret>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.AgentSecret>
+  nameWithType.vb: RepeatedField(Of AgentSecret)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.AgentSecret)
+  name.vb: RepeatedField(Of AgentSecret)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AgentSecret
+    name: AgentSecret
+    href: LiveKit.Proto.AgentSecret.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AgentSecret
+    name: AgentSecret
+    href: LiveKit.Proto.AgentSecret.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.UpdateAgentRequest.Equals*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.Equals
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: UpdateAgentRequest.Equals
+  fullName: LiveKit.Proto.UpdateAgentRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.UpdateAgentRequest}.Equals(LiveKit.Proto.UpdateAgentRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.UpdateAgentRequest}.Equals(LiveKit.Proto.UpdateAgentRequest)
+  parent: System.IEquatable{LiveKit.Proto.UpdateAgentRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(UpdateAgentRequest)
+  nameWithType: IEquatable<UpdateAgentRequest>.Equals(UpdateAgentRequest)
+  fullName: System.IEquatable<LiveKit.Proto.UpdateAgentRequest>.Equals(LiveKit.Proto.UpdateAgentRequest)
+  nameWithType.vb: IEquatable(Of UpdateAgentRequest).Equals(UpdateAgentRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.UpdateAgentRequest).Equals(LiveKit.Proto.UpdateAgentRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.UpdateAgentRequest}.Equals(LiveKit.Proto.UpdateAgentRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.UpdateAgentRequest}.Equals(LiveKit.Proto.UpdateAgentRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateAgentRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.GetHashCode
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: UpdateAgentRequest.GetHashCode
+  fullName: LiveKit.Proto.UpdateAgentRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateAgentRequest.ToString*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.ToString
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_ToString
+  name: ToString
+  nameWithType: UpdateAgentRequest.ToString
+  fullName: LiveKit.Proto.UpdateAgentRequest.ToString
+- uid: LiveKit.Proto.UpdateAgentRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.WriteTo
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: UpdateAgentRequest.WriteTo
+  fullName: LiveKit.Proto.UpdateAgentRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.UpdateAgentRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.CalculateSize
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: UpdateAgentRequest.CalculateSize
+  fullName: LiveKit.Proto.UpdateAgentRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateAgentRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.UpdateAgentRequest.MergeFrom
+  href: LiveKit.Proto.UpdateAgentRequest.html#LiveKit_Proto_UpdateAgentRequest_MergeFrom_LiveKit_Proto_UpdateAgentRequest_
+  name: MergeFrom
+  nameWithType: UpdateAgentRequest.MergeFrom
+  fullName: LiveKit.Proto.UpdateAgentRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.UpdateAgentRequest.html
+  name: MergeFrom(UpdateAgentRequest)
+  nameWithType: IMessage<UpdateAgentRequest>.MergeFrom(UpdateAgentRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.UpdateAgentRequest>.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  nameWithType.vb: IMessage(Of UpdateAgentRequest).MergeFrom(UpdateAgentRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.UpdateAgentRequest).MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateAgentRequest}.MergeFrom(LiveKit.Proto.UpdateAgentRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.UpdateAgentRequest
+    name: UpdateAgentRequest
+    href: LiveKit.Proto.UpdateAgentRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

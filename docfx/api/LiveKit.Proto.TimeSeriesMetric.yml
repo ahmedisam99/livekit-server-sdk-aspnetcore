@@ -1,0 +1,1781 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.TimeSeriesMetric
+  commentId: T:LiveKit.Proto.TimeSeriesMetric
+  id: TimeSeriesMetric
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.TimeSeriesMetric.#ctor
+  - LiveKit.Proto.TimeSeriesMetric.#ctor(LiveKit.Proto.TimeSeriesMetric)
+  - LiveKit.Proto.TimeSeriesMetric.CalculateSize
+  - LiveKit.Proto.TimeSeriesMetric.Clone
+  - LiveKit.Proto.TimeSeriesMetric.Descriptor
+  - LiveKit.Proto.TimeSeriesMetric.Equals(LiveKit.Proto.TimeSeriesMetric)
+  - LiveKit.Proto.TimeSeriesMetric.Equals(System.Object)
+  - LiveKit.Proto.TimeSeriesMetric.GetHashCode
+  - LiveKit.Proto.TimeSeriesMetric.Label
+  - LiveKit.Proto.TimeSeriesMetric.LabelFieldNumber
+  - LiveKit.Proto.TimeSeriesMetric.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.TimeSeriesMetric.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  - LiveKit.Proto.TimeSeriesMetric.Parser
+  - LiveKit.Proto.TimeSeriesMetric.ParticipantIdentity
+  - LiveKit.Proto.TimeSeriesMetric.ParticipantIdentityFieldNumber
+  - LiveKit.Proto.TimeSeriesMetric.Rid
+  - LiveKit.Proto.TimeSeriesMetric.RidFieldNumber
+  - LiveKit.Proto.TimeSeriesMetric.Samples
+  - LiveKit.Proto.TimeSeriesMetric.SamplesFieldNumber
+  - LiveKit.Proto.TimeSeriesMetric.ToString
+  - LiveKit.Proto.TimeSeriesMetric.TrackSid
+  - LiveKit.Proto.TimeSeriesMetric.TrackSidFieldNumber
+  - LiveKit.Proto.TimeSeriesMetric.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: TimeSeriesMetric
+  nameWithType: TimeSeriesMetric
+  fullName: LiveKit.Proto.TimeSeriesMetric
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TimeSeriesMetric
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 507
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class TimeSeriesMetric : IMessage<TimeSeriesMetric>, IEquatable<TimeSeriesMetric>, IDeepCloneable<TimeSeriesMetric>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class TimeSeriesMetric Implements IMessage(Of TimeSeriesMetric), IEquatable(Of TimeSeriesMetric), IDeepCloneable(Of TimeSeriesMetric), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}
+  - System.IEquatable{LiveKit.Proto.TimeSeriesMetric}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.TimeSeriesMetric.Parser
+  commentId: P:LiveKit.Proto.TimeSeriesMetric.Parser
+  id: Parser
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: TimeSeriesMetric.Parser
+  fullName: LiveKit.Proto.TimeSeriesMetric.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 515
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<TimeSeriesMetric> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.TimeSeriesMetric}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of TimeSeriesMetric)
+  overload: LiveKit.Proto.TimeSeriesMetric.Parser*
+- uid: LiveKit.Proto.TimeSeriesMetric.Descriptor
+  commentId: P:LiveKit.Proto.TimeSeriesMetric.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: TimeSeriesMetric.Descriptor
+  fullName: LiveKit.Proto.TimeSeriesMetric.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 519
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.TimeSeriesMetric.Descriptor*
+- uid: LiveKit.Proto.TimeSeriesMetric.#ctor
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: TimeSeriesMetric()
+  nameWithType: TimeSeriesMetric.TimeSeriesMetric()
+  fullName: LiveKit.Proto.TimeSeriesMetric.TimeSeriesMetric()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 531
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TimeSeriesMetric()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.TimeSeriesMetric.#ctor*
+  nameWithType.vb: TimeSeriesMetric.New()
+  fullName.vb: LiveKit.Proto.TimeSeriesMetric.New()
+  name.vb: New()
+- uid: LiveKit.Proto.TimeSeriesMetric.#ctor(LiveKit.Proto.TimeSeriesMetric)
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.#ctor(LiveKit.Proto.TimeSeriesMetric)
+  id: '#ctor(LiveKit.Proto.TimeSeriesMetric)'
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: TimeSeriesMetric(TimeSeriesMetric)
+  nameWithType: TimeSeriesMetric.TimeSeriesMetric(TimeSeriesMetric)
+  fullName: LiveKit.Proto.TimeSeriesMetric.TimeSeriesMetric(LiveKit.Proto.TimeSeriesMetric)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 539
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TimeSeriesMetric(TimeSeriesMetric other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TimeSeriesMetric
+    content.vb: Public Sub New(other As TimeSeriesMetric)
+  overload: LiveKit.Proto.TimeSeriesMetric.#ctor*
+  nameWithType.vb: TimeSeriesMetric.New(TimeSeriesMetric)
+  fullName.vb: LiveKit.Proto.TimeSeriesMetric.New(LiveKit.Proto.TimeSeriesMetric)
+  name.vb: New(TimeSeriesMetric)
+- uid: LiveKit.Proto.TimeSeriesMetric.Clone
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.Clone
+  id: Clone
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: TimeSeriesMetric.Clone()
+  fullName: LiveKit.Proto.TimeSeriesMetric.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 550
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public TimeSeriesMetric Clone()
+    return:
+      type: LiveKit.Proto.TimeSeriesMetric
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As TimeSeriesMetric
+  overload: LiveKit.Proto.TimeSeriesMetric.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}.Clone
+- uid: LiveKit.Proto.TimeSeriesMetric.LabelFieldNumber
+  commentId: F:LiveKit.Proto.TimeSeriesMetric.LabelFieldNumber
+  id: LabelFieldNumber
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: LabelFieldNumber
+  nameWithType: TimeSeriesMetric.LabelFieldNumber
+  fullName: LiveKit.Proto.TimeSeriesMetric.LabelFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LabelFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 557
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "label" field.
+  example: []
+  syntax:
+    content: public const int LabelFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const LabelFieldNumber As Integer = 1
+- uid: LiveKit.Proto.TimeSeriesMetric.Label
+  commentId: P:LiveKit.Proto.TimeSeriesMetric.Label
+  id: Label
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: TimeSeriesMetric.Label
+  fullName: LiveKit.Proto.TimeSeriesMetric.Label
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Label
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 563
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    Metric name e.g "speech_probablity". The string value is not directly stored in the message, but referenced by index
+
+    in the `str_data` field of `MetricsBatch`
+  example: []
+  syntax:
+    content: public uint Label { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Label As UInteger
+  overload: LiveKit.Proto.TimeSeriesMetric.Label*
+- uid: LiveKit.Proto.TimeSeriesMetric.ParticipantIdentityFieldNumber
+  commentId: F:LiveKit.Proto.TimeSeriesMetric.ParticipantIdentityFieldNumber
+  id: ParticipantIdentityFieldNumber
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentityFieldNumber
+  nameWithType: TimeSeriesMetric.ParticipantIdentityFieldNumber
+  fullName: LiveKit.Proto.TimeSeriesMetric.ParticipantIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 573
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_identity" field.
+  example: []
+  syntax:
+    content: public const int ParticipantIdentityFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantIdentityFieldNumber As Integer = 2
+- uid: LiveKit.Proto.TimeSeriesMetric.ParticipantIdentity
+  commentId: P:LiveKit.Proto.TimeSeriesMetric.ParticipantIdentity
+  id: ParticipantIdentity
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentity
+  nameWithType: TimeSeriesMetric.ParticipantIdentity
+  fullName: LiveKit.Proto.TimeSeriesMetric.ParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 578
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: index into `str_data`
+  example: []
+  syntax:
+    content: public uint ParticipantIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ParticipantIdentity As UInteger
+  overload: LiveKit.Proto.TimeSeriesMetric.ParticipantIdentity*
+- uid: LiveKit.Proto.TimeSeriesMetric.TrackSidFieldNumber
+  commentId: F:LiveKit.Proto.TimeSeriesMetric.TrackSidFieldNumber
+  id: TrackSidFieldNumber
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: TrackSidFieldNumber
+  nameWithType: TimeSeriesMetric.TrackSidFieldNumber
+  fullName: LiveKit.Proto.TimeSeriesMetric.TrackSidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 588
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_sid" field.
+  example: []
+  syntax:
+    content: public const int TrackSidFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackSidFieldNumber As Integer = 3
+- uid: LiveKit.Proto.TimeSeriesMetric.TrackSid
+  commentId: P:LiveKit.Proto.TimeSeriesMetric.TrackSid
+  id: TrackSid
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: TrackSid
+  nameWithType: TimeSeriesMetric.TrackSid
+  fullName: LiveKit.Proto.TimeSeriesMetric.TrackSid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 593
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: index into `str_data`
+  example: []
+  syntax:
+    content: public uint TrackSid { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property TrackSid As UInteger
+  overload: LiveKit.Proto.TimeSeriesMetric.TrackSid*
+- uid: LiveKit.Proto.TimeSeriesMetric.SamplesFieldNumber
+  commentId: F:LiveKit.Proto.TimeSeriesMetric.SamplesFieldNumber
+  id: SamplesFieldNumber
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: SamplesFieldNumber
+  nameWithType: TimeSeriesMetric.SamplesFieldNumber
+  fullName: LiveKit.Proto.TimeSeriesMetric.SamplesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SamplesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 603
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "samples" field.
+  example: []
+  syntax:
+    content: public const int SamplesFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const SamplesFieldNumber As Integer = 4
+- uid: LiveKit.Proto.TimeSeriesMetric.Samples
+  commentId: P:LiveKit.Proto.TimeSeriesMetric.Samples
+  id: Samples
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: Samples
+  nameWithType: TimeSeriesMetric.Samples
+  fullName: LiveKit.Proto.TimeSeriesMetric.Samples
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Samples
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 607
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<MetricSample> Samples { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.MetricSample}
+    content.vb: Public ReadOnly Property Samples As RepeatedField(Of MetricSample)
+  overload: LiveKit.Proto.TimeSeriesMetric.Samples*
+- uid: LiveKit.Proto.TimeSeriesMetric.RidFieldNumber
+  commentId: F:LiveKit.Proto.TimeSeriesMetric.RidFieldNumber
+  id: RidFieldNumber
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: RidFieldNumber
+  nameWithType: TimeSeriesMetric.RidFieldNumber
+  fullName: LiveKit.Proto.TimeSeriesMetric.RidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 614
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "rid" field.
+  example: []
+  syntax:
+    content: public const int RidFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const RidFieldNumber As Integer = 5
+- uid: LiveKit.Proto.TimeSeriesMetric.Rid
+  commentId: P:LiveKit.Proto.TimeSeriesMetric.Rid
+  id: Rid
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: Rid
+  nameWithType: TimeSeriesMetric.Rid
+  fullName: LiveKit.Proto.TimeSeriesMetric.Rid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Rid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 619
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: index into 'str_data'
+  example: []
+  syntax:
+    content: public uint Rid { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Rid As UInteger
+  overload: LiveKit.Proto.TimeSeriesMetric.Rid*
+- uid: LiveKit.Proto.TimeSeriesMetric.Equals(System.Object)
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: TimeSeriesMetric.Equals(object)
+  fullName: LiveKit.Proto.TimeSeriesMetric.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 628
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.TimeSeriesMetric.Equals*
+  nameWithType.vb: TimeSeriesMetric.Equals(Object)
+  fullName.vb: LiveKit.Proto.TimeSeriesMetric.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.TimeSeriesMetric.Equals(LiveKit.Proto.TimeSeriesMetric)
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.Equals(LiveKit.Proto.TimeSeriesMetric)
+  id: Equals(LiveKit.Proto.TimeSeriesMetric)
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: Equals(TimeSeriesMetric)
+  nameWithType: TimeSeriesMetric.Equals(TimeSeriesMetric)
+  fullName: LiveKit.Proto.TimeSeriesMetric.Equals(LiveKit.Proto.TimeSeriesMetric)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 634
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(TimeSeriesMetric other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TimeSeriesMetric
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As TimeSeriesMetric) As Boolean
+  overload: LiveKit.Proto.TimeSeriesMetric.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.TimeSeriesMetric}.Equals(LiveKit.Proto.TimeSeriesMetric)
+- uid: LiveKit.Proto.TimeSeriesMetric.GetHashCode
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TimeSeriesMetric.GetHashCode()
+  fullName: LiveKit.Proto.TimeSeriesMetric.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 651
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.TimeSeriesMetric.GetHashCode*
+- uid: LiveKit.Proto.TimeSeriesMetric.ToString
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.ToString
+  id: ToString
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TimeSeriesMetric.ToString()
+  fullName: LiveKit.Proto.TimeSeriesMetric.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 666
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.TimeSeriesMetric.ToString*
+- uid: LiveKit.Proto.TimeSeriesMetric.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: TimeSeriesMetric.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.TimeSeriesMetric.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 672
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.TimeSeriesMetric.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.TimeSeriesMetric.CalculateSize
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: TimeSeriesMetric.CalculateSize()
+  fullName: LiveKit.Proto.TimeSeriesMetric.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 728
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.TimeSeriesMetric.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.TimeSeriesMetric.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  id: MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(TimeSeriesMetric)
+  nameWithType: TimeSeriesMetric.MergeFrom(TimeSeriesMetric)
+  fullName: LiveKit.Proto.TimeSeriesMetric.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 751
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(TimeSeriesMetric other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TimeSeriesMetric
+    content.vb: Public Sub MergeFrom(other As TimeSeriesMetric)
+  overload: LiveKit.Proto.TimeSeriesMetric.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+- uid: LiveKit.Proto.TimeSeriesMetric.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.TimeSeriesMetric.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.TimeSeriesMetric
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: TimeSeriesMetric.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.TimeSeriesMetric.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 773
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.TimeSeriesMetric.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.TimeSeriesMetric.html
+  name: IMessage<TimeSeriesMetric>
+  nameWithType: IMessage<TimeSeriesMetric>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.TimeSeriesMetric>
+  nameWithType.vb: IMessage(Of TimeSeriesMetric)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.TimeSeriesMetric)
+  name.vb: IMessage(Of TimeSeriesMetric)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.TimeSeriesMetric}
+  commentId: T:System.IEquatable{LiveKit.Proto.TimeSeriesMetric}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TimeSeriesMetric>
+  nameWithType: IEquatable<TimeSeriesMetric>
+  fullName: System.IEquatable<LiveKit.Proto.TimeSeriesMetric>
+  nameWithType.vb: IEquatable(Of TimeSeriesMetric)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.TimeSeriesMetric)
+  name.vb: IEquatable(Of TimeSeriesMetric)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.TimeSeriesMetric.html
+  name: IDeepCloneable<TimeSeriesMetric>
+  nameWithType: IDeepCloneable<TimeSeriesMetric>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.TimeSeriesMetric>
+  nameWithType.vb: IDeepCloneable(Of TimeSeriesMetric)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.TimeSeriesMetric)
+  name.vb: IDeepCloneable(Of TimeSeriesMetric)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.TimeSeriesMetric.Parser*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.Parser
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_Parser
+  name: Parser
+  nameWithType: TimeSeriesMetric.Parser
+  fullName: LiveKit.Proto.TimeSeriesMetric.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.TimeSeriesMetric}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.TimeSeriesMetric}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.TimeSeriesMetric.html
+  name: MessageParser<TimeSeriesMetric>
+  nameWithType: MessageParser<TimeSeriesMetric>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.TimeSeriesMetric>
+  nameWithType.vb: MessageParser(Of TimeSeriesMetric)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.TimeSeriesMetric)
+  name.vb: MessageParser(Of TimeSeriesMetric)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.TimeSeriesMetric.Descriptor*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.Descriptor
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_Descriptor
+  name: Descriptor
+  nameWithType: TimeSeriesMetric.Descriptor
+  fullName: LiveKit.Proto.TimeSeriesMetric.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.TimeSeriesMetric.#ctor*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.#ctor
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric__ctor
+  name: TimeSeriesMetric
+  nameWithType: TimeSeriesMetric.TimeSeriesMetric
+  fullName: LiveKit.Proto.TimeSeriesMetric.TimeSeriesMetric
+  nameWithType.vb: TimeSeriesMetric.New
+  fullName.vb: LiveKit.Proto.TimeSeriesMetric.New
+  name.vb: New
+- uid: LiveKit.Proto.TimeSeriesMetric
+  commentId: T:LiveKit.Proto.TimeSeriesMetric
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TimeSeriesMetric.html
+  name: TimeSeriesMetric
+  nameWithType: TimeSeriesMetric
+  fullName: LiveKit.Proto.TimeSeriesMetric
+- uid: LiveKit.Proto.TimeSeriesMetric.Clone*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.Clone
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_Clone
+  name: Clone
+  nameWithType: TimeSeriesMetric.Clone
+  fullName: LiveKit.Proto.TimeSeriesMetric.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<TimeSeriesMetric>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.TimeSeriesMetric>.Clone()
+  nameWithType.vb: IDeepCloneable(Of TimeSeriesMetric).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.TimeSeriesMetric).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimeSeriesMetric}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.TimeSeriesMetric.Label*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.Label
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_Label
+  name: Label
+  nameWithType: TimeSeriesMetric.Label
+  fullName: LiveKit.Proto.TimeSeriesMetric.Label
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: LiveKit.Proto.TimeSeriesMetric.ParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.ParticipantIdentity
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_ParticipantIdentity
+  name: ParticipantIdentity
+  nameWithType: TimeSeriesMetric.ParticipantIdentity
+  fullName: LiveKit.Proto.TimeSeriesMetric.ParticipantIdentity
+- uid: LiveKit.Proto.TimeSeriesMetric.TrackSid*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.TrackSid
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_TrackSid
+  name: TrackSid
+  nameWithType: TimeSeriesMetric.TrackSid
+  fullName: LiveKit.Proto.TimeSeriesMetric.TrackSid
+- uid: LiveKit.Proto.TimeSeriesMetric.Samples*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.Samples
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_Samples
+  name: Samples
+  nameWithType: TimeSeriesMetric.Samples
+  fullName: LiveKit.Proto.TimeSeriesMetric.Samples
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.MetricSample}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.MetricSample}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.MetricSample.html
+  name: RepeatedField<MetricSample>
+  nameWithType: RepeatedField<MetricSample>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.MetricSample>
+  nameWithType.vb: RepeatedField(Of MetricSample)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.MetricSample)
+  name.vb: RepeatedField(Of MetricSample)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.MetricSample
+    name: MetricSample
+    href: LiveKit.Proto.MetricSample.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.MetricSample
+    name: MetricSample
+    href: LiveKit.Proto.MetricSample.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.TimeSeriesMetric.Rid*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.Rid
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_Rid
+  name: Rid
+  nameWithType: TimeSeriesMetric.Rid
+  fullName: LiveKit.Proto.TimeSeriesMetric.Rid
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.TimeSeriesMetric.Equals*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.Equals
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_Equals_System_Object_
+  name: Equals
+  nameWithType: TimeSeriesMetric.Equals
+  fullName: LiveKit.Proto.TimeSeriesMetric.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.TimeSeriesMetric}.Equals(LiveKit.Proto.TimeSeriesMetric)
+  commentId: M:System.IEquatable{LiveKit.Proto.TimeSeriesMetric}.Equals(LiveKit.Proto.TimeSeriesMetric)
+  parent: System.IEquatable{LiveKit.Proto.TimeSeriesMetric}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(TimeSeriesMetric)
+  nameWithType: IEquatable<TimeSeriesMetric>.Equals(TimeSeriesMetric)
+  fullName: System.IEquatable<LiveKit.Proto.TimeSeriesMetric>.Equals(LiveKit.Proto.TimeSeriesMetric)
+  nameWithType.vb: IEquatable(Of TimeSeriesMetric).Equals(TimeSeriesMetric)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.TimeSeriesMetric).Equals(LiveKit.Proto.TimeSeriesMetric)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.TimeSeriesMetric}.Equals(LiveKit.Proto.TimeSeriesMetric)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.TimeSeriesMetric}.Equals(LiveKit.Proto.TimeSeriesMetric)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TimeSeriesMetric.GetHashCode*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.GetHashCode
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_GetHashCode
+  name: GetHashCode
+  nameWithType: TimeSeriesMetric.GetHashCode
+  fullName: LiveKit.Proto.TimeSeriesMetric.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TimeSeriesMetric.ToString*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.ToString
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_ToString
+  name: ToString
+  nameWithType: TimeSeriesMetric.ToString
+  fullName: LiveKit.Proto.TimeSeriesMetric.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.TimeSeriesMetric.WriteTo*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.WriteTo
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: TimeSeriesMetric.WriteTo
+  fullName: LiveKit.Proto.TimeSeriesMetric.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.TimeSeriesMetric.CalculateSize*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.CalculateSize
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_CalculateSize
+  name: CalculateSize
+  nameWithType: TimeSeriesMetric.CalculateSize
+  fullName: LiveKit.Proto.TimeSeriesMetric.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TimeSeriesMetric.MergeFrom*
+  commentId: Overload:LiveKit.Proto.TimeSeriesMetric.MergeFrom
+  href: LiveKit.Proto.TimeSeriesMetric.html#LiveKit_Proto_TimeSeriesMetric_MergeFrom_LiveKit_Proto_TimeSeriesMetric_
+  name: MergeFrom
+  nameWithType: TimeSeriesMetric.MergeFrom
+  fullName: LiveKit.Proto.TimeSeriesMetric.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.TimeSeriesMetric.html
+  name: MergeFrom(TimeSeriesMetric)
+  nameWithType: IMessage<TimeSeriesMetric>.MergeFrom(TimeSeriesMetric)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.TimeSeriesMetric>.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  nameWithType.vb: IMessage(Of TimeSeriesMetric).MergeFrom(TimeSeriesMetric)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.TimeSeriesMetric).MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.TimeSeriesMetric}.MergeFrom(LiveKit.Proto.TimeSeriesMetric)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.TimeSeriesMetric
+    name: TimeSeriesMetric
+    href: LiveKit.Proto.TimeSeriesMetric.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

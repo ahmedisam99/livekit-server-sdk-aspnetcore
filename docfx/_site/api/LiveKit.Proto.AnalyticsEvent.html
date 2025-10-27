@@ -1,0 +1,2722 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AnalyticsEvent | livekit-server-sdk-aspnetcore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AnalyticsEvent | livekit-server-sdk-aspnetcore ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/new/main/apiSpec/new?filename=LiveKit_Proto_AnalyticsEvent.md&amp;value=---%0Auid%3A%20LiveKit.Proto.AnalyticsEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="livekit-server-sdk-aspnetcore">
+            livekit-server-sdk-aspnetcore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveKit.Proto.AnalyticsEvent">
+
+
+
+  <h1 id="LiveKit_Proto_AnalyticsEvent" data-uid="LiveKit.Proto.AnalyticsEvent" class="text-break">
+Class AnalyticsEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2808"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveKit.html">LiveKit</a>.<a class="xref" href="LiveKit.Proto.html">Proto</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveKit.AspNetCore.ServerSdk.Abstractions.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class AnalyticsEvent : IMessage&lt;AnalyticsEvent&gt;, IEquatable&lt;AnalyticsEvent&gt;, IDeepCloneable&lt;AnalyticsEvent&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AnalyticsEvent</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="LiveKit.Proto.AnalyticsEvent.html">AnalyticsEvent</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="LiveKit.Proto.AnalyticsEvent.html">AnalyticsEvent</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="LiveKit.Proto.AnalyticsEvent.html">AnalyticsEvent</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent__ctor_" data-uid="LiveKit.Proto.AnalyticsEvent.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent__ctor" data-uid="LiveKit.Proto.AnalyticsEvent.#ctor">
+  AnalyticsEvent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2832"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnalyticsEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent__ctor_" data-uid="LiveKit.Proto.AnalyticsEvent.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent__ctor_LiveKit_Proto_AnalyticsEvent_" data-uid="LiveKit.Proto.AnalyticsEvent.#ctor(LiveKit.Proto.AnalyticsEvent)">
+  AnalyticsEvent(AnalyticsEvent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2840"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnalyticsEvent(AnalyticsEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.AnalyticsEvent.html">AnalyticsEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_AnalyticsKeyFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.AnalyticsKeyFieldNumber">
+  AnalyticsKeyFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2998"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;analytics_key&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int AnalyticsKeyFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ApiCallFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.ApiCallFieldNumber">
+  ApiCallFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;api_call&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ApiCallFieldNumber = 34</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ClientInfoFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.ClientInfoFieldNumber">
+  ClientInfoFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3010"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;client_info&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClientInfoFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ClientMetaFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.ClientMetaFieldNumber">
+  ClientMetaFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3022"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;client_meta&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ClientMetaFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_EgressFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.EgressFieldNumber">
+  EgressFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3094"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;egress&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EgressFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_EgressIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.EgressIdFieldNumber">
+  EgressIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3034"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;egress_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EgressIdFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ErrorFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.ErrorFieldNumber">
+  ErrorFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;error&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ErrorFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_IdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.IdFieldNumber">
+  IdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2887"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IdFieldNumber = 25</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_IngressFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.IngressFieldNumber">
+  IngressFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;ingress&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IngressFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_IngressIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.IngressIdFieldNumber">
+  IngressIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3046"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;ingress_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int IngressIdFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_MaxSubscribedVideoQualityFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.MaxSubscribedVideoQualityFieldNumber">
+  MaxSubscribedVideoQualityFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3058"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;max_subscribed_video_quality&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxSubscribedVideoQualityFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_MimeFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.MimeFieldNumber">
+  MimeFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3082"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;mime&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MimeFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_NodeIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.NodeIdFieldNumber">
+  NodeIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;node_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NodeIdFieldNumber = 24</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ParticipantFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.ParticipantFieldNumber">
+  ParticipantFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2962"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;participant&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParticipantFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ParticipantIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.ParticipantIdFieldNumber">
+  ParticipantIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2950"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;participant_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParticipantIdFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_PublisherFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.PublisherFieldNumber">
+  PublisherFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3070"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;publisher&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PublisherFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ReportFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.ReportFieldNumber">
+  ReportFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;report&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ReportFieldNumber = 33</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_RoomFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.RoomFieldNumber">
+  RoomFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2938"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;room&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RoomFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_RoomIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.RoomIdFieldNumber">
+  RoomIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2926"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;room_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RoomIdFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_RtpStatsFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.RtpStatsFieldNumber">
+  RtpStatsFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;rtp_stats&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RtpStatsFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipCallFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.SipCallFieldNumber">
+  SipCallFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sip_call&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SipCallFieldNumber = 27</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipCallIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.SipCallIdFieldNumber">
+  SipCallIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sip_call_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SipCallIdFieldNumber = 26</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipDispatchRuleFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.SipDispatchRuleFieldNumber">
+  SipDispatchRuleFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sip_dispatch_rule&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SipDispatchRuleFieldNumber = 32</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipDispatchRuleIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.SipDispatchRuleIdFieldNumber">
+  SipDispatchRuleIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sip_dispatch_rule_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SipDispatchRuleIdFieldNumber = 31</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipInboundTrunkFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.SipInboundTrunkFieldNumber">
+  SipInboundTrunkFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sip_inbound_trunk&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SipInboundTrunkFieldNumber = 29</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipOutboundTrunkFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.SipOutboundTrunkFieldNumber">
+  SipOutboundTrunkFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sip_outbound_trunk&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SipOutboundTrunkFieldNumber = 30</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipTransferFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.SipTransferFieldNumber">
+  SipTransferFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sip_transfer&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SipTransferFieldNumber = 36</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipTrunkIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.SipTrunkIdFieldNumber">
+  SipTrunkIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sip_trunk_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SipTrunkIdFieldNumber = 28</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_TimestampFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.TimestampFieldNumber">
+  TimestampFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2914"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;timestamp&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TimestampFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_TrackFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.TrackFieldNumber">
+  TrackFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2986"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;track&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TrackFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_TrackIdFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.TrackIdFieldNumber">
+  TrackIdFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2974"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;track_id&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TrackIdFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_TypeFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.TypeFieldNumber">
+  TypeFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2902"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;type&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TypeFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_VideoLayerFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.VideoLayerFieldNumber">
+  VideoLayerFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;video_layer&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int VideoLayerFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_WebhookFieldNumber" data-uid="LiveKit.Proto.AnalyticsEvent.WebhookFieldNumber">
+  WebhookFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;webhook&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int WebhookFieldNumber = 35</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_AnalyticsKey_" data-uid="LiveKit.Proto.AnalyticsEvent.AnalyticsKey*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_AnalyticsKey" data-uid="LiveKit.Proto.AnalyticsEvent.AnalyticsKey">
+  AnalyticsKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3000"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AnalyticsKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_ApiCall_" data-uid="LiveKit.Proto.AnalyticsEvent.ApiCall*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ApiCall" data-uid="LiveKit.Proto.AnalyticsEvent.ApiCall">
+  ApiCall
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public APICallInfo ApiCall { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.APICallInfo.html">APICallInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_ClientInfo_" data-uid="LiveKit.Proto.AnalyticsEvent.ClientInfo*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ClientInfo" data-uid="LiveKit.Proto.AnalyticsEvent.ClientInfo">
+  ClientInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3012"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ClientInfo ClientInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.ClientInfo.html">ClientInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_ClientMeta_" data-uid="LiveKit.Proto.AnalyticsEvent.ClientMeta*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ClientMeta" data-uid="LiveKit.Proto.AnalyticsEvent.ClientMeta">
+  ClientMeta
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3024"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnalyticsClientMeta ClientMeta { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.AnalyticsClientMeta.html">AnalyticsClientMeta</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Descriptor_" data-uid="LiveKit.Proto.AnalyticsEvent.Descriptor*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Descriptor" data-uid="LiveKit.Proto.AnalyticsEvent.Descriptor">
+  Descriptor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2820"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Egress_" data-uid="LiveKit.Proto.AnalyticsEvent.Egress*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Egress" data-uid="LiveKit.Proto.AnalyticsEvent.Egress">
+  Egress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3096"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EgressInfo Egress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.EgressInfo.html">EgressInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_EgressId_" data-uid="LiveKit.Proto.AnalyticsEvent.EgressId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_EgressId" data-uid="LiveKit.Proto.AnalyticsEvent.EgressId">
+  EgressId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3036"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EgressId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Error_" data-uid="LiveKit.Proto.AnalyticsEvent.Error*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Error" data-uid="LiveKit.Proto.AnalyticsEvent.Error">
+  Error
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Error { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Id_" data-uid="LiveKit.Proto.AnalyticsEvent.Id*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Id" data-uid="LiveKit.Proto.AnalyticsEvent.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2892"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>unique id for this event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Ingress_" data-uid="LiveKit.Proto.AnalyticsEvent.Ingress*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Ingress" data-uid="LiveKit.Proto.AnalyticsEvent.Ingress">
+  Ingress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IngressInfo Ingress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.IngressInfo.html">IngressInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_IngressId_" data-uid="LiveKit.Proto.AnalyticsEvent.IngressId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_IngressId" data-uid="LiveKit.Proto.AnalyticsEvent.IngressId">
+  IngressId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3048"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string IngressId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_MaxSubscribedVideoQuality_" data-uid="LiveKit.Proto.AnalyticsEvent.MaxSubscribedVideoQuality*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_MaxSubscribedVideoQuality" data-uid="LiveKit.Proto.AnalyticsEvent.MaxSubscribedVideoQuality">
+  MaxSubscribedVideoQuality
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3060"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VideoQuality MaxSubscribedVideoQuality { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.VideoQuality.html">VideoQuality</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Mime_" data-uid="LiveKit.Proto.AnalyticsEvent.Mime*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Mime" data-uid="LiveKit.Proto.AnalyticsEvent.Mime">
+  Mime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3084"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Mime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_NodeId_" data-uid="LiveKit.Proto.AnalyticsEvent.NodeId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_NodeId" data-uid="LiveKit.Proto.AnalyticsEvent.NodeId">
+  NodeId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string NodeId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Parser_" data-uid="LiveKit.Proto.AnalyticsEvent.Parser*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Parser" data-uid="LiveKit.Proto.AnalyticsEvent.Parser">
+  Parser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2816"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;AnalyticsEvent&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="LiveKit.Proto.AnalyticsEvent.html">AnalyticsEvent</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Participant_" data-uid="LiveKit.Proto.AnalyticsEvent.Participant*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Participant" data-uid="LiveKit.Proto.AnalyticsEvent.Participant">
+  Participant
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2964"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParticipantInfo Participant { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.ParticipantInfo.html">ParticipantInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_ParticipantId_" data-uid="LiveKit.Proto.AnalyticsEvent.ParticipantId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ParticipantId" data-uid="LiveKit.Proto.AnalyticsEvent.ParticipantId">
+  ParticipantId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2952"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ParticipantId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Publisher_" data-uid="LiveKit.Proto.AnalyticsEvent.Publisher*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Publisher" data-uid="LiveKit.Proto.AnalyticsEvent.Publisher">
+  Publisher
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3072"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ParticipantInfo Publisher { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.ParticipantInfo.html">ParticipantInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Report_" data-uid="LiveKit.Proto.AnalyticsEvent.Report*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Report" data-uid="LiveKit.Proto.AnalyticsEvent.Report">
+  Report
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReportInfo Report { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.ReportInfo.html">ReportInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Room_" data-uid="LiveKit.Proto.AnalyticsEvent.Room*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Room" data-uid="LiveKit.Proto.AnalyticsEvent.Room">
+  Room
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2940"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Room Room { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.Room.html">Room</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_RoomId_" data-uid="LiveKit.Proto.AnalyticsEvent.RoomId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_RoomId" data-uid="LiveKit.Proto.AnalyticsEvent.RoomId">
+  RoomId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2928"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RoomId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_RtpStats_" data-uid="LiveKit.Proto.AnalyticsEvent.RtpStats*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_RtpStats" data-uid="LiveKit.Proto.AnalyticsEvent.RtpStats">
+  RtpStats
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTPStats RtpStats { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.RTPStats.html">RTPStats</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_SipCall_" data-uid="LiveKit.Proto.AnalyticsEvent.SipCall*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipCall" data-uid="LiveKit.Proto.AnalyticsEvent.SipCall">
+  SipCall
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SIPCallInfo SipCall { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.SIPCallInfo.html">SIPCallInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_SipCallId_" data-uid="LiveKit.Proto.AnalyticsEvent.SipCallId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipCallId" data-uid="LiveKit.Proto.AnalyticsEvent.SipCallId">
+  SipCallId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SipCallId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_SipDispatchRule_" data-uid="LiveKit.Proto.AnalyticsEvent.SipDispatchRule*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipDispatchRule" data-uid="LiveKit.Proto.AnalyticsEvent.SipDispatchRule">
+  SipDispatchRule
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SIPDispatchRuleInfo SipDispatchRule { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.SIPDispatchRuleInfo.html">SIPDispatchRuleInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_SipDispatchRuleId_" data-uid="LiveKit.Proto.AnalyticsEvent.SipDispatchRuleId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipDispatchRuleId" data-uid="LiveKit.Proto.AnalyticsEvent.SipDispatchRuleId">
+  SipDispatchRuleId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SipDispatchRuleId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_SipInboundTrunk_" data-uid="LiveKit.Proto.AnalyticsEvent.SipInboundTrunk*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipInboundTrunk" data-uid="LiveKit.Proto.AnalyticsEvent.SipInboundTrunk">
+  SipInboundTrunk
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SIPInboundTrunkInfo SipInboundTrunk { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.SIPInboundTrunkInfo.html">SIPInboundTrunkInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_SipOutboundTrunk_" data-uid="LiveKit.Proto.AnalyticsEvent.SipOutboundTrunk*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipOutboundTrunk" data-uid="LiveKit.Proto.AnalyticsEvent.SipOutboundTrunk">
+  SipOutboundTrunk
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SIPOutboundTrunkInfo SipOutboundTrunk { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.SIPOutboundTrunkInfo.html">SIPOutboundTrunkInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_SipTransfer_" data-uid="LiveKit.Proto.AnalyticsEvent.SipTransfer*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipTransfer" data-uid="LiveKit.Proto.AnalyticsEvent.SipTransfer">
+  SipTransfer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SIPTransferInfo SipTransfer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.SIPTransferInfo.html">SIPTransferInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_SipTrunkId_" data-uid="LiveKit.Proto.AnalyticsEvent.SipTrunkId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_SipTrunkId" data-uid="LiveKit.Proto.AnalyticsEvent.SipTrunkId">
+  SipTrunkId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SipTrunkId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Timestamp_" data-uid="LiveKit.Proto.AnalyticsEvent.Timestamp*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Timestamp" data-uid="LiveKit.Proto.AnalyticsEvent.Timestamp">
+  Timestamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2916"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Timestamp Timestamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Timestamp</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Track_" data-uid="LiveKit.Proto.AnalyticsEvent.Track*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Track" data-uid="LiveKit.Proto.AnalyticsEvent.Track">
+  Track
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2988"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TrackInfo Track { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.TrackInfo.html">TrackInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_TrackId_" data-uid="LiveKit.Proto.AnalyticsEvent.TrackId*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_TrackId" data-uid="LiveKit.Proto.AnalyticsEvent.TrackId">
+  TrackId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2976"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TrackId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Type_" data-uid="LiveKit.Proto.AnalyticsEvent.Type*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Type" data-uid="LiveKit.Proto.AnalyticsEvent.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2904"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnalyticsEventType Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.AnalyticsEventType.html">AnalyticsEventType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_VideoLayer_" data-uid="LiveKit.Proto.AnalyticsEvent.VideoLayer*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_VideoLayer" data-uid="LiveKit.Proto.AnalyticsEvent.VideoLayer">
+  VideoLayer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int VideoLayer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Webhook_" data-uid="LiveKit.Proto.AnalyticsEvent.Webhook*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Webhook" data-uid="LiveKit.Proto.AnalyticsEvent.Webhook">
+  Webhook
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WebhookInfo Webhook { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.WebhookInfo.html">WebhookInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_CalculateSize_" data-uid="LiveKit.Proto.AnalyticsEvent.CalculateSize*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_CalculateSize" data-uid="LiveKit.Proto.AnalyticsEvent.CalculateSize">
+  CalculateSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3693"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the size of this message in Protocol Buffer wire format, in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of bytes required to write this message
+to a coded output stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Clone_" data-uid="LiveKit.Proto.AnalyticsEvent.Clone*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Clone" data-uid="LiveKit.Proto.AnalyticsEvent.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2880"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a deep clone of this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnalyticsEvent Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.AnalyticsEvent.html">AnalyticsEvent</a></dt>
+    <dd><p>A deep clone of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Equals_" data-uid="LiveKit.Proto.AnalyticsEvent.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Equals_LiveKit_Proto_AnalyticsEvent_" data-uid="LiveKit.Proto.AnalyticsEvent.Equals(LiveKit.Proto.AnalyticsEvent)">
+  Equals(AnalyticsEvent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(AnalyticsEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.AnalyticsEvent.html">AnalyticsEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_Equals_" data-uid="LiveKit.Proto.AnalyticsEvent.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_Equals_System_Object_" data-uid="LiveKit.Proto.AnalyticsEvent.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_GetHashCode_" data-uid="LiveKit.Proto.AnalyticsEvent.GetHashCode*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_GetHashCode" data-uid="LiveKit.Proto.AnalyticsEvent.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_MergeFrom_" data-uid="LiveKit.Proto.AnalyticsEvent.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="LiveKit.Proto.AnalyticsEvent.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3970"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the data from the specified coded input stream with the current message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_AnalyticsEvent_MergeFrom_Google_Protobuf_CodedInputStream__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_MergeFrom_" data-uid="LiveKit.Proto.AnalyticsEvent.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_MergeFrom_LiveKit_Proto_AnalyticsEvent_" data-uid="LiveKit.Proto.AnalyticsEvent.MergeFrom(LiveKit.Proto.AnalyticsEvent)">
+  MergeFrom(AnalyticsEvent)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3805"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the given message into this one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(AnalyticsEvent other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.AnalyticsEvent.html">AnalyticsEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_AnalyticsEvent_MergeFrom_LiveKit_Proto_AnalyticsEvent__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_ToString_" data-uid="LiveKit.Proto.AnalyticsEvent.ToString*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_ToString" data-uid="LiveKit.Proto.AnalyticsEvent.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_AnalyticsEvent_WriteTo_" data-uid="LiveKit.Proto.AnalyticsEvent.WriteTo*"></a>
+
+  <h3 id="LiveKit_Proto_AnalyticsEvent_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="LiveKit.Proto.AnalyticsEvent.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L3399"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the data to the given coded output stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd><p>Coded output stream to write the data to. Must not be null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs/#L2808" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,2041 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NodeStatsRate | livekit-server-sdk-aspnetcore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NodeStatsRate | livekit-server-sdk-aspnetcore ">
+      
+      <meta name="description" content="rates of different node stats (per second)">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/new/main/apiSpec/new?filename=LiveKit_Proto_NodeStatsRate.md&amp;value=---%0Auid%3A%20LiveKit.Proto.NodeStatsRate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="livekit-server-sdk-aspnetcore">
+            livekit-server-sdk-aspnetcore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveKit.Proto.NodeStatsRate">
+
+
+
+  <h1 id="LiveKit_Proto_NodeStatsRate" data-uid="LiveKit.Proto.NodeStatsRate" class="text-break">
+Class NodeStatsRate  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2628"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveKit.html">LiveKit</a>.<a class="xref" href="LiveKit.Proto.html">Proto</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveKit.AspNetCore.ServerSdk.Abstractions.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>rates of different node stats (per second)</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class NodeStatsRate : IMessage&lt;NodeStatsRate&gt;, IEquatable&lt;NodeStatsRate&gt;, IDeepCloneable&lt;NodeStatsRate&gt;, IBufferMessage, IMessage</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">NodeStatsRate</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">IMessage</span>&lt;<a class="xref" href="LiveKit.Proto.NodeStatsRate.html">NodeStatsRate</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="LiveKit.Proto.NodeStatsRate.html">NodeStatsRate</a>&gt;</div>
+      <div><span class="xref">IDeepCloneable</span>&lt;<a class="xref" href="LiveKit.Proto.NodeStatsRate.html">NodeStatsRate</a>&gt;</div>
+      <div><span class="xref">IBufferMessage</span></div>
+      <div><span class="xref">IMessage</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveKit_Proto_NodeStatsRate__ctor_" data-uid="LiveKit.Proto.NodeStatsRate.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate__ctor" data-uid="LiveKit.Proto.NodeStatsRate.#ctor">
+  NodeStatsRate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2652"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeStatsRate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate__ctor_" data-uid="LiveKit.Proto.NodeStatsRate.#ctor*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate__ctor_LiveKit_Proto_NodeStatsRate_" data-uid="LiveKit.Proto.NodeStatsRate.#ctor(LiveKit.Proto.NodeStatsRate)">
+  NodeStatsRate(NodeStatsRate)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2660"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeStatsRate(NodeStatsRate other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.NodeStatsRate.html">NodeStatsRate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_BytesInFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.BytesInFieldNumber">
+  BytesInFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2780"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;bytes_in&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BytesInFieldNumber = 8</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_BytesOutFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.BytesOutFieldNumber">
+  BytesOutFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2792"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;bytes_out&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int BytesOutFieldNumber = 9</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_CpuLoadFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.CpuLoadFieldNumber">
+  CpuLoadFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2924"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;cpu_load&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int CpuLoadFieldNumber = 20</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_DurationFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.DurationFieldNumber">
+  DurationFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2720"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;duration&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int DurationFieldNumber = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_EndedAtFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.EndedAtFieldNumber">
+  EndedAtFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2708"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;ended_at&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int EndedAtFieldNumber = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_MemoryLoadFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.MemoryLoadFieldNumber">
+  MemoryLoadFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2939"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;memory_load&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MemoryLoadFieldNumber = 21</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_MemoryTotalFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.MemoryTotalFieldNumber">
+  MemoryTotalFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2963"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;memory_total&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MemoryTotalFieldNumber = 23</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_MemoryUsedFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.MemoryUsedFieldNumber">
+  MemoryUsedFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2951"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;memory_used&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MemoryUsedFieldNumber = 22</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_NackTotalFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.NackTotalFieldNumber">
+  NackTotalFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2828"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;nack_total&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NackTotalFieldNumber = 12</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_PacketsInFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.PacketsInFieldNumber">
+  PacketsInFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2804"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;packets_in&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PacketsInFieldNumber = 10</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_PacketsOutFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.PacketsOutFieldNumber">
+  PacketsOutFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2816"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;packets_out&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int PacketsOutFieldNumber = 11</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_ParticipantRtcConnectedFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantRtcConnectedFieldNumber">
+  ParticipantRtcConnectedFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2900"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;participant_rtc_connected&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParticipantRtcConnectedFieldNumber = 18</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_ParticipantRtcInitFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantRtcInitFieldNumber">
+  ParticipantRtcInitFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2912"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;participant_rtc_init&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParticipantRtcInitFieldNumber = 19</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_ParticipantSignalConnectedFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantSignalConnectedFieldNumber">
+  ParticipantSignalConnectedFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2888"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;participant_signal_connected&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int ParticipantSignalConnectedFieldNumber = 17</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_RetransmitBytesOutFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.RetransmitBytesOutFieldNumber">
+  RetransmitBytesOutFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2864"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;retransmit_bytes_out&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RetransmitBytesOutFieldNumber = 15</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_RetransmitPacketsOutFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.RetransmitPacketsOutFieldNumber">
+  RetransmitPacketsOutFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2876"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;retransmit_packets_out&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int RetransmitPacketsOutFieldNumber = 16</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_StartedAtFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.StartedAtFieldNumber">
+  StartedAtFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2696"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;started_at&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int StartedAtFieldNumber = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_SysPacketsDroppedFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.SysPacketsDroppedFieldNumber">
+  SysPacketsDroppedFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2852"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sys_packets_dropped&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SysPacketsDroppedFieldNumber = 14</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_SysPacketsOutFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.SysPacketsOutFieldNumber">
+  SysPacketsOutFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2840"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;sys_packets_out&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int SysPacketsOutFieldNumber = 13</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_TrackPublishAttemptsFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.TrackPublishAttemptsFieldNumber">
+  TrackPublishAttemptsFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2732"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;track_publish_attempts&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TrackPublishAttemptsFieldNumber = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_TrackPublishSuccessFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.TrackPublishSuccessFieldNumber">
+  TrackPublishSuccessFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2744"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;track_publish_success&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TrackPublishSuccessFieldNumber = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_TrackSubscribeAttemptsFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.TrackSubscribeAttemptsFieldNumber">
+  TrackSubscribeAttemptsFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2756"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;track_subscribe_attempts&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TrackSubscribeAttemptsFieldNumber = 6</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_TrackSubscribeSuccessFieldNumber" data-uid="LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccessFieldNumber">
+  TrackSubscribeSuccessFieldNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2768"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field number for the &quot;track_subscribe_success&quot; field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int TrackSubscribeSuccessFieldNumber = 7</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_BytesIn_" data-uid="LiveKit.Proto.NodeStatsRate.BytesIn*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_BytesIn" data-uid="LiveKit.Proto.NodeStatsRate.BytesIn">
+  BytesIn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2782"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BytesIn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_BytesOut_" data-uid="LiveKit.Proto.NodeStatsRate.BytesOut*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_BytesOut" data-uid="LiveKit.Proto.NodeStatsRate.BytesOut">
+  BytesOut
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2794"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BytesOut { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_CpuLoad_" data-uid="LiveKit.Proto.NodeStatsRate.CpuLoad*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_CpuLoad" data-uid="LiveKit.Proto.NodeStatsRate.CpuLoad">
+  CpuLoad
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2929"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>time weighted averages across stats windows forming part of a rate measurement interval</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CpuLoad { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_Descriptor_" data-uid="LiveKit.Proto.NodeStatsRate.Descriptor*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_Descriptor" data-uid="LiveKit.Proto.NodeStatsRate.Descriptor">
+  Descriptor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2640"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageDescriptor Descriptor { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageDescriptor</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_Duration_" data-uid="LiveKit.Proto.NodeStatsRate.Duration*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_Duration" data-uid="LiveKit.Proto.NodeStatsRate.Duration">
+  Duration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2722"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Duration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_EndedAt_" data-uid="LiveKit.Proto.NodeStatsRate.EndedAt*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_EndedAt" data-uid="LiveKit.Proto.NodeStatsRate.EndedAt">
+  EndedAt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2710"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long EndedAt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_MemoryLoad_" data-uid="LiveKit.Proto.NodeStatsRate.MemoryLoad*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_MemoryLoad" data-uid="LiveKit.Proto.NodeStatsRate.MemoryLoad">
+  MemoryLoad
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2941"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MemoryLoad { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_MemoryTotal_" data-uid="LiveKit.Proto.NodeStatsRate.MemoryTotal*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_MemoryTotal" data-uid="LiveKit.Proto.NodeStatsRate.MemoryTotal">
+  MemoryTotal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2965"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MemoryTotal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_MemoryUsed_" data-uid="LiveKit.Proto.NodeStatsRate.MemoryUsed*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_MemoryUsed" data-uid="LiveKit.Proto.NodeStatsRate.MemoryUsed">
+  MemoryUsed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2953"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MemoryUsed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_NackTotal_" data-uid="LiveKit.Proto.NodeStatsRate.NackTotal*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_NackTotal" data-uid="LiveKit.Proto.NodeStatsRate.NackTotal">
+  NackTotal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2830"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float NackTotal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_PacketsIn_" data-uid="LiveKit.Proto.NodeStatsRate.PacketsIn*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_PacketsIn" data-uid="LiveKit.Proto.NodeStatsRate.PacketsIn">
+  PacketsIn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2806"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PacketsIn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_PacketsOut_" data-uid="LiveKit.Proto.NodeStatsRate.PacketsOut*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_PacketsOut" data-uid="LiveKit.Proto.NodeStatsRate.PacketsOut">
+  PacketsOut
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2818"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PacketsOut { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_Parser_" data-uid="LiveKit.Proto.NodeStatsRate.Parser*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_Parser" data-uid="LiveKit.Proto.NodeStatsRate.Parser">
+  Parser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2636"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MessageParser&lt;NodeStatsRate&gt; Parser { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MessageParser</span>&lt;<a class="xref" href="LiveKit.Proto.NodeStatsRate.html">NodeStatsRate</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_ParticipantRtcConnected_" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_ParticipantRtcConnected" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected">
+  ParticipantRtcConnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2902"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ParticipantRtcConnected { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_ParticipantRtcInit_" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantRtcInit*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_ParticipantRtcInit" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantRtcInit">
+  ParticipantRtcInit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2914"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ParticipantRtcInit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_ParticipantSignalConnected_" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_ParticipantSignalConnected" data-uid="LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected">
+  ParticipantSignalConnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2890"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ParticipantSignalConnected { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_RetransmitBytesOut_" data-uid="LiveKit.Proto.NodeStatsRate.RetransmitBytesOut*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_RetransmitBytesOut" data-uid="LiveKit.Proto.NodeStatsRate.RetransmitBytesOut">
+  RetransmitBytesOut
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2866"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RetransmitBytesOut { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_RetransmitPacketsOut_" data-uid="LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_RetransmitPacketsOut" data-uid="LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut">
+  RetransmitPacketsOut
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2878"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RetransmitPacketsOut { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_StartedAt_" data-uid="LiveKit.Proto.NodeStatsRate.StartedAt*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_StartedAt" data-uid="LiveKit.Proto.NodeStatsRate.StartedAt">
+  StartedAt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2698"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long StartedAt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_SysPacketsDropped_" data-uid="LiveKit.Proto.NodeStatsRate.SysPacketsDropped*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_SysPacketsDropped" data-uid="LiveKit.Proto.NodeStatsRate.SysPacketsDropped">
+  SysPacketsDropped
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2854"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SysPacketsDropped { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_SysPacketsOut_" data-uid="LiveKit.Proto.NodeStatsRate.SysPacketsOut*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_SysPacketsOut" data-uid="LiveKit.Proto.NodeStatsRate.SysPacketsOut">
+  SysPacketsOut
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2842"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SysPacketsOut { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_TrackPublishAttempts_" data-uid="LiveKit.Proto.NodeStatsRate.TrackPublishAttempts*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_TrackPublishAttempts" data-uid="LiveKit.Proto.NodeStatsRate.TrackPublishAttempts">
+  TrackPublishAttempts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2734"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TrackPublishAttempts { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_TrackPublishSuccess_" data-uid="LiveKit.Proto.NodeStatsRate.TrackPublishSuccess*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_TrackPublishSuccess" data-uid="LiveKit.Proto.NodeStatsRate.TrackPublishSuccess">
+  TrackPublishSuccess
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2746"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TrackPublishSuccess { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_TrackSubscribeAttempts_" data-uid="LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_TrackSubscribeAttempts" data-uid="LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts">
+  TrackSubscribeAttempts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2758"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TrackSubscribeAttempts { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_TrackSubscribeSuccess_" data-uid="LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_TrackSubscribeSuccess" data-uid="LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess">
+  TrackSubscribeSuccess
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2770"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TrackSubscribeSuccess { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_CalculateSize_" data-uid="LiveKit.Proto.NodeStatsRate.CalculateSize*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_CalculateSize" data-uid="LiveKit.Proto.NodeStatsRate.CalculateSize">
+  CalculateSize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L3260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the size of this message in Protocol Buffer wire format, in bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CalculateSize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of bytes required to write this message
+to a coded output stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_Clone_" data-uid="LiveKit.Proto.NodeStatsRate.Clone*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_Clone" data-uid="LiveKit.Proto.NodeStatsRate.Clone">
+  Clone()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2689"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a deep clone of this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NodeStatsRate Clone()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveKit.Proto.NodeStatsRate.html">NodeStatsRate</a></dt>
+    <dd><p>A deep clone of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_Equals_" data-uid="LiveKit.Proto.NodeStatsRate.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_Equals_LiveKit_Proto_NodeStatsRate_" data-uid="LiveKit.Proto.NodeStatsRate.Equals(LiveKit.Proto.NodeStatsRate)">
+  Equals(NodeStatsRate)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2980"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(NodeStatsRate other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.NodeStatsRate.html">NodeStatsRate</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_Equals_" data-uid="LiveKit.Proto.NodeStatsRate.Equals*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_Equals_System_Object_" data-uid="LiveKit.Proto.NodeStatsRate.Equals(System.Object)">
+  Equals(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2974"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_GetHashCode_" data-uid="LiveKit.Proto.NodeStatsRate.GetHashCode*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_GetHashCode" data-uid="LiveKit.Proto.NodeStatsRate.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L3015"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_MergeFrom_" data-uid="LiveKit.Proto.NodeStatsRate.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_MergeFrom_Google_Protobuf_CodedInputStream_" data-uid="LiveKit.Proto.NodeStatsRate.MergeFrom(Google.Protobuf.CodedInputStream)">
+  MergeFrom(CodedInputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L3417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the data from the specified coded input stream with the current message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(CodedInputStream input)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>input</code> <span class="xref">CodedInputStream</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_NodeStatsRate_MergeFrom_Google_Protobuf_CodedInputStream__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_MergeFrom_" data-uid="LiveKit.Proto.NodeStatsRate.MergeFrom*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_MergeFrom_LiveKit_Proto_NodeStatsRate_" data-uid="LiveKit.Proto.NodeStatsRate.MergeFrom(LiveKit.Proto.NodeStatsRate)">
+  MergeFrom(NodeStatsRate)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L3339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Merges the given message into this one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MergeFrom(NodeStatsRate other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="LiveKit.Proto.NodeStatsRate.html">NodeStatsRate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveKit_Proto_NodeStatsRate_MergeFrom_LiveKit_Proto_NodeStatsRate__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See the user guide for precise merge semantics.</p>
+</div>
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_ToString_" data-uid="LiveKit.Proto.NodeStatsRate.ToString*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_ToString" data-uid="LiveKit.Proto.NodeStatsRate.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L3048"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Proto_NodeStatsRate_WriteTo_" data-uid="LiveKit.Proto.NodeStatsRate.WriteTo*"></a>
+
+  <h3 id="LiveKit_Proto_NodeStatsRate_WriteTo_Google_Protobuf_CodedOutputStream_" data-uid="LiveKit.Proto.NodeStatsRate.WriteTo(Google.Protobuf.CodedOutputStream)">
+  WriteTo(CodedOutputStream)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L3054"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Writes the data to the given coded output stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteTo(CodedOutputStream output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>output</code> <span class="xref">CodedOutputStream</span></dt>
+    <dd><p>Coded output stream to write the data to. Must not be null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs/#L2628" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

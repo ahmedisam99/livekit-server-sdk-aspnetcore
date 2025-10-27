@@ -1,0 +1,2531 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.JoinResponse
+  commentId: T:LiveKit.Proto.JoinResponse
+  id: JoinResponse
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.JoinResponse.#ctor
+  - LiveKit.Proto.JoinResponse.#ctor(LiveKit.Proto.JoinResponse)
+  - LiveKit.Proto.JoinResponse.AlternativeUrl
+  - LiveKit.Proto.JoinResponse.AlternativeUrlFieldNumber
+  - LiveKit.Proto.JoinResponse.CalculateSize
+  - LiveKit.Proto.JoinResponse.ClientConfiguration
+  - LiveKit.Proto.JoinResponse.ClientConfigurationFieldNumber
+  - LiveKit.Proto.JoinResponse.Clone
+  - LiveKit.Proto.JoinResponse.Descriptor
+  - LiveKit.Proto.JoinResponse.EnabledPublishCodecs
+  - LiveKit.Proto.JoinResponse.EnabledPublishCodecsFieldNumber
+  - LiveKit.Proto.JoinResponse.Equals(LiveKit.Proto.JoinResponse)
+  - LiveKit.Proto.JoinResponse.Equals(System.Object)
+  - LiveKit.Proto.JoinResponse.FastPublish
+  - LiveKit.Proto.JoinResponse.FastPublishFieldNumber
+  - LiveKit.Proto.JoinResponse.GetHashCode
+  - LiveKit.Proto.JoinResponse.IceServers
+  - LiveKit.Proto.JoinResponse.IceServersFieldNumber
+  - LiveKit.Proto.JoinResponse.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.JoinResponse.MergeFrom(LiveKit.Proto.JoinResponse)
+  - LiveKit.Proto.JoinResponse.OtherParticipants
+  - LiveKit.Proto.JoinResponse.OtherParticipantsFieldNumber
+  - LiveKit.Proto.JoinResponse.Parser
+  - LiveKit.Proto.JoinResponse.Participant
+  - LiveKit.Proto.JoinResponse.ParticipantFieldNumber
+  - LiveKit.Proto.JoinResponse.PingInterval
+  - LiveKit.Proto.JoinResponse.PingIntervalFieldNumber
+  - LiveKit.Proto.JoinResponse.PingTimeout
+  - LiveKit.Proto.JoinResponse.PingTimeoutFieldNumber
+  - LiveKit.Proto.JoinResponse.Room
+  - LiveKit.Proto.JoinResponse.RoomFieldNumber
+  - LiveKit.Proto.JoinResponse.ServerInfo
+  - LiveKit.Proto.JoinResponse.ServerInfoFieldNumber
+  - LiveKit.Proto.JoinResponse.ServerRegion
+  - LiveKit.Proto.JoinResponse.ServerRegionFieldNumber
+  - LiveKit.Proto.JoinResponse.ServerVersion
+  - LiveKit.Proto.JoinResponse.ServerVersionFieldNumber
+  - LiveKit.Proto.JoinResponse.SifTrailer
+  - LiveKit.Proto.JoinResponse.SifTrailerFieldNumber
+  - LiveKit.Proto.JoinResponse.SubscriberPrimary
+  - LiveKit.Proto.JoinResponse.SubscriberPrimaryFieldNumber
+  - LiveKit.Proto.JoinResponse.ToString
+  - LiveKit.Proto.JoinResponse.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: JoinResponse
+  nameWithType: JoinResponse
+  fullName: LiveKit.Proto.JoinResponse
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JoinResponse
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4625
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class JoinResponse : IMessage<JoinResponse>, IEquatable<JoinResponse>, IDeepCloneable<JoinResponse>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class JoinResponse Implements IMessage(Of JoinResponse), IEquatable(Of JoinResponse), IDeepCloneable(Of JoinResponse), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}
+  - System.IEquatable{LiveKit.Proto.JoinResponse}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.JoinResponse.Parser
+  commentId: P:LiveKit.Proto.JoinResponse.Parser
+  id: Parser
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: JoinResponse.Parser
+  fullName: LiveKit.Proto.JoinResponse.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4633
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<JoinResponse> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.JoinResponse}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of JoinResponse)
+  overload: LiveKit.Proto.JoinResponse.Parser*
+- uid: LiveKit.Proto.JoinResponse.Descriptor
+  commentId: P:LiveKit.Proto.JoinResponse.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: JoinResponse.Descriptor
+  fullName: LiveKit.Proto.JoinResponse.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4637
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.JoinResponse.Descriptor*
+- uid: LiveKit.Proto.JoinResponse.#ctor
+  commentId: M:LiveKit.Proto.JoinResponse.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: JoinResponse()
+  nameWithType: JoinResponse.JoinResponse()
+  fullName: LiveKit.Proto.JoinResponse.JoinResponse()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4649
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public JoinResponse()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.JoinResponse.#ctor*
+  nameWithType.vb: JoinResponse.New()
+  fullName.vb: LiveKit.Proto.JoinResponse.New()
+  name.vb: New()
+- uid: LiveKit.Proto.JoinResponse.#ctor(LiveKit.Proto.JoinResponse)
+  commentId: M:LiveKit.Proto.JoinResponse.#ctor(LiveKit.Proto.JoinResponse)
+  id: '#ctor(LiveKit.Proto.JoinResponse)'
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: JoinResponse(JoinResponse)
+  nameWithType: JoinResponse.JoinResponse(JoinResponse)
+  fullName: LiveKit.Proto.JoinResponse.JoinResponse(LiveKit.Proto.JoinResponse)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4657
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public JoinResponse(JoinResponse other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.JoinResponse
+    content.vb: Public Sub New(other As JoinResponse)
+  overload: LiveKit.Proto.JoinResponse.#ctor*
+  nameWithType.vb: JoinResponse.New(JoinResponse)
+  fullName.vb: LiveKit.Proto.JoinResponse.New(LiveKit.Proto.JoinResponse)
+  name.vb: New(JoinResponse)
+- uid: LiveKit.Proto.JoinResponse.Clone
+  commentId: M:LiveKit.Proto.JoinResponse.Clone
+  id: Clone
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: JoinResponse.Clone()
+  fullName: LiveKit.Proto.JoinResponse.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4678
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public JoinResponse Clone()
+    return:
+      type: LiveKit.Proto.JoinResponse
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As JoinResponse
+  overload: LiveKit.Proto.JoinResponse.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}.Clone
+- uid: LiveKit.Proto.JoinResponse.RoomFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.RoomFieldNumber
+  id: RoomFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: RoomFieldNumber
+  nameWithType: JoinResponse.RoomFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.RoomFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4685
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room" field.
+  example: []
+  syntax:
+    content: public const int RoomFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomFieldNumber As Integer = 1
+- uid: LiveKit.Proto.JoinResponse.Room
+  commentId: P:LiveKit.Proto.JoinResponse.Room
+  id: Room
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: JoinResponse.Room
+  fullName: LiveKit.Proto.JoinResponse.Room
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Room
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4687
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Room Room { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.Room
+    content.vb: Public Property Room As Room
+  overload: LiveKit.Proto.JoinResponse.Room*
+- uid: LiveKit.Proto.JoinResponse.ParticipantFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.ParticipantFieldNumber
+  id: ParticipantFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ParticipantFieldNumber
+  nameWithType: JoinResponse.ParticipantFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.ParticipantFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4697
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant" field.
+  example: []
+  syntax:
+    content: public const int ParticipantFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantFieldNumber As Integer = 2
+- uid: LiveKit.Proto.JoinResponse.Participant
+  commentId: P:LiveKit.Proto.JoinResponse.Participant
+  id: Participant
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: Participant
+  nameWithType: JoinResponse.Participant
+  fullName: LiveKit.Proto.JoinResponse.Participant
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Participant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4699
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantInfo Participant { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ParticipantInfo
+    content.vb: Public Property Participant As ParticipantInfo
+  overload: LiveKit.Proto.JoinResponse.Participant*
+- uid: LiveKit.Proto.JoinResponse.OtherParticipantsFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.OtherParticipantsFieldNumber
+  id: OtherParticipantsFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: OtherParticipantsFieldNumber
+  nameWithType: JoinResponse.OtherParticipantsFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.OtherParticipantsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: OtherParticipantsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4709
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "other_participants" field.
+  example: []
+  syntax:
+    content: public const int OtherParticipantsFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const OtherParticipantsFieldNumber As Integer = 3
+- uid: LiveKit.Proto.JoinResponse.OtherParticipants
+  commentId: P:LiveKit.Proto.JoinResponse.OtherParticipants
+  id: OtherParticipants
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: OtherParticipants
+  nameWithType: JoinResponse.OtherParticipants
+  fullName: LiveKit.Proto.JoinResponse.OtherParticipants
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: OtherParticipants
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4713
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<ParticipantInfo> OtherParticipants { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantInfo}
+    content.vb: Public ReadOnly Property OtherParticipants As RepeatedField(Of ParticipantInfo)
+  overload: LiveKit.Proto.JoinResponse.OtherParticipants*
+- uid: LiveKit.Proto.JoinResponse.ServerVersionFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.ServerVersionFieldNumber
+  id: ServerVersionFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ServerVersionFieldNumber
+  nameWithType: JoinResponse.ServerVersionFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.ServerVersionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerVersionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4720
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "server_version" field.
+  example: []
+  syntax:
+    content: public const int ServerVersionFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ServerVersionFieldNumber As Integer = 4
+- uid: LiveKit.Proto.JoinResponse.ServerVersion
+  commentId: P:LiveKit.Proto.JoinResponse.ServerVersion
+  id: ServerVersion
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ServerVersion
+  nameWithType: JoinResponse.ServerVersion
+  fullName: LiveKit.Proto.JoinResponse.ServerVersion
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerVersion
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4725
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: deprecated. use server_info.version instead.
+  example: []
+  syntax:
+    content: public string ServerVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServerVersion As String
+  overload: LiveKit.Proto.JoinResponse.ServerVersion*
+- uid: LiveKit.Proto.JoinResponse.IceServersFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.IceServersFieldNumber
+  id: IceServersFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: IceServersFieldNumber
+  nameWithType: JoinResponse.IceServersFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.IceServersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IceServersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4735
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ice_servers" field.
+  example: []
+  syntax:
+    content: public const int IceServersFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const IceServersFieldNumber As Integer = 5
+- uid: LiveKit.Proto.JoinResponse.IceServers
+  commentId: P:LiveKit.Proto.JoinResponse.IceServers
+  id: IceServers
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: IceServers
+  nameWithType: JoinResponse.IceServers
+  fullName: LiveKit.Proto.JoinResponse.IceServers
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IceServers
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4739
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<ICEServer> IceServers { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ICEServer}
+    content.vb: Public ReadOnly Property IceServers As RepeatedField(Of ICEServer)
+  overload: LiveKit.Proto.JoinResponse.IceServers*
+- uid: LiveKit.Proto.JoinResponse.SubscriberPrimaryFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.SubscriberPrimaryFieldNumber
+  id: SubscriberPrimaryFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: SubscriberPrimaryFieldNumber
+  nameWithType: JoinResponse.SubscriberPrimaryFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.SubscriberPrimaryFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriberPrimaryFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4746
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "subscriber_primary" field.
+  example: []
+  syntax:
+    content: public const int SubscriberPrimaryFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const SubscriberPrimaryFieldNumber As Integer = 6
+- uid: LiveKit.Proto.JoinResponse.SubscriberPrimary
+  commentId: P:LiveKit.Proto.JoinResponse.SubscriberPrimary
+  id: SubscriberPrimary
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: SubscriberPrimary
+  nameWithType: JoinResponse.SubscriberPrimary
+  fullName: LiveKit.Proto.JoinResponse.SubscriberPrimary
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriberPrimary
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4751
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: use subscriber as the primary PeerConnection
+  example: []
+  syntax:
+    content: public bool SubscriberPrimary { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SubscriberPrimary As Boolean
+  overload: LiveKit.Proto.JoinResponse.SubscriberPrimary*
+- uid: LiveKit.Proto.JoinResponse.AlternativeUrlFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.AlternativeUrlFieldNumber
+  id: AlternativeUrlFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: AlternativeUrlFieldNumber
+  nameWithType: JoinResponse.AlternativeUrlFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.AlternativeUrlFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AlternativeUrlFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4761
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "alternative_url" field.
+  example: []
+  syntax:
+    content: public const int AlternativeUrlFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const AlternativeUrlFieldNumber As Integer = 7
+- uid: LiveKit.Proto.JoinResponse.AlternativeUrl
+  commentId: P:LiveKit.Proto.JoinResponse.AlternativeUrl
+  id: AlternativeUrl
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: AlternativeUrl
+  nameWithType: JoinResponse.AlternativeUrl
+  fullName: LiveKit.Proto.JoinResponse.AlternativeUrl
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AlternativeUrl
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4767
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    when the current server isn't available, return alternate url to retry connection
+
+    when this is set, the other fields will be largely empty
+  example: []
+  syntax:
+    content: public string AlternativeUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AlternativeUrl As String
+  overload: LiveKit.Proto.JoinResponse.AlternativeUrl*
+- uid: LiveKit.Proto.JoinResponse.ClientConfigurationFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.ClientConfigurationFieldNumber
+  id: ClientConfigurationFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ClientConfigurationFieldNumber
+  nameWithType: JoinResponse.ClientConfigurationFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.ClientConfigurationFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientConfigurationFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4777
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "client_configuration" field.
+  example: []
+  syntax:
+    content: public const int ClientConfigurationFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const ClientConfigurationFieldNumber As Integer = 8
+- uid: LiveKit.Proto.JoinResponse.ClientConfiguration
+  commentId: P:LiveKit.Proto.JoinResponse.ClientConfiguration
+  id: ClientConfiguration
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ClientConfiguration
+  nameWithType: JoinResponse.ClientConfiguration
+  fullName: LiveKit.Proto.JoinResponse.ClientConfiguration
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientConfiguration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4779
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ClientConfiguration ClientConfiguration { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ClientConfiguration
+    content.vb: Public Property ClientConfiguration As ClientConfiguration
+  overload: LiveKit.Proto.JoinResponse.ClientConfiguration*
+- uid: LiveKit.Proto.JoinResponse.ServerRegionFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.ServerRegionFieldNumber
+  id: ServerRegionFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ServerRegionFieldNumber
+  nameWithType: JoinResponse.ServerRegionFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.ServerRegionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerRegionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4789
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "server_region" field.
+  example: []
+  syntax:
+    content: public const int ServerRegionFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const ServerRegionFieldNumber As Integer = 9
+- uid: LiveKit.Proto.JoinResponse.ServerRegion
+  commentId: P:LiveKit.Proto.JoinResponse.ServerRegion
+  id: ServerRegion
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ServerRegion
+  nameWithType: JoinResponse.ServerRegion
+  fullName: LiveKit.Proto.JoinResponse.ServerRegion
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerRegion
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4794
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: deprecated. use server_info.region instead.
+  example: []
+  syntax:
+    content: public string ServerRegion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServerRegion As String
+  overload: LiveKit.Proto.JoinResponse.ServerRegion*
+- uid: LiveKit.Proto.JoinResponse.PingTimeoutFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.PingTimeoutFieldNumber
+  id: PingTimeoutFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: PingTimeoutFieldNumber
+  nameWithType: JoinResponse.PingTimeoutFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.PingTimeoutFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PingTimeoutFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4804
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ping_timeout" field.
+  example: []
+  syntax:
+    content: public const int PingTimeoutFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const PingTimeoutFieldNumber As Integer = 10
+- uid: LiveKit.Proto.JoinResponse.PingTimeout
+  commentId: P:LiveKit.Proto.JoinResponse.PingTimeout
+  id: PingTimeout
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: PingTimeout
+  nameWithType: JoinResponse.PingTimeout
+  fullName: LiveKit.Proto.JoinResponse.PingTimeout
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PingTimeout
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4806
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int PingTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PingTimeout As Integer
+  overload: LiveKit.Proto.JoinResponse.PingTimeout*
+- uid: LiveKit.Proto.JoinResponse.PingIntervalFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.PingIntervalFieldNumber
+  id: PingIntervalFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: PingIntervalFieldNumber
+  nameWithType: JoinResponse.PingIntervalFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.PingIntervalFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PingIntervalFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4816
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ping_interval" field.
+  example: []
+  syntax:
+    content: public const int PingIntervalFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const PingIntervalFieldNumber As Integer = 11
+- uid: LiveKit.Proto.JoinResponse.PingInterval
+  commentId: P:LiveKit.Proto.JoinResponse.PingInterval
+  id: PingInterval
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: PingInterval
+  nameWithType: JoinResponse.PingInterval
+  fullName: LiveKit.Proto.JoinResponse.PingInterval
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PingInterval
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4818
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int PingInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PingInterval As Integer
+  overload: LiveKit.Proto.JoinResponse.PingInterval*
+- uid: LiveKit.Proto.JoinResponse.ServerInfoFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.ServerInfoFieldNumber
+  id: ServerInfoFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ServerInfoFieldNumber
+  nameWithType: JoinResponse.ServerInfoFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.ServerInfoFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerInfoFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4828
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "server_info" field.
+  example: []
+  syntax:
+    content: public const int ServerInfoFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const ServerInfoFieldNumber As Integer = 12
+- uid: LiveKit.Proto.JoinResponse.ServerInfo
+  commentId: P:LiveKit.Proto.JoinResponse.ServerInfo
+  id: ServerInfo
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ServerInfo
+  nameWithType: JoinResponse.ServerInfo
+  fullName: LiveKit.Proto.JoinResponse.ServerInfo
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4830
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ServerInfo ServerInfo { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ServerInfo
+    content.vb: Public Property ServerInfo As ServerInfo
+  overload: LiveKit.Proto.JoinResponse.ServerInfo*
+- uid: LiveKit.Proto.JoinResponse.SifTrailerFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.SifTrailerFieldNumber
+  id: SifTrailerFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: SifTrailerFieldNumber
+  nameWithType: JoinResponse.SifTrailerFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.SifTrailerFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SifTrailerFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4840
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sif_trailer" field.
+  example: []
+  syntax:
+    content: public const int SifTrailerFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const SifTrailerFieldNumber As Integer = 13
+- uid: LiveKit.Proto.JoinResponse.SifTrailer
+  commentId: P:LiveKit.Proto.JoinResponse.SifTrailer
+  id: SifTrailer
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: SifTrailer
+  nameWithType: JoinResponse.SifTrailer
+  fullName: LiveKit.Proto.JoinResponse.SifTrailer
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SifTrailer
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4845
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Server-Injected-Frame byte trailer, used to identify unencrypted frames when e2ee is enabled
+  example: []
+  syntax:
+    content: public ByteString SifTrailer { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.ByteString
+    content.vb: Public Property SifTrailer As ByteString
+  overload: LiveKit.Proto.JoinResponse.SifTrailer*
+- uid: LiveKit.Proto.JoinResponse.EnabledPublishCodecsFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.EnabledPublishCodecsFieldNumber
+  id: EnabledPublishCodecsFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: EnabledPublishCodecsFieldNumber
+  nameWithType: JoinResponse.EnabledPublishCodecsFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.EnabledPublishCodecsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnabledPublishCodecsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4855
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "enabled_publish_codecs" field.
+  example: []
+  syntax:
+    content: public const int EnabledPublishCodecsFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const EnabledPublishCodecsFieldNumber As Integer = 14
+- uid: LiveKit.Proto.JoinResponse.EnabledPublishCodecs
+  commentId: P:LiveKit.Proto.JoinResponse.EnabledPublishCodecs
+  id: EnabledPublishCodecs
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: EnabledPublishCodecs
+  nameWithType: JoinResponse.EnabledPublishCodecs
+  fullName: LiveKit.Proto.JoinResponse.EnabledPublishCodecs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnabledPublishCodecs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4859
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<Codec> EnabledPublishCodecs { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.Codec}
+    content.vb: Public ReadOnly Property EnabledPublishCodecs As RepeatedField(Of Codec)
+  overload: LiveKit.Proto.JoinResponse.EnabledPublishCodecs*
+- uid: LiveKit.Proto.JoinResponse.FastPublishFieldNumber
+  commentId: F:LiveKit.Proto.JoinResponse.FastPublishFieldNumber
+  id: FastPublishFieldNumber
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: FastPublishFieldNumber
+  nameWithType: JoinResponse.FastPublishFieldNumber
+  fullName: LiveKit.Proto.JoinResponse.FastPublishFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FastPublishFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4866
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "fast_publish" field.
+  example: []
+  syntax:
+    content: public const int FastPublishFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const FastPublishFieldNumber As Integer = 15
+- uid: LiveKit.Proto.JoinResponse.FastPublish
+  commentId: P:LiveKit.Proto.JoinResponse.FastPublish
+  id: FastPublish
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: FastPublish
+  nameWithType: JoinResponse.FastPublish
+  fullName: LiveKit.Proto.JoinResponse.FastPublish
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FastPublish
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4871
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: when set, client should attempt to establish publish peer connection when joining room to speed up publishing
+  example: []
+  syntax:
+    content: public bool FastPublish { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property FastPublish As Boolean
+  overload: LiveKit.Proto.JoinResponse.FastPublish*
+- uid: LiveKit.Proto.JoinResponse.Equals(System.Object)
+  commentId: M:LiveKit.Proto.JoinResponse.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: JoinResponse.Equals(object)
+  fullName: LiveKit.Proto.JoinResponse.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4880
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.JoinResponse.Equals*
+  nameWithType.vb: JoinResponse.Equals(Object)
+  fullName.vb: LiveKit.Proto.JoinResponse.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.JoinResponse.Equals(LiveKit.Proto.JoinResponse)
+  commentId: M:LiveKit.Proto.JoinResponse.Equals(LiveKit.Proto.JoinResponse)
+  id: Equals(LiveKit.Proto.JoinResponse)
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: Equals(JoinResponse)
+  nameWithType: JoinResponse.Equals(JoinResponse)
+  fullName: LiveKit.Proto.JoinResponse.Equals(LiveKit.Proto.JoinResponse)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4886
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(JoinResponse other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.JoinResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As JoinResponse) As Boolean
+  overload: LiveKit.Proto.JoinResponse.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.JoinResponse}.Equals(LiveKit.Proto.JoinResponse)
+- uid: LiveKit.Proto.JoinResponse.GetHashCode
+  commentId: M:LiveKit.Proto.JoinResponse.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: JoinResponse.GetHashCode()
+  fullName: LiveKit.Proto.JoinResponse.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4913
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.JoinResponse.GetHashCode*
+- uid: LiveKit.Proto.JoinResponse.ToString
+  commentId: M:LiveKit.Proto.JoinResponse.ToString
+  id: ToString
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: JoinResponse.ToString()
+  fullName: LiveKit.Proto.JoinResponse.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4938
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.JoinResponse.ToString*
+- uid: LiveKit.Proto.JoinResponse.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.JoinResponse.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: JoinResponse.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.JoinResponse.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 4944
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.JoinResponse.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.JoinResponse.CalculateSize
+  commentId: M:LiveKit.Proto.JoinResponse.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: JoinResponse.CalculateSize()
+  fullName: LiveKit.Proto.JoinResponse.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 5068
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.JoinResponse.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.JoinResponse.MergeFrom(LiveKit.Proto.JoinResponse)
+  commentId: M:LiveKit.Proto.JoinResponse.MergeFrom(LiveKit.Proto.JoinResponse)
+  id: MergeFrom(LiveKit.Proto.JoinResponse)
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(JoinResponse)
+  nameWithType: JoinResponse.MergeFrom(JoinResponse)
+  fullName: LiveKit.Proto.JoinResponse.MergeFrom(LiveKit.Proto.JoinResponse)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 5117
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(JoinResponse other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.JoinResponse
+    content.vb: Public Sub MergeFrom(other As JoinResponse)
+  overload: LiveKit.Proto.JoinResponse.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}.MergeFrom(LiveKit.Proto.JoinResponse)
+- uid: LiveKit.Proto.JoinResponse.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.JoinResponse.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.JoinResponse
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: JoinResponse.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.JoinResponse.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 5177
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.JoinResponse.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.JoinResponse.html
+  name: IMessage<JoinResponse>
+  nameWithType: IMessage<JoinResponse>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.JoinResponse>
+  nameWithType.vb: IMessage(Of JoinResponse)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.JoinResponse)
+  name.vb: IMessage(Of JoinResponse)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.JoinResponse}
+  commentId: T:System.IEquatable{LiveKit.Proto.JoinResponse}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<JoinResponse>
+  nameWithType: IEquatable<JoinResponse>
+  fullName: System.IEquatable<LiveKit.Proto.JoinResponse>
+  nameWithType.vb: IEquatable(Of JoinResponse)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.JoinResponse)
+  name.vb: IEquatable(Of JoinResponse)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.JoinResponse.html
+  name: IDeepCloneable<JoinResponse>
+  nameWithType: IDeepCloneable<JoinResponse>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.JoinResponse>
+  nameWithType.vb: IDeepCloneable(Of JoinResponse)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.JoinResponse)
+  name.vb: IDeepCloneable(Of JoinResponse)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.JoinResponse.Parser*
+  commentId: Overload:LiveKit.Proto.JoinResponse.Parser
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_Parser
+  name: Parser
+  nameWithType: JoinResponse.Parser
+  fullName: LiveKit.Proto.JoinResponse.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.JoinResponse}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.JoinResponse}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.JoinResponse.html
+  name: MessageParser<JoinResponse>
+  nameWithType: MessageParser<JoinResponse>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.JoinResponse>
+  nameWithType.vb: MessageParser(Of JoinResponse)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.JoinResponse)
+  name.vb: MessageParser(Of JoinResponse)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.JoinResponse.Descriptor*
+  commentId: Overload:LiveKit.Proto.JoinResponse.Descriptor
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_Descriptor
+  name: Descriptor
+  nameWithType: JoinResponse.Descriptor
+  fullName: LiveKit.Proto.JoinResponse.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.JoinResponse.#ctor*
+  commentId: Overload:LiveKit.Proto.JoinResponse.#ctor
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse__ctor
+  name: JoinResponse
+  nameWithType: JoinResponse.JoinResponse
+  fullName: LiveKit.Proto.JoinResponse.JoinResponse
+  nameWithType.vb: JoinResponse.New
+  fullName.vb: LiveKit.Proto.JoinResponse.New
+  name.vb: New
+- uid: LiveKit.Proto.JoinResponse
+  commentId: T:LiveKit.Proto.JoinResponse
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.JoinResponse.html
+  name: JoinResponse
+  nameWithType: JoinResponse
+  fullName: LiveKit.Proto.JoinResponse
+- uid: LiveKit.Proto.JoinResponse.Clone*
+  commentId: Overload:LiveKit.Proto.JoinResponse.Clone
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_Clone
+  name: Clone
+  nameWithType: JoinResponse.Clone
+  fullName: LiveKit.Proto.JoinResponse.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<JoinResponse>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.JoinResponse>.Clone()
+  nameWithType.vb: IDeepCloneable(Of JoinResponse).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.JoinResponse).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.JoinResponse}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.JoinResponse.Room*
+  commentId: Overload:LiveKit.Proto.JoinResponse.Room
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_Room
+  name: Room
+  nameWithType: JoinResponse.Room
+  fullName: LiveKit.Proto.JoinResponse.Room
+- uid: LiveKit.Proto.Room
+  commentId: T:LiveKit.Proto.Room
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.Room.html
+  name: Room
+  nameWithType: Room
+  fullName: LiveKit.Proto.Room
+- uid: LiveKit.Proto.JoinResponse.Participant*
+  commentId: Overload:LiveKit.Proto.JoinResponse.Participant
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_Participant
+  name: Participant
+  nameWithType: JoinResponse.Participant
+  fullName: LiveKit.Proto.JoinResponse.Participant
+- uid: LiveKit.Proto.ParticipantInfo
+  commentId: T:LiveKit.Proto.ParticipantInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: LiveKit.Proto.ParticipantInfo
+- uid: LiveKit.Proto.JoinResponse.OtherParticipants*
+  commentId: Overload:LiveKit.Proto.JoinResponse.OtherParticipants
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_OtherParticipants
+  name: OtherParticipants
+  nameWithType: JoinResponse.OtherParticipants
+  fullName: LiveKit.Proto.JoinResponse.OtherParticipants
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantInfo}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantInfo}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: RepeatedField<ParticipantInfo>
+  nameWithType: RepeatedField<ParticipantInfo>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.ParticipantInfo>
+  nameWithType.vb: RepeatedField(Of ParticipantInfo)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.ParticipantInfo)
+  name.vb: RepeatedField(Of ParticipantInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.JoinResponse.ServerVersion*
+  commentId: Overload:LiveKit.Proto.JoinResponse.ServerVersion
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_ServerVersion
+  name: ServerVersion
+  nameWithType: JoinResponse.ServerVersion
+  fullName: LiveKit.Proto.JoinResponse.ServerVersion
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.JoinResponse.IceServers*
+  commentId: Overload:LiveKit.Proto.JoinResponse.IceServers
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_IceServers
+  name: IceServers
+  nameWithType: JoinResponse.IceServers
+  fullName: LiveKit.Proto.JoinResponse.IceServers
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ICEServer}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ICEServer}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.ICEServer.html
+  name: RepeatedField<ICEServer>
+  nameWithType: RepeatedField<ICEServer>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.ICEServer>
+  nameWithType.vb: RepeatedField(Of ICEServer)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.ICEServer)
+  name.vb: RepeatedField(Of ICEServer)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ICEServer
+    name: ICEServer
+    href: LiveKit.Proto.ICEServer.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ICEServer
+    name: ICEServer
+    href: LiveKit.Proto.ICEServer.html
+  - name: )
+- uid: LiveKit.Proto.JoinResponse.SubscriberPrimary*
+  commentId: Overload:LiveKit.Proto.JoinResponse.SubscriberPrimary
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_SubscriberPrimary
+  name: SubscriberPrimary
+  nameWithType: JoinResponse.SubscriberPrimary
+  fullName: LiveKit.Proto.JoinResponse.SubscriberPrimary
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.JoinResponse.AlternativeUrl*
+  commentId: Overload:LiveKit.Proto.JoinResponse.AlternativeUrl
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_AlternativeUrl
+  name: AlternativeUrl
+  nameWithType: JoinResponse.AlternativeUrl
+  fullName: LiveKit.Proto.JoinResponse.AlternativeUrl
+- uid: LiveKit.Proto.JoinResponse.ClientConfiguration*
+  commentId: Overload:LiveKit.Proto.JoinResponse.ClientConfiguration
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_ClientConfiguration
+  name: ClientConfiguration
+  nameWithType: JoinResponse.ClientConfiguration
+  fullName: LiveKit.Proto.JoinResponse.ClientConfiguration
+- uid: LiveKit.Proto.ClientConfiguration
+  commentId: T:LiveKit.Proto.ClientConfiguration
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ClientConfiguration.html
+  name: ClientConfiguration
+  nameWithType: ClientConfiguration
+  fullName: LiveKit.Proto.ClientConfiguration
+- uid: LiveKit.Proto.JoinResponse.ServerRegion*
+  commentId: Overload:LiveKit.Proto.JoinResponse.ServerRegion
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_ServerRegion
+  name: ServerRegion
+  nameWithType: JoinResponse.ServerRegion
+  fullName: LiveKit.Proto.JoinResponse.ServerRegion
+- uid: LiveKit.Proto.JoinResponse.PingTimeout*
+  commentId: Overload:LiveKit.Proto.JoinResponse.PingTimeout
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_PingTimeout
+  name: PingTimeout
+  nameWithType: JoinResponse.PingTimeout
+  fullName: LiveKit.Proto.JoinResponse.PingTimeout
+- uid: LiveKit.Proto.JoinResponse.PingInterval*
+  commentId: Overload:LiveKit.Proto.JoinResponse.PingInterval
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_PingInterval
+  name: PingInterval
+  nameWithType: JoinResponse.PingInterval
+  fullName: LiveKit.Proto.JoinResponse.PingInterval
+- uid: LiveKit.Proto.JoinResponse.ServerInfo*
+  commentId: Overload:LiveKit.Proto.JoinResponse.ServerInfo
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_ServerInfo
+  name: ServerInfo
+  nameWithType: JoinResponse.ServerInfo
+  fullName: LiveKit.Proto.JoinResponse.ServerInfo
+- uid: LiveKit.Proto.ServerInfo
+  commentId: T:LiveKit.Proto.ServerInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ServerInfo.html
+  name: ServerInfo
+  nameWithType: ServerInfo
+  fullName: LiveKit.Proto.ServerInfo
+- uid: LiveKit.Proto.JoinResponse.SifTrailer*
+  commentId: Overload:LiveKit.Proto.JoinResponse.SifTrailer
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_SifTrailer
+  name: SifTrailer
+  nameWithType: JoinResponse.SifTrailer
+  fullName: LiveKit.Proto.JoinResponse.SifTrailer
+- uid: Google.Protobuf.ByteString
+  commentId: T:Google.Protobuf.ByteString
+  parent: Google.Protobuf
+  isExternal: true
+  name: ByteString
+  nameWithType: ByteString
+  fullName: Google.Protobuf.ByteString
+- uid: LiveKit.Proto.JoinResponse.EnabledPublishCodecs*
+  commentId: Overload:LiveKit.Proto.JoinResponse.EnabledPublishCodecs
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_EnabledPublishCodecs
+  name: EnabledPublishCodecs
+  nameWithType: JoinResponse.EnabledPublishCodecs
+  fullName: LiveKit.Proto.JoinResponse.EnabledPublishCodecs
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.Codec}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.Codec}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.Codec.html
+  name: RepeatedField<Codec>
+  nameWithType: RepeatedField<Codec>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.Codec>
+  nameWithType.vb: RepeatedField(Of Codec)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.Codec)
+  name.vb: RepeatedField(Of Codec)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.Codec
+    name: Codec
+    href: LiveKit.Proto.Codec.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Codec
+    name: Codec
+    href: LiveKit.Proto.Codec.html
+  - name: )
+- uid: LiveKit.Proto.JoinResponse.FastPublish*
+  commentId: Overload:LiveKit.Proto.JoinResponse.FastPublish
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_FastPublish
+  name: FastPublish
+  nameWithType: JoinResponse.FastPublish
+  fullName: LiveKit.Proto.JoinResponse.FastPublish
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.JoinResponse.Equals*
+  commentId: Overload:LiveKit.Proto.JoinResponse.Equals
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_Equals_System_Object_
+  name: Equals
+  nameWithType: JoinResponse.Equals
+  fullName: LiveKit.Proto.JoinResponse.Equals
+- uid: System.IEquatable{LiveKit.Proto.JoinResponse}.Equals(LiveKit.Proto.JoinResponse)
+  commentId: M:System.IEquatable{LiveKit.Proto.JoinResponse}.Equals(LiveKit.Proto.JoinResponse)
+  parent: System.IEquatable{LiveKit.Proto.JoinResponse}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(JoinResponse)
+  nameWithType: IEquatable<JoinResponse>.Equals(JoinResponse)
+  fullName: System.IEquatable<LiveKit.Proto.JoinResponse>.Equals(LiveKit.Proto.JoinResponse)
+  nameWithType.vb: IEquatable(Of JoinResponse).Equals(JoinResponse)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.JoinResponse).Equals(LiveKit.Proto.JoinResponse)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.JoinResponse}.Equals(LiveKit.Proto.JoinResponse)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.JoinResponse}.Equals(LiveKit.Proto.JoinResponse)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.JoinResponse.GetHashCode*
+  commentId: Overload:LiveKit.Proto.JoinResponse.GetHashCode
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_GetHashCode
+  name: GetHashCode
+  nameWithType: JoinResponse.GetHashCode
+  fullName: LiveKit.Proto.JoinResponse.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.JoinResponse.ToString*
+  commentId: Overload:LiveKit.Proto.JoinResponse.ToString
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_ToString
+  name: ToString
+  nameWithType: JoinResponse.ToString
+  fullName: LiveKit.Proto.JoinResponse.ToString
+- uid: LiveKit.Proto.JoinResponse.WriteTo*
+  commentId: Overload:LiveKit.Proto.JoinResponse.WriteTo
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: JoinResponse.WriteTo
+  fullName: LiveKit.Proto.JoinResponse.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.JoinResponse.CalculateSize*
+  commentId: Overload:LiveKit.Proto.JoinResponse.CalculateSize
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_CalculateSize
+  name: CalculateSize
+  nameWithType: JoinResponse.CalculateSize
+  fullName: LiveKit.Proto.JoinResponse.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.JoinResponse.MergeFrom*
+  commentId: Overload:LiveKit.Proto.JoinResponse.MergeFrom
+  href: LiveKit.Proto.JoinResponse.html#LiveKit_Proto_JoinResponse_MergeFrom_LiveKit_Proto_JoinResponse_
+  name: MergeFrom
+  nameWithType: JoinResponse.MergeFrom
+  fullName: LiveKit.Proto.JoinResponse.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}.MergeFrom(LiveKit.Proto.JoinResponse)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}.MergeFrom(LiveKit.Proto.JoinResponse)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.JoinResponse.html
+  name: MergeFrom(JoinResponse)
+  nameWithType: IMessage<JoinResponse>.MergeFrom(JoinResponse)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.JoinResponse>.MergeFrom(LiveKit.Proto.JoinResponse)
+  nameWithType.vb: IMessage(Of JoinResponse).MergeFrom(JoinResponse)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.JoinResponse).MergeFrom(LiveKit.Proto.JoinResponse)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}.MergeFrom(LiveKit.Proto.JoinResponse)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.JoinResponse}.MergeFrom(LiveKit.Proto.JoinResponse)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.JoinResponse
+    name: JoinResponse
+    href: LiveKit.Proto.JoinResponse.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

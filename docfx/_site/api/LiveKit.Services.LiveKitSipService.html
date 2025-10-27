@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LiveKitSipService | livekit-server-sdk-aspnetcore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LiveKitSipService | livekit-server-sdk-aspnetcore ">
+      
+      <meta name="description" content="Service for managing SIP trunks, dispatch rules, and participants.  Provides methods for SIP integration, including managing trunks, dispatch rules, and making SIP calls. See LiveKit SIP Service Documentation for more information.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/new/main/apiSpec/new?filename=LiveKit_Services_LiveKitSipService.md&amp;value=---%0Auid%3A%20LiveKit.Services.LiveKitSipService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="livekit-server-sdk-aspnetcore">
+            livekit-server-sdk-aspnetcore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveKit.Services.LiveKitSipService">
+
+
+
+  <h1 id="LiveKit_Services_LiveKitSipService" data-uid="LiveKit.Services.LiveKitSipService" class="text-break">
+Class LiveKitSipService  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveKit.html">LiveKit</a>.<a class="xref" href="LiveKit.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveKit.AspNetCore.ServerSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Service for managing SIP trunks, dispatch rules, and participants.</p>
+<p>
+Provides methods for SIP integration, including managing trunks, dispatch rules, and making SIP calls.
+See <a href="https://docs.livekit.io/reference/server/server-apis/#sip-service">LiveKit SIP Service Documentation</a> for more information.
+</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class LiveKitSipService : TwirpClient, ILiveKitSipService</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="LiveKit.Services.TwirpClient.html">TwirpClient</a></div>
+      <div><span class="xref">LiveKitSipService</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="LiveKit.Services.ILiveKitSipService.html">ILiveKitSipService</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveKit_Services_LiveKitSipService__ctor_" data-uid="LiveKit.Services.LiveKitSipService.#ctor*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Logging_ILogger_LiveKit_Services_LiveKitSipService__LiveKit_Authentication_ILiveKitTokenService_" data-uid="LiveKit.Services.LiveKitSipService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitSipService},LiveKit.Authentication.ILiveKitTokenService)">
+  LiveKitSipService(HttpClient, ILogger&lt;LiveKitSipService&gt;, ILiveKitTokenService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="LiveKit.Services.LiveKitSipService.html">LiveKitSipService</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LiveKitSipService(HttpClient httpClient, ILogger&lt;LiveKitSipService&gt; logger, ILiveKitTokenService _tokenService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>httpClient</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd></dd>
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="LiveKit.Services.LiveKitSipService.html">LiveKitSipService</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>_tokenService</code> <a class="xref" href="LiveKit.Authentication.ILiveKitTokenService.html">ILiveKitTokenService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveKit_Services_LiveKitSipService_CreateSIPDispatchRuleAsync_" data-uid="LiveKit.Services.LiveKitSipService.CreateSIPDispatchRuleAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_CreateSIPDispatchRuleAsync_LiveKit_Proto_CreateSIPDispatchRuleRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.CreateSIPDispatchRuleAsync(LiveKit.Proto.CreateSIPDispatchRuleRequest,System.Threading.CancellationToken)">
+  CreateSIPDispatchRuleAsync(CreateSIPDispatchRuleRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new SIP dispatch rule.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPDispatchRuleInfo&gt; CreateSIPDispatchRuleAsync(CreateSIPDispatchRuleRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.CreateSIPDispatchRuleRequest.html">CreateSIPDispatchRuleRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPDispatchRuleInfo.html">SIPDispatchRuleInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_CreateSIPInboundTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.CreateSIPInboundTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_CreateSIPInboundTrunkAsync_LiveKit_Proto_CreateSIPInboundTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.CreateSIPInboundTrunkAsync(LiveKit.Proto.CreateSIPInboundTrunkRequest,System.Threading.CancellationToken)">
+  CreateSIPInboundTrunkAsync(CreateSIPInboundTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new SIP inbound trunk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPInboundTrunkInfo&gt; CreateSIPInboundTrunkAsync(CreateSIPInboundTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.CreateSIPInboundTrunkRequest.html">CreateSIPInboundTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPInboundTrunkInfo.html">SIPInboundTrunkInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_CreateSIPOutboundTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.CreateSIPOutboundTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_CreateSIPOutboundTrunkAsync_LiveKit_Proto_CreateSIPOutboundTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.CreateSIPOutboundTrunkAsync(LiveKit.Proto.CreateSIPOutboundTrunkRequest,System.Threading.CancellationToken)">
+  CreateSIPOutboundTrunkAsync(CreateSIPOutboundTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new SIP outbound trunk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPOutboundTrunkInfo&gt; CreateSIPOutboundTrunkAsync(CreateSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.CreateSIPOutboundTrunkRequest.html">CreateSIPOutboundTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPOutboundTrunkInfo.html">SIPOutboundTrunkInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_CreateSIPParticipantAsync_" data-uid="LiveKit.Services.LiveKitSipService.CreateSIPParticipantAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_CreateSIPParticipantAsync_LiveKit_Proto_CreateSIPParticipantRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.CreateSIPParticipantAsync(LiveKit.Proto.CreateSIPParticipantRequest,System.Threading.CancellationToken)">
+  CreateSIPParticipantAsync(CreateSIPParticipantRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a SIP participant to make an outbound call.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPParticipantInfo&gt; CreateSIPParticipantAsync(CreateSIPParticipantRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.CreateSIPParticipantRequest.html">CreateSIPParticipantRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPParticipantInfo.html">SIPParticipantInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_DeleteSIPDispatchRuleAsync_" data-uid="LiveKit.Services.LiveKitSipService.DeleteSIPDispatchRuleAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_DeleteSIPDispatchRuleAsync_LiveKit_Proto_DeleteSIPDispatchRuleRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.DeleteSIPDispatchRuleAsync(LiveKit.Proto.DeleteSIPDispatchRuleRequest,System.Threading.CancellationToken)">
+  DeleteSIPDispatchRuleAsync(DeleteSIPDispatchRuleRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes a SIP dispatch rule by ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPDispatchRuleInfo&gt; DeleteSIPDispatchRuleAsync(DeleteSIPDispatchRuleRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.DeleteSIPDispatchRuleRequest.html">DeleteSIPDispatchRuleRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPDispatchRuleInfo.html">SIPDispatchRuleInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_DeleteSIPTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.DeleteSIPTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_DeleteSIPTrunkAsync_LiveKit_Proto_DeleteSIPTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.DeleteSIPTrunkAsync(LiveKit.Proto.DeleteSIPTrunkRequest,System.Threading.CancellationToken)">
+  DeleteSIPTrunkAsync(DeleteSIPTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes a SIP trunk by ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPTrunkInfo&gt; DeleteSIPTrunkAsync(DeleteSIPTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.DeleteSIPTrunkRequest.html">DeleteSIPTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPTrunkInfo.html">SIPTrunkInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_GetSIPInboundTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.GetSIPInboundTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_GetSIPInboundTrunkAsync_LiveKit_Proto_GetSIPInboundTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.GetSIPInboundTrunkAsync(LiveKit.Proto.GetSIPInboundTrunkRequest,System.Threading.CancellationToken)">
+  GetSIPInboundTrunkAsync(GetSIPInboundTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a SIP inbound trunk by ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetSIPInboundTrunkResponse&gt; GetSIPInboundTrunkAsync(GetSIPInboundTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.GetSIPInboundTrunkRequest.html">GetSIPInboundTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.GetSIPInboundTrunkResponse.html">GetSIPInboundTrunkResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_GetSIPOutboundTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.GetSIPOutboundTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_GetSIPOutboundTrunkAsync_LiveKit_Proto_GetSIPOutboundTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.GetSIPOutboundTrunkAsync(LiveKit.Proto.GetSIPOutboundTrunkRequest,System.Threading.CancellationToken)">
+  GetSIPOutboundTrunkAsync(GetSIPOutboundTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a SIP outbound trunk by ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GetSIPOutboundTrunkResponse&gt; GetSIPOutboundTrunkAsync(GetSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.GetSIPOutboundTrunkRequest.html">GetSIPOutboundTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.GetSIPOutboundTrunkResponse.html">GetSIPOutboundTrunkResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_ListSIPDispatchRuleAsync_" data-uid="LiveKit.Services.LiveKitSipService.ListSIPDispatchRuleAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_ListSIPDispatchRuleAsync_LiveKit_Proto_ListSIPDispatchRuleRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.ListSIPDispatchRuleAsync(LiveKit.Proto.ListSIPDispatchRuleRequest,System.Threading.CancellationToken)">
+  ListSIPDispatchRuleAsync(ListSIPDispatchRuleRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lists SIP dispatch rules.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ListSIPDispatchRuleResponse&gt; ListSIPDispatchRuleAsync(ListSIPDispatchRuleRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.ListSIPDispatchRuleRequest.html">ListSIPDispatchRuleRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ListSIPDispatchRuleResponse.html">ListSIPDispatchRuleResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_ListSIPInboundTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.ListSIPInboundTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_ListSIPInboundTrunkAsync_LiveKit_Proto_ListSIPInboundTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.ListSIPInboundTrunkAsync(LiveKit.Proto.ListSIPInboundTrunkRequest,System.Threading.CancellationToken)">
+  ListSIPInboundTrunkAsync(ListSIPInboundTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lists SIP inbound trunks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ListSIPInboundTrunkResponse&gt; ListSIPInboundTrunkAsync(ListSIPInboundTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.ListSIPInboundTrunkRequest.html">ListSIPInboundTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ListSIPInboundTrunkResponse.html">ListSIPInboundTrunkResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_ListSIPOutboundTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.ListSIPOutboundTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_ListSIPOutboundTrunkAsync_LiveKit_Proto_ListSIPOutboundTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.ListSIPOutboundTrunkAsync(LiveKit.Proto.ListSIPOutboundTrunkRequest,System.Threading.CancellationToken)">
+  ListSIPOutboundTrunkAsync(ListSIPOutboundTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lists SIP outbound trunks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ListSIPOutboundTrunkResponse&gt; ListSIPOutboundTrunkAsync(ListSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.ListSIPOutboundTrunkRequest.html">ListSIPOutboundTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ListSIPOutboundTrunkResponse.html">ListSIPOutboundTrunkResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_ListSIPTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.ListSIPTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_ListSIPTrunkAsync_LiveKit_Proto_ListSIPTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.ListSIPTrunkAsync(LiveKit.Proto.ListSIPTrunkRequest,System.Threading.CancellationToken)">
+  ListSIPTrunkAsync(ListSIPTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lists SIP trunks (deprecated, use ListSIPInboundTrunk or ListSIPOutboundTrunk).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use ListSIPInboundTrunk or ListSIPOutboundTrunk instead&quot;)]
+public Task&lt;ListSIPTrunkResponse&gt; ListSIPTrunkAsync(ListSIPTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.ListSIPTrunkRequest.html">ListSIPTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ListSIPTrunkResponse.html">ListSIPTrunkResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_TransferSIPParticipantAsync_" data-uid="LiveKit.Services.LiveKitSipService.TransferSIPParticipantAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_TransferSIPParticipantAsync_LiveKit_Proto_TransferSIPParticipantRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.TransferSIPParticipantAsync(LiveKit.Proto.TransferSIPParticipantRequest,System.Threading.CancellationToken)">
+  TransferSIPParticipantAsync(TransferSIPParticipantRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Transfers an active SIP participant to another number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task TransferSIPParticipantAsync(TransferSIPParticipantRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.TransferSIPParticipantRequest.html">TransferSIPParticipantRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_UpdateSIPDispatchRuleAsync_" data-uid="LiveKit.Services.LiveKitSipService.UpdateSIPDispatchRuleAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_UpdateSIPDispatchRuleAsync_LiveKit_Proto_UpdateSIPDispatchRuleRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.UpdateSIPDispatchRuleAsync(LiveKit.Proto.UpdateSIPDispatchRuleRequest,System.Threading.CancellationToken)">
+  UpdateSIPDispatchRuleAsync(UpdateSIPDispatchRuleRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates an existing SIP dispatch rule.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPDispatchRuleInfo&gt; UpdateSIPDispatchRuleAsync(UpdateSIPDispatchRuleRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.UpdateSIPDispatchRuleRequest.html">UpdateSIPDispatchRuleRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPDispatchRuleInfo.html">SIPDispatchRuleInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_UpdateSIPInboundTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.UpdateSIPInboundTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_UpdateSIPInboundTrunkAsync_LiveKit_Proto_UpdateSIPInboundTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.UpdateSIPInboundTrunkAsync(LiveKit.Proto.UpdateSIPInboundTrunkRequest,System.Threading.CancellationToken)">
+  UpdateSIPInboundTrunkAsync(UpdateSIPInboundTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates an existing SIP inbound trunk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPInboundTrunkInfo&gt; UpdateSIPInboundTrunkAsync(UpdateSIPInboundTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.UpdateSIPInboundTrunkRequest.html">UpdateSIPInboundTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPInboundTrunkInfo.html">SIPInboundTrunkInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitSipService_UpdateSIPOutboundTrunkAsync_" data-uid="LiveKit.Services.LiveKitSipService.UpdateSIPOutboundTrunkAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitSipService_UpdateSIPOutboundTrunkAsync_LiveKit_Proto_UpdateSIPOutboundTrunkRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitSipService.UpdateSIPOutboundTrunkAsync(LiveKit.Proto.UpdateSIPOutboundTrunkRequest,System.Threading.CancellationToken)">
+  UpdateSIPOutboundTrunkAsync(UpdateSIPOutboundTrunkRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates an existing SIP outbound trunk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SIPOutboundTrunkInfo&gt; UpdateSIPOutboundTrunkAsync(UpdateSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.UpdateSIPOutboundTrunkRequest.html">UpdateSIPOutboundTrunkRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SIPOutboundTrunkInfo.html">SIPOutboundTrunkInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitSipService.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

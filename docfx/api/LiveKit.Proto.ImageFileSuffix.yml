@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.ImageFileSuffix
+  commentId: T:LiveKit.Proto.ImageFileSuffix
+  id: ImageFileSuffix
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.ImageFileSuffix.ImageSuffixIndex
+  - LiveKit.Proto.ImageFileSuffix.ImageSuffixNoneOverwrite
+  - LiveKit.Proto.ImageFileSuffix.ImageSuffixTimestamp
+  langs:
+  - csharp
+  - vb
+  name: ImageFileSuffix
+  nameWithType: ImageFileSuffix
+  fullName: LiveKit.Proto.ImageFileSuffix
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ImageFileSuffix
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 285
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum ImageFileSuffix
+    content.vb: Public Enum ImageFileSuffix
+- uid: LiveKit.Proto.ImageFileSuffix.ImageSuffixIndex
+  commentId: F:LiveKit.Proto.ImageFileSuffix.ImageSuffixIndex
+  id: ImageSuffixIndex
+  parent: LiveKit.Proto.ImageFileSuffix
+  langs:
+  - csharp
+  - vb
+  name: ImageSuffixIndex
+  nameWithType: ImageFileSuffix.ImageSuffixIndex
+  fullName: LiveKit.Proto.ImageFileSuffix.ImageSuffixIndex
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ImageSuffixIndex
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 286
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("IMAGE_SUFFIX_INDEX")]
+
+      ImageSuffixIndex = 0
+    return:
+      type: LiveKit.Proto.ImageFileSuffix
+    content.vb: >-
+      <OriginalName("IMAGE_SUFFIX_INDEX")>
+
+      ImageSuffixIndex = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: IMAGE_SUFFIX_INDEX
+- uid: LiveKit.Proto.ImageFileSuffix.ImageSuffixTimestamp
+  commentId: F:LiveKit.Proto.ImageFileSuffix.ImageSuffixTimestamp
+  id: ImageSuffixTimestamp
+  parent: LiveKit.Proto.ImageFileSuffix
+  langs:
+  - csharp
+  - vb
+  name: ImageSuffixTimestamp
+  nameWithType: ImageFileSuffix.ImageSuffixTimestamp
+  fullName: LiveKit.Proto.ImageFileSuffix.ImageSuffixTimestamp
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ImageSuffixTimestamp
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 287
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("IMAGE_SUFFIX_TIMESTAMP")]
+
+      ImageSuffixTimestamp = 1
+    return:
+      type: LiveKit.Proto.ImageFileSuffix
+    content.vb: >-
+      <OriginalName("IMAGE_SUFFIX_TIMESTAMP")>
+
+      ImageSuffixTimestamp = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: IMAGE_SUFFIX_TIMESTAMP
+- uid: LiveKit.Proto.ImageFileSuffix.ImageSuffixNoneOverwrite
+  commentId: F:LiveKit.Proto.ImageFileSuffix.ImageSuffixNoneOverwrite
+  id: ImageSuffixNoneOverwrite
+  parent: LiveKit.Proto.ImageFileSuffix
+  langs:
+  - csharp
+  - vb
+  name: ImageSuffixNoneOverwrite
+  nameWithType: ImageFileSuffix.ImageSuffixNoneOverwrite
+  fullName: LiveKit.Proto.ImageFileSuffix.ImageSuffixNoneOverwrite
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ImageSuffixNoneOverwrite
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 291
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Do not append any suffix and overwrite the existing image with the latest
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("IMAGE_SUFFIX_NONE_OVERWRITE")]
+
+      ImageSuffixNoneOverwrite = 2
+    return:
+      type: LiveKit.Proto.ImageFileSuffix
+    content.vb: >-
+      <OriginalName("IMAGE_SUFFIX_NONE_OVERWRITE")>
+
+      ImageSuffixNoneOverwrite = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: IMAGE_SUFFIX_NONE_OVERWRITE
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.ImageFileSuffix
+  commentId: T:LiveKit.Proto.ImageFileSuffix
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ImageFileSuffix.html
+  name: ImageFileSuffix
+  nameWithType: ImageFileSuffix
+  fullName: LiveKit.Proto.ImageFileSuffix

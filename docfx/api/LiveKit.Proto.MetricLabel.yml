@@ -1,0 +1,940 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.MetricLabel
+  commentId: T:LiveKit.Proto.MetricLabel
+  id: MetricLabel
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.MetricLabel.AgentsLlmTtft
+  - LiveKit.Proto.MetricLabel.AgentsSttTtft
+  - LiveKit.Proto.MetricLabel.AgentsTtsTtfb
+  - LiveKit.Proto.MetricLabel.ClientAudioSubscriberConcealedSamples
+  - LiveKit.Proto.MetricLabel.ClientAudioSubscriberConcealmentEvents
+  - LiveKit.Proto.MetricLabel.ClientAudioSubscriberInterruptionCount
+  - LiveKit.Proto.MetricLabel.ClientAudioSubscriberSilentConcealedSamples
+  - LiveKit.Proto.MetricLabel.ClientAudioSubscriberTotalInterruptionDuration
+  - LiveKit.Proto.MetricLabel.ClientSubscriberJitterBufferDelay
+  - LiveKit.Proto.MetricLabel.ClientSubscriberJitterBufferEmittedCount
+  - LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationBandwidth
+  - LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationCpu
+  - LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationOther
+  - LiveKit.Proto.MetricLabel.ClientVideoSubscriberFreezeCount
+  - LiveKit.Proto.MetricLabel.ClientVideoSubscriberPauseCount
+  - LiveKit.Proto.MetricLabel.ClientVideoSubscriberTotalFreezeDuration
+  - LiveKit.Proto.MetricLabel.ClientVideoSubscriberTotalPausesDuration
+  - LiveKit.Proto.MetricLabel.PredefinedMaxValue
+  - LiveKit.Proto.MetricLabel.PublisherRtt
+  - LiveKit.Proto.MetricLabel.ServerMeshRtt
+  - LiveKit.Proto.MetricLabel.SubscriberRtt
+  langs:
+  - csharp
+  - vb
+  name: MetricLabel
+  nameWithType: MetricLabel
+  fullName: LiveKit.Proto.MetricLabel
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MetricLabel
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 87
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: 'index from [0: MAX_LABEL_PREDEFINED_MAX_VALUE) are for predefined labels (`MetricLabel`)'
+  example: []
+  syntax:
+    content: public enum MetricLabel
+    content.vb: Public Enum MetricLabel
+- uid: LiveKit.Proto.MetricLabel.AgentsLlmTtft
+  commentId: F:LiveKit.Proto.MetricLabel.AgentsLlmTtft
+  id: AgentsLlmTtft
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: AgentsLlmTtft
+  nameWithType: MetricLabel.AgentsLlmTtft
+  fullName: LiveKit.Proto.MetricLabel.AgentsLlmTtft
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentsLlmTtft
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 91
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: time to first token from LLM
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("AGENTS_LLM_TTFT")]
+
+      AgentsLlmTtft = 0
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("AGENTS_LLM_TTFT")>
+
+      AgentsLlmTtft = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AGENTS_LLM_TTFT
+- uid: LiveKit.Proto.MetricLabel.AgentsSttTtft
+  commentId: F:LiveKit.Proto.MetricLabel.AgentsSttTtft
+  id: AgentsSttTtft
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: AgentsSttTtft
+  nameWithType: MetricLabel.AgentsSttTtft
+  fullName: LiveKit.Proto.MetricLabel.AgentsSttTtft
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentsSttTtft
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 95
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: time to final transcription
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("AGENTS_STT_TTFT")]
+
+      AgentsSttTtft = 1
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("AGENTS_STT_TTFT")>
+
+      AgentsSttTtft = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AGENTS_STT_TTFT
+- uid: LiveKit.Proto.MetricLabel.AgentsTtsTtfb
+  commentId: F:LiveKit.Proto.MetricLabel.AgentsTtsTtfb
+  id: AgentsTtsTtfb
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: AgentsTtsTtfb
+  nameWithType: MetricLabel.AgentsTtsTtfb
+  fullName: LiveKit.Proto.MetricLabel.AgentsTtsTtfb
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentsTtsTtfb
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 99
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: time to first byte
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("AGENTS_TTS_TTFB")]
+
+      AgentsTtsTtfb = 2
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("AGENTS_TTS_TTFB")>
+
+      AgentsTtsTtfb = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AGENTS_TTS_TTFB
+- uid: LiveKit.Proto.MetricLabel.ClientVideoSubscriberFreezeCount
+  commentId: F:LiveKit.Proto.MetricLabel.ClientVideoSubscriberFreezeCount
+  id: ClientVideoSubscriberFreezeCount
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientVideoSubscriberFreezeCount
+  nameWithType: MetricLabel.ClientVideoSubscriberFreezeCount
+  fullName: LiveKit.Proto.MetricLabel.ClientVideoSubscriberFreezeCount
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientVideoSubscriberFreezeCount
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 103
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Number of video freezes
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_VIDEO_SUBSCRIBER_FREEZE_COUNT")]
+
+      ClientVideoSubscriberFreezeCount = 3
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_VIDEO_SUBSCRIBER_FREEZE_COUNT")>
+
+      ClientVideoSubscriberFreezeCount = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_VIDEO_SUBSCRIBER_FREEZE_COUNT
+- uid: LiveKit.Proto.MetricLabel.ClientVideoSubscriberTotalFreezeDuration
+  commentId: F:LiveKit.Proto.MetricLabel.ClientVideoSubscriberTotalFreezeDuration
+  id: ClientVideoSubscriberTotalFreezeDuration
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientVideoSubscriberTotalFreezeDuration
+  nameWithType: MetricLabel.ClientVideoSubscriberTotalFreezeDuration
+  fullName: LiveKit.Proto.MetricLabel.ClientVideoSubscriberTotalFreezeDuration
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientVideoSubscriberTotalFreezeDuration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 107
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: total duration of freezes
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_VIDEO_SUBSCRIBER_TOTAL_FREEZE_DURATION")]
+
+      ClientVideoSubscriberTotalFreezeDuration = 4
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_VIDEO_SUBSCRIBER_TOTAL_FREEZE_DURATION")>
+
+      ClientVideoSubscriberTotalFreezeDuration = 4
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_VIDEO_SUBSCRIBER_TOTAL_FREEZE_DURATION
+- uid: LiveKit.Proto.MetricLabel.ClientVideoSubscriberPauseCount
+  commentId: F:LiveKit.Proto.MetricLabel.ClientVideoSubscriberPauseCount
+  id: ClientVideoSubscriberPauseCount
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientVideoSubscriberPauseCount
+  nameWithType: MetricLabel.ClientVideoSubscriberPauseCount
+  fullName: LiveKit.Proto.MetricLabel.ClientVideoSubscriberPauseCount
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientVideoSubscriberPauseCount
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 111
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: number of video pauses
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_VIDEO_SUBSCRIBER_PAUSE_COUNT")]
+
+      ClientVideoSubscriberPauseCount = 5
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_VIDEO_SUBSCRIBER_PAUSE_COUNT")>
+
+      ClientVideoSubscriberPauseCount = 5
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_VIDEO_SUBSCRIBER_PAUSE_COUNT
+- uid: LiveKit.Proto.MetricLabel.ClientVideoSubscriberTotalPausesDuration
+  commentId: F:LiveKit.Proto.MetricLabel.ClientVideoSubscriberTotalPausesDuration
+  id: ClientVideoSubscriberTotalPausesDuration
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientVideoSubscriberTotalPausesDuration
+  nameWithType: MetricLabel.ClientVideoSubscriberTotalPausesDuration
+  fullName: LiveKit.Proto.MetricLabel.ClientVideoSubscriberTotalPausesDuration
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientVideoSubscriberTotalPausesDuration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 115
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: total duration of pauses
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_VIDEO_SUBSCRIBER_TOTAL_PAUSES_DURATION")]
+
+      ClientVideoSubscriberTotalPausesDuration = 6
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_VIDEO_SUBSCRIBER_TOTAL_PAUSES_DURATION")>
+
+      ClientVideoSubscriberTotalPausesDuration = 6
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_VIDEO_SUBSCRIBER_TOTAL_PAUSES_DURATION
+- uid: LiveKit.Proto.MetricLabel.ClientAudioSubscriberConcealedSamples
+  commentId: F:LiveKit.Proto.MetricLabel.ClientAudioSubscriberConcealedSamples
+  id: ClientAudioSubscriberConcealedSamples
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientAudioSubscriberConcealedSamples
+  nameWithType: MetricLabel.ClientAudioSubscriberConcealedSamples
+  fullName: LiveKit.Proto.MetricLabel.ClientAudioSubscriberConcealedSamples
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientAudioSubscriberConcealedSamples
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 119
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: number of concealed (synthesized) audio samples
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_AUDIO_SUBSCRIBER_CONCEALED_SAMPLES")]
+
+      ClientAudioSubscriberConcealedSamples = 7
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_AUDIO_SUBSCRIBER_CONCEALED_SAMPLES")>
+
+      ClientAudioSubscriberConcealedSamples = 7
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_AUDIO_SUBSCRIBER_CONCEALED_SAMPLES
+- uid: LiveKit.Proto.MetricLabel.ClientAudioSubscriberSilentConcealedSamples
+  commentId: F:LiveKit.Proto.MetricLabel.ClientAudioSubscriberSilentConcealedSamples
+  id: ClientAudioSubscriberSilentConcealedSamples
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientAudioSubscriberSilentConcealedSamples
+  nameWithType: MetricLabel.ClientAudioSubscriberSilentConcealedSamples
+  fullName: LiveKit.Proto.MetricLabel.ClientAudioSubscriberSilentConcealedSamples
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientAudioSubscriberSilentConcealedSamples
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 123
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: number of silent concealed samples
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_AUDIO_SUBSCRIBER_SILENT_CONCEALED_SAMPLES")]
+
+      ClientAudioSubscriberSilentConcealedSamples = 8
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_AUDIO_SUBSCRIBER_SILENT_CONCEALED_SAMPLES")>
+
+      ClientAudioSubscriberSilentConcealedSamples = 8
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_AUDIO_SUBSCRIBER_SILENT_CONCEALED_SAMPLES
+- uid: LiveKit.Proto.MetricLabel.ClientAudioSubscriberConcealmentEvents
+  commentId: F:LiveKit.Proto.MetricLabel.ClientAudioSubscriberConcealmentEvents
+  id: ClientAudioSubscriberConcealmentEvents
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientAudioSubscriberConcealmentEvents
+  nameWithType: MetricLabel.ClientAudioSubscriberConcealmentEvents
+  fullName: LiveKit.Proto.MetricLabel.ClientAudioSubscriberConcealmentEvents
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientAudioSubscriberConcealmentEvents
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 127
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: number of concealment events
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_AUDIO_SUBSCRIBER_CONCEALMENT_EVENTS")]
+
+      ClientAudioSubscriberConcealmentEvents = 9
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_AUDIO_SUBSCRIBER_CONCEALMENT_EVENTS")>
+
+      ClientAudioSubscriberConcealmentEvents = 9
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_AUDIO_SUBSCRIBER_CONCEALMENT_EVENTS
+- uid: LiveKit.Proto.MetricLabel.ClientAudioSubscriberInterruptionCount
+  commentId: F:LiveKit.Proto.MetricLabel.ClientAudioSubscriberInterruptionCount
+  id: ClientAudioSubscriberInterruptionCount
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientAudioSubscriberInterruptionCount
+  nameWithType: MetricLabel.ClientAudioSubscriberInterruptionCount
+  fullName: LiveKit.Proto.MetricLabel.ClientAudioSubscriberInterruptionCount
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientAudioSubscriberInterruptionCount
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 131
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: number of interruptions
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_AUDIO_SUBSCRIBER_INTERRUPTION_COUNT")]
+
+      ClientAudioSubscriberInterruptionCount = 10
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_AUDIO_SUBSCRIBER_INTERRUPTION_COUNT")>
+
+      ClientAudioSubscriberInterruptionCount = 10
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_AUDIO_SUBSCRIBER_INTERRUPTION_COUNT
+- uid: LiveKit.Proto.MetricLabel.ClientAudioSubscriberTotalInterruptionDuration
+  commentId: F:LiveKit.Proto.MetricLabel.ClientAudioSubscriberTotalInterruptionDuration
+  id: ClientAudioSubscriberTotalInterruptionDuration
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientAudioSubscriberTotalInterruptionDuration
+  nameWithType: MetricLabel.ClientAudioSubscriberTotalInterruptionDuration
+  fullName: LiveKit.Proto.MetricLabel.ClientAudioSubscriberTotalInterruptionDuration
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientAudioSubscriberTotalInterruptionDuration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 135
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: total duration of interruptions
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_AUDIO_SUBSCRIBER_TOTAL_INTERRUPTION_DURATION")]
+
+      ClientAudioSubscriberTotalInterruptionDuration = 11
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_AUDIO_SUBSCRIBER_TOTAL_INTERRUPTION_DURATION")>
+
+      ClientAudioSubscriberTotalInterruptionDuration = 11
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_AUDIO_SUBSCRIBER_TOTAL_INTERRUPTION_DURATION
+- uid: LiveKit.Proto.MetricLabel.ClientSubscriberJitterBufferDelay
+  commentId: F:LiveKit.Proto.MetricLabel.ClientSubscriberJitterBufferDelay
+  id: ClientSubscriberJitterBufferDelay
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientSubscriberJitterBufferDelay
+  nameWithType: MetricLabel.ClientSubscriberJitterBufferDelay
+  fullName: LiveKit.Proto.MetricLabel.ClientSubscriberJitterBufferDelay
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientSubscriberJitterBufferDelay
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 139
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: total time spent in jitter buffer
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_SUBSCRIBER_JITTER_BUFFER_DELAY")]
+
+      ClientSubscriberJitterBufferDelay = 12
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_SUBSCRIBER_JITTER_BUFFER_DELAY")>
+
+      ClientSubscriberJitterBufferDelay = 12
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_SUBSCRIBER_JITTER_BUFFER_DELAY
+- uid: LiveKit.Proto.MetricLabel.ClientSubscriberJitterBufferEmittedCount
+  commentId: F:LiveKit.Proto.MetricLabel.ClientSubscriberJitterBufferEmittedCount
+  id: ClientSubscriberJitterBufferEmittedCount
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientSubscriberJitterBufferEmittedCount
+  nameWithType: MetricLabel.ClientSubscriberJitterBufferEmittedCount
+  fullName: LiveKit.Proto.MetricLabel.ClientSubscriberJitterBufferEmittedCount
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientSubscriberJitterBufferEmittedCount
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 143
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: total time spent in jitter buffer
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_SUBSCRIBER_JITTER_BUFFER_EMITTED_COUNT")]
+
+      ClientSubscriberJitterBufferEmittedCount = 13
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_SUBSCRIBER_JITTER_BUFFER_EMITTED_COUNT")>
+
+      ClientSubscriberJitterBufferEmittedCount = 13
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_SUBSCRIBER_JITTER_BUFFER_EMITTED_COUNT
+- uid: LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationBandwidth
+  commentId: F:LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationBandwidth
+  id: ClientVideoPublisherQualityLimitationDurationBandwidth
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientVideoPublisherQualityLimitationDurationBandwidth
+  nameWithType: MetricLabel.ClientVideoPublisherQualityLimitationDurationBandwidth
+  fullName: LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationBandwidth
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientVideoPublisherQualityLimitationDurationBandwidth
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 147
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: total duration spent in bandwidth quality limitation
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_BANDWIDTH")]
+
+      ClientVideoPublisherQualityLimitationDurationBandwidth = 14
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_BANDWIDTH")>
+
+      ClientVideoPublisherQualityLimitationDurationBandwidth = 14
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_BANDWIDTH
+- uid: LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationCpu
+  commentId: F:LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationCpu
+  id: ClientVideoPublisherQualityLimitationDurationCpu
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientVideoPublisherQualityLimitationDurationCpu
+  nameWithType: MetricLabel.ClientVideoPublisherQualityLimitationDurationCpu
+  fullName: LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationCpu
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientVideoPublisherQualityLimitationDurationCpu
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 151
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: total duration spent in cpu quality limitation
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_CPU")]
+
+      ClientVideoPublisherQualityLimitationDurationCpu = 15
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_CPU")>
+
+      ClientVideoPublisherQualityLimitationDurationCpu = 15
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_CPU
+- uid: LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationOther
+  commentId: F:LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationOther
+  id: ClientVideoPublisherQualityLimitationDurationOther
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ClientVideoPublisherQualityLimitationDurationOther
+  nameWithType: MetricLabel.ClientVideoPublisherQualityLimitationDurationOther
+  fullName: LiveKit.Proto.MetricLabel.ClientVideoPublisherQualityLimitationDurationOther
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientVideoPublisherQualityLimitationDurationOther
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 155
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: total duration spent in other quality limitation
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_OTHER")]
+
+      ClientVideoPublisherQualityLimitationDurationOther = 16
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_OTHER")>
+
+      ClientVideoPublisherQualityLimitationDurationOther = 16
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_VIDEO_PUBLISHER_QUALITY_LIMITATION_DURATION_OTHER
+- uid: LiveKit.Proto.MetricLabel.PublisherRtt
+  commentId: F:LiveKit.Proto.MetricLabel.PublisherRtt
+  id: PublisherRtt
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: PublisherRtt
+  nameWithType: MetricLabel.PublisherRtt
+  fullName: LiveKit.Proto.MetricLabel.PublisherRtt
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PublisherRtt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 159
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Publisher RTT (participant -&gt; server)
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PUBLISHER_RTT")]
+
+      PublisherRtt = 17
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("PUBLISHER_RTT")>
+
+      PublisherRtt = 17
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PUBLISHER_RTT
+- uid: LiveKit.Proto.MetricLabel.ServerMeshRtt
+  commentId: F:LiveKit.Proto.MetricLabel.ServerMeshRtt
+  id: ServerMeshRtt
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: ServerMeshRtt
+  nameWithType: MetricLabel.ServerMeshRtt
+  fullName: LiveKit.Proto.MetricLabel.ServerMeshRtt
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerMeshRtt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 163
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: RTT between publisher node and subscriber node (could involve intermedia node(s))
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SERVER_MESH_RTT")]
+
+      ServerMeshRtt = 18
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("SERVER_MESH_RTT")>
+
+      ServerMeshRtt = 18
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SERVER_MESH_RTT
+- uid: LiveKit.Proto.MetricLabel.SubscriberRtt
+  commentId: F:LiveKit.Proto.MetricLabel.SubscriberRtt
+  id: SubscriberRtt
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: SubscriberRtt
+  nameWithType: MetricLabel.SubscriberRtt
+  fullName: LiveKit.Proto.MetricLabel.SubscriberRtt
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriberRtt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 167
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Subscribe RTT (server -&gt; participant)
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SUBSCRIBER_RTT")]
+
+      SubscriberRtt = 19
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("SUBSCRIBER_RTT")>
+
+      SubscriberRtt = 19
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SUBSCRIBER_RTT
+- uid: LiveKit.Proto.MetricLabel.PredefinedMaxValue
+  commentId: F:LiveKit.Proto.MetricLabel.PredefinedMaxValue
+  id: PredefinedMaxValue
+  parent: LiveKit.Proto.MetricLabel
+  langs:
+  - csharp
+  - vb
+  name: PredefinedMaxValue
+  nameWithType: MetricLabel.PredefinedMaxValue
+  fullName: LiveKit.Proto.MetricLabel.PredefinedMaxValue
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PredefinedMaxValue
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitMetrics.cs
+    startLine: 168
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("METRIC_LABEL_PREDEFINED_MAX_VALUE")]
+
+      PredefinedMaxValue = 4096
+    return:
+      type: LiveKit.Proto.MetricLabel
+    content.vb: >-
+      <OriginalName("METRIC_LABEL_PREDEFINED_MAX_VALUE")>
+
+      PredefinedMaxValue = 4096
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: METRIC_LABEL_PREDEFINED_MAX_VALUE
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.MetricLabel
+  commentId: T:LiveKit.Proto.MetricLabel
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.MetricLabel.html
+  name: MetricLabel
+  nameWithType: MetricLabel
+  fullName: LiveKit.Proto.MetricLabel

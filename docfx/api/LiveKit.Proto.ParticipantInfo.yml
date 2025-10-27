@@ -1,0 +1,2715 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.ParticipantInfo
+  commentId: T:LiveKit.Proto.ParticipantInfo
+  id: ParticipantInfo
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.ParticipantInfo.#ctor
+  - LiveKit.Proto.ParticipantInfo.#ctor(LiveKit.Proto.ParticipantInfo)
+  - LiveKit.Proto.ParticipantInfo.Attributes
+  - LiveKit.Proto.ParticipantInfo.AttributesFieldNumber
+  - LiveKit.Proto.ParticipantInfo.CalculateSize
+  - LiveKit.Proto.ParticipantInfo.Clone
+  - LiveKit.Proto.ParticipantInfo.Descriptor
+  - LiveKit.Proto.ParticipantInfo.DisconnectReason
+  - LiveKit.Proto.ParticipantInfo.DisconnectReasonFieldNumber
+  - LiveKit.Proto.ParticipantInfo.Equals(LiveKit.Proto.ParticipantInfo)
+  - LiveKit.Proto.ParticipantInfo.Equals(System.Object)
+  - LiveKit.Proto.ParticipantInfo.GetHashCode
+  - LiveKit.Proto.ParticipantInfo.Identity
+  - LiveKit.Proto.ParticipantInfo.IdentityFieldNumber
+  - LiveKit.Proto.ParticipantInfo.IsPublisher
+  - LiveKit.Proto.ParticipantInfo.IsPublisherFieldNumber
+  - LiveKit.Proto.ParticipantInfo.JoinedAt
+  - LiveKit.Proto.ParticipantInfo.JoinedAtFieldNumber
+  - LiveKit.Proto.ParticipantInfo.JoinedAtMs
+  - LiveKit.Proto.ParticipantInfo.JoinedAtMsFieldNumber
+  - LiveKit.Proto.ParticipantInfo.Kind
+  - LiveKit.Proto.ParticipantInfo.KindDetails
+  - LiveKit.Proto.ParticipantInfo.KindDetailsFieldNumber
+  - LiveKit.Proto.ParticipantInfo.KindFieldNumber
+  - LiveKit.Proto.ParticipantInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.ParticipantInfo.MergeFrom(LiveKit.Proto.ParticipantInfo)
+  - LiveKit.Proto.ParticipantInfo.Metadata
+  - LiveKit.Proto.ParticipantInfo.MetadataFieldNumber
+  - LiveKit.Proto.ParticipantInfo.Name
+  - LiveKit.Proto.ParticipantInfo.NameFieldNumber
+  - LiveKit.Proto.ParticipantInfo.Parser
+  - LiveKit.Proto.ParticipantInfo.Permission
+  - LiveKit.Proto.ParticipantInfo.PermissionFieldNumber
+  - LiveKit.Proto.ParticipantInfo.Region
+  - LiveKit.Proto.ParticipantInfo.RegionFieldNumber
+  - LiveKit.Proto.ParticipantInfo.Sid
+  - LiveKit.Proto.ParticipantInfo.SidFieldNumber
+  - LiveKit.Proto.ParticipantInfo.State
+  - LiveKit.Proto.ParticipantInfo.StateFieldNumber
+  - LiveKit.Proto.ParticipantInfo.ToString
+  - LiveKit.Proto.ParticipantInfo.Tracks
+  - LiveKit.Proto.ParticipantInfo.TracksFieldNumber
+  - LiveKit.Proto.ParticipantInfo.Version
+  - LiveKit.Proto.ParticipantInfo.VersionFieldNumber
+  - LiveKit.Proto.ParticipantInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: LiveKit.Proto.ParticipantInfo
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2936
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class ParticipantInfo : IMessage<ParticipantInfo>, IEquatable<ParticipantInfo>, IDeepCloneable<ParticipantInfo>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class ParticipantInfo Implements IMessage(Of ParticipantInfo), IEquatable(Of ParticipantInfo), IDeepCloneable(Of ParticipantInfo), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}
+  - System.IEquatable{LiveKit.Proto.ParticipantInfo}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.ParticipantInfo.Parser
+  commentId: P:LiveKit.Proto.ParticipantInfo.Parser
+  id: Parser
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ParticipantInfo.Parser
+  fullName: LiveKit.Proto.ParticipantInfo.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2944
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<ParticipantInfo> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.ParticipantInfo}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of ParticipantInfo)
+  overload: LiveKit.Proto.ParticipantInfo.Parser*
+- uid: LiveKit.Proto.ParticipantInfo.Descriptor
+  commentId: P:LiveKit.Proto.ParticipantInfo.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ParticipantInfo.Descriptor
+  fullName: LiveKit.Proto.ParticipantInfo.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2948
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.ParticipantInfo.Descriptor*
+- uid: LiveKit.Proto.ParticipantInfo.#ctor
+  commentId: M:LiveKit.Proto.ParticipantInfo.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo()
+  nameWithType: ParticipantInfo.ParticipantInfo()
+  fullName: LiveKit.Proto.ParticipantInfo.ParticipantInfo()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2960
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantInfo()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.ParticipantInfo.#ctor*
+  nameWithType.vb: ParticipantInfo.New()
+  fullName.vb: LiveKit.Proto.ParticipantInfo.New()
+  name.vb: New()
+- uid: LiveKit.Proto.ParticipantInfo.#ctor(LiveKit.Proto.ParticipantInfo)
+  commentId: M:LiveKit.Proto.ParticipantInfo.#ctor(LiveKit.Proto.ParticipantInfo)
+  id: '#ctor(LiveKit.Proto.ParticipantInfo)'
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantInfo(ParticipantInfo)
+  nameWithType: ParticipantInfo.ParticipantInfo(ParticipantInfo)
+  fullName: LiveKit.Proto.ParticipantInfo.ParticipantInfo(LiveKit.Proto.ParticipantInfo)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2968
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantInfo(ParticipantInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ParticipantInfo
+    content.vb: Public Sub New(other As ParticipantInfo)
+  overload: LiveKit.Proto.ParticipantInfo.#ctor*
+  nameWithType.vb: ParticipantInfo.New(ParticipantInfo)
+  fullName.vb: LiveKit.Proto.ParticipantInfo.New(LiveKit.Proto.ParticipantInfo)
+  name.vb: New(ParticipantInfo)
+- uid: LiveKit.Proto.ParticipantInfo.Clone
+  commentId: M:LiveKit.Proto.ParticipantInfo.Clone
+  id: Clone
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ParticipantInfo.Clone()
+  fullName: LiveKit.Proto.ParticipantInfo.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2990
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public ParticipantInfo Clone()
+    return:
+      type: LiveKit.Proto.ParticipantInfo
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As ParticipantInfo
+  overload: LiveKit.Proto.ParticipantInfo.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}.Clone
+- uid: LiveKit.Proto.ParticipantInfo.SidFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.SidFieldNumber
+  id: SidFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: SidFieldNumber
+  nameWithType: ParticipantInfo.SidFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.SidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2997
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sid" field.
+  example: []
+  syntax:
+    content: public const int SidFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const SidFieldNumber As Integer = 1
+- uid: LiveKit.Proto.ParticipantInfo.Sid
+  commentId: P:LiveKit.Proto.ParticipantInfo.Sid
+  id: Sid
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Sid
+  nameWithType: ParticipantInfo.Sid
+  fullName: LiveKit.Proto.ParticipantInfo.Sid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Sid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2999
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Sid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Sid As String
+  overload: LiveKit.Proto.ParticipantInfo.Sid*
+- uid: LiveKit.Proto.ParticipantInfo.IdentityFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.IdentityFieldNumber
+  id: IdentityFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: IdentityFieldNumber
+  nameWithType: ParticipantInfo.IdentityFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.IdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3009
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "identity" field.
+  example: []
+  syntax:
+    content: public const int IdentityFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const IdentityFieldNumber As Integer = 2
+- uid: LiveKit.Proto.ParticipantInfo.Identity
+  commentId: P:LiveKit.Proto.ParticipantInfo.Identity
+  id: Identity
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Identity
+  nameWithType: ParticipantInfo.Identity
+  fullName: LiveKit.Proto.ParticipantInfo.Identity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Identity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3011
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Identity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Identity As String
+  overload: LiveKit.Proto.ParticipantInfo.Identity*
+- uid: LiveKit.Proto.ParticipantInfo.StateFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.StateFieldNumber
+  id: StateFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: StateFieldNumber
+  nameWithType: ParticipantInfo.StateFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.StateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3021
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "state" field.
+  example: []
+  syntax:
+    content: public const int StateFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const StateFieldNumber As Integer = 3
+- uid: LiveKit.Proto.ParticipantInfo.State
+  commentId: P:LiveKit.Proto.ParticipantInfo.State
+  id: State
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ParticipantInfo.State
+  fullName: LiveKit.Proto.ParticipantInfo.State
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: State
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3023
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantInfo.Types.State State { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.State
+    content.vb: Public Property State As ParticipantInfo.Types.State
+  overload: LiveKit.Proto.ParticipantInfo.State*
+- uid: LiveKit.Proto.ParticipantInfo.TracksFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.TracksFieldNumber
+  id: TracksFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: TracksFieldNumber
+  nameWithType: ParticipantInfo.TracksFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.TracksFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TracksFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3033
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "tracks" field.
+  example: []
+  syntax:
+    content: public const int TracksFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const TracksFieldNumber As Integer = 4
+- uid: LiveKit.Proto.ParticipantInfo.Tracks
+  commentId: P:LiveKit.Proto.ParticipantInfo.Tracks
+  id: Tracks
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Tracks
+  nameWithType: ParticipantInfo.Tracks
+  fullName: LiveKit.Proto.ParticipantInfo.Tracks
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Tracks
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3037
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<TrackInfo> Tracks { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackInfo}
+    content.vb: Public ReadOnly Property Tracks As RepeatedField(Of TrackInfo)
+  overload: LiveKit.Proto.ParticipantInfo.Tracks*
+- uid: LiveKit.Proto.ParticipantInfo.MetadataFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.MetadataFieldNumber
+  id: MetadataFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: MetadataFieldNumber
+  nameWithType: ParticipantInfo.MetadataFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.MetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3044
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "metadata" field.
+  example: []
+  syntax:
+    content: public const int MetadataFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const MetadataFieldNumber As Integer = 5
+- uid: LiveKit.Proto.ParticipantInfo.Metadata
+  commentId: P:LiveKit.Proto.ParticipantInfo.Metadata
+  id: Metadata
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: ParticipantInfo.Metadata
+  fullName: LiveKit.Proto.ParticipantInfo.Metadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Metadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3046
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Metadata { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Metadata As String
+  overload: LiveKit.Proto.ParticipantInfo.Metadata*
+- uid: LiveKit.Proto.ParticipantInfo.JoinedAtFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.JoinedAtFieldNumber
+  id: JoinedAtFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: JoinedAtFieldNumber
+  nameWithType: ParticipantInfo.JoinedAtFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.JoinedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JoinedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3056
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "joined_at" field.
+  example: []
+  syntax:
+    content: public const int JoinedAtFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const JoinedAtFieldNumber As Integer = 6
+- uid: LiveKit.Proto.ParticipantInfo.JoinedAt
+  commentId: P:LiveKit.Proto.ParticipantInfo.JoinedAt
+  id: JoinedAt
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: JoinedAt
+  nameWithType: ParticipantInfo.JoinedAt
+  fullName: LiveKit.Proto.ParticipantInfo.JoinedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JoinedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3061
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: timestamp when participant joined room, in seconds
+  example: []
+  syntax:
+    content: public long JoinedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property JoinedAt As Long
+  overload: LiveKit.Proto.ParticipantInfo.JoinedAt*
+- uid: LiveKit.Proto.ParticipantInfo.JoinedAtMsFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.JoinedAtMsFieldNumber
+  id: JoinedAtMsFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: JoinedAtMsFieldNumber
+  nameWithType: ParticipantInfo.JoinedAtMsFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.JoinedAtMsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JoinedAtMsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3071
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "joined_at_ms" field.
+  example: []
+  syntax:
+    content: public const int JoinedAtMsFieldNumber = 17
+    return:
+      type: System.Int32
+    content.vb: Public Const JoinedAtMsFieldNumber As Integer = 17
+- uid: LiveKit.Proto.ParticipantInfo.JoinedAtMs
+  commentId: P:LiveKit.Proto.ParticipantInfo.JoinedAtMs
+  id: JoinedAtMs
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: JoinedAtMs
+  nameWithType: ParticipantInfo.JoinedAtMs
+  fullName: LiveKit.Proto.ParticipantInfo.JoinedAtMs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JoinedAtMs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3076
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: timestamp when participant joined room, in milliseconds
+  example: []
+  syntax:
+    content: public long JoinedAtMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property JoinedAtMs As Long
+  overload: LiveKit.Proto.ParticipantInfo.JoinedAtMs*
+- uid: LiveKit.Proto.ParticipantInfo.NameFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.NameFieldNumber
+  id: NameFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: ParticipantInfo.NameFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.NameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3086
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "name" field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 9
+- uid: LiveKit.Proto.ParticipantInfo.Name
+  commentId: P:LiveKit.Proto.ParticipantInfo.Name
+  id: Name
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ParticipantInfo.Name
+  fullName: LiveKit.Proto.ParticipantInfo.Name
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Name
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3088
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: LiveKit.Proto.ParticipantInfo.Name*
+- uid: LiveKit.Proto.ParticipantInfo.VersionFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.VersionFieldNumber
+  id: VersionFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: VersionFieldNumber
+  nameWithType: ParticipantInfo.VersionFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.VersionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VersionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3098
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "version" field.
+  example: []
+  syntax:
+    content: public const int VersionFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const VersionFieldNumber As Integer = 10
+- uid: LiveKit.Proto.ParticipantInfo.Version
+  commentId: P:LiveKit.Proto.ParticipantInfo.Version
+  id: Version
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: ParticipantInfo.Version
+  fullName: LiveKit.Proto.ParticipantInfo.Version
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Version
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3100
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Version { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Version As UInteger
+  overload: LiveKit.Proto.ParticipantInfo.Version*
+- uid: LiveKit.Proto.ParticipantInfo.PermissionFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.PermissionFieldNumber
+  id: PermissionFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: PermissionFieldNumber
+  nameWithType: ParticipantInfo.PermissionFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.PermissionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PermissionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3110
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "permission" field.
+  example: []
+  syntax:
+    content: public const int PermissionFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const PermissionFieldNumber As Integer = 11
+- uid: LiveKit.Proto.ParticipantInfo.Permission
+  commentId: P:LiveKit.Proto.ParticipantInfo.Permission
+  id: Permission
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Permission
+  nameWithType: ParticipantInfo.Permission
+  fullName: LiveKit.Proto.ParticipantInfo.Permission
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Permission
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3112
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantPermission Permission { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ParticipantPermission
+    content.vb: Public Property Permission As ParticipantPermission
+  overload: LiveKit.Proto.ParticipantInfo.Permission*
+- uid: LiveKit.Proto.ParticipantInfo.RegionFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.RegionFieldNumber
+  id: RegionFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: RegionFieldNumber
+  nameWithType: ParticipantInfo.RegionFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.RegionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RegionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3122
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "region" field.
+  example: []
+  syntax:
+    content: public const int RegionFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const RegionFieldNumber As Integer = 12
+- uid: LiveKit.Proto.ParticipantInfo.Region
+  commentId: P:LiveKit.Proto.ParticipantInfo.Region
+  id: Region
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Region
+  nameWithType: ParticipantInfo.Region
+  fullName: LiveKit.Proto.ParticipantInfo.Region
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Region
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3124
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Region { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Region As String
+  overload: LiveKit.Proto.ParticipantInfo.Region*
+- uid: LiveKit.Proto.ParticipantInfo.IsPublisherFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.IsPublisherFieldNumber
+  id: IsPublisherFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: IsPublisherFieldNumber
+  nameWithType: ParticipantInfo.IsPublisherFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.IsPublisherFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IsPublisherFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3134
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "is_publisher" field.
+  example: []
+  syntax:
+    content: public const int IsPublisherFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const IsPublisherFieldNumber As Integer = 13
+- uid: LiveKit.Proto.ParticipantInfo.IsPublisher
+  commentId: P:LiveKit.Proto.ParticipantInfo.IsPublisher
+  id: IsPublisher
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: IsPublisher
+  nameWithType: ParticipantInfo.IsPublisher
+  fullName: LiveKit.Proto.ParticipantInfo.IsPublisher
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IsPublisher
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3140
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    indicates the participant has an active publisher connection
+
+    and can publish to the server
+  example: []
+  syntax:
+    content: public bool IsPublisher { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsPublisher As Boolean
+  overload: LiveKit.Proto.ParticipantInfo.IsPublisher*
+- uid: LiveKit.Proto.ParticipantInfo.KindFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.KindFieldNumber
+  id: KindFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: KindFieldNumber
+  nameWithType: ParticipantInfo.KindFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.KindFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: KindFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3150
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "kind" field.
+  example: []
+  syntax:
+    content: public const int KindFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const KindFieldNumber As Integer = 14
+- uid: LiveKit.Proto.ParticipantInfo.Kind
+  commentId: P:LiveKit.Proto.ParticipantInfo.Kind
+  id: Kind
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: ParticipantInfo.Kind
+  fullName: LiveKit.Proto.ParticipantInfo.Kind
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Kind
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3152
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantInfo.Types.Kind Kind { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ParticipantInfo.Types.Kind
+    content.vb: Public Property Kind As ParticipantInfo.Types.Kind
+  overload: LiveKit.Proto.ParticipantInfo.Kind*
+- uid: LiveKit.Proto.ParticipantInfo.AttributesFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.AttributesFieldNumber
+  id: AttributesFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: AttributesFieldNumber
+  nameWithType: ParticipantInfo.AttributesFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.AttributesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AttributesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3162
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "attributes" field.
+  example: []
+  syntax:
+    content: public const int AttributesFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const AttributesFieldNumber As Integer = 15
+- uid: LiveKit.Proto.ParticipantInfo.Attributes
+  commentId: P:LiveKit.Proto.ParticipantInfo.Attributes
+  id: Attributes
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: ParticipantInfo.Attributes
+  fullName: LiveKit.Proto.ParticipantInfo.Attributes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Attributes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3166
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public MapField<string, string> Attributes { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property Attributes As MapField(Of String, String)
+  overload: LiveKit.Proto.ParticipantInfo.Attributes*
+- uid: LiveKit.Proto.ParticipantInfo.DisconnectReasonFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.DisconnectReasonFieldNumber
+  id: DisconnectReasonFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReasonFieldNumber
+  nameWithType: ParticipantInfo.DisconnectReasonFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.DisconnectReasonFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectReasonFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3173
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "disconnect_reason" field.
+  example: []
+  syntax:
+    content: public const int DisconnectReasonFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const DisconnectReasonFieldNumber As Integer = 16
+- uid: LiveKit.Proto.ParticipantInfo.DisconnectReason
+  commentId: P:LiveKit.Proto.ParticipantInfo.DisconnectReason
+  id: DisconnectReason
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReason
+  nameWithType: ParticipantInfo.DisconnectReason
+  fullName: LiveKit.Proto.ParticipantInfo.DisconnectReason
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectReason
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3175
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DisconnectReason DisconnectReason { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: Public Property DisconnectReason As DisconnectReason
+  overload: LiveKit.Proto.ParticipantInfo.DisconnectReason*
+- uid: LiveKit.Proto.ParticipantInfo.KindDetailsFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantInfo.KindDetailsFieldNumber
+  id: KindDetailsFieldNumber
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: KindDetailsFieldNumber
+  nameWithType: ParticipantInfo.KindDetailsFieldNumber
+  fullName: LiveKit.Proto.ParticipantInfo.KindDetailsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: KindDetailsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3185
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "kind_details" field.
+  example: []
+  syntax:
+    content: public const int KindDetailsFieldNumber = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const KindDetailsFieldNumber As Integer = 18
+- uid: LiveKit.Proto.ParticipantInfo.KindDetails
+  commentId: P:LiveKit.Proto.ParticipantInfo.KindDetails
+  id: KindDetails
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: KindDetails
+  nameWithType: ParticipantInfo.KindDetails
+  fullName: LiveKit.Proto.ParticipantInfo.KindDetails
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: KindDetails
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3189
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<ParticipantInfo.Types.KindDetail> KindDetails { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantInfo.Types.KindDetail}
+    content.vb: Public ReadOnly Property KindDetails As RepeatedField(Of ParticipantInfo.Types.KindDetail)
+  overload: LiveKit.Proto.ParticipantInfo.KindDetails*
+- uid: LiveKit.Proto.ParticipantInfo.Equals(System.Object)
+  commentId: M:LiveKit.Proto.ParticipantInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ParticipantInfo.Equals(object)
+  fullName: LiveKit.Proto.ParticipantInfo.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3195
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.ParticipantInfo.Equals*
+  nameWithType.vb: ParticipantInfo.Equals(Object)
+  fullName.vb: LiveKit.Proto.ParticipantInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.ParticipantInfo.Equals(LiveKit.Proto.ParticipantInfo)
+  commentId: M:LiveKit.Proto.ParticipantInfo.Equals(LiveKit.Proto.ParticipantInfo)
+  id: Equals(LiveKit.Proto.ParticipantInfo)
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(ParticipantInfo)
+  nameWithType: ParticipantInfo.Equals(ParticipantInfo)
+  fullName: LiveKit.Proto.ParticipantInfo.Equals(LiveKit.Proto.ParticipantInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3201
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(ParticipantInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ParticipantInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ParticipantInfo) As Boolean
+  overload: LiveKit.Proto.ParticipantInfo.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.ParticipantInfo}.Equals(LiveKit.Proto.ParticipantInfo)
+- uid: LiveKit.Proto.ParticipantInfo.GetHashCode
+  commentId: M:LiveKit.Proto.ParticipantInfo.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ParticipantInfo.GetHashCode()
+  fullName: LiveKit.Proto.ParticipantInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3229
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.ParticipantInfo.GetHashCode*
+- uid: LiveKit.Proto.ParticipantInfo.ToString
+  commentId: M:LiveKit.Proto.ParticipantInfo.ToString
+  id: ToString
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ParticipantInfo.ToString()
+  fullName: LiveKit.Proto.ParticipantInfo.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3255
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.ParticipantInfo.ToString*
+- uid: LiveKit.Proto.ParticipantInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.ParticipantInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: ParticipantInfo.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.ParticipantInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3261
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.ParticipantInfo.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.ParticipantInfo.CalculateSize
+  commentId: M:LiveKit.Proto.ParticipantInfo.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ParticipantInfo.CalculateSize()
+  fullName: LiveKit.Proto.ParticipantInfo.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3393
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.ParticipantInfo.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.ParticipantInfo.MergeFrom(LiveKit.Proto.ParticipantInfo)
+  commentId: M:LiveKit.Proto.ParticipantInfo.MergeFrom(LiveKit.Proto.ParticipantInfo)
+  id: MergeFrom(LiveKit.Proto.ParticipantInfo)
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ParticipantInfo)
+  nameWithType: ParticipantInfo.MergeFrom(ParticipantInfo)
+  fullName: LiveKit.Proto.ParticipantInfo.MergeFrom(LiveKit.Proto.ParticipantInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3445
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(ParticipantInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ParticipantInfo
+    content.vb: Public Sub MergeFrom(other As ParticipantInfo)
+  overload: LiveKit.Proto.ParticipantInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}.MergeFrom(LiveKit.Proto.ParticipantInfo)
+- uid: LiveKit.Proto.ParticipantInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.ParticipantInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.ParticipantInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: ParticipantInfo.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.ParticipantInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3499
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.ParticipantInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: IMessage<ParticipantInfo>
+  nameWithType: IMessage<ParticipantInfo>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.ParticipantInfo>
+  nameWithType.vb: IMessage(Of ParticipantInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.ParticipantInfo)
+  name.vb: IMessage(Of ParticipantInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.ParticipantInfo}
+  commentId: T:System.IEquatable{LiveKit.Proto.ParticipantInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ParticipantInfo>
+  nameWithType: IEquatable<ParticipantInfo>
+  fullName: System.IEquatable<LiveKit.Proto.ParticipantInfo>
+  nameWithType.vb: IEquatable(Of ParticipantInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.ParticipantInfo)
+  name.vb: IEquatable(Of ParticipantInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: IDeepCloneable<ParticipantInfo>
+  nameWithType: IDeepCloneable<ParticipantInfo>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.ParticipantInfo>
+  nameWithType.vb: IDeepCloneable(Of ParticipantInfo)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.ParticipantInfo)
+  name.vb: IDeepCloneable(Of ParticipantInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.ParticipantInfo.Parser*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Parser
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Parser
+  name: Parser
+  nameWithType: ParticipantInfo.Parser
+  fullName: LiveKit.Proto.ParticipantInfo.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.ParticipantInfo}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.ParticipantInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: MessageParser<ParticipantInfo>
+  nameWithType: MessageParser<ParticipantInfo>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.ParticipantInfo>
+  nameWithType.vb: MessageParser(Of ParticipantInfo)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.ParticipantInfo)
+  name.vb: MessageParser(Of ParticipantInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.ParticipantInfo.Descriptor*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Descriptor
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Descriptor
+  name: Descriptor
+  nameWithType: ParticipantInfo.Descriptor
+  fullName: LiveKit.Proto.ParticipantInfo.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.ParticipantInfo.#ctor*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.#ctor
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo__ctor
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo.ParticipantInfo
+  fullName: LiveKit.Proto.ParticipantInfo.ParticipantInfo
+  nameWithType.vb: ParticipantInfo.New
+  fullName.vb: LiveKit.Proto.ParticipantInfo.New
+  name.vb: New
+- uid: LiveKit.Proto.ParticipantInfo
+  commentId: T:LiveKit.Proto.ParticipantInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: LiveKit.Proto.ParticipantInfo
+- uid: LiveKit.Proto.ParticipantInfo.Clone*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Clone
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Clone
+  name: Clone
+  nameWithType: ParticipantInfo.Clone
+  fullName: LiveKit.Proto.ParticipantInfo.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<ParticipantInfo>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.ParticipantInfo>.Clone()
+  nameWithType.vb: IDeepCloneable(Of ParticipantInfo).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.ParticipantInfo).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.ParticipantInfo.Sid*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Sid
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Sid
+  name: Sid
+  nameWithType: ParticipantInfo.Sid
+  fullName: LiveKit.Proto.ParticipantInfo.Sid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.ParticipantInfo.Identity*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Identity
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Identity
+  name: Identity
+  nameWithType: ParticipantInfo.Identity
+  fullName: LiveKit.Proto.ParticipantInfo.Identity
+- uid: LiveKit.Proto.ParticipantInfo.State*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.State
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_State
+  name: State
+  nameWithType: ParticipantInfo.State
+  fullName: LiveKit.Proto.ParticipantInfo.State
+- uid: LiveKit.Proto.ParticipantInfo.Types.State
+  commentId: T:LiveKit.Proto.ParticipantInfo.Types.State
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: ParticipantInfo.Types.State
+  nameWithType: ParticipantInfo.Types.State
+  fullName: LiveKit.Proto.ParticipantInfo.Types.State
+  spec.csharp:
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.State
+    name: State
+    href: LiveKit.Proto.ParticipantInfo.Types.State.html
+  spec.vb:
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.State
+    name: State
+    href: LiveKit.Proto.ParticipantInfo.Types.State.html
+- uid: LiveKit.Proto.ParticipantInfo.Tracks*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Tracks
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Tracks
+  name: Tracks
+  nameWithType: ParticipantInfo.Tracks
+  fullName: LiveKit.Proto.ParticipantInfo.Tracks
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackInfo}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackInfo}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.TrackInfo.html
+  name: RepeatedField<TrackInfo>
+  nameWithType: RepeatedField<TrackInfo>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.TrackInfo>
+  nameWithType.vb: RepeatedField(Of TrackInfo)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.TrackInfo)
+  name.vb: RepeatedField(Of TrackInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TrackInfo
+    name: TrackInfo
+    href: LiveKit.Proto.TrackInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TrackInfo
+    name: TrackInfo
+    href: LiveKit.Proto.TrackInfo.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.ParticipantInfo.Metadata*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Metadata
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Metadata
+  name: Metadata
+  nameWithType: ParticipantInfo.Metadata
+  fullName: LiveKit.Proto.ParticipantInfo.Metadata
+- uid: LiveKit.Proto.ParticipantInfo.JoinedAt*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.JoinedAt
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_JoinedAt
+  name: JoinedAt
+  nameWithType: ParticipantInfo.JoinedAt
+  fullName: LiveKit.Proto.ParticipantInfo.JoinedAt
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.ParticipantInfo.JoinedAtMs*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.JoinedAtMs
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_JoinedAtMs
+  name: JoinedAtMs
+  nameWithType: ParticipantInfo.JoinedAtMs
+  fullName: LiveKit.Proto.ParticipantInfo.JoinedAtMs
+- uid: LiveKit.Proto.ParticipantInfo.Name*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Name
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Name
+  name: Name
+  nameWithType: ParticipantInfo.Name
+  fullName: LiveKit.Proto.ParticipantInfo.Name
+- uid: LiveKit.Proto.ParticipantInfo.Version*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Version
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Version
+  name: Version
+  nameWithType: ParticipantInfo.Version
+  fullName: LiveKit.Proto.ParticipantInfo.Version
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: LiveKit.Proto.ParticipantInfo.Permission*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Permission
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Permission
+  name: Permission
+  nameWithType: ParticipantInfo.Permission
+  fullName: LiveKit.Proto.ParticipantInfo.Permission
+- uid: LiveKit.Proto.ParticipantPermission
+  commentId: T:LiveKit.Proto.ParticipantPermission
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantPermission.html
+  name: ParticipantPermission
+  nameWithType: ParticipantPermission
+  fullName: LiveKit.Proto.ParticipantPermission
+- uid: LiveKit.Proto.ParticipantInfo.Region*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Region
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Region
+  name: Region
+  nameWithType: ParticipantInfo.Region
+  fullName: LiveKit.Proto.ParticipantInfo.Region
+- uid: LiveKit.Proto.ParticipantInfo.IsPublisher*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.IsPublisher
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_IsPublisher
+  name: IsPublisher
+  nameWithType: ParticipantInfo.IsPublisher
+  fullName: LiveKit.Proto.ParticipantInfo.IsPublisher
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.ParticipantInfo.Kind*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Kind
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Kind
+  name: Kind
+  nameWithType: ParticipantInfo.Kind
+  fullName: LiveKit.Proto.ParticipantInfo.Kind
+- uid: LiveKit.Proto.ParticipantInfo.Types.Kind
+  commentId: T:LiveKit.Proto.ParticipantInfo.Types.Kind
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: ParticipantInfo.Types.Kind
+  nameWithType: ParticipantInfo.Types.Kind
+  fullName: LiveKit.Proto.ParticipantInfo.Types.Kind
+  spec.csharp:
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.Kind
+    name: Kind
+    href: LiveKit.Proto.ParticipantInfo.Types.Kind.html
+  spec.vb:
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.Kind
+    name: Kind
+    href: LiveKit.Proto.ParticipantInfo.Types.Kind.html
+- uid: LiveKit.Proto.ParticipantInfo.Attributes*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Attributes
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Attributes
+  name: Attributes
+  nameWithType: ParticipantInfo.Attributes
+  fullName: LiveKit.Proto.ParticipantInfo.Attributes
+- uid: Google.Protobuf.Collections.MapField{System.String,System.String}
+  commentId: T:Google.Protobuf.Collections.MapField{System.String,System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.MapField`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MapField<string, string>
+  nameWithType: MapField<string, string>
+  fullName: Google.Protobuf.Collections.MapField<string, string>
+  nameWithType.vb: MapField(Of String, String)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of String, String)
+  name.vb: MapField(Of String, String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.MapField`2
+  commentId: T:Google.Protobuf.Collections.MapField`2
+  isExternal: true
+  name: MapField<TKey, TValue>
+  nameWithType: MapField<TKey, TValue>
+  fullName: Google.Protobuf.Collections.MapField<TKey, TValue>
+  nameWithType.vb: MapField(Of TKey, TValue)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of TKey, TValue)
+  name.vb: MapField(Of TKey, TValue)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: LiveKit.Proto.ParticipantInfo.DisconnectReason*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.DisconnectReason
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_DisconnectReason
+  name: DisconnectReason
+  nameWithType: ParticipantInfo.DisconnectReason
+  fullName: LiveKit.Proto.ParticipantInfo.DisconnectReason
+- uid: LiveKit.Proto.DisconnectReason
+  commentId: T:LiveKit.Proto.DisconnectReason
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DisconnectReason.html
+  name: DisconnectReason
+  nameWithType: DisconnectReason
+  fullName: LiveKit.Proto.DisconnectReason
+- uid: LiveKit.Proto.ParticipantInfo.KindDetails*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.KindDetails
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_KindDetails
+  name: KindDetails
+  nameWithType: ParticipantInfo.KindDetails
+  fullName: LiveKit.Proto.ParticipantInfo.KindDetails
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantInfo.Types.KindDetail}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantInfo.Types.KindDetail}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: RepeatedField<ParticipantInfo.Types.KindDetail>
+  nameWithType: RepeatedField<ParticipantInfo.Types.KindDetail>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.ParticipantInfo.Types.KindDetail>
+  nameWithType.vb: RepeatedField(Of ParticipantInfo.Types.KindDetail)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.ParticipantInfo.Types.KindDetail)
+  name.vb: RepeatedField(Of ParticipantInfo.Types.KindDetail)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.KindDetail
+    name: KindDetail
+    href: LiveKit.Proto.ParticipantInfo.Types.KindDetail.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types
+    name: Types
+    href: LiveKit.Proto.ParticipantInfo.Types.html
+  - name: .
+  - uid: LiveKit.Proto.ParticipantInfo.Types.KindDetail
+    name: KindDetail
+    href: LiveKit.Proto.ParticipantInfo.Types.KindDetail.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.ParticipantInfo.Equals*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.Equals
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_Equals_System_Object_
+  name: Equals
+  nameWithType: ParticipantInfo.Equals
+  fullName: LiveKit.Proto.ParticipantInfo.Equals
+- uid: System.IEquatable{LiveKit.Proto.ParticipantInfo}.Equals(LiveKit.Proto.ParticipantInfo)
+  commentId: M:System.IEquatable{LiveKit.Proto.ParticipantInfo}.Equals(LiveKit.Proto.ParticipantInfo)
+  parent: System.IEquatable{LiveKit.Proto.ParticipantInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(ParticipantInfo)
+  nameWithType: IEquatable<ParticipantInfo>.Equals(ParticipantInfo)
+  fullName: System.IEquatable<LiveKit.Proto.ParticipantInfo>.Equals(LiveKit.Proto.ParticipantInfo)
+  nameWithType.vb: IEquatable(Of ParticipantInfo).Equals(ParticipantInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.ParticipantInfo).Equals(LiveKit.Proto.ParticipantInfo)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.ParticipantInfo}.Equals(LiveKit.Proto.ParticipantInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.ParticipantInfo}.Equals(LiveKit.Proto.ParticipantInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ParticipantInfo.GetHashCode*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.GetHashCode
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: ParticipantInfo.GetHashCode
+  fullName: LiveKit.Proto.ParticipantInfo.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ParticipantInfo.ToString*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.ToString
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_ToString
+  name: ToString
+  nameWithType: ParticipantInfo.ToString
+  fullName: LiveKit.Proto.ParticipantInfo.ToString
+- uid: LiveKit.Proto.ParticipantInfo.WriteTo*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.WriteTo
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: ParticipantInfo.WriteTo
+  fullName: LiveKit.Proto.ParticipantInfo.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.ParticipantInfo.CalculateSize*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.CalculateSize
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_CalculateSize
+  name: CalculateSize
+  nameWithType: ParticipantInfo.CalculateSize
+  fullName: LiveKit.Proto.ParticipantInfo.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ParticipantInfo.MergeFrom*
+  commentId: Overload:LiveKit.Proto.ParticipantInfo.MergeFrom
+  href: LiveKit.Proto.ParticipantInfo.html#LiveKit_Proto_ParticipantInfo_MergeFrom_LiveKit_Proto_ParticipantInfo_
+  name: MergeFrom
+  nameWithType: ParticipantInfo.MergeFrom
+  fullName: LiveKit.Proto.ParticipantInfo.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}.MergeFrom(LiveKit.Proto.ParticipantInfo)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}.MergeFrom(LiveKit.Proto.ParticipantInfo)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: MergeFrom(ParticipantInfo)
+  nameWithType: IMessage<ParticipantInfo>.MergeFrom(ParticipantInfo)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.ParticipantInfo>.MergeFrom(LiveKit.Proto.ParticipantInfo)
+  nameWithType.vb: IMessage(Of ParticipantInfo).MergeFrom(ParticipantInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.ParticipantInfo).MergeFrom(LiveKit.Proto.ParticipantInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}.MergeFrom(LiveKit.Proto.ParticipantInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantInfo}.MergeFrom(LiveKit.Proto.ParticipantInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.ParticipantInfo
+    name: ParticipantInfo
+    href: LiveKit.Proto.ParticipantInfo.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

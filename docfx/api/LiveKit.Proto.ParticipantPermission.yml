@@ -1,0 +1,2067 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.ParticipantPermission
+  commentId: T:LiveKit.Proto.ParticipantPermission
+  id: ParticipantPermission
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.ParticipantPermission.#ctor
+  - LiveKit.Proto.ParticipantPermission.#ctor(LiveKit.Proto.ParticipantPermission)
+  - LiveKit.Proto.ParticipantPermission.Agent
+  - LiveKit.Proto.ParticipantPermission.AgentFieldNumber
+  - LiveKit.Proto.ParticipantPermission.CalculateSize
+  - LiveKit.Proto.ParticipantPermission.CanPublish
+  - LiveKit.Proto.ParticipantPermission.CanPublishData
+  - LiveKit.Proto.ParticipantPermission.CanPublishDataFieldNumber
+  - LiveKit.Proto.ParticipantPermission.CanPublishFieldNumber
+  - LiveKit.Proto.ParticipantPermission.CanPublishSources
+  - LiveKit.Proto.ParticipantPermission.CanPublishSourcesFieldNumber
+  - LiveKit.Proto.ParticipantPermission.CanSubscribe
+  - LiveKit.Proto.ParticipantPermission.CanSubscribeFieldNumber
+  - LiveKit.Proto.ParticipantPermission.CanSubscribeMetrics
+  - LiveKit.Proto.ParticipantPermission.CanSubscribeMetricsFieldNumber
+  - LiveKit.Proto.ParticipantPermission.CanUpdateMetadata
+  - LiveKit.Proto.ParticipantPermission.CanUpdateMetadataFieldNumber
+  - LiveKit.Proto.ParticipantPermission.Clone
+  - LiveKit.Proto.ParticipantPermission.Descriptor
+  - LiveKit.Proto.ParticipantPermission.Equals(LiveKit.Proto.ParticipantPermission)
+  - LiveKit.Proto.ParticipantPermission.Equals(System.Object)
+  - LiveKit.Proto.ParticipantPermission.GetHashCode
+  - LiveKit.Proto.ParticipantPermission.Hidden
+  - LiveKit.Proto.ParticipantPermission.HiddenFieldNumber
+  - LiveKit.Proto.ParticipantPermission.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.ParticipantPermission.MergeFrom(LiveKit.Proto.ParticipantPermission)
+  - LiveKit.Proto.ParticipantPermission.Parser
+  - LiveKit.Proto.ParticipantPermission.Recorder
+  - LiveKit.Proto.ParticipantPermission.RecorderFieldNumber
+  - LiveKit.Proto.ParticipantPermission.ToString
+  - LiveKit.Proto.ParticipantPermission.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ParticipantPermission
+  nameWithType: ParticipantPermission
+  fullName: LiveKit.Proto.ParticipantPermission
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantPermission
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2420
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class ParticipantPermission : IMessage<ParticipantPermission>, IEquatable<ParticipantPermission>, IDeepCloneable<ParticipantPermission>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class ParticipantPermission Implements IMessage(Of ParticipantPermission), IEquatable(Of ParticipantPermission), IDeepCloneable(Of ParticipantPermission), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}
+  - System.IEquatable{LiveKit.Proto.ParticipantPermission}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.ParticipantPermission.Parser
+  commentId: P:LiveKit.Proto.ParticipantPermission.Parser
+  id: Parser
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ParticipantPermission.Parser
+  fullName: LiveKit.Proto.ParticipantPermission.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2428
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<ParticipantPermission> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.ParticipantPermission}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of ParticipantPermission)
+  overload: LiveKit.Proto.ParticipantPermission.Parser*
+- uid: LiveKit.Proto.ParticipantPermission.Descriptor
+  commentId: P:LiveKit.Proto.ParticipantPermission.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ParticipantPermission.Descriptor
+  fullName: LiveKit.Proto.ParticipantPermission.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2432
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.ParticipantPermission.Descriptor*
+- uid: LiveKit.Proto.ParticipantPermission.#ctor
+  commentId: M:LiveKit.Proto.ParticipantPermission.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: ParticipantPermission()
+  nameWithType: ParticipantPermission.ParticipantPermission()
+  fullName: LiveKit.Proto.ParticipantPermission.ParticipantPermission()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2444
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantPermission()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.ParticipantPermission.#ctor*
+  nameWithType.vb: ParticipantPermission.New()
+  fullName.vb: LiveKit.Proto.ParticipantPermission.New()
+  name.vb: New()
+- uid: LiveKit.Proto.ParticipantPermission.#ctor(LiveKit.Proto.ParticipantPermission)
+  commentId: M:LiveKit.Proto.ParticipantPermission.#ctor(LiveKit.Proto.ParticipantPermission)
+  id: '#ctor(LiveKit.Proto.ParticipantPermission)'
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: ParticipantPermission(ParticipantPermission)
+  nameWithType: ParticipantPermission.ParticipantPermission(ParticipantPermission)
+  fullName: LiveKit.Proto.ParticipantPermission.ParticipantPermission(LiveKit.Proto.ParticipantPermission)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2452
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantPermission(ParticipantPermission other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ParticipantPermission
+    content.vb: Public Sub New(other As ParticipantPermission)
+  overload: LiveKit.Proto.ParticipantPermission.#ctor*
+  nameWithType.vb: ParticipantPermission.New(ParticipantPermission)
+  fullName.vb: LiveKit.Proto.ParticipantPermission.New(LiveKit.Proto.ParticipantPermission)
+  name.vb: New(ParticipantPermission)
+- uid: LiveKit.Proto.ParticipantPermission.Clone
+  commentId: M:LiveKit.Proto.ParticipantPermission.Clone
+  id: Clone
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ParticipantPermission.Clone()
+  fullName: LiveKit.Proto.ParticipantPermission.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2467
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public ParticipantPermission Clone()
+    return:
+      type: LiveKit.Proto.ParticipantPermission
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As ParticipantPermission
+  overload: LiveKit.Proto.ParticipantPermission.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}.Clone
+- uid: LiveKit.Proto.ParticipantPermission.CanSubscribeFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.CanSubscribeFieldNumber
+  id: CanSubscribeFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanSubscribeFieldNumber
+  nameWithType: ParticipantPermission.CanSubscribeFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.CanSubscribeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanSubscribeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2474
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "can_subscribe" field.
+  example: []
+  syntax:
+    content: public const int CanSubscribeFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const CanSubscribeFieldNumber As Integer = 1
+- uid: LiveKit.Proto.ParticipantPermission.CanSubscribe
+  commentId: P:LiveKit.Proto.ParticipantPermission.CanSubscribe
+  id: CanSubscribe
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanSubscribe
+  nameWithType: ParticipantPermission.CanSubscribe
+  fullName: LiveKit.Proto.ParticipantPermission.CanSubscribe
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanSubscribe
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2479
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: allow participant to subscribe to other tracks in the room
+  example: []
+  syntax:
+    content: public bool CanSubscribe { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanSubscribe As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.CanSubscribe*
+- uid: LiveKit.Proto.ParticipantPermission.CanPublishFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.CanPublishFieldNumber
+  id: CanPublishFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanPublishFieldNumber
+  nameWithType: ParticipantPermission.CanPublishFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublishFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublishFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2489
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "can_publish" field.
+  example: []
+  syntax:
+    content: public const int CanPublishFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const CanPublishFieldNumber As Integer = 2
+- uid: LiveKit.Proto.ParticipantPermission.CanPublish
+  commentId: P:LiveKit.Proto.ParticipantPermission.CanPublish
+  id: CanPublish
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanPublish
+  nameWithType: ParticipantPermission.CanPublish
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublish
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublish
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2494
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: allow participant to publish new tracks to room
+  example: []
+  syntax:
+    content: public bool CanPublish { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanPublish As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.CanPublish*
+- uid: LiveKit.Proto.ParticipantPermission.CanPublishDataFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.CanPublishDataFieldNumber
+  id: CanPublishDataFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanPublishDataFieldNumber
+  nameWithType: ParticipantPermission.CanPublishDataFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublishDataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublishDataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2504
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "can_publish_data" field.
+  example: []
+  syntax:
+    content: public const int CanPublishDataFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const CanPublishDataFieldNumber As Integer = 3
+- uid: LiveKit.Proto.ParticipantPermission.CanPublishData
+  commentId: P:LiveKit.Proto.ParticipantPermission.CanPublishData
+  id: CanPublishData
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanPublishData
+  nameWithType: ParticipantPermission.CanPublishData
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublishData
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublishData
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2509
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: allow participant to publish data
+  example: []
+  syntax:
+    content: public bool CanPublishData { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanPublishData As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.CanPublishData*
+- uid: LiveKit.Proto.ParticipantPermission.CanPublishSourcesFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.CanPublishSourcesFieldNumber
+  id: CanPublishSourcesFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanPublishSourcesFieldNumber
+  nameWithType: ParticipantPermission.CanPublishSourcesFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublishSourcesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublishSourcesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2519
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "can_publish_sources" field.
+  example: []
+  syntax:
+    content: public const int CanPublishSourcesFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const CanPublishSourcesFieldNumber As Integer = 9
+- uid: LiveKit.Proto.ParticipantPermission.CanPublishSources
+  commentId: P:LiveKit.Proto.ParticipantPermission.CanPublishSources
+  id: CanPublishSources
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanPublishSources
+  nameWithType: ParticipantPermission.CanPublishSources
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublishSources
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublishSources
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2526
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: sources that are allowed to be published
+  example: []
+  syntax:
+    content: public RepeatedField<TrackSource> CanPublishSources { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackSource}
+    content.vb: Public ReadOnly Property CanPublishSources As RepeatedField(Of TrackSource)
+  overload: LiveKit.Proto.ParticipantPermission.CanPublishSources*
+- uid: LiveKit.Proto.ParticipantPermission.HiddenFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.HiddenFieldNumber
+  id: HiddenFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: HiddenFieldNumber
+  nameWithType: ParticipantPermission.HiddenFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.HiddenFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HiddenFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2533
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "hidden" field.
+  example: []
+  syntax:
+    content: public const int HiddenFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const HiddenFieldNumber As Integer = 7
+- uid: LiveKit.Proto.ParticipantPermission.Hidden
+  commentId: P:LiveKit.Proto.ParticipantPermission.Hidden
+  id: Hidden
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: ParticipantPermission.Hidden
+  fullName: LiveKit.Proto.ParticipantPermission.Hidden
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Hidden
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2538
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: indicates that it's hidden to others
+  example: []
+  syntax:
+    content: public bool Hidden { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Hidden As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.Hidden*
+- uid: LiveKit.Proto.ParticipantPermission.RecorderFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.RecorderFieldNumber
+  id: RecorderFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: RecorderFieldNumber
+  nameWithType: ParticipantPermission.RecorderFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.RecorderFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RecorderFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2548
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "recorder" field.
+  example: []
+  syntax:
+    content: public const int RecorderFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const RecorderFieldNumber As Integer = 8
+- uid: LiveKit.Proto.ParticipantPermission.Recorder
+  commentId: P:LiveKit.Proto.ParticipantPermission.Recorder
+  id: Recorder
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: Recorder
+  nameWithType: ParticipantPermission.Recorder
+  fullName: LiveKit.Proto.ParticipantPermission.Recorder
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Recorder
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2554
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    indicates it's a recorder instance
+
+    deprecated: use ParticipantInfo.kind instead
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public bool Recorder { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Obsolete>
+
+      Public Property Recorder As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.Recorder*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.ParticipantPermission.CanUpdateMetadataFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.CanUpdateMetadataFieldNumber
+  id: CanUpdateMetadataFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateMetadataFieldNumber
+  nameWithType: ParticipantPermission.CanUpdateMetadataFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.CanUpdateMetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanUpdateMetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2565
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "can_update_metadata" field.
+  example: []
+  syntax:
+    content: public const int CanUpdateMetadataFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const CanUpdateMetadataFieldNumber As Integer = 10
+- uid: LiveKit.Proto.ParticipantPermission.CanUpdateMetadata
+  commentId: P:LiveKit.Proto.ParticipantPermission.CanUpdateMetadata
+  id: CanUpdateMetadata
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateMetadata
+  nameWithType: ParticipantPermission.CanUpdateMetadata
+  fullName: LiveKit.Proto.ParticipantPermission.CanUpdateMetadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanUpdateMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2570
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: indicates that participant can update own metadata and attributes
+  example: []
+  syntax:
+    content: public bool CanUpdateMetadata { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanUpdateMetadata As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.CanUpdateMetadata*
+- uid: LiveKit.Proto.ParticipantPermission.AgentFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.AgentFieldNumber
+  id: AgentFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: AgentFieldNumber
+  nameWithType: ParticipantPermission.AgentFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.AgentFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2580
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "agent" field.
+  example: []
+  syntax:
+    content: public const int AgentFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const AgentFieldNumber As Integer = 11
+- uid: LiveKit.Proto.ParticipantPermission.Agent
+  commentId: P:LiveKit.Proto.ParticipantPermission.Agent
+  id: Agent
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: ParticipantPermission.Agent
+  fullName: LiveKit.Proto.ParticipantPermission.Agent
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Agent
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2586
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    indicates that participant is an agent
+
+    deprecated: use ParticipantInfo.kind instead
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public bool Agent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Obsolete>
+
+      Public Property Agent As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.Agent*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.ParticipantPermission.CanSubscribeMetricsFieldNumber
+  commentId: F:LiveKit.Proto.ParticipantPermission.CanSubscribeMetricsFieldNumber
+  id: CanSubscribeMetricsFieldNumber
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanSubscribeMetricsFieldNumber
+  nameWithType: ParticipantPermission.CanSubscribeMetricsFieldNumber
+  fullName: LiveKit.Proto.ParticipantPermission.CanSubscribeMetricsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanSubscribeMetricsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2597
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "can_subscribe_metrics" field.
+  example: []
+  syntax:
+    content: public const int CanSubscribeMetricsFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const CanSubscribeMetricsFieldNumber As Integer = 12
+- uid: LiveKit.Proto.ParticipantPermission.CanSubscribeMetrics
+  commentId: P:LiveKit.Proto.ParticipantPermission.CanSubscribeMetrics
+  id: CanSubscribeMetrics
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CanSubscribeMetrics
+  nameWithType: ParticipantPermission.CanSubscribeMetrics
+  fullName: LiveKit.Proto.ParticipantPermission.CanSubscribeMetrics
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanSubscribeMetrics
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2602
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: if a participant can subscribe to metrics
+  example: []
+  syntax:
+    content: public bool CanSubscribeMetrics { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanSubscribeMetrics As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.CanSubscribeMetrics*
+- uid: LiveKit.Proto.ParticipantPermission.Equals(System.Object)
+  commentId: M:LiveKit.Proto.ParticipantPermission.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ParticipantPermission.Equals(object)
+  fullName: LiveKit.Proto.ParticipantPermission.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2611
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.ParticipantPermission.Equals*
+  nameWithType.vb: ParticipantPermission.Equals(Object)
+  fullName.vb: LiveKit.Proto.ParticipantPermission.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.ParticipantPermission.Equals(LiveKit.Proto.ParticipantPermission)
+  commentId: M:LiveKit.Proto.ParticipantPermission.Equals(LiveKit.Proto.ParticipantPermission)
+  id: Equals(LiveKit.Proto.ParticipantPermission)
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: Equals(ParticipantPermission)
+  nameWithType: ParticipantPermission.Equals(ParticipantPermission)
+  fullName: LiveKit.Proto.ParticipantPermission.Equals(LiveKit.Proto.ParticipantPermission)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2617
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(ParticipantPermission other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ParticipantPermission
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ParticipantPermission) As Boolean
+  overload: LiveKit.Proto.ParticipantPermission.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.ParticipantPermission}.Equals(LiveKit.Proto.ParticipantPermission)
+- uid: LiveKit.Proto.ParticipantPermission.GetHashCode
+  commentId: M:LiveKit.Proto.ParticipantPermission.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ParticipantPermission.GetHashCode()
+  fullName: LiveKit.Proto.ParticipantPermission.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2638
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.ParticipantPermission.GetHashCode*
+- uid: LiveKit.Proto.ParticipantPermission.ToString
+  commentId: M:LiveKit.Proto.ParticipantPermission.ToString
+  id: ToString
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ParticipantPermission.ToString()
+  fullName: LiveKit.Proto.ParticipantPermission.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2657
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.ParticipantPermission.ToString*
+- uid: LiveKit.Proto.ParticipantPermission.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.ParticipantPermission.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: ParticipantPermission.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.ParticipantPermission.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2663
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.ParticipantPermission.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.ParticipantPermission.CalculateSize
+  commentId: M:LiveKit.Proto.ParticipantPermission.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ParticipantPermission.CalculateSize()
+  fullName: LiveKit.Proto.ParticipantPermission.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2751
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.ParticipantPermission.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.ParticipantPermission.MergeFrom(LiveKit.Proto.ParticipantPermission)
+  commentId: M:LiveKit.Proto.ParticipantPermission.MergeFrom(LiveKit.Proto.ParticipantPermission)
+  id: MergeFrom(LiveKit.Proto.ParticipantPermission)
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ParticipantPermission)
+  nameWithType: ParticipantPermission.MergeFrom(ParticipantPermission)
+  fullName: LiveKit.Proto.ParticipantPermission.MergeFrom(LiveKit.Proto.ParticipantPermission)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2786
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(ParticipantPermission other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ParticipantPermission
+    content.vb: Public Sub MergeFrom(other As ParticipantPermission)
+  overload: LiveKit.Proto.ParticipantPermission.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}.MergeFrom(LiveKit.Proto.ParticipantPermission)
+- uid: LiveKit.Proto.ParticipantPermission.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.ParticipantPermission.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.ParticipantPermission
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: ParticipantPermission.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.ParticipantPermission.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 2820
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.ParticipantPermission.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.ParticipantPermission.html
+  name: IMessage<ParticipantPermission>
+  nameWithType: IMessage<ParticipantPermission>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.ParticipantPermission>
+  nameWithType.vb: IMessage(Of ParticipantPermission)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.ParticipantPermission)
+  name.vb: IMessage(Of ParticipantPermission)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.ParticipantPermission}
+  commentId: T:System.IEquatable{LiveKit.Proto.ParticipantPermission}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ParticipantPermission>
+  nameWithType: IEquatable<ParticipantPermission>
+  fullName: System.IEquatable<LiveKit.Proto.ParticipantPermission>
+  nameWithType.vb: IEquatable(Of ParticipantPermission)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.ParticipantPermission)
+  name.vb: IEquatable(Of ParticipantPermission)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.ParticipantPermission.html
+  name: IDeepCloneable<ParticipantPermission>
+  nameWithType: IDeepCloneable<ParticipantPermission>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.ParticipantPermission>
+  nameWithType.vb: IDeepCloneable(Of ParticipantPermission)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.ParticipantPermission)
+  name.vb: IDeepCloneable(Of ParticipantPermission)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.ParticipantPermission.Parser*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.Parser
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_Parser
+  name: Parser
+  nameWithType: ParticipantPermission.Parser
+  fullName: LiveKit.Proto.ParticipantPermission.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.ParticipantPermission}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.ParticipantPermission}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.ParticipantPermission.html
+  name: MessageParser<ParticipantPermission>
+  nameWithType: MessageParser<ParticipantPermission>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.ParticipantPermission>
+  nameWithType.vb: MessageParser(Of ParticipantPermission)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.ParticipantPermission)
+  name.vb: MessageParser(Of ParticipantPermission)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.ParticipantPermission.Descriptor*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.Descriptor
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_Descriptor
+  name: Descriptor
+  nameWithType: ParticipantPermission.Descriptor
+  fullName: LiveKit.Proto.ParticipantPermission.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.ParticipantPermission.#ctor*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.#ctor
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission__ctor
+  name: ParticipantPermission
+  nameWithType: ParticipantPermission.ParticipantPermission
+  fullName: LiveKit.Proto.ParticipantPermission.ParticipantPermission
+  nameWithType.vb: ParticipantPermission.New
+  fullName.vb: LiveKit.Proto.ParticipantPermission.New
+  name.vb: New
+- uid: LiveKit.Proto.ParticipantPermission
+  commentId: T:LiveKit.Proto.ParticipantPermission
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantPermission.html
+  name: ParticipantPermission
+  nameWithType: ParticipantPermission
+  fullName: LiveKit.Proto.ParticipantPermission
+- uid: LiveKit.Proto.ParticipantPermission.Clone*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.Clone
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_Clone
+  name: Clone
+  nameWithType: ParticipantPermission.Clone
+  fullName: LiveKit.Proto.ParticipantPermission.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<ParticipantPermission>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.ParticipantPermission>.Clone()
+  nameWithType.vb: IDeepCloneable(Of ParticipantPermission).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.ParticipantPermission).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ParticipantPermission}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.ParticipantPermission.CanSubscribe*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.CanSubscribe
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_CanSubscribe
+  name: CanSubscribe
+  nameWithType: ParticipantPermission.CanSubscribe
+  fullName: LiveKit.Proto.ParticipantPermission.CanSubscribe
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.ParticipantPermission.CanPublish*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.CanPublish
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_CanPublish
+  name: CanPublish
+  nameWithType: ParticipantPermission.CanPublish
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublish
+- uid: LiveKit.Proto.ParticipantPermission.CanPublishData*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.CanPublishData
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_CanPublishData
+  name: CanPublishData
+  nameWithType: ParticipantPermission.CanPublishData
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublishData
+- uid: LiveKit.Proto.ParticipantPermission.CanPublishSources*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.CanPublishSources
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_CanPublishSources
+  name: CanPublishSources
+  nameWithType: ParticipantPermission.CanPublishSources
+  fullName: LiveKit.Proto.ParticipantPermission.CanPublishSources
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackSource}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.TrackSource}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.TrackSource.html
+  name: RepeatedField<TrackSource>
+  nameWithType: RepeatedField<TrackSource>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.TrackSource>
+  nameWithType.vb: RepeatedField(Of TrackSource)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.TrackSource)
+  name.vb: RepeatedField(Of TrackSource)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TrackSource
+    name: TrackSource
+    href: LiveKit.Proto.TrackSource.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TrackSource
+    name: TrackSource
+    href: LiveKit.Proto.TrackSource.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.ParticipantPermission.Hidden*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.Hidden
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_Hidden
+  name: Hidden
+  nameWithType: ParticipantPermission.Hidden
+  fullName: LiveKit.Proto.ParticipantPermission.Hidden
+- uid: LiveKit.Proto.ParticipantPermission.Recorder*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.Recorder
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_Recorder
+  name: Recorder
+  nameWithType: ParticipantPermission.Recorder
+  fullName: LiveKit.Proto.ParticipantPermission.Recorder
+- uid: LiveKit.Proto.ParticipantPermission.CanUpdateMetadata*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.CanUpdateMetadata
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_CanUpdateMetadata
+  name: CanUpdateMetadata
+  nameWithType: ParticipantPermission.CanUpdateMetadata
+  fullName: LiveKit.Proto.ParticipantPermission.CanUpdateMetadata
+- uid: LiveKit.Proto.ParticipantPermission.Agent*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.Agent
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_Agent
+  name: Agent
+  nameWithType: ParticipantPermission.Agent
+  fullName: LiveKit.Proto.ParticipantPermission.Agent
+- uid: LiveKit.Proto.ParticipantPermission.CanSubscribeMetrics*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.CanSubscribeMetrics
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_CanSubscribeMetrics
+  name: CanSubscribeMetrics
+  nameWithType: ParticipantPermission.CanSubscribeMetrics
+  fullName: LiveKit.Proto.ParticipantPermission.CanSubscribeMetrics
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.ParticipantPermission.Equals*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.Equals
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_Equals_System_Object_
+  name: Equals
+  nameWithType: ParticipantPermission.Equals
+  fullName: LiveKit.Proto.ParticipantPermission.Equals
+- uid: System.IEquatable{LiveKit.Proto.ParticipantPermission}.Equals(LiveKit.Proto.ParticipantPermission)
+  commentId: M:System.IEquatable{LiveKit.Proto.ParticipantPermission}.Equals(LiveKit.Proto.ParticipantPermission)
+  parent: System.IEquatable{LiveKit.Proto.ParticipantPermission}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(ParticipantPermission)
+  nameWithType: IEquatable<ParticipantPermission>.Equals(ParticipantPermission)
+  fullName: System.IEquatable<LiveKit.Proto.ParticipantPermission>.Equals(LiveKit.Proto.ParticipantPermission)
+  nameWithType.vb: IEquatable(Of ParticipantPermission).Equals(ParticipantPermission)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.ParticipantPermission).Equals(LiveKit.Proto.ParticipantPermission)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.ParticipantPermission}.Equals(LiveKit.Proto.ParticipantPermission)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.ParticipantPermission}.Equals(LiveKit.Proto.ParticipantPermission)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ParticipantPermission.GetHashCode*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.GetHashCode
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_GetHashCode
+  name: GetHashCode
+  nameWithType: ParticipantPermission.GetHashCode
+  fullName: LiveKit.Proto.ParticipantPermission.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ParticipantPermission.ToString*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.ToString
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_ToString
+  name: ToString
+  nameWithType: ParticipantPermission.ToString
+  fullName: LiveKit.Proto.ParticipantPermission.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.ParticipantPermission.WriteTo*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.WriteTo
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: ParticipantPermission.WriteTo
+  fullName: LiveKit.Proto.ParticipantPermission.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.ParticipantPermission.CalculateSize*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.CalculateSize
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_CalculateSize
+  name: CalculateSize
+  nameWithType: ParticipantPermission.CalculateSize
+  fullName: LiveKit.Proto.ParticipantPermission.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ParticipantPermission.MergeFrom*
+  commentId: Overload:LiveKit.Proto.ParticipantPermission.MergeFrom
+  href: LiveKit.Proto.ParticipantPermission.html#LiveKit_Proto_ParticipantPermission_MergeFrom_LiveKit_Proto_ParticipantPermission_
+  name: MergeFrom
+  nameWithType: ParticipantPermission.MergeFrom
+  fullName: LiveKit.Proto.ParticipantPermission.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}.MergeFrom(LiveKit.Proto.ParticipantPermission)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}.MergeFrom(LiveKit.Proto.ParticipantPermission)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.ParticipantPermission.html
+  name: MergeFrom(ParticipantPermission)
+  nameWithType: IMessage<ParticipantPermission>.MergeFrom(ParticipantPermission)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.ParticipantPermission>.MergeFrom(LiveKit.Proto.ParticipantPermission)
+  nameWithType.vb: IMessage(Of ParticipantPermission).MergeFrom(ParticipantPermission)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.ParticipantPermission).MergeFrom(LiveKit.Proto.ParticipantPermission)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}.MergeFrom(LiveKit.Proto.ParticipantPermission)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.ParticipantPermission}.MergeFrom(LiveKit.Proto.ParticipantPermission)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.ParticipantPermission
+    name: ParticipantPermission
+    href: LiveKit.Proto.ParticipantPermission.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

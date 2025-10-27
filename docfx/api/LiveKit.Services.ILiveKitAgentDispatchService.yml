@@ -1,0 +1,397 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.ILiveKitAgentDispatchService
+  commentId: T:LiveKit.Services.ILiveKitAgentDispatchService
+  id: ILiveKitAgentDispatchService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitAgentDispatchService
+  nameWithType: ILiveKitAgentDispatchService
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitAgentDispatchService
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitAgentDispatchService.cs
+    startLine: 13
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Service for managing agent dispatches to rooms.
+
+    <p>
+
+    Provides methods for dispatching AI agents to rooms based on room configuration or on-demand.
+
+    See <a href="https://docs.livekit.io/home/get-started/authentication/#room-configuration">Agent Dispatch Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitAgentDispatchService
+    content.vb: Public Interface ILiveKitAgentDispatchService
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  id: CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitAgentDispatchService
+  langs:
+  - csharp
+  - vb
+  name: CreateDispatchAsync(CreateAgentDispatchRequest, CancellationToken)
+  nameWithType: ILiveKitAgentDispatchService.CreateDispatchAsync(CreateAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateDispatchAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitAgentDispatchService.cs
+    startLine: 18
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Creates a new agent dispatch for a room.
+  example: []
+  syntax:
+    content: Task<AgentDispatch> CreateDispatchAsync(CreateAgentDispatchRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateAgentDispatchRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.AgentDispatch}
+    content.vb: Function CreateDispatchAsync(request As CreateAgentDispatchRequest, cancellationToken As CancellationToken = Nothing) As Task(Of AgentDispatch)
+  overload: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync*
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  id: DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitAgentDispatchService
+  langs:
+  - csharp
+  - vb
+  name: DeleteDispatchAsync(DeleteAgentDispatchRequest, CancellationToken)
+  nameWithType: ILiveKitAgentDispatchService.DeleteDispatchAsync(DeleteAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteDispatchAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitAgentDispatchService.cs
+    startLine: 23
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Deletes an agent dispatch.
+  example: []
+  syntax:
+    content: Task<AgentDispatch> DeleteDispatchAsync(DeleteAgentDispatchRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.DeleteAgentDispatchRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.AgentDispatch}
+    content.vb: Function DeleteDispatchAsync(request As DeleteAgentDispatchRequest, cancellationToken As CancellationToken = Nothing) As Task(Of AgentDispatch)
+  overload: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync*
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  id: ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitAgentDispatchService
+  langs:
+  - csharp
+  - vb
+  name: ListDispatchAsync(ListAgentDispatchRequest, CancellationToken)
+  nameWithType: ILiveKitAgentDispatchService.ListDispatchAsync(ListAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListDispatchAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitAgentDispatchService.cs
+    startLine: 28
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists agent dispatches for a room.
+  example: []
+  syntax:
+    content: Task<ListAgentDispatchResponse> ListDispatchAsync(ListAgentDispatchRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListAgentDispatchRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentDispatchResponse}
+    content.vb: Function ListDispatchAsync(request As ListAgentDispatchRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListAgentDispatchResponse)
+  overload: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync*
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync
+  href: LiveKit.Services.ILiveKitAgentDispatchService.html#LiveKit_Services_ILiveKitAgentDispatchService_CreateDispatchAsync_LiveKit_Proto_CreateAgentDispatchRequest_System_Threading_CancellationToken_
+  name: CreateDispatchAsync
+  nameWithType: ILiveKitAgentDispatchService.CreateDispatchAsync
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync
+- uid: LiveKit.Proto.CreateAgentDispatchRequest
+  commentId: T:LiveKit.Proto.CreateAgentDispatchRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateAgentDispatchRequest.html
+  name: CreateAgentDispatchRequest
+  nameWithType: CreateAgentDispatchRequest
+  fullName: LiveKit.Proto.CreateAgentDispatchRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.AgentDispatch}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.AgentDispatch}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AgentDispatch>
+  nameWithType: Task<AgentDispatch>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.AgentDispatch>
+  nameWithType.vb: Task(Of AgentDispatch)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.AgentDispatch)
+  name.vb: Task(Of AgentDispatch)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.AgentDispatch
+    name: AgentDispatch
+    href: LiveKit.Proto.AgentDispatch.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AgentDispatch
+    name: AgentDispatch
+    href: LiveKit.Proto.AgentDispatch.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync
+  href: LiveKit.Services.ILiveKitAgentDispatchService.html#LiveKit_Services_ILiveKitAgentDispatchService_DeleteDispatchAsync_LiveKit_Proto_DeleteAgentDispatchRequest_System_Threading_CancellationToken_
+  name: DeleteDispatchAsync
+  nameWithType: ILiveKitAgentDispatchService.DeleteDispatchAsync
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync
+- uid: LiveKit.Proto.DeleteAgentDispatchRequest
+  commentId: T:LiveKit.Proto.DeleteAgentDispatchRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeleteAgentDispatchRequest.html
+  name: DeleteAgentDispatchRequest
+  nameWithType: DeleteAgentDispatchRequest
+  fullName: LiveKit.Proto.DeleteAgentDispatchRequest
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync
+  href: LiveKit.Services.ILiveKitAgentDispatchService.html#LiveKit_Services_ILiveKitAgentDispatchService_ListDispatchAsync_LiveKit_Proto_ListAgentDispatchRequest_System_Threading_CancellationToken_
+  name: ListDispatchAsync
+  nameWithType: ILiveKitAgentDispatchService.ListDispatchAsync
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync
+- uid: LiveKit.Proto.ListAgentDispatchRequest
+  commentId: T:LiveKit.Proto.ListAgentDispatchRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListAgentDispatchRequest.html
+  name: ListAgentDispatchRequest
+  nameWithType: ListAgentDispatchRequest
+  fullName: LiveKit.Proto.ListAgentDispatchRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentDispatchResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListAgentDispatchResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListAgentDispatchResponse>
+  nameWithType: Task<ListAgentDispatchResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListAgentDispatchResponse>
+  nameWithType.vb: Task(Of ListAgentDispatchResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListAgentDispatchResponse)
+  name.vb: Task(Of ListAgentDispatchResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListAgentDispatchResponse
+    name: ListAgentDispatchResponse
+    href: LiveKit.Proto.ListAgentDispatchResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListAgentDispatchResponse
+    name: ListAgentDispatchResponse
+    href: LiveKit.Proto.ListAgentDispatchResponse.html
+  - name: )

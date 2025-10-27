@@ -1,0 +1,970 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.LiveKitAgentDispatchService
+  commentId: T:LiveKit.Services.LiveKitAgentDispatchService
+  id: LiveKitAgentDispatchService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.LiveKitAgentDispatchService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitAgentDispatchService},LiveKit.Authentication.ILiveKitTokenService)
+  - LiveKit.Services.LiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: LiveKitAgentDispatchService
+  nameWithType: LiveKitAgentDispatchService
+  fullName: LiveKit.Services.LiveKitAgentDispatchService
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LiveKitAgentDispatchService
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+    startLine: 10
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: >-
+    Service for managing agent dispatches to rooms.
+
+    <p>
+
+    Provides methods for dispatching AI agents to rooms based on room configuration or on-demand.
+
+    See <a href="https://docs.livekit.io/home/get-started/authentication/#room-configuration">Agent Dispatch Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: 'public sealed class LiveKitAgentDispatchService : TwirpClient, ILiveKitAgentDispatchService'
+    content.vb: Public NotInheritable Class LiveKitAgentDispatchService Inherits TwirpClient Implements ILiveKitAgentDispatchService
+  inheritance:
+  - System.Object
+  - LiveKit.Services.TwirpClient
+  implements:
+  - LiveKit.Services.ILiveKitAgentDispatchService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: LiveKit.Services.LiveKitAgentDispatchService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitAgentDispatchService},LiveKit.Authentication.ILiveKitTokenService)
+  commentId: M:LiveKit.Services.LiveKitAgentDispatchService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitAgentDispatchService},LiveKit.Authentication.ILiveKitTokenService)
+  id: '#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitAgentDispatchService},LiveKit.Authentication.ILiveKitTokenService)'
+  parent: LiveKit.Services.LiveKitAgentDispatchService
+  langs:
+  - csharp
+  - vb
+  name: LiveKitAgentDispatchService(HttpClient, ILogger<LiveKitAgentDispatchService>, ILiveKitTokenService)
+  nameWithType: LiveKitAgentDispatchService.LiveKitAgentDispatchService(HttpClient, ILogger<LiveKitAgentDispatchService>, ILiveKitTokenService)
+  fullName: LiveKit.Services.LiveKitAgentDispatchService.LiveKitAgentDispatchService(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger<LiveKit.Services.LiveKitAgentDispatchService>, LiveKit.Authentication.ILiveKitTokenService)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+    startLine: 17
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Initializes a new instance of the <xref href="LiveKit.Services.LiveKitAgentDispatchService" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public LiveKitAgentDispatchService(HttpClient httpClient, ILogger<LiveKitAgentDispatchService> logger, ILiveKitTokenService _tokenService)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitAgentDispatchService}
+    - id: _tokenService
+      type: LiveKit.Authentication.ILiveKitTokenService
+    content.vb: Public Sub New(httpClient As HttpClient, logger As ILogger(Of LiveKitAgentDispatchService), _tokenService As ILiveKitTokenService)
+  overload: LiveKit.Services.LiveKitAgentDispatchService.#ctor*
+  nameWithType.vb: LiveKitAgentDispatchService.New(HttpClient, ILogger(Of LiveKitAgentDispatchService), ILiveKitTokenService)
+  fullName.vb: LiveKit.Services.LiveKitAgentDispatchService.New(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger(Of LiveKit.Services.LiveKitAgentDispatchService), LiveKit.Authentication.ILiveKitTokenService)
+  name.vb: New(HttpClient, ILogger(Of LiveKitAgentDispatchService), ILiveKitTokenService)
+- uid: LiveKit.Services.LiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  id: CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitAgentDispatchService
+  langs:
+  - csharp
+  - vb
+  name: CreateDispatchAsync(CreateAgentDispatchRequest, CancellationToken)
+  nameWithType: LiveKitAgentDispatchService.CreateDispatchAsync(CreateAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateDispatchAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+    startLine: 23
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Creates a new agent dispatch for a room.
+  example: []
+  syntax:
+    content: public Task<AgentDispatch> CreateDispatchAsync(CreateAgentDispatchRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateAgentDispatchRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.AgentDispatch}
+    content.vb: Public Function CreateDispatchAsync(request As CreateAgentDispatchRequest, cancellationToken As CancellationToken = Nothing) As Task(Of AgentDispatch)
+  overload: LiveKit.Services.LiveKitAgentDispatchService.CreateDispatchAsync*
+  implements:
+  - LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  id: DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitAgentDispatchService
+  langs:
+  - csharp
+  - vb
+  name: DeleteDispatchAsync(DeleteAgentDispatchRequest, CancellationToken)
+  nameWithType: LiveKitAgentDispatchService.DeleteDispatchAsync(DeleteAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteDispatchAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+    startLine: 29
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Deletes an agent dispatch.
+  example: []
+  syntax:
+    content: public Task<AgentDispatch> DeleteDispatchAsync(DeleteAgentDispatchRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.DeleteAgentDispatchRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.AgentDispatch}
+    content.vb: Public Function DeleteDispatchAsync(request As DeleteAgentDispatchRequest, cancellationToken As CancellationToken = Nothing) As Task(Of AgentDispatch)
+  overload: LiveKit.Services.LiveKitAgentDispatchService.DeleteDispatchAsync*
+  implements:
+  - LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  id: ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitAgentDispatchService
+  langs:
+  - csharp
+  - vb
+  name: ListDispatchAsync(ListAgentDispatchRequest, CancellationToken)
+  nameWithType: LiveKitAgentDispatchService.ListDispatchAsync(ListAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListDispatchAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitAgentDispatchService.cs
+    startLine: 35
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Lists agent dispatches for a room.
+  example: []
+  syntax:
+    content: public Task<ListAgentDispatchResponse> ListDispatchAsync(ListAgentDispatchRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListAgentDispatchRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentDispatchResponse}
+    content.vb: Public Function ListDispatchAsync(request As ListAgentDispatchRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListAgentDispatchResponse)
+  overload: LiveKit.Services.LiveKitAgentDispatchService.ListDispatchAsync*
+  implements:
+  - LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: LiveKit.Services.TwirpClient
+  commentId: T:LiveKit.Services.TwirpClient
+  parent: LiveKit.Services
+  href: LiveKit.Services.TwirpClient.html
+  name: TwirpClient
+  nameWithType: TwirpClient
+  fullName: LiveKit.Services.TwirpClient
+- uid: LiveKit.Services.ILiveKitAgentDispatchService
+  commentId: T:LiveKit.Services.ILiveKitAgentDispatchService
+  parent: LiveKit.Services
+  href: LiveKit.Services.ILiveKitAgentDispatchService.html
+  name: ILiveKitAgentDispatchService
+  nameWithType: ILiveKitAgentDispatchService
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LiveKit.Services.LiveKitAgentDispatchService
+  commentId: T:LiveKit.Services.LiveKitAgentDispatchService
+  href: LiveKit.Services.LiveKitAgentDispatchService.html
+  name: LiveKitAgentDispatchService
+  nameWithType: LiveKitAgentDispatchService
+  fullName: LiveKit.Services.LiveKitAgentDispatchService
+- uid: LiveKit.Services.LiveKitAgentDispatchService.#ctor*
+  commentId: Overload:LiveKit.Services.LiveKitAgentDispatchService.#ctor
+  href: LiveKit.Services.LiveKitAgentDispatchService.html#LiveKit_Services_LiveKitAgentDispatchService__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Logging_ILogger_LiveKit_Services_LiveKitAgentDispatchService__LiveKit_Authentication_ILiveKitTokenService_
+  name: LiveKitAgentDispatchService
+  nameWithType: LiveKitAgentDispatchService.LiveKitAgentDispatchService
+  fullName: LiveKit.Services.LiveKitAgentDispatchService.LiveKitAgentDispatchService
+  nameWithType.vb: LiveKitAgentDispatchService.New
+  fullName.vb: LiveKit.Services.LiveKitAgentDispatchService.New
+  name.vb: New
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitAgentDispatchService}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitAgentDispatchService}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<LiveKitAgentDispatchService>
+  nameWithType: ILogger<LiveKitAgentDispatchService>
+  fullName: Microsoft.Extensions.Logging.ILogger<LiveKit.Services.LiveKitAgentDispatchService>
+  nameWithType.vb: ILogger(Of LiveKitAgentDispatchService)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of LiveKit.Services.LiveKitAgentDispatchService)
+  name.vb: ILogger(Of LiveKitAgentDispatchService)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: LiveKit.Services.LiveKitAgentDispatchService
+    name: LiveKitAgentDispatchService
+    href: LiveKit.Services.LiveKitAgentDispatchService.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Services.LiveKitAgentDispatchService
+    name: LiveKitAgentDispatchService
+    href: LiveKit.Services.LiveKitAgentDispatchService.html
+  - name: )
+- uid: LiveKit.Authentication.ILiveKitTokenService
+  commentId: T:LiveKit.Authentication.ILiveKitTokenService
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.ILiveKitTokenService.html
+  name: ILiveKitTokenService
+  nameWithType: ILiveKitTokenService
+  fullName: LiveKit.Authentication.ILiveKitTokenService
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: LiveKit.Services.LiveKitAgentDispatchService.CreateDispatchAsync*
+  commentId: Overload:LiveKit.Services.LiveKitAgentDispatchService.CreateDispatchAsync
+  href: LiveKit.Services.LiveKitAgentDispatchService.html#LiveKit_Services_LiveKitAgentDispatchService_CreateDispatchAsync_LiveKit_Proto_CreateAgentDispatchRequest_System_Threading_CancellationToken_
+  name: CreateDispatchAsync
+  nameWithType: LiveKitAgentDispatchService.CreateDispatchAsync
+  fullName: LiveKit.Services.LiveKitAgentDispatchService.CreateDispatchAsync
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitAgentDispatchService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDispatchAsync(CreateAgentDispatchRequest, CancellationToken)
+  nameWithType: ILiveKitAgentDispatchService.CreateDispatchAsync(CreateAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+    name: CreateDispatchAsync
+  - name: (
+  - uid: LiveKit.Proto.CreateAgentDispatchRequest
+    name: CreateAgentDispatchRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitAgentDispatchService.CreateDispatchAsync(LiveKit.Proto.CreateAgentDispatchRequest,System.Threading.CancellationToken)
+    name: CreateDispatchAsync
+  - name: (
+  - uid: LiveKit.Proto.CreateAgentDispatchRequest
+    name: CreateAgentDispatchRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.CreateAgentDispatchRequest
+  commentId: T:LiveKit.Proto.CreateAgentDispatchRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateAgentDispatchRequest.html
+  name: CreateAgentDispatchRequest
+  nameWithType: CreateAgentDispatchRequest
+  fullName: LiveKit.Proto.CreateAgentDispatchRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.AgentDispatch}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.AgentDispatch}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AgentDispatch>
+  nameWithType: Task<AgentDispatch>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.AgentDispatch>
+  nameWithType.vb: Task(Of AgentDispatch)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.AgentDispatch)
+  name.vb: Task(Of AgentDispatch)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.AgentDispatch
+    name: AgentDispatch
+    href: LiveKit.Proto.AgentDispatch.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AgentDispatch
+    name: AgentDispatch
+    href: LiveKit.Proto.AgentDispatch.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.LiveKitAgentDispatchService.DeleteDispatchAsync*
+  commentId: Overload:LiveKit.Services.LiveKitAgentDispatchService.DeleteDispatchAsync
+  href: LiveKit.Services.LiveKitAgentDispatchService.html#LiveKit_Services_LiveKitAgentDispatchService_DeleteDispatchAsync_LiveKit_Proto_DeleteAgentDispatchRequest_System_Threading_CancellationToken_
+  name: DeleteDispatchAsync
+  nameWithType: LiveKitAgentDispatchService.DeleteDispatchAsync
+  fullName: LiveKit.Services.LiveKitAgentDispatchService.DeleteDispatchAsync
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitAgentDispatchService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: DeleteDispatchAsync(DeleteAgentDispatchRequest, CancellationToken)
+  nameWithType: ILiveKitAgentDispatchService.DeleteDispatchAsync(DeleteAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+    name: DeleteDispatchAsync
+  - name: (
+  - uid: LiveKit.Proto.DeleteAgentDispatchRequest
+    name: DeleteAgentDispatchRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitAgentDispatchService.DeleteDispatchAsync(LiveKit.Proto.DeleteAgentDispatchRequest,System.Threading.CancellationToken)
+    name: DeleteDispatchAsync
+  - name: (
+  - uid: LiveKit.Proto.DeleteAgentDispatchRequest
+    name: DeleteAgentDispatchRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.DeleteAgentDispatchRequest
+  commentId: T:LiveKit.Proto.DeleteAgentDispatchRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeleteAgentDispatchRequest.html
+  name: DeleteAgentDispatchRequest
+  nameWithType: DeleteAgentDispatchRequest
+  fullName: LiveKit.Proto.DeleteAgentDispatchRequest
+- uid: LiveKit.Services.LiveKitAgentDispatchService.ListDispatchAsync*
+  commentId: Overload:LiveKit.Services.LiveKitAgentDispatchService.ListDispatchAsync
+  href: LiveKit.Services.LiveKitAgentDispatchService.html#LiveKit_Services_LiveKitAgentDispatchService_ListDispatchAsync_LiveKit_Proto_ListAgentDispatchRequest_System_Threading_CancellationToken_
+  name: ListDispatchAsync
+  nameWithType: LiveKitAgentDispatchService.ListDispatchAsync
+  fullName: LiveKit.Services.LiveKitAgentDispatchService.ListDispatchAsync
+- uid: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitAgentDispatchService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: ListDispatchAsync(ListAgentDispatchRequest, CancellationToken)
+  nameWithType: ILiveKitAgentDispatchService.ListDispatchAsync(ListAgentDispatchRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+    name: ListDispatchAsync
+  - name: (
+  - uid: LiveKit.Proto.ListAgentDispatchRequest
+    name: ListAgentDispatchRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitAgentDispatchService.ListDispatchAsync(LiveKit.Proto.ListAgentDispatchRequest,System.Threading.CancellationToken)
+    name: ListDispatchAsync
+  - name: (
+  - uid: LiveKit.Proto.ListAgentDispatchRequest
+    name: ListAgentDispatchRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.ListAgentDispatchRequest
+  commentId: T:LiveKit.Proto.ListAgentDispatchRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListAgentDispatchRequest.html
+  name: ListAgentDispatchRequest
+  nameWithType: ListAgentDispatchRequest
+  fullName: LiveKit.Proto.ListAgentDispatchRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentDispatchResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListAgentDispatchResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListAgentDispatchResponse>
+  nameWithType: Task<ListAgentDispatchResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListAgentDispatchResponse>
+  nameWithType.vb: Task(Of ListAgentDispatchResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListAgentDispatchResponse)
+  name.vb: Task(Of ListAgentDispatchResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListAgentDispatchResponse
+    name: ListAgentDispatchResponse
+    href: LiveKit.Proto.ListAgentDispatchResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListAgentDispatchResponse
+    name: ListAgentDispatchResponse
+    href: LiveKit.Proto.ListAgentDispatchResponse.html
+  - name: )

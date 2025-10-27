@@ -1,0 +1,1562 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SimulateJobRequest
+  commentId: T:LiveKit.Proto.SimulateJobRequest
+  id: SimulateJobRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SimulateJobRequest.#ctor
+  - LiveKit.Proto.SimulateJobRequest.#ctor(LiveKit.Proto.SimulateJobRequest)
+  - LiveKit.Proto.SimulateJobRequest.CalculateSize
+  - LiveKit.Proto.SimulateJobRequest.Clone
+  - LiveKit.Proto.SimulateJobRequest.Descriptor
+  - LiveKit.Proto.SimulateJobRequest.Equals(LiveKit.Proto.SimulateJobRequest)
+  - LiveKit.Proto.SimulateJobRequest.Equals(System.Object)
+  - LiveKit.Proto.SimulateJobRequest.GetHashCode
+  - LiveKit.Proto.SimulateJobRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SimulateJobRequest.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  - LiveKit.Proto.SimulateJobRequest.Parser
+  - LiveKit.Proto.SimulateJobRequest.Participant
+  - LiveKit.Proto.SimulateJobRequest.ParticipantFieldNumber
+  - LiveKit.Proto.SimulateJobRequest.Room
+  - LiveKit.Proto.SimulateJobRequest.RoomFieldNumber
+  - LiveKit.Proto.SimulateJobRequest.ToString
+  - LiveKit.Proto.SimulateJobRequest.Type
+  - LiveKit.Proto.SimulateJobRequest.TypeFieldNumber
+  - LiveKit.Proto.SimulateJobRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SimulateJobRequest
+  nameWithType: SimulateJobRequest
+  fullName: LiveKit.Proto.SimulateJobRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SimulateJobRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2185
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SimulateJobRequest : IMessage<SimulateJobRequest>, IEquatable<SimulateJobRequest>, IDeepCloneable<SimulateJobRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SimulateJobRequest Implements IMessage(Of SimulateJobRequest), IEquatable(Of SimulateJobRequest), IDeepCloneable(Of SimulateJobRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}
+  - System.IEquatable{LiveKit.Proto.SimulateJobRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SimulateJobRequest.Parser
+  commentId: P:LiveKit.Proto.SimulateJobRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SimulateJobRequest.Parser
+  fullName: LiveKit.Proto.SimulateJobRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2193
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SimulateJobRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SimulateJobRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SimulateJobRequest)
+  overload: LiveKit.Proto.SimulateJobRequest.Parser*
+- uid: LiveKit.Proto.SimulateJobRequest.Descriptor
+  commentId: P:LiveKit.Proto.SimulateJobRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SimulateJobRequest.Descriptor
+  fullName: LiveKit.Proto.SimulateJobRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2197
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SimulateJobRequest.Descriptor*
+- uid: LiveKit.Proto.SimulateJobRequest.#ctor
+  commentId: M:LiveKit.Proto.SimulateJobRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: SimulateJobRequest()
+  nameWithType: SimulateJobRequest.SimulateJobRequest()
+  fullName: LiveKit.Proto.SimulateJobRequest.SimulateJobRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2209
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SimulateJobRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SimulateJobRequest.#ctor*
+  nameWithType.vb: SimulateJobRequest.New()
+  fullName.vb: LiveKit.Proto.SimulateJobRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SimulateJobRequest.#ctor(LiveKit.Proto.SimulateJobRequest)
+  commentId: M:LiveKit.Proto.SimulateJobRequest.#ctor(LiveKit.Proto.SimulateJobRequest)
+  id: '#ctor(LiveKit.Proto.SimulateJobRequest)'
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: SimulateJobRequest(SimulateJobRequest)
+  nameWithType: SimulateJobRequest.SimulateJobRequest(SimulateJobRequest)
+  fullName: LiveKit.Proto.SimulateJobRequest.SimulateJobRequest(LiveKit.Proto.SimulateJobRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2217
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SimulateJobRequest(SimulateJobRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulateJobRequest
+    content.vb: Public Sub New(other As SimulateJobRequest)
+  overload: LiveKit.Proto.SimulateJobRequest.#ctor*
+  nameWithType.vb: SimulateJobRequest.New(SimulateJobRequest)
+  fullName.vb: LiveKit.Proto.SimulateJobRequest.New(LiveKit.Proto.SimulateJobRequest)
+  name.vb: New(SimulateJobRequest)
+- uid: LiveKit.Proto.SimulateJobRequest.Clone
+  commentId: M:LiveKit.Proto.SimulateJobRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SimulateJobRequest.Clone()
+  fullName: LiveKit.Proto.SimulateJobRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2226
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SimulateJobRequest Clone()
+    return:
+      type: LiveKit.Proto.SimulateJobRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SimulateJobRequest
+  overload: LiveKit.Proto.SimulateJobRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}.Clone
+- uid: LiveKit.Proto.SimulateJobRequest.TypeFieldNumber
+  commentId: F:LiveKit.Proto.SimulateJobRequest.TypeFieldNumber
+  id: TypeFieldNumber
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: TypeFieldNumber
+  nameWithType: SimulateJobRequest.TypeFieldNumber
+  fullName: LiveKit.Proto.SimulateJobRequest.TypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2233
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "type" field.
+  example: []
+  syntax:
+    content: public const int TypeFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const TypeFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SimulateJobRequest.Type
+  commentId: P:LiveKit.Proto.SimulateJobRequest.Type
+  id: Type
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SimulateJobRequest.Type
+  fullName: LiveKit.Proto.SimulateJobRequest.Type
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Type
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2235
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public JobType Type { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.JobType
+    content.vb: Public Property Type As JobType
+  overload: LiveKit.Proto.SimulateJobRequest.Type*
+- uid: LiveKit.Proto.SimulateJobRequest.RoomFieldNumber
+  commentId: F:LiveKit.Proto.SimulateJobRequest.RoomFieldNumber
+  id: RoomFieldNumber
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomFieldNumber
+  nameWithType: SimulateJobRequest.RoomFieldNumber
+  fullName: LiveKit.Proto.SimulateJobRequest.RoomFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2245
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room" field.
+  example: []
+  syntax:
+    content: public const int RoomFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SimulateJobRequest.Room
+  commentId: P:LiveKit.Proto.SimulateJobRequest.Room
+  id: Room
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: SimulateJobRequest.Room
+  fullName: LiveKit.Proto.SimulateJobRequest.Room
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Room
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2247
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Room Room { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.Room
+    content.vb: Public Property Room As Room
+  overload: LiveKit.Proto.SimulateJobRequest.Room*
+- uid: LiveKit.Proto.SimulateJobRequest.ParticipantFieldNumber
+  commentId: F:LiveKit.Proto.SimulateJobRequest.ParticipantFieldNumber
+  id: ParticipantFieldNumber
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: ParticipantFieldNumber
+  nameWithType: SimulateJobRequest.ParticipantFieldNumber
+  fullName: LiveKit.Proto.SimulateJobRequest.ParticipantFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2257
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant" field.
+  example: []
+  syntax:
+    content: public const int ParticipantFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SimulateJobRequest.Participant
+  commentId: P:LiveKit.Proto.SimulateJobRequest.Participant
+  id: Participant
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: Participant
+  nameWithType: SimulateJobRequest.Participant
+  fullName: LiveKit.Proto.SimulateJobRequest.Participant
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Participant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2259
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantInfo Participant { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ParticipantInfo
+    content.vb: Public Property Participant As ParticipantInfo
+  overload: LiveKit.Proto.SimulateJobRequest.Participant*
+- uid: LiveKit.Proto.SimulateJobRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SimulateJobRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SimulateJobRequest.Equals(object)
+  fullName: LiveKit.Proto.SimulateJobRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2268
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SimulateJobRequest.Equals*
+  nameWithType.vb: SimulateJobRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.SimulateJobRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SimulateJobRequest.Equals(LiveKit.Proto.SimulateJobRequest)
+  commentId: M:LiveKit.Proto.SimulateJobRequest.Equals(LiveKit.Proto.SimulateJobRequest)
+  id: Equals(LiveKit.Proto.SimulateJobRequest)
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(SimulateJobRequest)
+  nameWithType: SimulateJobRequest.Equals(SimulateJobRequest)
+  fullName: LiveKit.Proto.SimulateJobRequest.Equals(LiveKit.Proto.SimulateJobRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2274
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SimulateJobRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulateJobRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SimulateJobRequest) As Boolean
+  overload: LiveKit.Proto.SimulateJobRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SimulateJobRequest}.Equals(LiveKit.Proto.SimulateJobRequest)
+- uid: LiveKit.Proto.SimulateJobRequest.GetHashCode
+  commentId: M:LiveKit.Proto.SimulateJobRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SimulateJobRequest.GetHashCode()
+  fullName: LiveKit.Proto.SimulateJobRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2289
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SimulateJobRequest.GetHashCode*
+- uid: LiveKit.Proto.SimulateJobRequest.ToString
+  commentId: M:LiveKit.Proto.SimulateJobRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SimulateJobRequest.ToString()
+  fullName: LiveKit.Proto.SimulateJobRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2302
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SimulateJobRequest.ToString*
+- uid: LiveKit.Proto.SimulateJobRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SimulateJobRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SimulateJobRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SimulateJobRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2308
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SimulateJobRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SimulateJobRequest.CalculateSize
+  commentId: M:LiveKit.Proto.SimulateJobRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SimulateJobRequest.CalculateSize()
+  fullName: LiveKit.Proto.SimulateJobRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2354
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SimulateJobRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SimulateJobRequest.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  commentId: M:LiveKit.Proto.SimulateJobRequest.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  id: MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SimulateJobRequest)
+  nameWithType: SimulateJobRequest.MergeFrom(SimulateJobRequest)
+  fullName: LiveKit.Proto.SimulateJobRequest.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2373
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SimulateJobRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulateJobRequest
+    content.vb: Public Sub MergeFrom(other As SimulateJobRequest)
+  overload: LiveKit.Proto.SimulateJobRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+- uid: LiveKit.Proto.SimulateJobRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SimulateJobRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SimulateJobRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SimulateJobRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SimulateJobRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2397
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SimulateJobRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SimulateJobRequest.html
+  name: IMessage<SimulateJobRequest>
+  nameWithType: IMessage<SimulateJobRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SimulateJobRequest>
+  nameWithType.vb: IMessage(Of SimulateJobRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SimulateJobRequest)
+  name.vb: IMessage(Of SimulateJobRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SimulateJobRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.SimulateJobRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SimulateJobRequest>
+  nameWithType: IEquatable<SimulateJobRequest>
+  fullName: System.IEquatable<LiveKit.Proto.SimulateJobRequest>
+  nameWithType.vb: IEquatable(Of SimulateJobRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SimulateJobRequest)
+  name.vb: IEquatable(Of SimulateJobRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SimulateJobRequest.html
+  name: IDeepCloneable<SimulateJobRequest>
+  nameWithType: IDeepCloneable<SimulateJobRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SimulateJobRequest>
+  nameWithType.vb: IDeepCloneable(Of SimulateJobRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SimulateJobRequest)
+  name.vb: IDeepCloneable(Of SimulateJobRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SimulateJobRequest.Parser*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.Parser
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_Parser
+  name: Parser
+  nameWithType: SimulateJobRequest.Parser
+  fullName: LiveKit.Proto.SimulateJobRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SimulateJobRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SimulateJobRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SimulateJobRequest.html
+  name: MessageParser<SimulateJobRequest>
+  nameWithType: MessageParser<SimulateJobRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SimulateJobRequest>
+  nameWithType.vb: MessageParser(Of SimulateJobRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SimulateJobRequest)
+  name.vb: MessageParser(Of SimulateJobRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SimulateJobRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.Descriptor
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_Descriptor
+  name: Descriptor
+  nameWithType: SimulateJobRequest.Descriptor
+  fullName: LiveKit.Proto.SimulateJobRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SimulateJobRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.#ctor
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest__ctor
+  name: SimulateJobRequest
+  nameWithType: SimulateJobRequest.SimulateJobRequest
+  fullName: LiveKit.Proto.SimulateJobRequest.SimulateJobRequest
+  nameWithType.vb: SimulateJobRequest.New
+  fullName.vb: LiveKit.Proto.SimulateJobRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.SimulateJobRequest
+  commentId: T:LiveKit.Proto.SimulateJobRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SimulateJobRequest.html
+  name: SimulateJobRequest
+  nameWithType: SimulateJobRequest
+  fullName: LiveKit.Proto.SimulateJobRequest
+- uid: LiveKit.Proto.SimulateJobRequest.Clone*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.Clone
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_Clone
+  name: Clone
+  nameWithType: SimulateJobRequest.Clone
+  fullName: LiveKit.Proto.SimulateJobRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SimulateJobRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SimulateJobRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SimulateJobRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SimulateJobRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateJobRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SimulateJobRequest.Type*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.Type
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_Type
+  name: Type
+  nameWithType: SimulateJobRequest.Type
+  fullName: LiveKit.Proto.SimulateJobRequest.Type
+- uid: LiveKit.Proto.JobType
+  commentId: T:LiveKit.Proto.JobType
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.JobType.html
+  name: JobType
+  nameWithType: JobType
+  fullName: LiveKit.Proto.JobType
+- uid: LiveKit.Proto.SimulateJobRequest.Room*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.Room
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_Room
+  name: Room
+  nameWithType: SimulateJobRequest.Room
+  fullName: LiveKit.Proto.SimulateJobRequest.Room
+- uid: LiveKit.Proto.Room
+  commentId: T:LiveKit.Proto.Room
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.Room.html
+  name: Room
+  nameWithType: Room
+  fullName: LiveKit.Proto.Room
+- uid: LiveKit.Proto.SimulateJobRequest.Participant*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.Participant
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_Participant
+  name: Participant
+  nameWithType: SimulateJobRequest.Participant
+  fullName: LiveKit.Proto.SimulateJobRequest.Participant
+- uid: LiveKit.Proto.ParticipantInfo
+  commentId: T:LiveKit.Proto.ParticipantInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: LiveKit.Proto.ParticipantInfo
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SimulateJobRequest.Equals*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.Equals
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: SimulateJobRequest.Equals
+  fullName: LiveKit.Proto.SimulateJobRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.SimulateJobRequest}.Equals(LiveKit.Proto.SimulateJobRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.SimulateJobRequest}.Equals(LiveKit.Proto.SimulateJobRequest)
+  parent: System.IEquatable{LiveKit.Proto.SimulateJobRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SimulateJobRequest)
+  nameWithType: IEquatable<SimulateJobRequest>.Equals(SimulateJobRequest)
+  fullName: System.IEquatable<LiveKit.Proto.SimulateJobRequest>.Equals(LiveKit.Proto.SimulateJobRequest)
+  nameWithType.vb: IEquatable(Of SimulateJobRequest).Equals(SimulateJobRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SimulateJobRequest).Equals(LiveKit.Proto.SimulateJobRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SimulateJobRequest}.Equals(LiveKit.Proto.SimulateJobRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SimulateJobRequest}.Equals(LiveKit.Proto.SimulateJobRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulateJobRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.GetHashCode
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: SimulateJobRequest.GetHashCode
+  fullName: LiveKit.Proto.SimulateJobRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulateJobRequest.ToString*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.ToString
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_ToString
+  name: ToString
+  nameWithType: SimulateJobRequest.ToString
+  fullName: LiveKit.Proto.SimulateJobRequest.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SimulateJobRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.WriteTo
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SimulateJobRequest.WriteTo
+  fullName: LiveKit.Proto.SimulateJobRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SimulateJobRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.CalculateSize
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: SimulateJobRequest.CalculateSize
+  fullName: LiveKit.Proto.SimulateJobRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulateJobRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SimulateJobRequest.MergeFrom
+  href: LiveKit.Proto.SimulateJobRequest.html#LiveKit_Proto_SimulateJobRequest_MergeFrom_LiveKit_Proto_SimulateJobRequest_
+  name: MergeFrom
+  nameWithType: SimulateJobRequest.MergeFrom
+  fullName: LiveKit.Proto.SimulateJobRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SimulateJobRequest.html
+  name: MergeFrom(SimulateJobRequest)
+  nameWithType: IMessage<SimulateJobRequest>.MergeFrom(SimulateJobRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SimulateJobRequest>.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  nameWithType.vb: IMessage(Of SimulateJobRequest).MergeFrom(SimulateJobRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SimulateJobRequest).MergeFrom(LiveKit.Proto.SimulateJobRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulateJobRequest}.MergeFrom(LiveKit.Proto.SimulateJobRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SimulateJobRequest
+    name: SimulateJobRequest
+    href: LiveKit.Proto.SimulateJobRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

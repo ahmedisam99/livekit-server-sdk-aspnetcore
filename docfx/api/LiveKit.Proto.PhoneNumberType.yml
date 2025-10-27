@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.PhoneNumberType
+  commentId: T:LiveKit.Proto.PhoneNumberType
+  id: PhoneNumberType
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.PhoneNumberType.Local
+  - LiveKit.Proto.PhoneNumberType.Mobile
+  - LiveKit.Proto.PhoneNumberType.TollFree
+  - LiveKit.Proto.PhoneNumberType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberType
+  nameWithType: PhoneNumberType
+  fullName: LiveKit.Proto.PhoneNumberType
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PhoneNumberType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 132
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Phone number type enumeration
+  example: []
+  syntax:
+    content: public enum PhoneNumberType
+    content.vb: Public Enum PhoneNumberType
+- uid: LiveKit.Proto.PhoneNumberType.Unknown
+  commentId: F:LiveKit.Proto.PhoneNumberType.Unknown
+  id: Unknown
+  parent: LiveKit.Proto.PhoneNumberType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: PhoneNumberType.Unknown
+  fullName: LiveKit.Proto.PhoneNumberType.Unknown
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Unknown
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 136
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Default value - unknown or parsing error
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PHONE_NUMBER_TYPE_UNKNOWN")]
+
+      Unknown = 0
+    return:
+      type: LiveKit.Proto.PhoneNumberType
+    content.vb: >-
+      <OriginalName("PHONE_NUMBER_TYPE_UNKNOWN")>
+
+      Unknown = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PHONE_NUMBER_TYPE_UNKNOWN
+- uid: LiveKit.Proto.PhoneNumberType.Mobile
+  commentId: F:LiveKit.Proto.PhoneNumberType.Mobile
+  id: Mobile
+  parent: LiveKit.Proto.PhoneNumberType
+  langs:
+  - csharp
+  - vb
+  name: Mobile
+  nameWithType: PhoneNumberType.Mobile
+  fullName: LiveKit.Proto.PhoneNumberType.Mobile
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Mobile
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 140
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Mobile phone number
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PHONE_NUMBER_TYPE_MOBILE")]
+
+      Mobile = 1
+    return:
+      type: LiveKit.Proto.PhoneNumberType
+    content.vb: >-
+      <OriginalName("PHONE_NUMBER_TYPE_MOBILE")>
+
+      Mobile = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PHONE_NUMBER_TYPE_MOBILE
+- uid: LiveKit.Proto.PhoneNumberType.Local
+  commentId: F:LiveKit.Proto.PhoneNumberType.Local
+  id: Local
+  parent: LiveKit.Proto.PhoneNumberType
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: PhoneNumberType.Local
+  fullName: LiveKit.Proto.PhoneNumberType.Local
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Local
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 144
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Local/fixed line number
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PHONE_NUMBER_TYPE_LOCAL")]
+
+      Local = 2
+    return:
+      type: LiveKit.Proto.PhoneNumberType
+    content.vb: >-
+      <OriginalName("PHONE_NUMBER_TYPE_LOCAL")>
+
+      Local = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PHONE_NUMBER_TYPE_LOCAL
+- uid: LiveKit.Proto.PhoneNumberType.TollFree
+  commentId: F:LiveKit.Proto.PhoneNumberType.TollFree
+  id: TollFree
+  parent: LiveKit.Proto.PhoneNumberType
+  langs:
+  - csharp
+  - vb
+  name: TollFree
+  nameWithType: PhoneNumberType.TollFree
+  fullName: LiveKit.Proto.PhoneNumberType.TollFree
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TollFree
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 148
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Toll-free number
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PHONE_NUMBER_TYPE_TOLL_FREE")]
+
+      TollFree = 3
+    return:
+      type: LiveKit.Proto.PhoneNumberType
+    content.vb: >-
+      <OriginalName("PHONE_NUMBER_TYPE_TOLL_FREE")>
+
+      TollFree = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PHONE_NUMBER_TYPE_TOLL_FREE
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.PhoneNumberType
+  commentId: T:LiveKit.Proto.PhoneNumberType
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.PhoneNumberType.html
+  name: PhoneNumberType
+  nameWithType: PhoneNumberType
+  fullName: LiveKit.Proto.PhoneNumberType

@@ -1,0 +1,1697 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.TrackPermission
+  commentId: T:LiveKit.Proto.TrackPermission
+  id: TrackPermission
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.TrackPermission.#ctor
+  - LiveKit.Proto.TrackPermission.#ctor(LiveKit.Proto.TrackPermission)
+  - LiveKit.Proto.TrackPermission.AllTracks
+  - LiveKit.Proto.TrackPermission.AllTracksFieldNumber
+  - LiveKit.Proto.TrackPermission.CalculateSize
+  - LiveKit.Proto.TrackPermission.Clone
+  - LiveKit.Proto.TrackPermission.Descriptor
+  - LiveKit.Proto.TrackPermission.Equals(LiveKit.Proto.TrackPermission)
+  - LiveKit.Proto.TrackPermission.Equals(System.Object)
+  - LiveKit.Proto.TrackPermission.GetHashCode
+  - LiveKit.Proto.TrackPermission.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.TrackPermission.MergeFrom(LiveKit.Proto.TrackPermission)
+  - LiveKit.Proto.TrackPermission.Parser
+  - LiveKit.Proto.TrackPermission.ParticipantIdentity
+  - LiveKit.Proto.TrackPermission.ParticipantIdentityFieldNumber
+  - LiveKit.Proto.TrackPermission.ParticipantSid
+  - LiveKit.Proto.TrackPermission.ParticipantSidFieldNumber
+  - LiveKit.Proto.TrackPermission.ToString
+  - LiveKit.Proto.TrackPermission.TrackSids
+  - LiveKit.Proto.TrackPermission.TrackSidsFieldNumber
+  - LiveKit.Proto.TrackPermission.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: TrackPermission
+  nameWithType: TrackPermission
+  fullName: LiveKit.Proto.TrackPermission
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPermission
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11176
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class TrackPermission : IMessage<TrackPermission>, IEquatable<TrackPermission>, IDeepCloneable<TrackPermission>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class TrackPermission Implements IMessage(Of TrackPermission), IEquatable(Of TrackPermission), IDeepCloneable(Of TrackPermission), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}
+  - System.IEquatable{LiveKit.Proto.TrackPermission}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.TrackPermission.Parser
+  commentId: P:LiveKit.Proto.TrackPermission.Parser
+  id: Parser
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: TrackPermission.Parser
+  fullName: LiveKit.Proto.TrackPermission.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11184
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<TrackPermission> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.TrackPermission}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of TrackPermission)
+  overload: LiveKit.Proto.TrackPermission.Parser*
+- uid: LiveKit.Proto.TrackPermission.Descriptor
+  commentId: P:LiveKit.Proto.TrackPermission.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: TrackPermission.Descriptor
+  fullName: LiveKit.Proto.TrackPermission.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11188
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.TrackPermission.Descriptor*
+- uid: LiveKit.Proto.TrackPermission.#ctor
+  commentId: M:LiveKit.Proto.TrackPermission.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: TrackPermission()
+  nameWithType: TrackPermission.TrackPermission()
+  fullName: LiveKit.Proto.TrackPermission.TrackPermission()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11200
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TrackPermission()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.TrackPermission.#ctor*
+  nameWithType.vb: TrackPermission.New()
+  fullName.vb: LiveKit.Proto.TrackPermission.New()
+  name.vb: New()
+- uid: LiveKit.Proto.TrackPermission.#ctor(LiveKit.Proto.TrackPermission)
+  commentId: M:LiveKit.Proto.TrackPermission.#ctor(LiveKit.Proto.TrackPermission)
+  id: '#ctor(LiveKit.Proto.TrackPermission)'
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: TrackPermission(TrackPermission)
+  nameWithType: TrackPermission.TrackPermission(TrackPermission)
+  fullName: LiveKit.Proto.TrackPermission.TrackPermission(LiveKit.Proto.TrackPermission)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11208
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TrackPermission(TrackPermission other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TrackPermission
+    content.vb: Public Sub New(other As TrackPermission)
+  overload: LiveKit.Proto.TrackPermission.#ctor*
+  nameWithType.vb: TrackPermission.New(TrackPermission)
+  fullName.vb: LiveKit.Proto.TrackPermission.New(LiveKit.Proto.TrackPermission)
+  name.vb: New(TrackPermission)
+- uid: LiveKit.Proto.TrackPermission.Clone
+  commentId: M:LiveKit.Proto.TrackPermission.Clone
+  id: Clone
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: TrackPermission.Clone()
+  fullName: LiveKit.Proto.TrackPermission.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11218
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public TrackPermission Clone()
+    return:
+      type: LiveKit.Proto.TrackPermission
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As TrackPermission
+  overload: LiveKit.Proto.TrackPermission.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}.Clone
+- uid: LiveKit.Proto.TrackPermission.ParticipantSidFieldNumber
+  commentId: F:LiveKit.Proto.TrackPermission.ParticipantSidFieldNumber
+  id: ParticipantSidFieldNumber
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: ParticipantSidFieldNumber
+  nameWithType: TrackPermission.ParticipantSidFieldNumber
+  fullName: LiveKit.Proto.TrackPermission.ParticipantSidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantSidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11225
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_sid" field.
+  example: []
+  syntax:
+    content: public const int ParticipantSidFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantSidFieldNumber As Integer = 1
+- uid: LiveKit.Proto.TrackPermission.ParticipantSid
+  commentId: P:LiveKit.Proto.TrackPermission.ParticipantSid
+  id: ParticipantSid
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: ParticipantSid
+  nameWithType: TrackPermission.ParticipantSid
+  fullName: LiveKit.Proto.TrackPermission.ParticipantSid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantSid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11230
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: permission could be granted either by participant sid or identity
+  example: []
+  syntax:
+    content: public string ParticipantSid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantSid As String
+  overload: LiveKit.Proto.TrackPermission.ParticipantSid*
+- uid: LiveKit.Proto.TrackPermission.AllTracksFieldNumber
+  commentId: F:LiveKit.Proto.TrackPermission.AllTracksFieldNumber
+  id: AllTracksFieldNumber
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: AllTracksFieldNumber
+  nameWithType: TrackPermission.AllTracksFieldNumber
+  fullName: LiveKit.Proto.TrackPermission.AllTracksFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AllTracksFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11240
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "all_tracks" field.
+  example: []
+  syntax:
+    content: public const int AllTracksFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AllTracksFieldNumber As Integer = 2
+- uid: LiveKit.Proto.TrackPermission.AllTracks
+  commentId: P:LiveKit.Proto.TrackPermission.AllTracks
+  id: AllTracks
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: AllTracks
+  nameWithType: TrackPermission.AllTracks
+  fullName: LiveKit.Proto.TrackPermission.AllTracks
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AllTracks
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11242
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool AllTracks { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllTracks As Boolean
+  overload: LiveKit.Proto.TrackPermission.AllTracks*
+- uid: LiveKit.Proto.TrackPermission.TrackSidsFieldNumber
+  commentId: F:LiveKit.Proto.TrackPermission.TrackSidsFieldNumber
+  id: TrackSidsFieldNumber
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: TrackSidsFieldNumber
+  nameWithType: TrackPermission.TrackSidsFieldNumber
+  fullName: LiveKit.Proto.TrackPermission.TrackSidsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSidsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11252
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_sids" field.
+  example: []
+  syntax:
+    content: public const int TrackSidsFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackSidsFieldNumber As Integer = 3
+- uid: LiveKit.Proto.TrackPermission.TrackSids
+  commentId: P:LiveKit.Proto.TrackPermission.TrackSids
+  id: TrackSids
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: TrackSids
+  nameWithType: TrackPermission.TrackSids
+  fullName: LiveKit.Proto.TrackPermission.TrackSids
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSids
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11256
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<string> TrackSids { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property TrackSids As RepeatedField(Of String)
+  overload: LiveKit.Proto.TrackPermission.TrackSids*
+- uid: LiveKit.Proto.TrackPermission.ParticipantIdentityFieldNumber
+  commentId: F:LiveKit.Proto.TrackPermission.ParticipantIdentityFieldNumber
+  id: ParticipantIdentityFieldNumber
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentityFieldNumber
+  nameWithType: TrackPermission.ParticipantIdentityFieldNumber
+  fullName: LiveKit.Proto.TrackPermission.ParticipantIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11263
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_identity" field.
+  example: []
+  syntax:
+    content: public const int ParticipantIdentityFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantIdentityFieldNumber As Integer = 4
+- uid: LiveKit.Proto.TrackPermission.ParticipantIdentity
+  commentId: P:LiveKit.Proto.TrackPermission.ParticipantIdentity
+  id: ParticipantIdentity
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentity
+  nameWithType: TrackPermission.ParticipantIdentity
+  fullName: LiveKit.Proto.TrackPermission.ParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11265
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ParticipantIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantIdentity As String
+  overload: LiveKit.Proto.TrackPermission.ParticipantIdentity*
+- uid: LiveKit.Proto.TrackPermission.Equals(System.Object)
+  commentId: M:LiveKit.Proto.TrackPermission.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: TrackPermission.Equals(object)
+  fullName: LiveKit.Proto.TrackPermission.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11274
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.TrackPermission.Equals*
+  nameWithType.vb: TrackPermission.Equals(Object)
+  fullName.vb: LiveKit.Proto.TrackPermission.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.TrackPermission.Equals(LiveKit.Proto.TrackPermission)
+  commentId: M:LiveKit.Proto.TrackPermission.Equals(LiveKit.Proto.TrackPermission)
+  id: Equals(LiveKit.Proto.TrackPermission)
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: Equals(TrackPermission)
+  nameWithType: TrackPermission.Equals(TrackPermission)
+  fullName: LiveKit.Proto.TrackPermission.Equals(LiveKit.Proto.TrackPermission)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11280
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(TrackPermission other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TrackPermission
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As TrackPermission) As Boolean
+  overload: LiveKit.Proto.TrackPermission.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.TrackPermission}.Equals(LiveKit.Proto.TrackPermission)
+- uid: LiveKit.Proto.TrackPermission.GetHashCode
+  commentId: M:LiveKit.Proto.TrackPermission.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TrackPermission.GetHashCode()
+  fullName: LiveKit.Proto.TrackPermission.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11296
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.TrackPermission.GetHashCode*
+- uid: LiveKit.Proto.TrackPermission.ToString
+  commentId: M:LiveKit.Proto.TrackPermission.ToString
+  id: ToString
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TrackPermission.ToString()
+  fullName: LiveKit.Proto.TrackPermission.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11310
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.TrackPermission.ToString*
+- uid: LiveKit.Proto.TrackPermission.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.TrackPermission.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: TrackPermission.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.TrackPermission.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11316
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.TrackPermission.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.TrackPermission.CalculateSize
+  commentId: M:LiveKit.Proto.TrackPermission.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: TrackPermission.CalculateSize()
+  fullName: LiveKit.Proto.TrackPermission.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11364
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.TrackPermission.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.TrackPermission.MergeFrom(LiveKit.Proto.TrackPermission)
+  commentId: M:LiveKit.Proto.TrackPermission.MergeFrom(LiveKit.Proto.TrackPermission)
+  id: MergeFrom(LiveKit.Proto.TrackPermission)
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(TrackPermission)
+  nameWithType: TrackPermission.MergeFrom(TrackPermission)
+  fullName: LiveKit.Proto.TrackPermission.MergeFrom(LiveKit.Proto.TrackPermission)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11384
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(TrackPermission other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TrackPermission
+    content.vb: Public Sub MergeFrom(other As TrackPermission)
+  overload: LiveKit.Proto.TrackPermission.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}.MergeFrom(LiveKit.Proto.TrackPermission)
+- uid: LiveKit.Proto.TrackPermission.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.TrackPermission.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.TrackPermission
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: TrackPermission.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.TrackPermission.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 11403
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.TrackPermission.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.TrackPermission.html
+  name: IMessage<TrackPermission>
+  nameWithType: IMessage<TrackPermission>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.TrackPermission>
+  nameWithType.vb: IMessage(Of TrackPermission)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.TrackPermission)
+  name.vb: IMessage(Of TrackPermission)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.TrackPermission}
+  commentId: T:System.IEquatable{LiveKit.Proto.TrackPermission}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TrackPermission>
+  nameWithType: IEquatable<TrackPermission>
+  fullName: System.IEquatable<LiveKit.Proto.TrackPermission>
+  nameWithType.vb: IEquatable(Of TrackPermission)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.TrackPermission)
+  name.vb: IEquatable(Of TrackPermission)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.TrackPermission.html
+  name: IDeepCloneable<TrackPermission>
+  nameWithType: IDeepCloneable<TrackPermission>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.TrackPermission>
+  nameWithType.vb: IDeepCloneable(Of TrackPermission)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.TrackPermission)
+  name.vb: IDeepCloneable(Of TrackPermission)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.TrackPermission.Parser*
+  commentId: Overload:LiveKit.Proto.TrackPermission.Parser
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_Parser
+  name: Parser
+  nameWithType: TrackPermission.Parser
+  fullName: LiveKit.Proto.TrackPermission.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.TrackPermission}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.TrackPermission}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.TrackPermission.html
+  name: MessageParser<TrackPermission>
+  nameWithType: MessageParser<TrackPermission>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.TrackPermission>
+  nameWithType.vb: MessageParser(Of TrackPermission)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.TrackPermission)
+  name.vb: MessageParser(Of TrackPermission)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.TrackPermission.Descriptor*
+  commentId: Overload:LiveKit.Proto.TrackPermission.Descriptor
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_Descriptor
+  name: Descriptor
+  nameWithType: TrackPermission.Descriptor
+  fullName: LiveKit.Proto.TrackPermission.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.TrackPermission.#ctor*
+  commentId: Overload:LiveKit.Proto.TrackPermission.#ctor
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission__ctor
+  name: TrackPermission
+  nameWithType: TrackPermission.TrackPermission
+  fullName: LiveKit.Proto.TrackPermission.TrackPermission
+  nameWithType.vb: TrackPermission.New
+  fullName.vb: LiveKit.Proto.TrackPermission.New
+  name.vb: New
+- uid: LiveKit.Proto.TrackPermission
+  commentId: T:LiveKit.Proto.TrackPermission
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrackPermission.html
+  name: TrackPermission
+  nameWithType: TrackPermission
+  fullName: LiveKit.Proto.TrackPermission
+- uid: LiveKit.Proto.TrackPermission.Clone*
+  commentId: Overload:LiveKit.Proto.TrackPermission.Clone
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_Clone
+  name: Clone
+  nameWithType: TrackPermission.Clone
+  fullName: LiveKit.Proto.TrackPermission.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<TrackPermission>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.TrackPermission>.Clone()
+  nameWithType.vb: IDeepCloneable(Of TrackPermission).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.TrackPermission).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TrackPermission}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.TrackPermission.ParticipantSid*
+  commentId: Overload:LiveKit.Proto.TrackPermission.ParticipantSid
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_ParticipantSid
+  name: ParticipantSid
+  nameWithType: TrackPermission.ParticipantSid
+  fullName: LiveKit.Proto.TrackPermission.ParticipantSid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.TrackPermission.AllTracks*
+  commentId: Overload:LiveKit.Proto.TrackPermission.AllTracks
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_AllTracks
+  name: AllTracks
+  nameWithType: TrackPermission.AllTracks
+  fullName: LiveKit.Proto.TrackPermission.AllTracks
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.TrackPermission.TrackSids*
+  commentId: Overload:LiveKit.Proto.TrackPermission.TrackSids
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_TrackSids
+  name: TrackSids
+  nameWithType: TrackPermission.TrackSids
+  fullName: LiveKit.Proto.TrackPermission.TrackSids
+- uid: Google.Protobuf.Collections.RepeatedField{System.String}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RepeatedField<string>
+  nameWithType: RepeatedField<string>
+  fullName: Google.Protobuf.Collections.RepeatedField<string>
+  nameWithType.vb: RepeatedField(Of String)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of String)
+  name.vb: RepeatedField(Of String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.TrackPermission.ParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.TrackPermission.ParticipantIdentity
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_ParticipantIdentity
+  name: ParticipantIdentity
+  nameWithType: TrackPermission.ParticipantIdentity
+  fullName: LiveKit.Proto.TrackPermission.ParticipantIdentity
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.TrackPermission.Equals*
+  commentId: Overload:LiveKit.Proto.TrackPermission.Equals
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_Equals_System_Object_
+  name: Equals
+  nameWithType: TrackPermission.Equals
+  fullName: LiveKit.Proto.TrackPermission.Equals
+- uid: System.IEquatable{LiveKit.Proto.TrackPermission}.Equals(LiveKit.Proto.TrackPermission)
+  commentId: M:System.IEquatable{LiveKit.Proto.TrackPermission}.Equals(LiveKit.Proto.TrackPermission)
+  parent: System.IEquatable{LiveKit.Proto.TrackPermission}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(TrackPermission)
+  nameWithType: IEquatable<TrackPermission>.Equals(TrackPermission)
+  fullName: System.IEquatable<LiveKit.Proto.TrackPermission>.Equals(LiveKit.Proto.TrackPermission)
+  nameWithType.vb: IEquatable(Of TrackPermission).Equals(TrackPermission)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.TrackPermission).Equals(LiveKit.Proto.TrackPermission)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.TrackPermission}.Equals(LiveKit.Proto.TrackPermission)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.TrackPermission}.Equals(LiveKit.Proto.TrackPermission)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TrackPermission.GetHashCode*
+  commentId: Overload:LiveKit.Proto.TrackPermission.GetHashCode
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_GetHashCode
+  name: GetHashCode
+  nameWithType: TrackPermission.GetHashCode
+  fullName: LiveKit.Proto.TrackPermission.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TrackPermission.ToString*
+  commentId: Overload:LiveKit.Proto.TrackPermission.ToString
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_ToString
+  name: ToString
+  nameWithType: TrackPermission.ToString
+  fullName: LiveKit.Proto.TrackPermission.ToString
+- uid: LiveKit.Proto.TrackPermission.WriteTo*
+  commentId: Overload:LiveKit.Proto.TrackPermission.WriteTo
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: TrackPermission.WriteTo
+  fullName: LiveKit.Proto.TrackPermission.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.TrackPermission.CalculateSize*
+  commentId: Overload:LiveKit.Proto.TrackPermission.CalculateSize
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_CalculateSize
+  name: CalculateSize
+  nameWithType: TrackPermission.CalculateSize
+  fullName: LiveKit.Proto.TrackPermission.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TrackPermission.MergeFrom*
+  commentId: Overload:LiveKit.Proto.TrackPermission.MergeFrom
+  href: LiveKit.Proto.TrackPermission.html#LiveKit_Proto_TrackPermission_MergeFrom_LiveKit_Proto_TrackPermission_
+  name: MergeFrom
+  nameWithType: TrackPermission.MergeFrom
+  fullName: LiveKit.Proto.TrackPermission.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}.MergeFrom(LiveKit.Proto.TrackPermission)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}.MergeFrom(LiveKit.Proto.TrackPermission)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.TrackPermission.html
+  name: MergeFrom(TrackPermission)
+  nameWithType: IMessage<TrackPermission>.MergeFrom(TrackPermission)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.TrackPermission>.MergeFrom(LiveKit.Proto.TrackPermission)
+  nameWithType.vb: IMessage(Of TrackPermission).MergeFrom(TrackPermission)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.TrackPermission).MergeFrom(LiveKit.Proto.TrackPermission)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}.MergeFrom(LiveKit.Proto.TrackPermission)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.TrackPermission}.MergeFrom(LiveKit.Proto.TrackPermission)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.TrackPermission
+    name: TrackPermission
+    href: LiveKit.Proto.TrackPermission.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

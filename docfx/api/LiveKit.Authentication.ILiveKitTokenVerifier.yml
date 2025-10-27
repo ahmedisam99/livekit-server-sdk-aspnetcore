@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Authentication.ILiveKitTokenVerifier
+  commentId: T:LiveKit.Authentication.ILiveKitTokenVerifier
+  id: ILiveKitTokenVerifier
+  parent: LiveKit.Authentication
+  children:
+  - LiveKit.Authentication.ILiveKitTokenVerifier.Verify(System.String,System.Nullable{System.TimeSpan})
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitTokenVerifier
+  nameWithType: ILiveKitTokenVerifier
+  fullName: LiveKit.Authentication.ILiveKitTokenVerifier
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenVerifier.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitTokenVerifier
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenVerifier.cs
+    startLine: 12
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: >-
+    Service for verifying LiveKit JWT tokens.
+
+    <p>
+
+    Validates JWT tokens by checking the signature, issuer (API key), and expiration time.
+
+    Used internally by the webhook receiver to verify incoming webhook requests.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitTokenVerifier
+    content.vb: Public Interface ILiveKitTokenVerifier
+- uid: LiveKit.Authentication.ILiveKitTokenVerifier.Verify(System.String,System.Nullable{System.TimeSpan})
+  commentId: M:LiveKit.Authentication.ILiveKitTokenVerifier.Verify(System.String,System.Nullable{System.TimeSpan})
+  id: Verify(System.String,System.Nullable{System.TimeSpan})
+  parent: LiveKit.Authentication.ILiveKitTokenVerifier
+  langs:
+  - csharp
+  - vb
+  name: Verify(string, TimeSpan?)
+  nameWithType: ILiveKitTokenVerifier.Verify(string, TimeSpan?)
+  fullName: LiveKit.Authentication.ILiveKitTokenVerifier.Verify(string, System.TimeSpan?)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenVerifier.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Verify
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenVerifier.cs
+    startLine: 27
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: >-
+    Verifies a LiveKit JWT token and extracts its claims.
+
+    <p>
+
+    Validation includes:
+
+    - Signature verification using the API secret
+
+    - Issuer (API key) validation
+
+    - Expiration time check with configurable clock tolerance
+
+    </p>
+  example: []
+  syntax:
+    content: IDictionary<string, string> Verify(string token, TimeSpan? clockTolerance = null)
+    parameters:
+    - id: token
+      type: System.String
+      description: The JWT token to verify.
+    - id: clockTolerance
+      type: System.Nullable{System.TimeSpan}
+      description: Optional clock tolerance for expiration validation. If not specified, uses the configured default (10 seconds).
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+      description: A dictionary of claims extracted from the token, with claim names as keys.
+    content.vb: Function Verify(token As String, clockTolerance As TimeSpan? = Nothing) As IDictionary(Of String, String)
+  overload: LiveKit.Authentication.ILiveKitTokenVerifier.Verify*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Thrown when the token is invalid or verification fails.
+  nameWithType.vb: ILiveKitTokenVerifier.Verify(String, TimeSpan?)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenVerifier.Verify(String, System.TimeSpan?)
+  name.vb: Verify(String, TimeSpan?)
+references:
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: LiveKit.Authentication.ILiveKitTokenVerifier.Verify*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenVerifier.Verify
+  href: LiveKit.Authentication.ILiveKitTokenVerifier.html#LiveKit_Authentication_ILiveKitTokenVerifier_Verify_System_String_System_Nullable_System_TimeSpan__
+  name: Verify
+  nameWithType: ILiveKitTokenVerifier.Verify
+  fullName: LiveKit.Authentication.ILiveKitTokenVerifier.Verify
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Nullable{System.TimeSpan}
+  commentId: T:System.Nullable{System.TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan?
+  nameWithType: TimeSpan?
+  fullName: System.TimeSpan?
+  spec.csharp:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: '?'
+  spec.vb:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: '?'
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<string, string>
+  nameWithType: IDictionary<string, string>
+  fullName: System.Collections.Generic.IDictionary<string, string>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

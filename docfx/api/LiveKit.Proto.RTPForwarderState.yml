@@ -1,0 +1,2085 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.RTPForwarderState
+  commentId: T:LiveKit.Proto.RTPForwarderState
+  id: RTPForwarderState
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.RTPForwarderState.#ctor
+  - LiveKit.Proto.RTPForwarderState.#ctor(LiveKit.Proto.RTPForwarderState)
+  - LiveKit.Proto.RTPForwarderState.CalculateSize
+  - LiveKit.Proto.RTPForwarderState.ClearCodecMunger
+  - LiveKit.Proto.RTPForwarderState.Clone
+  - LiveKit.Proto.RTPForwarderState.CodecMungerCase
+  - LiveKit.Proto.RTPForwarderState.Descriptor
+  - LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffset
+  - LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffsetFieldNumber
+  - LiveKit.Proto.RTPForwarderState.Equals(LiveKit.Proto.RTPForwarderState)
+  - LiveKit.Proto.RTPForwarderState.Equals(System.Object)
+  - LiveKit.Proto.RTPForwarderState.ExtFirstTimestamp
+  - LiveKit.Proto.RTPForwarderState.ExtFirstTimestampFieldNumber
+  - LiveKit.Proto.RTPForwarderState.GetHashCode
+  - LiveKit.Proto.RTPForwarderState.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.RTPForwarderState.MergeFrom(LiveKit.Proto.RTPForwarderState)
+  - LiveKit.Proto.RTPForwarderState.Parser
+  - LiveKit.Proto.RTPForwarderState.PreStartTime
+  - LiveKit.Proto.RTPForwarderState.PreStartTimeFieldNumber
+  - LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatial
+  - LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatialFieldNumber
+  - LiveKit.Proto.RTPForwarderState.RtpMunger
+  - LiveKit.Proto.RTPForwarderState.RtpMungerFieldNumber
+  - LiveKit.Proto.RTPForwarderState.SenderReportState
+  - LiveKit.Proto.RTPForwarderState.SenderReportStateFieldNumber
+  - LiveKit.Proto.RTPForwarderState.Started
+  - LiveKit.Proto.RTPForwarderState.StartedFieldNumber
+  - LiveKit.Proto.RTPForwarderState.ToString
+  - LiveKit.Proto.RTPForwarderState.Vp8Munger
+  - LiveKit.Proto.RTPForwarderState.Vp8MungerFieldNumber
+  - LiveKit.Proto.RTPForwarderState.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: RTPForwarderState
+  nameWithType: RTPForwarderState
+  fullName: LiveKit.Proto.RTPForwarderState
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RTPForwarderState
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16060
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class RTPForwarderState : IMessage<RTPForwarderState>, IEquatable<RTPForwarderState>, IDeepCloneable<RTPForwarderState>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class RTPForwarderState Implements IMessage(Of RTPForwarderState), IEquatable(Of RTPForwarderState), IDeepCloneable(Of RTPForwarderState), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}
+  - System.IEquatable{LiveKit.Proto.RTPForwarderState}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.RTPForwarderState.Parser
+  commentId: P:LiveKit.Proto.RTPForwarderState.Parser
+  id: Parser
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: RTPForwarderState.Parser
+  fullName: LiveKit.Proto.RTPForwarderState.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16068
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<RTPForwarderState> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.RTPForwarderState}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of RTPForwarderState)
+  overload: LiveKit.Proto.RTPForwarderState.Parser*
+- uid: LiveKit.Proto.RTPForwarderState.Descriptor
+  commentId: P:LiveKit.Proto.RTPForwarderState.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: RTPForwarderState.Descriptor
+  fullName: LiveKit.Proto.RTPForwarderState.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16072
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.RTPForwarderState.Descriptor*
+- uid: LiveKit.Proto.RTPForwarderState.#ctor
+  commentId: M:LiveKit.Proto.RTPForwarderState.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: RTPForwarderState()
+  nameWithType: RTPForwarderState.RTPForwarderState()
+  fullName: LiveKit.Proto.RTPForwarderState.RTPForwarderState()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16084
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RTPForwarderState()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.RTPForwarderState.#ctor*
+  nameWithType.vb: RTPForwarderState.New()
+  fullName.vb: LiveKit.Proto.RTPForwarderState.New()
+  name.vb: New()
+- uid: LiveKit.Proto.RTPForwarderState.#ctor(LiveKit.Proto.RTPForwarderState)
+  commentId: M:LiveKit.Proto.RTPForwarderState.#ctor(LiveKit.Proto.RTPForwarderState)
+  id: '#ctor(LiveKit.Proto.RTPForwarderState)'
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: RTPForwarderState(RTPForwarderState)
+  nameWithType: RTPForwarderState.RTPForwarderState(RTPForwarderState)
+  fullName: LiveKit.Proto.RTPForwarderState.RTPForwarderState(LiveKit.Proto.RTPForwarderState)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16092
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RTPForwarderState(RTPForwarderState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RTPForwarderState
+    content.vb: Public Sub New(other As RTPForwarderState)
+  overload: LiveKit.Proto.RTPForwarderState.#ctor*
+  nameWithType.vb: RTPForwarderState.New(RTPForwarderState)
+  fullName.vb: LiveKit.Proto.RTPForwarderState.New(LiveKit.Proto.RTPForwarderState)
+  name.vb: New(RTPForwarderState)
+- uid: LiveKit.Proto.RTPForwarderState.Clone
+  commentId: M:LiveKit.Proto.RTPForwarderState.Clone
+  id: Clone
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: RTPForwarderState.Clone()
+  fullName: LiveKit.Proto.RTPForwarderState.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16111
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public RTPForwarderState Clone()
+    return:
+      type: LiveKit.Proto.RTPForwarderState
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As RTPForwarderState
+  overload: LiveKit.Proto.RTPForwarderState.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}.Clone
+- uid: LiveKit.Proto.RTPForwarderState.StartedFieldNumber
+  commentId: F:LiveKit.Proto.RTPForwarderState.StartedFieldNumber
+  id: StartedFieldNumber
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: StartedFieldNumber
+  nameWithType: RTPForwarderState.StartedFieldNumber
+  fullName: LiveKit.Proto.RTPForwarderState.StartedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16118
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "started" field.
+  example: []
+  syntax:
+    content: public const int StartedFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const StartedFieldNumber As Integer = 1
+- uid: LiveKit.Proto.RTPForwarderState.Started
+  commentId: P:LiveKit.Proto.RTPForwarderState.Started
+  id: Started
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: Started
+  nameWithType: RTPForwarderState.Started
+  fullName: LiveKit.Proto.RTPForwarderState.Started
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Started
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16120
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool Started { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Started As Boolean
+  overload: LiveKit.Proto.RTPForwarderState.Started*
+- uid: LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatialFieldNumber
+  commentId: F:LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatialFieldNumber
+  id: ReferenceLayerSpatialFieldNumber
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: ReferenceLayerSpatialFieldNumber
+  nameWithType: RTPForwarderState.ReferenceLayerSpatialFieldNumber
+  fullName: LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatialFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReferenceLayerSpatialFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16130
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "reference_layer_spatial" field.
+  example: []
+  syntax:
+    content: public const int ReferenceLayerSpatialFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ReferenceLayerSpatialFieldNumber As Integer = 2
+- uid: LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatial
+  commentId: P:LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatial
+  id: ReferenceLayerSpatial
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: ReferenceLayerSpatial
+  nameWithType: RTPForwarderState.ReferenceLayerSpatial
+  fullName: LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatial
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReferenceLayerSpatial
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16132
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int ReferenceLayerSpatial { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReferenceLayerSpatial As Integer
+  overload: LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatial*
+- uid: LiveKit.Proto.RTPForwarderState.PreStartTimeFieldNumber
+  commentId: F:LiveKit.Proto.RTPForwarderState.PreStartTimeFieldNumber
+  id: PreStartTimeFieldNumber
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: PreStartTimeFieldNumber
+  nameWithType: RTPForwarderState.PreStartTimeFieldNumber
+  fullName: LiveKit.Proto.RTPForwarderState.PreStartTimeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PreStartTimeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16142
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "pre_start_time" field.
+  example: []
+  syntax:
+    content: public const int PreStartTimeFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const PreStartTimeFieldNumber As Integer = 3
+- uid: LiveKit.Proto.RTPForwarderState.PreStartTime
+  commentId: P:LiveKit.Proto.RTPForwarderState.PreStartTime
+  id: PreStartTime
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: PreStartTime
+  nameWithType: RTPForwarderState.PreStartTime
+  fullName: LiveKit.Proto.RTPForwarderState.PreStartTime
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PreStartTime
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16144
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long PreStartTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PreStartTime As Long
+  overload: LiveKit.Proto.RTPForwarderState.PreStartTime*
+- uid: LiveKit.Proto.RTPForwarderState.ExtFirstTimestampFieldNumber
+  commentId: F:LiveKit.Proto.RTPForwarderState.ExtFirstTimestampFieldNumber
+  id: ExtFirstTimestampFieldNumber
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: ExtFirstTimestampFieldNumber
+  nameWithType: RTPForwarderState.ExtFirstTimestampFieldNumber
+  fullName: LiveKit.Proto.RTPForwarderState.ExtFirstTimestampFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ExtFirstTimestampFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16154
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ext_first_timestamp" field.
+  example: []
+  syntax:
+    content: public const int ExtFirstTimestampFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ExtFirstTimestampFieldNumber As Integer = 4
+- uid: LiveKit.Proto.RTPForwarderState.ExtFirstTimestamp
+  commentId: P:LiveKit.Proto.RTPForwarderState.ExtFirstTimestamp
+  id: ExtFirstTimestamp
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: ExtFirstTimestamp
+  nameWithType: RTPForwarderState.ExtFirstTimestamp
+  fullName: LiveKit.Proto.RTPForwarderState.ExtFirstTimestamp
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ExtFirstTimestamp
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16156
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ulong ExtFirstTimestamp { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property ExtFirstTimestamp As ULong
+  overload: LiveKit.Proto.RTPForwarderState.ExtFirstTimestamp*
+- uid: LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffsetFieldNumber
+  commentId: F:LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffsetFieldNumber
+  id: DummyStartTimestampOffsetFieldNumber
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: DummyStartTimestampOffsetFieldNumber
+  nameWithType: RTPForwarderState.DummyStartTimestampOffsetFieldNumber
+  fullName: LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffsetFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DummyStartTimestampOffsetFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16166
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "dummy_start_timestamp_offset" field.
+  example: []
+  syntax:
+    content: public const int DummyStartTimestampOffsetFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const DummyStartTimestampOffsetFieldNumber As Integer = 5
+- uid: LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffset
+  commentId: P:LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffset
+  id: DummyStartTimestampOffset
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: DummyStartTimestampOffset
+  nameWithType: RTPForwarderState.DummyStartTimestampOffset
+  fullName: LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffset
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DummyStartTimestampOffset
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16168
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ulong DummyStartTimestampOffset { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property DummyStartTimestampOffset As ULong
+  overload: LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffset*
+- uid: LiveKit.Proto.RTPForwarderState.RtpMungerFieldNumber
+  commentId: F:LiveKit.Proto.RTPForwarderState.RtpMungerFieldNumber
+  id: RtpMungerFieldNumber
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: RtpMungerFieldNumber
+  nameWithType: RTPForwarderState.RtpMungerFieldNumber
+  fullName: LiveKit.Proto.RTPForwarderState.RtpMungerFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RtpMungerFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16178
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "rtp_munger" field.
+  example: []
+  syntax:
+    content: public const int RtpMungerFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const RtpMungerFieldNumber As Integer = 6
+- uid: LiveKit.Proto.RTPForwarderState.RtpMunger
+  commentId: P:LiveKit.Proto.RTPForwarderState.RtpMunger
+  id: RtpMunger
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: RtpMunger
+  nameWithType: RTPForwarderState.RtpMunger
+  fullName: LiveKit.Proto.RTPForwarderState.RtpMunger
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RtpMunger
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16180
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RTPMungerState RtpMunger { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.RTPMungerState
+    content.vb: Public Property RtpMunger As RTPMungerState
+  overload: LiveKit.Proto.RTPForwarderState.RtpMunger*
+- uid: LiveKit.Proto.RTPForwarderState.Vp8MungerFieldNumber
+  commentId: F:LiveKit.Proto.RTPForwarderState.Vp8MungerFieldNumber
+  id: Vp8MungerFieldNumber
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: Vp8MungerFieldNumber
+  nameWithType: RTPForwarderState.Vp8MungerFieldNumber
+  fullName: LiveKit.Proto.RTPForwarderState.Vp8MungerFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Vp8MungerFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16190
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "vp8_munger" field.
+  example: []
+  syntax:
+    content: public const int Vp8MungerFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const Vp8MungerFieldNumber As Integer = 7
+- uid: LiveKit.Proto.RTPForwarderState.Vp8Munger
+  commentId: P:LiveKit.Proto.RTPForwarderState.Vp8Munger
+  id: Vp8Munger
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: Vp8Munger
+  nameWithType: RTPForwarderState.Vp8Munger
+  fullName: LiveKit.Proto.RTPForwarderState.Vp8Munger
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Vp8Munger
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16191
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public VP8MungerState Vp8Munger { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.VP8MungerState
+    content.vb: Public Property Vp8Munger As VP8MungerState
+  overload: LiveKit.Proto.RTPForwarderState.Vp8Munger*
+- uid: LiveKit.Proto.RTPForwarderState.SenderReportStateFieldNumber
+  commentId: F:LiveKit.Proto.RTPForwarderState.SenderReportStateFieldNumber
+  id: SenderReportStateFieldNumber
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: SenderReportStateFieldNumber
+  nameWithType: RTPForwarderState.SenderReportStateFieldNumber
+  fullName: LiveKit.Proto.RTPForwarderState.SenderReportStateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SenderReportStateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16202
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sender_report_state" field.
+  example: []
+  syntax:
+    content: public const int SenderReportStateFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const SenderReportStateFieldNumber As Integer = 8
+- uid: LiveKit.Proto.RTPForwarderState.SenderReportState
+  commentId: P:LiveKit.Proto.RTPForwarderState.SenderReportState
+  id: SenderReportState
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: SenderReportState
+  nameWithType: RTPForwarderState.SenderReportState
+  fullName: LiveKit.Proto.RTPForwarderState.SenderReportState
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SenderReportState
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16206
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<RTCPSenderReportState> SenderReportState { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.RTCPSenderReportState}
+    content.vb: Public ReadOnly Property SenderReportState As RepeatedField(Of RTCPSenderReportState)
+  overload: LiveKit.Proto.RTPForwarderState.SenderReportState*
+- uid: LiveKit.Proto.RTPForwarderState.CodecMungerCase
+  commentId: P:LiveKit.Proto.RTPForwarderState.CodecMungerCase
+  id: CodecMungerCase
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: CodecMungerCase
+  nameWithType: RTPForwarderState.CodecMungerCase
+  fullName: LiveKit.Proto.RTPForwarderState.CodecMungerCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CodecMungerCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16219
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RTPForwarderState.CodecMungerOneofCase CodecMungerCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.RTPForwarderState.CodecMungerOneofCase
+    content.vb: Public ReadOnly Property CodecMungerCase As RTPForwarderState.CodecMungerOneofCase
+  overload: LiveKit.Proto.RTPForwarderState.CodecMungerCase*
+- uid: LiveKit.Proto.RTPForwarderState.ClearCodecMunger
+  commentId: M:LiveKit.Proto.RTPForwarderState.ClearCodecMunger
+  id: ClearCodecMunger
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: ClearCodecMunger()
+  nameWithType: RTPForwarderState.ClearCodecMunger()
+  fullName: LiveKit.Proto.RTPForwarderState.ClearCodecMunger()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearCodecMunger
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16225
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearCodecMunger()
+    content.vb: Public Sub ClearCodecMunger()
+  overload: LiveKit.Proto.RTPForwarderState.ClearCodecMunger*
+- uid: LiveKit.Proto.RTPForwarderState.Equals(System.Object)
+  commentId: M:LiveKit.Proto.RTPForwarderState.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: RTPForwarderState.Equals(object)
+  fullName: LiveKit.Proto.RTPForwarderState.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16232
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.RTPForwarderState.Equals*
+  nameWithType.vb: RTPForwarderState.Equals(Object)
+  fullName.vb: LiveKit.Proto.RTPForwarderState.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.RTPForwarderState.Equals(LiveKit.Proto.RTPForwarderState)
+  commentId: M:LiveKit.Proto.RTPForwarderState.Equals(LiveKit.Proto.RTPForwarderState)
+  id: Equals(LiveKit.Proto.RTPForwarderState)
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: Equals(RTPForwarderState)
+  nameWithType: RTPForwarderState.Equals(RTPForwarderState)
+  fullName: LiveKit.Proto.RTPForwarderState.Equals(LiveKit.Proto.RTPForwarderState)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16238
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(RTPForwarderState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RTPForwarderState
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As RTPForwarderState) As Boolean
+  overload: LiveKit.Proto.RTPForwarderState.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.RTPForwarderState}.Equals(LiveKit.Proto.RTPForwarderState)
+- uid: LiveKit.Proto.RTPForwarderState.GetHashCode
+  commentId: M:LiveKit.Proto.RTPForwarderState.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RTPForwarderState.GetHashCode()
+  fullName: LiveKit.Proto.RTPForwarderState.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16259
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.RTPForwarderState.GetHashCode*
+- uid: LiveKit.Proto.RTPForwarderState.ToString
+  commentId: M:LiveKit.Proto.RTPForwarderState.ToString
+  id: ToString
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RTPForwarderState.ToString()
+  fullName: LiveKit.Proto.RTPForwarderState.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16278
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.RTPForwarderState.ToString*
+- uid: LiveKit.Proto.RTPForwarderState.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.RTPForwarderState.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: RTPForwarderState.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.RTPForwarderState.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16284
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.RTPForwarderState.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.RTPForwarderState.CalculateSize
+  commentId: M:LiveKit.Proto.RTPForwarderState.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: RTPForwarderState.CalculateSize()
+  fullName: LiveKit.Proto.RTPForwarderState.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16364
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.RTPForwarderState.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.RTPForwarderState.MergeFrom(LiveKit.Proto.RTPForwarderState)
+  commentId: M:LiveKit.Proto.RTPForwarderState.MergeFrom(LiveKit.Proto.RTPForwarderState)
+  id: MergeFrom(LiveKit.Proto.RTPForwarderState)
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(RTPForwarderState)
+  nameWithType: RTPForwarderState.MergeFrom(RTPForwarderState)
+  fullName: LiveKit.Proto.RTPForwarderState.MergeFrom(LiveKit.Proto.RTPForwarderState)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16396
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(RTPForwarderState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RTPForwarderState
+    content.vb: Public Sub MergeFrom(other As RTPForwarderState)
+  overload: LiveKit.Proto.RTPForwarderState.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}.MergeFrom(LiveKit.Proto.RTPForwarderState)
+- uid: LiveKit.Proto.RTPForwarderState.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.RTPForwarderState.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.RTPForwarderState
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: RTPForwarderState.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.RTPForwarderState.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 16436
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.RTPForwarderState.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.RTPForwarderState.html
+  name: IMessage<RTPForwarderState>
+  nameWithType: IMessage<RTPForwarderState>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.RTPForwarderState>
+  nameWithType.vb: IMessage(Of RTPForwarderState)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.RTPForwarderState)
+  name.vb: IMessage(Of RTPForwarderState)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.RTPForwarderState}
+  commentId: T:System.IEquatable{LiveKit.Proto.RTPForwarderState}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RTPForwarderState>
+  nameWithType: IEquatable<RTPForwarderState>
+  fullName: System.IEquatable<LiveKit.Proto.RTPForwarderState>
+  nameWithType.vb: IEquatable(Of RTPForwarderState)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.RTPForwarderState)
+  name.vb: IEquatable(Of RTPForwarderState)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.RTPForwarderState.html
+  name: IDeepCloneable<RTPForwarderState>
+  nameWithType: IDeepCloneable<RTPForwarderState>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.RTPForwarderState>
+  nameWithType.vb: IDeepCloneable(Of RTPForwarderState)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.RTPForwarderState)
+  name.vb: IDeepCloneable(Of RTPForwarderState)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.RTPForwarderState.Parser*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.Parser
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_Parser
+  name: Parser
+  nameWithType: RTPForwarderState.Parser
+  fullName: LiveKit.Proto.RTPForwarderState.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.RTPForwarderState}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.RTPForwarderState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.RTPForwarderState.html
+  name: MessageParser<RTPForwarderState>
+  nameWithType: MessageParser<RTPForwarderState>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.RTPForwarderState>
+  nameWithType.vb: MessageParser(Of RTPForwarderState)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.RTPForwarderState)
+  name.vb: MessageParser(Of RTPForwarderState)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.RTPForwarderState.Descriptor*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.Descriptor
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_Descriptor
+  name: Descriptor
+  nameWithType: RTPForwarderState.Descriptor
+  fullName: LiveKit.Proto.RTPForwarderState.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.RTPForwarderState.#ctor*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.#ctor
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState__ctor
+  name: RTPForwarderState
+  nameWithType: RTPForwarderState.RTPForwarderState
+  fullName: LiveKit.Proto.RTPForwarderState.RTPForwarderState
+  nameWithType.vb: RTPForwarderState.New
+  fullName.vb: LiveKit.Proto.RTPForwarderState.New
+  name.vb: New
+- uid: LiveKit.Proto.RTPForwarderState
+  commentId: T:LiveKit.Proto.RTPForwarderState
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RTPForwarderState.html
+  name: RTPForwarderState
+  nameWithType: RTPForwarderState
+  fullName: LiveKit.Proto.RTPForwarderState
+- uid: LiveKit.Proto.RTPForwarderState.Clone*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.Clone
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_Clone
+  name: Clone
+  nameWithType: RTPForwarderState.Clone
+  fullName: LiveKit.Proto.RTPForwarderState.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<RTPForwarderState>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.RTPForwarderState>.Clone()
+  nameWithType.vb: IDeepCloneable(Of RTPForwarderState).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.RTPForwarderState).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RTPForwarderState}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.RTPForwarderState.Started*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.Started
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_Started
+  name: Started
+  nameWithType: RTPForwarderState.Started
+  fullName: LiveKit.Proto.RTPForwarderState.Started
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatial*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatial
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_ReferenceLayerSpatial
+  name: ReferenceLayerSpatial
+  nameWithType: RTPForwarderState.ReferenceLayerSpatial
+  fullName: LiveKit.Proto.RTPForwarderState.ReferenceLayerSpatial
+- uid: LiveKit.Proto.RTPForwarderState.PreStartTime*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.PreStartTime
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_PreStartTime
+  name: PreStartTime
+  nameWithType: RTPForwarderState.PreStartTime
+  fullName: LiveKit.Proto.RTPForwarderState.PreStartTime
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.RTPForwarderState.ExtFirstTimestamp*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.ExtFirstTimestamp
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_ExtFirstTimestamp
+  name: ExtFirstTimestamp
+  nameWithType: RTPForwarderState.ExtFirstTimestamp
+  fullName: LiveKit.Proto.RTPForwarderState.ExtFirstTimestamp
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffset*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffset
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_DummyStartTimestampOffset
+  name: DummyStartTimestampOffset
+  nameWithType: RTPForwarderState.DummyStartTimestampOffset
+  fullName: LiveKit.Proto.RTPForwarderState.DummyStartTimestampOffset
+- uid: LiveKit.Proto.RTPForwarderState.RtpMunger*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.RtpMunger
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_RtpMunger
+  name: RtpMunger
+  nameWithType: RTPForwarderState.RtpMunger
+  fullName: LiveKit.Proto.RTPForwarderState.RtpMunger
+- uid: LiveKit.Proto.RTPMungerState
+  commentId: T:LiveKit.Proto.RTPMungerState
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RTPMungerState.html
+  name: RTPMungerState
+  nameWithType: RTPMungerState
+  fullName: LiveKit.Proto.RTPMungerState
+- uid: LiveKit.Proto.RTPForwarderState.Vp8Munger*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.Vp8Munger
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_Vp8Munger
+  name: Vp8Munger
+  nameWithType: RTPForwarderState.Vp8Munger
+  fullName: LiveKit.Proto.RTPForwarderState.Vp8Munger
+- uid: LiveKit.Proto.VP8MungerState
+  commentId: T:LiveKit.Proto.VP8MungerState
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.VP8MungerState.html
+  name: VP8MungerState
+  nameWithType: VP8MungerState
+  fullName: LiveKit.Proto.VP8MungerState
+- uid: LiveKit.Proto.RTPForwarderState.SenderReportState*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.SenderReportState
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_SenderReportState
+  name: SenderReportState
+  nameWithType: RTPForwarderState.SenderReportState
+  fullName: LiveKit.Proto.RTPForwarderState.SenderReportState
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.RTCPSenderReportState}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.RTCPSenderReportState}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.RTCPSenderReportState.html
+  name: RepeatedField<RTCPSenderReportState>
+  nameWithType: RepeatedField<RTCPSenderReportState>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.RTCPSenderReportState>
+  nameWithType.vb: RepeatedField(Of RTCPSenderReportState)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.RTCPSenderReportState)
+  name.vb: RepeatedField(Of RTCPSenderReportState)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RTCPSenderReportState
+    name: RTCPSenderReportState
+    href: LiveKit.Proto.RTCPSenderReportState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RTCPSenderReportState
+    name: RTCPSenderReportState
+    href: LiveKit.Proto.RTCPSenderReportState.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.RTPForwarderState.CodecMungerCase*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.CodecMungerCase
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_CodecMungerCase
+  name: CodecMungerCase
+  nameWithType: RTPForwarderState.CodecMungerCase
+  fullName: LiveKit.Proto.RTPForwarderState.CodecMungerCase
+- uid: LiveKit.Proto.RTPForwarderState.CodecMungerOneofCase
+  commentId: T:LiveKit.Proto.RTPForwarderState.CodecMungerOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RTPForwarderState.html
+  name: RTPForwarderState.CodecMungerOneofCase
+  nameWithType: RTPForwarderState.CodecMungerOneofCase
+  fullName: LiveKit.Proto.RTPForwarderState.CodecMungerOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: .
+  - uid: LiveKit.Proto.RTPForwarderState.CodecMungerOneofCase
+    name: CodecMungerOneofCase
+    href: LiveKit.Proto.RTPForwarderState.CodecMungerOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: .
+  - uid: LiveKit.Proto.RTPForwarderState.CodecMungerOneofCase
+    name: CodecMungerOneofCase
+    href: LiveKit.Proto.RTPForwarderState.CodecMungerOneofCase.html
+- uid: LiveKit.Proto.RTPForwarderState.ClearCodecMunger*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.ClearCodecMunger
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_ClearCodecMunger
+  name: ClearCodecMunger
+  nameWithType: RTPForwarderState.ClearCodecMunger
+  fullName: LiveKit.Proto.RTPForwarderState.ClearCodecMunger
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.RTPForwarderState.Equals*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.Equals
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_Equals_System_Object_
+  name: Equals
+  nameWithType: RTPForwarderState.Equals
+  fullName: LiveKit.Proto.RTPForwarderState.Equals
+- uid: System.IEquatable{LiveKit.Proto.RTPForwarderState}.Equals(LiveKit.Proto.RTPForwarderState)
+  commentId: M:System.IEquatable{LiveKit.Proto.RTPForwarderState}.Equals(LiveKit.Proto.RTPForwarderState)
+  parent: System.IEquatable{LiveKit.Proto.RTPForwarderState}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RTPForwarderState)
+  nameWithType: IEquatable<RTPForwarderState>.Equals(RTPForwarderState)
+  fullName: System.IEquatable<LiveKit.Proto.RTPForwarderState>.Equals(LiveKit.Proto.RTPForwarderState)
+  nameWithType.vb: IEquatable(Of RTPForwarderState).Equals(RTPForwarderState)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.RTPForwarderState).Equals(LiveKit.Proto.RTPForwarderState)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.RTPForwarderState}.Equals(LiveKit.Proto.RTPForwarderState)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.RTPForwarderState}.Equals(LiveKit.Proto.RTPForwarderState)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RTPForwarderState.GetHashCode*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.GetHashCode
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_GetHashCode
+  name: GetHashCode
+  nameWithType: RTPForwarderState.GetHashCode
+  fullName: LiveKit.Proto.RTPForwarderState.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RTPForwarderState.ToString*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.ToString
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_ToString
+  name: ToString
+  nameWithType: RTPForwarderState.ToString
+  fullName: LiveKit.Proto.RTPForwarderState.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.RTPForwarderState.WriteTo*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.WriteTo
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: RTPForwarderState.WriteTo
+  fullName: LiveKit.Proto.RTPForwarderState.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.RTPForwarderState.CalculateSize*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.CalculateSize
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_CalculateSize
+  name: CalculateSize
+  nameWithType: RTPForwarderState.CalculateSize
+  fullName: LiveKit.Proto.RTPForwarderState.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RTPForwarderState.MergeFrom*
+  commentId: Overload:LiveKit.Proto.RTPForwarderState.MergeFrom
+  href: LiveKit.Proto.RTPForwarderState.html#LiveKit_Proto_RTPForwarderState_MergeFrom_LiveKit_Proto_RTPForwarderState_
+  name: MergeFrom
+  nameWithType: RTPForwarderState.MergeFrom
+  fullName: LiveKit.Proto.RTPForwarderState.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}.MergeFrom(LiveKit.Proto.RTPForwarderState)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}.MergeFrom(LiveKit.Proto.RTPForwarderState)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.RTPForwarderState.html
+  name: MergeFrom(RTPForwarderState)
+  nameWithType: IMessage<RTPForwarderState>.MergeFrom(RTPForwarderState)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.RTPForwarderState>.MergeFrom(LiveKit.Proto.RTPForwarderState)
+  nameWithType.vb: IMessage(Of RTPForwarderState).MergeFrom(RTPForwarderState)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.RTPForwarderState).MergeFrom(LiveKit.Proto.RTPForwarderState)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}.MergeFrom(LiveKit.Proto.RTPForwarderState)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.RTPForwarderState}.MergeFrom(LiveKit.Proto.RTPForwarderState)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.RTPForwarderState
+    name: RTPForwarderState
+    href: LiveKit.Proto.RTPForwarderState.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

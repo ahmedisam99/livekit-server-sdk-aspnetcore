@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SignalTarget
+  commentId: T:LiveKit.Proto.SignalTarget
+  id: SignalTarget
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SignalTarget.Publisher
+  - LiveKit.Proto.SignalTarget.Subscriber
+  langs:
+  - csharp
+  - vb
+  name: SignalTarget
+  nameWithType: SignalTarget
+  fullName: LiveKit.Proto.SignalTarget
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SignalTarget
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 293
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum SignalTarget
+    content.vb: Public Enum SignalTarget
+- uid: LiveKit.Proto.SignalTarget.Publisher
+  commentId: F:LiveKit.Proto.SignalTarget.Publisher
+  id: Publisher
+  parent: LiveKit.Proto.SignalTarget
+  langs:
+  - csharp
+  - vb
+  name: Publisher
+  nameWithType: SignalTarget.Publisher
+  fullName: LiveKit.Proto.SignalTarget.Publisher
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Publisher
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 294
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("PUBLISHER")]
+
+      Publisher = 0
+    return:
+      type: LiveKit.Proto.SignalTarget
+    content.vb: >-
+      <OriginalName("PUBLISHER")>
+
+      Publisher = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PUBLISHER
+- uid: LiveKit.Proto.SignalTarget.Subscriber
+  commentId: F:LiveKit.Proto.SignalTarget.Subscriber
+  id: Subscriber
+  parent: LiveKit.Proto.SignalTarget
+  langs:
+  - csharp
+  - vb
+  name: Subscriber
+  nameWithType: SignalTarget.Subscriber
+  fullName: LiveKit.Proto.SignalTarget.Subscriber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Subscriber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 295
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SUBSCRIBER")]
+
+      Subscriber = 1
+    return:
+      type: LiveKit.Proto.SignalTarget
+    content.vb: >-
+      <OriginalName("SUBSCRIBER")>
+
+      Subscriber = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SUBSCRIBER
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.SignalTarget
+  commentId: T:LiveKit.Proto.SignalTarget
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SignalTarget.html
+  name: SignalTarget
+  nameWithType: SignalTarget
+  fullName: LiveKit.Proto.SignalTarget

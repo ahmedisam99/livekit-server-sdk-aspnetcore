@@ -1,0 +1,1829 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.VideoLayer
+  commentId: T:LiveKit.Proto.VideoLayer
+  id: VideoLayer
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.VideoLayer.#ctor
+  - LiveKit.Proto.VideoLayer.#ctor(LiveKit.Proto.VideoLayer)
+  - LiveKit.Proto.VideoLayer.Bitrate
+  - LiveKit.Proto.VideoLayer.BitrateFieldNumber
+  - LiveKit.Proto.VideoLayer.CalculateSize
+  - LiveKit.Proto.VideoLayer.Clone
+  - LiveKit.Proto.VideoLayer.Descriptor
+  - LiveKit.Proto.VideoLayer.Equals(LiveKit.Proto.VideoLayer)
+  - LiveKit.Proto.VideoLayer.Equals(System.Object)
+  - LiveKit.Proto.VideoLayer.GetHashCode
+  - LiveKit.Proto.VideoLayer.Height
+  - LiveKit.Proto.VideoLayer.HeightFieldNumber
+  - LiveKit.Proto.VideoLayer.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.VideoLayer.MergeFrom(LiveKit.Proto.VideoLayer)
+  - LiveKit.Proto.VideoLayer.Parser
+  - LiveKit.Proto.VideoLayer.Quality
+  - LiveKit.Proto.VideoLayer.QualityFieldNumber
+  - LiveKit.Proto.VideoLayer.Rid
+  - LiveKit.Proto.VideoLayer.RidFieldNumber
+  - LiveKit.Proto.VideoLayer.SpatialLayer
+  - LiveKit.Proto.VideoLayer.SpatialLayerFieldNumber
+  - LiveKit.Proto.VideoLayer.Ssrc
+  - LiveKit.Proto.VideoLayer.SsrcFieldNumber
+  - LiveKit.Proto.VideoLayer.ToString
+  - LiveKit.Proto.VideoLayer.Width
+  - LiveKit.Proto.VideoLayer.WidthFieldNumber
+  - LiveKit.Proto.VideoLayer.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: VideoLayer
+  nameWithType: VideoLayer
+  fullName: LiveKit.Proto.VideoLayer
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoLayer
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5203
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: provide information about available spatial layers
+  example: []
+  syntax:
+    content: 'public sealed class VideoLayer : IMessage<VideoLayer>, IEquatable<VideoLayer>, IDeepCloneable<VideoLayer>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class VideoLayer Implements IMessage(Of VideoLayer), IEquatable(Of VideoLayer), IDeepCloneable(Of VideoLayer), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}
+  - System.IEquatable{LiveKit.Proto.VideoLayer}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.VideoLayer.Parser
+  commentId: P:LiveKit.Proto.VideoLayer.Parser
+  id: Parser
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: VideoLayer.Parser
+  fullName: LiveKit.Proto.VideoLayer.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5211
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<VideoLayer> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.VideoLayer}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of VideoLayer)
+  overload: LiveKit.Proto.VideoLayer.Parser*
+- uid: LiveKit.Proto.VideoLayer.Descriptor
+  commentId: P:LiveKit.Proto.VideoLayer.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: VideoLayer.Descriptor
+  fullName: LiveKit.Proto.VideoLayer.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5215
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.VideoLayer.Descriptor*
+- uid: LiveKit.Proto.VideoLayer.#ctor
+  commentId: M:LiveKit.Proto.VideoLayer.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: VideoLayer()
+  nameWithType: VideoLayer.VideoLayer()
+  fullName: LiveKit.Proto.VideoLayer.VideoLayer()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5227
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public VideoLayer()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.VideoLayer.#ctor*
+  nameWithType.vb: VideoLayer.New()
+  fullName.vb: LiveKit.Proto.VideoLayer.New()
+  name.vb: New()
+- uid: LiveKit.Proto.VideoLayer.#ctor(LiveKit.Proto.VideoLayer)
+  commentId: M:LiveKit.Proto.VideoLayer.#ctor(LiveKit.Proto.VideoLayer)
+  id: '#ctor(LiveKit.Proto.VideoLayer)'
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: VideoLayer(VideoLayer)
+  nameWithType: VideoLayer.VideoLayer(VideoLayer)
+  fullName: LiveKit.Proto.VideoLayer.VideoLayer(LiveKit.Proto.VideoLayer)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5235
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public VideoLayer(VideoLayer other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.VideoLayer
+    content.vb: Public Sub New(other As VideoLayer)
+  overload: LiveKit.Proto.VideoLayer.#ctor*
+  nameWithType.vb: VideoLayer.New(VideoLayer)
+  fullName.vb: LiveKit.Proto.VideoLayer.New(LiveKit.Proto.VideoLayer)
+  name.vb: New(VideoLayer)
+- uid: LiveKit.Proto.VideoLayer.Clone
+  commentId: M:LiveKit.Proto.VideoLayer.Clone
+  id: Clone
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: VideoLayer.Clone()
+  fullName: LiveKit.Proto.VideoLayer.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5248
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public VideoLayer Clone()
+    return:
+      type: LiveKit.Proto.VideoLayer
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As VideoLayer
+  overload: LiveKit.Proto.VideoLayer.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}.Clone
+- uid: LiveKit.Proto.VideoLayer.QualityFieldNumber
+  commentId: F:LiveKit.Proto.VideoLayer.QualityFieldNumber
+  id: QualityFieldNumber
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: QualityFieldNumber
+  nameWithType: VideoLayer.QualityFieldNumber
+  fullName: LiveKit.Proto.VideoLayer.QualityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: QualityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5255
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "quality" field.
+  example: []
+  syntax:
+    content: public const int QualityFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const QualityFieldNumber As Integer = 1
+- uid: LiveKit.Proto.VideoLayer.Quality
+  commentId: P:LiveKit.Proto.VideoLayer.Quality
+  id: Quality
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Quality
+  nameWithType: VideoLayer.Quality
+  fullName: LiveKit.Proto.VideoLayer.Quality
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Quality
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5260
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: for tracks with a single layer, this should be HIGH
+  example: []
+  syntax:
+    content: public VideoQuality Quality { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.VideoQuality
+    content.vb: Public Property Quality As VideoQuality
+  overload: LiveKit.Proto.VideoLayer.Quality*
+- uid: LiveKit.Proto.VideoLayer.WidthFieldNumber
+  commentId: F:LiveKit.Proto.VideoLayer.WidthFieldNumber
+  id: WidthFieldNumber
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: WidthFieldNumber
+  nameWithType: VideoLayer.WidthFieldNumber
+  fullName: LiveKit.Proto.VideoLayer.WidthFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WidthFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5270
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "width" field.
+  example: []
+  syntax:
+    content: public const int WidthFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const WidthFieldNumber As Integer = 2
+- uid: LiveKit.Proto.VideoLayer.Width
+  commentId: P:LiveKit.Proto.VideoLayer.Width
+  id: Width
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: VideoLayer.Width
+  fullName: LiveKit.Proto.VideoLayer.Width
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Width
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5272
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Width { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Width As UInteger
+  overload: LiveKit.Proto.VideoLayer.Width*
+- uid: LiveKit.Proto.VideoLayer.HeightFieldNumber
+  commentId: F:LiveKit.Proto.VideoLayer.HeightFieldNumber
+  id: HeightFieldNumber
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: HeightFieldNumber
+  nameWithType: VideoLayer.HeightFieldNumber
+  fullName: LiveKit.Proto.VideoLayer.HeightFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HeightFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5282
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "height" field.
+  example: []
+  syntax:
+    content: public const int HeightFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const HeightFieldNumber As Integer = 3
+- uid: LiveKit.Proto.VideoLayer.Height
+  commentId: P:LiveKit.Proto.VideoLayer.Height
+  id: Height
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: VideoLayer.Height
+  fullName: LiveKit.Proto.VideoLayer.Height
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Height
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5284
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Height { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Height As UInteger
+  overload: LiveKit.Proto.VideoLayer.Height*
+- uid: LiveKit.Proto.VideoLayer.BitrateFieldNumber
+  commentId: F:LiveKit.Proto.VideoLayer.BitrateFieldNumber
+  id: BitrateFieldNumber
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: BitrateFieldNumber
+  nameWithType: VideoLayer.BitrateFieldNumber
+  fullName: LiveKit.Proto.VideoLayer.BitrateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BitrateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5294
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "bitrate" field.
+  example: []
+  syntax:
+    content: public const int BitrateFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const BitrateFieldNumber As Integer = 4
+- uid: LiveKit.Proto.VideoLayer.Bitrate
+  commentId: P:LiveKit.Proto.VideoLayer.Bitrate
+  id: Bitrate
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Bitrate
+  nameWithType: VideoLayer.Bitrate
+  fullName: LiveKit.Proto.VideoLayer.Bitrate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Bitrate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5299
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: target bitrate in bit per second (bps), server will measure actual
+  example: []
+  syntax:
+    content: public uint Bitrate { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Bitrate As UInteger
+  overload: LiveKit.Proto.VideoLayer.Bitrate*
+- uid: LiveKit.Proto.VideoLayer.SsrcFieldNumber
+  commentId: F:LiveKit.Proto.VideoLayer.SsrcFieldNumber
+  id: SsrcFieldNumber
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: SsrcFieldNumber
+  nameWithType: VideoLayer.SsrcFieldNumber
+  fullName: LiveKit.Proto.VideoLayer.SsrcFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SsrcFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5309
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ssrc" field.
+  example: []
+  syntax:
+    content: public const int SsrcFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const SsrcFieldNumber As Integer = 5
+- uid: LiveKit.Proto.VideoLayer.Ssrc
+  commentId: P:LiveKit.Proto.VideoLayer.Ssrc
+  id: Ssrc
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Ssrc
+  nameWithType: VideoLayer.Ssrc
+  fullName: LiveKit.Proto.VideoLayer.Ssrc
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Ssrc
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5311
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Ssrc { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Ssrc As UInteger
+  overload: LiveKit.Proto.VideoLayer.Ssrc*
+- uid: LiveKit.Proto.VideoLayer.SpatialLayerFieldNumber
+  commentId: F:LiveKit.Proto.VideoLayer.SpatialLayerFieldNumber
+  id: SpatialLayerFieldNumber
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: SpatialLayerFieldNumber
+  nameWithType: VideoLayer.SpatialLayerFieldNumber
+  fullName: LiveKit.Proto.VideoLayer.SpatialLayerFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SpatialLayerFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5321
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "spatial_layer" field.
+  example: []
+  syntax:
+    content: public const int SpatialLayerFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const SpatialLayerFieldNumber As Integer = 6
+- uid: LiveKit.Proto.VideoLayer.SpatialLayer
+  commentId: P:LiveKit.Proto.VideoLayer.SpatialLayer
+  id: SpatialLayer
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: SpatialLayer
+  nameWithType: VideoLayer.SpatialLayer
+  fullName: LiveKit.Proto.VideoLayer.SpatialLayer
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SpatialLayer
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5323
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int SpatialLayer { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SpatialLayer As Integer
+  overload: LiveKit.Proto.VideoLayer.SpatialLayer*
+- uid: LiveKit.Proto.VideoLayer.RidFieldNumber
+  commentId: F:LiveKit.Proto.VideoLayer.RidFieldNumber
+  id: RidFieldNumber
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: RidFieldNumber
+  nameWithType: VideoLayer.RidFieldNumber
+  fullName: LiveKit.Proto.VideoLayer.RidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5333
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "rid" field.
+  example: []
+  syntax:
+    content: public const int RidFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const RidFieldNumber As Integer = 7
+- uid: LiveKit.Proto.VideoLayer.Rid
+  commentId: P:LiveKit.Proto.VideoLayer.Rid
+  id: Rid
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Rid
+  nameWithType: VideoLayer.Rid
+  fullName: LiveKit.Proto.VideoLayer.Rid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Rid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5335
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Rid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Rid As String
+  overload: LiveKit.Proto.VideoLayer.Rid*
+- uid: LiveKit.Proto.VideoLayer.Equals(System.Object)
+  commentId: M:LiveKit.Proto.VideoLayer.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: VideoLayer.Equals(object)
+  fullName: LiveKit.Proto.VideoLayer.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5344
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.VideoLayer.Equals*
+  nameWithType.vb: VideoLayer.Equals(Object)
+  fullName.vb: LiveKit.Proto.VideoLayer.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.VideoLayer.Equals(LiveKit.Proto.VideoLayer)
+  commentId: M:LiveKit.Proto.VideoLayer.Equals(LiveKit.Proto.VideoLayer)
+  id: Equals(LiveKit.Proto.VideoLayer)
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: Equals(VideoLayer)
+  nameWithType: VideoLayer.Equals(VideoLayer)
+  fullName: LiveKit.Proto.VideoLayer.Equals(LiveKit.Proto.VideoLayer)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5350
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(VideoLayer other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.VideoLayer
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As VideoLayer) As Boolean
+  overload: LiveKit.Proto.VideoLayer.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.VideoLayer}.Equals(LiveKit.Proto.VideoLayer)
+- uid: LiveKit.Proto.VideoLayer.GetHashCode
+  commentId: M:LiveKit.Proto.VideoLayer.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: VideoLayer.GetHashCode()
+  fullName: LiveKit.Proto.VideoLayer.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5369
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.VideoLayer.GetHashCode*
+- uid: LiveKit.Proto.VideoLayer.ToString
+  commentId: M:LiveKit.Proto.VideoLayer.ToString
+  id: ToString
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: VideoLayer.ToString()
+  fullName: LiveKit.Proto.VideoLayer.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5386
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.VideoLayer.ToString*
+- uid: LiveKit.Proto.VideoLayer.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.VideoLayer.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: VideoLayer.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.VideoLayer.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5392
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.VideoLayer.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.VideoLayer.CalculateSize
+  commentId: M:LiveKit.Proto.VideoLayer.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: VideoLayer.CalculateSize()
+  fullName: LiveKit.Proto.VideoLayer.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5470
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.VideoLayer.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.VideoLayer.MergeFrom(LiveKit.Proto.VideoLayer)
+  commentId: M:LiveKit.Proto.VideoLayer.MergeFrom(LiveKit.Proto.VideoLayer)
+  id: MergeFrom(LiveKit.Proto.VideoLayer)
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(VideoLayer)
+  nameWithType: VideoLayer.MergeFrom(VideoLayer)
+  fullName: LiveKit.Proto.VideoLayer.MergeFrom(LiveKit.Proto.VideoLayer)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5501
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(VideoLayer other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.VideoLayer
+    content.vb: Public Sub MergeFrom(other As VideoLayer)
+  overload: LiveKit.Proto.VideoLayer.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}.MergeFrom(LiveKit.Proto.VideoLayer)
+- uid: LiveKit.Proto.VideoLayer.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.VideoLayer.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.VideoLayer
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: VideoLayer.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.VideoLayer.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 5531
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.VideoLayer.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.VideoLayer.html
+  name: IMessage<VideoLayer>
+  nameWithType: IMessage<VideoLayer>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.VideoLayer>
+  nameWithType.vb: IMessage(Of VideoLayer)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.VideoLayer)
+  name.vb: IMessage(Of VideoLayer)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.VideoLayer}
+  commentId: T:System.IEquatable{LiveKit.Proto.VideoLayer}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<VideoLayer>
+  nameWithType: IEquatable<VideoLayer>
+  fullName: System.IEquatable<LiveKit.Proto.VideoLayer>
+  nameWithType.vb: IEquatable(Of VideoLayer)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.VideoLayer)
+  name.vb: IEquatable(Of VideoLayer)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.VideoLayer.html
+  name: IDeepCloneable<VideoLayer>
+  nameWithType: IDeepCloneable<VideoLayer>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.VideoLayer>
+  nameWithType.vb: IDeepCloneable(Of VideoLayer)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.VideoLayer)
+  name.vb: IDeepCloneable(Of VideoLayer)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.VideoLayer.Parser*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Parser
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Parser
+  name: Parser
+  nameWithType: VideoLayer.Parser
+  fullName: LiveKit.Proto.VideoLayer.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.VideoLayer}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.VideoLayer}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.VideoLayer.html
+  name: MessageParser<VideoLayer>
+  nameWithType: MessageParser<VideoLayer>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.VideoLayer>
+  nameWithType.vb: MessageParser(Of VideoLayer)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.VideoLayer)
+  name.vb: MessageParser(Of VideoLayer)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.VideoLayer.Descriptor*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Descriptor
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Descriptor
+  name: Descriptor
+  nameWithType: VideoLayer.Descriptor
+  fullName: LiveKit.Proto.VideoLayer.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.VideoLayer.#ctor*
+  commentId: Overload:LiveKit.Proto.VideoLayer.#ctor
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer__ctor
+  name: VideoLayer
+  nameWithType: VideoLayer.VideoLayer
+  fullName: LiveKit.Proto.VideoLayer.VideoLayer
+  nameWithType.vb: VideoLayer.New
+  fullName.vb: LiveKit.Proto.VideoLayer.New
+  name.vb: New
+- uid: LiveKit.Proto.VideoLayer
+  commentId: T:LiveKit.Proto.VideoLayer
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.VideoLayer.html
+  name: VideoLayer
+  nameWithType: VideoLayer
+  fullName: LiveKit.Proto.VideoLayer
+- uid: LiveKit.Proto.VideoLayer.Clone*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Clone
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Clone
+  name: Clone
+  nameWithType: VideoLayer.Clone
+  fullName: LiveKit.Proto.VideoLayer.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<VideoLayer>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.VideoLayer>.Clone()
+  nameWithType.vb: IDeepCloneable(Of VideoLayer).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.VideoLayer).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.VideoLayer}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.VideoLayer.Quality*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Quality
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Quality
+  name: Quality
+  nameWithType: VideoLayer.Quality
+  fullName: LiveKit.Proto.VideoLayer.Quality
+- uid: LiveKit.Proto.VideoQuality
+  commentId: T:LiveKit.Proto.VideoQuality
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.VideoQuality.html
+  name: VideoQuality
+  nameWithType: VideoQuality
+  fullName: LiveKit.Proto.VideoQuality
+- uid: LiveKit.Proto.VideoLayer.Width*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Width
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Width
+  name: Width
+  nameWithType: VideoLayer.Width
+  fullName: LiveKit.Proto.VideoLayer.Width
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: LiveKit.Proto.VideoLayer.Height*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Height
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Height
+  name: Height
+  nameWithType: VideoLayer.Height
+  fullName: LiveKit.Proto.VideoLayer.Height
+- uid: LiveKit.Proto.VideoLayer.Bitrate*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Bitrate
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Bitrate
+  name: Bitrate
+  nameWithType: VideoLayer.Bitrate
+  fullName: LiveKit.Proto.VideoLayer.Bitrate
+- uid: LiveKit.Proto.VideoLayer.Ssrc*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Ssrc
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Ssrc
+  name: Ssrc
+  nameWithType: VideoLayer.Ssrc
+  fullName: LiveKit.Proto.VideoLayer.Ssrc
+- uid: LiveKit.Proto.VideoLayer.SpatialLayer*
+  commentId: Overload:LiveKit.Proto.VideoLayer.SpatialLayer
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_SpatialLayer
+  name: SpatialLayer
+  nameWithType: VideoLayer.SpatialLayer
+  fullName: LiveKit.Proto.VideoLayer.SpatialLayer
+- uid: LiveKit.Proto.VideoLayer.Rid*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Rid
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Rid
+  name: Rid
+  nameWithType: VideoLayer.Rid
+  fullName: LiveKit.Proto.VideoLayer.Rid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.VideoLayer.Equals*
+  commentId: Overload:LiveKit.Proto.VideoLayer.Equals
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_Equals_System_Object_
+  name: Equals
+  nameWithType: VideoLayer.Equals
+  fullName: LiveKit.Proto.VideoLayer.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.VideoLayer}.Equals(LiveKit.Proto.VideoLayer)
+  commentId: M:System.IEquatable{LiveKit.Proto.VideoLayer}.Equals(LiveKit.Proto.VideoLayer)
+  parent: System.IEquatable{LiveKit.Proto.VideoLayer}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(VideoLayer)
+  nameWithType: IEquatable<VideoLayer>.Equals(VideoLayer)
+  fullName: System.IEquatable<LiveKit.Proto.VideoLayer>.Equals(LiveKit.Proto.VideoLayer)
+  nameWithType.vb: IEquatable(Of VideoLayer).Equals(VideoLayer)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.VideoLayer).Equals(LiveKit.Proto.VideoLayer)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.VideoLayer}.Equals(LiveKit.Proto.VideoLayer)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.VideoLayer}.Equals(LiveKit.Proto.VideoLayer)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.VideoLayer.GetHashCode*
+  commentId: Overload:LiveKit.Proto.VideoLayer.GetHashCode
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_GetHashCode
+  name: GetHashCode
+  nameWithType: VideoLayer.GetHashCode
+  fullName: LiveKit.Proto.VideoLayer.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.VideoLayer.ToString*
+  commentId: Overload:LiveKit.Proto.VideoLayer.ToString
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_ToString
+  name: ToString
+  nameWithType: VideoLayer.ToString
+  fullName: LiveKit.Proto.VideoLayer.ToString
+- uid: LiveKit.Proto.VideoLayer.WriteTo*
+  commentId: Overload:LiveKit.Proto.VideoLayer.WriteTo
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: VideoLayer.WriteTo
+  fullName: LiveKit.Proto.VideoLayer.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.VideoLayer.CalculateSize*
+  commentId: Overload:LiveKit.Proto.VideoLayer.CalculateSize
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_CalculateSize
+  name: CalculateSize
+  nameWithType: VideoLayer.CalculateSize
+  fullName: LiveKit.Proto.VideoLayer.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.VideoLayer.MergeFrom*
+  commentId: Overload:LiveKit.Proto.VideoLayer.MergeFrom
+  href: LiveKit.Proto.VideoLayer.html#LiveKit_Proto_VideoLayer_MergeFrom_LiveKit_Proto_VideoLayer_
+  name: MergeFrom
+  nameWithType: VideoLayer.MergeFrom
+  fullName: LiveKit.Proto.VideoLayer.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}.MergeFrom(LiveKit.Proto.VideoLayer)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}.MergeFrom(LiveKit.Proto.VideoLayer)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.VideoLayer.html
+  name: MergeFrom(VideoLayer)
+  nameWithType: IMessage<VideoLayer>.MergeFrom(VideoLayer)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.VideoLayer>.MergeFrom(LiveKit.Proto.VideoLayer)
+  nameWithType.vb: IMessage(Of VideoLayer).MergeFrom(VideoLayer)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.VideoLayer).MergeFrom(LiveKit.Proto.VideoLayer)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}.MergeFrom(LiveKit.Proto.VideoLayer)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.VideoLayer}.MergeFrom(LiveKit.Proto.VideoLayer)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

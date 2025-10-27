@@ -1,0 +1,1673 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.AliOSSUpload
+  commentId: T:LiveKit.Proto.AliOSSUpload
+  id: AliOSSUpload
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.AliOSSUpload.#ctor
+  - LiveKit.Proto.AliOSSUpload.#ctor(LiveKit.Proto.AliOSSUpload)
+  - LiveKit.Proto.AliOSSUpload.AccessKey
+  - LiveKit.Proto.AliOSSUpload.AccessKeyFieldNumber
+  - LiveKit.Proto.AliOSSUpload.Bucket
+  - LiveKit.Proto.AliOSSUpload.BucketFieldNumber
+  - LiveKit.Proto.AliOSSUpload.CalculateSize
+  - LiveKit.Proto.AliOSSUpload.Clone
+  - LiveKit.Proto.AliOSSUpload.Descriptor
+  - LiveKit.Proto.AliOSSUpload.Endpoint
+  - LiveKit.Proto.AliOSSUpload.EndpointFieldNumber
+  - LiveKit.Proto.AliOSSUpload.Equals(LiveKit.Proto.AliOSSUpload)
+  - LiveKit.Proto.AliOSSUpload.Equals(System.Object)
+  - LiveKit.Proto.AliOSSUpload.GetHashCode
+  - LiveKit.Proto.AliOSSUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.AliOSSUpload.MergeFrom(LiveKit.Proto.AliOSSUpload)
+  - LiveKit.Proto.AliOSSUpload.Parser
+  - LiveKit.Proto.AliOSSUpload.Region
+  - LiveKit.Proto.AliOSSUpload.RegionFieldNumber
+  - LiveKit.Proto.AliOSSUpload.Secret
+  - LiveKit.Proto.AliOSSUpload.SecretFieldNumber
+  - LiveKit.Proto.AliOSSUpload.ToString
+  - LiveKit.Proto.AliOSSUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: AliOSSUpload
+  nameWithType: AliOSSUpload
+  fullName: LiveKit.Proto.AliOSSUpload
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AliOSSUpload
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7291
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class AliOSSUpload : IMessage<AliOSSUpload>, IEquatable<AliOSSUpload>, IDeepCloneable<AliOSSUpload>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class AliOSSUpload Implements IMessage(Of AliOSSUpload), IEquatable(Of AliOSSUpload), IDeepCloneable(Of AliOSSUpload), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}
+  - System.IEquatable{LiveKit.Proto.AliOSSUpload}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.AliOSSUpload.Parser
+  commentId: P:LiveKit.Proto.AliOSSUpload.Parser
+  id: Parser
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: AliOSSUpload.Parser
+  fullName: LiveKit.Proto.AliOSSUpload.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7299
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<AliOSSUpload> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.AliOSSUpload}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of AliOSSUpload)
+  overload: LiveKit.Proto.AliOSSUpload.Parser*
+- uid: LiveKit.Proto.AliOSSUpload.Descriptor
+  commentId: P:LiveKit.Proto.AliOSSUpload.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: AliOSSUpload.Descriptor
+  fullName: LiveKit.Proto.AliOSSUpload.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7303
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.AliOSSUpload.Descriptor*
+- uid: LiveKit.Proto.AliOSSUpload.#ctor
+  commentId: M:LiveKit.Proto.AliOSSUpload.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: AliOSSUpload()
+  nameWithType: AliOSSUpload.AliOSSUpload()
+  fullName: LiveKit.Proto.AliOSSUpload.AliOSSUpload()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7315
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AliOSSUpload()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.AliOSSUpload.#ctor*
+  nameWithType.vb: AliOSSUpload.New()
+  fullName.vb: LiveKit.Proto.AliOSSUpload.New()
+  name.vb: New()
+- uid: LiveKit.Proto.AliOSSUpload.#ctor(LiveKit.Proto.AliOSSUpload)
+  commentId: M:LiveKit.Proto.AliOSSUpload.#ctor(LiveKit.Proto.AliOSSUpload)
+  id: '#ctor(LiveKit.Proto.AliOSSUpload)'
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: AliOSSUpload(AliOSSUpload)
+  nameWithType: AliOSSUpload.AliOSSUpload(AliOSSUpload)
+  fullName: LiveKit.Proto.AliOSSUpload.AliOSSUpload(LiveKit.Proto.AliOSSUpload)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7323
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AliOSSUpload(AliOSSUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AliOSSUpload
+    content.vb: Public Sub New(other As AliOSSUpload)
+  overload: LiveKit.Proto.AliOSSUpload.#ctor*
+  nameWithType.vb: AliOSSUpload.New(AliOSSUpload)
+  fullName.vb: LiveKit.Proto.AliOSSUpload.New(LiveKit.Proto.AliOSSUpload)
+  name.vb: New(AliOSSUpload)
+- uid: LiveKit.Proto.AliOSSUpload.Clone
+  commentId: M:LiveKit.Proto.AliOSSUpload.Clone
+  id: Clone
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: AliOSSUpload.Clone()
+  fullName: LiveKit.Proto.AliOSSUpload.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7334
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public AliOSSUpload Clone()
+    return:
+      type: LiveKit.Proto.AliOSSUpload
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As AliOSSUpload
+  overload: LiveKit.Proto.AliOSSUpload.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}.Clone
+- uid: LiveKit.Proto.AliOSSUpload.AccessKeyFieldNumber
+  commentId: F:LiveKit.Proto.AliOSSUpload.AccessKeyFieldNumber
+  id: AccessKeyFieldNumber
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: AccessKeyFieldNumber
+  nameWithType: AliOSSUpload.AccessKeyFieldNumber
+  fullName: LiveKit.Proto.AliOSSUpload.AccessKeyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AccessKeyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7341
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "access_key" field.
+  example: []
+  syntax:
+    content: public const int AccessKeyFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const AccessKeyFieldNumber As Integer = 1
+- uid: LiveKit.Proto.AliOSSUpload.AccessKey
+  commentId: P:LiveKit.Proto.AliOSSUpload.AccessKey
+  id: AccessKey
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: AccessKey
+  nameWithType: AliOSSUpload.AccessKey
+  fullName: LiveKit.Proto.AliOSSUpload.AccessKey
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AccessKey
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7343
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AccessKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AccessKey As String
+  overload: LiveKit.Proto.AliOSSUpload.AccessKey*
+- uid: LiveKit.Proto.AliOSSUpload.SecretFieldNumber
+  commentId: F:LiveKit.Proto.AliOSSUpload.SecretFieldNumber
+  id: SecretFieldNumber
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: SecretFieldNumber
+  nameWithType: AliOSSUpload.SecretFieldNumber
+  fullName: LiveKit.Proto.AliOSSUpload.SecretFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SecretFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7353
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "secret" field.
+  example: []
+  syntax:
+    content: public const int SecretFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const SecretFieldNumber As Integer = 2
+- uid: LiveKit.Proto.AliOSSUpload.Secret
+  commentId: P:LiveKit.Proto.AliOSSUpload.Secret
+  id: Secret
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Secret
+  nameWithType: AliOSSUpload.Secret
+  fullName: LiveKit.Proto.AliOSSUpload.Secret
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Secret
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7355
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Secret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Secret As String
+  overload: LiveKit.Proto.AliOSSUpload.Secret*
+- uid: LiveKit.Proto.AliOSSUpload.RegionFieldNumber
+  commentId: F:LiveKit.Proto.AliOSSUpload.RegionFieldNumber
+  id: RegionFieldNumber
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: RegionFieldNumber
+  nameWithType: AliOSSUpload.RegionFieldNumber
+  fullName: LiveKit.Proto.AliOSSUpload.RegionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RegionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7365
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "region" field.
+  example: []
+  syntax:
+    content: public const int RegionFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const RegionFieldNumber As Integer = 3
+- uid: LiveKit.Proto.AliOSSUpload.Region
+  commentId: P:LiveKit.Proto.AliOSSUpload.Region
+  id: Region
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Region
+  nameWithType: AliOSSUpload.Region
+  fullName: LiveKit.Proto.AliOSSUpload.Region
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Region
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7367
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Region { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Region As String
+  overload: LiveKit.Proto.AliOSSUpload.Region*
+- uid: LiveKit.Proto.AliOSSUpload.EndpointFieldNumber
+  commentId: F:LiveKit.Proto.AliOSSUpload.EndpointFieldNumber
+  id: EndpointFieldNumber
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: EndpointFieldNumber
+  nameWithType: AliOSSUpload.EndpointFieldNumber
+  fullName: LiveKit.Proto.AliOSSUpload.EndpointFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndpointFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7377
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "endpoint" field.
+  example: []
+  syntax:
+    content: public const int EndpointFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const EndpointFieldNumber As Integer = 4
+- uid: LiveKit.Proto.AliOSSUpload.Endpoint
+  commentId: P:LiveKit.Proto.AliOSSUpload.Endpoint
+  id: Endpoint
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Endpoint
+  nameWithType: AliOSSUpload.Endpoint
+  fullName: LiveKit.Proto.AliOSSUpload.Endpoint
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Endpoint
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7379
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Endpoint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Endpoint As String
+  overload: LiveKit.Proto.AliOSSUpload.Endpoint*
+- uid: LiveKit.Proto.AliOSSUpload.BucketFieldNumber
+  commentId: F:LiveKit.Proto.AliOSSUpload.BucketFieldNumber
+  id: BucketFieldNumber
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: BucketFieldNumber
+  nameWithType: AliOSSUpload.BucketFieldNumber
+  fullName: LiveKit.Proto.AliOSSUpload.BucketFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BucketFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7389
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "bucket" field.
+  example: []
+  syntax:
+    content: public const int BucketFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const BucketFieldNumber As Integer = 5
+- uid: LiveKit.Proto.AliOSSUpload.Bucket
+  commentId: P:LiveKit.Proto.AliOSSUpload.Bucket
+  id: Bucket
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Bucket
+  nameWithType: AliOSSUpload.Bucket
+  fullName: LiveKit.Proto.AliOSSUpload.Bucket
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Bucket
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7391
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Bucket { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Bucket As String
+  overload: LiveKit.Proto.AliOSSUpload.Bucket*
+- uid: LiveKit.Proto.AliOSSUpload.Equals(System.Object)
+  commentId: M:LiveKit.Proto.AliOSSUpload.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: AliOSSUpload.Equals(object)
+  fullName: LiveKit.Proto.AliOSSUpload.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7400
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.AliOSSUpload.Equals*
+  nameWithType.vb: AliOSSUpload.Equals(Object)
+  fullName.vb: LiveKit.Proto.AliOSSUpload.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.AliOSSUpload.Equals(LiveKit.Proto.AliOSSUpload)
+  commentId: M:LiveKit.Proto.AliOSSUpload.Equals(LiveKit.Proto.AliOSSUpload)
+  id: Equals(LiveKit.Proto.AliOSSUpload)
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: Equals(AliOSSUpload)
+  nameWithType: AliOSSUpload.Equals(AliOSSUpload)
+  fullName: LiveKit.Proto.AliOSSUpload.Equals(LiveKit.Proto.AliOSSUpload)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7406
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(AliOSSUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AliOSSUpload
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As AliOSSUpload) As Boolean
+  overload: LiveKit.Proto.AliOSSUpload.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.AliOSSUpload}.Equals(LiveKit.Proto.AliOSSUpload)
+- uid: LiveKit.Proto.AliOSSUpload.GetHashCode
+  commentId: M:LiveKit.Proto.AliOSSUpload.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: AliOSSUpload.GetHashCode()
+  fullName: LiveKit.Proto.AliOSSUpload.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7423
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.AliOSSUpload.GetHashCode*
+- uid: LiveKit.Proto.AliOSSUpload.ToString
+  commentId: M:LiveKit.Proto.AliOSSUpload.ToString
+  id: ToString
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AliOSSUpload.ToString()
+  fullName: LiveKit.Proto.AliOSSUpload.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7438
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.AliOSSUpload.ToString*
+- uid: LiveKit.Proto.AliOSSUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.AliOSSUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: AliOSSUpload.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.AliOSSUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7444
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.AliOSSUpload.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.AliOSSUpload.CalculateSize
+  commentId: M:LiveKit.Proto.AliOSSUpload.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: AliOSSUpload.CalculateSize()
+  fullName: LiveKit.Proto.AliOSSUpload.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7506
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.AliOSSUpload.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.AliOSSUpload.MergeFrom(LiveKit.Proto.AliOSSUpload)
+  commentId: M:LiveKit.Proto.AliOSSUpload.MergeFrom(LiveKit.Proto.AliOSSUpload)
+  id: MergeFrom(LiveKit.Proto.AliOSSUpload)
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(AliOSSUpload)
+  nameWithType: AliOSSUpload.MergeFrom(AliOSSUpload)
+  fullName: LiveKit.Proto.AliOSSUpload.MergeFrom(LiveKit.Proto.AliOSSUpload)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7531
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(AliOSSUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AliOSSUpload
+    content.vb: Public Sub MergeFrom(other As AliOSSUpload)
+  overload: LiveKit.Proto.AliOSSUpload.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}.MergeFrom(LiveKit.Proto.AliOSSUpload)
+- uid: LiveKit.Proto.AliOSSUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.AliOSSUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.AliOSSUpload
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: AliOSSUpload.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.AliOSSUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7555
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.AliOSSUpload.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.AliOSSUpload.html
+  name: IMessage<AliOSSUpload>
+  nameWithType: IMessage<AliOSSUpload>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.AliOSSUpload>
+  nameWithType.vb: IMessage(Of AliOSSUpload)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.AliOSSUpload)
+  name.vb: IMessage(Of AliOSSUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.AliOSSUpload}
+  commentId: T:System.IEquatable{LiveKit.Proto.AliOSSUpload}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<AliOSSUpload>
+  nameWithType: IEquatable<AliOSSUpload>
+  fullName: System.IEquatable<LiveKit.Proto.AliOSSUpload>
+  nameWithType.vb: IEquatable(Of AliOSSUpload)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.AliOSSUpload)
+  name.vb: IEquatable(Of AliOSSUpload)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.AliOSSUpload.html
+  name: IDeepCloneable<AliOSSUpload>
+  nameWithType: IDeepCloneable<AliOSSUpload>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.AliOSSUpload>
+  nameWithType.vb: IDeepCloneable(Of AliOSSUpload)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.AliOSSUpload)
+  name.vb: IDeepCloneable(Of AliOSSUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.AliOSSUpload.Parser*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.Parser
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_Parser
+  name: Parser
+  nameWithType: AliOSSUpload.Parser
+  fullName: LiveKit.Proto.AliOSSUpload.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.AliOSSUpload}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.AliOSSUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.AliOSSUpload.html
+  name: MessageParser<AliOSSUpload>
+  nameWithType: MessageParser<AliOSSUpload>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.AliOSSUpload>
+  nameWithType.vb: MessageParser(Of AliOSSUpload)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.AliOSSUpload)
+  name.vb: MessageParser(Of AliOSSUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.AliOSSUpload.Descriptor*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.Descriptor
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_Descriptor
+  name: Descriptor
+  nameWithType: AliOSSUpload.Descriptor
+  fullName: LiveKit.Proto.AliOSSUpload.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.AliOSSUpload.#ctor*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.#ctor
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload__ctor
+  name: AliOSSUpload
+  nameWithType: AliOSSUpload.AliOSSUpload
+  fullName: LiveKit.Proto.AliOSSUpload.AliOSSUpload
+  nameWithType.vb: AliOSSUpload.New
+  fullName.vb: LiveKit.Proto.AliOSSUpload.New
+  name.vb: New
+- uid: LiveKit.Proto.AliOSSUpload
+  commentId: T:LiveKit.Proto.AliOSSUpload
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.AliOSSUpload.html
+  name: AliOSSUpload
+  nameWithType: AliOSSUpload
+  fullName: LiveKit.Proto.AliOSSUpload
+- uid: LiveKit.Proto.AliOSSUpload.Clone*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.Clone
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_Clone
+  name: Clone
+  nameWithType: AliOSSUpload.Clone
+  fullName: LiveKit.Proto.AliOSSUpload.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<AliOSSUpload>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.AliOSSUpload>.Clone()
+  nameWithType.vb: IDeepCloneable(Of AliOSSUpload).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.AliOSSUpload).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AliOSSUpload}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.AliOSSUpload.AccessKey*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.AccessKey
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_AccessKey
+  name: AccessKey
+  nameWithType: AliOSSUpload.AccessKey
+  fullName: LiveKit.Proto.AliOSSUpload.AccessKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.AliOSSUpload.Secret*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.Secret
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_Secret
+  name: Secret
+  nameWithType: AliOSSUpload.Secret
+  fullName: LiveKit.Proto.AliOSSUpload.Secret
+- uid: LiveKit.Proto.AliOSSUpload.Region*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.Region
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_Region
+  name: Region
+  nameWithType: AliOSSUpload.Region
+  fullName: LiveKit.Proto.AliOSSUpload.Region
+- uid: LiveKit.Proto.AliOSSUpload.Endpoint*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.Endpoint
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_Endpoint
+  name: Endpoint
+  nameWithType: AliOSSUpload.Endpoint
+  fullName: LiveKit.Proto.AliOSSUpload.Endpoint
+- uid: LiveKit.Proto.AliOSSUpload.Bucket*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.Bucket
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_Bucket
+  name: Bucket
+  nameWithType: AliOSSUpload.Bucket
+  fullName: LiveKit.Proto.AliOSSUpload.Bucket
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.AliOSSUpload.Equals*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.Equals
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_Equals_System_Object_
+  name: Equals
+  nameWithType: AliOSSUpload.Equals
+  fullName: LiveKit.Proto.AliOSSUpload.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.AliOSSUpload}.Equals(LiveKit.Proto.AliOSSUpload)
+  commentId: M:System.IEquatable{LiveKit.Proto.AliOSSUpload}.Equals(LiveKit.Proto.AliOSSUpload)
+  parent: System.IEquatable{LiveKit.Proto.AliOSSUpload}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(AliOSSUpload)
+  nameWithType: IEquatable<AliOSSUpload>.Equals(AliOSSUpload)
+  fullName: System.IEquatable<LiveKit.Proto.AliOSSUpload>.Equals(LiveKit.Proto.AliOSSUpload)
+  nameWithType.vb: IEquatable(Of AliOSSUpload).Equals(AliOSSUpload)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.AliOSSUpload).Equals(LiveKit.Proto.AliOSSUpload)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.AliOSSUpload}.Equals(LiveKit.Proto.AliOSSUpload)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.AliOSSUpload}.Equals(LiveKit.Proto.AliOSSUpload)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AliOSSUpload.GetHashCode*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.GetHashCode
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_GetHashCode
+  name: GetHashCode
+  nameWithType: AliOSSUpload.GetHashCode
+  fullName: LiveKit.Proto.AliOSSUpload.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AliOSSUpload.ToString*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.ToString
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_ToString
+  name: ToString
+  nameWithType: AliOSSUpload.ToString
+  fullName: LiveKit.Proto.AliOSSUpload.ToString
+- uid: LiveKit.Proto.AliOSSUpload.WriteTo*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.WriteTo
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: AliOSSUpload.WriteTo
+  fullName: LiveKit.Proto.AliOSSUpload.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.AliOSSUpload.CalculateSize*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.CalculateSize
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_CalculateSize
+  name: CalculateSize
+  nameWithType: AliOSSUpload.CalculateSize
+  fullName: LiveKit.Proto.AliOSSUpload.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AliOSSUpload.MergeFrom*
+  commentId: Overload:LiveKit.Proto.AliOSSUpload.MergeFrom
+  href: LiveKit.Proto.AliOSSUpload.html#LiveKit_Proto_AliOSSUpload_MergeFrom_LiveKit_Proto_AliOSSUpload_
+  name: MergeFrom
+  nameWithType: AliOSSUpload.MergeFrom
+  fullName: LiveKit.Proto.AliOSSUpload.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}.MergeFrom(LiveKit.Proto.AliOSSUpload)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}.MergeFrom(LiveKit.Proto.AliOSSUpload)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.AliOSSUpload.html
+  name: MergeFrom(AliOSSUpload)
+  nameWithType: IMessage<AliOSSUpload>.MergeFrom(AliOSSUpload)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.AliOSSUpload>.MergeFrom(LiveKit.Proto.AliOSSUpload)
+  nameWithType.vb: IMessage(Of AliOSSUpload).MergeFrom(AliOSSUpload)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.AliOSSUpload).MergeFrom(LiveKit.Proto.AliOSSUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}.MergeFrom(LiveKit.Proto.AliOSSUpload)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.AliOSSUpload}.MergeFrom(LiveKit.Proto.AliOSSUpload)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.AliOSSUpload
+    name: AliOSSUpload
+    href: LiveKit.Proto.AliOSSUpload.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

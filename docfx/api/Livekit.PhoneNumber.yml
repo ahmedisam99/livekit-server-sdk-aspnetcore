@@ -1,0 +1,2499 @@
+### YamlMime:ManagedReference
+items:
+- uid: Livekit.PhoneNumber
+  commentId: T:Livekit.PhoneNumber
+  id: PhoneNumber
+  parent: Livekit
+  children:
+  - Livekit.PhoneNumber.#ctor
+  - Livekit.PhoneNumber.#ctor(Livekit.PhoneNumber)
+  - Livekit.PhoneNumber.AreaCode
+  - Livekit.PhoneNumber.AreaCodeFieldNumber
+  - Livekit.PhoneNumber.AssignedAt
+  - Livekit.PhoneNumber.AssignedAtFieldNumber
+  - Livekit.PhoneNumber.CalculateSize
+  - Livekit.PhoneNumber.Capabilities
+  - Livekit.PhoneNumber.CapabilitiesFieldNumber
+  - Livekit.PhoneNumber.Clone
+  - Livekit.PhoneNumber.CountryCode
+  - Livekit.PhoneNumber.CountryCodeFieldNumber
+  - Livekit.PhoneNumber.CreatedAt
+  - Livekit.PhoneNumber.CreatedAtFieldNumber
+  - Livekit.PhoneNumber.Descriptor
+  - Livekit.PhoneNumber.E164Format
+  - Livekit.PhoneNumber.E164FormatFieldNumber
+  - Livekit.PhoneNumber.Equals(Livekit.PhoneNumber)
+  - Livekit.PhoneNumber.Equals(System.Object)
+  - Livekit.PhoneNumber.GetHashCode
+  - Livekit.PhoneNumber.Id
+  - Livekit.PhoneNumber.IdFieldNumber
+  - Livekit.PhoneNumber.Locality
+  - Livekit.PhoneNumber.LocalityFieldNumber
+  - Livekit.PhoneNumber.MergeFrom(Google.Protobuf.CodedInputStream)
+  - Livekit.PhoneNumber.MergeFrom(Livekit.PhoneNumber)
+  - Livekit.PhoneNumber.NumberType
+  - Livekit.PhoneNumber.NumberTypeFieldNumber
+  - Livekit.PhoneNumber.Parser
+  - Livekit.PhoneNumber.Region
+  - Livekit.PhoneNumber.RegionFieldNumber
+  - Livekit.PhoneNumber.ReleasedAt
+  - Livekit.PhoneNumber.ReleasedAtFieldNumber
+  - Livekit.PhoneNumber.SipDispatchRuleId
+  - Livekit.PhoneNumber.SipDispatchRuleIdFieldNumber
+  - Livekit.PhoneNumber.SpamScore
+  - Livekit.PhoneNumber.SpamScoreFieldNumber
+  - Livekit.PhoneNumber.Status
+  - Livekit.PhoneNumber.StatusFieldNumber
+  - Livekit.PhoneNumber.ToString
+  - Livekit.PhoneNumber.UpdatedAt
+  - Livekit.PhoneNumber.UpdatedAtFieldNumber
+  - Livekit.PhoneNumber.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: PhoneNumber
+  fullName: Livekit.PhoneNumber
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PhoneNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3113
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: PhoneNumber - Unified phone number type for inventory and purchased numbers
+  example: []
+  syntax:
+    content: 'public sealed class PhoneNumber : IMessage<PhoneNumber>, IEquatable<PhoneNumber>, IDeepCloneable<PhoneNumber>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class PhoneNumber Implements IMessage(Of PhoneNumber), IEquatable(Of PhoneNumber), IDeepCloneable(Of PhoneNumber), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{Livekit.PhoneNumber}
+  - System.IEquatable{Livekit.PhoneNumber}
+  - Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Livekit.PhoneNumber.Parser
+  commentId: P:Livekit.PhoneNumber.Parser
+  id: Parser
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: PhoneNumber.Parser
+  fullName: Livekit.PhoneNumber.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3121
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  syntax:
+    content: public static MessageParser<PhoneNumber> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{Livekit.PhoneNumber}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of PhoneNumber)
+  overload: Livekit.PhoneNumber.Parser*
+- uid: Livekit.PhoneNumber.Descriptor
+  commentId: P:Livekit.PhoneNumber.Descriptor
+  id: Descriptor
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: PhoneNumber.Descriptor
+  fullName: Livekit.PhoneNumber.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3125
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: Livekit.PhoneNumber.Descriptor*
+- uid: Livekit.PhoneNumber.#ctor
+  commentId: M:Livekit.PhoneNumber.#ctor
+  id: '#ctor'
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber()
+  nameWithType: PhoneNumber.PhoneNumber()
+  fullName: Livekit.PhoneNumber.PhoneNumber()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3137
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  syntax:
+    content: public PhoneNumber()
+    content.vb: Public Sub New()
+  overload: Livekit.PhoneNumber.#ctor*
+  nameWithType.vb: PhoneNumber.New()
+  fullName.vb: Livekit.PhoneNumber.New()
+  name.vb: New()
+- uid: Livekit.PhoneNumber.#ctor(Livekit.PhoneNumber)
+  commentId: M:Livekit.PhoneNumber.#ctor(Livekit.PhoneNumber)
+  id: '#ctor(Livekit.PhoneNumber)'
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber(PhoneNumber)
+  nameWithType: PhoneNumber.PhoneNumber(PhoneNumber)
+  fullName: Livekit.PhoneNumber.PhoneNumber(Livekit.PhoneNumber)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3145
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  syntax:
+    content: public PhoneNumber(PhoneNumber other)
+    parameters:
+    - id: other
+      type: Livekit.PhoneNumber
+    content.vb: Public Sub New(other As PhoneNumber)
+  overload: Livekit.PhoneNumber.#ctor*
+  nameWithType.vb: PhoneNumber.New(PhoneNumber)
+  fullName.vb: Livekit.PhoneNumber.New(Livekit.PhoneNumber)
+  name.vb: New(PhoneNumber)
+- uid: Livekit.PhoneNumber.Clone
+  commentId: M:Livekit.PhoneNumber.Clone
+  id: Clone
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: PhoneNumber.Clone()
+  fullName: Livekit.PhoneNumber.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3166
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public PhoneNumber Clone()
+    return:
+      type: Livekit.PhoneNumber
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As PhoneNumber
+  overload: Livekit.PhoneNumber.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}.Clone
+- uid: Livekit.PhoneNumber.IdFieldNumber
+  commentId: F:Livekit.PhoneNumber.IdFieldNumber
+  id: IdFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: IdFieldNumber
+  nameWithType: PhoneNumber.IdFieldNumber
+  fullName: Livekit.PhoneNumber.IdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3173
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "id" field.
+  example: []
+  syntax:
+    content: public const int IdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const IdFieldNumber As Integer = 1
+- uid: Livekit.PhoneNumber.Id
+  commentId: P:Livekit.PhoneNumber.Id
+  id: Id
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: PhoneNumber.Id
+  fullName: Livekit.PhoneNumber.Id
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Id
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3178
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Unique identifier
+  example: []
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: Livekit.PhoneNumber.Id*
+- uid: Livekit.PhoneNumber.E164FormatFieldNumber
+  commentId: F:Livekit.PhoneNumber.E164FormatFieldNumber
+  id: E164FormatFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: E164FormatFieldNumber
+  nameWithType: PhoneNumber.E164FormatFieldNumber
+  fullName: Livekit.PhoneNumber.E164FormatFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: E164FormatFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3188
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "e164_format" field.
+  example: []
+  syntax:
+    content: public const int E164FormatFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const E164FormatFieldNumber As Integer = 2
+- uid: Livekit.PhoneNumber.E164Format
+  commentId: P:Livekit.PhoneNumber.E164Format
+  id: E164Format
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: E164Format
+  nameWithType: PhoneNumber.E164Format
+  fullName: Livekit.PhoneNumber.E164Format
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: E164Format
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3193
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Phone number in E.164 format (e.g., "+14155552671")
+  example: []
+  syntax:
+    content: public string E164Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property E164Format As String
+  overload: Livekit.PhoneNumber.E164Format*
+- uid: Livekit.PhoneNumber.CountryCodeFieldNumber
+  commentId: F:Livekit.PhoneNumber.CountryCodeFieldNumber
+  id: CountryCodeFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: CountryCodeFieldNumber
+  nameWithType: PhoneNumber.CountryCodeFieldNumber
+  fullName: Livekit.PhoneNumber.CountryCodeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CountryCodeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3203
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "country_code" field.
+  example: []
+  syntax:
+    content: public const int CountryCodeFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const CountryCodeFieldNumber As Integer = 3
+- uid: Livekit.PhoneNumber.CountryCode
+  commentId: P:Livekit.PhoneNumber.CountryCode
+  id: CountryCode
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: CountryCode
+  nameWithType: PhoneNumber.CountryCode
+  fullName: Livekit.PhoneNumber.CountryCode
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CountryCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3208
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Country code (e.g., "US")
+  example: []
+  syntax:
+    content: public string CountryCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CountryCode As String
+  overload: Livekit.PhoneNumber.CountryCode*
+- uid: Livekit.PhoneNumber.AreaCodeFieldNumber
+  commentId: F:Livekit.PhoneNumber.AreaCodeFieldNumber
+  id: AreaCodeFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: AreaCodeFieldNumber
+  nameWithType: PhoneNumber.AreaCodeFieldNumber
+  fullName: Livekit.PhoneNumber.AreaCodeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AreaCodeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3218
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "area_code" field.
+  example: []
+  syntax:
+    content: public const int AreaCodeFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const AreaCodeFieldNumber As Integer = 4
+- uid: Livekit.PhoneNumber.AreaCode
+  commentId: P:Livekit.PhoneNumber.AreaCode
+  id: AreaCode
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: AreaCode
+  nameWithType: PhoneNumber.AreaCode
+  fullName: Livekit.PhoneNumber.AreaCode
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AreaCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3223
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Area code (e.g., "415")
+  example: []
+  syntax:
+    content: public string AreaCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AreaCode As String
+  overload: Livekit.PhoneNumber.AreaCode*
+- uid: Livekit.PhoneNumber.NumberTypeFieldNumber
+  commentId: F:Livekit.PhoneNumber.NumberTypeFieldNumber
+  id: NumberTypeFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: NumberTypeFieldNumber
+  nameWithType: PhoneNumber.NumberTypeFieldNumber
+  fullName: Livekit.PhoneNumber.NumberTypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumberTypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3233
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "number_type" field.
+  example: []
+  syntax:
+    content: public const int NumberTypeFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const NumberTypeFieldNumber As Integer = 5
+- uid: Livekit.PhoneNumber.NumberType
+  commentId: P:Livekit.PhoneNumber.NumberType
+  id: NumberType
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: NumberType
+  nameWithType: PhoneNumber.NumberType
+  fullName: Livekit.PhoneNumber.NumberType
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumberType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3238
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Number type (mobile, local, toll-free, unknown)
+  example: []
+  syntax:
+    content: public PhoneNumberType NumberType { get; set; }
+    parameters: []
+    return:
+      type: Livekit.PhoneNumberType
+    content.vb: Public Property NumberType As PhoneNumberType
+  overload: Livekit.PhoneNumber.NumberType*
+- uid: Livekit.PhoneNumber.LocalityFieldNumber
+  commentId: F:Livekit.PhoneNumber.LocalityFieldNumber
+  id: LocalityFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: LocalityFieldNumber
+  nameWithType: PhoneNumber.LocalityFieldNumber
+  fullName: Livekit.PhoneNumber.LocalityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LocalityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3248
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "locality" field.
+  example: []
+  syntax:
+    content: public const int LocalityFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const LocalityFieldNumber As Integer = 6
+- uid: Livekit.PhoneNumber.Locality
+  commentId: P:Livekit.PhoneNumber.Locality
+  id: Locality
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Locality
+  nameWithType: PhoneNumber.Locality
+  fullName: Livekit.PhoneNumber.Locality
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Locality
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3253
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: City/locality (e.g., "San Francisco")
+  example: []
+  syntax:
+    content: public string Locality { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Locality As String
+  overload: Livekit.PhoneNumber.Locality*
+- uid: Livekit.PhoneNumber.RegionFieldNumber
+  commentId: F:Livekit.PhoneNumber.RegionFieldNumber
+  id: RegionFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: RegionFieldNumber
+  nameWithType: PhoneNumber.RegionFieldNumber
+  fullName: Livekit.PhoneNumber.RegionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RegionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3263
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "region" field.
+  example: []
+  syntax:
+    content: public const int RegionFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const RegionFieldNumber As Integer = 7
+- uid: Livekit.PhoneNumber.Region
+  commentId: P:Livekit.PhoneNumber.Region
+  id: Region
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Region
+  nameWithType: PhoneNumber.Region
+  fullName: Livekit.PhoneNumber.Region
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Region
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3268
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: State/region (e.g., "CA")
+  example: []
+  syntax:
+    content: public string Region { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Region As String
+  overload: Livekit.PhoneNumber.Region*
+- uid: Livekit.PhoneNumber.SpamScoreFieldNumber
+  commentId: F:Livekit.PhoneNumber.SpamScoreFieldNumber
+  id: SpamScoreFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: SpamScoreFieldNumber
+  nameWithType: PhoneNumber.SpamScoreFieldNumber
+  fullName: Livekit.PhoneNumber.SpamScoreFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SpamScoreFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3278
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "spam_score" field.
+  example: []
+  syntax:
+    content: public const int SpamScoreFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const SpamScoreFieldNumber As Integer = 8
+- uid: Livekit.PhoneNumber.SpamScore
+  commentId: P:Livekit.PhoneNumber.SpamScore
+  id: SpamScore
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: SpamScore
+  nameWithType: PhoneNumber.SpamScore
+  fullName: Livekit.PhoneNumber.SpamScore
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SpamScore
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3283
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Spam score for fraud detection
+  example: []
+  syntax:
+    content: public double SpamScore { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property SpamScore As Double
+  overload: Livekit.PhoneNumber.SpamScore*
+- uid: Livekit.PhoneNumber.CreatedAtFieldNumber
+  commentId: F:Livekit.PhoneNumber.CreatedAtFieldNumber
+  id: CreatedAtFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: CreatedAtFieldNumber
+  nameWithType: PhoneNumber.CreatedAtFieldNumber
+  fullName: Livekit.PhoneNumber.CreatedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreatedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3293
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "created_at" field.
+  example: []
+  syntax:
+    content: public const int CreatedAtFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const CreatedAtFieldNumber As Integer = 9
+- uid: Livekit.PhoneNumber.CreatedAt
+  commentId: P:Livekit.PhoneNumber.CreatedAt
+  id: CreatedAt
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: PhoneNumber.CreatedAt
+  fullName: Livekit.PhoneNumber.CreatedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreatedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3298
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Creation timestamp
+  example: []
+  syntax:
+    content: public Timestamp CreatedAt { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property CreatedAt As Timestamp
+  overload: Livekit.PhoneNumber.CreatedAt*
+- uid: Livekit.PhoneNumber.UpdatedAtFieldNumber
+  commentId: F:Livekit.PhoneNumber.UpdatedAtFieldNumber
+  id: UpdatedAtFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAtFieldNumber
+  nameWithType: PhoneNumber.UpdatedAtFieldNumber
+  fullName: Livekit.PhoneNumber.UpdatedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdatedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3308
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "updated_at" field.
+  example: []
+  syntax:
+    content: public const int UpdatedAtFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdatedAtFieldNumber As Integer = 10
+- uid: Livekit.PhoneNumber.UpdatedAt
+  commentId: P:Livekit.PhoneNumber.UpdatedAt
+  id: UpdatedAt
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAt
+  nameWithType: PhoneNumber.UpdatedAt
+  fullName: Livekit.PhoneNumber.UpdatedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdatedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3313
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Last update timestamp
+  example: []
+  syntax:
+    content: public Timestamp UpdatedAt { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property UpdatedAt As Timestamp
+  overload: Livekit.PhoneNumber.UpdatedAt*
+- uid: Livekit.PhoneNumber.CapabilitiesFieldNumber
+  commentId: F:Livekit.PhoneNumber.CapabilitiesFieldNumber
+  id: CapabilitiesFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: CapabilitiesFieldNumber
+  nameWithType: PhoneNumber.CapabilitiesFieldNumber
+  fullName: Livekit.PhoneNumber.CapabilitiesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CapabilitiesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3323
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "capabilities" field.
+  example: []
+  syntax:
+    content: public const int CapabilitiesFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const CapabilitiesFieldNumber As Integer = 11
+- uid: Livekit.PhoneNumber.Capabilities
+  commentId: P:Livekit.PhoneNumber.Capabilities
+  id: Capabilities
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Capabilities
+  nameWithType: PhoneNumber.Capabilities
+  fullName: Livekit.PhoneNumber.Capabilities
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Capabilities
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3330
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Available capabilities (e.g., "voice", "sms")
+  example: []
+  syntax:
+    content: public RepeatedField<string> Capabilities { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property Capabilities As RepeatedField(Of String)
+  overload: Livekit.PhoneNumber.Capabilities*
+- uid: Livekit.PhoneNumber.StatusFieldNumber
+  commentId: F:Livekit.PhoneNumber.StatusFieldNumber
+  id: StatusFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: StatusFieldNumber
+  nameWithType: PhoneNumber.StatusFieldNumber
+  fullName: Livekit.PhoneNumber.StatusFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StatusFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3337
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "status" field.
+  example: []
+  syntax:
+    content: public const int StatusFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const StatusFieldNumber As Integer = 12
+- uid: Livekit.PhoneNumber.Status
+  commentId: P:Livekit.PhoneNumber.Status
+  id: Status
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: PhoneNumber.Status
+  fullName: Livekit.PhoneNumber.Status
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Status
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3342
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Current status
+  example: []
+  syntax:
+    content: public PhoneNumberStatus Status { get; set; }
+    parameters: []
+    return:
+      type: Livekit.PhoneNumberStatus
+    content.vb: Public Property Status As PhoneNumberStatus
+  overload: Livekit.PhoneNumber.Status*
+- uid: Livekit.PhoneNumber.AssignedAtFieldNumber
+  commentId: F:Livekit.PhoneNumber.AssignedAtFieldNumber
+  id: AssignedAtFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: AssignedAtFieldNumber
+  nameWithType: PhoneNumber.AssignedAtFieldNumber
+  fullName: Livekit.PhoneNumber.AssignedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AssignedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3352
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "assigned_at" field.
+  example: []
+  syntax:
+    content: public const int AssignedAtFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const AssignedAtFieldNumber As Integer = 13
+- uid: Livekit.PhoneNumber.AssignedAt
+  commentId: P:Livekit.PhoneNumber.AssignedAt
+  id: AssignedAt
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: AssignedAt
+  nameWithType: PhoneNumber.AssignedAt
+  fullName: Livekit.PhoneNumber.AssignedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AssignedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3357
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Assignment timestamp
+  example: []
+  syntax:
+    content: public Timestamp AssignedAt { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property AssignedAt As Timestamp
+  overload: Livekit.PhoneNumber.AssignedAt*
+- uid: Livekit.PhoneNumber.ReleasedAtFieldNumber
+  commentId: F:Livekit.PhoneNumber.ReleasedAtFieldNumber
+  id: ReleasedAtFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: ReleasedAtFieldNumber
+  nameWithType: PhoneNumber.ReleasedAtFieldNumber
+  fullName: Livekit.PhoneNumber.ReleasedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReleasedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3367
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "released_at" field.
+  example: []
+  syntax:
+    content: public const int ReleasedAtFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const ReleasedAtFieldNumber As Integer = 14
+- uid: Livekit.PhoneNumber.ReleasedAt
+  commentId: P:Livekit.PhoneNumber.ReleasedAt
+  id: ReleasedAt
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: ReleasedAt
+  nameWithType: PhoneNumber.ReleasedAt
+  fullName: Livekit.PhoneNumber.ReleasedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReleasedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3372
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Release timestamp (if applicable)
+  example: []
+  syntax:
+    content: public Timestamp ReleasedAt { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property ReleasedAt As Timestamp
+  overload: Livekit.PhoneNumber.ReleasedAt*
+- uid: Livekit.PhoneNumber.SipDispatchRuleIdFieldNumber
+  commentId: F:Livekit.PhoneNumber.SipDispatchRuleIdFieldNumber
+  id: SipDispatchRuleIdFieldNumber
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: SipDispatchRuleIdFieldNumber
+  nameWithType: PhoneNumber.SipDispatchRuleIdFieldNumber
+  fullName: Livekit.PhoneNumber.SipDispatchRuleIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipDispatchRuleIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3382
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "sip_dispatch_rule_id" field.
+  example: []
+  syntax:
+    content: public const int SipDispatchRuleIdFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const SipDispatchRuleIdFieldNumber As Integer = 15
+- uid: Livekit.PhoneNumber.SipDispatchRuleId
+  commentId: P:Livekit.PhoneNumber.SipDispatchRuleId
+  id: SipDispatchRuleId
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: SipDispatchRuleId
+  nameWithType: PhoneNumber.SipDispatchRuleId
+  fullName: Livekit.PhoneNumber.SipDispatchRuleId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipDispatchRuleId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3387
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Associated SIP dispatch rule ID
+  example: []
+  syntax:
+    content: public string SipDispatchRuleId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SipDispatchRuleId As String
+  overload: Livekit.PhoneNumber.SipDispatchRuleId*
+- uid: Livekit.PhoneNumber.Equals(System.Object)
+  commentId: M:Livekit.PhoneNumber.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: PhoneNumber.Equals(object)
+  fullName: Livekit.PhoneNumber.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3396
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Livekit.PhoneNumber.Equals*
+  nameWithType.vb: PhoneNumber.Equals(Object)
+  fullName.vb: Livekit.PhoneNumber.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Livekit.PhoneNumber.Equals(Livekit.PhoneNumber)
+  commentId: M:Livekit.PhoneNumber.Equals(Livekit.PhoneNumber)
+  id: Equals(Livekit.PhoneNumber)
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: Equals(PhoneNumber)
+  nameWithType: PhoneNumber.Equals(PhoneNumber)
+  fullName: Livekit.PhoneNumber.Equals(Livekit.PhoneNumber)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3402
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  example: []
+  syntax:
+    content: public bool Equals(PhoneNumber other)
+    parameters:
+    - id: other
+      type: Livekit.PhoneNumber
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As PhoneNumber) As Boolean
+  overload: Livekit.PhoneNumber.Equals*
+  implements:
+  - System.IEquatable{Livekit.PhoneNumber}.Equals(Livekit.PhoneNumber)
+- uid: Livekit.PhoneNumber.GetHashCode
+  commentId: M:Livekit.PhoneNumber.GetHashCode
+  id: GetHashCode
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PhoneNumber.GetHashCode()
+  fullName: Livekit.PhoneNumber.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3429
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: Livekit.PhoneNumber.GetHashCode*
+- uid: Livekit.PhoneNumber.ToString
+  commentId: M:Livekit.PhoneNumber.ToString
+  id: ToString
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PhoneNumber.ToString()
+  fullName: Livekit.PhoneNumber.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3454
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Livekit.PhoneNumber.ToString*
+- uid: Livekit.PhoneNumber.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Livekit.PhoneNumber.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: PhoneNumber.WriteTo(CodedOutputStream)
+  fullName: Livekit.PhoneNumber.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3460
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: Livekit.PhoneNumber.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: Livekit.PhoneNumber.CalculateSize
+  commentId: M:Livekit.PhoneNumber.CalculateSize
+  id: CalculateSize
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: PhoneNumber.CalculateSize()
+  fullName: Livekit.PhoneNumber.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3596
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: Livekit.PhoneNumber.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: Livekit.PhoneNumber.MergeFrom(Livekit.PhoneNumber)
+  commentId: M:Livekit.PhoneNumber.MergeFrom(Livekit.PhoneNumber)
+  id: MergeFrom(Livekit.PhoneNumber)
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(PhoneNumber)
+  nameWithType: PhoneNumber.MergeFrom(PhoneNumber)
+  fullName: Livekit.PhoneNumber.MergeFrom(Livekit.PhoneNumber)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3649
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(PhoneNumber other)
+    parameters:
+    - id: other
+      type: Livekit.PhoneNumber
+    content.vb: Public Sub MergeFrom(other As PhoneNumber)
+  overload: Livekit.PhoneNumber.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{Livekit.PhoneNumber}.MergeFrom(Livekit.PhoneNumber)
+- uid: Livekit.PhoneNumber.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Livekit.PhoneNumber.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Livekit.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: PhoneNumber.MergeFrom(CodedInputStream)
+  fullName: Livekit.PhoneNumber.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 3713
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: Livekit.PhoneNumber.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: Livekit
+  commentId: N:Livekit
+  href: Livekit.html
+  name: Livekit
+  nameWithType: Livekit
+  fullName: Livekit
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{Livekit.PhoneNumber}
+  commentId: T:Google.Protobuf.IMessage{Livekit.PhoneNumber}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: Livekit.PhoneNumber.html
+  name: IMessage<PhoneNumber>
+  nameWithType: IMessage<PhoneNumber>
+  fullName: Google.Protobuf.IMessage<Livekit.PhoneNumber>
+  nameWithType.vb: IMessage(Of PhoneNumber)
+  fullName.vb: Google.Protobuf.IMessage(Of Livekit.PhoneNumber)
+  name.vb: IMessage(Of PhoneNumber)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: )
+- uid: System.IEquatable{Livekit.PhoneNumber}
+  commentId: T:System.IEquatable{Livekit.PhoneNumber}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<PhoneNumber>
+  nameWithType: IEquatable<PhoneNumber>
+  fullName: System.IEquatable<Livekit.PhoneNumber>
+  nameWithType.vb: IEquatable(Of PhoneNumber)
+  fullName.vb: System.IEquatable(Of Livekit.PhoneNumber)
+  name.vb: IEquatable(Of PhoneNumber)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}
+  commentId: T:Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: Livekit.PhoneNumber.html
+  name: IDeepCloneable<PhoneNumber>
+  nameWithType: IDeepCloneable<PhoneNumber>
+  fullName: Google.Protobuf.IDeepCloneable<Livekit.PhoneNumber>
+  nameWithType.vb: IDeepCloneable(Of PhoneNumber)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of Livekit.PhoneNumber)
+  name.vb: IDeepCloneable(Of PhoneNumber)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Livekit.PhoneNumber.Parser*
+  commentId: Overload:Livekit.PhoneNumber.Parser
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Parser
+  name: Parser
+  nameWithType: PhoneNumber.Parser
+  fullName: Livekit.PhoneNumber.Parser
+- uid: Google.Protobuf.MessageParser{Livekit.PhoneNumber}
+  commentId: T:Google.Protobuf.MessageParser{Livekit.PhoneNumber}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: Livekit.PhoneNumber.html
+  name: MessageParser<PhoneNumber>
+  nameWithType: MessageParser<PhoneNumber>
+  fullName: Google.Protobuf.MessageParser<Livekit.PhoneNumber>
+  nameWithType.vb: MessageParser(Of PhoneNumber)
+  fullName.vb: Google.Protobuf.MessageParser(Of Livekit.PhoneNumber)
+  name.vb: MessageParser(Of PhoneNumber)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Livekit.PhoneNumber.Descriptor*
+  commentId: Overload:Livekit.PhoneNumber.Descriptor
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Descriptor
+  name: Descriptor
+  nameWithType: PhoneNumber.Descriptor
+  fullName: Livekit.PhoneNumber.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: Livekit.PhoneNumber.#ctor*
+  commentId: Overload:Livekit.PhoneNumber.#ctor
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber__ctor
+  name: PhoneNumber
+  nameWithType: PhoneNumber.PhoneNumber
+  fullName: Livekit.PhoneNumber.PhoneNumber
+  nameWithType.vb: PhoneNumber.New
+  fullName.vb: Livekit.PhoneNumber.New
+  name.vb: New
+- uid: Livekit.PhoneNumber
+  commentId: T:Livekit.PhoneNumber
+  parent: Livekit
+  href: Livekit.PhoneNumber.html
+  name: PhoneNumber
+  nameWithType: PhoneNumber
+  fullName: Livekit.PhoneNumber
+- uid: Livekit.PhoneNumber.Clone*
+  commentId: Overload:Livekit.PhoneNumber.Clone
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Clone
+  name: Clone
+  nameWithType: PhoneNumber.Clone
+  fullName: Livekit.PhoneNumber.Clone
+- uid: Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}.Clone
+  parent: Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<PhoneNumber>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<Livekit.PhoneNumber>.Clone()
+  nameWithType.vb: IDeepCloneable(Of PhoneNumber).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of Livekit.PhoneNumber).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{Livekit.PhoneNumber}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Livekit.PhoneNumber.Id*
+  commentId: Overload:Livekit.PhoneNumber.Id
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Id
+  name: Id
+  nameWithType: PhoneNumber.Id
+  fullName: Livekit.PhoneNumber.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Livekit.PhoneNumber.E164Format*
+  commentId: Overload:Livekit.PhoneNumber.E164Format
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_E164Format
+  name: E164Format
+  nameWithType: PhoneNumber.E164Format
+  fullName: Livekit.PhoneNumber.E164Format
+- uid: Livekit.PhoneNumber.CountryCode*
+  commentId: Overload:Livekit.PhoneNumber.CountryCode
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_CountryCode
+  name: CountryCode
+  nameWithType: PhoneNumber.CountryCode
+  fullName: Livekit.PhoneNumber.CountryCode
+- uid: Livekit.PhoneNumber.AreaCode*
+  commentId: Overload:Livekit.PhoneNumber.AreaCode
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_AreaCode
+  name: AreaCode
+  nameWithType: PhoneNumber.AreaCode
+  fullName: Livekit.PhoneNumber.AreaCode
+- uid: Livekit.PhoneNumber.NumberType*
+  commentId: Overload:Livekit.PhoneNumber.NumberType
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_NumberType
+  name: NumberType
+  nameWithType: PhoneNumber.NumberType
+  fullName: Livekit.PhoneNumber.NumberType
+- uid: Livekit.PhoneNumberType
+  commentId: T:Livekit.PhoneNumberType
+  parent: Livekit
+  href: Livekit.PhoneNumberType.html
+  name: PhoneNumberType
+  nameWithType: PhoneNumberType
+  fullName: Livekit.PhoneNumberType
+- uid: Livekit.PhoneNumber.Locality*
+  commentId: Overload:Livekit.PhoneNumber.Locality
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Locality
+  name: Locality
+  nameWithType: PhoneNumber.Locality
+  fullName: Livekit.PhoneNumber.Locality
+- uid: Livekit.PhoneNumber.Region*
+  commentId: Overload:Livekit.PhoneNumber.Region
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Region
+  name: Region
+  nameWithType: PhoneNumber.Region
+  fullName: Livekit.PhoneNumber.Region
+- uid: Livekit.PhoneNumber.SpamScore*
+  commentId: Overload:Livekit.PhoneNumber.SpamScore
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_SpamScore
+  name: SpamScore
+  nameWithType: PhoneNumber.SpamScore
+  fullName: Livekit.PhoneNumber.SpamScore
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Livekit.PhoneNumber.CreatedAt*
+  commentId: Overload:Livekit.PhoneNumber.CreatedAt
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_CreatedAt
+  name: CreatedAt
+  nameWithType: PhoneNumber.CreatedAt
+  fullName: Livekit.PhoneNumber.CreatedAt
+- uid: Google.Protobuf.WellKnownTypes.Timestamp
+  commentId: T:Google.Protobuf.WellKnownTypes.Timestamp
+  parent: Google.Protobuf.WellKnownTypes
+  isExternal: true
+  name: Timestamp
+  nameWithType: Timestamp
+  fullName: Google.Protobuf.WellKnownTypes.Timestamp
+- uid: Google.Protobuf.WellKnownTypes
+  commentId: N:Google.Protobuf.WellKnownTypes
+  isExternal: true
+  name: Google.Protobuf.WellKnownTypes
+  nameWithType: Google.Protobuf.WellKnownTypes
+  fullName: Google.Protobuf.WellKnownTypes
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.WellKnownTypes
+    name: WellKnownTypes
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.WellKnownTypes
+    name: WellKnownTypes
+    isExternal: true
+- uid: Livekit.PhoneNumber.UpdatedAt*
+  commentId: Overload:Livekit.PhoneNumber.UpdatedAt
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_UpdatedAt
+  name: UpdatedAt
+  nameWithType: PhoneNumber.UpdatedAt
+  fullName: Livekit.PhoneNumber.UpdatedAt
+- uid: Livekit.PhoneNumber.Capabilities*
+  commentId: Overload:Livekit.PhoneNumber.Capabilities
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Capabilities
+  name: Capabilities
+  nameWithType: PhoneNumber.Capabilities
+  fullName: Livekit.PhoneNumber.Capabilities
+- uid: Google.Protobuf.Collections.RepeatedField{System.String}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RepeatedField<string>
+  nameWithType: RepeatedField<string>
+  fullName: Google.Protobuf.Collections.RepeatedField<string>
+  nameWithType.vb: RepeatedField(Of String)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of String)
+  name.vb: RepeatedField(Of String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: Livekit.PhoneNumber.Status*
+  commentId: Overload:Livekit.PhoneNumber.Status
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Status
+  name: Status
+  nameWithType: PhoneNumber.Status
+  fullName: Livekit.PhoneNumber.Status
+- uid: Livekit.PhoneNumberStatus
+  commentId: T:Livekit.PhoneNumberStatus
+  parent: Livekit
+  href: Livekit.PhoneNumberStatus.html
+  name: PhoneNumberStatus
+  nameWithType: PhoneNumberStatus
+  fullName: Livekit.PhoneNumberStatus
+- uid: Livekit.PhoneNumber.AssignedAt*
+  commentId: Overload:Livekit.PhoneNumber.AssignedAt
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_AssignedAt
+  name: AssignedAt
+  nameWithType: PhoneNumber.AssignedAt
+  fullName: Livekit.PhoneNumber.AssignedAt
+- uid: Livekit.PhoneNumber.ReleasedAt*
+  commentId: Overload:Livekit.PhoneNumber.ReleasedAt
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_ReleasedAt
+  name: ReleasedAt
+  nameWithType: PhoneNumber.ReleasedAt
+  fullName: Livekit.PhoneNumber.ReleasedAt
+- uid: Livekit.PhoneNumber.SipDispatchRuleId*
+  commentId: Overload:Livekit.PhoneNumber.SipDispatchRuleId
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_SipDispatchRuleId
+  name: SipDispatchRuleId
+  nameWithType: PhoneNumber.SipDispatchRuleId
+  fullName: Livekit.PhoneNumber.SipDispatchRuleId
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Livekit.PhoneNumber.Equals*
+  commentId: Overload:Livekit.PhoneNumber.Equals
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_Equals_System_Object_
+  name: Equals
+  nameWithType: PhoneNumber.Equals
+  fullName: Livekit.PhoneNumber.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{Livekit.PhoneNumber}.Equals(Livekit.PhoneNumber)
+  commentId: M:System.IEquatable{Livekit.PhoneNumber}.Equals(Livekit.PhoneNumber)
+  parent: System.IEquatable{Livekit.PhoneNumber}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(PhoneNumber)
+  nameWithType: IEquatable<PhoneNumber>.Equals(PhoneNumber)
+  fullName: System.IEquatable<Livekit.PhoneNumber>.Equals(Livekit.PhoneNumber)
+  nameWithType.vb: IEquatable(Of PhoneNumber).Equals(PhoneNumber)
+  fullName.vb: System.IEquatable(Of Livekit.PhoneNumber).Equals(Livekit.PhoneNumber)
+  spec.csharp:
+  - uid: System.IEquatable{Livekit.PhoneNumber}.Equals(Livekit.PhoneNumber)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Livekit.PhoneNumber}.Equals(Livekit.PhoneNumber)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: Livekit.PhoneNumber.GetHashCode*
+  commentId: Overload:Livekit.PhoneNumber.GetHashCode
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_GetHashCode
+  name: GetHashCode
+  nameWithType: PhoneNumber.GetHashCode
+  fullName: Livekit.PhoneNumber.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Livekit.PhoneNumber.ToString*
+  commentId: Overload:Livekit.PhoneNumber.ToString
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_ToString
+  name: ToString
+  nameWithType: PhoneNumber.ToString
+  fullName: Livekit.PhoneNumber.ToString
+- uid: Livekit.PhoneNumber.WriteTo*
+  commentId: Overload:Livekit.PhoneNumber.WriteTo
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: PhoneNumber.WriteTo
+  fullName: Livekit.PhoneNumber.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: Livekit.PhoneNumber.CalculateSize*
+  commentId: Overload:Livekit.PhoneNumber.CalculateSize
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_CalculateSize
+  name: CalculateSize
+  nameWithType: PhoneNumber.CalculateSize
+  fullName: Livekit.PhoneNumber.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Livekit.PhoneNumber.MergeFrom*
+  commentId: Overload:Livekit.PhoneNumber.MergeFrom
+  href: Livekit.PhoneNumber.html#Livekit_PhoneNumber_MergeFrom_Livekit_PhoneNumber_
+  name: MergeFrom
+  nameWithType: PhoneNumber.MergeFrom
+  fullName: Livekit.PhoneNumber.MergeFrom
+- uid: Google.Protobuf.IMessage{Livekit.PhoneNumber}.MergeFrom(Livekit.PhoneNumber)
+  commentId: M:Google.Protobuf.IMessage{Livekit.PhoneNumber}.MergeFrom(Livekit.PhoneNumber)
+  parent: Google.Protobuf.IMessage{Livekit.PhoneNumber}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: Livekit.PhoneNumber.html
+  name: MergeFrom(PhoneNumber)
+  nameWithType: IMessage<PhoneNumber>.MergeFrom(PhoneNumber)
+  fullName: Google.Protobuf.IMessage<Livekit.PhoneNumber>.MergeFrom(Livekit.PhoneNumber)
+  nameWithType.vb: IMessage(Of PhoneNumber).MergeFrom(PhoneNumber)
+  fullName.vb: Google.Protobuf.IMessage(Of Livekit.PhoneNumber).MergeFrom(Livekit.PhoneNumber)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{Livekit.PhoneNumber}.MergeFrom(Livekit.PhoneNumber)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{Livekit.PhoneNumber}.MergeFrom(Livekit.PhoneNumber)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Livekit.PhoneNumber
+    name: PhoneNumber
+    href: Livekit.PhoneNumber.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

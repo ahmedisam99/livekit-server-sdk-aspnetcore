@@ -1,0 +1,2165 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.APICallRequest
+  commentId: T:LiveKit.Proto.APICallRequest
+  id: APICallRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.APICallRequest.#ctor
+  - LiveKit.Proto.APICallRequest.#ctor(LiveKit.Proto.APICallRequest)
+  - LiveKit.Proto.APICallRequest.CalculateSize
+  - LiveKit.Proto.APICallRequest.ClearMessage
+  - LiveKit.Proto.APICallRequest.Clone
+  - LiveKit.Proto.APICallRequest.CreateRoomRequest
+  - LiveKit.Proto.APICallRequest.CreateRoomRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.DeleteRoomRequest
+  - LiveKit.Proto.APICallRequest.DeleteRoomRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.Descriptor
+  - LiveKit.Proto.APICallRequest.Equals(LiveKit.Proto.APICallRequest)
+  - LiveKit.Proto.APICallRequest.Equals(System.Object)
+  - LiveKit.Proto.APICallRequest.GetHashCode
+  - LiveKit.Proto.APICallRequest.ListParticipantsRequest
+  - LiveKit.Proto.APICallRequest.ListParticipantsRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.ListRoomsRequest
+  - LiveKit.Proto.APICallRequest.ListRoomsRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.APICallRequest.MergeFrom(LiveKit.Proto.APICallRequest)
+  - LiveKit.Proto.APICallRequest.MessageCase
+  - LiveKit.Proto.APICallRequest.MuteRoomTrackRequest
+  - LiveKit.Proto.APICallRequest.MuteRoomTrackRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.Parser
+  - LiveKit.Proto.APICallRequest.RoomParticipantIdentity
+  - LiveKit.Proto.APICallRequest.RoomParticipantIdentityFieldNumber
+  - LiveKit.Proto.APICallRequest.SendDataRequest
+  - LiveKit.Proto.APICallRequest.SendDataRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.ToString
+  - LiveKit.Proto.APICallRequest.UpdateParticipantRequest
+  - LiveKit.Proto.APICallRequest.UpdateParticipantRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequest
+  - LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequest
+  - LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequestFieldNumber
+  - LiveKit.Proto.APICallRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: APICallRequest
+  nameWithType: APICallRequest
+  fullName: LiveKit.Proto.APICallRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: APICallRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6542
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class APICallRequest : IMessage<APICallRequest>, IEquatable<APICallRequest>, IDeepCloneable<APICallRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class APICallRequest Implements IMessage(Of APICallRequest), IEquatable(Of APICallRequest), IDeepCloneable(Of APICallRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}
+  - System.IEquatable{LiveKit.Proto.APICallRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.APICallRequest.Parser
+  commentId: P:LiveKit.Proto.APICallRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: APICallRequest.Parser
+  fullName: LiveKit.Proto.APICallRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6550
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<APICallRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.APICallRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of APICallRequest)
+  overload: LiveKit.Proto.APICallRequest.Parser*
+- uid: LiveKit.Proto.APICallRequest.Descriptor
+  commentId: P:LiveKit.Proto.APICallRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: APICallRequest.Descriptor
+  fullName: LiveKit.Proto.APICallRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6554
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.APICallRequest.Descriptor*
+- uid: LiveKit.Proto.APICallRequest.#ctor
+  commentId: M:LiveKit.Proto.APICallRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: APICallRequest()
+  nameWithType: APICallRequest.APICallRequest()
+  fullName: LiveKit.Proto.APICallRequest.APICallRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6566
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public APICallRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.APICallRequest.#ctor*
+  nameWithType.vb: APICallRequest.New()
+  fullName.vb: LiveKit.Proto.APICallRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.APICallRequest.#ctor(LiveKit.Proto.APICallRequest)
+  commentId: M:LiveKit.Proto.APICallRequest.#ctor(LiveKit.Proto.APICallRequest)
+  id: '#ctor(LiveKit.Proto.APICallRequest)'
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: APICallRequest(APICallRequest)
+  nameWithType: APICallRequest.APICallRequest(APICallRequest)
+  fullName: LiveKit.Proto.APICallRequest.APICallRequest(LiveKit.Proto.APICallRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6574
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public APICallRequest(APICallRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.APICallRequest
+    content.vb: Public Sub New(other As APICallRequest)
+  overload: LiveKit.Proto.APICallRequest.#ctor*
+  nameWithType.vb: APICallRequest.New(APICallRequest)
+  fullName.vb: LiveKit.Proto.APICallRequest.New(LiveKit.Proto.APICallRequest)
+  name.vb: New(APICallRequest)
+- uid: LiveKit.Proto.APICallRequest.Clone
+  commentId: M:LiveKit.Proto.APICallRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: APICallRequest.Clone()
+  fullName: LiveKit.Proto.APICallRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6613
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public APICallRequest Clone()
+    return:
+      type: LiveKit.Proto.APICallRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As APICallRequest
+  overload: LiveKit.Proto.APICallRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}.Clone
+- uid: LiveKit.Proto.APICallRequest.CreateRoomRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.CreateRoomRequestFieldNumber
+  id: CreateRoomRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: CreateRoomRequestFieldNumber
+  nameWithType: APICallRequest.CreateRoomRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.CreateRoomRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateRoomRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6620
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "create_room_request" field.
+  example: []
+  syntax:
+    content: public const int CreateRoomRequestFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const CreateRoomRequestFieldNumber As Integer = 1
+- uid: LiveKit.Proto.APICallRequest.CreateRoomRequest
+  commentId: P:LiveKit.Proto.APICallRequest.CreateRoomRequest
+  id: CreateRoomRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: CreateRoomRequest
+  nameWithType: APICallRequest.CreateRoomRequest
+  fullName: LiveKit.Proto.APICallRequest.CreateRoomRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateRoomRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6621
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public CreateRoomRequest CreateRoomRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.CreateRoomRequest
+    content.vb: Public Property CreateRoomRequest As CreateRoomRequest
+  overload: LiveKit.Proto.APICallRequest.CreateRoomRequest*
+- uid: LiveKit.Proto.APICallRequest.ListRoomsRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.ListRoomsRequestFieldNumber
+  id: ListRoomsRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: ListRoomsRequestFieldNumber
+  nameWithType: APICallRequest.ListRoomsRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.ListRoomsRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListRoomsRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6632
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "list_rooms_request" field.
+  example: []
+  syntax:
+    content: public const int ListRoomsRequestFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ListRoomsRequestFieldNumber As Integer = 2
+- uid: LiveKit.Proto.APICallRequest.ListRoomsRequest
+  commentId: P:LiveKit.Proto.APICallRequest.ListRoomsRequest
+  id: ListRoomsRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: ListRoomsRequest
+  nameWithType: APICallRequest.ListRoomsRequest
+  fullName: LiveKit.Proto.APICallRequest.ListRoomsRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListRoomsRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6633
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ListRoomsRequest ListRoomsRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ListRoomsRequest
+    content.vb: Public Property ListRoomsRequest As ListRoomsRequest
+  overload: LiveKit.Proto.APICallRequest.ListRoomsRequest*
+- uid: LiveKit.Proto.APICallRequest.DeleteRoomRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.DeleteRoomRequestFieldNumber
+  id: DeleteRoomRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: DeleteRoomRequestFieldNumber
+  nameWithType: APICallRequest.DeleteRoomRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.DeleteRoomRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteRoomRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6644
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "delete_room_request" field.
+  example: []
+  syntax:
+    content: public const int DeleteRoomRequestFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const DeleteRoomRequestFieldNumber As Integer = 3
+- uid: LiveKit.Proto.APICallRequest.DeleteRoomRequest
+  commentId: P:LiveKit.Proto.APICallRequest.DeleteRoomRequest
+  id: DeleteRoomRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: DeleteRoomRequest
+  nameWithType: APICallRequest.DeleteRoomRequest
+  fullName: LiveKit.Proto.APICallRequest.DeleteRoomRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteRoomRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6645
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DeleteRoomRequest DeleteRoomRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.DeleteRoomRequest
+    content.vb: Public Property DeleteRoomRequest As DeleteRoomRequest
+  overload: LiveKit.Proto.APICallRequest.DeleteRoomRequest*
+- uid: LiveKit.Proto.APICallRequest.ListParticipantsRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.ListParticipantsRequestFieldNumber
+  id: ListParticipantsRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: ListParticipantsRequestFieldNumber
+  nameWithType: APICallRequest.ListParticipantsRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.ListParticipantsRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListParticipantsRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6656
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "list_participants_request" field.
+  example: []
+  syntax:
+    content: public const int ListParticipantsRequestFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ListParticipantsRequestFieldNumber As Integer = 4
+- uid: LiveKit.Proto.APICallRequest.ListParticipantsRequest
+  commentId: P:LiveKit.Proto.APICallRequest.ListParticipantsRequest
+  id: ListParticipantsRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: ListParticipantsRequest
+  nameWithType: APICallRequest.ListParticipantsRequest
+  fullName: LiveKit.Proto.APICallRequest.ListParticipantsRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListParticipantsRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6657
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ListParticipantsRequest ListParticipantsRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ListParticipantsRequest
+    content.vb: Public Property ListParticipantsRequest As ListParticipantsRequest
+  overload: LiveKit.Proto.APICallRequest.ListParticipantsRequest*
+- uid: LiveKit.Proto.APICallRequest.RoomParticipantIdentityFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.RoomParticipantIdentityFieldNumber
+  id: RoomParticipantIdentityFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomParticipantIdentityFieldNumber
+  nameWithType: APICallRequest.RoomParticipantIdentityFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.RoomParticipantIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomParticipantIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6668
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_participant_identity" field.
+  example: []
+  syntax:
+    content: public const int RoomParticipantIdentityFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomParticipantIdentityFieldNumber As Integer = 5
+- uid: LiveKit.Proto.APICallRequest.RoomParticipantIdentity
+  commentId: P:LiveKit.Proto.APICallRequest.RoomParticipantIdentity
+  id: RoomParticipantIdentity
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomParticipantIdentity
+  nameWithType: APICallRequest.RoomParticipantIdentity
+  fullName: LiveKit.Proto.APICallRequest.RoomParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6669
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RoomParticipantIdentity RoomParticipantIdentity { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.RoomParticipantIdentity
+    content.vb: Public Property RoomParticipantIdentity As RoomParticipantIdentity
+  overload: LiveKit.Proto.APICallRequest.RoomParticipantIdentity*
+- uid: LiveKit.Proto.APICallRequest.MuteRoomTrackRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.MuteRoomTrackRequestFieldNumber
+  id: MuteRoomTrackRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: MuteRoomTrackRequestFieldNumber
+  nameWithType: APICallRequest.MuteRoomTrackRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.MuteRoomTrackRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MuteRoomTrackRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6680
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "mute_room_track_request" field.
+  example: []
+  syntax:
+    content: public const int MuteRoomTrackRequestFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const MuteRoomTrackRequestFieldNumber As Integer = 6
+- uid: LiveKit.Proto.APICallRequest.MuteRoomTrackRequest
+  commentId: P:LiveKit.Proto.APICallRequest.MuteRoomTrackRequest
+  id: MuteRoomTrackRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: MuteRoomTrackRequest
+  nameWithType: APICallRequest.MuteRoomTrackRequest
+  fullName: LiveKit.Proto.APICallRequest.MuteRoomTrackRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MuteRoomTrackRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6681
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public MuteRoomTrackRequest MuteRoomTrackRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.MuteRoomTrackRequest
+    content.vb: Public Property MuteRoomTrackRequest As MuteRoomTrackRequest
+  overload: LiveKit.Proto.APICallRequest.MuteRoomTrackRequest*
+- uid: LiveKit.Proto.APICallRequest.UpdateParticipantRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.UpdateParticipantRequestFieldNumber
+  id: UpdateParticipantRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateParticipantRequestFieldNumber
+  nameWithType: APICallRequest.UpdateParticipantRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.UpdateParticipantRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateParticipantRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6692
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "update_participant_request" field.
+  example: []
+  syntax:
+    content: public const int UpdateParticipantRequestFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdateParticipantRequestFieldNumber As Integer = 7
+- uid: LiveKit.Proto.APICallRequest.UpdateParticipantRequest
+  commentId: P:LiveKit.Proto.APICallRequest.UpdateParticipantRequest
+  id: UpdateParticipantRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateParticipantRequest
+  nameWithType: APICallRequest.UpdateParticipantRequest
+  fullName: LiveKit.Proto.APICallRequest.UpdateParticipantRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateParticipantRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6693
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateParticipantRequest UpdateParticipantRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateParticipantRequest
+    content.vb: Public Property UpdateParticipantRequest As UpdateParticipantRequest
+  overload: LiveKit.Proto.APICallRequest.UpdateParticipantRequest*
+- uid: LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequestFieldNumber
+  id: UpdateSubscriptionsRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateSubscriptionsRequestFieldNumber
+  nameWithType: APICallRequest.UpdateSubscriptionsRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateSubscriptionsRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6704
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "update_subscriptions_request" field.
+  example: []
+  syntax:
+    content: public const int UpdateSubscriptionsRequestFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdateSubscriptionsRequestFieldNumber As Integer = 8
+- uid: LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequest
+  commentId: P:LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequest
+  id: UpdateSubscriptionsRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateSubscriptionsRequest
+  nameWithType: APICallRequest.UpdateSubscriptionsRequest
+  fullName: LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateSubscriptionsRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6705
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateSubscriptionsRequest UpdateSubscriptionsRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateSubscriptionsRequest
+    content.vb: Public Property UpdateSubscriptionsRequest As UpdateSubscriptionsRequest
+  overload: LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequest*
+- uid: LiveKit.Proto.APICallRequest.SendDataRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.SendDataRequestFieldNumber
+  id: SendDataRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: SendDataRequestFieldNumber
+  nameWithType: APICallRequest.SendDataRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.SendDataRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SendDataRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6716
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "send_data_request" field.
+  example: []
+  syntax:
+    content: public const int SendDataRequestFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const SendDataRequestFieldNumber As Integer = 9
+- uid: LiveKit.Proto.APICallRequest.SendDataRequest
+  commentId: P:LiveKit.Proto.APICallRequest.SendDataRequest
+  id: SendDataRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: SendDataRequest
+  nameWithType: APICallRequest.SendDataRequest
+  fullName: LiveKit.Proto.APICallRequest.SendDataRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SendDataRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6717
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SendDataRequest SendDataRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SendDataRequest
+    content.vb: Public Property SendDataRequest As SendDataRequest
+  overload: LiveKit.Proto.APICallRequest.SendDataRequest*
+- uid: LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequestFieldNumber
+  commentId: F:LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequestFieldNumber
+  id: UpdateRoomMetadataRequestFieldNumber
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateRoomMetadataRequestFieldNumber
+  nameWithType: APICallRequest.UpdateRoomMetadataRequestFieldNumber
+  fullName: LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequestFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateRoomMetadataRequestFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6728
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "update_room_metadata_request" field.
+  example: []
+  syntax:
+    content: public const int UpdateRoomMetadataRequestFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdateRoomMetadataRequestFieldNumber As Integer = 10
+- uid: LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequest
+  commentId: P:LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequest
+  id: UpdateRoomMetadataRequest
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateRoomMetadataRequest
+  nameWithType: APICallRequest.UpdateRoomMetadataRequest
+  fullName: LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequest
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateRoomMetadataRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6729
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateRoomMetadataRequest UpdateRoomMetadataRequest { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateRoomMetadataRequest
+    content.vb: Public Property UpdateRoomMetadataRequest As UpdateRoomMetadataRequest
+  overload: LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequest*
+- uid: LiveKit.Proto.APICallRequest.MessageCase
+  commentId: P:LiveKit.Proto.APICallRequest.MessageCase
+  id: MessageCase
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageCase
+  nameWithType: APICallRequest.MessageCase
+  fullName: LiveKit.Proto.APICallRequest.MessageCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MessageCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6755
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public APICallRequest.MessageOneofCase MessageCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.APICallRequest.MessageOneofCase
+    content.vb: Public ReadOnly Property MessageCase As APICallRequest.MessageOneofCase
+  overload: LiveKit.Proto.APICallRequest.MessageCase*
+- uid: LiveKit.Proto.APICallRequest.ClearMessage
+  commentId: M:LiveKit.Proto.APICallRequest.ClearMessage
+  id: ClearMessage
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearMessage()
+  nameWithType: APICallRequest.ClearMessage()
+  fullName: LiveKit.Proto.APICallRequest.ClearMessage()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearMessage
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6761
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearMessage()
+    content.vb: Public Sub ClearMessage()
+  overload: LiveKit.Proto.APICallRequest.ClearMessage*
+- uid: LiveKit.Proto.APICallRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.APICallRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: APICallRequest.Equals(object)
+  fullName: LiveKit.Proto.APICallRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6768
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.APICallRequest.Equals*
+  nameWithType.vb: APICallRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.APICallRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.APICallRequest.Equals(LiveKit.Proto.APICallRequest)
+  commentId: M:LiveKit.Proto.APICallRequest.Equals(LiveKit.Proto.APICallRequest)
+  id: Equals(LiveKit.Proto.APICallRequest)
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(APICallRequest)
+  nameWithType: APICallRequest.Equals(APICallRequest)
+  fullName: LiveKit.Proto.APICallRequest.Equals(LiveKit.Proto.APICallRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6774
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(APICallRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.APICallRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As APICallRequest) As Boolean
+  overload: LiveKit.Proto.APICallRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.APICallRequest}.Equals(LiveKit.Proto.APICallRequest)
+- uid: LiveKit.Proto.APICallRequest.GetHashCode
+  commentId: M:LiveKit.Proto.APICallRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: APICallRequest.GetHashCode()
+  fullName: LiveKit.Proto.APICallRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6797
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.APICallRequest.GetHashCode*
+- uid: LiveKit.Proto.APICallRequest.ToString
+  commentId: M:LiveKit.Proto.APICallRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: APICallRequest.ToString()
+  fullName: LiveKit.Proto.APICallRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6818
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.APICallRequest.ToString*
+- uid: LiveKit.Proto.APICallRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.APICallRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: APICallRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.APICallRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6824
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.APICallRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.APICallRequest.CalculateSize
+  commentId: M:LiveKit.Proto.APICallRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: APICallRequest.CalculateSize()
+  fullName: LiveKit.Proto.APICallRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6926
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.APICallRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.APICallRequest.MergeFrom(LiveKit.Proto.APICallRequest)
+  commentId: M:LiveKit.Proto.APICallRequest.MergeFrom(LiveKit.Proto.APICallRequest)
+  id: MergeFrom(LiveKit.Proto.APICallRequest)
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(APICallRequest)
+  nameWithType: APICallRequest.MergeFrom(APICallRequest)
+  fullName: LiveKit.Proto.APICallRequest.MergeFrom(LiveKit.Proto.APICallRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 6966
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(APICallRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.APICallRequest
+    content.vb: Public Sub MergeFrom(other As APICallRequest)
+  overload: LiveKit.Proto.APICallRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}.MergeFrom(LiveKit.Proto.APICallRequest)
+- uid: LiveKit.Proto.APICallRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.APICallRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.APICallRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: APICallRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.APICallRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 7038
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.APICallRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.APICallRequest.html
+  name: IMessage<APICallRequest>
+  nameWithType: IMessage<APICallRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.APICallRequest>
+  nameWithType.vb: IMessage(Of APICallRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.APICallRequest)
+  name.vb: IMessage(Of APICallRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.APICallRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.APICallRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<APICallRequest>
+  nameWithType: IEquatable<APICallRequest>
+  fullName: System.IEquatable<LiveKit.Proto.APICallRequest>
+  nameWithType.vb: IEquatable(Of APICallRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.APICallRequest)
+  name.vb: IEquatable(Of APICallRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.APICallRequest.html
+  name: IDeepCloneable<APICallRequest>
+  nameWithType: IDeepCloneable<APICallRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.APICallRequest>
+  nameWithType.vb: IDeepCloneable(Of APICallRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.APICallRequest)
+  name.vb: IDeepCloneable(Of APICallRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.APICallRequest.Parser*
+  commentId: Overload:LiveKit.Proto.APICallRequest.Parser
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_Parser
+  name: Parser
+  nameWithType: APICallRequest.Parser
+  fullName: LiveKit.Proto.APICallRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.APICallRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.APICallRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.APICallRequest.html
+  name: MessageParser<APICallRequest>
+  nameWithType: MessageParser<APICallRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.APICallRequest>
+  nameWithType.vb: MessageParser(Of APICallRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.APICallRequest)
+  name.vb: MessageParser(Of APICallRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.APICallRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.APICallRequest.Descriptor
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_Descriptor
+  name: Descriptor
+  nameWithType: APICallRequest.Descriptor
+  fullName: LiveKit.Proto.APICallRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.APICallRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.APICallRequest.#ctor
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest__ctor
+  name: APICallRequest
+  nameWithType: APICallRequest.APICallRequest
+  fullName: LiveKit.Proto.APICallRequest.APICallRequest
+  nameWithType.vb: APICallRequest.New
+  fullName.vb: LiveKit.Proto.APICallRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.APICallRequest
+  commentId: T:LiveKit.Proto.APICallRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.APICallRequest.html
+  name: APICallRequest
+  nameWithType: APICallRequest
+  fullName: LiveKit.Proto.APICallRequest
+- uid: LiveKit.Proto.APICallRequest.Clone*
+  commentId: Overload:LiveKit.Proto.APICallRequest.Clone
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_Clone
+  name: Clone
+  nameWithType: APICallRequest.Clone
+  fullName: LiveKit.Proto.APICallRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<APICallRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.APICallRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of APICallRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.APICallRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.APICallRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.APICallRequest.CreateRoomRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.CreateRoomRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_CreateRoomRequest
+  name: CreateRoomRequest
+  nameWithType: APICallRequest.CreateRoomRequest
+  fullName: LiveKit.Proto.APICallRequest.CreateRoomRequest
+- uid: LiveKit.Proto.CreateRoomRequest
+  commentId: T:LiveKit.Proto.CreateRoomRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateRoomRequest.html
+  name: CreateRoomRequest
+  nameWithType: CreateRoomRequest
+  fullName: LiveKit.Proto.CreateRoomRequest
+- uid: LiveKit.Proto.APICallRequest.ListRoomsRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.ListRoomsRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_ListRoomsRequest
+  name: ListRoomsRequest
+  nameWithType: APICallRequest.ListRoomsRequest
+  fullName: LiveKit.Proto.APICallRequest.ListRoomsRequest
+- uid: LiveKit.Proto.ListRoomsRequest
+  commentId: T:LiveKit.Proto.ListRoomsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListRoomsRequest.html
+  name: ListRoomsRequest
+  nameWithType: ListRoomsRequest
+  fullName: LiveKit.Proto.ListRoomsRequest
+- uid: LiveKit.Proto.APICallRequest.DeleteRoomRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.DeleteRoomRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_DeleteRoomRequest
+  name: DeleteRoomRequest
+  nameWithType: APICallRequest.DeleteRoomRequest
+  fullName: LiveKit.Proto.APICallRequest.DeleteRoomRequest
+- uid: LiveKit.Proto.DeleteRoomRequest
+  commentId: T:LiveKit.Proto.DeleteRoomRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeleteRoomRequest.html
+  name: DeleteRoomRequest
+  nameWithType: DeleteRoomRequest
+  fullName: LiveKit.Proto.DeleteRoomRequest
+- uid: LiveKit.Proto.APICallRequest.ListParticipantsRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.ListParticipantsRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_ListParticipantsRequest
+  name: ListParticipantsRequest
+  nameWithType: APICallRequest.ListParticipantsRequest
+  fullName: LiveKit.Proto.APICallRequest.ListParticipantsRequest
+- uid: LiveKit.Proto.ListParticipantsRequest
+  commentId: T:LiveKit.Proto.ListParticipantsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListParticipantsRequest.html
+  name: ListParticipantsRequest
+  nameWithType: ListParticipantsRequest
+  fullName: LiveKit.Proto.ListParticipantsRequest
+- uid: LiveKit.Proto.APICallRequest.RoomParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.APICallRequest.RoomParticipantIdentity
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_RoomParticipantIdentity
+  name: RoomParticipantIdentity
+  nameWithType: APICallRequest.RoomParticipantIdentity
+  fullName: LiveKit.Proto.APICallRequest.RoomParticipantIdentity
+- uid: LiveKit.Proto.RoomParticipantIdentity
+  commentId: T:LiveKit.Proto.RoomParticipantIdentity
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RoomParticipantIdentity.html
+  name: RoomParticipantIdentity
+  nameWithType: RoomParticipantIdentity
+  fullName: LiveKit.Proto.RoomParticipantIdentity
+- uid: LiveKit.Proto.APICallRequest.MuteRoomTrackRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.MuteRoomTrackRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_MuteRoomTrackRequest
+  name: MuteRoomTrackRequest
+  nameWithType: APICallRequest.MuteRoomTrackRequest
+  fullName: LiveKit.Proto.APICallRequest.MuteRoomTrackRequest
+- uid: LiveKit.Proto.MuteRoomTrackRequest
+  commentId: T:LiveKit.Proto.MuteRoomTrackRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.MuteRoomTrackRequest.html
+  name: MuteRoomTrackRequest
+  nameWithType: MuteRoomTrackRequest
+  fullName: LiveKit.Proto.MuteRoomTrackRequest
+- uid: LiveKit.Proto.APICallRequest.UpdateParticipantRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.UpdateParticipantRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_UpdateParticipantRequest
+  name: UpdateParticipantRequest
+  nameWithType: APICallRequest.UpdateParticipantRequest
+  fullName: LiveKit.Proto.APICallRequest.UpdateParticipantRequest
+- uid: LiveKit.Proto.UpdateParticipantRequest
+  commentId: T:LiveKit.Proto.UpdateParticipantRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateParticipantRequest.html
+  name: UpdateParticipantRequest
+  nameWithType: UpdateParticipantRequest
+  fullName: LiveKit.Proto.UpdateParticipantRequest
+- uid: LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_UpdateSubscriptionsRequest
+  name: UpdateSubscriptionsRequest
+  nameWithType: APICallRequest.UpdateSubscriptionsRequest
+  fullName: LiveKit.Proto.APICallRequest.UpdateSubscriptionsRequest
+- uid: LiveKit.Proto.UpdateSubscriptionsRequest
+  commentId: T:LiveKit.Proto.UpdateSubscriptionsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSubscriptionsRequest.html
+  name: UpdateSubscriptionsRequest
+  nameWithType: UpdateSubscriptionsRequest
+  fullName: LiveKit.Proto.UpdateSubscriptionsRequest
+- uid: LiveKit.Proto.APICallRequest.SendDataRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.SendDataRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_SendDataRequest
+  name: SendDataRequest
+  nameWithType: APICallRequest.SendDataRequest
+  fullName: LiveKit.Proto.APICallRequest.SendDataRequest
+- uid: LiveKit.Proto.SendDataRequest
+  commentId: T:LiveKit.Proto.SendDataRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SendDataRequest.html
+  name: SendDataRequest
+  nameWithType: SendDataRequest
+  fullName: LiveKit.Proto.SendDataRequest
+- uid: LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequest*
+  commentId: Overload:LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequest
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_UpdateRoomMetadataRequest
+  name: UpdateRoomMetadataRequest
+  nameWithType: APICallRequest.UpdateRoomMetadataRequest
+  fullName: LiveKit.Proto.APICallRequest.UpdateRoomMetadataRequest
+- uid: LiveKit.Proto.UpdateRoomMetadataRequest
+  commentId: T:LiveKit.Proto.UpdateRoomMetadataRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateRoomMetadataRequest.html
+  name: UpdateRoomMetadataRequest
+  nameWithType: UpdateRoomMetadataRequest
+  fullName: LiveKit.Proto.UpdateRoomMetadataRequest
+- uid: LiveKit.Proto.APICallRequest.MessageCase*
+  commentId: Overload:LiveKit.Proto.APICallRequest.MessageCase
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_MessageCase
+  name: MessageCase
+  nameWithType: APICallRequest.MessageCase
+  fullName: LiveKit.Proto.APICallRequest.MessageCase
+- uid: LiveKit.Proto.APICallRequest.MessageOneofCase
+  commentId: T:LiveKit.Proto.APICallRequest.MessageOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.APICallRequest.html
+  name: APICallRequest.MessageOneofCase
+  nameWithType: APICallRequest.MessageOneofCase
+  fullName: LiveKit.Proto.APICallRequest.MessageOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: .
+  - uid: LiveKit.Proto.APICallRequest.MessageOneofCase
+    name: MessageOneofCase
+    href: LiveKit.Proto.APICallRequest.MessageOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: .
+  - uid: LiveKit.Proto.APICallRequest.MessageOneofCase
+    name: MessageOneofCase
+    href: LiveKit.Proto.APICallRequest.MessageOneofCase.html
+- uid: LiveKit.Proto.APICallRequest.ClearMessage*
+  commentId: Overload:LiveKit.Proto.APICallRequest.ClearMessage
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_ClearMessage
+  name: ClearMessage
+  nameWithType: APICallRequest.ClearMessage
+  fullName: LiveKit.Proto.APICallRequest.ClearMessage
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.APICallRequest.Equals*
+  commentId: Overload:LiveKit.Proto.APICallRequest.Equals
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: APICallRequest.Equals
+  fullName: LiveKit.Proto.APICallRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.APICallRequest}.Equals(LiveKit.Proto.APICallRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.APICallRequest}.Equals(LiveKit.Proto.APICallRequest)
+  parent: System.IEquatable{LiveKit.Proto.APICallRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(APICallRequest)
+  nameWithType: IEquatable<APICallRequest>.Equals(APICallRequest)
+  fullName: System.IEquatable<LiveKit.Proto.APICallRequest>.Equals(LiveKit.Proto.APICallRequest)
+  nameWithType.vb: IEquatable(Of APICallRequest).Equals(APICallRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.APICallRequest).Equals(LiveKit.Proto.APICallRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.APICallRequest}.Equals(LiveKit.Proto.APICallRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.APICallRequest}.Equals(LiveKit.Proto.APICallRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.APICallRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.APICallRequest.GetHashCode
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: APICallRequest.GetHashCode
+  fullName: LiveKit.Proto.APICallRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.APICallRequest.ToString*
+  commentId: Overload:LiveKit.Proto.APICallRequest.ToString
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_ToString
+  name: ToString
+  nameWithType: APICallRequest.ToString
+  fullName: LiveKit.Proto.APICallRequest.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.APICallRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.APICallRequest.WriteTo
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: APICallRequest.WriteTo
+  fullName: LiveKit.Proto.APICallRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.APICallRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.APICallRequest.CalculateSize
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: APICallRequest.CalculateSize
+  fullName: LiveKit.Proto.APICallRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.APICallRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.APICallRequest.MergeFrom
+  href: LiveKit.Proto.APICallRequest.html#LiveKit_Proto_APICallRequest_MergeFrom_LiveKit_Proto_APICallRequest_
+  name: MergeFrom
+  nameWithType: APICallRequest.MergeFrom
+  fullName: LiveKit.Proto.APICallRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}.MergeFrom(LiveKit.Proto.APICallRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}.MergeFrom(LiveKit.Proto.APICallRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.APICallRequest.html
+  name: MergeFrom(APICallRequest)
+  nameWithType: IMessage<APICallRequest>.MergeFrom(APICallRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.APICallRequest>.MergeFrom(LiveKit.Proto.APICallRequest)
+  nameWithType.vb: IMessage(Of APICallRequest).MergeFrom(APICallRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.APICallRequest).MergeFrom(LiveKit.Proto.APICallRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}.MergeFrom(LiveKit.Proto.APICallRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.APICallRequest}.MergeFrom(LiveKit.Proto.APICallRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.APICallRequest
+    name: APICallRequest
+    href: LiveKit.Proto.APICallRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

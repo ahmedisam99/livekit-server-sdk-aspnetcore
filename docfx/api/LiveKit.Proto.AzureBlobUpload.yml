@@ -1,0 +1,1541 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.AzureBlobUpload
+  commentId: T:LiveKit.Proto.AzureBlobUpload
+  id: AzureBlobUpload
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.AzureBlobUpload.#ctor
+  - LiveKit.Proto.AzureBlobUpload.#ctor(LiveKit.Proto.AzureBlobUpload)
+  - LiveKit.Proto.AzureBlobUpload.AccountKey
+  - LiveKit.Proto.AzureBlobUpload.AccountKeyFieldNumber
+  - LiveKit.Proto.AzureBlobUpload.AccountName
+  - LiveKit.Proto.AzureBlobUpload.AccountNameFieldNumber
+  - LiveKit.Proto.AzureBlobUpload.CalculateSize
+  - LiveKit.Proto.AzureBlobUpload.Clone
+  - LiveKit.Proto.AzureBlobUpload.ContainerName
+  - LiveKit.Proto.AzureBlobUpload.ContainerNameFieldNumber
+  - LiveKit.Proto.AzureBlobUpload.Descriptor
+  - LiveKit.Proto.AzureBlobUpload.Equals(LiveKit.Proto.AzureBlobUpload)
+  - LiveKit.Proto.AzureBlobUpload.Equals(System.Object)
+  - LiveKit.Proto.AzureBlobUpload.GetHashCode
+  - LiveKit.Proto.AzureBlobUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.AzureBlobUpload.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  - LiveKit.Proto.AzureBlobUpload.Parser
+  - LiveKit.Proto.AzureBlobUpload.ToString
+  - LiveKit.Proto.AzureBlobUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: AzureBlobUpload
+  nameWithType: AzureBlobUpload
+  fullName: LiveKit.Proto.AzureBlobUpload
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AzureBlobUpload
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7019
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class AzureBlobUpload : IMessage<AzureBlobUpload>, IEquatable<AzureBlobUpload>, IDeepCloneable<AzureBlobUpload>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class AzureBlobUpload Implements IMessage(Of AzureBlobUpload), IEquatable(Of AzureBlobUpload), IDeepCloneable(Of AzureBlobUpload), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}
+  - System.IEquatable{LiveKit.Proto.AzureBlobUpload}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.AzureBlobUpload.Parser
+  commentId: P:LiveKit.Proto.AzureBlobUpload.Parser
+  id: Parser
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: AzureBlobUpload.Parser
+  fullName: LiveKit.Proto.AzureBlobUpload.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7027
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<AzureBlobUpload> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.AzureBlobUpload}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of AzureBlobUpload)
+  overload: LiveKit.Proto.AzureBlobUpload.Parser*
+- uid: LiveKit.Proto.AzureBlobUpload.Descriptor
+  commentId: P:LiveKit.Proto.AzureBlobUpload.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: AzureBlobUpload.Descriptor
+  fullName: LiveKit.Proto.AzureBlobUpload.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7031
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.AzureBlobUpload.Descriptor*
+- uid: LiveKit.Proto.AzureBlobUpload.#ctor
+  commentId: M:LiveKit.Proto.AzureBlobUpload.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: AzureBlobUpload()
+  nameWithType: AzureBlobUpload.AzureBlobUpload()
+  fullName: LiveKit.Proto.AzureBlobUpload.AzureBlobUpload()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7043
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AzureBlobUpload()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.AzureBlobUpload.#ctor*
+  nameWithType.vb: AzureBlobUpload.New()
+  fullName.vb: LiveKit.Proto.AzureBlobUpload.New()
+  name.vb: New()
+- uid: LiveKit.Proto.AzureBlobUpload.#ctor(LiveKit.Proto.AzureBlobUpload)
+  commentId: M:LiveKit.Proto.AzureBlobUpload.#ctor(LiveKit.Proto.AzureBlobUpload)
+  id: '#ctor(LiveKit.Proto.AzureBlobUpload)'
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: AzureBlobUpload(AzureBlobUpload)
+  nameWithType: AzureBlobUpload.AzureBlobUpload(AzureBlobUpload)
+  fullName: LiveKit.Proto.AzureBlobUpload.AzureBlobUpload(LiveKit.Proto.AzureBlobUpload)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7051
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AzureBlobUpload(AzureBlobUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AzureBlobUpload
+    content.vb: Public Sub New(other As AzureBlobUpload)
+  overload: LiveKit.Proto.AzureBlobUpload.#ctor*
+  nameWithType.vb: AzureBlobUpload.New(AzureBlobUpload)
+  fullName.vb: LiveKit.Proto.AzureBlobUpload.New(LiveKit.Proto.AzureBlobUpload)
+  name.vb: New(AzureBlobUpload)
+- uid: LiveKit.Proto.AzureBlobUpload.Clone
+  commentId: M:LiveKit.Proto.AzureBlobUpload.Clone
+  id: Clone
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: AzureBlobUpload.Clone()
+  fullName: LiveKit.Proto.AzureBlobUpload.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7060
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public AzureBlobUpload Clone()
+    return:
+      type: LiveKit.Proto.AzureBlobUpload
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As AzureBlobUpload
+  overload: LiveKit.Proto.AzureBlobUpload.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}.Clone
+- uid: LiveKit.Proto.AzureBlobUpload.AccountNameFieldNumber
+  commentId: F:LiveKit.Proto.AzureBlobUpload.AccountNameFieldNumber
+  id: AccountNameFieldNumber
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: AccountNameFieldNumber
+  nameWithType: AzureBlobUpload.AccountNameFieldNumber
+  fullName: LiveKit.Proto.AzureBlobUpload.AccountNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AccountNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7067
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "account_name" field.
+  example: []
+  syntax:
+    content: public const int AccountNameFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const AccountNameFieldNumber As Integer = 1
+- uid: LiveKit.Proto.AzureBlobUpload.AccountName
+  commentId: P:LiveKit.Proto.AzureBlobUpload.AccountName
+  id: AccountName
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: AccountName
+  nameWithType: AzureBlobUpload.AccountName
+  fullName: LiveKit.Proto.AzureBlobUpload.AccountName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AccountName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7069
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AccountName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AccountName As String
+  overload: LiveKit.Proto.AzureBlobUpload.AccountName*
+- uid: LiveKit.Proto.AzureBlobUpload.AccountKeyFieldNumber
+  commentId: F:LiveKit.Proto.AzureBlobUpload.AccountKeyFieldNumber
+  id: AccountKeyFieldNumber
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: AccountKeyFieldNumber
+  nameWithType: AzureBlobUpload.AccountKeyFieldNumber
+  fullName: LiveKit.Proto.AzureBlobUpload.AccountKeyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AccountKeyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7079
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "account_key" field.
+  example: []
+  syntax:
+    content: public const int AccountKeyFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AccountKeyFieldNumber As Integer = 2
+- uid: LiveKit.Proto.AzureBlobUpload.AccountKey
+  commentId: P:LiveKit.Proto.AzureBlobUpload.AccountKey
+  id: AccountKey
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: AccountKey
+  nameWithType: AzureBlobUpload.AccountKey
+  fullName: LiveKit.Proto.AzureBlobUpload.AccountKey
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AccountKey
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7081
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AccountKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AccountKey As String
+  overload: LiveKit.Proto.AzureBlobUpload.AccountKey*
+- uid: LiveKit.Proto.AzureBlobUpload.ContainerNameFieldNumber
+  commentId: F:LiveKit.Proto.AzureBlobUpload.ContainerNameFieldNumber
+  id: ContainerNameFieldNumber
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: ContainerNameFieldNumber
+  nameWithType: AzureBlobUpload.ContainerNameFieldNumber
+  fullName: LiveKit.Proto.AzureBlobUpload.ContainerNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ContainerNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7091
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "container_name" field.
+  example: []
+  syntax:
+    content: public const int ContainerNameFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const ContainerNameFieldNumber As Integer = 3
+- uid: LiveKit.Proto.AzureBlobUpload.ContainerName
+  commentId: P:LiveKit.Proto.AzureBlobUpload.ContainerName
+  id: ContainerName
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: ContainerName
+  nameWithType: AzureBlobUpload.ContainerName
+  fullName: LiveKit.Proto.AzureBlobUpload.ContainerName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ContainerName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7093
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ContainerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContainerName As String
+  overload: LiveKit.Proto.AzureBlobUpload.ContainerName*
+- uid: LiveKit.Proto.AzureBlobUpload.Equals(System.Object)
+  commentId: M:LiveKit.Proto.AzureBlobUpload.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: AzureBlobUpload.Equals(object)
+  fullName: LiveKit.Proto.AzureBlobUpload.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7102
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.AzureBlobUpload.Equals*
+  nameWithType.vb: AzureBlobUpload.Equals(Object)
+  fullName.vb: LiveKit.Proto.AzureBlobUpload.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.AzureBlobUpload.Equals(LiveKit.Proto.AzureBlobUpload)
+  commentId: M:LiveKit.Proto.AzureBlobUpload.Equals(LiveKit.Proto.AzureBlobUpload)
+  id: Equals(LiveKit.Proto.AzureBlobUpload)
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: Equals(AzureBlobUpload)
+  nameWithType: AzureBlobUpload.Equals(AzureBlobUpload)
+  fullName: LiveKit.Proto.AzureBlobUpload.Equals(LiveKit.Proto.AzureBlobUpload)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7108
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(AzureBlobUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AzureBlobUpload
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As AzureBlobUpload) As Boolean
+  overload: LiveKit.Proto.AzureBlobUpload.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.AzureBlobUpload}.Equals(LiveKit.Proto.AzureBlobUpload)
+- uid: LiveKit.Proto.AzureBlobUpload.GetHashCode
+  commentId: M:LiveKit.Proto.AzureBlobUpload.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: AzureBlobUpload.GetHashCode()
+  fullName: LiveKit.Proto.AzureBlobUpload.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7123
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.AzureBlobUpload.GetHashCode*
+- uid: LiveKit.Proto.AzureBlobUpload.ToString
+  commentId: M:LiveKit.Proto.AzureBlobUpload.ToString
+  id: ToString
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AzureBlobUpload.ToString()
+  fullName: LiveKit.Proto.AzureBlobUpload.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7136
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.AzureBlobUpload.ToString*
+- uid: LiveKit.Proto.AzureBlobUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.AzureBlobUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: AzureBlobUpload.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.AzureBlobUpload.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7142
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.AzureBlobUpload.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.AzureBlobUpload.CalculateSize
+  commentId: M:LiveKit.Proto.AzureBlobUpload.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: AzureBlobUpload.CalculateSize()
+  fullName: LiveKit.Proto.AzureBlobUpload.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7188
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.AzureBlobUpload.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.AzureBlobUpload.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  commentId: M:LiveKit.Proto.AzureBlobUpload.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  id: MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(AzureBlobUpload)
+  nameWithType: AzureBlobUpload.MergeFrom(AzureBlobUpload)
+  fullName: LiveKit.Proto.AzureBlobUpload.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7207
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(AzureBlobUpload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AzureBlobUpload
+    content.vb: Public Sub MergeFrom(other As AzureBlobUpload)
+  overload: LiveKit.Proto.AzureBlobUpload.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+- uid: LiveKit.Proto.AzureBlobUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.AzureBlobUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.AzureBlobUpload
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: AzureBlobUpload.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.AzureBlobUpload.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7225
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.AzureBlobUpload.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.AzureBlobUpload.html
+  name: IMessage<AzureBlobUpload>
+  nameWithType: IMessage<AzureBlobUpload>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.AzureBlobUpload>
+  nameWithType.vb: IMessage(Of AzureBlobUpload)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.AzureBlobUpload)
+  name.vb: IMessage(Of AzureBlobUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.AzureBlobUpload}
+  commentId: T:System.IEquatable{LiveKit.Proto.AzureBlobUpload}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<AzureBlobUpload>
+  nameWithType: IEquatable<AzureBlobUpload>
+  fullName: System.IEquatable<LiveKit.Proto.AzureBlobUpload>
+  nameWithType.vb: IEquatable(Of AzureBlobUpload)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.AzureBlobUpload)
+  name.vb: IEquatable(Of AzureBlobUpload)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.AzureBlobUpload.html
+  name: IDeepCloneable<AzureBlobUpload>
+  nameWithType: IDeepCloneable<AzureBlobUpload>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.AzureBlobUpload>
+  nameWithType.vb: IDeepCloneable(Of AzureBlobUpload)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.AzureBlobUpload)
+  name.vb: IDeepCloneable(Of AzureBlobUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.AzureBlobUpload.Parser*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.Parser
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_Parser
+  name: Parser
+  nameWithType: AzureBlobUpload.Parser
+  fullName: LiveKit.Proto.AzureBlobUpload.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.AzureBlobUpload}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.AzureBlobUpload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.AzureBlobUpload.html
+  name: MessageParser<AzureBlobUpload>
+  nameWithType: MessageParser<AzureBlobUpload>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.AzureBlobUpload>
+  nameWithType.vb: MessageParser(Of AzureBlobUpload)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.AzureBlobUpload)
+  name.vb: MessageParser(Of AzureBlobUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.AzureBlobUpload.Descriptor*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.Descriptor
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_Descriptor
+  name: Descriptor
+  nameWithType: AzureBlobUpload.Descriptor
+  fullName: LiveKit.Proto.AzureBlobUpload.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.AzureBlobUpload.#ctor*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.#ctor
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload__ctor
+  name: AzureBlobUpload
+  nameWithType: AzureBlobUpload.AzureBlobUpload
+  fullName: LiveKit.Proto.AzureBlobUpload.AzureBlobUpload
+  nameWithType.vb: AzureBlobUpload.New
+  fullName.vb: LiveKit.Proto.AzureBlobUpload.New
+  name.vb: New
+- uid: LiveKit.Proto.AzureBlobUpload
+  commentId: T:LiveKit.Proto.AzureBlobUpload
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.AzureBlobUpload.html
+  name: AzureBlobUpload
+  nameWithType: AzureBlobUpload
+  fullName: LiveKit.Proto.AzureBlobUpload
+- uid: LiveKit.Proto.AzureBlobUpload.Clone*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.Clone
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_Clone
+  name: Clone
+  nameWithType: AzureBlobUpload.Clone
+  fullName: LiveKit.Proto.AzureBlobUpload.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<AzureBlobUpload>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.AzureBlobUpload>.Clone()
+  nameWithType.vb: IDeepCloneable(Of AzureBlobUpload).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.AzureBlobUpload).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AzureBlobUpload}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.AzureBlobUpload.AccountName*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.AccountName
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_AccountName
+  name: AccountName
+  nameWithType: AzureBlobUpload.AccountName
+  fullName: LiveKit.Proto.AzureBlobUpload.AccountName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.AzureBlobUpload.AccountKey*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.AccountKey
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_AccountKey
+  name: AccountKey
+  nameWithType: AzureBlobUpload.AccountKey
+  fullName: LiveKit.Proto.AzureBlobUpload.AccountKey
+- uid: LiveKit.Proto.AzureBlobUpload.ContainerName*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.ContainerName
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_ContainerName
+  name: ContainerName
+  nameWithType: AzureBlobUpload.ContainerName
+  fullName: LiveKit.Proto.AzureBlobUpload.ContainerName
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.AzureBlobUpload.Equals*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.Equals
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_Equals_System_Object_
+  name: Equals
+  nameWithType: AzureBlobUpload.Equals
+  fullName: LiveKit.Proto.AzureBlobUpload.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.AzureBlobUpload}.Equals(LiveKit.Proto.AzureBlobUpload)
+  commentId: M:System.IEquatable{LiveKit.Proto.AzureBlobUpload}.Equals(LiveKit.Proto.AzureBlobUpload)
+  parent: System.IEquatable{LiveKit.Proto.AzureBlobUpload}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(AzureBlobUpload)
+  nameWithType: IEquatable<AzureBlobUpload>.Equals(AzureBlobUpload)
+  fullName: System.IEquatable<LiveKit.Proto.AzureBlobUpload>.Equals(LiveKit.Proto.AzureBlobUpload)
+  nameWithType.vb: IEquatable(Of AzureBlobUpload).Equals(AzureBlobUpload)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.AzureBlobUpload).Equals(LiveKit.Proto.AzureBlobUpload)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.AzureBlobUpload}.Equals(LiveKit.Proto.AzureBlobUpload)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.AzureBlobUpload}.Equals(LiveKit.Proto.AzureBlobUpload)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AzureBlobUpload.GetHashCode*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.GetHashCode
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_GetHashCode
+  name: GetHashCode
+  nameWithType: AzureBlobUpload.GetHashCode
+  fullName: LiveKit.Proto.AzureBlobUpload.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AzureBlobUpload.ToString*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.ToString
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_ToString
+  name: ToString
+  nameWithType: AzureBlobUpload.ToString
+  fullName: LiveKit.Proto.AzureBlobUpload.ToString
+- uid: LiveKit.Proto.AzureBlobUpload.WriteTo*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.WriteTo
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: AzureBlobUpload.WriteTo
+  fullName: LiveKit.Proto.AzureBlobUpload.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.AzureBlobUpload.CalculateSize*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.CalculateSize
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_CalculateSize
+  name: CalculateSize
+  nameWithType: AzureBlobUpload.CalculateSize
+  fullName: LiveKit.Proto.AzureBlobUpload.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AzureBlobUpload.MergeFrom*
+  commentId: Overload:LiveKit.Proto.AzureBlobUpload.MergeFrom
+  href: LiveKit.Proto.AzureBlobUpload.html#LiveKit_Proto_AzureBlobUpload_MergeFrom_LiveKit_Proto_AzureBlobUpload_
+  name: MergeFrom
+  nameWithType: AzureBlobUpload.MergeFrom
+  fullName: LiveKit.Proto.AzureBlobUpload.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.AzureBlobUpload.html
+  name: MergeFrom(AzureBlobUpload)
+  nameWithType: IMessage<AzureBlobUpload>.MergeFrom(AzureBlobUpload)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.AzureBlobUpload>.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  nameWithType.vb: IMessage(Of AzureBlobUpload).MergeFrom(AzureBlobUpload)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.AzureBlobUpload).MergeFrom(LiveKit.Proto.AzureBlobUpload)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.AzureBlobUpload}.MergeFrom(LiveKit.Proto.AzureBlobUpload)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.AzureBlobUpload
+    name: AzureBlobUpload
+    href: LiveKit.Proto.AzureBlobUpload.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.AudioMixing
+  commentId: T:LiveKit.Proto.AudioMixing
+  id: AudioMixing
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.AudioMixing.DefaultMixing
+  - LiveKit.Proto.AudioMixing.DualChannelAgent
+  - LiveKit.Proto.AudioMixing.DualChannelAlternate
+  langs:
+  - csharp
+  - vb
+  name: AudioMixing
+  nameWithType: AudioMixing
+  fullName: LiveKit.Proto.AudioMixing
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioMixing
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 303
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum AudioMixing
+    content.vb: Public Enum AudioMixing
+- uid: LiveKit.Proto.AudioMixing.DefaultMixing
+  commentId: F:LiveKit.Proto.AudioMixing.DefaultMixing
+  id: DefaultMixing
+  parent: LiveKit.Proto.AudioMixing
+  langs:
+  - csharp
+  - vb
+  name: DefaultMixing
+  nameWithType: AudioMixing.DefaultMixing
+  fullName: LiveKit.Proto.AudioMixing.DefaultMixing
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DefaultMixing
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 307
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: all users are mixed together
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("DEFAULT_MIXING")]
+
+      DefaultMixing = 0
+    return:
+      type: LiveKit.Proto.AudioMixing
+    content.vb: >-
+      <OriginalName("DEFAULT_MIXING")>
+
+      DefaultMixing = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DEFAULT_MIXING
+- uid: LiveKit.Proto.AudioMixing.DualChannelAgent
+  commentId: F:LiveKit.Proto.AudioMixing.DualChannelAgent
+  id: DualChannelAgent
+  parent: LiveKit.Proto.AudioMixing
+  langs:
+  - csharp
+  - vb
+  name: DualChannelAgent
+  nameWithType: AudioMixing.DualChannelAgent
+  fullName: LiveKit.Proto.AudioMixing.DualChannelAgent
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DualChannelAgent
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 311
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: agent audio in the left channel, all other audio in the right channel
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("DUAL_CHANNEL_AGENT")]
+
+      DualChannelAgent = 1
+    return:
+      type: LiveKit.Proto.AudioMixing
+    content.vb: >-
+      <OriginalName("DUAL_CHANNEL_AGENT")>
+
+      DualChannelAgent = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DUAL_CHANNEL_AGENT
+- uid: LiveKit.Proto.AudioMixing.DualChannelAlternate
+  commentId: F:LiveKit.Proto.AudioMixing.DualChannelAlternate
+  id: DualChannelAlternate
+  parent: LiveKit.Proto.AudioMixing
+  langs:
+  - csharp
+  - vb
+  name: DualChannelAlternate
+  nameWithType: AudioMixing.DualChannelAlternate
+  fullName: LiveKit.Proto.AudioMixing.DualChannelAlternate
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DualChannelAlternate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 315
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: each new audio track alternates between left and right channels
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("DUAL_CHANNEL_ALTERNATE")]
+
+      DualChannelAlternate = 2
+    return:
+      type: LiveKit.Proto.AudioMixing
+    content.vb: >-
+      <OriginalName("DUAL_CHANNEL_ALTERNATE")>
+
+      DualChannelAlternate = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DUAL_CHANNEL_ALTERNATE
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.AudioMixing
+  commentId: T:LiveKit.Proto.AudioMixing
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.AudioMixing.html
+  name: AudioMixing
+  nameWithType: AudioMixing
+  fullName: LiveKit.Proto.AudioMixing

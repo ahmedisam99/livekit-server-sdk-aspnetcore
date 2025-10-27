@@ -1,0 +1,1890 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.DataStream.Types.Chunk
+  commentId: T:LiveKit.Proto.DataStream.Types.Chunk
+  id: DataStream.Types.Chunk
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.DataStream.Types.Chunk.#ctor
+  - LiveKit.Proto.DataStream.Types.Chunk.#ctor(LiveKit.Proto.DataStream.Types.Chunk)
+  - LiveKit.Proto.DataStream.Types.Chunk.CalculateSize
+  - LiveKit.Proto.DataStream.Types.Chunk.ChunkIndex
+  - LiveKit.Proto.DataStream.Types.Chunk.ChunkIndexFieldNumber
+  - LiveKit.Proto.DataStream.Types.Chunk.ClearIv
+  - LiveKit.Proto.DataStream.Types.Chunk.Clone
+  - LiveKit.Proto.DataStream.Types.Chunk.Content
+  - LiveKit.Proto.DataStream.Types.Chunk.ContentFieldNumber
+  - LiveKit.Proto.DataStream.Types.Chunk.Descriptor
+  - LiveKit.Proto.DataStream.Types.Chunk.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  - LiveKit.Proto.DataStream.Types.Chunk.Equals(System.Object)
+  - LiveKit.Proto.DataStream.Types.Chunk.GetHashCode
+  - LiveKit.Proto.DataStream.Types.Chunk.HasIv
+  - LiveKit.Proto.DataStream.Types.Chunk.Iv
+  - LiveKit.Proto.DataStream.Types.Chunk.IvFieldNumber
+  - LiveKit.Proto.DataStream.Types.Chunk.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.DataStream.Types.Chunk.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  - LiveKit.Proto.DataStream.Types.Chunk.Parser
+  - LiveKit.Proto.DataStream.Types.Chunk.StreamId
+  - LiveKit.Proto.DataStream.Types.Chunk.StreamIdFieldNumber
+  - LiveKit.Proto.DataStream.Types.Chunk.ToString
+  - LiveKit.Proto.DataStream.Types.Chunk.Version
+  - LiveKit.Proto.DataStream.Types.Chunk.VersionFieldNumber
+  - LiveKit.Proto.DataStream.Types.Chunk.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: DataStream.Types.Chunk
+  nameWithType: DataStream.Types.Chunk
+  fullName: LiveKit.Proto.DataStream.Types.Chunk
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Chunk
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18899
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class DataStream.Types.Chunk : IMessage<DataStream.Types.Chunk>, IEquatable<DataStream.Types.Chunk>, IDeepCloneable<DataStream.Types.Chunk>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class DataStream.Types.Chunk Implements IMessage(Of DataStream.Types.Chunk), IEquatable(Of DataStream.Types.Chunk), IDeepCloneable(Of DataStream.Types.Chunk), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}
+  - System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Parser
+  commentId: P:LiveKit.Proto.DataStream.Types.Chunk.Parser
+  id: Parser
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: DataStream.Types.Chunk.Parser
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18907
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<DataStream.Types.Chunk> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.DataStream.Types.Chunk}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of DataStream.Types.Chunk)
+  overload: LiveKit.Proto.DataStream.Types.Chunk.Parser*
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Descriptor
+  commentId: P:LiveKit.Proto.DataStream.Types.Chunk.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: DataStream.Types.Chunk.Descriptor
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18911
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.DataStream.Types.Chunk.Descriptor*
+- uid: LiveKit.Proto.DataStream.Types.Chunk.#ctor
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Chunk()
+  nameWithType: DataStream.Types.Chunk.Chunk()
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Chunk()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18923
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Chunk()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.DataStream.Types.Chunk.#ctor*
+  nameWithType.vb: DataStream.Types.Chunk.New()
+  fullName.vb: LiveKit.Proto.DataStream.Types.Chunk.New()
+  name.vb: New()
+- uid: LiveKit.Proto.DataStream.Types.Chunk.#ctor(LiveKit.Proto.DataStream.Types.Chunk)
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.#ctor(LiveKit.Proto.DataStream.Types.Chunk)
+  id: '#ctor(LiveKit.Proto.DataStream.Types.Chunk)'
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Chunk(Chunk)
+  nameWithType: DataStream.Types.Chunk.Chunk(DataStream.Types.Chunk)
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Chunk(LiveKit.Proto.DataStream.Types.Chunk)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18931
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Chunk(DataStream.Types.Chunk other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DataStream.Types.Chunk
+    content.vb: Public Sub New(other As DataStream.Types.Chunk)
+  overload: LiveKit.Proto.DataStream.Types.Chunk.#ctor*
+  nameWithType.vb: DataStream.Types.Chunk.New(DataStream.Types.Chunk)
+  fullName.vb: LiveKit.Proto.DataStream.Types.Chunk.New(LiveKit.Proto.DataStream.Types.Chunk)
+  name.vb: New(Chunk)
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Clone
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.Clone
+  id: Clone
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: DataStream.Types.Chunk.Clone()
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18942
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public DataStream.Types.Chunk Clone()
+    return:
+      type: LiveKit.Proto.DataStream.Types.Chunk
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As DataStream.Types.Chunk
+  overload: LiveKit.Proto.DataStream.Types.Chunk.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}.Clone
+- uid: LiveKit.Proto.DataStream.Types.Chunk.StreamIdFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Chunk.StreamIdFieldNumber
+  id: StreamIdFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: StreamIdFieldNumber
+  nameWithType: DataStream.Types.Chunk.StreamIdFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.StreamIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18949
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "stream_id" field.
+  example: []
+  syntax:
+    content: public const int StreamIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const StreamIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.DataStream.Types.Chunk.StreamId
+  commentId: P:LiveKit.Proto.DataStream.Types.Chunk.StreamId
+  id: StreamId
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: StreamId
+  nameWithType: DataStream.Types.Chunk.StreamId
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.StreamId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18954
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: unique identifier for this data stream to map it to the correct header
+  example: []
+  syntax:
+    content: public string StreamId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StreamId As String
+  overload: LiveKit.Proto.DataStream.Types.Chunk.StreamId*
+- uid: LiveKit.Proto.DataStream.Types.Chunk.ChunkIndexFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Chunk.ChunkIndexFieldNumber
+  id: ChunkIndexFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: ChunkIndexFieldNumber
+  nameWithType: DataStream.Types.Chunk.ChunkIndexFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.ChunkIndexFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ChunkIndexFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18964
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "chunk_index" field.
+  example: []
+  syntax:
+    content: public const int ChunkIndexFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ChunkIndexFieldNumber As Integer = 2
+- uid: LiveKit.Proto.DataStream.Types.Chunk.ChunkIndex
+  commentId: P:LiveKit.Proto.DataStream.Types.Chunk.ChunkIndex
+  id: ChunkIndex
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: ChunkIndex
+  nameWithType: DataStream.Types.Chunk.ChunkIndex
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.ChunkIndex
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ChunkIndex
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18966
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ulong ChunkIndex { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property ChunkIndex As ULong
+  overload: LiveKit.Proto.DataStream.Types.Chunk.ChunkIndex*
+- uid: LiveKit.Proto.DataStream.Types.Chunk.ContentFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Chunk.ContentFieldNumber
+  id: ContentFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: ContentFieldNumber
+  nameWithType: DataStream.Types.Chunk.ContentFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.ContentFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ContentFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18976
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "content" field.
+  example: []
+  syntax:
+    content: public const int ContentFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const ContentFieldNumber As Integer = 3
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Content
+  commentId: P:LiveKit.Proto.DataStream.Types.Chunk.Content
+  id: Content
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: DataStream.Types.Chunk.Content
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Content
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Content
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18981
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: content as binary (bytes)
+  example: []
+  syntax:
+    content: public ByteString Content { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.ByteString
+    content.vb: Public Property Content As ByteString
+  overload: LiveKit.Proto.DataStream.Types.Chunk.Content*
+- uid: LiveKit.Proto.DataStream.Types.Chunk.VersionFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Chunk.VersionFieldNumber
+  id: VersionFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: VersionFieldNumber
+  nameWithType: DataStream.Types.Chunk.VersionFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.VersionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VersionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18991
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "version" field.
+  example: []
+  syntax:
+    content: public const int VersionFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const VersionFieldNumber As Integer = 4
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Version
+  commentId: P:LiveKit.Proto.DataStream.Types.Chunk.Version
+  id: Version
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: DataStream.Types.Chunk.Version
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Version
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Version
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18996
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: a version indicating that this chunk_index has been retroactively modified and the original one needs to be replaced
+  example: []
+  syntax:
+    content: public int Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Version As Integer
+  overload: LiveKit.Proto.DataStream.Types.Chunk.Version*
+- uid: LiveKit.Proto.DataStream.Types.Chunk.IvFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Chunk.IvFieldNumber
+  id: IvFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: IvFieldNumber
+  nameWithType: DataStream.Types.Chunk.IvFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.IvFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IvFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19006
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "iv" field.
+  example: []
+  syntax:
+    content: public const int IvFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const IvFieldNumber As Integer = 5
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Iv
+  commentId: P:LiveKit.Proto.DataStream.Types.Chunk.Iv
+  id: Iv
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Iv
+  nameWithType: DataStream.Types.Chunk.Iv
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Iv
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Iv
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19013
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: this is set on the DataPacket
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public ByteString Iv { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.ByteString
+    content.vb: >-
+      <Obsolete>
+
+      Public Property Iv As ByteString
+  overload: LiveKit.Proto.DataStream.Types.Chunk.Iv*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.DataStream.Types.Chunk.HasIv
+  commentId: P:LiveKit.Proto.DataStream.Types.Chunk.HasIv
+  id: HasIv
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: HasIv
+  nameWithType: DataStream.Types.Chunk.HasIv
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.HasIv
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasIv
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19023
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "iv" field is set
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public bool HasIv { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Obsolete>
+
+      Public ReadOnly Property HasIv As Boolean
+  overload: LiveKit.Proto.DataStream.Types.Chunk.HasIv*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.DataStream.Types.Chunk.ClearIv
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.ClearIv
+  id: ClearIv
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: ClearIv()
+  nameWithType: DataStream.Types.Chunk.ClearIv()
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.ClearIv()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearIv
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19030
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "iv" field
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public void ClearIv()
+    content.vb: >-
+      <Obsolete>
+
+      Public Sub ClearIv()
+  overload: LiveKit.Proto.DataStream.Types.Chunk.ClearIv*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Equals(System.Object)
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: DataStream.Types.Chunk.Equals(object)
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19037
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.DataStream.Types.Chunk.Equals*
+  nameWithType.vb: DataStream.Types.Chunk.Equals(Object)
+  fullName.vb: LiveKit.Proto.DataStream.Types.Chunk.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  id: Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: Equals(Chunk)
+  nameWithType: DataStream.Types.Chunk.Equals(DataStream.Types.Chunk)
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19043
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(DataStream.Types.Chunk other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DataStream.Types.Chunk
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As DataStream.Types.Chunk) As Boolean
+  overload: LiveKit.Proto.DataStream.Types.Chunk.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+- uid: LiveKit.Proto.DataStream.Types.Chunk.GetHashCode
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: DataStream.Types.Chunk.GetHashCode()
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19060
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.DataStream.Types.Chunk.GetHashCode*
+- uid: LiveKit.Proto.DataStream.Types.Chunk.ToString
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.ToString
+  id: ToString
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DataStream.Types.Chunk.ToString()
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19075
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.DataStream.Types.Chunk.ToString*
+- uid: LiveKit.Proto.DataStream.Types.Chunk.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: DataStream.Types.Chunk.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19081
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.DataStream.Types.Chunk.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.DataStream.Types.Chunk.CalculateSize
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: DataStream.Types.Chunk.CalculateSize()
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19143
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.DataStream.Types.Chunk.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.DataStream.Types.Chunk.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  id: MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(Chunk)
+  nameWithType: DataStream.Types.Chunk.MergeFrom(DataStream.Types.Chunk)
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19168
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(DataStream.Types.Chunk other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DataStream.Types.Chunk
+    content.vb: Public Sub MergeFrom(other As DataStream.Types.Chunk)
+  overload: LiveKit.Proto.DataStream.Types.Chunk.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+- uid: LiveKit.Proto.DataStream.Types.Chunk.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.DataStream.Types.Chunk.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.DataStream.Types.Chunk
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: DataStream.Types.Chunk.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 19192
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.DataStream.Types.Chunk.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.DataStream.html
+  name: IMessage<DataStream.Types.Chunk>
+  nameWithType: IMessage<DataStream.Types.Chunk>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.DataStream.Types.Chunk>
+  nameWithType.vb: IMessage(Of DataStream.Types.Chunk)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.DataStream.Types.Chunk)
+  name.vb: IMessage(Of DataStream.Types.Chunk)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}
+  commentId: T:System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<DataStream.Types.Chunk>
+  nameWithType: IEquatable<DataStream.Types.Chunk>
+  fullName: System.IEquatable<LiveKit.Proto.DataStream.Types.Chunk>
+  nameWithType.vb: IEquatable(Of DataStream.Types.Chunk)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.DataStream.Types.Chunk)
+  name.vb: IEquatable(Of DataStream.Types.Chunk)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.DataStream.html
+  name: IDeepCloneable<DataStream.Types.Chunk>
+  nameWithType: IDeepCloneable<DataStream.Types.Chunk>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.DataStream.Types.Chunk>
+  nameWithType.vb: IDeepCloneable(Of DataStream.Types.Chunk)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.DataStream.Types.Chunk)
+  name.vb: IDeepCloneable(Of DataStream.Types.Chunk)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Parser*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.Parser
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_Parser
+  name: Parser
+  nameWithType: DataStream.Types.Chunk.Parser
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.DataStream.Types.Chunk}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.DataStream.Types.Chunk}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.DataStream.html
+  name: MessageParser<DataStream.Types.Chunk>
+  nameWithType: MessageParser<DataStream.Types.Chunk>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.DataStream.Types.Chunk>
+  nameWithType.vb: MessageParser(Of DataStream.Types.Chunk)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.DataStream.Types.Chunk)
+  name.vb: MessageParser(Of DataStream.Types.Chunk)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Descriptor*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.Descriptor
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_Descriptor
+  name: Descriptor
+  nameWithType: DataStream.Types.Chunk.Descriptor
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.DataStream.Types.Chunk.#ctor*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.#ctor
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk__ctor
+  name: Chunk
+  nameWithType: DataStream.Types.Chunk.Chunk
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Chunk
+  nameWithType.vb: DataStream.Types.Chunk.New
+  fullName.vb: LiveKit.Proto.DataStream.Types.Chunk.New
+  name.vb: New
+- uid: LiveKit.Proto.DataStream.Types.Chunk
+  commentId: T:LiveKit.Proto.DataStream.Types.Chunk
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DataStream.html
+  name: DataStream.Types.Chunk
+  nameWithType: DataStream.Types.Chunk
+  fullName: LiveKit.Proto.DataStream.Types.Chunk
+  spec.csharp:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  spec.vb:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Clone*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.Clone
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_Clone
+  name: Clone
+  nameWithType: DataStream.Types.Chunk.Clone
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<DataStream.Types.Chunk>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.DataStream.Types.Chunk>.Clone()
+  nameWithType.vb: IDeepCloneable(Of DataStream.Types.Chunk).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.DataStream.Types.Chunk).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Chunk}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.DataStream.Types.Chunk.StreamId*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.StreamId
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_StreamId
+  name: StreamId
+  nameWithType: DataStream.Types.Chunk.StreamId
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.StreamId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.DataStream.Types.Chunk.ChunkIndex*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.ChunkIndex
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_ChunkIndex
+  name: ChunkIndex
+  nameWithType: DataStream.Types.Chunk.ChunkIndex
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.ChunkIndex
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Content*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.Content
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_Content
+  name: Content
+  nameWithType: DataStream.Types.Chunk.Content
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Content
+- uid: Google.Protobuf.ByteString
+  commentId: T:Google.Protobuf.ByteString
+  parent: Google.Protobuf
+  isExternal: true
+  name: ByteString
+  nameWithType: ByteString
+  fullName: Google.Protobuf.ByteString
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Version*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.Version
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_Version
+  name: Version
+  nameWithType: DataStream.Types.Chunk.Version
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Version
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Iv*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.Iv
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_Iv
+  name: Iv
+  nameWithType: DataStream.Types.Chunk.Iv
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Iv
+- uid: LiveKit.Proto.DataStream.Types.Chunk.HasIv*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.HasIv
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_HasIv
+  name: HasIv
+  nameWithType: DataStream.Types.Chunk.HasIv
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.HasIv
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.DataStream.Types.Chunk.ClearIv*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.ClearIv
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_ClearIv
+  name: ClearIv
+  nameWithType: DataStream.Types.Chunk.ClearIv
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.ClearIv
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Chunk.Equals*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.Equals
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_Equals_System_Object_
+  name: Equals
+  nameWithType: DataStream.Types.Chunk.Equals
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.Equals
+- uid: System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  commentId: M:System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  parent: System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Chunk)
+  nameWithType: IEquatable<DataStream.Types.Chunk>.Equals(DataStream.Types.Chunk)
+  fullName: System.IEquatable<LiveKit.Proto.DataStream.Types.Chunk>.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  nameWithType.vb: IEquatable(Of DataStream.Types.Chunk).Equals(DataStream.Types.Chunk)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.DataStream.Types.Chunk).Equals(LiveKit.Proto.DataStream.Types.Chunk)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.DataStream.Types.Chunk}.Equals(LiveKit.Proto.DataStream.Types.Chunk)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Chunk.GetHashCode*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.GetHashCode
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_GetHashCode
+  name: GetHashCode
+  nameWithType: DataStream.Types.Chunk.GetHashCode
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Chunk.ToString*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.ToString
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_ToString
+  name: ToString
+  nameWithType: DataStream.Types.Chunk.ToString
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.ToString
+- uid: LiveKit.Proto.DataStream.Types.Chunk.WriteTo*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.WriteTo
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: DataStream.Types.Chunk.WriteTo
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.DataStream.Types.Chunk.CalculateSize*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.CalculateSize
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_CalculateSize
+  name: CalculateSize
+  nameWithType: DataStream.Types.Chunk.CalculateSize
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Chunk.MergeFrom*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Chunk.MergeFrom
+  href: LiveKit.Proto.DataStream.Types.Chunk.html#LiveKit_Proto_DataStream_Types_Chunk_MergeFrom_LiveKit_Proto_DataStream_Types_Chunk_
+  name: MergeFrom
+  nameWithType: DataStream.Types.Chunk.MergeFrom
+  fullName: LiveKit.Proto.DataStream.Types.Chunk.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.DataStream.Types.Chunk.html
+  name: MergeFrom(Chunk)
+  nameWithType: IMessage<DataStream.Types.Chunk>.MergeFrom(DataStream.Types.Chunk)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.DataStream.Types.Chunk>.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  nameWithType.vb: IMessage(Of DataStream.Types.Chunk).MergeFrom(DataStream.Types.Chunk)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.DataStream.Types.Chunk).MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Chunk}.MergeFrom(LiveKit.Proto.DataStream.Types.Chunk)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.DataStream.Types.Chunk
+    name: Chunk
+    href: LiveKit.Proto.DataStream.Types.Chunk.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

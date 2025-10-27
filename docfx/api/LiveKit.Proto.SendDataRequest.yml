@@ -1,0 +1,2020 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SendDataRequest
+  commentId: T:LiveKit.Proto.SendDataRequest
+  id: SendDataRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SendDataRequest.#ctor
+  - LiveKit.Proto.SendDataRequest.#ctor(LiveKit.Proto.SendDataRequest)
+  - LiveKit.Proto.SendDataRequest.CalculateSize
+  - LiveKit.Proto.SendDataRequest.ClearTopic
+  - LiveKit.Proto.SendDataRequest.Clone
+  - LiveKit.Proto.SendDataRequest.Data
+  - LiveKit.Proto.SendDataRequest.DataFieldNumber
+  - LiveKit.Proto.SendDataRequest.Descriptor
+  - LiveKit.Proto.SendDataRequest.DestinationIdentities
+  - LiveKit.Proto.SendDataRequest.DestinationIdentitiesFieldNumber
+  - LiveKit.Proto.SendDataRequest.DestinationSids
+  - LiveKit.Proto.SendDataRequest.DestinationSidsFieldNumber
+  - LiveKit.Proto.SendDataRequest.Equals(LiveKit.Proto.SendDataRequest)
+  - LiveKit.Proto.SendDataRequest.Equals(System.Object)
+  - LiveKit.Proto.SendDataRequest.GetHashCode
+  - LiveKit.Proto.SendDataRequest.HasTopic
+  - LiveKit.Proto.SendDataRequest.Kind
+  - LiveKit.Proto.SendDataRequest.KindFieldNumber
+  - LiveKit.Proto.SendDataRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SendDataRequest.MergeFrom(LiveKit.Proto.SendDataRequest)
+  - LiveKit.Proto.SendDataRequest.Nonce
+  - LiveKit.Proto.SendDataRequest.NonceFieldNumber
+  - LiveKit.Proto.SendDataRequest.Parser
+  - LiveKit.Proto.SendDataRequest.Room
+  - LiveKit.Proto.SendDataRequest.RoomFieldNumber
+  - LiveKit.Proto.SendDataRequest.ToString
+  - LiveKit.Proto.SendDataRequest.Topic
+  - LiveKit.Proto.SendDataRequest.TopicFieldNumber
+  - LiveKit.Proto.SendDataRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SendDataRequest
+  nameWithType: SendDataRequest
+  fullName: LiveKit.Proto.SendDataRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SendDataRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4254
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SendDataRequest : IMessage<SendDataRequest>, IEquatable<SendDataRequest>, IDeepCloneable<SendDataRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SendDataRequest Implements IMessage(Of SendDataRequest), IEquatable(Of SendDataRequest), IDeepCloneable(Of SendDataRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}
+  - System.IEquatable{LiveKit.Proto.SendDataRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SendDataRequest.Parser
+  commentId: P:LiveKit.Proto.SendDataRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SendDataRequest.Parser
+  fullName: LiveKit.Proto.SendDataRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4262
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SendDataRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SendDataRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SendDataRequest)
+  overload: LiveKit.Proto.SendDataRequest.Parser*
+- uid: LiveKit.Proto.SendDataRequest.Descriptor
+  commentId: P:LiveKit.Proto.SendDataRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SendDataRequest.Descriptor
+  fullName: LiveKit.Proto.SendDataRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4266
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SendDataRequest.Descriptor*
+- uid: LiveKit.Proto.SendDataRequest.#ctor
+  commentId: M:LiveKit.Proto.SendDataRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: SendDataRequest()
+  nameWithType: SendDataRequest.SendDataRequest()
+  fullName: LiveKit.Proto.SendDataRequest.SendDataRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4278
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SendDataRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SendDataRequest.#ctor*
+  nameWithType.vb: SendDataRequest.New()
+  fullName.vb: LiveKit.Proto.SendDataRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SendDataRequest.#ctor(LiveKit.Proto.SendDataRequest)
+  commentId: M:LiveKit.Proto.SendDataRequest.#ctor(LiveKit.Proto.SendDataRequest)
+  id: '#ctor(LiveKit.Proto.SendDataRequest)'
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: SendDataRequest(SendDataRequest)
+  nameWithType: SendDataRequest.SendDataRequest(SendDataRequest)
+  fullName: LiveKit.Proto.SendDataRequest.SendDataRequest(LiveKit.Proto.SendDataRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4286
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SendDataRequest(SendDataRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SendDataRequest
+    content.vb: Public Sub New(other As SendDataRequest)
+  overload: LiveKit.Proto.SendDataRequest.#ctor*
+  nameWithType.vb: SendDataRequest.New(SendDataRequest)
+  fullName.vb: LiveKit.Proto.SendDataRequest.New(LiveKit.Proto.SendDataRequest)
+  name.vb: New(SendDataRequest)
+- uid: LiveKit.Proto.SendDataRequest.Clone
+  commentId: M:LiveKit.Proto.SendDataRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SendDataRequest.Clone()
+  fullName: LiveKit.Proto.SendDataRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4299
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SendDataRequest Clone()
+    return:
+      type: LiveKit.Proto.SendDataRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SendDataRequest
+  overload: LiveKit.Proto.SendDataRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}.Clone
+- uid: LiveKit.Proto.SendDataRequest.RoomFieldNumber
+  commentId: F:LiveKit.Proto.SendDataRequest.RoomFieldNumber
+  id: RoomFieldNumber
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomFieldNumber
+  nameWithType: SendDataRequest.RoomFieldNumber
+  fullName: LiveKit.Proto.SendDataRequest.RoomFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4306
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room" field.
+  example: []
+  syntax:
+    content: public const int RoomFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SendDataRequest.Room
+  commentId: P:LiveKit.Proto.SendDataRequest.Room
+  id: Room
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: SendDataRequest.Room
+  fullName: LiveKit.Proto.SendDataRequest.Room
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Room
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4308
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Room { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Room As String
+  overload: LiveKit.Proto.SendDataRequest.Room*
+- uid: LiveKit.Proto.SendDataRequest.DataFieldNumber
+  commentId: F:LiveKit.Proto.SendDataRequest.DataFieldNumber
+  id: DataFieldNumber
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: DataFieldNumber
+  nameWithType: SendDataRequest.DataFieldNumber
+  fullName: LiveKit.Proto.SendDataRequest.DataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4318
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "data" field.
+  example: []
+  syntax:
+    content: public const int DataFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const DataFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SendDataRequest.Data
+  commentId: P:LiveKit.Proto.SendDataRequest.Data
+  id: Data
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: SendDataRequest.Data
+  fullName: LiveKit.Proto.SendDataRequest.Data
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Data
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4320
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ByteString Data { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.ByteString
+    content.vb: Public Property Data As ByteString
+  overload: LiveKit.Proto.SendDataRequest.Data*
+- uid: LiveKit.Proto.SendDataRequest.KindFieldNumber
+  commentId: F:LiveKit.Proto.SendDataRequest.KindFieldNumber
+  id: KindFieldNumber
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: KindFieldNumber
+  nameWithType: SendDataRequest.KindFieldNumber
+  fullName: LiveKit.Proto.SendDataRequest.KindFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: KindFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4330
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "kind" field.
+  example: []
+  syntax:
+    content: public const int KindFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const KindFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SendDataRequest.Kind
+  commentId: P:LiveKit.Proto.SendDataRequest.Kind
+  id: Kind
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: SendDataRequest.Kind
+  fullName: LiveKit.Proto.SendDataRequest.Kind
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Kind
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4332
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DataPacket.Types.Kind Kind { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.DataPacket.Types.Kind
+    content.vb: Public Property Kind As DataPacket.Types.Kind
+  overload: LiveKit.Proto.SendDataRequest.Kind*
+- uid: LiveKit.Proto.SendDataRequest.DestinationSidsFieldNumber
+  commentId: F:LiveKit.Proto.SendDataRequest.DestinationSidsFieldNumber
+  id: DestinationSidsFieldNumber
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationSidsFieldNumber
+  nameWithType: SendDataRequest.DestinationSidsFieldNumber
+  fullName: LiveKit.Proto.SendDataRequest.DestinationSidsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationSidsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4342
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "destination_sids" field.
+  example: []
+  syntax:
+    content: public const int DestinationSidsFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const DestinationSidsFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SendDataRequest.DestinationSids
+  commentId: P:LiveKit.Proto.SendDataRequest.DestinationSids
+  id: DestinationSids
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationSids
+  nameWithType: SendDataRequest.DestinationSids
+  fullName: LiveKit.Proto.SendDataRequest.DestinationSids
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationSids
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4349
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: mark deprecated
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public RepeatedField<string> DestinationSids { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: >-
+      <Obsolete>
+
+      Public ReadOnly Property DestinationSids As RepeatedField(Of String)
+  overload: LiveKit.Proto.SendDataRequest.DestinationSids*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.SendDataRequest.DestinationIdentitiesFieldNumber
+  commentId: F:LiveKit.Proto.SendDataRequest.DestinationIdentitiesFieldNumber
+  id: DestinationIdentitiesFieldNumber
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationIdentitiesFieldNumber
+  nameWithType: SendDataRequest.DestinationIdentitiesFieldNumber
+  fullName: LiveKit.Proto.SendDataRequest.DestinationIdentitiesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationIdentitiesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4357
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "destination_identities" field.
+  example: []
+  syntax:
+    content: public const int DestinationIdentitiesFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const DestinationIdentitiesFieldNumber As Integer = 6
+- uid: LiveKit.Proto.SendDataRequest.DestinationIdentities
+  commentId: P:LiveKit.Proto.SendDataRequest.DestinationIdentities
+  id: DestinationIdentities
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationIdentities
+  nameWithType: SendDataRequest.DestinationIdentities
+  fullName: LiveKit.Proto.SendDataRequest.DestinationIdentities
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationIdentities
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4364
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: when set, only forward to these identities
+  example: []
+  syntax:
+    content: public RepeatedField<string> DestinationIdentities { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property DestinationIdentities As RepeatedField(Of String)
+  overload: LiveKit.Proto.SendDataRequest.DestinationIdentities*
+- uid: LiveKit.Proto.SendDataRequest.TopicFieldNumber
+  commentId: F:LiveKit.Proto.SendDataRequest.TopicFieldNumber
+  id: TopicFieldNumber
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: TopicFieldNumber
+  nameWithType: SendDataRequest.TopicFieldNumber
+  fullName: LiveKit.Proto.SendDataRequest.TopicFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TopicFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4371
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "topic" field.
+  example: []
+  syntax:
+    content: public const int TopicFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const TopicFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SendDataRequest.Topic
+  commentId: P:LiveKit.Proto.SendDataRequest.Topic
+  id: Topic
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Topic
+  nameWithType: SendDataRequest.Topic
+  fullName: LiveKit.Proto.SendDataRequest.Topic
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Topic
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4375
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Topic { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Topic As String
+  overload: LiveKit.Proto.SendDataRequest.Topic*
+- uid: LiveKit.Proto.SendDataRequest.HasTopic
+  commentId: P:LiveKit.Proto.SendDataRequest.HasTopic
+  id: HasTopic
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: HasTopic
+  nameWithType: SendDataRequest.HasTopic
+  fullName: LiveKit.Proto.SendDataRequest.HasTopic
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasTopic
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4384
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "topic" field is set
+  example: []
+  syntax:
+    content: public bool HasTopic { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasTopic As Boolean
+  overload: LiveKit.Proto.SendDataRequest.HasTopic*
+- uid: LiveKit.Proto.SendDataRequest.ClearTopic
+  commentId: M:LiveKit.Proto.SendDataRequest.ClearTopic
+  id: ClearTopic
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearTopic()
+  nameWithType: SendDataRequest.ClearTopic()
+  fullName: LiveKit.Proto.SendDataRequest.ClearTopic()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearTopic
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4390
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "topic" field
+  example: []
+  syntax:
+    content: public void ClearTopic()
+    content.vb: Public Sub ClearTopic()
+  overload: LiveKit.Proto.SendDataRequest.ClearTopic*
+- uid: LiveKit.Proto.SendDataRequest.NonceFieldNumber
+  commentId: F:LiveKit.Proto.SendDataRequest.NonceFieldNumber
+  id: NonceFieldNumber
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: NonceFieldNumber
+  nameWithType: SendDataRequest.NonceFieldNumber
+  fullName: LiveKit.Proto.SendDataRequest.NonceFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NonceFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4397
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "nonce" field.
+  example: []
+  syntax:
+    content: public const int NonceFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const NonceFieldNumber As Integer = 7
+- uid: LiveKit.Proto.SendDataRequest.Nonce
+  commentId: P:LiveKit.Proto.SendDataRequest.Nonce
+  id: Nonce
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: SendDataRequest.Nonce
+  fullName: LiveKit.Proto.SendDataRequest.Nonce
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Nonce
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4402
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: added by SDK to enable de-duping of messages, for INTERNAL USE ONLY
+  example: []
+  syntax:
+    content: public ByteString Nonce { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.ByteString
+    content.vb: Public Property Nonce As ByteString
+  overload: LiveKit.Proto.SendDataRequest.Nonce*
+- uid: LiveKit.Proto.SendDataRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SendDataRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SendDataRequest.Equals(object)
+  fullName: LiveKit.Proto.SendDataRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4411
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SendDataRequest.Equals*
+  nameWithType.vb: SendDataRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.SendDataRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SendDataRequest.Equals(LiveKit.Proto.SendDataRequest)
+  commentId: M:LiveKit.Proto.SendDataRequest.Equals(LiveKit.Proto.SendDataRequest)
+  id: Equals(LiveKit.Proto.SendDataRequest)
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(SendDataRequest)
+  nameWithType: SendDataRequest.Equals(SendDataRequest)
+  fullName: LiveKit.Proto.SendDataRequest.Equals(LiveKit.Proto.SendDataRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4417
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SendDataRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SendDataRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SendDataRequest) As Boolean
+  overload: LiveKit.Proto.SendDataRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SendDataRequest}.Equals(LiveKit.Proto.SendDataRequest)
+- uid: LiveKit.Proto.SendDataRequest.GetHashCode
+  commentId: M:LiveKit.Proto.SendDataRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SendDataRequest.GetHashCode()
+  fullName: LiveKit.Proto.SendDataRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4436
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SendDataRequest.GetHashCode*
+- uid: LiveKit.Proto.SendDataRequest.ToString
+  commentId: M:LiveKit.Proto.SendDataRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SendDataRequest.ToString()
+  fullName: LiveKit.Proto.SendDataRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4453
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SendDataRequest.ToString*
+- uid: LiveKit.Proto.SendDataRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SendDataRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SendDataRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SendDataRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4459
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SendDataRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SendDataRequest.CalculateSize
+  commentId: M:LiveKit.Proto.SendDataRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SendDataRequest.CalculateSize()
+  fullName: LiveKit.Proto.SendDataRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4525
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SendDataRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SendDataRequest.MergeFrom(LiveKit.Proto.SendDataRequest)
+  commentId: M:LiveKit.Proto.SendDataRequest.MergeFrom(LiveKit.Proto.SendDataRequest)
+  id: MergeFrom(LiveKit.Proto.SendDataRequest)
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SendDataRequest)
+  nameWithType: SendDataRequest.MergeFrom(SendDataRequest)
+  fullName: LiveKit.Proto.SendDataRequest.MergeFrom(LiveKit.Proto.SendDataRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4552
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SendDataRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SendDataRequest
+    content.vb: Public Sub MergeFrom(other As SendDataRequest)
+  overload: LiveKit.Proto.SendDataRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}.MergeFrom(LiveKit.Proto.SendDataRequest)
+- uid: LiveKit.Proto.SendDataRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SendDataRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SendDataRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SendDataRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SendDataRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 4578
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SendDataRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SendDataRequest.html
+  name: IMessage<SendDataRequest>
+  nameWithType: IMessage<SendDataRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SendDataRequest>
+  nameWithType.vb: IMessage(Of SendDataRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SendDataRequest)
+  name.vb: IMessage(Of SendDataRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SendDataRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.SendDataRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SendDataRequest>
+  nameWithType: IEquatable<SendDataRequest>
+  fullName: System.IEquatable<LiveKit.Proto.SendDataRequest>
+  nameWithType.vb: IEquatable(Of SendDataRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SendDataRequest)
+  name.vb: IEquatable(Of SendDataRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SendDataRequest.html
+  name: IDeepCloneable<SendDataRequest>
+  nameWithType: IDeepCloneable<SendDataRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SendDataRequest>
+  nameWithType.vb: IDeepCloneable(Of SendDataRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SendDataRequest)
+  name.vb: IDeepCloneable(Of SendDataRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SendDataRequest.Parser*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Parser
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Parser
+  name: Parser
+  nameWithType: SendDataRequest.Parser
+  fullName: LiveKit.Proto.SendDataRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SendDataRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SendDataRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SendDataRequest.html
+  name: MessageParser<SendDataRequest>
+  nameWithType: MessageParser<SendDataRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SendDataRequest>
+  nameWithType.vb: MessageParser(Of SendDataRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SendDataRequest)
+  name.vb: MessageParser(Of SendDataRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SendDataRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Descriptor
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Descriptor
+  name: Descriptor
+  nameWithType: SendDataRequest.Descriptor
+  fullName: LiveKit.Proto.SendDataRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SendDataRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.#ctor
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest__ctor
+  name: SendDataRequest
+  nameWithType: SendDataRequest.SendDataRequest
+  fullName: LiveKit.Proto.SendDataRequest.SendDataRequest
+  nameWithType.vb: SendDataRequest.New
+  fullName.vb: LiveKit.Proto.SendDataRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.SendDataRequest
+  commentId: T:LiveKit.Proto.SendDataRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SendDataRequest.html
+  name: SendDataRequest
+  nameWithType: SendDataRequest
+  fullName: LiveKit.Proto.SendDataRequest
+- uid: LiveKit.Proto.SendDataRequest.Clone*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Clone
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Clone
+  name: Clone
+  nameWithType: SendDataRequest.Clone
+  fullName: LiveKit.Proto.SendDataRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SendDataRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SendDataRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SendDataRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SendDataRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SendDataRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SendDataRequest.Room*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Room
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Room
+  name: Room
+  nameWithType: SendDataRequest.Room
+  fullName: LiveKit.Proto.SendDataRequest.Room
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SendDataRequest.Data*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Data
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Data
+  name: Data
+  nameWithType: SendDataRequest.Data
+  fullName: LiveKit.Proto.SendDataRequest.Data
+- uid: Google.Protobuf.ByteString
+  commentId: T:Google.Protobuf.ByteString
+  parent: Google.Protobuf
+  isExternal: true
+  name: ByteString
+  nameWithType: ByteString
+  fullName: Google.Protobuf.ByteString
+- uid: LiveKit.Proto.SendDataRequest.Kind*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Kind
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Kind
+  name: Kind
+  nameWithType: SendDataRequest.Kind
+  fullName: LiveKit.Proto.SendDataRequest.Kind
+- uid: LiveKit.Proto.DataPacket.Types.Kind
+  commentId: T:LiveKit.Proto.DataPacket.Types.Kind
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DataPacket.html
+  name: DataPacket.Types.Kind
+  nameWithType: DataPacket.Types.Kind
+  fullName: LiveKit.Proto.DataPacket.Types.Kind
+  spec.csharp:
+  - uid: LiveKit.Proto.DataPacket
+    name: DataPacket
+    href: LiveKit.Proto.DataPacket.html
+  - name: .
+  - uid: LiveKit.Proto.DataPacket.Types
+    name: Types
+    href: LiveKit.Proto.DataPacket.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataPacket.Types.Kind
+    name: Kind
+    href: LiveKit.Proto.DataPacket.Types.Kind.html
+  spec.vb:
+  - uid: LiveKit.Proto.DataPacket
+    name: DataPacket
+    href: LiveKit.Proto.DataPacket.html
+  - name: .
+  - uid: LiveKit.Proto.DataPacket.Types
+    name: Types
+    href: LiveKit.Proto.DataPacket.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataPacket.Types.Kind
+    name: Kind
+    href: LiveKit.Proto.DataPacket.Types.Kind.html
+- uid: LiveKit.Proto.SendDataRequest.DestinationSids*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.DestinationSids
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_DestinationSids
+  name: DestinationSids
+  nameWithType: SendDataRequest.DestinationSids
+  fullName: LiveKit.Proto.SendDataRequest.DestinationSids
+- uid: Google.Protobuf.Collections.RepeatedField{System.String}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RepeatedField<string>
+  nameWithType: RepeatedField<string>
+  fullName: Google.Protobuf.Collections.RepeatedField<string>
+  nameWithType.vb: RepeatedField(Of String)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of String)
+  name.vb: RepeatedField(Of String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.SendDataRequest.DestinationIdentities*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.DestinationIdentities
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_DestinationIdentities
+  name: DestinationIdentities
+  nameWithType: SendDataRequest.DestinationIdentities
+  fullName: LiveKit.Proto.SendDataRequest.DestinationIdentities
+- uid: LiveKit.Proto.SendDataRequest.Topic*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Topic
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Topic
+  name: Topic
+  nameWithType: SendDataRequest.Topic
+  fullName: LiveKit.Proto.SendDataRequest.Topic
+- uid: LiveKit.Proto.SendDataRequest.HasTopic*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.HasTopic
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_HasTopic
+  name: HasTopic
+  nameWithType: SendDataRequest.HasTopic
+  fullName: LiveKit.Proto.SendDataRequest.HasTopic
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.SendDataRequest.ClearTopic*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.ClearTopic
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_ClearTopic
+  name: ClearTopic
+  nameWithType: SendDataRequest.ClearTopic
+  fullName: LiveKit.Proto.SendDataRequest.ClearTopic
+- uid: LiveKit.Proto.SendDataRequest.Nonce*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Nonce
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Nonce
+  name: Nonce
+  nameWithType: SendDataRequest.Nonce
+  fullName: LiveKit.Proto.SendDataRequest.Nonce
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SendDataRequest.Equals*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.Equals
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: SendDataRequest.Equals
+  fullName: LiveKit.Proto.SendDataRequest.Equals
+- uid: System.IEquatable{LiveKit.Proto.SendDataRequest}.Equals(LiveKit.Proto.SendDataRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.SendDataRequest}.Equals(LiveKit.Proto.SendDataRequest)
+  parent: System.IEquatable{LiveKit.Proto.SendDataRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SendDataRequest)
+  nameWithType: IEquatable<SendDataRequest>.Equals(SendDataRequest)
+  fullName: System.IEquatable<LiveKit.Proto.SendDataRequest>.Equals(LiveKit.Proto.SendDataRequest)
+  nameWithType.vb: IEquatable(Of SendDataRequest).Equals(SendDataRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SendDataRequest).Equals(LiveKit.Proto.SendDataRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SendDataRequest}.Equals(LiveKit.Proto.SendDataRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SendDataRequest}.Equals(LiveKit.Proto.SendDataRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SendDataRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.GetHashCode
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: SendDataRequest.GetHashCode
+  fullName: LiveKit.Proto.SendDataRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SendDataRequest.ToString*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.ToString
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_ToString
+  name: ToString
+  nameWithType: SendDataRequest.ToString
+  fullName: LiveKit.Proto.SendDataRequest.ToString
+- uid: LiveKit.Proto.SendDataRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.WriteTo
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SendDataRequest.WriteTo
+  fullName: LiveKit.Proto.SendDataRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SendDataRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.CalculateSize
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: SendDataRequest.CalculateSize
+  fullName: LiveKit.Proto.SendDataRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SendDataRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SendDataRequest.MergeFrom
+  href: LiveKit.Proto.SendDataRequest.html#LiveKit_Proto_SendDataRequest_MergeFrom_LiveKit_Proto_SendDataRequest_
+  name: MergeFrom
+  nameWithType: SendDataRequest.MergeFrom
+  fullName: LiveKit.Proto.SendDataRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}.MergeFrom(LiveKit.Proto.SendDataRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}.MergeFrom(LiveKit.Proto.SendDataRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SendDataRequest.html
+  name: MergeFrom(SendDataRequest)
+  nameWithType: IMessage<SendDataRequest>.MergeFrom(SendDataRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SendDataRequest>.MergeFrom(LiveKit.Proto.SendDataRequest)
+  nameWithType.vb: IMessage(Of SendDataRequest).MergeFrom(SendDataRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SendDataRequest).MergeFrom(LiveKit.Proto.SendDataRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}.MergeFrom(LiveKit.Proto.SendDataRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SendDataRequest}.MergeFrom(LiveKit.Proto.SendDataRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SendDataRequest
+    name: SendDataRequest
+    href: LiveKit.Proto.SendDataRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

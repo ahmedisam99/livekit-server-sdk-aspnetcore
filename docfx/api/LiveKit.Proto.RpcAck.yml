@@ -1,0 +1,1409 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.RpcAck
+  commentId: T:LiveKit.Proto.RpcAck
+  id: RpcAck
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.RpcAck.#ctor
+  - LiveKit.Proto.RpcAck.#ctor(LiveKit.Proto.RpcAck)
+  - LiveKit.Proto.RpcAck.CalculateSize
+  - LiveKit.Proto.RpcAck.Clone
+  - LiveKit.Proto.RpcAck.Descriptor
+  - LiveKit.Proto.RpcAck.Equals(LiveKit.Proto.RpcAck)
+  - LiveKit.Proto.RpcAck.Equals(System.Object)
+  - LiveKit.Proto.RpcAck.GetHashCode
+  - LiveKit.Proto.RpcAck.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.RpcAck.MergeFrom(LiveKit.Proto.RpcAck)
+  - LiveKit.Proto.RpcAck.Parser
+  - LiveKit.Proto.RpcAck.RequestId
+  - LiveKit.Proto.RpcAck.RequestIdFieldNumber
+  - LiveKit.Proto.RpcAck.ToString
+  - LiveKit.Proto.RpcAck.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: RpcAck
+  nameWithType: RpcAck
+  fullName: LiveKit.Proto.RpcAck
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RpcAck
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10352
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class RpcAck : IMessage<RpcAck>, IEquatable<RpcAck>, IDeepCloneable<RpcAck>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class RpcAck Implements IMessage(Of RpcAck), IEquatable(Of RpcAck), IDeepCloneable(Of RpcAck), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}
+  - System.IEquatable{LiveKit.Proto.RpcAck}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.RpcAck.Parser
+  commentId: P:LiveKit.Proto.RpcAck.Parser
+  id: Parser
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: RpcAck.Parser
+  fullName: LiveKit.Proto.RpcAck.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10360
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<RpcAck> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.RpcAck}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of RpcAck)
+  overload: LiveKit.Proto.RpcAck.Parser*
+- uid: LiveKit.Proto.RpcAck.Descriptor
+  commentId: P:LiveKit.Proto.RpcAck.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: RpcAck.Descriptor
+  fullName: LiveKit.Proto.RpcAck.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10364
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.RpcAck.Descriptor*
+- uid: LiveKit.Proto.RpcAck.#ctor
+  commentId: M:LiveKit.Proto.RpcAck.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: RpcAck()
+  nameWithType: RpcAck.RpcAck()
+  fullName: LiveKit.Proto.RpcAck.RpcAck()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10376
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RpcAck()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.RpcAck.#ctor*
+  nameWithType.vb: RpcAck.New()
+  fullName.vb: LiveKit.Proto.RpcAck.New()
+  name.vb: New()
+- uid: LiveKit.Proto.RpcAck.#ctor(LiveKit.Proto.RpcAck)
+  commentId: M:LiveKit.Proto.RpcAck.#ctor(LiveKit.Proto.RpcAck)
+  id: '#ctor(LiveKit.Proto.RpcAck)'
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: RpcAck(RpcAck)
+  nameWithType: RpcAck.RpcAck(RpcAck)
+  fullName: LiveKit.Proto.RpcAck.RpcAck(LiveKit.Proto.RpcAck)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10384
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RpcAck(RpcAck other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RpcAck
+    content.vb: Public Sub New(other As RpcAck)
+  overload: LiveKit.Proto.RpcAck.#ctor*
+  nameWithType.vb: RpcAck.New(RpcAck)
+  fullName.vb: LiveKit.Proto.RpcAck.New(LiveKit.Proto.RpcAck)
+  name.vb: New(RpcAck)
+- uid: LiveKit.Proto.RpcAck.Clone
+  commentId: M:LiveKit.Proto.RpcAck.Clone
+  id: Clone
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: RpcAck.Clone()
+  fullName: LiveKit.Proto.RpcAck.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10391
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public RpcAck Clone()
+    return:
+      type: LiveKit.Proto.RpcAck
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As RpcAck
+  overload: LiveKit.Proto.RpcAck.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}.Clone
+- uid: LiveKit.Proto.RpcAck.RequestIdFieldNumber
+  commentId: F:LiveKit.Proto.RpcAck.RequestIdFieldNumber
+  id: RequestIdFieldNumber
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: RequestIdFieldNumber
+  nameWithType: RpcAck.RequestIdFieldNumber
+  fullName: LiveKit.Proto.RpcAck.RequestIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RequestIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10398
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "request_id" field.
+  example: []
+  syntax:
+    content: public const int RequestIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const RequestIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.RpcAck.RequestId
+  commentId: P:LiveKit.Proto.RpcAck.RequestId
+  id: RequestId
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: RequestId
+  nameWithType: RpcAck.RequestId
+  fullName: LiveKit.Proto.RpcAck.RequestId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RequestId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10400
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string RequestId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RequestId As String
+  overload: LiveKit.Proto.RpcAck.RequestId*
+- uid: LiveKit.Proto.RpcAck.Equals(System.Object)
+  commentId: M:LiveKit.Proto.RpcAck.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: RpcAck.Equals(object)
+  fullName: LiveKit.Proto.RpcAck.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10409
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.RpcAck.Equals*
+  nameWithType.vb: RpcAck.Equals(Object)
+  fullName.vb: LiveKit.Proto.RpcAck.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.RpcAck.Equals(LiveKit.Proto.RpcAck)
+  commentId: M:LiveKit.Proto.RpcAck.Equals(LiveKit.Proto.RpcAck)
+  id: Equals(LiveKit.Proto.RpcAck)
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: Equals(RpcAck)
+  nameWithType: RpcAck.Equals(RpcAck)
+  fullName: LiveKit.Proto.RpcAck.Equals(LiveKit.Proto.RpcAck)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10415
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(RpcAck other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RpcAck
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As RpcAck) As Boolean
+  overload: LiveKit.Proto.RpcAck.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.RpcAck}.Equals(LiveKit.Proto.RpcAck)
+- uid: LiveKit.Proto.RpcAck.GetHashCode
+  commentId: M:LiveKit.Proto.RpcAck.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RpcAck.GetHashCode()
+  fullName: LiveKit.Proto.RpcAck.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10428
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.RpcAck.GetHashCode*
+- uid: LiveKit.Proto.RpcAck.ToString
+  commentId: M:LiveKit.Proto.RpcAck.ToString
+  id: ToString
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RpcAck.ToString()
+  fullName: LiveKit.Proto.RpcAck.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10439
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.RpcAck.ToString*
+- uid: LiveKit.Proto.RpcAck.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.RpcAck.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: RpcAck.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.RpcAck.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10445
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.RpcAck.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.RpcAck.CalculateSize
+  commentId: M:LiveKit.Proto.RpcAck.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: RpcAck.CalculateSize()
+  fullName: LiveKit.Proto.RpcAck.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10475
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.RpcAck.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.RpcAck.MergeFrom(LiveKit.Proto.RpcAck)
+  commentId: M:LiveKit.Proto.RpcAck.MergeFrom(LiveKit.Proto.RpcAck)
+  id: MergeFrom(LiveKit.Proto.RpcAck)
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(RpcAck)
+  nameWithType: RpcAck.MergeFrom(RpcAck)
+  fullName: LiveKit.Proto.RpcAck.MergeFrom(LiveKit.Proto.RpcAck)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10488
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(RpcAck other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.RpcAck
+    content.vb: Public Sub MergeFrom(other As RpcAck)
+  overload: LiveKit.Proto.RpcAck.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}.MergeFrom(LiveKit.Proto.RpcAck)
+- uid: LiveKit.Proto.RpcAck.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.RpcAck.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.RpcAck
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: RpcAck.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.RpcAck.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 10500
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.RpcAck.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.RpcAck.html
+  name: IMessage<RpcAck>
+  nameWithType: IMessage<RpcAck>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.RpcAck>
+  nameWithType.vb: IMessage(Of RpcAck)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.RpcAck)
+  name.vb: IMessage(Of RpcAck)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.RpcAck}
+  commentId: T:System.IEquatable{LiveKit.Proto.RpcAck}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<RpcAck>
+  nameWithType: IEquatable<RpcAck>
+  fullName: System.IEquatable<LiveKit.Proto.RpcAck>
+  nameWithType.vb: IEquatable(Of RpcAck)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.RpcAck)
+  name.vb: IEquatable(Of RpcAck)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.RpcAck.html
+  name: IDeepCloneable<RpcAck>
+  nameWithType: IDeepCloneable<RpcAck>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.RpcAck>
+  nameWithType.vb: IDeepCloneable(Of RpcAck)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.RpcAck)
+  name.vb: IDeepCloneable(Of RpcAck)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.RpcAck.Parser*
+  commentId: Overload:LiveKit.Proto.RpcAck.Parser
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_Parser
+  name: Parser
+  nameWithType: RpcAck.Parser
+  fullName: LiveKit.Proto.RpcAck.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.RpcAck}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.RpcAck}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.RpcAck.html
+  name: MessageParser<RpcAck>
+  nameWithType: MessageParser<RpcAck>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.RpcAck>
+  nameWithType.vb: MessageParser(Of RpcAck)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.RpcAck)
+  name.vb: MessageParser(Of RpcAck)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.RpcAck.Descriptor*
+  commentId: Overload:LiveKit.Proto.RpcAck.Descriptor
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_Descriptor
+  name: Descriptor
+  nameWithType: RpcAck.Descriptor
+  fullName: LiveKit.Proto.RpcAck.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.RpcAck.#ctor*
+  commentId: Overload:LiveKit.Proto.RpcAck.#ctor
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck__ctor
+  name: RpcAck
+  nameWithType: RpcAck.RpcAck
+  fullName: LiveKit.Proto.RpcAck.RpcAck
+  nameWithType.vb: RpcAck.New
+  fullName.vb: LiveKit.Proto.RpcAck.New
+  name.vb: New
+- uid: LiveKit.Proto.RpcAck
+  commentId: T:LiveKit.Proto.RpcAck
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RpcAck.html
+  name: RpcAck
+  nameWithType: RpcAck
+  fullName: LiveKit.Proto.RpcAck
+- uid: LiveKit.Proto.RpcAck.Clone*
+  commentId: Overload:LiveKit.Proto.RpcAck.Clone
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_Clone
+  name: Clone
+  nameWithType: RpcAck.Clone
+  fullName: LiveKit.Proto.RpcAck.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<RpcAck>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.RpcAck>.Clone()
+  nameWithType.vb: IDeepCloneable(Of RpcAck).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.RpcAck).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.RpcAck}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.RpcAck.RequestId*
+  commentId: Overload:LiveKit.Proto.RpcAck.RequestId
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_RequestId
+  name: RequestId
+  nameWithType: RpcAck.RequestId
+  fullName: LiveKit.Proto.RpcAck.RequestId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.RpcAck.Equals*
+  commentId: Overload:LiveKit.Proto.RpcAck.Equals
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_Equals_System_Object_
+  name: Equals
+  nameWithType: RpcAck.Equals
+  fullName: LiveKit.Proto.RpcAck.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.RpcAck}.Equals(LiveKit.Proto.RpcAck)
+  commentId: M:System.IEquatable{LiveKit.Proto.RpcAck}.Equals(LiveKit.Proto.RpcAck)
+  parent: System.IEquatable{LiveKit.Proto.RpcAck}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(RpcAck)
+  nameWithType: IEquatable<RpcAck>.Equals(RpcAck)
+  fullName: System.IEquatable<LiveKit.Proto.RpcAck>.Equals(LiveKit.Proto.RpcAck)
+  nameWithType.vb: IEquatable(Of RpcAck).Equals(RpcAck)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.RpcAck).Equals(LiveKit.Proto.RpcAck)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.RpcAck}.Equals(LiveKit.Proto.RpcAck)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.RpcAck}.Equals(LiveKit.Proto.RpcAck)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RpcAck.GetHashCode*
+  commentId: Overload:LiveKit.Proto.RpcAck.GetHashCode
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_GetHashCode
+  name: GetHashCode
+  nameWithType: RpcAck.GetHashCode
+  fullName: LiveKit.Proto.RpcAck.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RpcAck.ToString*
+  commentId: Overload:LiveKit.Proto.RpcAck.ToString
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_ToString
+  name: ToString
+  nameWithType: RpcAck.ToString
+  fullName: LiveKit.Proto.RpcAck.ToString
+- uid: LiveKit.Proto.RpcAck.WriteTo*
+  commentId: Overload:LiveKit.Proto.RpcAck.WriteTo
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: RpcAck.WriteTo
+  fullName: LiveKit.Proto.RpcAck.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.RpcAck.CalculateSize*
+  commentId: Overload:LiveKit.Proto.RpcAck.CalculateSize
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_CalculateSize
+  name: CalculateSize
+  nameWithType: RpcAck.CalculateSize
+  fullName: LiveKit.Proto.RpcAck.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.RpcAck.MergeFrom*
+  commentId: Overload:LiveKit.Proto.RpcAck.MergeFrom
+  href: LiveKit.Proto.RpcAck.html#LiveKit_Proto_RpcAck_MergeFrom_LiveKit_Proto_RpcAck_
+  name: MergeFrom
+  nameWithType: RpcAck.MergeFrom
+  fullName: LiveKit.Proto.RpcAck.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}.MergeFrom(LiveKit.Proto.RpcAck)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}.MergeFrom(LiveKit.Proto.RpcAck)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.RpcAck.html
+  name: MergeFrom(RpcAck)
+  nameWithType: IMessage<RpcAck>.MergeFrom(RpcAck)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.RpcAck>.MergeFrom(LiveKit.Proto.RpcAck)
+  nameWithType.vb: IMessage(Of RpcAck).MergeFrom(RpcAck)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.RpcAck).MergeFrom(LiveKit.Proto.RpcAck)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}.MergeFrom(LiveKit.Proto.RpcAck)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.RpcAck}.MergeFrom(LiveKit.Proto.RpcAck)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.RpcAck
+    name: RpcAck
+    href: LiveKit.Proto.RpcAck.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

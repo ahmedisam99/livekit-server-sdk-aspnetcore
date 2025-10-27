@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SIPMediaEncryption
+  commentId: T:LiveKit.Proto.SIPMediaEncryption
+  id: SIPMediaEncryption
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptAllow
+  - LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptDisable
+  - LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptRequire
+  langs:
+  - csharp
+  - vb
+  name: SIPMediaEncryption
+  nameWithType: SIPMediaEncryption
+  fullName: LiveKit.Proto.SIPMediaEncryption
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SIPMediaEncryption
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 461
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum SIPMediaEncryption
+    content.vb: Public Enum SIPMediaEncryption
+- uid: LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptDisable
+  commentId: F:LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptDisable
+  id: SipMediaEncryptDisable
+  parent: LiveKit.Proto.SIPMediaEncryption
+  langs:
+  - csharp
+  - vb
+  name: SipMediaEncryptDisable
+  nameWithType: SIPMediaEncryption.SipMediaEncryptDisable
+  fullName: LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptDisable
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipMediaEncryptDisable
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 465
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: do not enable encryption
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIP_MEDIA_ENCRYPT_DISABLE")]
+
+      SipMediaEncryptDisable = 0
+    return:
+      type: LiveKit.Proto.SIPMediaEncryption
+    content.vb: >-
+      <OriginalName("SIP_MEDIA_ENCRYPT_DISABLE")>
+
+      SipMediaEncryptDisable = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_MEDIA_ENCRYPT_DISABLE
+- uid: LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptAllow
+  commentId: F:LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptAllow
+  id: SipMediaEncryptAllow
+  parent: LiveKit.Proto.SIPMediaEncryption
+  langs:
+  - csharp
+  - vb
+  name: SipMediaEncryptAllow
+  nameWithType: SIPMediaEncryption.SipMediaEncryptAllow
+  fullName: LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptAllow
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipMediaEncryptAllow
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 469
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: use encryption if available
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIP_MEDIA_ENCRYPT_ALLOW")]
+
+      SipMediaEncryptAllow = 1
+    return:
+      type: LiveKit.Proto.SIPMediaEncryption
+    content.vb: >-
+      <OriginalName("SIP_MEDIA_ENCRYPT_ALLOW")>
+
+      SipMediaEncryptAllow = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_MEDIA_ENCRYPT_ALLOW
+- uid: LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptRequire
+  commentId: F:LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptRequire
+  id: SipMediaEncryptRequire
+  parent: LiveKit.Proto.SIPMediaEncryption
+  langs:
+  - csharp
+  - vb
+  name: SipMediaEncryptRequire
+  nameWithType: SIPMediaEncryption.SipMediaEncryptRequire
+  fullName: LiveKit.Proto.SIPMediaEncryption.SipMediaEncryptRequire
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipMediaEncryptRequire
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 473
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: require encryption
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIP_MEDIA_ENCRYPT_REQUIRE")]
+
+      SipMediaEncryptRequire = 2
+    return:
+      type: LiveKit.Proto.SIPMediaEncryption
+    content.vb: >-
+      <OriginalName("SIP_MEDIA_ENCRYPT_REQUIRE")>
+
+      SipMediaEncryptRequire = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_MEDIA_ENCRYPT_REQUIRE
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.SIPMediaEncryption
+  commentId: T:LiveKit.Proto.SIPMediaEncryption
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPMediaEncryption.html
+  name: SIPMediaEncryption
+  nameWithType: SIPMediaEncryption
+  fullName: LiveKit.Proto.SIPMediaEncryption

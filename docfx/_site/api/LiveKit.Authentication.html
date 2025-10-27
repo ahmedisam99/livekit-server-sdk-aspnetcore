@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace LiveKit.Authentication | livekit-server-sdk-aspnetcore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace LiveKit.Authentication | livekit-server-sdk-aspnetcore ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="livekit-server-sdk-aspnetcore">
+            livekit-server-sdk-aspnetcore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveKit.Authentication">
+
+  <h1 id="LiveKit_Authentication" data-uid="LiveKit.Authentication" class="text-break">Namespace LiveKit.Authentication</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.LiveKitClaims.html">LiveKitClaims</a></dt>
+      <dd><p>Claim names used in LiveKit authentication tokens.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.LiveKitTokenBuilder.html">LiveKitTokenBuilder</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.LiveKitTokenService.html">LiveKitTokenService</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.LiveKitTokenVerifier.html">LiveKitTokenVerifier</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.SipGrant.html">SipGrant</a></dt>
+      <dd><p>SIP grant containing permissions for SIP service interactions.</p>
+<p>
+In order to interact with the SIP service, permission must be granted in the sip field of the JWT.
+See <a href="https://docs.livekit.io/home/get-started/authentication/#sip-grant">SIP Grant Documentation</a> for more information.
+</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.VideoGrant.html">VideoGrant</a></dt>
+      <dd><p>Video grant containing room permissions and participant capabilities.</p>
+<p>
+Room permissions are specified in the video field of a decoded join token.
+See <a href="https://docs.livekit.io/home/get-started/authentication/#video-grant">Video Grant Documentation</a> for details on available permissions.
+</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.ILiveKitTokenBuilder.html">ILiveKitTokenBuilder</a></dt>
+      <dd><p>Builder for creating LiveKit authentication tokens.</p>
+<p>
+Provides a fluent API for constructing access tokens with video grants, SIP grants, and participant attributes.
+See <a href="https://docs.livekit.io/home/get-started/authentication/">LiveKit Authentication Documentation</a> for more information.
+</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.ILiveKitTokenService.html">ILiveKitTokenService</a></dt>
+      <dd><p>Service for creating LiveKit authentication tokens.</p>
+<p>
+Provides methods for generating JWT tokens for participant authentication and server API access.
+See <a href="https://docs.livekit.io/home/get-started/authentication/">LiveKit Authentication Documentation</a> for more information.
+</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="LiveKit.Authentication.ILiveKitTokenVerifier.html">ILiveKitTokenVerifier</a></dt>
+      <dd><p>Service for verifying LiveKit JWT tokens.</p>
+<p>
+Validates JWT tokens by checking the signature, issuer (API key), and expiration time.
+Used internally by the webhook receiver to verify incoming webhook requests.
+</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

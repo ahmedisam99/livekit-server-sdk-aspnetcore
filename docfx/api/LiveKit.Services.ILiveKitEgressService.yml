@@ -1,0 +1,691 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.ILiveKitEgressService
+  commentId: T:LiveKit.Services.ILiveKitEgressService
+  id: ILiveKitEgressService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitEgressService
+  nameWithType: ILiveKitEgressService
+  fullName: LiveKit.Services.ILiveKitEgressService
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitEgressService
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 13
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Service for recording and streaming rooms, participants, or tracks.
+
+    <p>
+
+    Provides methods for starting and managing egress (recording/streaming) sessions.
+
+    See <a href="https://docs.livekit.io/home/egress/api/">LiveKit Egress API Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitEgressService
+    content.vb: Public Interface ILiveKitEgressService
+- uid: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  id: StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartRoomCompositeEgressAsync(RoomCompositeEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartRoomCompositeEgressAsync(RoomCompositeEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync(LiveKit.Proto.RoomCompositeEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartRoomCompositeEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 18
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Starts a room composite egress (recording or streaming).
+  example: []
+  syntax:
+    content: Task<EgressInfo> StartRoomCompositeEgressAsync(RoomCompositeEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.RoomCompositeEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Function StartRoomCompositeEgressAsync(request As RoomCompositeEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync*
+- uid: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  id: StartWebEgressAsync(LiveKit.Proto.WebEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartWebEgressAsync(WebEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartWebEgressAsync(WebEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync(LiveKit.Proto.WebEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartWebEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 23
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Starts a web egress to record any website.
+  example: []
+  syntax:
+    content: Task<EgressInfo> StartWebEgressAsync(WebEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.WebEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Function StartWebEgressAsync(request As WebEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync*
+- uid: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  id: StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartParticipantEgressAsync(ParticipantEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartParticipantEgressAsync(ParticipantEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync(LiveKit.Proto.ParticipantEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartParticipantEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 28
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Starts a participant egress to record a single participant.
+  example: []
+  syntax:
+    content: Task<EgressInfo> StartParticipantEgressAsync(ParticipantEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ParticipantEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Function StartParticipantEgressAsync(request As ParticipantEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync*
+- uid: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  id: StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartTrackCompositeEgressAsync(TrackCompositeEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartTrackCompositeEgressAsync(TrackCompositeEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync(LiveKit.Proto.TrackCompositeEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartTrackCompositeEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 33
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Starts a track composite egress to record specific tracks.
+  example: []
+  syntax:
+    content: Task<EgressInfo> StartTrackCompositeEgressAsync(TrackCompositeEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.TrackCompositeEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Function StartTrackCompositeEgressAsync(request As TrackCompositeEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync*
+- uid: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  id: StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StartTrackEgressAsync(TrackEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StartTrackEgressAsync(TrackEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync(LiveKit.Proto.TrackEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartTrackEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 38
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Starts a track egress to record a single track without transcoding.
+  example: []
+  syntax:
+    content: Task<EgressInfo> StartTrackEgressAsync(TrackEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.TrackEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Function StartTrackEgressAsync(request As TrackEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync*
+- uid: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  id: UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: UpdateLayoutAsync(UpdateLayoutRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.UpdateLayoutAsync(UpdateLayoutRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync(LiveKit.Proto.UpdateLayoutRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateLayoutAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 43
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates the layout of a web composite egress.
+  example: []
+  syntax:
+    content: Task<EgressInfo> UpdateLayoutAsync(UpdateLayoutRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateLayoutRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Function UpdateLayoutAsync(request As UpdateLayoutRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync*
+- uid: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  id: UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: UpdateStreamAsync(UpdateStreamRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.UpdateStreamAsync(UpdateStreamRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync(LiveKit.Proto.UpdateStreamRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateStreamAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 48
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Adds or removes stream endpoints for an active egress.
+  example: []
+  syntax:
+    content: Task<EgressInfo> UpdateStreamAsync(UpdateStreamRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateStreamRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Function UpdateStreamAsync(request As UpdateStreamRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync*
+- uid: LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  id: ListEgressAsync(LiveKit.Proto.ListEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: ListEgressAsync(ListEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.ListEgressAsync(ListEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.ListEgressAsync(LiveKit.Proto.ListEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 53
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists active and completed egresses.
+  example: []
+  syntax:
+    content: Task<ListEgressResponse> ListEgressAsync(ListEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListEgressResponse}
+    content.vb: Function ListEgressAsync(request As ListEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListEgressResponse)
+  overload: LiveKit.Services.ILiveKitEgressService.ListEgressAsync*
+- uid: LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  id: StopEgressAsync(LiveKit.Proto.StopEgressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitEgressService
+  langs:
+  - csharp
+  - vb
+  name: StopEgressAsync(StopEgressRequest, CancellationToken)
+  nameWithType: ILiveKitEgressService.StopEgressAsync(StopEgressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitEgressService.StopEgressAsync(LiveKit.Proto.StopEgressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StopEgressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitEgressService.cs
+    startLine: 58
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Stops an active egress.
+  example: []
+  syntax:
+    content: Task<EgressInfo> StopEgressAsync(StopEgressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.StopEgressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+    content.vb: Function StopEgressAsync(request As StopEgressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of EgressInfo)
+  overload: LiveKit.Services.ILiveKitEgressService.StopEgressAsync*
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_StartRoomCompositeEgressAsync_LiveKit_Proto_RoomCompositeEgressRequest_System_Threading_CancellationToken_
+  name: StartRoomCompositeEgressAsync
+  nameWithType: ILiveKitEgressService.StartRoomCompositeEgressAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.StartRoomCompositeEgressAsync
+- uid: LiveKit.Proto.RoomCompositeEgressRequest
+  commentId: T:LiveKit.Proto.RoomCompositeEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RoomCompositeEgressRequest.html
+  name: RoomCompositeEgressRequest
+  nameWithType: RoomCompositeEgressRequest
+  fullName: LiveKit.Proto.RoomCompositeEgressRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.EgressInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<EgressInfo>
+  nameWithType: Task<EgressInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.EgressInfo>
+  nameWithType.vb: Task(Of EgressInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.EgressInfo)
+  name.vb: Task(Of EgressInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_StartWebEgressAsync_LiveKit_Proto_WebEgressRequest_System_Threading_CancellationToken_
+  name: StartWebEgressAsync
+  nameWithType: ILiveKitEgressService.StartWebEgressAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.StartWebEgressAsync
+- uid: LiveKit.Proto.WebEgressRequest
+  commentId: T:LiveKit.Proto.WebEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: WebEgressRequest
+  nameWithType: WebEgressRequest
+  fullName: LiveKit.Proto.WebEgressRequest
+- uid: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_StartParticipantEgressAsync_LiveKit_Proto_ParticipantEgressRequest_System_Threading_CancellationToken_
+  name: StartParticipantEgressAsync
+  nameWithType: ILiveKitEgressService.StartParticipantEgressAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.StartParticipantEgressAsync
+- uid: LiveKit.Proto.ParticipantEgressRequest
+  commentId: T:LiveKit.Proto.ParticipantEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantEgressRequest.html
+  name: ParticipantEgressRequest
+  nameWithType: ParticipantEgressRequest
+  fullName: LiveKit.Proto.ParticipantEgressRequest
+- uid: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_StartTrackCompositeEgressAsync_LiveKit_Proto_TrackCompositeEgressRequest_System_Threading_CancellationToken_
+  name: StartTrackCompositeEgressAsync
+  nameWithType: ILiveKitEgressService.StartTrackCompositeEgressAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.StartTrackCompositeEgressAsync
+- uid: LiveKit.Proto.TrackCompositeEgressRequest
+  commentId: T:LiveKit.Proto.TrackCompositeEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrackCompositeEgressRequest.html
+  name: TrackCompositeEgressRequest
+  nameWithType: TrackCompositeEgressRequest
+  fullName: LiveKit.Proto.TrackCompositeEgressRequest
+- uid: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_StartTrackEgressAsync_LiveKit_Proto_TrackEgressRequest_System_Threading_CancellationToken_
+  name: StartTrackEgressAsync
+  nameWithType: ILiveKitEgressService.StartTrackEgressAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.StartTrackEgressAsync
+- uid: LiveKit.Proto.TrackEgressRequest
+  commentId: T:LiveKit.Proto.TrackEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrackEgressRequest.html
+  name: TrackEgressRequest
+  nameWithType: TrackEgressRequest
+  fullName: LiveKit.Proto.TrackEgressRequest
+- uid: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_UpdateLayoutAsync_LiveKit_Proto_UpdateLayoutRequest_System_Threading_CancellationToken_
+  name: UpdateLayoutAsync
+  nameWithType: ILiveKitEgressService.UpdateLayoutAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.UpdateLayoutAsync
+- uid: LiveKit.Proto.UpdateLayoutRequest
+  commentId: T:LiveKit.Proto.UpdateLayoutRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateLayoutRequest.html
+  name: UpdateLayoutRequest
+  nameWithType: UpdateLayoutRequest
+  fullName: LiveKit.Proto.UpdateLayoutRequest
+- uid: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_UpdateStreamAsync_LiveKit_Proto_UpdateStreamRequest_System_Threading_CancellationToken_
+  name: UpdateStreamAsync
+  nameWithType: ILiveKitEgressService.UpdateStreamAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.UpdateStreamAsync
+- uid: LiveKit.Proto.UpdateStreamRequest
+  commentId: T:LiveKit.Proto.UpdateStreamRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateStreamRequest.html
+  name: UpdateStreamRequest
+  nameWithType: UpdateStreamRequest
+  fullName: LiveKit.Proto.UpdateStreamRequest
+- uid: LiveKit.Services.ILiveKitEgressService.ListEgressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.ListEgressAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_ListEgressAsync_LiveKit_Proto_ListEgressRequest_System_Threading_CancellationToken_
+  name: ListEgressAsync
+  nameWithType: ILiveKitEgressService.ListEgressAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.ListEgressAsync
+- uid: LiveKit.Proto.ListEgressRequest
+  commentId: T:LiveKit.Proto.ListEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListEgressRequest.html
+  name: ListEgressRequest
+  nameWithType: ListEgressRequest
+  fullName: LiveKit.Proto.ListEgressRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListEgressResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListEgressResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListEgressResponse>
+  nameWithType: Task<ListEgressResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListEgressResponse>
+  nameWithType.vb: Task(Of ListEgressResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListEgressResponse)
+  name.vb: Task(Of ListEgressResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListEgressResponse
+    name: ListEgressResponse
+    href: LiveKit.Proto.ListEgressResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListEgressResponse
+    name: ListEgressResponse
+    href: LiveKit.Proto.ListEgressResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitEgressService.StopEgressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitEgressService.StopEgressAsync
+  href: LiveKit.Services.ILiveKitEgressService.html#LiveKit_Services_ILiveKitEgressService_StopEgressAsync_LiveKit_Proto_StopEgressRequest_System_Threading_CancellationToken_
+  name: StopEgressAsync
+  nameWithType: ILiveKitEgressService.StopEgressAsync
+  fullName: LiveKit.Services.ILiveKitEgressService.StopEgressAsync
+- uid: LiveKit.Proto.StopEgressRequest
+  commentId: T:LiveKit.Proto.StopEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.StopEgressRequest.html
+  name: StopEgressRequest
+  nameWithType: StopEgressRequest
+  fullName: LiveKit.Proto.StopEgressRequest

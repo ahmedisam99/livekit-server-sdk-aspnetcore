@@ -1,0 +1,2887 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.NodeStatsRate
+  commentId: T:LiveKit.Proto.NodeStatsRate
+  id: NodeStatsRate
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.NodeStatsRate.#ctor
+  - LiveKit.Proto.NodeStatsRate.#ctor(LiveKit.Proto.NodeStatsRate)
+  - LiveKit.Proto.NodeStatsRate.BytesIn
+  - LiveKit.Proto.NodeStatsRate.BytesInFieldNumber
+  - LiveKit.Proto.NodeStatsRate.BytesOut
+  - LiveKit.Proto.NodeStatsRate.BytesOutFieldNumber
+  - LiveKit.Proto.NodeStatsRate.CalculateSize
+  - LiveKit.Proto.NodeStatsRate.Clone
+  - LiveKit.Proto.NodeStatsRate.CpuLoad
+  - LiveKit.Proto.NodeStatsRate.CpuLoadFieldNumber
+  - LiveKit.Proto.NodeStatsRate.Descriptor
+  - LiveKit.Proto.NodeStatsRate.Duration
+  - LiveKit.Proto.NodeStatsRate.DurationFieldNumber
+  - LiveKit.Proto.NodeStatsRate.EndedAt
+  - LiveKit.Proto.NodeStatsRate.EndedAtFieldNumber
+  - LiveKit.Proto.NodeStatsRate.Equals(LiveKit.Proto.NodeStatsRate)
+  - LiveKit.Proto.NodeStatsRate.Equals(System.Object)
+  - LiveKit.Proto.NodeStatsRate.GetHashCode
+  - LiveKit.Proto.NodeStatsRate.MemoryLoad
+  - LiveKit.Proto.NodeStatsRate.MemoryLoadFieldNumber
+  - LiveKit.Proto.NodeStatsRate.MemoryTotal
+  - LiveKit.Proto.NodeStatsRate.MemoryTotalFieldNumber
+  - LiveKit.Proto.NodeStatsRate.MemoryUsed
+  - LiveKit.Proto.NodeStatsRate.MemoryUsedFieldNumber
+  - LiveKit.Proto.NodeStatsRate.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.NodeStatsRate.MergeFrom(LiveKit.Proto.NodeStatsRate)
+  - LiveKit.Proto.NodeStatsRate.NackTotal
+  - LiveKit.Proto.NodeStatsRate.NackTotalFieldNumber
+  - LiveKit.Proto.NodeStatsRate.PacketsIn
+  - LiveKit.Proto.NodeStatsRate.PacketsInFieldNumber
+  - LiveKit.Proto.NodeStatsRate.PacketsOut
+  - LiveKit.Proto.NodeStatsRate.PacketsOutFieldNumber
+  - LiveKit.Proto.NodeStatsRate.Parser
+  - LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected
+  - LiveKit.Proto.NodeStatsRate.ParticipantRtcConnectedFieldNumber
+  - LiveKit.Proto.NodeStatsRate.ParticipantRtcInit
+  - LiveKit.Proto.NodeStatsRate.ParticipantRtcInitFieldNumber
+  - LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected
+  - LiveKit.Proto.NodeStatsRate.ParticipantSignalConnectedFieldNumber
+  - LiveKit.Proto.NodeStatsRate.RetransmitBytesOut
+  - LiveKit.Proto.NodeStatsRate.RetransmitBytesOutFieldNumber
+  - LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut
+  - LiveKit.Proto.NodeStatsRate.RetransmitPacketsOutFieldNumber
+  - LiveKit.Proto.NodeStatsRate.StartedAt
+  - LiveKit.Proto.NodeStatsRate.StartedAtFieldNumber
+  - LiveKit.Proto.NodeStatsRate.SysPacketsDropped
+  - LiveKit.Proto.NodeStatsRate.SysPacketsDroppedFieldNumber
+  - LiveKit.Proto.NodeStatsRate.SysPacketsOut
+  - LiveKit.Proto.NodeStatsRate.SysPacketsOutFieldNumber
+  - LiveKit.Proto.NodeStatsRate.ToString
+  - LiveKit.Proto.NodeStatsRate.TrackPublishAttempts
+  - LiveKit.Proto.NodeStatsRate.TrackPublishAttemptsFieldNumber
+  - LiveKit.Proto.NodeStatsRate.TrackPublishSuccess
+  - LiveKit.Proto.NodeStatsRate.TrackPublishSuccessFieldNumber
+  - LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts
+  - LiveKit.Proto.NodeStatsRate.TrackSubscribeAttemptsFieldNumber
+  - LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess
+  - LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccessFieldNumber
+  - LiveKit.Proto.NodeStatsRate.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: NodeStatsRate
+  nameWithType: NodeStatsRate
+  fullName: LiveKit.Proto.NodeStatsRate
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NodeStatsRate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2627
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: rates of different node stats (per second)
+  example: []
+  syntax:
+    content: 'public sealed class NodeStatsRate : IMessage<NodeStatsRate>, IEquatable<NodeStatsRate>, IDeepCloneable<NodeStatsRate>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class NodeStatsRate Implements IMessage(Of NodeStatsRate), IEquatable(Of NodeStatsRate), IDeepCloneable(Of NodeStatsRate), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}
+  - System.IEquatable{LiveKit.Proto.NodeStatsRate}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.NodeStatsRate.Parser
+  commentId: P:LiveKit.Proto.NodeStatsRate.Parser
+  id: Parser
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: NodeStatsRate.Parser
+  fullName: LiveKit.Proto.NodeStatsRate.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2635
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<NodeStatsRate> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.NodeStatsRate}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of NodeStatsRate)
+  overload: LiveKit.Proto.NodeStatsRate.Parser*
+- uid: LiveKit.Proto.NodeStatsRate.Descriptor
+  commentId: P:LiveKit.Proto.NodeStatsRate.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: NodeStatsRate.Descriptor
+  fullName: LiveKit.Proto.NodeStatsRate.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2639
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.NodeStatsRate.Descriptor*
+- uid: LiveKit.Proto.NodeStatsRate.#ctor
+  commentId: M:LiveKit.Proto.NodeStatsRate.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: NodeStatsRate()
+  nameWithType: NodeStatsRate.NodeStatsRate()
+  fullName: LiveKit.Proto.NodeStatsRate.NodeStatsRate()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2651
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public NodeStatsRate()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.NodeStatsRate.#ctor*
+  nameWithType.vb: NodeStatsRate.New()
+  fullName.vb: LiveKit.Proto.NodeStatsRate.New()
+  name.vb: New()
+- uid: LiveKit.Proto.NodeStatsRate.#ctor(LiveKit.Proto.NodeStatsRate)
+  commentId: M:LiveKit.Proto.NodeStatsRate.#ctor(LiveKit.Proto.NodeStatsRate)
+  id: '#ctor(LiveKit.Proto.NodeStatsRate)'
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: NodeStatsRate(NodeStatsRate)
+  nameWithType: NodeStatsRate.NodeStatsRate(NodeStatsRate)
+  fullName: LiveKit.Proto.NodeStatsRate.NodeStatsRate(LiveKit.Proto.NodeStatsRate)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2659
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public NodeStatsRate(NodeStatsRate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.NodeStatsRate
+    content.vb: Public Sub New(other As NodeStatsRate)
+  overload: LiveKit.Proto.NodeStatsRate.#ctor*
+  nameWithType.vb: NodeStatsRate.New(NodeStatsRate)
+  fullName.vb: LiveKit.Proto.NodeStatsRate.New(LiveKit.Proto.NodeStatsRate)
+  name.vb: New(NodeStatsRate)
+- uid: LiveKit.Proto.NodeStatsRate.Clone
+  commentId: M:LiveKit.Proto.NodeStatsRate.Clone
+  id: Clone
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: NodeStatsRate.Clone()
+  fullName: LiveKit.Proto.NodeStatsRate.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2688
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public NodeStatsRate Clone()
+    return:
+      type: LiveKit.Proto.NodeStatsRate
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As NodeStatsRate
+  overload: LiveKit.Proto.NodeStatsRate.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}.Clone
+- uid: LiveKit.Proto.NodeStatsRate.StartedAtFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.StartedAtFieldNumber
+  id: StartedAtFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: StartedAtFieldNumber
+  nameWithType: NodeStatsRate.StartedAtFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.StartedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2695
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "started_at" field.
+  example: []
+  syntax:
+    content: public const int StartedAtFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const StartedAtFieldNumber As Integer = 1
+- uid: LiveKit.Proto.NodeStatsRate.StartedAt
+  commentId: P:LiveKit.Proto.NodeStatsRate.StartedAt
+  id: StartedAt
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: StartedAt
+  nameWithType: NodeStatsRate.StartedAt
+  fullName: LiveKit.Proto.NodeStatsRate.StartedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2697
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long StartedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property StartedAt As Long
+  overload: LiveKit.Proto.NodeStatsRate.StartedAt*
+- uid: LiveKit.Proto.NodeStatsRate.EndedAtFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.EndedAtFieldNumber
+  id: EndedAtFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: EndedAtFieldNumber
+  nameWithType: NodeStatsRate.EndedAtFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.EndedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2707
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ended_at" field.
+  example: []
+  syntax:
+    content: public const int EndedAtFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const EndedAtFieldNumber As Integer = 2
+- uid: LiveKit.Proto.NodeStatsRate.EndedAt
+  commentId: P:LiveKit.Proto.NodeStatsRate.EndedAt
+  id: EndedAt
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: EndedAt
+  nameWithType: NodeStatsRate.EndedAt
+  fullName: LiveKit.Proto.NodeStatsRate.EndedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2709
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long EndedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property EndedAt As Long
+  overload: LiveKit.Proto.NodeStatsRate.EndedAt*
+- uid: LiveKit.Proto.NodeStatsRate.DurationFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.DurationFieldNumber
+  id: DurationFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: DurationFieldNumber
+  nameWithType: NodeStatsRate.DurationFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.DurationFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DurationFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2719
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "duration" field.
+  example: []
+  syntax:
+    content: public const int DurationFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const DurationFieldNumber As Integer = 3
+- uid: LiveKit.Proto.NodeStatsRate.Duration
+  commentId: P:LiveKit.Proto.NodeStatsRate.Duration
+  id: Duration
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: NodeStatsRate.Duration
+  fullName: LiveKit.Proto.NodeStatsRate.Duration
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Duration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2721
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Duration As Long
+  overload: LiveKit.Proto.NodeStatsRate.Duration*
+- uid: LiveKit.Proto.NodeStatsRate.TrackPublishAttemptsFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.TrackPublishAttemptsFieldNumber
+  id: TrackPublishAttemptsFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: TrackPublishAttemptsFieldNumber
+  nameWithType: NodeStatsRate.TrackPublishAttemptsFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.TrackPublishAttemptsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPublishAttemptsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2731
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_publish_attempts" field.
+  example: []
+  syntax:
+    content: public const int TrackPublishAttemptsFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackPublishAttemptsFieldNumber As Integer = 4
+- uid: LiveKit.Proto.NodeStatsRate.TrackPublishAttempts
+  commentId: P:LiveKit.Proto.NodeStatsRate.TrackPublishAttempts
+  id: TrackPublishAttempts
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: TrackPublishAttempts
+  nameWithType: NodeStatsRate.TrackPublishAttempts
+  fullName: LiveKit.Proto.NodeStatsRate.TrackPublishAttempts
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPublishAttempts
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2733
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float TrackPublishAttempts { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TrackPublishAttempts As Single
+  overload: LiveKit.Proto.NodeStatsRate.TrackPublishAttempts*
+- uid: LiveKit.Proto.NodeStatsRate.TrackPublishSuccessFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.TrackPublishSuccessFieldNumber
+  id: TrackPublishSuccessFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: TrackPublishSuccessFieldNumber
+  nameWithType: NodeStatsRate.TrackPublishSuccessFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.TrackPublishSuccessFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPublishSuccessFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2743
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_publish_success" field.
+  example: []
+  syntax:
+    content: public const int TrackPublishSuccessFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackPublishSuccessFieldNumber As Integer = 5
+- uid: LiveKit.Proto.NodeStatsRate.TrackPublishSuccess
+  commentId: P:LiveKit.Proto.NodeStatsRate.TrackPublishSuccess
+  id: TrackPublishSuccess
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: TrackPublishSuccess
+  nameWithType: NodeStatsRate.TrackPublishSuccess
+  fullName: LiveKit.Proto.NodeStatsRate.TrackPublishSuccess
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPublishSuccess
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2745
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float TrackPublishSuccess { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TrackPublishSuccess As Single
+  overload: LiveKit.Proto.NodeStatsRate.TrackPublishSuccess*
+- uid: LiveKit.Proto.NodeStatsRate.TrackSubscribeAttemptsFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.TrackSubscribeAttemptsFieldNumber
+  id: TrackSubscribeAttemptsFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: TrackSubscribeAttemptsFieldNumber
+  nameWithType: NodeStatsRate.TrackSubscribeAttemptsFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.TrackSubscribeAttemptsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSubscribeAttemptsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2755
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_subscribe_attempts" field.
+  example: []
+  syntax:
+    content: public const int TrackSubscribeAttemptsFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackSubscribeAttemptsFieldNumber As Integer = 6
+- uid: LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts
+  commentId: P:LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts
+  id: TrackSubscribeAttempts
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: TrackSubscribeAttempts
+  nameWithType: NodeStatsRate.TrackSubscribeAttempts
+  fullName: LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSubscribeAttempts
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2757
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float TrackSubscribeAttempts { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TrackSubscribeAttempts As Single
+  overload: LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts*
+- uid: LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccessFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccessFieldNumber
+  id: TrackSubscribeSuccessFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: TrackSubscribeSuccessFieldNumber
+  nameWithType: NodeStatsRate.TrackSubscribeSuccessFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccessFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSubscribeSuccessFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2767
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_subscribe_success" field.
+  example: []
+  syntax:
+    content: public const int TrackSubscribeSuccessFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackSubscribeSuccessFieldNumber As Integer = 7
+- uid: LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess
+  commentId: P:LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess
+  id: TrackSubscribeSuccess
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: TrackSubscribeSuccess
+  nameWithType: NodeStatsRate.TrackSubscribeSuccess
+  fullName: LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSubscribeSuccess
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2769
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float TrackSubscribeSuccess { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property TrackSubscribeSuccess As Single
+  overload: LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess*
+- uid: LiveKit.Proto.NodeStatsRate.BytesInFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.BytesInFieldNumber
+  id: BytesInFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: BytesInFieldNumber
+  nameWithType: NodeStatsRate.BytesInFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.BytesInFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BytesInFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2779
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "bytes_in" field.
+  example: []
+  syntax:
+    content: public const int BytesInFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const BytesInFieldNumber As Integer = 8
+- uid: LiveKit.Proto.NodeStatsRate.BytesIn
+  commentId: P:LiveKit.Proto.NodeStatsRate.BytesIn
+  id: BytesIn
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: BytesIn
+  nameWithType: NodeStatsRate.BytesIn
+  fullName: LiveKit.Proto.NodeStatsRate.BytesIn
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BytesIn
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2781
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float BytesIn { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BytesIn As Single
+  overload: LiveKit.Proto.NodeStatsRate.BytesIn*
+- uid: LiveKit.Proto.NodeStatsRate.BytesOutFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.BytesOutFieldNumber
+  id: BytesOutFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: BytesOutFieldNumber
+  nameWithType: NodeStatsRate.BytesOutFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.BytesOutFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BytesOutFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2791
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "bytes_out" field.
+  example: []
+  syntax:
+    content: public const int BytesOutFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const BytesOutFieldNumber As Integer = 9
+- uid: LiveKit.Proto.NodeStatsRate.BytesOut
+  commentId: P:LiveKit.Proto.NodeStatsRate.BytesOut
+  id: BytesOut
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: BytesOut
+  nameWithType: NodeStatsRate.BytesOut
+  fullName: LiveKit.Proto.NodeStatsRate.BytesOut
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BytesOut
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2793
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float BytesOut { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BytesOut As Single
+  overload: LiveKit.Proto.NodeStatsRate.BytesOut*
+- uid: LiveKit.Proto.NodeStatsRate.PacketsInFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.PacketsInFieldNumber
+  id: PacketsInFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: PacketsInFieldNumber
+  nameWithType: NodeStatsRate.PacketsInFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.PacketsInFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PacketsInFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2803
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "packets_in" field.
+  example: []
+  syntax:
+    content: public const int PacketsInFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const PacketsInFieldNumber As Integer = 10
+- uid: LiveKit.Proto.NodeStatsRate.PacketsIn
+  commentId: P:LiveKit.Proto.NodeStatsRate.PacketsIn
+  id: PacketsIn
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: PacketsIn
+  nameWithType: NodeStatsRate.PacketsIn
+  fullName: LiveKit.Proto.NodeStatsRate.PacketsIn
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PacketsIn
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2805
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float PacketsIn { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PacketsIn As Single
+  overload: LiveKit.Proto.NodeStatsRate.PacketsIn*
+- uid: LiveKit.Proto.NodeStatsRate.PacketsOutFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.PacketsOutFieldNumber
+  id: PacketsOutFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: PacketsOutFieldNumber
+  nameWithType: NodeStatsRate.PacketsOutFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.PacketsOutFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PacketsOutFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2815
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "packets_out" field.
+  example: []
+  syntax:
+    content: public const int PacketsOutFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const PacketsOutFieldNumber As Integer = 11
+- uid: LiveKit.Proto.NodeStatsRate.PacketsOut
+  commentId: P:LiveKit.Proto.NodeStatsRate.PacketsOut
+  id: PacketsOut
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: PacketsOut
+  nameWithType: NodeStatsRate.PacketsOut
+  fullName: LiveKit.Proto.NodeStatsRate.PacketsOut
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PacketsOut
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2817
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float PacketsOut { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property PacketsOut As Single
+  overload: LiveKit.Proto.NodeStatsRate.PacketsOut*
+- uid: LiveKit.Proto.NodeStatsRate.NackTotalFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.NackTotalFieldNumber
+  id: NackTotalFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: NackTotalFieldNumber
+  nameWithType: NodeStatsRate.NackTotalFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.NackTotalFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NackTotalFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2827
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "nack_total" field.
+  example: []
+  syntax:
+    content: public const int NackTotalFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const NackTotalFieldNumber As Integer = 12
+- uid: LiveKit.Proto.NodeStatsRate.NackTotal
+  commentId: P:LiveKit.Proto.NodeStatsRate.NackTotal
+  id: NackTotal
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: NackTotal
+  nameWithType: NodeStatsRate.NackTotal
+  fullName: LiveKit.Proto.NodeStatsRate.NackTotal
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NackTotal
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2829
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float NackTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property NackTotal As Single
+  overload: LiveKit.Proto.NodeStatsRate.NackTotal*
+- uid: LiveKit.Proto.NodeStatsRate.SysPacketsOutFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.SysPacketsOutFieldNumber
+  id: SysPacketsOutFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: SysPacketsOutFieldNumber
+  nameWithType: NodeStatsRate.SysPacketsOutFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.SysPacketsOutFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SysPacketsOutFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2839
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sys_packets_out" field.
+  example: []
+  syntax:
+    content: public const int SysPacketsOutFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const SysPacketsOutFieldNumber As Integer = 13
+- uid: LiveKit.Proto.NodeStatsRate.SysPacketsOut
+  commentId: P:LiveKit.Proto.NodeStatsRate.SysPacketsOut
+  id: SysPacketsOut
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: SysPacketsOut
+  nameWithType: NodeStatsRate.SysPacketsOut
+  fullName: LiveKit.Proto.NodeStatsRate.SysPacketsOut
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SysPacketsOut
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2841
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float SysPacketsOut { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SysPacketsOut As Single
+  overload: LiveKit.Proto.NodeStatsRate.SysPacketsOut*
+- uid: LiveKit.Proto.NodeStatsRate.SysPacketsDroppedFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.SysPacketsDroppedFieldNumber
+  id: SysPacketsDroppedFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: SysPacketsDroppedFieldNumber
+  nameWithType: NodeStatsRate.SysPacketsDroppedFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.SysPacketsDroppedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SysPacketsDroppedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2851
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sys_packets_dropped" field.
+  example: []
+  syntax:
+    content: public const int SysPacketsDroppedFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const SysPacketsDroppedFieldNumber As Integer = 14
+- uid: LiveKit.Proto.NodeStatsRate.SysPacketsDropped
+  commentId: P:LiveKit.Proto.NodeStatsRate.SysPacketsDropped
+  id: SysPacketsDropped
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: SysPacketsDropped
+  nameWithType: NodeStatsRate.SysPacketsDropped
+  fullName: LiveKit.Proto.NodeStatsRate.SysPacketsDropped
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SysPacketsDropped
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2853
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float SysPacketsDropped { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property SysPacketsDropped As Single
+  overload: LiveKit.Proto.NodeStatsRate.SysPacketsDropped*
+- uid: LiveKit.Proto.NodeStatsRate.RetransmitBytesOutFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.RetransmitBytesOutFieldNumber
+  id: RetransmitBytesOutFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: RetransmitBytesOutFieldNumber
+  nameWithType: NodeStatsRate.RetransmitBytesOutFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.RetransmitBytesOutFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RetransmitBytesOutFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2863
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "retransmit_bytes_out" field.
+  example: []
+  syntax:
+    content: public const int RetransmitBytesOutFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const RetransmitBytesOutFieldNumber As Integer = 15
+- uid: LiveKit.Proto.NodeStatsRate.RetransmitBytesOut
+  commentId: P:LiveKit.Proto.NodeStatsRate.RetransmitBytesOut
+  id: RetransmitBytesOut
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: RetransmitBytesOut
+  nameWithType: NodeStatsRate.RetransmitBytesOut
+  fullName: LiveKit.Proto.NodeStatsRate.RetransmitBytesOut
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RetransmitBytesOut
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2865
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float RetransmitBytesOut { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RetransmitBytesOut As Single
+  overload: LiveKit.Proto.NodeStatsRate.RetransmitBytesOut*
+- uid: LiveKit.Proto.NodeStatsRate.RetransmitPacketsOutFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.RetransmitPacketsOutFieldNumber
+  id: RetransmitPacketsOutFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: RetransmitPacketsOutFieldNumber
+  nameWithType: NodeStatsRate.RetransmitPacketsOutFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.RetransmitPacketsOutFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RetransmitPacketsOutFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2875
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "retransmit_packets_out" field.
+  example: []
+  syntax:
+    content: public const int RetransmitPacketsOutFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const RetransmitPacketsOutFieldNumber As Integer = 16
+- uid: LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut
+  commentId: P:LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut
+  id: RetransmitPacketsOut
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: RetransmitPacketsOut
+  nameWithType: NodeStatsRate.RetransmitPacketsOut
+  fullName: LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RetransmitPacketsOut
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2877
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float RetransmitPacketsOut { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property RetransmitPacketsOut As Single
+  overload: LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut*
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantSignalConnectedFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.ParticipantSignalConnectedFieldNumber
+  id: ParticipantSignalConnectedFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: ParticipantSignalConnectedFieldNumber
+  nameWithType: NodeStatsRate.ParticipantSignalConnectedFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantSignalConnectedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantSignalConnectedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2887
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_signal_connected" field.
+  example: []
+  syntax:
+    content: public const int ParticipantSignalConnectedFieldNumber = 17
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantSignalConnectedFieldNumber As Integer = 17
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected
+  commentId: P:LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected
+  id: ParticipantSignalConnected
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: ParticipantSignalConnected
+  nameWithType: NodeStatsRate.ParticipantSignalConnected
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantSignalConnected
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2889
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float ParticipantSignalConnected { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ParticipantSignalConnected As Single
+  overload: LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected*
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantRtcConnectedFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.ParticipantRtcConnectedFieldNumber
+  id: ParticipantRtcConnectedFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: ParticipantRtcConnectedFieldNumber
+  nameWithType: NodeStatsRate.ParticipantRtcConnectedFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantRtcConnectedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantRtcConnectedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2899
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_rtc_connected" field.
+  example: []
+  syntax:
+    content: public const int ParticipantRtcConnectedFieldNumber = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantRtcConnectedFieldNumber As Integer = 18
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected
+  commentId: P:LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected
+  id: ParticipantRtcConnected
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: ParticipantRtcConnected
+  nameWithType: NodeStatsRate.ParticipantRtcConnected
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantRtcConnected
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2901
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float ParticipantRtcConnected { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ParticipantRtcConnected As Single
+  overload: LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected*
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantRtcInitFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.ParticipantRtcInitFieldNumber
+  id: ParticipantRtcInitFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: ParticipantRtcInitFieldNumber
+  nameWithType: NodeStatsRate.ParticipantRtcInitFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantRtcInitFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantRtcInitFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2911
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_rtc_init" field.
+  example: []
+  syntax:
+    content: public const int ParticipantRtcInitFieldNumber = 19
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantRtcInitFieldNumber As Integer = 19
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantRtcInit
+  commentId: P:LiveKit.Proto.NodeStatsRate.ParticipantRtcInit
+  id: ParticipantRtcInit
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: ParticipantRtcInit
+  nameWithType: NodeStatsRate.ParticipantRtcInit
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantRtcInit
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantRtcInit
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2913
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float ParticipantRtcInit { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ParticipantRtcInit As Single
+  overload: LiveKit.Proto.NodeStatsRate.ParticipantRtcInit*
+- uid: LiveKit.Proto.NodeStatsRate.CpuLoadFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.CpuLoadFieldNumber
+  id: CpuLoadFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: CpuLoadFieldNumber
+  nameWithType: NodeStatsRate.CpuLoadFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.CpuLoadFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CpuLoadFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2923
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "cpu_load" field.
+  example: []
+  syntax:
+    content: public const int CpuLoadFieldNumber = 20
+    return:
+      type: System.Int32
+    content.vb: Public Const CpuLoadFieldNumber As Integer = 20
+- uid: LiveKit.Proto.NodeStatsRate.CpuLoad
+  commentId: P:LiveKit.Proto.NodeStatsRate.CpuLoad
+  id: CpuLoad
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: CpuLoad
+  nameWithType: NodeStatsRate.CpuLoad
+  fullName: LiveKit.Proto.NodeStatsRate.CpuLoad
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CpuLoad
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2928
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: time weighted averages across stats windows forming part of a rate measurement interval
+  example: []
+  syntax:
+    content: public float CpuLoad { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property CpuLoad As Single
+  overload: LiveKit.Proto.NodeStatsRate.CpuLoad*
+- uid: LiveKit.Proto.NodeStatsRate.MemoryLoadFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.MemoryLoadFieldNumber
+  id: MemoryLoadFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: MemoryLoadFieldNumber
+  nameWithType: NodeStatsRate.MemoryLoadFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryLoadFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemoryLoadFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2938
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "memory_load" field.
+  example: []
+  syntax:
+    content: public const int MemoryLoadFieldNumber = 21
+    return:
+      type: System.Int32
+    content.vb: Public Const MemoryLoadFieldNumber As Integer = 21
+- uid: LiveKit.Proto.NodeStatsRate.MemoryLoad
+  commentId: P:LiveKit.Proto.NodeStatsRate.MemoryLoad
+  id: MemoryLoad
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: MemoryLoad
+  nameWithType: NodeStatsRate.MemoryLoad
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryLoad
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemoryLoad
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2940
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float MemoryLoad { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MemoryLoad As Single
+  overload: LiveKit.Proto.NodeStatsRate.MemoryLoad*
+- uid: LiveKit.Proto.NodeStatsRate.MemoryUsedFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.MemoryUsedFieldNumber
+  id: MemoryUsedFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: MemoryUsedFieldNumber
+  nameWithType: NodeStatsRate.MemoryUsedFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryUsedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemoryUsedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2950
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "memory_used" field.
+  example: []
+  syntax:
+    content: public const int MemoryUsedFieldNumber = 22
+    return:
+      type: System.Int32
+    content.vb: Public Const MemoryUsedFieldNumber As Integer = 22
+- uid: LiveKit.Proto.NodeStatsRate.MemoryUsed
+  commentId: P:LiveKit.Proto.NodeStatsRate.MemoryUsed
+  id: MemoryUsed
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: MemoryUsed
+  nameWithType: NodeStatsRate.MemoryUsed
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryUsed
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemoryUsed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2952
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float MemoryUsed { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MemoryUsed As Single
+  overload: LiveKit.Proto.NodeStatsRate.MemoryUsed*
+- uid: LiveKit.Proto.NodeStatsRate.MemoryTotalFieldNumber
+  commentId: F:LiveKit.Proto.NodeStatsRate.MemoryTotalFieldNumber
+  id: MemoryTotalFieldNumber
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: MemoryTotalFieldNumber
+  nameWithType: NodeStatsRate.MemoryTotalFieldNumber
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryTotalFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemoryTotalFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2962
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "memory_total" field.
+  example: []
+  syntax:
+    content: public const int MemoryTotalFieldNumber = 23
+    return:
+      type: System.Int32
+    content.vb: Public Const MemoryTotalFieldNumber As Integer = 23
+- uid: LiveKit.Proto.NodeStatsRate.MemoryTotal
+  commentId: P:LiveKit.Proto.NodeStatsRate.MemoryTotal
+  id: MemoryTotal
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: MemoryTotal
+  nameWithType: NodeStatsRate.MemoryTotal
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryTotal
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemoryTotal
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2964
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public float MemoryTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property MemoryTotal As Single
+  overload: LiveKit.Proto.NodeStatsRate.MemoryTotal*
+- uid: LiveKit.Proto.NodeStatsRate.Equals(System.Object)
+  commentId: M:LiveKit.Proto.NodeStatsRate.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: NodeStatsRate.Equals(object)
+  fullName: LiveKit.Proto.NodeStatsRate.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2973
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.NodeStatsRate.Equals*
+  nameWithType.vb: NodeStatsRate.Equals(Object)
+  fullName.vb: LiveKit.Proto.NodeStatsRate.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.NodeStatsRate.Equals(LiveKit.Proto.NodeStatsRate)
+  commentId: M:LiveKit.Proto.NodeStatsRate.Equals(LiveKit.Proto.NodeStatsRate)
+  id: Equals(LiveKit.Proto.NodeStatsRate)
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: Equals(NodeStatsRate)
+  nameWithType: NodeStatsRate.Equals(NodeStatsRate)
+  fullName: LiveKit.Proto.NodeStatsRate.Equals(LiveKit.Proto.NodeStatsRate)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 2979
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(NodeStatsRate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.NodeStatsRate
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As NodeStatsRate) As Boolean
+  overload: LiveKit.Proto.NodeStatsRate.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.NodeStatsRate}.Equals(LiveKit.Proto.NodeStatsRate)
+- uid: LiveKit.Proto.NodeStatsRate.GetHashCode
+  commentId: M:LiveKit.Proto.NodeStatsRate.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: NodeStatsRate.GetHashCode()
+  fullName: LiveKit.Proto.NodeStatsRate.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 3014
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.NodeStatsRate.GetHashCode*
+- uid: LiveKit.Proto.NodeStatsRate.ToString
+  commentId: M:LiveKit.Proto.NodeStatsRate.ToString
+  id: ToString
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: NodeStatsRate.ToString()
+  fullName: LiveKit.Proto.NodeStatsRate.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 3047
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.NodeStatsRate.ToString*
+- uid: LiveKit.Proto.NodeStatsRate.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.NodeStatsRate.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: NodeStatsRate.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.NodeStatsRate.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 3053
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.NodeStatsRate.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.NodeStatsRate.CalculateSize
+  commentId: M:LiveKit.Proto.NodeStatsRate.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: NodeStatsRate.CalculateSize()
+  fullName: LiveKit.Proto.NodeStatsRate.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 3259
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.NodeStatsRate.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.NodeStatsRate.MergeFrom(LiveKit.Proto.NodeStatsRate)
+  commentId: M:LiveKit.Proto.NodeStatsRate.MergeFrom(LiveKit.Proto.NodeStatsRate)
+  id: MergeFrom(LiveKit.Proto.NodeStatsRate)
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(NodeStatsRate)
+  nameWithType: NodeStatsRate.MergeFrom(NodeStatsRate)
+  fullName: LiveKit.Proto.NodeStatsRate.MergeFrom(LiveKit.Proto.NodeStatsRate)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 3338
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(NodeStatsRate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.NodeStatsRate
+    content.vb: Public Sub MergeFrom(other As NodeStatsRate)
+  overload: LiveKit.Proto.NodeStatsRate.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}.MergeFrom(LiveKit.Proto.NodeStatsRate)
+- uid: LiveKit.Proto.NodeStatsRate.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.NodeStatsRate.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.NodeStatsRate
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: NodeStatsRate.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.NodeStatsRate.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitInternal.cs
+    startLine: 3416
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.NodeStatsRate.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.NodeStatsRate.html
+  name: IMessage<NodeStatsRate>
+  nameWithType: IMessage<NodeStatsRate>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.NodeStatsRate>
+  nameWithType.vb: IMessage(Of NodeStatsRate)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.NodeStatsRate)
+  name.vb: IMessage(Of NodeStatsRate)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.NodeStatsRate}
+  commentId: T:System.IEquatable{LiveKit.Proto.NodeStatsRate}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<NodeStatsRate>
+  nameWithType: IEquatable<NodeStatsRate>
+  fullName: System.IEquatable<LiveKit.Proto.NodeStatsRate>
+  nameWithType.vb: IEquatable(Of NodeStatsRate)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.NodeStatsRate)
+  name.vb: IEquatable(Of NodeStatsRate)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.NodeStatsRate.html
+  name: IDeepCloneable<NodeStatsRate>
+  nameWithType: IDeepCloneable<NodeStatsRate>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.NodeStatsRate>
+  nameWithType.vb: IDeepCloneable(Of NodeStatsRate)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.NodeStatsRate)
+  name.vb: IDeepCloneable(Of NodeStatsRate)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.NodeStatsRate.Parser*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.Parser
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_Parser
+  name: Parser
+  nameWithType: NodeStatsRate.Parser
+  fullName: LiveKit.Proto.NodeStatsRate.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.NodeStatsRate}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.NodeStatsRate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.NodeStatsRate.html
+  name: MessageParser<NodeStatsRate>
+  nameWithType: MessageParser<NodeStatsRate>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.NodeStatsRate>
+  nameWithType.vb: MessageParser(Of NodeStatsRate)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.NodeStatsRate)
+  name.vb: MessageParser(Of NodeStatsRate)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.NodeStatsRate.Descriptor*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.Descriptor
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_Descriptor
+  name: Descriptor
+  nameWithType: NodeStatsRate.Descriptor
+  fullName: LiveKit.Proto.NodeStatsRate.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.NodeStatsRate.#ctor*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.#ctor
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate__ctor
+  name: NodeStatsRate
+  nameWithType: NodeStatsRate.NodeStatsRate
+  fullName: LiveKit.Proto.NodeStatsRate.NodeStatsRate
+  nameWithType.vb: NodeStatsRate.New
+  fullName.vb: LiveKit.Proto.NodeStatsRate.New
+  name.vb: New
+- uid: LiveKit.Proto.NodeStatsRate
+  commentId: T:LiveKit.Proto.NodeStatsRate
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.NodeStatsRate.html
+  name: NodeStatsRate
+  nameWithType: NodeStatsRate
+  fullName: LiveKit.Proto.NodeStatsRate
+- uid: LiveKit.Proto.NodeStatsRate.Clone*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.Clone
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_Clone
+  name: Clone
+  nameWithType: NodeStatsRate.Clone
+  fullName: LiveKit.Proto.NodeStatsRate.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<NodeStatsRate>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.NodeStatsRate>.Clone()
+  nameWithType.vb: IDeepCloneable(Of NodeStatsRate).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.NodeStatsRate).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.NodeStatsRate}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.NodeStatsRate.StartedAt*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.StartedAt
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_StartedAt
+  name: StartedAt
+  nameWithType: NodeStatsRate.StartedAt
+  fullName: LiveKit.Proto.NodeStatsRate.StartedAt
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.NodeStatsRate.EndedAt*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.EndedAt
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_EndedAt
+  name: EndedAt
+  nameWithType: NodeStatsRate.EndedAt
+  fullName: LiveKit.Proto.NodeStatsRate.EndedAt
+- uid: LiveKit.Proto.NodeStatsRate.Duration*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.Duration
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_Duration
+  name: Duration
+  nameWithType: NodeStatsRate.Duration
+  fullName: LiveKit.Proto.NodeStatsRate.Duration
+- uid: LiveKit.Proto.NodeStatsRate.TrackPublishAttempts*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.TrackPublishAttempts
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_TrackPublishAttempts
+  name: TrackPublishAttempts
+  nameWithType: NodeStatsRate.TrackPublishAttempts
+  fullName: LiveKit.Proto.NodeStatsRate.TrackPublishAttempts
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: LiveKit.Proto.NodeStatsRate.TrackPublishSuccess*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.TrackPublishSuccess
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_TrackPublishSuccess
+  name: TrackPublishSuccess
+  nameWithType: NodeStatsRate.TrackPublishSuccess
+  fullName: LiveKit.Proto.NodeStatsRate.TrackPublishSuccess
+- uid: LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_TrackSubscribeAttempts
+  name: TrackSubscribeAttempts
+  nameWithType: NodeStatsRate.TrackSubscribeAttempts
+  fullName: LiveKit.Proto.NodeStatsRate.TrackSubscribeAttempts
+- uid: LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_TrackSubscribeSuccess
+  name: TrackSubscribeSuccess
+  nameWithType: NodeStatsRate.TrackSubscribeSuccess
+  fullName: LiveKit.Proto.NodeStatsRate.TrackSubscribeSuccess
+- uid: LiveKit.Proto.NodeStatsRate.BytesIn*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.BytesIn
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_BytesIn
+  name: BytesIn
+  nameWithType: NodeStatsRate.BytesIn
+  fullName: LiveKit.Proto.NodeStatsRate.BytesIn
+- uid: LiveKit.Proto.NodeStatsRate.BytesOut*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.BytesOut
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_BytesOut
+  name: BytesOut
+  nameWithType: NodeStatsRate.BytesOut
+  fullName: LiveKit.Proto.NodeStatsRate.BytesOut
+- uid: LiveKit.Proto.NodeStatsRate.PacketsIn*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.PacketsIn
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_PacketsIn
+  name: PacketsIn
+  nameWithType: NodeStatsRate.PacketsIn
+  fullName: LiveKit.Proto.NodeStatsRate.PacketsIn
+- uid: LiveKit.Proto.NodeStatsRate.PacketsOut*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.PacketsOut
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_PacketsOut
+  name: PacketsOut
+  nameWithType: NodeStatsRate.PacketsOut
+  fullName: LiveKit.Proto.NodeStatsRate.PacketsOut
+- uid: LiveKit.Proto.NodeStatsRate.NackTotal*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.NackTotal
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_NackTotal
+  name: NackTotal
+  nameWithType: NodeStatsRate.NackTotal
+  fullName: LiveKit.Proto.NodeStatsRate.NackTotal
+- uid: LiveKit.Proto.NodeStatsRate.SysPacketsOut*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.SysPacketsOut
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_SysPacketsOut
+  name: SysPacketsOut
+  nameWithType: NodeStatsRate.SysPacketsOut
+  fullName: LiveKit.Proto.NodeStatsRate.SysPacketsOut
+- uid: LiveKit.Proto.NodeStatsRate.SysPacketsDropped*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.SysPacketsDropped
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_SysPacketsDropped
+  name: SysPacketsDropped
+  nameWithType: NodeStatsRate.SysPacketsDropped
+  fullName: LiveKit.Proto.NodeStatsRate.SysPacketsDropped
+- uid: LiveKit.Proto.NodeStatsRate.RetransmitBytesOut*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.RetransmitBytesOut
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_RetransmitBytesOut
+  name: RetransmitBytesOut
+  nameWithType: NodeStatsRate.RetransmitBytesOut
+  fullName: LiveKit.Proto.NodeStatsRate.RetransmitBytesOut
+- uid: LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_RetransmitPacketsOut
+  name: RetransmitPacketsOut
+  nameWithType: NodeStatsRate.RetransmitPacketsOut
+  fullName: LiveKit.Proto.NodeStatsRate.RetransmitPacketsOut
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_ParticipantSignalConnected
+  name: ParticipantSignalConnected
+  nameWithType: NodeStatsRate.ParticipantSignalConnected
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantSignalConnected
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_ParticipantRtcConnected
+  name: ParticipantRtcConnected
+  nameWithType: NodeStatsRate.ParticipantRtcConnected
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantRtcConnected
+- uid: LiveKit.Proto.NodeStatsRate.ParticipantRtcInit*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.ParticipantRtcInit
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_ParticipantRtcInit
+  name: ParticipantRtcInit
+  nameWithType: NodeStatsRate.ParticipantRtcInit
+  fullName: LiveKit.Proto.NodeStatsRate.ParticipantRtcInit
+- uid: LiveKit.Proto.NodeStatsRate.CpuLoad*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.CpuLoad
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_CpuLoad
+  name: CpuLoad
+  nameWithType: NodeStatsRate.CpuLoad
+  fullName: LiveKit.Proto.NodeStatsRate.CpuLoad
+- uid: LiveKit.Proto.NodeStatsRate.MemoryLoad*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.MemoryLoad
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_MemoryLoad
+  name: MemoryLoad
+  nameWithType: NodeStatsRate.MemoryLoad
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryLoad
+- uid: LiveKit.Proto.NodeStatsRate.MemoryUsed*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.MemoryUsed
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_MemoryUsed
+  name: MemoryUsed
+  nameWithType: NodeStatsRate.MemoryUsed
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryUsed
+- uid: LiveKit.Proto.NodeStatsRate.MemoryTotal*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.MemoryTotal
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_MemoryTotal
+  name: MemoryTotal
+  nameWithType: NodeStatsRate.MemoryTotal
+  fullName: LiveKit.Proto.NodeStatsRate.MemoryTotal
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.NodeStatsRate.Equals*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.Equals
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_Equals_System_Object_
+  name: Equals
+  nameWithType: NodeStatsRate.Equals
+  fullName: LiveKit.Proto.NodeStatsRate.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.NodeStatsRate}.Equals(LiveKit.Proto.NodeStatsRate)
+  commentId: M:System.IEquatable{LiveKit.Proto.NodeStatsRate}.Equals(LiveKit.Proto.NodeStatsRate)
+  parent: System.IEquatable{LiveKit.Proto.NodeStatsRate}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(NodeStatsRate)
+  nameWithType: IEquatable<NodeStatsRate>.Equals(NodeStatsRate)
+  fullName: System.IEquatable<LiveKit.Proto.NodeStatsRate>.Equals(LiveKit.Proto.NodeStatsRate)
+  nameWithType.vb: IEquatable(Of NodeStatsRate).Equals(NodeStatsRate)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.NodeStatsRate).Equals(LiveKit.Proto.NodeStatsRate)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.NodeStatsRate}.Equals(LiveKit.Proto.NodeStatsRate)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.NodeStatsRate}.Equals(LiveKit.Proto.NodeStatsRate)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.NodeStatsRate.GetHashCode*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.GetHashCode
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_GetHashCode
+  name: GetHashCode
+  nameWithType: NodeStatsRate.GetHashCode
+  fullName: LiveKit.Proto.NodeStatsRate.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.NodeStatsRate.ToString*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.ToString
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_ToString
+  name: ToString
+  nameWithType: NodeStatsRate.ToString
+  fullName: LiveKit.Proto.NodeStatsRate.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.NodeStatsRate.WriteTo*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.WriteTo
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: NodeStatsRate.WriteTo
+  fullName: LiveKit.Proto.NodeStatsRate.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.NodeStatsRate.CalculateSize*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.CalculateSize
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_CalculateSize
+  name: CalculateSize
+  nameWithType: NodeStatsRate.CalculateSize
+  fullName: LiveKit.Proto.NodeStatsRate.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.NodeStatsRate.MergeFrom*
+  commentId: Overload:LiveKit.Proto.NodeStatsRate.MergeFrom
+  href: LiveKit.Proto.NodeStatsRate.html#LiveKit_Proto_NodeStatsRate_MergeFrom_LiveKit_Proto_NodeStatsRate_
+  name: MergeFrom
+  nameWithType: NodeStatsRate.MergeFrom
+  fullName: LiveKit.Proto.NodeStatsRate.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}.MergeFrom(LiveKit.Proto.NodeStatsRate)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}.MergeFrom(LiveKit.Proto.NodeStatsRate)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.NodeStatsRate.html
+  name: MergeFrom(NodeStatsRate)
+  nameWithType: IMessage<NodeStatsRate>.MergeFrom(NodeStatsRate)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.NodeStatsRate>.MergeFrom(LiveKit.Proto.NodeStatsRate)
+  nameWithType.vb: IMessage(Of NodeStatsRate).MergeFrom(NodeStatsRate)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.NodeStatsRate).MergeFrom(LiveKit.Proto.NodeStatsRate)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}.MergeFrom(LiveKit.Proto.NodeStatsRate)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.NodeStatsRate}.MergeFrom(LiveKit.Proto.NodeStatsRate)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.NodeStatsRate
+    name: NodeStatsRate
+    href: LiveKit.Proto.NodeStatsRate.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

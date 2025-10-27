@@ -1,0 +1,1668 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SubscribedQualityUpdate
+  commentId: T:LiveKit.Proto.SubscribedQualityUpdate
+  id: SubscribedQualityUpdate
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SubscribedQualityUpdate.#ctor
+  - LiveKit.Proto.SubscribedQualityUpdate.#ctor(LiveKit.Proto.SubscribedQualityUpdate)
+  - LiveKit.Proto.SubscribedQualityUpdate.CalculateSize
+  - LiveKit.Proto.SubscribedQualityUpdate.Clone
+  - LiveKit.Proto.SubscribedQualityUpdate.Descriptor
+  - LiveKit.Proto.SubscribedQualityUpdate.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  - LiveKit.Proto.SubscribedQualityUpdate.Equals(System.Object)
+  - LiveKit.Proto.SubscribedQualityUpdate.GetHashCode
+  - LiveKit.Proto.SubscribedQualityUpdate.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SubscribedQualityUpdate.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  - LiveKit.Proto.SubscribedQualityUpdate.Parser
+  - LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecs
+  - LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecsFieldNumber
+  - LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualities
+  - LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualitiesFieldNumber
+  - LiveKit.Proto.SubscribedQualityUpdate.ToString
+  - LiveKit.Proto.SubscribedQualityUpdate.TrackSid
+  - LiveKit.Proto.SubscribedQualityUpdate.TrackSidFieldNumber
+  - LiveKit.Proto.SubscribedQualityUpdate.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SubscribedQualityUpdate
+  nameWithType: SubscribedQualityUpdate
+  fullName: LiveKit.Proto.SubscribedQualityUpdate
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscribedQualityUpdate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10701
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SubscribedQualityUpdate : IMessage<SubscribedQualityUpdate>, IEquatable<SubscribedQualityUpdate>, IDeepCloneable<SubscribedQualityUpdate>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SubscribedQualityUpdate Implements IMessage(Of SubscribedQualityUpdate), IEquatable(Of SubscribedQualityUpdate), IDeepCloneable(Of SubscribedQualityUpdate), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}
+  - System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Parser
+  commentId: P:LiveKit.Proto.SubscribedQualityUpdate.Parser
+  id: Parser
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SubscribedQualityUpdate.Parser
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10709
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SubscribedQualityUpdate> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SubscribedQualityUpdate}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SubscribedQualityUpdate)
+  overload: LiveKit.Proto.SubscribedQualityUpdate.Parser*
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Descriptor
+  commentId: P:LiveKit.Proto.SubscribedQualityUpdate.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SubscribedQualityUpdate.Descriptor
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10713
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SubscribedQualityUpdate.Descriptor*
+- uid: LiveKit.Proto.SubscribedQualityUpdate.#ctor
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: SubscribedQualityUpdate()
+  nameWithType: SubscribedQualityUpdate.SubscribedQualityUpdate()
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualityUpdate()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10725
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SubscribedQualityUpdate()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SubscribedQualityUpdate.#ctor*
+  nameWithType.vb: SubscribedQualityUpdate.New()
+  fullName.vb: LiveKit.Proto.SubscribedQualityUpdate.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SubscribedQualityUpdate.#ctor(LiveKit.Proto.SubscribedQualityUpdate)
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.#ctor(LiveKit.Proto.SubscribedQualityUpdate)
+  id: '#ctor(LiveKit.Proto.SubscribedQualityUpdate)'
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: SubscribedQualityUpdate(SubscribedQualityUpdate)
+  nameWithType: SubscribedQualityUpdate.SubscribedQualityUpdate(SubscribedQualityUpdate)
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualityUpdate(LiveKit.Proto.SubscribedQualityUpdate)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10733
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SubscribedQualityUpdate(SubscribedQualityUpdate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SubscribedQualityUpdate
+    content.vb: Public Sub New(other As SubscribedQualityUpdate)
+  overload: LiveKit.Proto.SubscribedQualityUpdate.#ctor*
+  nameWithType.vb: SubscribedQualityUpdate.New(SubscribedQualityUpdate)
+  fullName.vb: LiveKit.Proto.SubscribedQualityUpdate.New(LiveKit.Proto.SubscribedQualityUpdate)
+  name.vb: New(SubscribedQualityUpdate)
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Clone
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.Clone
+  id: Clone
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SubscribedQualityUpdate.Clone()
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10742
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SubscribedQualityUpdate Clone()
+    return:
+      type: LiveKit.Proto.SubscribedQualityUpdate
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SubscribedQualityUpdate
+  overload: LiveKit.Proto.SubscribedQualityUpdate.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}.Clone
+- uid: LiveKit.Proto.SubscribedQualityUpdate.TrackSidFieldNumber
+  commentId: F:LiveKit.Proto.SubscribedQualityUpdate.TrackSidFieldNumber
+  id: TrackSidFieldNumber
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: TrackSidFieldNumber
+  nameWithType: SubscribedQualityUpdate.TrackSidFieldNumber
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.TrackSidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10749
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_sid" field.
+  example: []
+  syntax:
+    content: public const int TrackSidFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackSidFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SubscribedQualityUpdate.TrackSid
+  commentId: P:LiveKit.Proto.SubscribedQualityUpdate.TrackSid
+  id: TrackSid
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: TrackSid
+  nameWithType: SubscribedQualityUpdate.TrackSid
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.TrackSid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10751
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string TrackSid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TrackSid As String
+  overload: LiveKit.Proto.SubscribedQualityUpdate.TrackSid*
+- uid: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualitiesFieldNumber
+  commentId: F:LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualitiesFieldNumber
+  id: SubscribedQualitiesFieldNumber
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: SubscribedQualitiesFieldNumber
+  nameWithType: SubscribedQualityUpdate.SubscribedQualitiesFieldNumber
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualitiesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscribedQualitiesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10761
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "subscribed_qualities" field.
+  example: []
+  syntax:
+    content: public const int SubscribedQualitiesFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const SubscribedQualitiesFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualities
+  commentId: P:LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualities
+  id: SubscribedQualities
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: SubscribedQualities
+  nameWithType: SubscribedQualityUpdate.SubscribedQualities
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualities
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscribedQualities
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10765
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public RepeatedField<SubscribedQuality> SubscribedQualities { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SubscribedQuality}
+    content.vb: >-
+      <Obsolete>
+
+      Public ReadOnly Property SubscribedQualities As RepeatedField(Of SubscribedQuality)
+  overload: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualities*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecsFieldNumber
+  commentId: F:LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecsFieldNumber
+  id: SubscribedCodecsFieldNumber
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: SubscribedCodecsFieldNumber
+  nameWithType: SubscribedQualityUpdate.SubscribedCodecsFieldNumber
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscribedCodecsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10773
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "subscribed_codecs" field.
+  example: []
+  syntax:
+    content: public const int SubscribedCodecsFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const SubscribedCodecsFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecs
+  commentId: P:LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecs
+  id: SubscribedCodecs
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: SubscribedCodecs
+  nameWithType: SubscribedQualityUpdate.SubscribedCodecs
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscribedCodecs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10777
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<SubscribedCodec> SubscribedCodecs { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SubscribedCodec}
+    content.vb: Public ReadOnly Property SubscribedCodecs As RepeatedField(Of SubscribedCodec)
+  overload: LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecs*
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SubscribedQualityUpdate.Equals(object)
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10783
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SubscribedQualityUpdate.Equals*
+  nameWithType.vb: SubscribedQualityUpdate.Equals(Object)
+  fullName.vb: LiveKit.Proto.SubscribedQualityUpdate.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  id: Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: Equals(SubscribedQualityUpdate)
+  nameWithType: SubscribedQualityUpdate.Equals(SubscribedQualityUpdate)
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10789
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SubscribedQualityUpdate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SubscribedQualityUpdate
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SubscribedQualityUpdate) As Boolean
+  overload: LiveKit.Proto.SubscribedQualityUpdate.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+- uid: LiveKit.Proto.SubscribedQualityUpdate.GetHashCode
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SubscribedQualityUpdate.GetHashCode()
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10804
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SubscribedQualityUpdate.GetHashCode*
+- uid: LiveKit.Proto.SubscribedQualityUpdate.ToString
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.ToString
+  id: ToString
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SubscribedQualityUpdate.ToString()
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10817
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SubscribedQualityUpdate.ToString*
+- uid: LiveKit.Proto.SubscribedQualityUpdate.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SubscribedQualityUpdate.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10823
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SubscribedQualityUpdate.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SubscribedQualityUpdate.CalculateSize
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SubscribedQualityUpdate.CalculateSize()
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10857
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SubscribedQualityUpdate.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SubscribedQualityUpdate.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  id: MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SubscribedQualityUpdate)
+  nameWithType: SubscribedQualityUpdate.MergeFrom(SubscribedQualityUpdate)
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10872
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SubscribedQualityUpdate other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SubscribedQualityUpdate
+    content.vb: Public Sub MergeFrom(other As SubscribedQualityUpdate)
+  overload: LiveKit.Proto.SubscribedQualityUpdate.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+- uid: LiveKit.Proto.SubscribedQualityUpdate.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SubscribedQualityUpdate.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SubscribedQualityUpdate
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SubscribedQualityUpdate.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 10886
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SubscribedQualityUpdate.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SubscribedQualityUpdate.html
+  name: IMessage<SubscribedQualityUpdate>
+  nameWithType: IMessage<SubscribedQualityUpdate>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SubscribedQualityUpdate>
+  nameWithType.vb: IMessage(Of SubscribedQualityUpdate)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SubscribedQualityUpdate)
+  name.vb: IMessage(Of SubscribedQualityUpdate)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}
+  commentId: T:System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SubscribedQualityUpdate>
+  nameWithType: IEquatable<SubscribedQualityUpdate>
+  fullName: System.IEquatable<LiveKit.Proto.SubscribedQualityUpdate>
+  nameWithType.vb: IEquatable(Of SubscribedQualityUpdate)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SubscribedQualityUpdate)
+  name.vb: IEquatable(Of SubscribedQualityUpdate)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SubscribedQualityUpdate.html
+  name: IDeepCloneable<SubscribedQualityUpdate>
+  nameWithType: IDeepCloneable<SubscribedQualityUpdate>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SubscribedQualityUpdate>
+  nameWithType.vb: IDeepCloneable(Of SubscribedQualityUpdate)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SubscribedQualityUpdate)
+  name.vb: IDeepCloneable(Of SubscribedQualityUpdate)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Parser*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.Parser
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_Parser
+  name: Parser
+  nameWithType: SubscribedQualityUpdate.Parser
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SubscribedQualityUpdate}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SubscribedQualityUpdate}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SubscribedQualityUpdate.html
+  name: MessageParser<SubscribedQualityUpdate>
+  nameWithType: MessageParser<SubscribedQualityUpdate>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SubscribedQualityUpdate>
+  nameWithType.vb: MessageParser(Of SubscribedQualityUpdate)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SubscribedQualityUpdate)
+  name.vb: MessageParser(Of SubscribedQualityUpdate)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Descriptor*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.Descriptor
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_Descriptor
+  name: Descriptor
+  nameWithType: SubscribedQualityUpdate.Descriptor
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SubscribedQualityUpdate.#ctor*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.#ctor
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate__ctor
+  name: SubscribedQualityUpdate
+  nameWithType: SubscribedQualityUpdate.SubscribedQualityUpdate
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualityUpdate
+  nameWithType.vb: SubscribedQualityUpdate.New
+  fullName.vb: LiveKit.Proto.SubscribedQualityUpdate.New
+  name.vb: New
+- uid: LiveKit.Proto.SubscribedQualityUpdate
+  commentId: T:LiveKit.Proto.SubscribedQualityUpdate
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SubscribedQualityUpdate.html
+  name: SubscribedQualityUpdate
+  nameWithType: SubscribedQualityUpdate
+  fullName: LiveKit.Proto.SubscribedQualityUpdate
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Clone*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.Clone
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_Clone
+  name: Clone
+  nameWithType: SubscribedQualityUpdate.Clone
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SubscribedQualityUpdate>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SubscribedQualityUpdate>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SubscribedQualityUpdate).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SubscribedQualityUpdate).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SubscribedQualityUpdate}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SubscribedQualityUpdate.TrackSid*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.TrackSid
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_TrackSid
+  name: TrackSid
+  nameWithType: SubscribedQualityUpdate.TrackSid
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.TrackSid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualities*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualities
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_SubscribedQualities
+  name: SubscribedQualities
+  nameWithType: SubscribedQualityUpdate.SubscribedQualities
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedQualities
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SubscribedQuality}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SubscribedQuality}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.SubscribedQuality.html
+  name: RepeatedField<SubscribedQuality>
+  nameWithType: RepeatedField<SubscribedQuality>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.SubscribedQuality>
+  nameWithType.vb: RepeatedField(Of SubscribedQuality)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.SubscribedQuality)
+  name.vb: RepeatedField(Of SubscribedQuality)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SubscribedQuality
+    name: SubscribedQuality
+    href: LiveKit.Proto.SubscribedQuality.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SubscribedQuality
+    name: SubscribedQuality
+    href: LiveKit.Proto.SubscribedQuality.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecs*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecs
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_SubscribedCodecs
+  name: SubscribedCodecs
+  nameWithType: SubscribedQualityUpdate.SubscribedCodecs
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.SubscribedCodecs
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SubscribedCodec}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SubscribedCodec}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.SubscribedCodec.html
+  name: RepeatedField<SubscribedCodec>
+  nameWithType: RepeatedField<SubscribedCodec>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.SubscribedCodec>
+  nameWithType.vb: RepeatedField(Of SubscribedCodec)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.SubscribedCodec)
+  name.vb: RepeatedField(Of SubscribedCodec)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SubscribedCodec
+    name: SubscribedCodec
+    href: LiveKit.Proto.SubscribedCodec.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SubscribedCodec
+    name: SubscribedCodec
+    href: LiveKit.Proto.SubscribedCodec.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SubscribedQualityUpdate.Equals*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.Equals
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_Equals_System_Object_
+  name: Equals
+  nameWithType: SubscribedQualityUpdate.Equals
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  commentId: M:System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  parent: System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SubscribedQualityUpdate)
+  nameWithType: IEquatable<SubscribedQualityUpdate>.Equals(SubscribedQualityUpdate)
+  fullName: System.IEquatable<LiveKit.Proto.SubscribedQualityUpdate>.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  nameWithType.vb: IEquatable(Of SubscribedQualityUpdate).Equals(SubscribedQualityUpdate)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SubscribedQualityUpdate).Equals(LiveKit.Proto.SubscribedQualityUpdate)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SubscribedQualityUpdate}.Equals(LiveKit.Proto.SubscribedQualityUpdate)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SubscribedQualityUpdate.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.GetHashCode
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_GetHashCode
+  name: GetHashCode
+  nameWithType: SubscribedQualityUpdate.GetHashCode
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SubscribedQualityUpdate.ToString*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.ToString
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_ToString
+  name: ToString
+  nameWithType: SubscribedQualityUpdate.ToString
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.ToString
+- uid: LiveKit.Proto.SubscribedQualityUpdate.WriteTo*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.WriteTo
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SubscribedQualityUpdate.WriteTo
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SubscribedQualityUpdate.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.CalculateSize
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_CalculateSize
+  name: CalculateSize
+  nameWithType: SubscribedQualityUpdate.CalculateSize
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SubscribedQualityUpdate.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SubscribedQualityUpdate.MergeFrom
+  href: LiveKit.Proto.SubscribedQualityUpdate.html#LiveKit_Proto_SubscribedQualityUpdate_MergeFrom_LiveKit_Proto_SubscribedQualityUpdate_
+  name: MergeFrom
+  nameWithType: SubscribedQualityUpdate.MergeFrom
+  fullName: LiveKit.Proto.SubscribedQualityUpdate.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SubscribedQualityUpdate.html
+  name: MergeFrom(SubscribedQualityUpdate)
+  nameWithType: IMessage<SubscribedQualityUpdate>.MergeFrom(SubscribedQualityUpdate)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SubscribedQualityUpdate>.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  nameWithType.vb: IMessage(Of SubscribedQualityUpdate).MergeFrom(SubscribedQualityUpdate)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SubscribedQualityUpdate).MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SubscribedQualityUpdate}.MergeFrom(LiveKit.Proto.SubscribedQualityUpdate)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SubscribedQualityUpdate
+    name: SubscribedQualityUpdate
+    href: LiveKit.Proto.SubscribedQualityUpdate.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

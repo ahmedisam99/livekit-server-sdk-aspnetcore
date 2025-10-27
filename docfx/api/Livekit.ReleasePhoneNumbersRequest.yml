@@ -1,0 +1,1553 @@
+### YamlMime:ManagedReference
+items:
+- uid: Livekit.ReleasePhoneNumbersRequest
+  commentId: T:Livekit.ReleasePhoneNumbersRequest
+  id: ReleasePhoneNumbersRequest
+  parent: Livekit
+  children:
+  - Livekit.ReleasePhoneNumbersRequest.#ctor
+  - Livekit.ReleasePhoneNumbersRequest.#ctor(Livekit.ReleasePhoneNumbersRequest)
+  - Livekit.ReleasePhoneNumbersRequest.CalculateSize
+  - Livekit.ReleasePhoneNumbersRequest.Clone
+  - Livekit.ReleasePhoneNumbersRequest.Descriptor
+  - Livekit.ReleasePhoneNumbersRequest.Equals(Livekit.ReleasePhoneNumbersRequest)
+  - Livekit.ReleasePhoneNumbersRequest.Equals(System.Object)
+  - Livekit.ReleasePhoneNumbersRequest.GetHashCode
+  - Livekit.ReleasePhoneNumbersRequest.Ids
+  - Livekit.ReleasePhoneNumbersRequest.IdsFieldNumber
+  - Livekit.ReleasePhoneNumbersRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - Livekit.ReleasePhoneNumbersRequest.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  - Livekit.ReleasePhoneNumbersRequest.Parser
+  - Livekit.ReleasePhoneNumbersRequest.PhoneNumbers
+  - Livekit.ReleasePhoneNumbersRequest.PhoneNumbersFieldNumber
+  - Livekit.ReleasePhoneNumbersRequest.ToString
+  - Livekit.ReleasePhoneNumbersRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ReleasePhoneNumbersRequest
+  nameWithType: ReleasePhoneNumbersRequest
+  fullName: Livekit.ReleasePhoneNumbersRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReleasePhoneNumbersRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2727
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: ReleasePhoneNumbersRequest - Request to release phone numbers
+  example: []
+  syntax:
+    content: 'public sealed class ReleasePhoneNumbersRequest : IMessage<ReleasePhoneNumbersRequest>, IEquatable<ReleasePhoneNumbersRequest>, IDeepCloneable<ReleasePhoneNumbersRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class ReleasePhoneNumbersRequest Implements IMessage(Of ReleasePhoneNumbersRequest), IEquatable(Of ReleasePhoneNumbersRequest), IDeepCloneable(Of ReleasePhoneNumbersRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}
+  - System.IEquatable{Livekit.ReleasePhoneNumbersRequest}
+  - Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Livekit.ReleasePhoneNumbersRequest.Parser
+  commentId: P:Livekit.ReleasePhoneNumbersRequest.Parser
+  id: Parser
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ReleasePhoneNumbersRequest.Parser
+  fullName: Livekit.ReleasePhoneNumbersRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2735
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  syntax:
+    content: public static MessageParser<ReleasePhoneNumbersRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{Livekit.ReleasePhoneNumbersRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of ReleasePhoneNumbersRequest)
+  overload: Livekit.ReleasePhoneNumbersRequest.Parser*
+- uid: Livekit.ReleasePhoneNumbersRequest.Descriptor
+  commentId: P:Livekit.ReleasePhoneNumbersRequest.Descriptor
+  id: Descriptor
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ReleasePhoneNumbersRequest.Descriptor
+  fullName: Livekit.ReleasePhoneNumbersRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2739
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: Livekit.ReleasePhoneNumbersRequest.Descriptor*
+- uid: Livekit.ReleasePhoneNumbersRequest.#ctor
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.#ctor
+  id: '#ctor'
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: ReleasePhoneNumbersRequest()
+  nameWithType: ReleasePhoneNumbersRequest.ReleasePhoneNumbersRequest()
+  fullName: Livekit.ReleasePhoneNumbersRequest.ReleasePhoneNumbersRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2751
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  syntax:
+    content: public ReleasePhoneNumbersRequest()
+    content.vb: Public Sub New()
+  overload: Livekit.ReleasePhoneNumbersRequest.#ctor*
+  nameWithType.vb: ReleasePhoneNumbersRequest.New()
+  fullName.vb: Livekit.ReleasePhoneNumbersRequest.New()
+  name.vb: New()
+- uid: Livekit.ReleasePhoneNumbersRequest.#ctor(Livekit.ReleasePhoneNumbersRequest)
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.#ctor(Livekit.ReleasePhoneNumbersRequest)
+  id: '#ctor(Livekit.ReleasePhoneNumbersRequest)'
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: ReleasePhoneNumbersRequest(ReleasePhoneNumbersRequest)
+  nameWithType: ReleasePhoneNumbersRequest.ReleasePhoneNumbersRequest(ReleasePhoneNumbersRequest)
+  fullName: Livekit.ReleasePhoneNumbersRequest.ReleasePhoneNumbersRequest(Livekit.ReleasePhoneNumbersRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2759
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  syntax:
+    content: public ReleasePhoneNumbersRequest(ReleasePhoneNumbersRequest other)
+    parameters:
+    - id: other
+      type: Livekit.ReleasePhoneNumbersRequest
+    content.vb: Public Sub New(other As ReleasePhoneNumbersRequest)
+  overload: Livekit.ReleasePhoneNumbersRequest.#ctor*
+  nameWithType.vb: ReleasePhoneNumbersRequest.New(ReleasePhoneNumbersRequest)
+  fullName.vb: Livekit.ReleasePhoneNumbersRequest.New(Livekit.ReleasePhoneNumbersRequest)
+  name.vb: New(ReleasePhoneNumbersRequest)
+- uid: Livekit.ReleasePhoneNumbersRequest.Clone
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.Clone
+  id: Clone
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ReleasePhoneNumbersRequest.Clone()
+  fullName: Livekit.ReleasePhoneNumbersRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2767
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public ReleasePhoneNumbersRequest Clone()
+    return:
+      type: Livekit.ReleasePhoneNumbersRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As ReleasePhoneNumbersRequest
+  overload: Livekit.ReleasePhoneNumbersRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}.Clone
+- uid: Livekit.ReleasePhoneNumbersRequest.IdsFieldNumber
+  commentId: F:Livekit.ReleasePhoneNumbersRequest.IdsFieldNumber
+  id: IdsFieldNumber
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: IdsFieldNumber
+  nameWithType: ReleasePhoneNumbersRequest.IdsFieldNumber
+  fullName: Livekit.ReleasePhoneNumbersRequest.IdsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IdsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2774
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "ids" field.
+  example: []
+  syntax:
+    content: public const int IdsFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const IdsFieldNumber As Integer = 1
+- uid: Livekit.ReleasePhoneNumbersRequest.Ids
+  commentId: P:Livekit.ReleasePhoneNumbersRequest.Ids
+  id: Ids
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: Ids
+  nameWithType: ReleasePhoneNumbersRequest.Ids
+  fullName: Livekit.ReleasePhoneNumbersRequest.Ids
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Ids
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2781
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: 'Optional: Use phone number IDs for direct lookup'
+  example: []
+  syntax:
+    content: public RepeatedField<string> Ids { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property Ids As RepeatedField(Of String)
+  overload: Livekit.ReleasePhoneNumbersRequest.Ids*
+- uid: Livekit.ReleasePhoneNumbersRequest.PhoneNumbersFieldNumber
+  commentId: F:Livekit.ReleasePhoneNumbersRequest.PhoneNumbersFieldNumber
+  id: PhoneNumbersFieldNumber
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumbersFieldNumber
+  nameWithType: ReleasePhoneNumbersRequest.PhoneNumbersFieldNumber
+  fullName: Livekit.ReleasePhoneNumbersRequest.PhoneNumbersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PhoneNumbersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2788
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Field number for the "phone_numbers" field.
+  example: []
+  syntax:
+    content: public const int PhoneNumbersFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const PhoneNumbersFieldNumber As Integer = 2
+- uid: Livekit.ReleasePhoneNumbersRequest.PhoneNumbers
+  commentId: P:Livekit.ReleasePhoneNumbersRequest.PhoneNumbers
+  id: PhoneNumbers
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumbers
+  nameWithType: ReleasePhoneNumbersRequest.PhoneNumbers
+  fullName: Livekit.ReleasePhoneNumbersRequest.PhoneNumbers
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PhoneNumbers
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2795
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: 'Optional: Use phone number strings for lookup'
+  example: []
+  syntax:
+    content: public RepeatedField<string> PhoneNumbers { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property PhoneNumbers As RepeatedField(Of String)
+  overload: Livekit.ReleasePhoneNumbersRequest.PhoneNumbers*
+- uid: Livekit.ReleasePhoneNumbersRequest.Equals(System.Object)
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ReleasePhoneNumbersRequest.Equals(object)
+  fullName: Livekit.ReleasePhoneNumbersRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2801
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Livekit.ReleasePhoneNumbersRequest.Equals*
+  nameWithType.vb: ReleasePhoneNumbersRequest.Equals(Object)
+  fullName.vb: Livekit.ReleasePhoneNumbersRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Livekit.ReleasePhoneNumbersRequest.Equals(Livekit.ReleasePhoneNumbersRequest)
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.Equals(Livekit.ReleasePhoneNumbersRequest)
+  id: Equals(Livekit.ReleasePhoneNumbersRequest)
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(ReleasePhoneNumbersRequest)
+  nameWithType: ReleasePhoneNumbersRequest.Equals(ReleasePhoneNumbersRequest)
+  fullName: Livekit.ReleasePhoneNumbersRequest.Equals(Livekit.ReleasePhoneNumbersRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2807
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  example: []
+  syntax:
+    content: public bool Equals(ReleasePhoneNumbersRequest other)
+    parameters:
+    - id: other
+      type: Livekit.ReleasePhoneNumbersRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ReleasePhoneNumbersRequest) As Boolean
+  overload: Livekit.ReleasePhoneNumbersRequest.Equals*
+  implements:
+  - System.IEquatable{Livekit.ReleasePhoneNumbersRequest}.Equals(Livekit.ReleasePhoneNumbersRequest)
+- uid: Livekit.ReleasePhoneNumbersRequest.GetHashCode
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.GetHashCode
+  id: GetHashCode
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ReleasePhoneNumbersRequest.GetHashCode()
+  fullName: Livekit.ReleasePhoneNumbersRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2821
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: Livekit.ReleasePhoneNumbersRequest.GetHashCode*
+- uid: Livekit.ReleasePhoneNumbersRequest.ToString
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.ToString
+  id: ToString
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ReleasePhoneNumbersRequest.ToString()
+  fullName: Livekit.ReleasePhoneNumbersRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2833
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Livekit.ReleasePhoneNumbersRequest.ToString*
+- uid: Livekit.ReleasePhoneNumbersRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: ReleasePhoneNumbersRequest.WriteTo(CodedOutputStream)
+  fullName: Livekit.ReleasePhoneNumbersRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2839
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: Livekit.ReleasePhoneNumbersRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: Livekit.ReleasePhoneNumbersRequest.CalculateSize
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.CalculateSize
+  id: CalculateSize
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ReleasePhoneNumbersRequest.CalculateSize()
+  fullName: Livekit.ReleasePhoneNumbersRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2865
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: Livekit.ReleasePhoneNumbersRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: Livekit.ReleasePhoneNumbersRequest.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  id: MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ReleasePhoneNumbersRequest)
+  nameWithType: ReleasePhoneNumbersRequest.MergeFrom(ReleasePhoneNumbersRequest)
+  fullName: Livekit.ReleasePhoneNumbersRequest.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2877
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(ReleasePhoneNumbersRequest other)
+    parameters:
+    - id: other
+      type: Livekit.ReleasePhoneNumbersRequest
+    content.vb: Public Sub MergeFrom(other As ReleasePhoneNumbersRequest)
+  overload: Livekit.ReleasePhoneNumbersRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+- uid: Livekit.ReleasePhoneNumbersRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Livekit.ReleasePhoneNumbersRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Livekit.ReleasePhoneNumbersRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: ReleasePhoneNumbersRequest.MergeFrom(CodedInputStream)
+  fullName: Livekit.ReleasePhoneNumbersRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 2888
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: Livekit.ReleasePhoneNumbersRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: Livekit
+  commentId: N:Livekit
+  href: Livekit.html
+  name: Livekit
+  nameWithType: Livekit
+  fullName: Livekit
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}
+  commentId: T:Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: Livekit.ReleasePhoneNumbersRequest.html
+  name: IMessage<ReleasePhoneNumbersRequest>
+  nameWithType: IMessage<ReleasePhoneNumbersRequest>
+  fullName: Google.Protobuf.IMessage<Livekit.ReleasePhoneNumbersRequest>
+  nameWithType.vb: IMessage(Of ReleasePhoneNumbersRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of Livekit.ReleasePhoneNumbersRequest)
+  name.vb: IMessage(Of ReleasePhoneNumbersRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: )
+- uid: System.IEquatable{Livekit.ReleasePhoneNumbersRequest}
+  commentId: T:System.IEquatable{Livekit.ReleasePhoneNumbersRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ReleasePhoneNumbersRequest>
+  nameWithType: IEquatable<ReleasePhoneNumbersRequest>
+  fullName: System.IEquatable<Livekit.ReleasePhoneNumbersRequest>
+  nameWithType.vb: IEquatable(Of ReleasePhoneNumbersRequest)
+  fullName.vb: System.IEquatable(Of Livekit.ReleasePhoneNumbersRequest)
+  name.vb: IEquatable(Of ReleasePhoneNumbersRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: Livekit.ReleasePhoneNumbersRequest.html
+  name: IDeepCloneable<ReleasePhoneNumbersRequest>
+  nameWithType: IDeepCloneable<ReleasePhoneNumbersRequest>
+  fullName: Google.Protobuf.IDeepCloneable<Livekit.ReleasePhoneNumbersRequest>
+  nameWithType.vb: IDeepCloneable(Of ReleasePhoneNumbersRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of Livekit.ReleasePhoneNumbersRequest)
+  name.vb: IDeepCloneable(Of ReleasePhoneNumbersRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Livekit.ReleasePhoneNumbersRequest.Parser*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.Parser
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_Parser
+  name: Parser
+  nameWithType: ReleasePhoneNumbersRequest.Parser
+  fullName: Livekit.ReleasePhoneNumbersRequest.Parser
+- uid: Google.Protobuf.MessageParser{Livekit.ReleasePhoneNumbersRequest}
+  commentId: T:Google.Protobuf.MessageParser{Livekit.ReleasePhoneNumbersRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: Livekit.ReleasePhoneNumbersRequest.html
+  name: MessageParser<ReleasePhoneNumbersRequest>
+  nameWithType: MessageParser<ReleasePhoneNumbersRequest>
+  fullName: Google.Protobuf.MessageParser<Livekit.ReleasePhoneNumbersRequest>
+  nameWithType.vb: MessageParser(Of ReleasePhoneNumbersRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of Livekit.ReleasePhoneNumbersRequest)
+  name.vb: MessageParser(Of ReleasePhoneNumbersRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Livekit.ReleasePhoneNumbersRequest.Descriptor*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.Descriptor
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_Descriptor
+  name: Descriptor
+  nameWithType: ReleasePhoneNumbersRequest.Descriptor
+  fullName: Livekit.ReleasePhoneNumbersRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: Livekit.ReleasePhoneNumbersRequest.#ctor*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.#ctor
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest__ctor
+  name: ReleasePhoneNumbersRequest
+  nameWithType: ReleasePhoneNumbersRequest.ReleasePhoneNumbersRequest
+  fullName: Livekit.ReleasePhoneNumbersRequest.ReleasePhoneNumbersRequest
+  nameWithType.vb: ReleasePhoneNumbersRequest.New
+  fullName.vb: Livekit.ReleasePhoneNumbersRequest.New
+  name.vb: New
+- uid: Livekit.ReleasePhoneNumbersRequest
+  commentId: T:Livekit.ReleasePhoneNumbersRequest
+  parent: Livekit
+  href: Livekit.ReleasePhoneNumbersRequest.html
+  name: ReleasePhoneNumbersRequest
+  nameWithType: ReleasePhoneNumbersRequest
+  fullName: Livekit.ReleasePhoneNumbersRequest
+- uid: Livekit.ReleasePhoneNumbersRequest.Clone*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.Clone
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_Clone
+  name: Clone
+  nameWithType: ReleasePhoneNumbersRequest.Clone
+  fullName: Livekit.ReleasePhoneNumbersRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<ReleasePhoneNumbersRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<Livekit.ReleasePhoneNumbersRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of ReleasePhoneNumbersRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of Livekit.ReleasePhoneNumbersRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{Livekit.ReleasePhoneNumbersRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Livekit.ReleasePhoneNumbersRequest.Ids*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.Ids
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_Ids
+  name: Ids
+  nameWithType: ReleasePhoneNumbersRequest.Ids
+  fullName: Livekit.ReleasePhoneNumbersRequest.Ids
+- uid: Google.Protobuf.Collections.RepeatedField{System.String}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RepeatedField<string>
+  nameWithType: RepeatedField<string>
+  fullName: Google.Protobuf.Collections.RepeatedField<string>
+  nameWithType.vb: RepeatedField(Of String)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of String)
+  name.vb: RepeatedField(Of String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: Livekit.ReleasePhoneNumbersRequest.PhoneNumbers*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.PhoneNumbers
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_PhoneNumbers
+  name: PhoneNumbers
+  nameWithType: ReleasePhoneNumbersRequest.PhoneNumbers
+  fullName: Livekit.ReleasePhoneNumbersRequest.PhoneNumbers
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Livekit.ReleasePhoneNumbersRequest.Equals*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.Equals
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: ReleasePhoneNumbersRequest.Equals
+  fullName: Livekit.ReleasePhoneNumbersRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{Livekit.ReleasePhoneNumbersRequest}.Equals(Livekit.ReleasePhoneNumbersRequest)
+  commentId: M:System.IEquatable{Livekit.ReleasePhoneNumbersRequest}.Equals(Livekit.ReleasePhoneNumbersRequest)
+  parent: System.IEquatable{Livekit.ReleasePhoneNumbersRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(ReleasePhoneNumbersRequest)
+  nameWithType: IEquatable<ReleasePhoneNumbersRequest>.Equals(ReleasePhoneNumbersRequest)
+  fullName: System.IEquatable<Livekit.ReleasePhoneNumbersRequest>.Equals(Livekit.ReleasePhoneNumbersRequest)
+  nameWithType.vb: IEquatable(Of ReleasePhoneNumbersRequest).Equals(ReleasePhoneNumbersRequest)
+  fullName.vb: System.IEquatable(Of Livekit.ReleasePhoneNumbersRequest).Equals(Livekit.ReleasePhoneNumbersRequest)
+  spec.csharp:
+  - uid: System.IEquatable{Livekit.ReleasePhoneNumbersRequest}.Equals(Livekit.ReleasePhoneNumbersRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Livekit.ReleasePhoneNumbersRequest}.Equals(Livekit.ReleasePhoneNumbersRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: Livekit.ReleasePhoneNumbersRequest.GetHashCode*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.GetHashCode
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: ReleasePhoneNumbersRequest.GetHashCode
+  fullName: Livekit.ReleasePhoneNumbersRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Livekit.ReleasePhoneNumbersRequest.ToString*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.ToString
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_ToString
+  name: ToString
+  nameWithType: ReleasePhoneNumbersRequest.ToString
+  fullName: Livekit.ReleasePhoneNumbersRequest.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Livekit.ReleasePhoneNumbersRequest.WriteTo*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.WriteTo
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: ReleasePhoneNumbersRequest.WriteTo
+  fullName: Livekit.ReleasePhoneNumbersRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: Livekit.ReleasePhoneNumbersRequest.CalculateSize*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.CalculateSize
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: ReleasePhoneNumbersRequest.CalculateSize
+  fullName: Livekit.ReleasePhoneNumbersRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Livekit.ReleasePhoneNumbersRequest.MergeFrom*
+  commentId: Overload:Livekit.ReleasePhoneNumbersRequest.MergeFrom
+  href: Livekit.ReleasePhoneNumbersRequest.html#Livekit_ReleasePhoneNumbersRequest_MergeFrom_Livekit_ReleasePhoneNumbersRequest_
+  name: MergeFrom
+  nameWithType: ReleasePhoneNumbersRequest.MergeFrom
+  fullName: Livekit.ReleasePhoneNumbersRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  commentId: M:Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  parent: Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: Livekit.ReleasePhoneNumbersRequest.html
+  name: MergeFrom(ReleasePhoneNumbersRequest)
+  nameWithType: IMessage<ReleasePhoneNumbersRequest>.MergeFrom(ReleasePhoneNumbersRequest)
+  fullName: Google.Protobuf.IMessage<Livekit.ReleasePhoneNumbersRequest>.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  nameWithType.vb: IMessage(Of ReleasePhoneNumbersRequest).MergeFrom(ReleasePhoneNumbersRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of Livekit.ReleasePhoneNumbersRequest).MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{Livekit.ReleasePhoneNumbersRequest}.MergeFrom(Livekit.ReleasePhoneNumbersRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Livekit.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+    href: Livekit.ReleasePhoneNumbersRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

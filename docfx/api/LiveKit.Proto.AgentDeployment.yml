@@ -1,0 +1,2201 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.AgentDeployment
+  commentId: T:LiveKit.Proto.AgentDeployment
+  id: AgentDeployment
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.AgentDeployment.#ctor
+  - LiveKit.Proto.AgentDeployment.#ctor(LiveKit.Proto.AgentDeployment)
+  - LiveKit.Proto.AgentDeployment.AgentId
+  - LiveKit.Proto.AgentDeployment.AgentIdFieldNumber
+  - LiveKit.Proto.AgentDeployment.CalculateSize
+  - LiveKit.Proto.AgentDeployment.Clone
+  - LiveKit.Proto.AgentDeployment.CpuLimit
+  - LiveKit.Proto.AgentDeployment.CpuLimitFieldNumber
+  - LiveKit.Proto.AgentDeployment.CpuReq
+  - LiveKit.Proto.AgentDeployment.CpuReqFieldNumber
+  - LiveKit.Proto.AgentDeployment.CurCpu
+  - LiveKit.Proto.AgentDeployment.CurCpuFieldNumber
+  - LiveKit.Proto.AgentDeployment.CurMem
+  - LiveKit.Proto.AgentDeployment.CurMemFieldNumber
+  - LiveKit.Proto.AgentDeployment.Descriptor
+  - LiveKit.Proto.AgentDeployment.Equals(LiveKit.Proto.AgentDeployment)
+  - LiveKit.Proto.AgentDeployment.Equals(System.Object)
+  - LiveKit.Proto.AgentDeployment.GetHashCode
+  - LiveKit.Proto.AgentDeployment.MaxReplicas
+  - LiveKit.Proto.AgentDeployment.MaxReplicasFieldNumber
+  - LiveKit.Proto.AgentDeployment.MemLimit
+  - LiveKit.Proto.AgentDeployment.MemLimitFieldNumber
+  - LiveKit.Proto.AgentDeployment.MemReq
+  - LiveKit.Proto.AgentDeployment.MemReqFieldNumber
+  - LiveKit.Proto.AgentDeployment.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.AgentDeployment.MergeFrom(LiveKit.Proto.AgentDeployment)
+  - LiveKit.Proto.AgentDeployment.MinReplicas
+  - LiveKit.Proto.AgentDeployment.MinReplicasFieldNumber
+  - LiveKit.Proto.AgentDeployment.Parser
+  - LiveKit.Proto.AgentDeployment.Region
+  - LiveKit.Proto.AgentDeployment.RegionFieldNumber
+  - LiveKit.Proto.AgentDeployment.Replicas
+  - LiveKit.Proto.AgentDeployment.ReplicasFieldNumber
+  - LiveKit.Proto.AgentDeployment.ServerRegion
+  - LiveKit.Proto.AgentDeployment.ServerRegionFieldNumber
+  - LiveKit.Proto.AgentDeployment.Status
+  - LiveKit.Proto.AgentDeployment.StatusFieldNumber
+  - LiveKit.Proto.AgentDeployment.ToString
+  - LiveKit.Proto.AgentDeployment.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: AgentDeployment
+  nameWithType: AgentDeployment
+  fullName: LiveKit.Proto.AgentDeployment
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentDeployment
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1576
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class AgentDeployment : IMessage<AgentDeployment>, IEquatable<AgentDeployment>, IDeepCloneable<AgentDeployment>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class AgentDeployment Implements IMessage(Of AgentDeployment), IEquatable(Of AgentDeployment), IDeepCloneable(Of AgentDeployment), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}
+  - System.IEquatable{LiveKit.Proto.AgentDeployment}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.AgentDeployment.Parser
+  commentId: P:LiveKit.Proto.AgentDeployment.Parser
+  id: Parser
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: AgentDeployment.Parser
+  fullName: LiveKit.Proto.AgentDeployment.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1584
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<AgentDeployment> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.AgentDeployment}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of AgentDeployment)
+  overload: LiveKit.Proto.AgentDeployment.Parser*
+- uid: LiveKit.Proto.AgentDeployment.Descriptor
+  commentId: P:LiveKit.Proto.AgentDeployment.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: AgentDeployment.Descriptor
+  fullName: LiveKit.Proto.AgentDeployment.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1588
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.AgentDeployment.Descriptor*
+- uid: LiveKit.Proto.AgentDeployment.#ctor
+  commentId: M:LiveKit.Proto.AgentDeployment.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: AgentDeployment()
+  nameWithType: AgentDeployment.AgentDeployment()
+  fullName: LiveKit.Proto.AgentDeployment.AgentDeployment()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1600
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AgentDeployment()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.AgentDeployment.#ctor*
+  nameWithType.vb: AgentDeployment.New()
+  fullName.vb: LiveKit.Proto.AgentDeployment.New()
+  name.vb: New()
+- uid: LiveKit.Proto.AgentDeployment.#ctor(LiveKit.Proto.AgentDeployment)
+  commentId: M:LiveKit.Proto.AgentDeployment.#ctor(LiveKit.Proto.AgentDeployment)
+  id: '#ctor(LiveKit.Proto.AgentDeployment)'
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: AgentDeployment(AgentDeployment)
+  nameWithType: AgentDeployment.AgentDeployment(AgentDeployment)
+  fullName: LiveKit.Proto.AgentDeployment.AgentDeployment(LiveKit.Proto.AgentDeployment)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1608
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AgentDeployment(AgentDeployment other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AgentDeployment
+    content.vb: Public Sub New(other As AgentDeployment)
+  overload: LiveKit.Proto.AgentDeployment.#ctor*
+  nameWithType.vb: AgentDeployment.New(AgentDeployment)
+  fullName.vb: LiveKit.Proto.AgentDeployment.New(LiveKit.Proto.AgentDeployment)
+  name.vb: New(AgentDeployment)
+- uid: LiveKit.Proto.AgentDeployment.Clone
+  commentId: M:LiveKit.Proto.AgentDeployment.Clone
+  id: Clone
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: AgentDeployment.Clone()
+  fullName: LiveKit.Proto.AgentDeployment.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1627
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public AgentDeployment Clone()
+    return:
+      type: LiveKit.Proto.AgentDeployment
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As AgentDeployment
+  overload: LiveKit.Proto.AgentDeployment.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}.Clone
+- uid: LiveKit.Proto.AgentDeployment.RegionFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.RegionFieldNumber
+  id: RegionFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: RegionFieldNumber
+  nameWithType: AgentDeployment.RegionFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.RegionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RegionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1634
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "region" field.
+  example: []
+  syntax:
+    content: public const int RegionFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const RegionFieldNumber As Integer = 1
+- uid: LiveKit.Proto.AgentDeployment.Region
+  commentId: P:LiveKit.Proto.AgentDeployment.Region
+  id: Region
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: Region
+  nameWithType: AgentDeployment.Region
+  fullName: LiveKit.Proto.AgentDeployment.Region
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Region
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1636
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Region { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Region As String
+  overload: LiveKit.Proto.AgentDeployment.Region*
+- uid: LiveKit.Proto.AgentDeployment.AgentIdFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.AgentIdFieldNumber
+  id: AgentIdFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: AgentIdFieldNumber
+  nameWithType: AgentDeployment.AgentIdFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.AgentIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1646
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "agent_id" field.
+  example: []
+  syntax:
+    content: public const int AgentIdFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AgentIdFieldNumber As Integer = 2
+- uid: LiveKit.Proto.AgentDeployment.AgentId
+  commentId: P:LiveKit.Proto.AgentDeployment.AgentId
+  id: AgentId
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: AgentId
+  nameWithType: AgentDeployment.AgentId
+  fullName: LiveKit.Proto.AgentDeployment.AgentId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1648
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AgentId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AgentId As String
+  overload: LiveKit.Proto.AgentDeployment.AgentId*
+- uid: LiveKit.Proto.AgentDeployment.StatusFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.StatusFieldNumber
+  id: StatusFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: StatusFieldNumber
+  nameWithType: AgentDeployment.StatusFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.StatusFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StatusFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1658
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "status" field.
+  example: []
+  syntax:
+    content: public const int StatusFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const StatusFieldNumber As Integer = 3
+- uid: LiveKit.Proto.AgentDeployment.Status
+  commentId: P:LiveKit.Proto.AgentDeployment.Status
+  id: Status
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: AgentDeployment.Status
+  fullName: LiveKit.Proto.AgentDeployment.Status
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Status
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1660
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Status { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status As String
+  overload: LiveKit.Proto.AgentDeployment.Status*
+- uid: LiveKit.Proto.AgentDeployment.ReplicasFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.ReplicasFieldNumber
+  id: ReplicasFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: ReplicasFieldNumber
+  nameWithType: AgentDeployment.ReplicasFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.ReplicasFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReplicasFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1670
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "replicas" field.
+  example: []
+  syntax:
+    content: public const int ReplicasFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ReplicasFieldNumber As Integer = 4
+- uid: LiveKit.Proto.AgentDeployment.Replicas
+  commentId: P:LiveKit.Proto.AgentDeployment.Replicas
+  id: Replicas
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: Replicas
+  nameWithType: AgentDeployment.Replicas
+  fullName: LiveKit.Proto.AgentDeployment.Replicas
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Replicas
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1672
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int Replicas { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Replicas As Integer
+  overload: LiveKit.Proto.AgentDeployment.Replicas*
+- uid: LiveKit.Proto.AgentDeployment.MinReplicasFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.MinReplicasFieldNumber
+  id: MinReplicasFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MinReplicasFieldNumber
+  nameWithType: AgentDeployment.MinReplicasFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.MinReplicasFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MinReplicasFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1682
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "min_replicas" field.
+  example: []
+  syntax:
+    content: public const int MinReplicasFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const MinReplicasFieldNumber As Integer = 5
+- uid: LiveKit.Proto.AgentDeployment.MinReplicas
+  commentId: P:LiveKit.Proto.AgentDeployment.MinReplicas
+  id: MinReplicas
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MinReplicas
+  nameWithType: AgentDeployment.MinReplicas
+  fullName: LiveKit.Proto.AgentDeployment.MinReplicas
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MinReplicas
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1684
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int MinReplicas { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinReplicas As Integer
+  overload: LiveKit.Proto.AgentDeployment.MinReplicas*
+- uid: LiveKit.Proto.AgentDeployment.MaxReplicasFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.MaxReplicasFieldNumber
+  id: MaxReplicasFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MaxReplicasFieldNumber
+  nameWithType: AgentDeployment.MaxReplicasFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.MaxReplicasFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MaxReplicasFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1694
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "max_replicas" field.
+  example: []
+  syntax:
+    content: public const int MaxReplicasFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const MaxReplicasFieldNumber As Integer = 6
+- uid: LiveKit.Proto.AgentDeployment.MaxReplicas
+  commentId: P:LiveKit.Proto.AgentDeployment.MaxReplicas
+  id: MaxReplicas
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MaxReplicas
+  nameWithType: AgentDeployment.MaxReplicas
+  fullName: LiveKit.Proto.AgentDeployment.MaxReplicas
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MaxReplicas
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1696
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int MaxReplicas { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxReplicas As Integer
+  overload: LiveKit.Proto.AgentDeployment.MaxReplicas*
+- uid: LiveKit.Proto.AgentDeployment.CpuReqFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.CpuReqFieldNumber
+  id: CpuReqFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CpuReqFieldNumber
+  nameWithType: AgentDeployment.CpuReqFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.CpuReqFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CpuReqFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1706
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "cpu_req" field.
+  example: []
+  syntax:
+    content: public const int CpuReqFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const CpuReqFieldNumber As Integer = 7
+- uid: LiveKit.Proto.AgentDeployment.CpuReq
+  commentId: P:LiveKit.Proto.AgentDeployment.CpuReq
+  id: CpuReq
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CpuReq
+  nameWithType: AgentDeployment.CpuReq
+  fullName: LiveKit.Proto.AgentDeployment.CpuReq
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CpuReq
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1708
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string CpuReq { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CpuReq As String
+  overload: LiveKit.Proto.AgentDeployment.CpuReq*
+- uid: LiveKit.Proto.AgentDeployment.CurCpuFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.CurCpuFieldNumber
+  id: CurCpuFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CurCpuFieldNumber
+  nameWithType: AgentDeployment.CurCpuFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.CurCpuFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CurCpuFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1718
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "cur_cpu" field.
+  example: []
+  syntax:
+    content: public const int CurCpuFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const CurCpuFieldNumber As Integer = 8
+- uid: LiveKit.Proto.AgentDeployment.CurCpu
+  commentId: P:LiveKit.Proto.AgentDeployment.CurCpu
+  id: CurCpu
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CurCpu
+  nameWithType: AgentDeployment.CurCpu
+  fullName: LiveKit.Proto.AgentDeployment.CurCpu
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CurCpu
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1720
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string CurCpu { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurCpu As String
+  overload: LiveKit.Proto.AgentDeployment.CurCpu*
+- uid: LiveKit.Proto.AgentDeployment.CurMemFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.CurMemFieldNumber
+  id: CurMemFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CurMemFieldNumber
+  nameWithType: AgentDeployment.CurMemFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.CurMemFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CurMemFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1730
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "cur_mem" field.
+  example: []
+  syntax:
+    content: public const int CurMemFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const CurMemFieldNumber As Integer = 9
+- uid: LiveKit.Proto.AgentDeployment.CurMem
+  commentId: P:LiveKit.Proto.AgentDeployment.CurMem
+  id: CurMem
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CurMem
+  nameWithType: AgentDeployment.CurMem
+  fullName: LiveKit.Proto.AgentDeployment.CurMem
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CurMem
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1732
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string CurMem { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CurMem As String
+  overload: LiveKit.Proto.AgentDeployment.CurMem*
+- uid: LiveKit.Proto.AgentDeployment.MemReqFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.MemReqFieldNumber
+  id: MemReqFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MemReqFieldNumber
+  nameWithType: AgentDeployment.MemReqFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.MemReqFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemReqFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1742
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "mem_req" field.
+  example: []
+  syntax:
+    content: public const int MemReqFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const MemReqFieldNumber As Integer = 10
+- uid: LiveKit.Proto.AgentDeployment.MemReq
+  commentId: P:LiveKit.Proto.AgentDeployment.MemReq
+  id: MemReq
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MemReq
+  nameWithType: AgentDeployment.MemReq
+  fullName: LiveKit.Proto.AgentDeployment.MemReq
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemReq
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1744
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string MemReq { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MemReq As String
+  overload: LiveKit.Proto.AgentDeployment.MemReq*
+- uid: LiveKit.Proto.AgentDeployment.MemLimitFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.MemLimitFieldNumber
+  id: MemLimitFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MemLimitFieldNumber
+  nameWithType: AgentDeployment.MemLimitFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.MemLimitFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemLimitFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1754
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "mem_limit" field.
+  example: []
+  syntax:
+    content: public const int MemLimitFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const MemLimitFieldNumber As Integer = 11
+- uid: LiveKit.Proto.AgentDeployment.MemLimit
+  commentId: P:LiveKit.Proto.AgentDeployment.MemLimit
+  id: MemLimit
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MemLimit
+  nameWithType: AgentDeployment.MemLimit
+  fullName: LiveKit.Proto.AgentDeployment.MemLimit
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MemLimit
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1756
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string MemLimit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MemLimit As String
+  overload: LiveKit.Proto.AgentDeployment.MemLimit*
+- uid: LiveKit.Proto.AgentDeployment.CpuLimitFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.CpuLimitFieldNumber
+  id: CpuLimitFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CpuLimitFieldNumber
+  nameWithType: AgentDeployment.CpuLimitFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.CpuLimitFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CpuLimitFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1766
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "cpu_limit" field.
+  example: []
+  syntax:
+    content: public const int CpuLimitFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const CpuLimitFieldNumber As Integer = 12
+- uid: LiveKit.Proto.AgentDeployment.CpuLimit
+  commentId: P:LiveKit.Proto.AgentDeployment.CpuLimit
+  id: CpuLimit
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CpuLimit
+  nameWithType: AgentDeployment.CpuLimit
+  fullName: LiveKit.Proto.AgentDeployment.CpuLimit
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CpuLimit
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1768
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string CpuLimit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CpuLimit As String
+  overload: LiveKit.Proto.AgentDeployment.CpuLimit*
+- uid: LiveKit.Proto.AgentDeployment.ServerRegionFieldNumber
+  commentId: F:LiveKit.Proto.AgentDeployment.ServerRegionFieldNumber
+  id: ServerRegionFieldNumber
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: ServerRegionFieldNumber
+  nameWithType: AgentDeployment.ServerRegionFieldNumber
+  fullName: LiveKit.Proto.AgentDeployment.ServerRegionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerRegionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1778
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "server_region" field.
+  example: []
+  syntax:
+    content: public const int ServerRegionFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const ServerRegionFieldNumber As Integer = 13
+- uid: LiveKit.Proto.AgentDeployment.ServerRegion
+  commentId: P:LiveKit.Proto.AgentDeployment.ServerRegion
+  id: ServerRegion
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: ServerRegion
+  nameWithType: AgentDeployment.ServerRegion
+  fullName: LiveKit.Proto.AgentDeployment.ServerRegion
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerRegion
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1780
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ServerRegion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServerRegion As String
+  overload: LiveKit.Proto.AgentDeployment.ServerRegion*
+- uid: LiveKit.Proto.AgentDeployment.Equals(System.Object)
+  commentId: M:LiveKit.Proto.AgentDeployment.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: AgentDeployment.Equals(object)
+  fullName: LiveKit.Proto.AgentDeployment.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1789
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.AgentDeployment.Equals*
+  nameWithType.vb: AgentDeployment.Equals(Object)
+  fullName.vb: LiveKit.Proto.AgentDeployment.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.AgentDeployment.Equals(LiveKit.Proto.AgentDeployment)
+  commentId: M:LiveKit.Proto.AgentDeployment.Equals(LiveKit.Proto.AgentDeployment)
+  id: Equals(LiveKit.Proto.AgentDeployment)
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: Equals(AgentDeployment)
+  nameWithType: AgentDeployment.Equals(AgentDeployment)
+  fullName: LiveKit.Proto.AgentDeployment.Equals(LiveKit.Proto.AgentDeployment)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1795
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(AgentDeployment other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AgentDeployment
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As AgentDeployment) As Boolean
+  overload: LiveKit.Proto.AgentDeployment.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.AgentDeployment}.Equals(LiveKit.Proto.AgentDeployment)
+- uid: LiveKit.Proto.AgentDeployment.GetHashCode
+  commentId: M:LiveKit.Proto.AgentDeployment.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: AgentDeployment.GetHashCode()
+  fullName: LiveKit.Proto.AgentDeployment.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1820
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.AgentDeployment.GetHashCode*
+- uid: LiveKit.Proto.AgentDeployment.ToString
+  commentId: M:LiveKit.Proto.AgentDeployment.ToString
+  id: ToString
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AgentDeployment.ToString()
+  fullName: LiveKit.Proto.AgentDeployment.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1843
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.AgentDeployment.ToString*
+- uid: LiveKit.Proto.AgentDeployment.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.AgentDeployment.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: AgentDeployment.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.AgentDeployment.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1849
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.AgentDeployment.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.AgentDeployment.CalculateSize
+  commentId: M:LiveKit.Proto.AgentDeployment.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: AgentDeployment.CalculateSize()
+  fullName: LiveKit.Proto.AgentDeployment.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 1975
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.AgentDeployment.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.AgentDeployment.MergeFrom(LiveKit.Proto.AgentDeployment)
+  commentId: M:LiveKit.Proto.AgentDeployment.MergeFrom(LiveKit.Proto.AgentDeployment)
+  id: MergeFrom(LiveKit.Proto.AgentDeployment)
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(AgentDeployment)
+  nameWithType: AgentDeployment.MergeFrom(AgentDeployment)
+  fullName: LiveKit.Proto.AgentDeployment.MergeFrom(LiveKit.Proto.AgentDeployment)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 2024
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(AgentDeployment other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AgentDeployment
+    content.vb: Public Sub MergeFrom(other As AgentDeployment)
+  overload: LiveKit.Proto.AgentDeployment.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}.MergeFrom(LiveKit.Proto.AgentDeployment)
+- uid: LiveKit.Proto.AgentDeployment.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.AgentDeployment.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.AgentDeployment
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: AgentDeployment.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.AgentDeployment.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitCloudAgent.cs
+    startLine: 2072
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.AgentDeployment.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.AgentDeployment.html
+  name: IMessage<AgentDeployment>
+  nameWithType: IMessage<AgentDeployment>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.AgentDeployment>
+  nameWithType.vb: IMessage(Of AgentDeployment)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.AgentDeployment)
+  name.vb: IMessage(Of AgentDeployment)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.AgentDeployment}
+  commentId: T:System.IEquatable{LiveKit.Proto.AgentDeployment}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<AgentDeployment>
+  nameWithType: IEquatable<AgentDeployment>
+  fullName: System.IEquatable<LiveKit.Proto.AgentDeployment>
+  nameWithType.vb: IEquatable(Of AgentDeployment)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.AgentDeployment)
+  name.vb: IEquatable(Of AgentDeployment)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.AgentDeployment.html
+  name: IDeepCloneable<AgentDeployment>
+  nameWithType: IDeepCloneable<AgentDeployment>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.AgentDeployment>
+  nameWithType.vb: IDeepCloneable(Of AgentDeployment)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.AgentDeployment)
+  name.vb: IDeepCloneable(Of AgentDeployment)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.AgentDeployment.Parser*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.Parser
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_Parser
+  name: Parser
+  nameWithType: AgentDeployment.Parser
+  fullName: LiveKit.Proto.AgentDeployment.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.AgentDeployment}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.AgentDeployment}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.AgentDeployment.html
+  name: MessageParser<AgentDeployment>
+  nameWithType: MessageParser<AgentDeployment>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.AgentDeployment>
+  nameWithType.vb: MessageParser(Of AgentDeployment)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.AgentDeployment)
+  name.vb: MessageParser(Of AgentDeployment)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.AgentDeployment.Descriptor*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.Descriptor
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_Descriptor
+  name: Descriptor
+  nameWithType: AgentDeployment.Descriptor
+  fullName: LiveKit.Proto.AgentDeployment.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.AgentDeployment.#ctor*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.#ctor
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment__ctor
+  name: AgentDeployment
+  nameWithType: AgentDeployment.AgentDeployment
+  fullName: LiveKit.Proto.AgentDeployment.AgentDeployment
+  nameWithType.vb: AgentDeployment.New
+  fullName.vb: LiveKit.Proto.AgentDeployment.New
+  name.vb: New
+- uid: LiveKit.Proto.AgentDeployment
+  commentId: T:LiveKit.Proto.AgentDeployment
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.AgentDeployment.html
+  name: AgentDeployment
+  nameWithType: AgentDeployment
+  fullName: LiveKit.Proto.AgentDeployment
+- uid: LiveKit.Proto.AgentDeployment.Clone*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.Clone
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_Clone
+  name: Clone
+  nameWithType: AgentDeployment.Clone
+  fullName: LiveKit.Proto.AgentDeployment.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<AgentDeployment>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.AgentDeployment>.Clone()
+  nameWithType.vb: IDeepCloneable(Of AgentDeployment).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.AgentDeployment).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AgentDeployment}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.AgentDeployment.Region*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.Region
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_Region
+  name: Region
+  nameWithType: AgentDeployment.Region
+  fullName: LiveKit.Proto.AgentDeployment.Region
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.AgentDeployment.AgentId*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.AgentId
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_AgentId
+  name: AgentId
+  nameWithType: AgentDeployment.AgentId
+  fullName: LiveKit.Proto.AgentDeployment.AgentId
+- uid: LiveKit.Proto.AgentDeployment.Status*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.Status
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_Status
+  name: Status
+  nameWithType: AgentDeployment.Status
+  fullName: LiveKit.Proto.AgentDeployment.Status
+- uid: LiveKit.Proto.AgentDeployment.Replicas*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.Replicas
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_Replicas
+  name: Replicas
+  nameWithType: AgentDeployment.Replicas
+  fullName: LiveKit.Proto.AgentDeployment.Replicas
+- uid: LiveKit.Proto.AgentDeployment.MinReplicas*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.MinReplicas
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_MinReplicas
+  name: MinReplicas
+  nameWithType: AgentDeployment.MinReplicas
+  fullName: LiveKit.Proto.AgentDeployment.MinReplicas
+- uid: LiveKit.Proto.AgentDeployment.MaxReplicas*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.MaxReplicas
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_MaxReplicas
+  name: MaxReplicas
+  nameWithType: AgentDeployment.MaxReplicas
+  fullName: LiveKit.Proto.AgentDeployment.MaxReplicas
+- uid: LiveKit.Proto.AgentDeployment.CpuReq*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.CpuReq
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_CpuReq
+  name: CpuReq
+  nameWithType: AgentDeployment.CpuReq
+  fullName: LiveKit.Proto.AgentDeployment.CpuReq
+- uid: LiveKit.Proto.AgentDeployment.CurCpu*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.CurCpu
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_CurCpu
+  name: CurCpu
+  nameWithType: AgentDeployment.CurCpu
+  fullName: LiveKit.Proto.AgentDeployment.CurCpu
+- uid: LiveKit.Proto.AgentDeployment.CurMem*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.CurMem
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_CurMem
+  name: CurMem
+  nameWithType: AgentDeployment.CurMem
+  fullName: LiveKit.Proto.AgentDeployment.CurMem
+- uid: LiveKit.Proto.AgentDeployment.MemReq*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.MemReq
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_MemReq
+  name: MemReq
+  nameWithType: AgentDeployment.MemReq
+  fullName: LiveKit.Proto.AgentDeployment.MemReq
+- uid: LiveKit.Proto.AgentDeployment.MemLimit*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.MemLimit
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_MemLimit
+  name: MemLimit
+  nameWithType: AgentDeployment.MemLimit
+  fullName: LiveKit.Proto.AgentDeployment.MemLimit
+- uid: LiveKit.Proto.AgentDeployment.CpuLimit*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.CpuLimit
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_CpuLimit
+  name: CpuLimit
+  nameWithType: AgentDeployment.CpuLimit
+  fullName: LiveKit.Proto.AgentDeployment.CpuLimit
+- uid: LiveKit.Proto.AgentDeployment.ServerRegion*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.ServerRegion
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_ServerRegion
+  name: ServerRegion
+  nameWithType: AgentDeployment.ServerRegion
+  fullName: LiveKit.Proto.AgentDeployment.ServerRegion
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.AgentDeployment.Equals*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.Equals
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_Equals_System_Object_
+  name: Equals
+  nameWithType: AgentDeployment.Equals
+  fullName: LiveKit.Proto.AgentDeployment.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.AgentDeployment}.Equals(LiveKit.Proto.AgentDeployment)
+  commentId: M:System.IEquatable{LiveKit.Proto.AgentDeployment}.Equals(LiveKit.Proto.AgentDeployment)
+  parent: System.IEquatable{LiveKit.Proto.AgentDeployment}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(AgentDeployment)
+  nameWithType: IEquatable<AgentDeployment>.Equals(AgentDeployment)
+  fullName: System.IEquatable<LiveKit.Proto.AgentDeployment>.Equals(LiveKit.Proto.AgentDeployment)
+  nameWithType.vb: IEquatable(Of AgentDeployment).Equals(AgentDeployment)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.AgentDeployment).Equals(LiveKit.Proto.AgentDeployment)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.AgentDeployment}.Equals(LiveKit.Proto.AgentDeployment)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.AgentDeployment}.Equals(LiveKit.Proto.AgentDeployment)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AgentDeployment.GetHashCode*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.GetHashCode
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_GetHashCode
+  name: GetHashCode
+  nameWithType: AgentDeployment.GetHashCode
+  fullName: LiveKit.Proto.AgentDeployment.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AgentDeployment.ToString*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.ToString
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_ToString
+  name: ToString
+  nameWithType: AgentDeployment.ToString
+  fullName: LiveKit.Proto.AgentDeployment.ToString
+- uid: LiveKit.Proto.AgentDeployment.WriteTo*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.WriteTo
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: AgentDeployment.WriteTo
+  fullName: LiveKit.Proto.AgentDeployment.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.AgentDeployment.CalculateSize*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.CalculateSize
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_CalculateSize
+  name: CalculateSize
+  nameWithType: AgentDeployment.CalculateSize
+  fullName: LiveKit.Proto.AgentDeployment.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AgentDeployment.MergeFrom*
+  commentId: Overload:LiveKit.Proto.AgentDeployment.MergeFrom
+  href: LiveKit.Proto.AgentDeployment.html#LiveKit_Proto_AgentDeployment_MergeFrom_LiveKit_Proto_AgentDeployment_
+  name: MergeFrom
+  nameWithType: AgentDeployment.MergeFrom
+  fullName: LiveKit.Proto.AgentDeployment.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}.MergeFrom(LiveKit.Proto.AgentDeployment)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}.MergeFrom(LiveKit.Proto.AgentDeployment)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.AgentDeployment.html
+  name: MergeFrom(AgentDeployment)
+  nameWithType: IMessage<AgentDeployment>.MergeFrom(AgentDeployment)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.AgentDeployment>.MergeFrom(LiveKit.Proto.AgentDeployment)
+  nameWithType.vb: IMessage(Of AgentDeployment).MergeFrom(AgentDeployment)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.AgentDeployment).MergeFrom(LiveKit.Proto.AgentDeployment)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}.MergeFrom(LiveKit.Proto.AgentDeployment)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.AgentDeployment}.MergeFrom(LiveKit.Proto.AgentDeployment)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.AgentDeployment
+    name: AgentDeployment
+    href: LiveKit.Proto.AgentDeployment.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

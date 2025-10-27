@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.LeaveRequest.Types.Action
+  commentId: T:LiveKit.Proto.LeaveRequest.Types.Action
+  id: LeaveRequest.Types.Action
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.LeaveRequest.Types.Action.Disconnect
+  - LiveKit.Proto.LeaveRequest.Types.Action.Reconnect
+  - LiveKit.Proto.LeaveRequest.Types.Action.Resume
+  langs:
+  - csharp
+  - vb
+  name: LeaveRequest.Types.Action
+  nameWithType: LeaveRequest.Types.Action
+  fullName: LiveKit.Proto.LeaveRequest.Types.Action
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Action
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 8119
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: indicates action clients should take on receiving this message
+  example: []
+  syntax:
+    content: public enum LeaveRequest.Types.Action
+    content.vb: Public Enum LeaveRequest.Types.Action
+- uid: LiveKit.Proto.LeaveRequest.Types.Action.Disconnect
+  commentId: F:LiveKit.Proto.LeaveRequest.Types.Action.Disconnect
+  id: Disconnect
+  parent: LiveKit.Proto.LeaveRequest.Types.Action
+  langs:
+  - csharp
+  - vb
+  name: Disconnect
+  nameWithType: LeaveRequest.Types.Action.Disconnect
+  fullName: LiveKit.Proto.LeaveRequest.Types.Action.Disconnect
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Disconnect
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 8123
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: should disconnect
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("DISCONNECT")]
+
+      Disconnect = 0
+    return:
+      type: LiveKit.Proto.LeaveRequest.Types.Action
+    content.vb: >-
+      <OriginalName("DISCONNECT")>
+
+      Disconnect = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DISCONNECT
+- uid: LiveKit.Proto.LeaveRequest.Types.Action.Resume
+  commentId: F:LiveKit.Proto.LeaveRequest.Types.Action.Resume
+  id: Resume
+  parent: LiveKit.Proto.LeaveRequest.Types.Action
+  langs:
+  - csharp
+  - vb
+  name: Resume
+  nameWithType: LeaveRequest.Types.Action.Resume
+  fullName: LiveKit.Proto.LeaveRequest.Types.Action.Resume
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Resume
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 8127
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: should attempt a resume with `reconnect=1` in join URL
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("RESUME")]
+
+      Resume = 1
+    return:
+      type: LiveKit.Proto.LeaveRequest.Types.Action
+    content.vb: >-
+      <OriginalName("RESUME")>
+
+      Resume = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RESUME
+- uid: LiveKit.Proto.LeaveRequest.Types.Action.Reconnect
+  commentId: F:LiveKit.Proto.LeaveRequest.Types.Action.Reconnect
+  id: Reconnect
+  parent: LiveKit.Proto.LeaveRequest.Types.Action
+  langs:
+  - csharp
+  - vb
+  name: Reconnect
+  nameWithType: LeaveRequest.Types.Action.Reconnect
+  fullName: LiveKit.Proto.LeaveRequest.Types.Action.Reconnect
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Reconnect
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 8131
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: should attempt a reconnect, i. e. no `reconnect=1`
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("RECONNECT")]
+
+      Reconnect = 2
+    return:
+      type: LiveKit.Proto.LeaveRequest.Types.Action
+    content.vb: >-
+      <OriginalName("RECONNECT")>
+
+      Reconnect = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RECONNECT
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.LeaveRequest.Types.Action
+  commentId: T:LiveKit.Proto.LeaveRequest.Types.Action
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.LeaveRequest.html
+  name: LeaveRequest.Types.Action
+  nameWithType: LeaveRequest.Types.Action
+  fullName: LiveKit.Proto.LeaveRequest.Types.Action
+  spec.csharp:
+  - uid: LiveKit.Proto.LeaveRequest
+    name: LeaveRequest
+    href: LiveKit.Proto.LeaveRequest.html
+  - name: .
+  - uid: LiveKit.Proto.LeaveRequest.Types
+    name: Types
+    href: LiveKit.Proto.LeaveRequest.Types.html
+  - name: .
+  - uid: LiveKit.Proto.LeaveRequest.Types.Action
+    name: Action
+    href: LiveKit.Proto.LeaveRequest.Types.Action.html
+  spec.vb:
+  - uid: LiveKit.Proto.LeaveRequest
+    name: LeaveRequest
+    href: LiveKit.Proto.LeaveRequest.html
+  - name: .
+  - uid: LiveKit.Proto.LeaveRequest.Types
+    name: Types
+    href: LiveKit.Proto.LeaveRequest.Types.html
+  - name: .
+  - uid: LiveKit.Proto.LeaveRequest.Types.Action
+    name: Action
+    href: LiveKit.Proto.LeaveRequest.Types.Action.html

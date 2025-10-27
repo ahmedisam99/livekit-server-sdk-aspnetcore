@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.DisconnectReason
+  commentId: T:LiveKit.Proto.DisconnectReason
+  id: DisconnectReason
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.DisconnectReason.ClientInitiated
+  - LiveKit.Proto.DisconnectReason.ConnectionTimeout
+  - LiveKit.Proto.DisconnectReason.DuplicateIdentity
+  - LiveKit.Proto.DisconnectReason.JoinFailure
+  - LiveKit.Proto.DisconnectReason.MediaFailure
+  - LiveKit.Proto.DisconnectReason.Migration
+  - LiveKit.Proto.DisconnectReason.ParticipantRemoved
+  - LiveKit.Proto.DisconnectReason.RoomClosed
+  - LiveKit.Proto.DisconnectReason.RoomDeleted
+  - LiveKit.Proto.DisconnectReason.ServerShutdown
+  - LiveKit.Proto.DisconnectReason.SignalClose
+  - LiveKit.Proto.DisconnectReason.SipTrunkFailure
+  - LiveKit.Proto.DisconnectReason.StateMismatch
+  - LiveKit.Proto.DisconnectReason.UnknownReason
+  - LiveKit.Proto.DisconnectReason.UserRejected
+  - LiveKit.Proto.DisconnectReason.UserUnavailable
+  langs:
+  - csharp
+  - vb
+  name: DisconnectReason
+  nameWithType: DisconnectReason
+  fullName: LiveKit.Proto.DisconnectReason
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectReason
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 415
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum DisconnectReason
+    content.vb: Public Enum DisconnectReason
+- uid: LiveKit.Proto.DisconnectReason.UnknownReason
+  commentId: F:LiveKit.Proto.DisconnectReason.UnknownReason
+  id: UnknownReason
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: UnknownReason
+  nameWithType: DisconnectReason.UnknownReason
+  fullName: LiveKit.Proto.DisconnectReason.UnknownReason
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UnknownReason
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 416
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("UNKNOWN_REASON")]
+
+      UnknownReason = 0
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("UNKNOWN_REASON")>
+
+      UnknownReason = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: UNKNOWN_REASON
+- uid: LiveKit.Proto.DisconnectReason.ClientInitiated
+  commentId: F:LiveKit.Proto.DisconnectReason.ClientInitiated
+  id: ClientInitiated
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: ClientInitiated
+  nameWithType: DisconnectReason.ClientInitiated
+  fullName: LiveKit.Proto.DisconnectReason.ClientInitiated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClientInitiated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 420
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: the client initiated the disconnect
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CLIENT_INITIATED")]
+
+      ClientInitiated = 1
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("CLIENT_INITIATED")>
+
+      ClientInitiated = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CLIENT_INITIATED
+- uid: LiveKit.Proto.DisconnectReason.DuplicateIdentity
+  commentId: F:LiveKit.Proto.DisconnectReason.DuplicateIdentity
+  id: DuplicateIdentity
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: DuplicateIdentity
+  nameWithType: DisconnectReason.DuplicateIdentity
+  fullName: LiveKit.Proto.DisconnectReason.DuplicateIdentity
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DuplicateIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 424
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: another participant with the same identity has joined the room
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("DUPLICATE_IDENTITY")]
+
+      DuplicateIdentity = 2
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("DUPLICATE_IDENTITY")>
+
+      DuplicateIdentity = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DUPLICATE_IDENTITY
+- uid: LiveKit.Proto.DisconnectReason.ServerShutdown
+  commentId: F:LiveKit.Proto.DisconnectReason.ServerShutdown
+  id: ServerShutdown
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: ServerShutdown
+  nameWithType: DisconnectReason.ServerShutdown
+  fullName: LiveKit.Proto.DisconnectReason.ServerShutdown
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerShutdown
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 428
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: the server instance is shutting down
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SERVER_SHUTDOWN")]
+
+      ServerShutdown = 3
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("SERVER_SHUTDOWN")>
+
+      ServerShutdown = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SERVER_SHUTDOWN
+- uid: LiveKit.Proto.DisconnectReason.ParticipantRemoved
+  commentId: F:LiveKit.Proto.DisconnectReason.ParticipantRemoved
+  id: ParticipantRemoved
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: ParticipantRemoved
+  nameWithType: DisconnectReason.ParticipantRemoved
+  fullName: LiveKit.Proto.DisconnectReason.ParticipantRemoved
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantRemoved
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 432
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: RoomService.RemoveParticipant was called
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PARTICIPANT_REMOVED")]
+
+      ParticipantRemoved = 4
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("PARTICIPANT_REMOVED")>
+
+      ParticipantRemoved = 4
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PARTICIPANT_REMOVED
+- uid: LiveKit.Proto.DisconnectReason.RoomDeleted
+  commentId: F:LiveKit.Proto.DisconnectReason.RoomDeleted
+  id: RoomDeleted
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: RoomDeleted
+  nameWithType: DisconnectReason.RoomDeleted
+  fullName: LiveKit.Proto.DisconnectReason.RoomDeleted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomDeleted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 436
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: RoomService.DeleteRoom was called
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("ROOM_DELETED")]
+
+      RoomDeleted = 5
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("ROOM_DELETED")>
+
+      RoomDeleted = 5
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ROOM_DELETED
+- uid: LiveKit.Proto.DisconnectReason.StateMismatch
+  commentId: F:LiveKit.Proto.DisconnectReason.StateMismatch
+  id: StateMismatch
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: StateMismatch
+  nameWithType: DisconnectReason.StateMismatch
+  fullName: LiveKit.Proto.DisconnectReason.StateMismatch
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StateMismatch
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 440
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: the client is attempting to resume a session, but server is not aware of it
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("STATE_MISMATCH")]
+
+      StateMismatch = 6
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("STATE_MISMATCH")>
+
+      StateMismatch = 6
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: STATE_MISMATCH
+- uid: LiveKit.Proto.DisconnectReason.JoinFailure
+  commentId: F:LiveKit.Proto.DisconnectReason.JoinFailure
+  id: JoinFailure
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: JoinFailure
+  nameWithType: DisconnectReason.JoinFailure
+  fullName: LiveKit.Proto.DisconnectReason.JoinFailure
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JoinFailure
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 444
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: client was unable to connect fully
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("JOIN_FAILURE")]
+
+      JoinFailure = 7
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("JOIN_FAILURE")>
+
+      JoinFailure = 7
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: JOIN_FAILURE
+- uid: LiveKit.Proto.DisconnectReason.Migration
+  commentId: F:LiveKit.Proto.DisconnectReason.Migration
+  id: Migration
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: Migration
+  nameWithType: DisconnectReason.Migration
+  fullName: LiveKit.Proto.DisconnectReason.Migration
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Migration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 448
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Cloud-only, the server requested Participant to migrate the connection elsewhere
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("MIGRATION")]
+
+      Migration = 8
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("MIGRATION")>
+
+      Migration = 8
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MIGRATION
+- uid: LiveKit.Proto.DisconnectReason.SignalClose
+  commentId: F:LiveKit.Proto.DisconnectReason.SignalClose
+  id: SignalClose
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: SignalClose
+  nameWithType: DisconnectReason.SignalClose
+  fullName: LiveKit.Proto.DisconnectReason.SignalClose
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SignalClose
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 452
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: the signal websocket was closed unexpectedly
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIGNAL_CLOSE")]
+
+      SignalClose = 9
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("SIGNAL_CLOSE")>
+
+      SignalClose = 9
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIGNAL_CLOSE
+- uid: LiveKit.Proto.DisconnectReason.RoomClosed
+  commentId: F:LiveKit.Proto.DisconnectReason.RoomClosed
+  id: RoomClosed
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: RoomClosed
+  nameWithType: DisconnectReason.RoomClosed
+  fullName: LiveKit.Proto.DisconnectReason.RoomClosed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomClosed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 456
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: the room was closed, due to all Standard and Ingress participants having left
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("ROOM_CLOSED")]
+
+      RoomClosed = 10
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("ROOM_CLOSED")>
+
+      RoomClosed = 10
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ROOM_CLOSED
+- uid: LiveKit.Proto.DisconnectReason.UserUnavailable
+  commentId: F:LiveKit.Proto.DisconnectReason.UserUnavailable
+  id: UserUnavailable
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: UserUnavailable
+  nameWithType: DisconnectReason.UserUnavailable
+  fullName: LiveKit.Proto.DisconnectReason.UserUnavailable
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UserUnavailable
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 460
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: SIP callee did not respond in time
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("USER_UNAVAILABLE")]
+
+      UserUnavailable = 11
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("USER_UNAVAILABLE")>
+
+      UserUnavailable = 11
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: USER_UNAVAILABLE
+- uid: LiveKit.Proto.DisconnectReason.UserRejected
+  commentId: F:LiveKit.Proto.DisconnectReason.UserRejected
+  id: UserRejected
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: UserRejected
+  nameWithType: DisconnectReason.UserRejected
+  fullName: LiveKit.Proto.DisconnectReason.UserRejected
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UserRejected
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 464
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: SIP callee rejected the call (busy)
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("USER_REJECTED")]
+
+      UserRejected = 12
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("USER_REJECTED")>
+
+      UserRejected = 12
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: USER_REJECTED
+- uid: LiveKit.Proto.DisconnectReason.SipTrunkFailure
+  commentId: F:LiveKit.Proto.DisconnectReason.SipTrunkFailure
+  id: SipTrunkFailure
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: SipTrunkFailure
+  nameWithType: DisconnectReason.SipTrunkFailure
+  fullName: LiveKit.Proto.DisconnectReason.SipTrunkFailure
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipTrunkFailure
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 468
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: SIP protocol failure or unexpected response
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIP_TRUNK_FAILURE")]
+
+      SipTrunkFailure = 13
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("SIP_TRUNK_FAILURE")>
+
+      SipTrunkFailure = 13
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_TRUNK_FAILURE
+- uid: LiveKit.Proto.DisconnectReason.ConnectionTimeout
+  commentId: F:LiveKit.Proto.DisconnectReason.ConnectionTimeout
+  id: ConnectionTimeout
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: ConnectionTimeout
+  nameWithType: DisconnectReason.ConnectionTimeout
+  fullName: LiveKit.Proto.DisconnectReason.ConnectionTimeout
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ConnectionTimeout
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 472
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: server timed out a participant session
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("CONNECTION_TIMEOUT")]
+
+      ConnectionTimeout = 14
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("CONNECTION_TIMEOUT")>
+
+      ConnectionTimeout = 14
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CONNECTION_TIMEOUT
+- uid: LiveKit.Proto.DisconnectReason.MediaFailure
+  commentId: F:LiveKit.Proto.DisconnectReason.MediaFailure
+  id: MediaFailure
+  parent: LiveKit.Proto.DisconnectReason
+  langs:
+  - csharp
+  - vb
+  name: MediaFailure
+  nameWithType: DisconnectReason.MediaFailure
+  fullName: LiveKit.Proto.DisconnectReason.MediaFailure
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MediaFailure
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 476
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: media stream failure or media timeout
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("MEDIA_FAILURE")]
+
+      MediaFailure = 15
+    return:
+      type: LiveKit.Proto.DisconnectReason
+    content.vb: >-
+      <OriginalName("MEDIA_FAILURE")>
+
+      MediaFailure = 15
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MEDIA_FAILURE
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.DisconnectReason
+  commentId: T:LiveKit.Proto.DisconnectReason
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DisconnectReason.html
+  name: DisconnectReason
+  nameWithType: DisconnectReason
+  fullName: LiveKit.Proto.DisconnectReason

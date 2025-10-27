@@ -1,0 +1,3469 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.EgressInfo
+  commentId: T:LiveKit.Proto.EgressInfo
+  id: EgressInfo
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.EgressInfo.#ctor
+  - LiveKit.Proto.EgressInfo.#ctor(LiveKit.Proto.EgressInfo)
+  - LiveKit.Proto.EgressInfo.BackupStorageUsed
+  - LiveKit.Proto.EgressInfo.BackupStorageUsedFieldNumber
+  - LiveKit.Proto.EgressInfo.CalculateSize
+  - LiveKit.Proto.EgressInfo.ClearRequest
+  - LiveKit.Proto.EgressInfo.ClearResult
+  - LiveKit.Proto.EgressInfo.Clone
+  - LiveKit.Proto.EgressInfo.Descriptor
+  - LiveKit.Proto.EgressInfo.Details
+  - LiveKit.Proto.EgressInfo.DetailsFieldNumber
+  - LiveKit.Proto.EgressInfo.EgressId
+  - LiveKit.Proto.EgressInfo.EgressIdFieldNumber
+  - LiveKit.Proto.EgressInfo.EndedAt
+  - LiveKit.Proto.EgressInfo.EndedAtFieldNumber
+  - LiveKit.Proto.EgressInfo.Equals(LiveKit.Proto.EgressInfo)
+  - LiveKit.Proto.EgressInfo.Equals(System.Object)
+  - LiveKit.Proto.EgressInfo.Error
+  - LiveKit.Proto.EgressInfo.ErrorCode
+  - LiveKit.Proto.EgressInfo.ErrorCodeFieldNumber
+  - LiveKit.Proto.EgressInfo.ErrorFieldNumber
+  - LiveKit.Proto.EgressInfo.File
+  - LiveKit.Proto.EgressInfo.FileFieldNumber
+  - LiveKit.Proto.EgressInfo.FileResults
+  - LiveKit.Proto.EgressInfo.FileResultsFieldNumber
+  - LiveKit.Proto.EgressInfo.GetHashCode
+  - LiveKit.Proto.EgressInfo.ImageResults
+  - LiveKit.Proto.EgressInfo.ImageResultsFieldNumber
+  - LiveKit.Proto.EgressInfo.ManifestLocation
+  - LiveKit.Proto.EgressInfo.ManifestLocationFieldNumber
+  - LiveKit.Proto.EgressInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.EgressInfo.MergeFrom(LiveKit.Proto.EgressInfo)
+  - LiveKit.Proto.EgressInfo.Parser
+  - LiveKit.Proto.EgressInfo.Participant
+  - LiveKit.Proto.EgressInfo.ParticipantFieldNumber
+  - LiveKit.Proto.EgressInfo.RequestCase
+  - LiveKit.Proto.EgressInfo.ResultCase
+  - LiveKit.Proto.EgressInfo.RoomComposite
+  - LiveKit.Proto.EgressInfo.RoomCompositeFieldNumber
+  - LiveKit.Proto.EgressInfo.RoomId
+  - LiveKit.Proto.EgressInfo.RoomIdFieldNumber
+  - LiveKit.Proto.EgressInfo.RoomName
+  - LiveKit.Proto.EgressInfo.RoomNameFieldNumber
+  - LiveKit.Proto.EgressInfo.SegmentResults
+  - LiveKit.Proto.EgressInfo.SegmentResultsFieldNumber
+  - LiveKit.Proto.EgressInfo.Segments
+  - LiveKit.Proto.EgressInfo.SegmentsFieldNumber
+  - LiveKit.Proto.EgressInfo.SourceType
+  - LiveKit.Proto.EgressInfo.SourceTypeFieldNumber
+  - LiveKit.Proto.EgressInfo.StartedAt
+  - LiveKit.Proto.EgressInfo.StartedAtFieldNumber
+  - LiveKit.Proto.EgressInfo.Status
+  - LiveKit.Proto.EgressInfo.StatusFieldNumber
+  - LiveKit.Proto.EgressInfo.Stream
+  - LiveKit.Proto.EgressInfo.StreamFieldNumber
+  - LiveKit.Proto.EgressInfo.StreamResults
+  - LiveKit.Proto.EgressInfo.StreamResultsFieldNumber
+  - LiveKit.Proto.EgressInfo.ToString
+  - LiveKit.Proto.EgressInfo.Track
+  - LiveKit.Proto.EgressInfo.TrackComposite
+  - LiveKit.Proto.EgressInfo.TrackCompositeFieldNumber
+  - LiveKit.Proto.EgressInfo.TrackFieldNumber
+  - LiveKit.Proto.EgressInfo.UpdatedAt
+  - LiveKit.Proto.EgressInfo.UpdatedAtFieldNumber
+  - LiveKit.Proto.EgressInfo.Web
+  - LiveKit.Proto.EgressInfo.WebFieldNumber
+  - LiveKit.Proto.EgressInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: EgressInfo
+  nameWithType: EgressInfo
+  fullName: LiveKit.Proto.EgressInfo
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 9931
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class EgressInfo : IMessage<EgressInfo>, IEquatable<EgressInfo>, IDeepCloneable<EgressInfo>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class EgressInfo Implements IMessage(Of EgressInfo), IEquatable(Of EgressInfo), IDeepCloneable(Of EgressInfo), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}
+  - System.IEquatable{LiveKit.Proto.EgressInfo}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.EgressInfo.Parser
+  commentId: P:LiveKit.Proto.EgressInfo.Parser
+  id: Parser
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: EgressInfo.Parser
+  fullName: LiveKit.Proto.EgressInfo.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 9939
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<EgressInfo> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.EgressInfo}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of EgressInfo)
+  overload: LiveKit.Proto.EgressInfo.Parser*
+- uid: LiveKit.Proto.EgressInfo.Descriptor
+  commentId: P:LiveKit.Proto.EgressInfo.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: EgressInfo.Descriptor
+  fullName: LiveKit.Proto.EgressInfo.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 9943
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.EgressInfo.Descriptor*
+- uid: LiveKit.Proto.EgressInfo.#ctor
+  commentId: M:LiveKit.Proto.EgressInfo.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: EgressInfo()
+  nameWithType: EgressInfo.EgressInfo()
+  fullName: LiveKit.Proto.EgressInfo.EgressInfo()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 9955
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EgressInfo()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.EgressInfo.#ctor*
+  nameWithType.vb: EgressInfo.New()
+  fullName.vb: LiveKit.Proto.EgressInfo.New()
+  name.vb: New()
+- uid: LiveKit.Proto.EgressInfo.#ctor(LiveKit.Proto.EgressInfo)
+  commentId: M:LiveKit.Proto.EgressInfo.#ctor(LiveKit.Proto.EgressInfo)
+  id: '#ctor(LiveKit.Proto.EgressInfo)'
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: EgressInfo(EgressInfo)
+  nameWithType: EgressInfo.EgressInfo(EgressInfo)
+  fullName: LiveKit.Proto.EgressInfo.EgressInfo(LiveKit.Proto.EgressInfo)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 9963
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EgressInfo(EgressInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.EgressInfo
+    content.vb: Public Sub New(other As EgressInfo)
+  overload: LiveKit.Proto.EgressInfo.#ctor*
+  nameWithType.vb: EgressInfo.New(EgressInfo)
+  fullName.vb: LiveKit.Proto.EgressInfo.New(LiveKit.Proto.EgressInfo)
+  name.vb: New(EgressInfo)
+- uid: LiveKit.Proto.EgressInfo.Clone
+  commentId: M:LiveKit.Proto.EgressInfo.Clone
+  id: Clone
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: EgressInfo.Clone()
+  fullName: LiveKit.Proto.EgressInfo.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10016
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public EgressInfo Clone()
+    return:
+      type: LiveKit.Proto.EgressInfo
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As EgressInfo
+  overload: LiveKit.Proto.EgressInfo.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}.Clone
+- uid: LiveKit.Proto.EgressInfo.EgressIdFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.EgressIdFieldNumber
+  id: EgressIdFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: EgressIdFieldNumber
+  nameWithType: EgressInfo.EgressIdFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.EgressIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10023
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "egress_id" field.
+  example: []
+  syntax:
+    content: public const int EgressIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const EgressIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.EgressInfo.EgressId
+  commentId: P:LiveKit.Proto.EgressInfo.EgressId
+  id: EgressId
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: EgressId
+  nameWithType: EgressInfo.EgressId
+  fullName: LiveKit.Proto.EgressInfo.EgressId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10025
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string EgressId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EgressId As String
+  overload: LiveKit.Proto.EgressInfo.EgressId*
+- uid: LiveKit.Proto.EgressInfo.RoomIdFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.RoomIdFieldNumber
+  id: RoomIdFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomIdFieldNumber
+  nameWithType: EgressInfo.RoomIdFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.RoomIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10035
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_id" field.
+  example: []
+  syntax:
+    content: public const int RoomIdFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomIdFieldNumber As Integer = 2
+- uid: LiveKit.Proto.EgressInfo.RoomId
+  commentId: P:LiveKit.Proto.EgressInfo.RoomId
+  id: RoomId
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomId
+  nameWithType: EgressInfo.RoomId
+  fullName: LiveKit.Proto.EgressInfo.RoomId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10037
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string RoomId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomId As String
+  overload: LiveKit.Proto.EgressInfo.RoomId*
+- uid: LiveKit.Proto.EgressInfo.RoomNameFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.RoomNameFieldNumber
+  id: RoomNameFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomNameFieldNumber
+  nameWithType: EgressInfo.RoomNameFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.RoomNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10047
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_name" field.
+  example: []
+  syntax:
+    content: public const int RoomNameFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomNameFieldNumber As Integer = 13
+- uid: LiveKit.Proto.EgressInfo.RoomName
+  commentId: P:LiveKit.Proto.EgressInfo.RoomName
+  id: RoomName
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomName
+  nameWithType: EgressInfo.RoomName
+  fullName: LiveKit.Proto.EgressInfo.RoomName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10049
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string RoomName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomName As String
+  overload: LiveKit.Proto.EgressInfo.RoomName*
+- uid: LiveKit.Proto.EgressInfo.SourceTypeFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.SourceTypeFieldNumber
+  id: SourceTypeFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceTypeFieldNumber
+  nameWithType: EgressInfo.SourceTypeFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.SourceTypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SourceTypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10059
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "source_type" field.
+  example: []
+  syntax:
+    content: public const int SourceTypeFieldNumber = 26
+    return:
+      type: System.Int32
+    content.vb: Public Const SourceTypeFieldNumber As Integer = 26
+- uid: LiveKit.Proto.EgressInfo.SourceType
+  commentId: P:LiveKit.Proto.EgressInfo.SourceType
+  id: SourceType
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceType
+  nameWithType: EgressInfo.SourceType
+  fullName: LiveKit.Proto.EgressInfo.SourceType
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SourceType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10061
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EgressSourceType SourceType { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.EgressSourceType
+    content.vb: Public Property SourceType As EgressSourceType
+  overload: LiveKit.Proto.EgressInfo.SourceType*
+- uid: LiveKit.Proto.EgressInfo.StatusFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.StatusFieldNumber
+  id: StatusFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: StatusFieldNumber
+  nameWithType: EgressInfo.StatusFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.StatusFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StatusFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10071
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "status" field.
+  example: []
+  syntax:
+    content: public const int StatusFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const StatusFieldNumber As Integer = 3
+- uid: LiveKit.Proto.EgressInfo.Status
+  commentId: P:LiveKit.Proto.EgressInfo.Status
+  id: Status
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: EgressInfo.Status
+  fullName: LiveKit.Proto.EgressInfo.Status
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Status
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10073
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EgressStatus Status { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.EgressStatus
+    content.vb: Public Property Status As EgressStatus
+  overload: LiveKit.Proto.EgressInfo.Status*
+- uid: LiveKit.Proto.EgressInfo.StartedAtFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.StartedAtFieldNumber
+  id: StartedAtFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: StartedAtFieldNumber
+  nameWithType: EgressInfo.StartedAtFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.StartedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10083
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "started_at" field.
+  example: []
+  syntax:
+    content: public const int StartedAtFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const StartedAtFieldNumber As Integer = 10
+- uid: LiveKit.Proto.EgressInfo.StartedAt
+  commentId: P:LiveKit.Proto.EgressInfo.StartedAt
+  id: StartedAt
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: StartedAt
+  nameWithType: EgressInfo.StartedAt
+  fullName: LiveKit.Proto.EgressInfo.StartedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10085
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long StartedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property StartedAt As Long
+  overload: LiveKit.Proto.EgressInfo.StartedAt*
+- uid: LiveKit.Proto.EgressInfo.EndedAtFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.EndedAtFieldNumber
+  id: EndedAtFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: EndedAtFieldNumber
+  nameWithType: EgressInfo.EndedAtFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.EndedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10095
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ended_at" field.
+  example: []
+  syntax:
+    content: public const int EndedAtFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const EndedAtFieldNumber As Integer = 11
+- uid: LiveKit.Proto.EgressInfo.EndedAt
+  commentId: P:LiveKit.Proto.EgressInfo.EndedAt
+  id: EndedAt
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: EndedAt
+  nameWithType: EgressInfo.EndedAt
+  fullName: LiveKit.Proto.EgressInfo.EndedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10097
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long EndedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property EndedAt As Long
+  overload: LiveKit.Proto.EgressInfo.EndedAt*
+- uid: LiveKit.Proto.EgressInfo.UpdatedAtFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.UpdatedAtFieldNumber
+  id: UpdatedAtFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAtFieldNumber
+  nameWithType: EgressInfo.UpdatedAtFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.UpdatedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdatedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10107
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "updated_at" field.
+  example: []
+  syntax:
+    content: public const int UpdatedAtFieldNumber = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdatedAtFieldNumber As Integer = 18
+- uid: LiveKit.Proto.EgressInfo.UpdatedAt
+  commentId: P:LiveKit.Proto.EgressInfo.UpdatedAt
+  id: UpdatedAt
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAt
+  nameWithType: EgressInfo.UpdatedAt
+  fullName: LiveKit.Proto.EgressInfo.UpdatedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdatedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10109
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long UpdatedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property UpdatedAt As Long
+  overload: LiveKit.Proto.EgressInfo.UpdatedAt*
+- uid: LiveKit.Proto.EgressInfo.DetailsFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.DetailsFieldNumber
+  id: DetailsFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: DetailsFieldNumber
+  nameWithType: EgressInfo.DetailsFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.DetailsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DetailsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10119
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "details" field.
+  example: []
+  syntax:
+    content: public const int DetailsFieldNumber = 21
+    return:
+      type: System.Int32
+    content.vb: Public Const DetailsFieldNumber As Integer = 21
+- uid: LiveKit.Proto.EgressInfo.Details
+  commentId: P:LiveKit.Proto.EgressInfo.Details
+  id: Details
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Details
+  nameWithType: EgressInfo.Details
+  fullName: LiveKit.Proto.EgressInfo.Details
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Details
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10121
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Details { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Details As String
+  overload: LiveKit.Proto.EgressInfo.Details*
+- uid: LiveKit.Proto.EgressInfo.ErrorFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.ErrorFieldNumber
+  id: ErrorFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorFieldNumber
+  nameWithType: EgressInfo.ErrorFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.ErrorFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ErrorFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10131
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "error" field.
+  example: []
+  syntax:
+    content: public const int ErrorFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const ErrorFieldNumber As Integer = 9
+- uid: LiveKit.Proto.EgressInfo.Error
+  commentId: P:LiveKit.Proto.EgressInfo.Error
+  id: Error
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: EgressInfo.Error
+  fullName: LiveKit.Proto.EgressInfo.Error
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Error
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10133
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Error { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property [Error] As String
+  overload: LiveKit.Proto.EgressInfo.Error*
+- uid: LiveKit.Proto.EgressInfo.ErrorCodeFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.ErrorCodeFieldNumber
+  id: ErrorCodeFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorCodeFieldNumber
+  nameWithType: EgressInfo.ErrorCodeFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.ErrorCodeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ErrorCodeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10143
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "error_code" field.
+  example: []
+  syntax:
+    content: public const int ErrorCodeFieldNumber = 22
+    return:
+      type: System.Int32
+    content.vb: Public Const ErrorCodeFieldNumber As Integer = 22
+- uid: LiveKit.Proto.EgressInfo.ErrorCode
+  commentId: P:LiveKit.Proto.EgressInfo.ErrorCode
+  id: ErrorCode
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: EgressInfo.ErrorCode
+  fullName: LiveKit.Proto.EgressInfo.ErrorCode
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ErrorCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10145
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErrorCode As Integer
+  overload: LiveKit.Proto.EgressInfo.ErrorCode*
+- uid: LiveKit.Proto.EgressInfo.RoomCompositeFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.RoomCompositeFieldNumber
+  id: RoomCompositeFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomCompositeFieldNumber
+  nameWithType: EgressInfo.RoomCompositeFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.RoomCompositeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomCompositeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10155
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_composite" field.
+  example: []
+  syntax:
+    content: public const int RoomCompositeFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomCompositeFieldNumber As Integer = 4
+- uid: LiveKit.Proto.EgressInfo.RoomComposite
+  commentId: P:LiveKit.Proto.EgressInfo.RoomComposite
+  id: RoomComposite
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomComposite
+  nameWithType: EgressInfo.RoomComposite
+  fullName: LiveKit.Proto.EgressInfo.RoomComposite
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomComposite
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10156
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RoomCompositeEgressRequest RoomComposite { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.RoomCompositeEgressRequest
+    content.vb: Public Property RoomComposite As RoomCompositeEgressRequest
+  overload: LiveKit.Proto.EgressInfo.RoomComposite*
+- uid: LiveKit.Proto.EgressInfo.WebFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.WebFieldNumber
+  id: WebFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: WebFieldNumber
+  nameWithType: EgressInfo.WebFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.WebFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WebFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10167
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "web" field.
+  example: []
+  syntax:
+    content: public const int WebFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const WebFieldNumber As Integer = 14
+- uid: LiveKit.Proto.EgressInfo.Web
+  commentId: P:LiveKit.Proto.EgressInfo.Web
+  id: Web
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Web
+  nameWithType: EgressInfo.Web
+  fullName: LiveKit.Proto.EgressInfo.Web
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Web
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10168
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WebEgressRequest Web { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.WebEgressRequest
+    content.vb: Public Property Web As WebEgressRequest
+  overload: LiveKit.Proto.EgressInfo.Web*
+- uid: LiveKit.Proto.EgressInfo.ParticipantFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.ParticipantFieldNumber
+  id: ParticipantFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantFieldNumber
+  nameWithType: EgressInfo.ParticipantFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.ParticipantFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10179
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant" field.
+  example: []
+  syntax:
+    content: public const int ParticipantFieldNumber = 19
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantFieldNumber As Integer = 19
+- uid: LiveKit.Proto.EgressInfo.Participant
+  commentId: P:LiveKit.Proto.EgressInfo.Participant
+  id: Participant
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Participant
+  nameWithType: EgressInfo.Participant
+  fullName: LiveKit.Proto.EgressInfo.Participant
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Participant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10180
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantEgressRequest Participant { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ParticipantEgressRequest
+    content.vb: Public Property Participant As ParticipantEgressRequest
+  overload: LiveKit.Proto.EgressInfo.Participant*
+- uid: LiveKit.Proto.EgressInfo.TrackCompositeFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.TrackCompositeFieldNumber
+  id: TrackCompositeFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: TrackCompositeFieldNumber
+  nameWithType: EgressInfo.TrackCompositeFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.TrackCompositeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackCompositeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10191
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_composite" field.
+  example: []
+  syntax:
+    content: public const int TrackCompositeFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackCompositeFieldNumber As Integer = 5
+- uid: LiveKit.Proto.EgressInfo.TrackComposite
+  commentId: P:LiveKit.Proto.EgressInfo.TrackComposite
+  id: TrackComposite
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: TrackComposite
+  nameWithType: EgressInfo.TrackComposite
+  fullName: LiveKit.Proto.EgressInfo.TrackComposite
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackComposite
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10192
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TrackCompositeEgressRequest TrackComposite { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.TrackCompositeEgressRequest
+    content.vb: Public Property TrackComposite As TrackCompositeEgressRequest
+  overload: LiveKit.Proto.EgressInfo.TrackComposite*
+- uid: LiveKit.Proto.EgressInfo.TrackFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.TrackFieldNumber
+  id: TrackFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: TrackFieldNumber
+  nameWithType: EgressInfo.TrackFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.TrackFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10203
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track" field.
+  example: []
+  syntax:
+    content: public const int TrackFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackFieldNumber As Integer = 6
+- uid: LiveKit.Proto.EgressInfo.Track
+  commentId: P:LiveKit.Proto.EgressInfo.Track
+  id: Track
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Track
+  nameWithType: EgressInfo.Track
+  fullName: LiveKit.Proto.EgressInfo.Track
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Track
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10204
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TrackEgressRequest Track { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.TrackEgressRequest
+    content.vb: Public Property Track As TrackEgressRequest
+  overload: LiveKit.Proto.EgressInfo.Track*
+- uid: LiveKit.Proto.EgressInfo.StreamFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.StreamFieldNumber
+  id: StreamFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: StreamFieldNumber
+  nameWithType: EgressInfo.StreamFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.StreamFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10215
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "stream" field.
+  example: []
+  syntax:
+    content: public const int StreamFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const StreamFieldNumber As Integer = 7
+- uid: LiveKit.Proto.EgressInfo.Stream
+  commentId: P:LiveKit.Proto.EgressInfo.Stream
+  id: Stream
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: EgressInfo.Stream
+  fullName: LiveKit.Proto.EgressInfo.Stream
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Stream
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10216
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public StreamInfoList Stream { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.StreamInfoList
+    content.vb: >-
+      <Obsolete>
+
+      Public Property Stream As StreamInfoList
+  overload: LiveKit.Proto.EgressInfo.Stream*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.EgressInfo.FileFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.FileFieldNumber
+  id: FileFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: FileFieldNumber
+  nameWithType: EgressInfo.FileFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.FileFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FileFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10228
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "file" field.
+  example: []
+  syntax:
+    content: public const int FileFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const FileFieldNumber As Integer = 8
+- uid: LiveKit.Proto.EgressInfo.File
+  commentId: P:LiveKit.Proto.EgressInfo.File
+  id: File
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: EgressInfo.File
+  fullName: LiveKit.Proto.EgressInfo.File
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: File
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10229
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public FileInfo File { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.FileInfo
+    content.vb: >-
+      <Obsolete>
+
+      Public Property File As FileInfo
+  overload: LiveKit.Proto.EgressInfo.File*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.EgressInfo.SegmentsFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.SegmentsFieldNumber
+  id: SegmentsFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: SegmentsFieldNumber
+  nameWithType: EgressInfo.SegmentsFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.SegmentsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10241
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "segments" field.
+  example: []
+  syntax:
+    content: public const int SegmentsFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const SegmentsFieldNumber As Integer = 12
+- uid: LiveKit.Proto.EgressInfo.Segments
+  commentId: P:LiveKit.Proto.EgressInfo.Segments
+  id: Segments
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Segments
+  nameWithType: EgressInfo.Segments
+  fullName: LiveKit.Proto.EgressInfo.Segments
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Segments
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10242
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public SegmentsInfo Segments { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SegmentsInfo
+    content.vb: >-
+      <Obsolete>
+
+      Public Property Segments As SegmentsInfo
+  overload: LiveKit.Proto.EgressInfo.Segments*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.EgressInfo.StreamResultsFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.StreamResultsFieldNumber
+  id: StreamResultsFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: StreamResultsFieldNumber
+  nameWithType: EgressInfo.StreamResultsFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.StreamResultsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamResultsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10254
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "stream_results" field.
+  example: []
+  syntax:
+    content: public const int StreamResultsFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const StreamResultsFieldNumber As Integer = 15
+- uid: LiveKit.Proto.EgressInfo.StreamResults
+  commentId: P:LiveKit.Proto.EgressInfo.StreamResults
+  id: StreamResults
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: StreamResults
+  nameWithType: EgressInfo.StreamResults
+  fullName: LiveKit.Proto.EgressInfo.StreamResults
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamResults
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10258
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<StreamInfo> StreamResults { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.StreamInfo}
+    content.vb: Public ReadOnly Property StreamResults As RepeatedField(Of StreamInfo)
+  overload: LiveKit.Proto.EgressInfo.StreamResults*
+- uid: LiveKit.Proto.EgressInfo.FileResultsFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.FileResultsFieldNumber
+  id: FileResultsFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: FileResultsFieldNumber
+  nameWithType: EgressInfo.FileResultsFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.FileResultsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FileResultsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10265
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "file_results" field.
+  example: []
+  syntax:
+    content: public const int FileResultsFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const FileResultsFieldNumber As Integer = 16
+- uid: LiveKit.Proto.EgressInfo.FileResults
+  commentId: P:LiveKit.Proto.EgressInfo.FileResults
+  id: FileResults
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: FileResults
+  nameWithType: EgressInfo.FileResults
+  fullName: LiveKit.Proto.EgressInfo.FileResults
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FileResults
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10269
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<FileInfo> FileResults { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.FileInfo}
+    content.vb: Public ReadOnly Property FileResults As RepeatedField(Of FileInfo)
+  overload: LiveKit.Proto.EgressInfo.FileResults*
+- uid: LiveKit.Proto.EgressInfo.SegmentResultsFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.SegmentResultsFieldNumber
+  id: SegmentResultsFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: SegmentResultsFieldNumber
+  nameWithType: EgressInfo.SegmentResultsFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.SegmentResultsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentResultsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10276
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "segment_results" field.
+  example: []
+  syntax:
+    content: public const int SegmentResultsFieldNumber = 17
+    return:
+      type: System.Int32
+    content.vb: Public Const SegmentResultsFieldNumber As Integer = 17
+- uid: LiveKit.Proto.EgressInfo.SegmentResults
+  commentId: P:LiveKit.Proto.EgressInfo.SegmentResults
+  id: SegmentResults
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: SegmentResults
+  nameWithType: EgressInfo.SegmentResults
+  fullName: LiveKit.Proto.EgressInfo.SegmentResults
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentResults
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10280
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<SegmentsInfo> SegmentResults { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SegmentsInfo}
+    content.vb: Public ReadOnly Property SegmentResults As RepeatedField(Of SegmentsInfo)
+  overload: LiveKit.Proto.EgressInfo.SegmentResults*
+- uid: LiveKit.Proto.EgressInfo.ImageResultsFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.ImageResultsFieldNumber
+  id: ImageResultsFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ImageResultsFieldNumber
+  nameWithType: EgressInfo.ImageResultsFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.ImageResultsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ImageResultsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10287
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "image_results" field.
+  example: []
+  syntax:
+    content: public const int ImageResultsFieldNumber = 20
+    return:
+      type: System.Int32
+    content.vb: Public Const ImageResultsFieldNumber As Integer = 20
+- uid: LiveKit.Proto.EgressInfo.ImageResults
+  commentId: P:LiveKit.Proto.EgressInfo.ImageResults
+  id: ImageResults
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ImageResults
+  nameWithType: EgressInfo.ImageResults
+  fullName: LiveKit.Proto.EgressInfo.ImageResults
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ImageResults
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10291
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<ImagesInfo> ImageResults { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ImagesInfo}
+    content.vb: Public ReadOnly Property ImageResults As RepeatedField(Of ImagesInfo)
+  overload: LiveKit.Proto.EgressInfo.ImageResults*
+- uid: LiveKit.Proto.EgressInfo.ManifestLocationFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.ManifestLocationFieldNumber
+  id: ManifestLocationFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ManifestLocationFieldNumber
+  nameWithType: EgressInfo.ManifestLocationFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.ManifestLocationFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ManifestLocationFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10298
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "manifest_location" field.
+  example: []
+  syntax:
+    content: public const int ManifestLocationFieldNumber = 23
+    return:
+      type: System.Int32
+    content.vb: Public Const ManifestLocationFieldNumber As Integer = 23
+- uid: LiveKit.Proto.EgressInfo.ManifestLocation
+  commentId: P:LiveKit.Proto.EgressInfo.ManifestLocation
+  id: ManifestLocation
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ManifestLocation
+  nameWithType: EgressInfo.ManifestLocation
+  fullName: LiveKit.Proto.EgressInfo.ManifestLocation
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ManifestLocation
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10300
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ManifestLocation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ManifestLocation As String
+  overload: LiveKit.Proto.EgressInfo.ManifestLocation*
+- uid: LiveKit.Proto.EgressInfo.BackupStorageUsedFieldNumber
+  commentId: F:LiveKit.Proto.EgressInfo.BackupStorageUsedFieldNumber
+  id: BackupStorageUsedFieldNumber
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: BackupStorageUsedFieldNumber
+  nameWithType: EgressInfo.BackupStorageUsedFieldNumber
+  fullName: LiveKit.Proto.EgressInfo.BackupStorageUsedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BackupStorageUsedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10310
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "backup_storage_used" field.
+  example: []
+  syntax:
+    content: public const int BackupStorageUsedFieldNumber = 25
+    return:
+      type: System.Int32
+    content.vb: Public Const BackupStorageUsedFieldNumber As Integer = 25
+- uid: LiveKit.Proto.EgressInfo.BackupStorageUsed
+  commentId: P:LiveKit.Proto.EgressInfo.BackupStorageUsed
+  id: BackupStorageUsed
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: BackupStorageUsed
+  nameWithType: EgressInfo.BackupStorageUsed
+  fullName: LiveKit.Proto.EgressInfo.BackupStorageUsed
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BackupStorageUsed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10315
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: 'next ID: 27'
+  example: []
+  syntax:
+    content: public bool BackupStorageUsed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BackupStorageUsed As Boolean
+  overload: LiveKit.Proto.EgressInfo.BackupStorageUsed*
+- uid: LiveKit.Proto.EgressInfo.RequestCase
+  commentId: P:LiveKit.Proto.EgressInfo.RequestCase
+  id: RequestCase
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: RequestCase
+  nameWithType: EgressInfo.RequestCase
+  fullName: LiveKit.Proto.EgressInfo.RequestCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RequestCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10335
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EgressInfo.RequestOneofCase RequestCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.EgressInfo.RequestOneofCase
+    content.vb: Public ReadOnly Property RequestCase As EgressInfo.RequestOneofCase
+  overload: LiveKit.Proto.EgressInfo.RequestCase*
+- uid: LiveKit.Proto.EgressInfo.ClearRequest
+  commentId: M:LiveKit.Proto.EgressInfo.ClearRequest
+  id: ClearRequest
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ClearRequest()
+  nameWithType: EgressInfo.ClearRequest()
+  fullName: LiveKit.Proto.EgressInfo.ClearRequest()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10341
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearRequest()
+    content.vb: Public Sub ClearRequest()
+  overload: LiveKit.Proto.EgressInfo.ClearRequest*
+- uid: LiveKit.Proto.EgressInfo.ResultCase
+  commentId: P:LiveKit.Proto.EgressInfo.ResultCase
+  id: ResultCase
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ResultCase
+  nameWithType: EgressInfo.ResultCase
+  fullName: LiveKit.Proto.EgressInfo.ResultCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ResultCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10357
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EgressInfo.ResultOneofCase ResultCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.EgressInfo.ResultOneofCase
+    content.vb: Public ReadOnly Property ResultCase As EgressInfo.ResultOneofCase
+  overload: LiveKit.Proto.EgressInfo.ResultCase*
+- uid: LiveKit.Proto.EgressInfo.ClearResult
+  commentId: M:LiveKit.Proto.EgressInfo.ClearResult
+  id: ClearResult
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ClearResult()
+  nameWithType: EgressInfo.ClearResult()
+  fullName: LiveKit.Proto.EgressInfo.ClearResult()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearResult
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10363
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearResult()
+    content.vb: Public Sub ClearResult()
+  overload: LiveKit.Proto.EgressInfo.ClearResult*
+- uid: LiveKit.Proto.EgressInfo.Equals(System.Object)
+  commentId: M:LiveKit.Proto.EgressInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: EgressInfo.Equals(object)
+  fullName: LiveKit.Proto.EgressInfo.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10370
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.EgressInfo.Equals*
+  nameWithType.vb: EgressInfo.Equals(Object)
+  fullName.vb: LiveKit.Proto.EgressInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.EgressInfo.Equals(LiveKit.Proto.EgressInfo)
+  commentId: M:LiveKit.Proto.EgressInfo.Equals(LiveKit.Proto.EgressInfo)
+  id: Equals(LiveKit.Proto.EgressInfo)
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(EgressInfo)
+  nameWithType: EgressInfo.Equals(EgressInfo)
+  fullName: LiveKit.Proto.EgressInfo.Equals(LiveKit.Proto.EgressInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10376
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(EgressInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.EgressInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As EgressInfo) As Boolean
+  overload: LiveKit.Proto.EgressInfo.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.EgressInfo}.Equals(LiveKit.Proto.EgressInfo)
+- uid: LiveKit.Proto.EgressInfo.GetHashCode
+  commentId: M:LiveKit.Proto.EgressInfo.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: EgressInfo.GetHashCode()
+  fullName: LiveKit.Proto.EgressInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10415
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.EgressInfo.GetHashCode*
+- uid: LiveKit.Proto.EgressInfo.ToString
+  commentId: M:LiveKit.Proto.EgressInfo.ToString
+  id: ToString
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EgressInfo.ToString()
+  fullName: LiveKit.Proto.EgressInfo.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10452
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.EgressInfo.ToString*
+- uid: LiveKit.Proto.EgressInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.EgressInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: EgressInfo.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.EgressInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10458
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.EgressInfo.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.EgressInfo.CalculateSize
+  commentId: M:LiveKit.Proto.EgressInfo.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: EgressInfo.CalculateSize()
+  fullName: LiveKit.Proto.EgressInfo.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10656
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.EgressInfo.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.EgressInfo.MergeFrom(LiveKit.Proto.EgressInfo)
+  commentId: M:LiveKit.Proto.EgressInfo.MergeFrom(LiveKit.Proto.EgressInfo)
+  id: MergeFrom(LiveKit.Proto.EgressInfo)
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(EgressInfo)
+  nameWithType: EgressInfo.MergeFrom(EgressInfo)
+  fullName: LiveKit.Proto.EgressInfo.MergeFrom(LiveKit.Proto.EgressInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10733
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(EgressInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.EgressInfo
+    content.vb: Public Sub MergeFrom(other As EgressInfo)
+  overload: LiveKit.Proto.EgressInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}.MergeFrom(LiveKit.Proto.EgressInfo)
+- uid: LiveKit.Proto.EgressInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.EgressInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.EgressInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: EgressInfo.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.EgressInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 10839
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.EgressInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.EgressInfo.html
+  name: IMessage<EgressInfo>
+  nameWithType: IMessage<EgressInfo>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.EgressInfo>
+  nameWithType.vb: IMessage(Of EgressInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.EgressInfo)
+  name.vb: IMessage(Of EgressInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.EgressInfo}
+  commentId: T:System.IEquatable{LiveKit.Proto.EgressInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<EgressInfo>
+  nameWithType: IEquatable<EgressInfo>
+  fullName: System.IEquatable<LiveKit.Proto.EgressInfo>
+  nameWithType.vb: IEquatable(Of EgressInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.EgressInfo)
+  name.vb: IEquatable(Of EgressInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.EgressInfo.html
+  name: IDeepCloneable<EgressInfo>
+  nameWithType: IDeepCloneable<EgressInfo>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.EgressInfo>
+  nameWithType.vb: IDeepCloneable(Of EgressInfo)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.EgressInfo)
+  name.vb: IDeepCloneable(Of EgressInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.Parser*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Parser
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Parser
+  name: Parser
+  nameWithType: EgressInfo.Parser
+  fullName: LiveKit.Proto.EgressInfo.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.EgressInfo}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.EgressInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.EgressInfo.html
+  name: MessageParser<EgressInfo>
+  nameWithType: MessageParser<EgressInfo>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.EgressInfo>
+  nameWithType.vb: MessageParser(Of EgressInfo)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.EgressInfo)
+  name.vb: MessageParser(Of EgressInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.Descriptor*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Descriptor
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Descriptor
+  name: Descriptor
+  nameWithType: EgressInfo.Descriptor
+  fullName: LiveKit.Proto.EgressInfo.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.EgressInfo.#ctor*
+  commentId: Overload:LiveKit.Proto.EgressInfo.#ctor
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo__ctor
+  name: EgressInfo
+  nameWithType: EgressInfo.EgressInfo
+  fullName: LiveKit.Proto.EgressInfo.EgressInfo
+  nameWithType.vb: EgressInfo.New
+  fullName.vb: LiveKit.Proto.EgressInfo.New
+  name.vb: New
+- uid: LiveKit.Proto.EgressInfo
+  commentId: T:LiveKit.Proto.EgressInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EgressInfo.html
+  name: EgressInfo
+  nameWithType: EgressInfo
+  fullName: LiveKit.Proto.EgressInfo
+- uid: LiveKit.Proto.EgressInfo.Clone*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Clone
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Clone
+  name: Clone
+  nameWithType: EgressInfo.Clone
+  fullName: LiveKit.Proto.EgressInfo.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<EgressInfo>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.EgressInfo>.Clone()
+  nameWithType.vb: IDeepCloneable(Of EgressInfo).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.EgressInfo).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EgressInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.EgressInfo.EgressId*
+  commentId: Overload:LiveKit.Proto.EgressInfo.EgressId
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_EgressId
+  name: EgressId
+  nameWithType: EgressInfo.EgressId
+  fullName: LiveKit.Proto.EgressInfo.EgressId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.EgressInfo.RoomId*
+  commentId: Overload:LiveKit.Proto.EgressInfo.RoomId
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_RoomId
+  name: RoomId
+  nameWithType: EgressInfo.RoomId
+  fullName: LiveKit.Proto.EgressInfo.RoomId
+- uid: LiveKit.Proto.EgressInfo.RoomName*
+  commentId: Overload:LiveKit.Proto.EgressInfo.RoomName
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_RoomName
+  name: RoomName
+  nameWithType: EgressInfo.RoomName
+  fullName: LiveKit.Proto.EgressInfo.RoomName
+- uid: LiveKit.Proto.EgressInfo.SourceType*
+  commentId: Overload:LiveKit.Proto.EgressInfo.SourceType
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_SourceType
+  name: SourceType
+  nameWithType: EgressInfo.SourceType
+  fullName: LiveKit.Proto.EgressInfo.SourceType
+- uid: LiveKit.Proto.EgressSourceType
+  commentId: T:LiveKit.Proto.EgressSourceType
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EgressSourceType.html
+  name: EgressSourceType
+  nameWithType: EgressSourceType
+  fullName: LiveKit.Proto.EgressSourceType
+- uid: LiveKit.Proto.EgressInfo.Status*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Status
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Status
+  name: Status
+  nameWithType: EgressInfo.Status
+  fullName: LiveKit.Proto.EgressInfo.Status
+- uid: LiveKit.Proto.EgressStatus
+  commentId: T:LiveKit.Proto.EgressStatus
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EgressStatus.html
+  name: EgressStatus
+  nameWithType: EgressStatus
+  fullName: LiveKit.Proto.EgressStatus
+- uid: LiveKit.Proto.EgressInfo.StartedAt*
+  commentId: Overload:LiveKit.Proto.EgressInfo.StartedAt
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_StartedAt
+  name: StartedAt
+  nameWithType: EgressInfo.StartedAt
+  fullName: LiveKit.Proto.EgressInfo.StartedAt
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.EgressInfo.EndedAt*
+  commentId: Overload:LiveKit.Proto.EgressInfo.EndedAt
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_EndedAt
+  name: EndedAt
+  nameWithType: EgressInfo.EndedAt
+  fullName: LiveKit.Proto.EgressInfo.EndedAt
+- uid: LiveKit.Proto.EgressInfo.UpdatedAt*
+  commentId: Overload:LiveKit.Proto.EgressInfo.UpdatedAt
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_UpdatedAt
+  name: UpdatedAt
+  nameWithType: EgressInfo.UpdatedAt
+  fullName: LiveKit.Proto.EgressInfo.UpdatedAt
+- uid: LiveKit.Proto.EgressInfo.Details*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Details
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Details
+  name: Details
+  nameWithType: EgressInfo.Details
+  fullName: LiveKit.Proto.EgressInfo.Details
+- uid: LiveKit.Proto.EgressInfo.Error*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Error
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Error
+  name: Error
+  nameWithType: EgressInfo.Error
+  fullName: LiveKit.Proto.EgressInfo.Error
+- uid: LiveKit.Proto.EgressInfo.ErrorCode*
+  commentId: Overload:LiveKit.Proto.EgressInfo.ErrorCode
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_ErrorCode
+  name: ErrorCode
+  nameWithType: EgressInfo.ErrorCode
+  fullName: LiveKit.Proto.EgressInfo.ErrorCode
+- uid: LiveKit.Proto.EgressInfo.RoomComposite*
+  commentId: Overload:LiveKit.Proto.EgressInfo.RoomComposite
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_RoomComposite
+  name: RoomComposite
+  nameWithType: EgressInfo.RoomComposite
+  fullName: LiveKit.Proto.EgressInfo.RoomComposite
+- uid: LiveKit.Proto.RoomCompositeEgressRequest
+  commentId: T:LiveKit.Proto.RoomCompositeEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RoomCompositeEgressRequest.html
+  name: RoomCompositeEgressRequest
+  nameWithType: RoomCompositeEgressRequest
+  fullName: LiveKit.Proto.RoomCompositeEgressRequest
+- uid: LiveKit.Proto.EgressInfo.Web*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Web
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Web
+  name: Web
+  nameWithType: EgressInfo.Web
+  fullName: LiveKit.Proto.EgressInfo.Web
+- uid: LiveKit.Proto.WebEgressRequest
+  commentId: T:LiveKit.Proto.WebEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: WebEgressRequest
+  nameWithType: WebEgressRequest
+  fullName: LiveKit.Proto.WebEgressRequest
+- uid: LiveKit.Proto.EgressInfo.Participant*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Participant
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Participant
+  name: Participant
+  nameWithType: EgressInfo.Participant
+  fullName: LiveKit.Proto.EgressInfo.Participant
+- uid: LiveKit.Proto.ParticipantEgressRequest
+  commentId: T:LiveKit.Proto.ParticipantEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantEgressRequest.html
+  name: ParticipantEgressRequest
+  nameWithType: ParticipantEgressRequest
+  fullName: LiveKit.Proto.ParticipantEgressRequest
+- uid: LiveKit.Proto.EgressInfo.TrackComposite*
+  commentId: Overload:LiveKit.Proto.EgressInfo.TrackComposite
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_TrackComposite
+  name: TrackComposite
+  nameWithType: EgressInfo.TrackComposite
+  fullName: LiveKit.Proto.EgressInfo.TrackComposite
+- uid: LiveKit.Proto.TrackCompositeEgressRequest
+  commentId: T:LiveKit.Proto.TrackCompositeEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrackCompositeEgressRequest.html
+  name: TrackCompositeEgressRequest
+  nameWithType: TrackCompositeEgressRequest
+  fullName: LiveKit.Proto.TrackCompositeEgressRequest
+- uid: LiveKit.Proto.EgressInfo.Track*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Track
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Track
+  name: Track
+  nameWithType: EgressInfo.Track
+  fullName: LiveKit.Proto.EgressInfo.Track
+- uid: LiveKit.Proto.TrackEgressRequest
+  commentId: T:LiveKit.Proto.TrackEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrackEgressRequest.html
+  name: TrackEgressRequest
+  nameWithType: TrackEgressRequest
+  fullName: LiveKit.Proto.TrackEgressRequest
+- uid: LiveKit.Proto.EgressInfo.Stream*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Stream
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Stream
+  name: Stream
+  nameWithType: EgressInfo.Stream
+  fullName: LiveKit.Proto.EgressInfo.Stream
+- uid: LiveKit.Proto.StreamInfoList
+  commentId: T:LiveKit.Proto.StreamInfoList
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.StreamInfoList.html
+  name: StreamInfoList
+  nameWithType: StreamInfoList
+  fullName: LiveKit.Proto.StreamInfoList
+- uid: LiveKit.Proto.EgressInfo.File*
+  commentId: Overload:LiveKit.Proto.EgressInfo.File
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_File
+  name: File
+  nameWithType: EgressInfo.File
+  fullName: LiveKit.Proto.EgressInfo.File
+- uid: LiveKit.Proto.FileInfo
+  commentId: T:LiveKit.Proto.FileInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.FileInfo.html
+  name: FileInfo
+  nameWithType: FileInfo
+  fullName: LiveKit.Proto.FileInfo
+- uid: LiveKit.Proto.EgressInfo.Segments*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Segments
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Segments
+  name: Segments
+  nameWithType: EgressInfo.Segments
+  fullName: LiveKit.Proto.EgressInfo.Segments
+- uid: LiveKit.Proto.SegmentsInfo
+  commentId: T:LiveKit.Proto.SegmentsInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SegmentsInfo.html
+  name: SegmentsInfo
+  nameWithType: SegmentsInfo
+  fullName: LiveKit.Proto.SegmentsInfo
+- uid: LiveKit.Proto.EgressInfo.StreamResults*
+  commentId: Overload:LiveKit.Proto.EgressInfo.StreamResults
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_StreamResults
+  name: StreamResults
+  nameWithType: EgressInfo.StreamResults
+  fullName: LiveKit.Proto.EgressInfo.StreamResults
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.StreamInfo}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.StreamInfo}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.StreamInfo.html
+  name: RepeatedField<StreamInfo>
+  nameWithType: RepeatedField<StreamInfo>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.StreamInfo>
+  nameWithType.vb: RepeatedField(Of StreamInfo)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.StreamInfo)
+  name.vb: RepeatedField(Of StreamInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.StreamInfo
+    name: StreamInfo
+    href: LiveKit.Proto.StreamInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.StreamInfo
+    name: StreamInfo
+    href: LiveKit.Proto.StreamInfo.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.EgressInfo.FileResults*
+  commentId: Overload:LiveKit.Proto.EgressInfo.FileResults
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_FileResults
+  name: FileResults
+  nameWithType: EgressInfo.FileResults
+  fullName: LiveKit.Proto.EgressInfo.FileResults
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.FileInfo}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.FileInfo}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.FileInfo.html
+  name: RepeatedField<FileInfo>
+  nameWithType: RepeatedField<FileInfo>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.FileInfo>
+  nameWithType.vb: RepeatedField(Of FileInfo)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.FileInfo)
+  name.vb: RepeatedField(Of FileInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.FileInfo
+    name: FileInfo
+    href: LiveKit.Proto.FileInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.FileInfo
+    name: FileInfo
+    href: LiveKit.Proto.FileInfo.html
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.SegmentResults*
+  commentId: Overload:LiveKit.Proto.EgressInfo.SegmentResults
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_SegmentResults
+  name: SegmentResults
+  nameWithType: EgressInfo.SegmentResults
+  fullName: LiveKit.Proto.EgressInfo.SegmentResults
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SegmentsInfo}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SegmentsInfo}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.SegmentsInfo.html
+  name: RepeatedField<SegmentsInfo>
+  nameWithType: RepeatedField<SegmentsInfo>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.SegmentsInfo>
+  nameWithType.vb: RepeatedField(Of SegmentsInfo)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.SegmentsInfo)
+  name.vb: RepeatedField(Of SegmentsInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.ImageResults*
+  commentId: Overload:LiveKit.Proto.EgressInfo.ImageResults
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_ImageResults
+  name: ImageResults
+  nameWithType: EgressInfo.ImageResults
+  fullName: LiveKit.Proto.EgressInfo.ImageResults
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ImagesInfo}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ImagesInfo}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.ImagesInfo.html
+  name: RepeatedField<ImagesInfo>
+  nameWithType: RepeatedField<ImagesInfo>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.ImagesInfo>
+  nameWithType.vb: RepeatedField(Of ImagesInfo)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.ImagesInfo)
+  name.vb: RepeatedField(Of ImagesInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ImagesInfo
+    name: ImagesInfo
+    href: LiveKit.Proto.ImagesInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ImagesInfo
+    name: ImagesInfo
+    href: LiveKit.Proto.ImagesInfo.html
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.ManifestLocation*
+  commentId: Overload:LiveKit.Proto.EgressInfo.ManifestLocation
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_ManifestLocation
+  name: ManifestLocation
+  nameWithType: EgressInfo.ManifestLocation
+  fullName: LiveKit.Proto.EgressInfo.ManifestLocation
+- uid: LiveKit.Proto.EgressInfo.BackupStorageUsed*
+  commentId: Overload:LiveKit.Proto.EgressInfo.BackupStorageUsed
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_BackupStorageUsed
+  name: BackupStorageUsed
+  nameWithType: EgressInfo.BackupStorageUsed
+  fullName: LiveKit.Proto.EgressInfo.BackupStorageUsed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.EgressInfo.RequestCase*
+  commentId: Overload:LiveKit.Proto.EgressInfo.RequestCase
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_RequestCase
+  name: RequestCase
+  nameWithType: EgressInfo.RequestCase
+  fullName: LiveKit.Proto.EgressInfo.RequestCase
+- uid: LiveKit.Proto.EgressInfo.RequestOneofCase
+  commentId: T:LiveKit.Proto.EgressInfo.RequestOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EgressInfo.html
+  name: EgressInfo.RequestOneofCase
+  nameWithType: EgressInfo.RequestOneofCase
+  fullName: LiveKit.Proto.EgressInfo.RequestOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: .
+  - uid: LiveKit.Proto.EgressInfo.RequestOneofCase
+    name: RequestOneofCase
+    href: LiveKit.Proto.EgressInfo.RequestOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: .
+  - uid: LiveKit.Proto.EgressInfo.RequestOneofCase
+    name: RequestOneofCase
+    href: LiveKit.Proto.EgressInfo.RequestOneofCase.html
+- uid: LiveKit.Proto.EgressInfo.ClearRequest*
+  commentId: Overload:LiveKit.Proto.EgressInfo.ClearRequest
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_ClearRequest
+  name: ClearRequest
+  nameWithType: EgressInfo.ClearRequest
+  fullName: LiveKit.Proto.EgressInfo.ClearRequest
+- uid: LiveKit.Proto.EgressInfo.ResultCase*
+  commentId: Overload:LiveKit.Proto.EgressInfo.ResultCase
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_ResultCase
+  name: ResultCase
+  nameWithType: EgressInfo.ResultCase
+  fullName: LiveKit.Proto.EgressInfo.ResultCase
+- uid: LiveKit.Proto.EgressInfo.ResultOneofCase
+  commentId: T:LiveKit.Proto.EgressInfo.ResultOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EgressInfo.html
+  name: EgressInfo.ResultOneofCase
+  nameWithType: EgressInfo.ResultOneofCase
+  fullName: LiveKit.Proto.EgressInfo.ResultOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: .
+  - uid: LiveKit.Proto.EgressInfo.ResultOneofCase
+    name: ResultOneofCase
+    href: LiveKit.Proto.EgressInfo.ResultOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: .
+  - uid: LiveKit.Proto.EgressInfo.ResultOneofCase
+    name: ResultOneofCase
+    href: LiveKit.Proto.EgressInfo.ResultOneofCase.html
+- uid: LiveKit.Proto.EgressInfo.ClearResult*
+  commentId: Overload:LiveKit.Proto.EgressInfo.ClearResult
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_ClearResult
+  name: ClearResult
+  nameWithType: EgressInfo.ClearResult
+  fullName: LiveKit.Proto.EgressInfo.ClearResult
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.Equals*
+  commentId: Overload:LiveKit.Proto.EgressInfo.Equals
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_Equals_System_Object_
+  name: Equals
+  nameWithType: EgressInfo.Equals
+  fullName: LiveKit.Proto.EgressInfo.Equals
+- uid: System.IEquatable{LiveKit.Proto.EgressInfo}.Equals(LiveKit.Proto.EgressInfo)
+  commentId: M:System.IEquatable{LiveKit.Proto.EgressInfo}.Equals(LiveKit.Proto.EgressInfo)
+  parent: System.IEquatable{LiveKit.Proto.EgressInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(EgressInfo)
+  nameWithType: IEquatable<EgressInfo>.Equals(EgressInfo)
+  fullName: System.IEquatable<LiveKit.Proto.EgressInfo>.Equals(LiveKit.Proto.EgressInfo)
+  nameWithType.vb: IEquatable(Of EgressInfo).Equals(EgressInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.EgressInfo).Equals(LiveKit.Proto.EgressInfo)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.EgressInfo}.Equals(LiveKit.Proto.EgressInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.EgressInfo}.Equals(LiveKit.Proto.EgressInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.GetHashCode*
+  commentId: Overload:LiveKit.Proto.EgressInfo.GetHashCode
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: EgressInfo.GetHashCode
+  fullName: LiveKit.Proto.EgressInfo.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.ToString*
+  commentId: Overload:LiveKit.Proto.EgressInfo.ToString
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_ToString
+  name: ToString
+  nameWithType: EgressInfo.ToString
+  fullName: LiveKit.Proto.EgressInfo.ToString
+- uid: LiveKit.Proto.EgressInfo.WriteTo*
+  commentId: Overload:LiveKit.Proto.EgressInfo.WriteTo
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: EgressInfo.WriteTo
+  fullName: LiveKit.Proto.EgressInfo.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.EgressInfo.CalculateSize*
+  commentId: Overload:LiveKit.Proto.EgressInfo.CalculateSize
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_CalculateSize
+  name: CalculateSize
+  nameWithType: EgressInfo.CalculateSize
+  fullName: LiveKit.Proto.EgressInfo.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.EgressInfo.MergeFrom*
+  commentId: Overload:LiveKit.Proto.EgressInfo.MergeFrom
+  href: LiveKit.Proto.EgressInfo.html#LiveKit_Proto_EgressInfo_MergeFrom_LiveKit_Proto_EgressInfo_
+  name: MergeFrom
+  nameWithType: EgressInfo.MergeFrom
+  fullName: LiveKit.Proto.EgressInfo.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}.MergeFrom(LiveKit.Proto.EgressInfo)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}.MergeFrom(LiveKit.Proto.EgressInfo)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.EgressInfo.html
+  name: MergeFrom(EgressInfo)
+  nameWithType: IMessage<EgressInfo>.MergeFrom(EgressInfo)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.EgressInfo>.MergeFrom(LiveKit.Proto.EgressInfo)
+  nameWithType.vb: IMessage(Of EgressInfo).MergeFrom(EgressInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.EgressInfo).MergeFrom(LiveKit.Proto.EgressInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}.MergeFrom(LiveKit.Proto.EgressInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.EgressInfo}.MergeFrom(LiveKit.Proto.EgressInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.EgressInfo
+    name: EgressInfo
+    href: LiveKit.Proto.EgressInfo.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

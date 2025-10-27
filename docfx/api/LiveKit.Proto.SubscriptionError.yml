@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SubscriptionError
+  commentId: T:LiveKit.Proto.SubscriptionError
+  id: SubscriptionError
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SubscriptionError.SeCodecUnsupported
+  - LiveKit.Proto.SubscriptionError.SeTrackNotfound
+  - LiveKit.Proto.SubscriptionError.SeUnknown
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionError
+  nameWithType: SubscriptionError
+  fullName: LiveKit.Proto.SubscriptionError
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriptionError
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 487
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum SubscriptionError
+    content.vb: Public Enum SubscriptionError
+- uid: LiveKit.Proto.SubscriptionError.SeUnknown
+  commentId: F:LiveKit.Proto.SubscriptionError.SeUnknown
+  id: SeUnknown
+  parent: LiveKit.Proto.SubscriptionError
+  langs:
+  - csharp
+  - vb
+  name: SeUnknown
+  nameWithType: SubscriptionError.SeUnknown
+  fullName: LiveKit.Proto.SubscriptionError.SeUnknown
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SeUnknown
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 488
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SE_UNKNOWN")]
+
+      SeUnknown = 0
+    return:
+      type: LiveKit.Proto.SubscriptionError
+    content.vb: >-
+      <OriginalName("SE_UNKNOWN")>
+
+      SeUnknown = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SE_UNKNOWN
+- uid: LiveKit.Proto.SubscriptionError.SeCodecUnsupported
+  commentId: F:LiveKit.Proto.SubscriptionError.SeCodecUnsupported
+  id: SeCodecUnsupported
+  parent: LiveKit.Proto.SubscriptionError
+  langs:
+  - csharp
+  - vb
+  name: SeCodecUnsupported
+  nameWithType: SubscriptionError.SeCodecUnsupported
+  fullName: LiveKit.Proto.SubscriptionError.SeCodecUnsupported
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SeCodecUnsupported
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 489
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SE_CODEC_UNSUPPORTED")]
+
+      SeCodecUnsupported = 1
+    return:
+      type: LiveKit.Proto.SubscriptionError
+    content.vb: >-
+      <OriginalName("SE_CODEC_UNSUPPORTED")>
+
+      SeCodecUnsupported = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SE_CODEC_UNSUPPORTED
+- uid: LiveKit.Proto.SubscriptionError.SeTrackNotfound
+  commentId: F:LiveKit.Proto.SubscriptionError.SeTrackNotfound
+  id: SeTrackNotfound
+  parent: LiveKit.Proto.SubscriptionError
+  langs:
+  - csharp
+  - vb
+  name: SeTrackNotfound
+  nameWithType: SubscriptionError.SeTrackNotfound
+  fullName: LiveKit.Proto.SubscriptionError.SeTrackNotfound
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SeTrackNotfound
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 490
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SE_TRACK_NOTFOUND")]
+
+      SeTrackNotfound = 2
+    return:
+      type: LiveKit.Proto.SubscriptionError
+    content.vb: >-
+      <OriginalName("SE_TRACK_NOTFOUND")>
+
+      SeTrackNotfound = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SE_TRACK_NOTFOUND
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.SubscriptionError
+  commentId: T:LiveKit.Proto.SubscriptionError
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SubscriptionError.html
+  name: SubscriptionError
+  nameWithType: SubscriptionError
+  fullName: LiveKit.Proto.SubscriptionError

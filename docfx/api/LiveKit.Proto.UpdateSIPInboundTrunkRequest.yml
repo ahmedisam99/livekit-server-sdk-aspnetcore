@@ -1,0 +1,1647 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  commentId: T:LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  id: UpdateSIPInboundTrunkRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionCase
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.CalculateSize
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.ClearAction
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.Clone
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.Descriptor
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(System.Object)
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.GetHashCode
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.Parser
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.Replace
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.ReplaceFieldNumber
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkId
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkIdFieldNumber
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.ToString
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.Update
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.UpdateFieldNumber
+  - LiveKit.Proto.UpdateSIPInboundTrunkRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: UpdateSIPInboundTrunkRequest
+  nameWithType: UpdateSIPInboundTrunkRequest
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateSIPInboundTrunkRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2503
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class UpdateSIPInboundTrunkRequest : IMessage<UpdateSIPInboundTrunkRequest>, IEquatable<UpdateSIPInboundTrunkRequest>, IDeepCloneable<UpdateSIPInboundTrunkRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class UpdateSIPInboundTrunkRequest Implements IMessage(Of UpdateSIPInboundTrunkRequest), IEquatable(Of UpdateSIPInboundTrunkRequest), IDeepCloneable(Of UpdateSIPInboundTrunkRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  - System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Parser
+  commentId: P:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: UpdateSIPInboundTrunkRequest.Parser
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2511
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<UpdateSIPInboundTrunkRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of UpdateSIPInboundTrunkRequest)
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Parser*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Descriptor
+  commentId: P:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: UpdateSIPInboundTrunkRequest.Descriptor
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2515
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Descriptor*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateSIPInboundTrunkRequest()
+  nameWithType: UpdateSIPInboundTrunkRequest.UpdateSIPInboundTrunkRequest()
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.UpdateSIPInboundTrunkRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2527
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateSIPInboundTrunkRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor*
+  nameWithType.vb: UpdateSIPInboundTrunkRequest.New()
+  fullName.vb: LiveKit.Proto.UpdateSIPInboundTrunkRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  id: '#ctor(LiveKit.Proto.UpdateSIPInboundTrunkRequest)'
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateSIPInboundTrunkRequest(UpdateSIPInboundTrunkRequest)
+  nameWithType: UpdateSIPInboundTrunkRequest.UpdateSIPInboundTrunkRequest(UpdateSIPInboundTrunkRequest)
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.UpdateSIPInboundTrunkRequest(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2535
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateSIPInboundTrunkRequest(UpdateSIPInboundTrunkRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    content.vb: Public Sub New(other As UpdateSIPInboundTrunkRequest)
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor*
+  nameWithType.vb: UpdateSIPInboundTrunkRequest.New(UpdateSIPInboundTrunkRequest)
+  fullName.vb: LiveKit.Proto.UpdateSIPInboundTrunkRequest.New(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  name.vb: New(UpdateSIPInboundTrunkRequest)
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Clone
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: UpdateSIPInboundTrunkRequest.Clone()
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2551
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public UpdateSIPInboundTrunkRequest Clone()
+    return:
+      type: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As UpdateSIPInboundTrunkRequest
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Clone
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkIdFieldNumber
+  commentId: F:LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkIdFieldNumber
+  id: SipTrunkIdFieldNumber
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: SipTrunkIdFieldNumber
+  nameWithType: UpdateSIPInboundTrunkRequest.SipTrunkIdFieldNumber
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipTrunkIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2558
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sip_trunk_id" field.
+  example: []
+  syntax:
+    content: public const int SipTrunkIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const SipTrunkIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkId
+  commentId: P:LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkId
+  id: SipTrunkId
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: SipTrunkId
+  nameWithType: UpdateSIPInboundTrunkRequest.SipTrunkId
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipTrunkId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2560
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string SipTrunkId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SipTrunkId As String
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkId*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ReplaceFieldNumber
+  commentId: F:LiveKit.Proto.UpdateSIPInboundTrunkRequest.ReplaceFieldNumber
+  id: ReplaceFieldNumber
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplaceFieldNumber
+  nameWithType: UpdateSIPInboundTrunkRequest.ReplaceFieldNumber
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ReplaceFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReplaceFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2570
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "replace" field.
+  example: []
+  syntax:
+    content: public const int ReplaceFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const ReplaceFieldNumber As Integer = 2
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Replace
+  commentId: P:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Replace
+  id: Replace
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: Replace
+  nameWithType: UpdateSIPInboundTrunkRequest.Replace
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Replace
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Replace
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2571
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPInboundTrunkInfo Replace { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPInboundTrunkInfo
+    content.vb: Public Property Replace As SIPInboundTrunkInfo
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Replace*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.UpdateFieldNumber
+  commentId: F:LiveKit.Proto.UpdateSIPInboundTrunkRequest.UpdateFieldNumber
+  id: UpdateFieldNumber
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateFieldNumber
+  nameWithType: UpdateSIPInboundTrunkRequest.UpdateFieldNumber
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.UpdateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2582
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "update" field.
+  example: []
+  syntax:
+    content: public const int UpdateFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdateFieldNumber As Integer = 3
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Update
+  commentId: P:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Update
+  id: Update
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: UpdateSIPInboundTrunkRequest.Update
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Update
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Update
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2583
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPInboundTrunkUpdate Update { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPInboundTrunkUpdate
+    content.vb: Public Property Update As SIPInboundTrunkUpdate
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Update*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionCase
+  commentId: P:LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionCase
+  id: ActionCase
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: ActionCase
+  nameWithType: UpdateSIPInboundTrunkRequest.ActionCase
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ActionCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2601
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateSIPInboundTrunkRequest.ActionOneofCase ActionCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionOneofCase
+    content.vb: Public ReadOnly Property ActionCase As UpdateSIPInboundTrunkRequest.ActionOneofCase
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionCase*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ClearAction
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.ClearAction
+  id: ClearAction
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearAction()
+  nameWithType: UpdateSIPInboundTrunkRequest.ClearAction()
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ClearAction()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearAction
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2607
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearAction()
+    content.vb: Public Sub ClearAction()
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ClearAction*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: UpdateSIPInboundTrunkRequest.Equals(object)
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2614
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals*
+  nameWithType.vb: UpdateSIPInboundTrunkRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  id: Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(UpdateSIPInboundTrunkRequest)
+  nameWithType: UpdateSIPInboundTrunkRequest.Equals(UpdateSIPInboundTrunkRequest)
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2620
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(UpdateSIPInboundTrunkRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As UpdateSIPInboundTrunkRequest) As Boolean
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.GetHashCode
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: UpdateSIPInboundTrunkRequest.GetHashCode()
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2636
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.GetHashCode*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ToString
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UpdateSIPInboundTrunkRequest.ToString()
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2650
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ToString*
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: UpdateSIPInboundTrunkRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2656
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.CalculateSize
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: UpdateSIPInboundTrunkRequest.CalculateSize()
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2702
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  id: MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(UpdateSIPInboundTrunkRequest)
+  nameWithType: UpdateSIPInboundTrunkRequest.MergeFrom(UpdateSIPInboundTrunkRequest)
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2721
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(UpdateSIPInboundTrunkRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    content.vb: Public Sub MergeFrom(other As UpdateSIPInboundTrunkRequest)
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: UpdateSIPInboundTrunkRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 2748
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  name: IMessage<UpdateSIPInboundTrunkRequest>
+  nameWithType: IMessage<UpdateSIPInboundTrunkRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.UpdateSIPInboundTrunkRequest>
+  nameWithType.vb: IMessage(Of UpdateSIPInboundTrunkRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  name.vb: IMessage(Of UpdateSIPInboundTrunkRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<UpdateSIPInboundTrunkRequest>
+  nameWithType: IEquatable<UpdateSIPInboundTrunkRequest>
+  fullName: System.IEquatable<LiveKit.Proto.UpdateSIPInboundTrunkRequest>
+  nameWithType.vb: IEquatable(Of UpdateSIPInboundTrunkRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  name.vb: IEquatable(Of UpdateSIPInboundTrunkRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  name: IDeepCloneable<UpdateSIPInboundTrunkRequest>
+  nameWithType: IDeepCloneable<UpdateSIPInboundTrunkRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.UpdateSIPInboundTrunkRequest>
+  nameWithType.vb: IDeepCloneable(Of UpdateSIPInboundTrunkRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  name.vb: IDeepCloneable(Of UpdateSIPInboundTrunkRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Parser*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Parser
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_Parser
+  name: Parser
+  nameWithType: UpdateSIPInboundTrunkRequest.Parser
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  name: MessageParser<UpdateSIPInboundTrunkRequest>
+  nameWithType: MessageParser<UpdateSIPInboundTrunkRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.UpdateSIPInboundTrunkRequest>
+  nameWithType.vb: MessageParser(Of UpdateSIPInboundTrunkRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  name.vb: MessageParser(Of UpdateSIPInboundTrunkRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Descriptor
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_Descriptor
+  name: Descriptor
+  nameWithType: UpdateSIPInboundTrunkRequest.Descriptor
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.#ctor
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest__ctor
+  name: UpdateSIPInboundTrunkRequest
+  nameWithType: UpdateSIPInboundTrunkRequest.UpdateSIPInboundTrunkRequest
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.UpdateSIPInboundTrunkRequest
+  nameWithType.vb: UpdateSIPInboundTrunkRequest.New
+  fullName.vb: LiveKit.Proto.UpdateSIPInboundTrunkRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  commentId: T:LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  name: UpdateSIPInboundTrunkRequest
+  nameWithType: UpdateSIPInboundTrunkRequest
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Clone*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Clone
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_Clone
+  name: Clone
+  nameWithType: UpdateSIPInboundTrunkRequest.Clone
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<UpdateSIPInboundTrunkRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.UpdateSIPInboundTrunkRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of UpdateSIPInboundTrunkRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.UpdateSIPInboundTrunkRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkId*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkId
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_SipTrunkId
+  name: SipTrunkId
+  nameWithType: UpdateSIPInboundTrunkRequest.SipTrunkId
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.SipTrunkId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Replace*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Replace
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_Replace
+  name: Replace
+  nameWithType: UpdateSIPInboundTrunkRequest.Replace
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Replace
+- uid: LiveKit.Proto.SIPInboundTrunkInfo
+  commentId: T:LiveKit.Proto.SIPInboundTrunkInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPInboundTrunkInfo.html
+  name: SIPInboundTrunkInfo
+  nameWithType: SIPInboundTrunkInfo
+  fullName: LiveKit.Proto.SIPInboundTrunkInfo
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Update*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Update
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_Update
+  name: Update
+  nameWithType: UpdateSIPInboundTrunkRequest.Update
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Update
+- uid: LiveKit.Proto.SIPInboundTrunkUpdate
+  commentId: T:LiveKit.Proto.SIPInboundTrunkUpdate
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPInboundTrunkUpdate.html
+  name: SIPInboundTrunkUpdate
+  nameWithType: SIPInboundTrunkUpdate
+  fullName: LiveKit.Proto.SIPInboundTrunkUpdate
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionCase*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionCase
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_ActionCase
+  name: ActionCase
+  nameWithType: UpdateSIPInboundTrunkRequest.ActionCase
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionCase
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionOneofCase
+  commentId: T:LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  name: UpdateSIPInboundTrunkRequest.ActionOneofCase
+  nameWithType: UpdateSIPInboundTrunkRequest.ActionOneofCase
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: .
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionOneofCase
+    name: ActionOneofCase
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: .
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionOneofCase
+    name: ActionOneofCase
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ActionOneofCase.html
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ClearAction*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.ClearAction
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_ClearAction
+  name: ClearAction
+  nameWithType: UpdateSIPInboundTrunkRequest.ClearAction
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ClearAction
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: UpdateSIPInboundTrunkRequest.Equals
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  parent: System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(UpdateSIPInboundTrunkRequest)
+  nameWithType: IEquatable<UpdateSIPInboundTrunkRequest>.Equals(UpdateSIPInboundTrunkRequest)
+  fullName: System.IEquatable<LiveKit.Proto.UpdateSIPInboundTrunkRequest>.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  nameWithType.vb: IEquatable(Of UpdateSIPInboundTrunkRequest).Equals(UpdateSIPInboundTrunkRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.UpdateSIPInboundTrunkRequest).Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.Equals(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.GetHashCode
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: UpdateSIPInboundTrunkRequest.GetHashCode
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ToString*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.ToString
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_ToString
+  name: ToString
+  nameWithType: UpdateSIPInboundTrunkRequest.ToString
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.ToString
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.WriteTo
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: UpdateSIPInboundTrunkRequest.WriteTo
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.CalculateSize
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: UpdateSIPInboundTrunkRequest.CalculateSize
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html#LiveKit_Proto_UpdateSIPInboundTrunkRequest_MergeFrom_LiveKit_Proto_UpdateSIPInboundTrunkRequest_
+  name: MergeFrom
+  nameWithType: UpdateSIPInboundTrunkRequest.MergeFrom
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  name: MergeFrom(UpdateSIPInboundTrunkRequest)
+  nameWithType: IMessage<UpdateSIPInboundTrunkRequest>.MergeFrom(UpdateSIPInboundTrunkRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.UpdateSIPInboundTrunkRequest>.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  nameWithType.vb: IMessage(Of UpdateSIPInboundTrunkRequest).MergeFrom(UpdateSIPInboundTrunkRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.UpdateSIPInboundTrunkRequest).MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSIPInboundTrunkRequest}.MergeFrom(LiveKit.Proto.UpdateSIPInboundTrunkRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    name: UpdateSIPInboundTrunkRequest
+    href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

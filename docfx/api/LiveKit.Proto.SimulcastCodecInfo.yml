@@ -1,0 +1,1865 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SimulcastCodecInfo
+  commentId: T:LiveKit.Proto.SimulcastCodecInfo
+  id: SimulcastCodecInfo
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SimulcastCodecInfo.#ctor
+  - LiveKit.Proto.SimulcastCodecInfo.#ctor(LiveKit.Proto.SimulcastCodecInfo)
+  - LiveKit.Proto.SimulcastCodecInfo.CalculateSize
+  - LiveKit.Proto.SimulcastCodecInfo.Cid
+  - LiveKit.Proto.SimulcastCodecInfo.CidFieldNumber
+  - LiveKit.Proto.SimulcastCodecInfo.Clone
+  - LiveKit.Proto.SimulcastCodecInfo.Descriptor
+  - LiveKit.Proto.SimulcastCodecInfo.Equals(LiveKit.Proto.SimulcastCodecInfo)
+  - LiveKit.Proto.SimulcastCodecInfo.Equals(System.Object)
+  - LiveKit.Proto.SimulcastCodecInfo.GetHashCode
+  - LiveKit.Proto.SimulcastCodecInfo.Layers
+  - LiveKit.Proto.SimulcastCodecInfo.LayersFieldNumber
+  - LiveKit.Proto.SimulcastCodecInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SimulcastCodecInfo.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  - LiveKit.Proto.SimulcastCodecInfo.Mid
+  - LiveKit.Proto.SimulcastCodecInfo.MidFieldNumber
+  - LiveKit.Proto.SimulcastCodecInfo.MimeType
+  - LiveKit.Proto.SimulcastCodecInfo.MimeTypeFieldNumber
+  - LiveKit.Proto.SimulcastCodecInfo.Parser
+  - LiveKit.Proto.SimulcastCodecInfo.SdpCid
+  - LiveKit.Proto.SimulcastCodecInfo.SdpCidFieldNumber
+  - LiveKit.Proto.SimulcastCodecInfo.ToString
+  - LiveKit.Proto.SimulcastCodecInfo.VideoLayerMode
+  - LiveKit.Proto.SimulcastCodecInfo.VideoLayerModeFieldNumber
+  - LiveKit.Proto.SimulcastCodecInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SimulcastCodecInfo
+  nameWithType: SimulcastCodecInfo
+  fullName: LiveKit.Proto.SimulcastCodecInfo
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SimulcastCodecInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3911
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SimulcastCodecInfo : IMessage<SimulcastCodecInfo>, IEquatable<SimulcastCodecInfo>, IDeepCloneable<SimulcastCodecInfo>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SimulcastCodecInfo Implements IMessage(Of SimulcastCodecInfo), IEquatable(Of SimulcastCodecInfo), IDeepCloneable(Of SimulcastCodecInfo), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}
+  - System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SimulcastCodecInfo.Parser
+  commentId: P:LiveKit.Proto.SimulcastCodecInfo.Parser
+  id: Parser
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SimulcastCodecInfo.Parser
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3919
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SimulcastCodecInfo> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SimulcastCodecInfo}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SimulcastCodecInfo)
+  overload: LiveKit.Proto.SimulcastCodecInfo.Parser*
+- uid: LiveKit.Proto.SimulcastCodecInfo.Descriptor
+  commentId: P:LiveKit.Proto.SimulcastCodecInfo.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SimulcastCodecInfo.Descriptor
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3923
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SimulcastCodecInfo.Descriptor*
+- uid: LiveKit.Proto.SimulcastCodecInfo.#ctor
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: SimulcastCodecInfo()
+  nameWithType: SimulcastCodecInfo.SimulcastCodecInfo()
+  fullName: LiveKit.Proto.SimulcastCodecInfo.SimulcastCodecInfo()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3935
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SimulcastCodecInfo()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SimulcastCodecInfo.#ctor*
+  nameWithType.vb: SimulcastCodecInfo.New()
+  fullName.vb: LiveKit.Proto.SimulcastCodecInfo.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SimulcastCodecInfo.#ctor(LiveKit.Proto.SimulcastCodecInfo)
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.#ctor(LiveKit.Proto.SimulcastCodecInfo)
+  id: '#ctor(LiveKit.Proto.SimulcastCodecInfo)'
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: SimulcastCodecInfo(SimulcastCodecInfo)
+  nameWithType: SimulcastCodecInfo.SimulcastCodecInfo(SimulcastCodecInfo)
+  fullName: LiveKit.Proto.SimulcastCodecInfo.SimulcastCodecInfo(LiveKit.Proto.SimulcastCodecInfo)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3943
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SimulcastCodecInfo(SimulcastCodecInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulcastCodecInfo
+    content.vb: Public Sub New(other As SimulcastCodecInfo)
+  overload: LiveKit.Proto.SimulcastCodecInfo.#ctor*
+  nameWithType.vb: SimulcastCodecInfo.New(SimulcastCodecInfo)
+  fullName.vb: LiveKit.Proto.SimulcastCodecInfo.New(LiveKit.Proto.SimulcastCodecInfo)
+  name.vb: New(SimulcastCodecInfo)
+- uid: LiveKit.Proto.SimulcastCodecInfo.Clone
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.Clone
+  id: Clone
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SimulcastCodecInfo.Clone()
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3955
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SimulcastCodecInfo Clone()
+    return:
+      type: LiveKit.Proto.SimulcastCodecInfo
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SimulcastCodecInfo
+  overload: LiveKit.Proto.SimulcastCodecInfo.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}.Clone
+- uid: LiveKit.Proto.SimulcastCodecInfo.MimeTypeFieldNumber
+  commentId: F:LiveKit.Proto.SimulcastCodecInfo.MimeTypeFieldNumber
+  id: MimeTypeFieldNumber
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: MimeTypeFieldNumber
+  nameWithType: SimulcastCodecInfo.MimeTypeFieldNumber
+  fullName: LiveKit.Proto.SimulcastCodecInfo.MimeTypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MimeTypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3962
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "mime_type" field.
+  example: []
+  syntax:
+    content: public const int MimeTypeFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const MimeTypeFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SimulcastCodecInfo.MimeType
+  commentId: P:LiveKit.Proto.SimulcastCodecInfo.MimeType
+  id: MimeType
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: SimulcastCodecInfo.MimeType
+  fullName: LiveKit.Proto.SimulcastCodecInfo.MimeType
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MimeType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3964
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MimeType As String
+  overload: LiveKit.Proto.SimulcastCodecInfo.MimeType*
+- uid: LiveKit.Proto.SimulcastCodecInfo.MidFieldNumber
+  commentId: F:LiveKit.Proto.SimulcastCodecInfo.MidFieldNumber
+  id: MidFieldNumber
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: MidFieldNumber
+  nameWithType: SimulcastCodecInfo.MidFieldNumber
+  fullName: LiveKit.Proto.SimulcastCodecInfo.MidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3974
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "mid" field.
+  example: []
+  syntax:
+    content: public const int MidFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const MidFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SimulcastCodecInfo.Mid
+  commentId: P:LiveKit.Proto.SimulcastCodecInfo.Mid
+  id: Mid
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: Mid
+  nameWithType: SimulcastCodecInfo.Mid
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Mid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Mid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3976
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Mid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Mid As String
+  overload: LiveKit.Proto.SimulcastCodecInfo.Mid*
+- uid: LiveKit.Proto.SimulcastCodecInfo.CidFieldNumber
+  commentId: F:LiveKit.Proto.SimulcastCodecInfo.CidFieldNumber
+  id: CidFieldNumber
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: CidFieldNumber
+  nameWithType: SimulcastCodecInfo.CidFieldNumber
+  fullName: LiveKit.Proto.SimulcastCodecInfo.CidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3986
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "cid" field.
+  example: []
+  syntax:
+    content: public const int CidFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const CidFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SimulcastCodecInfo.Cid
+  commentId: P:LiveKit.Proto.SimulcastCodecInfo.Cid
+  id: Cid
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: Cid
+  nameWithType: SimulcastCodecInfo.Cid
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Cid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Cid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3988
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Cid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Cid As String
+  overload: LiveKit.Proto.SimulcastCodecInfo.Cid*
+- uid: LiveKit.Proto.SimulcastCodecInfo.LayersFieldNumber
+  commentId: F:LiveKit.Proto.SimulcastCodecInfo.LayersFieldNumber
+  id: LayersFieldNumber
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: LayersFieldNumber
+  nameWithType: SimulcastCodecInfo.LayersFieldNumber
+  fullName: LiveKit.Proto.SimulcastCodecInfo.LayersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LayersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 3998
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "layers" field.
+  example: []
+  syntax:
+    content: public const int LayersFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const LayersFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SimulcastCodecInfo.Layers
+  commentId: P:LiveKit.Proto.SimulcastCodecInfo.Layers
+  id: Layers
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: Layers
+  nameWithType: SimulcastCodecInfo.Layers
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Layers
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Layers
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4002
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<VideoLayer> Layers { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.VideoLayer}
+    content.vb: Public ReadOnly Property Layers As RepeatedField(Of VideoLayer)
+  overload: LiveKit.Proto.SimulcastCodecInfo.Layers*
+- uid: LiveKit.Proto.SimulcastCodecInfo.VideoLayerModeFieldNumber
+  commentId: F:LiveKit.Proto.SimulcastCodecInfo.VideoLayerModeFieldNumber
+  id: VideoLayerModeFieldNumber
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: VideoLayerModeFieldNumber
+  nameWithType: SimulcastCodecInfo.VideoLayerModeFieldNumber
+  fullName: LiveKit.Proto.SimulcastCodecInfo.VideoLayerModeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoLayerModeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4009
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "video_layer_mode" field.
+  example: []
+  syntax:
+    content: public const int VideoLayerModeFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const VideoLayerModeFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SimulcastCodecInfo.VideoLayerMode
+  commentId: P:LiveKit.Proto.SimulcastCodecInfo.VideoLayerMode
+  id: VideoLayerMode
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: VideoLayerMode
+  nameWithType: SimulcastCodecInfo.VideoLayerMode
+  fullName: LiveKit.Proto.SimulcastCodecInfo.VideoLayerMode
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoLayerMode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4011
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public VideoLayer.Types.Mode VideoLayerMode { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.VideoLayer.Types.Mode
+    content.vb: Public Property VideoLayerMode As VideoLayer.Types.Mode
+  overload: LiveKit.Proto.SimulcastCodecInfo.VideoLayerMode*
+- uid: LiveKit.Proto.SimulcastCodecInfo.SdpCidFieldNumber
+  commentId: F:LiveKit.Proto.SimulcastCodecInfo.SdpCidFieldNumber
+  id: SdpCidFieldNumber
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: SdpCidFieldNumber
+  nameWithType: SimulcastCodecInfo.SdpCidFieldNumber
+  fullName: LiveKit.Proto.SimulcastCodecInfo.SdpCidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SdpCidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4021
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sdp_cid" field.
+  example: []
+  syntax:
+    content: public const int SdpCidFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const SdpCidFieldNumber As Integer = 6
+- uid: LiveKit.Proto.SimulcastCodecInfo.SdpCid
+  commentId: P:LiveKit.Proto.SimulcastCodecInfo.SdpCid
+  id: SdpCid
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: SdpCid
+  nameWithType: SimulcastCodecInfo.SdpCid
+  fullName: LiveKit.Proto.SimulcastCodecInfo.SdpCid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SdpCid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4029
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    cid (client side id for track) could be different between
+
+    signalling (AddTrackRequest) and SDP offer. This field
+
+    will be populated only if it is different to avoid
+
+    duplication and keep the representation concise.
+  example: []
+  syntax:
+    content: public string SdpCid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SdpCid As String
+  overload: LiveKit.Proto.SimulcastCodecInfo.SdpCid*
+- uid: LiveKit.Proto.SimulcastCodecInfo.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SimulcastCodecInfo.Equals(object)
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4038
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SimulcastCodecInfo.Equals*
+  nameWithType.vb: SimulcastCodecInfo.Equals(Object)
+  fullName.vb: LiveKit.Proto.SimulcastCodecInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SimulcastCodecInfo.Equals(LiveKit.Proto.SimulcastCodecInfo)
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.Equals(LiveKit.Proto.SimulcastCodecInfo)
+  id: Equals(LiveKit.Proto.SimulcastCodecInfo)
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(SimulcastCodecInfo)
+  nameWithType: SimulcastCodecInfo.Equals(SimulcastCodecInfo)
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Equals(LiveKit.Proto.SimulcastCodecInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4044
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SimulcastCodecInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulcastCodecInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SimulcastCodecInfo) As Boolean
+  overload: LiveKit.Proto.SimulcastCodecInfo.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}.Equals(LiveKit.Proto.SimulcastCodecInfo)
+- uid: LiveKit.Proto.SimulcastCodecInfo.GetHashCode
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SimulcastCodecInfo.GetHashCode()
+  fullName: LiveKit.Proto.SimulcastCodecInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4062
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SimulcastCodecInfo.GetHashCode*
+- uid: LiveKit.Proto.SimulcastCodecInfo.ToString
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.ToString
+  id: ToString
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SimulcastCodecInfo.ToString()
+  fullName: LiveKit.Proto.SimulcastCodecInfo.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4078
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SimulcastCodecInfo.ToString*
+- uid: LiveKit.Proto.SimulcastCodecInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SimulcastCodecInfo.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SimulcastCodecInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4084
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SimulcastCodecInfo.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SimulcastCodecInfo.CalculateSize
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SimulcastCodecInfo.CalculateSize()
+  fullName: LiveKit.Proto.SimulcastCodecInfo.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4148
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SimulcastCodecInfo.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SimulcastCodecInfo.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  id: MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SimulcastCodecInfo)
+  nameWithType: SimulcastCodecInfo.MergeFrom(SimulcastCodecInfo)
+  fullName: LiveKit.Proto.SimulcastCodecInfo.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4174
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SimulcastCodecInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulcastCodecInfo
+    content.vb: Public Sub MergeFrom(other As SimulcastCodecInfo)
+  overload: LiveKit.Proto.SimulcastCodecInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+- uid: LiveKit.Proto.SimulcastCodecInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SimulcastCodecInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SimulcastCodecInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SimulcastCodecInfo.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SimulcastCodecInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 4199
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SimulcastCodecInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SimulcastCodecInfo.html
+  name: IMessage<SimulcastCodecInfo>
+  nameWithType: IMessage<SimulcastCodecInfo>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SimulcastCodecInfo>
+  nameWithType.vb: IMessage(Of SimulcastCodecInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SimulcastCodecInfo)
+  name.vb: IMessage(Of SimulcastCodecInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}
+  commentId: T:System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SimulcastCodecInfo>
+  nameWithType: IEquatable<SimulcastCodecInfo>
+  fullName: System.IEquatable<LiveKit.Proto.SimulcastCodecInfo>
+  nameWithType.vb: IEquatable(Of SimulcastCodecInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SimulcastCodecInfo)
+  name.vb: IEquatable(Of SimulcastCodecInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SimulcastCodecInfo.html
+  name: IDeepCloneable<SimulcastCodecInfo>
+  nameWithType: IDeepCloneable<SimulcastCodecInfo>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SimulcastCodecInfo>
+  nameWithType.vb: IDeepCloneable(Of SimulcastCodecInfo)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SimulcastCodecInfo)
+  name.vb: IDeepCloneable(Of SimulcastCodecInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SimulcastCodecInfo.Parser*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.Parser
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_Parser
+  name: Parser
+  nameWithType: SimulcastCodecInfo.Parser
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SimulcastCodecInfo}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SimulcastCodecInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SimulcastCodecInfo.html
+  name: MessageParser<SimulcastCodecInfo>
+  nameWithType: MessageParser<SimulcastCodecInfo>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SimulcastCodecInfo>
+  nameWithType.vb: MessageParser(Of SimulcastCodecInfo)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SimulcastCodecInfo)
+  name.vb: MessageParser(Of SimulcastCodecInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SimulcastCodecInfo.Descriptor*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.Descriptor
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_Descriptor
+  name: Descriptor
+  nameWithType: SimulcastCodecInfo.Descriptor
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SimulcastCodecInfo.#ctor*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.#ctor
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo__ctor
+  name: SimulcastCodecInfo
+  nameWithType: SimulcastCodecInfo.SimulcastCodecInfo
+  fullName: LiveKit.Proto.SimulcastCodecInfo.SimulcastCodecInfo
+  nameWithType.vb: SimulcastCodecInfo.New
+  fullName.vb: LiveKit.Proto.SimulcastCodecInfo.New
+  name.vb: New
+- uid: LiveKit.Proto.SimulcastCodecInfo
+  commentId: T:LiveKit.Proto.SimulcastCodecInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SimulcastCodecInfo.html
+  name: SimulcastCodecInfo
+  nameWithType: SimulcastCodecInfo
+  fullName: LiveKit.Proto.SimulcastCodecInfo
+- uid: LiveKit.Proto.SimulcastCodecInfo.Clone*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.Clone
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_Clone
+  name: Clone
+  nameWithType: SimulcastCodecInfo.Clone
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SimulcastCodecInfo>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SimulcastCodecInfo>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SimulcastCodecInfo).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SimulcastCodecInfo).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulcastCodecInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SimulcastCodecInfo.MimeType*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.MimeType
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_MimeType
+  name: MimeType
+  nameWithType: SimulcastCodecInfo.MimeType
+  fullName: LiveKit.Proto.SimulcastCodecInfo.MimeType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SimulcastCodecInfo.Mid*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.Mid
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_Mid
+  name: Mid
+  nameWithType: SimulcastCodecInfo.Mid
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Mid
+- uid: LiveKit.Proto.SimulcastCodecInfo.Cid*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.Cid
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_Cid
+  name: Cid
+  nameWithType: SimulcastCodecInfo.Cid
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Cid
+- uid: LiveKit.Proto.SimulcastCodecInfo.Layers*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.Layers
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_Layers
+  name: Layers
+  nameWithType: SimulcastCodecInfo.Layers
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Layers
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.VideoLayer}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.VideoLayer}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.VideoLayer.html
+  name: RepeatedField<VideoLayer>
+  nameWithType: RepeatedField<VideoLayer>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.VideoLayer>
+  nameWithType.vb: RepeatedField(Of VideoLayer)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.VideoLayer)
+  name.vb: RepeatedField(Of VideoLayer)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.SimulcastCodecInfo.VideoLayerMode*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.VideoLayerMode
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_VideoLayerMode
+  name: VideoLayerMode
+  nameWithType: SimulcastCodecInfo.VideoLayerMode
+  fullName: LiveKit.Proto.SimulcastCodecInfo.VideoLayerMode
+- uid: LiveKit.Proto.VideoLayer.Types.Mode
+  commentId: T:LiveKit.Proto.VideoLayer.Types.Mode
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.VideoLayer.html
+  name: VideoLayer.Types.Mode
+  nameWithType: VideoLayer.Types.Mode
+  fullName: LiveKit.Proto.VideoLayer.Types.Mode
+  spec.csharp:
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: .
+  - uid: LiveKit.Proto.VideoLayer.Types
+    name: Types
+    href: LiveKit.Proto.VideoLayer.Types.html
+  - name: .
+  - uid: LiveKit.Proto.VideoLayer.Types.Mode
+    name: Mode
+    href: LiveKit.Proto.VideoLayer.Types.Mode.html
+  spec.vb:
+  - uid: LiveKit.Proto.VideoLayer
+    name: VideoLayer
+    href: LiveKit.Proto.VideoLayer.html
+  - name: .
+  - uid: LiveKit.Proto.VideoLayer.Types
+    name: Types
+    href: LiveKit.Proto.VideoLayer.Types.html
+  - name: .
+  - uid: LiveKit.Proto.VideoLayer.Types.Mode
+    name: Mode
+    href: LiveKit.Proto.VideoLayer.Types.Mode.html
+- uid: LiveKit.Proto.SimulcastCodecInfo.SdpCid*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.SdpCid
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_SdpCid
+  name: SdpCid
+  nameWithType: SimulcastCodecInfo.SdpCid
+  fullName: LiveKit.Proto.SimulcastCodecInfo.SdpCid
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SimulcastCodecInfo.Equals*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.Equals
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_Equals_System_Object_
+  name: Equals
+  nameWithType: SimulcastCodecInfo.Equals
+  fullName: LiveKit.Proto.SimulcastCodecInfo.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}.Equals(LiveKit.Proto.SimulcastCodecInfo)
+  commentId: M:System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}.Equals(LiveKit.Proto.SimulcastCodecInfo)
+  parent: System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SimulcastCodecInfo)
+  nameWithType: IEquatable<SimulcastCodecInfo>.Equals(SimulcastCodecInfo)
+  fullName: System.IEquatable<LiveKit.Proto.SimulcastCodecInfo>.Equals(LiveKit.Proto.SimulcastCodecInfo)
+  nameWithType.vb: IEquatable(Of SimulcastCodecInfo).Equals(SimulcastCodecInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SimulcastCodecInfo).Equals(LiveKit.Proto.SimulcastCodecInfo)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}.Equals(LiveKit.Proto.SimulcastCodecInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SimulcastCodecInfo}.Equals(LiveKit.Proto.SimulcastCodecInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulcastCodecInfo.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.GetHashCode
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: SimulcastCodecInfo.GetHashCode
+  fullName: LiveKit.Proto.SimulcastCodecInfo.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulcastCodecInfo.ToString*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.ToString
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_ToString
+  name: ToString
+  nameWithType: SimulcastCodecInfo.ToString
+  fullName: LiveKit.Proto.SimulcastCodecInfo.ToString
+- uid: LiveKit.Proto.SimulcastCodecInfo.WriteTo*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.WriteTo
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SimulcastCodecInfo.WriteTo
+  fullName: LiveKit.Proto.SimulcastCodecInfo.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SimulcastCodecInfo.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.CalculateSize
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_CalculateSize
+  name: CalculateSize
+  nameWithType: SimulcastCodecInfo.CalculateSize
+  fullName: LiveKit.Proto.SimulcastCodecInfo.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulcastCodecInfo.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SimulcastCodecInfo.MergeFrom
+  href: LiveKit.Proto.SimulcastCodecInfo.html#LiveKit_Proto_SimulcastCodecInfo_MergeFrom_LiveKit_Proto_SimulcastCodecInfo_
+  name: MergeFrom
+  nameWithType: SimulcastCodecInfo.MergeFrom
+  fullName: LiveKit.Proto.SimulcastCodecInfo.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SimulcastCodecInfo.html
+  name: MergeFrom(SimulcastCodecInfo)
+  nameWithType: IMessage<SimulcastCodecInfo>.MergeFrom(SimulcastCodecInfo)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SimulcastCodecInfo>.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  nameWithType.vb: IMessage(Of SimulcastCodecInfo).MergeFrom(SimulcastCodecInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SimulcastCodecInfo).MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulcastCodecInfo}.MergeFrom(LiveKit.Proto.SimulcastCodecInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SimulcastCodecInfo
+    name: SimulcastCodecInfo
+    href: LiveKit.Proto.SimulcastCodecInfo.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

@@ -1,0 +1,1086 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.ILiveKitCloudAgentService
+  commentId: T:LiveKit.Services.ILiveKitCloudAgentService
+  id: ILiveKitCloudAgentService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.ILiveKitCloudAgentService.CreateAgentAsync(LiveKit.Proto.CreateAgentRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.DeleteAgentAsync(LiveKit.Proto.DeleteAgentRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.DeployAgentAsync(LiveKit.Proto.DeployAgentRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.GetClientSettingsAsync(LiveKit.Proto.ClientSettingsRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.ListAgentSecretsAsync(LiveKit.Proto.ListAgentSecretsRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.ListAgentVersionsAsync(LiveKit.Proto.ListAgentVersionsRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.ListAgentsAsync(LiveKit.Proto.ListAgentsRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.RestartAgentAsync(LiveKit.Proto.RestartAgentRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.RollbackAgentAsync(LiveKit.Proto.RollbackAgentRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentAsync(LiveKit.Proto.UpdateAgentRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentSecretsAsync(LiveKit.Proto.UpdateAgentSecretsRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitCloudAgentService
+  nameWithType: ILiveKitCloudAgentService
+  fullName: LiveKit.Services.ILiveKitCloudAgentService
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitCloudAgentService
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 13
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Service for managing LiveKit Cloud agents.
+
+    <p>
+
+    Provides methods for deploying, managing, and monitoring AI agent deployments on LiveKit Cloud.
+
+    See <a href="https://docs.livekit.io/reference/server/server-apis/#cloud-agent-service">Cloud Agent Service Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitCloudAgentService
+    content.vb: Public Interface ILiveKitCloudAgentService
+- uid: LiveKit.Services.ILiveKitCloudAgentService.CreateAgentAsync(LiveKit.Proto.CreateAgentRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.CreateAgentAsync(LiveKit.Proto.CreateAgentRequest,System.Threading.CancellationToken)
+  id: CreateAgentAsync(LiveKit.Proto.CreateAgentRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: CreateAgentAsync(CreateAgentRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.CreateAgentAsync(CreateAgentRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.CreateAgentAsync(LiveKit.Proto.CreateAgentRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateAgentAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 18
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Creates a new agent deployment.
+  example: []
+  syntax:
+    content: Task<CreateAgentResponse> CreateAgentAsync(CreateAgentRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateAgentRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.CreateAgentResponse}
+    content.vb: Function CreateAgentAsync(request As CreateAgentRequest, cancellationToken As CancellationToken = Nothing) As Task(Of CreateAgentResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.CreateAgentAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.ListAgentsAsync(LiveKit.Proto.ListAgentsRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.ListAgentsAsync(LiveKit.Proto.ListAgentsRequest,System.Threading.CancellationToken)
+  id: ListAgentsAsync(LiveKit.Proto.ListAgentsRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: ListAgentsAsync(ListAgentsRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.ListAgentsAsync(ListAgentsRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.ListAgentsAsync(LiveKit.Proto.ListAgentsRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListAgentsAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 23
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists agents in the project.
+  example: []
+  syntax:
+    content: Task<ListAgentsResponse> ListAgentsAsync(ListAgentsRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListAgentsRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentsResponse}
+    content.vb: Function ListAgentsAsync(request As ListAgentsRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListAgentsResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.ListAgentsAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.ListAgentVersionsAsync(LiveKit.Proto.ListAgentVersionsRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.ListAgentVersionsAsync(LiveKit.Proto.ListAgentVersionsRequest,System.Threading.CancellationToken)
+  id: ListAgentVersionsAsync(LiveKit.Proto.ListAgentVersionsRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: ListAgentVersionsAsync(ListAgentVersionsRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.ListAgentVersionsAsync(ListAgentVersionsRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.ListAgentVersionsAsync(LiveKit.Proto.ListAgentVersionsRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListAgentVersionsAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 28
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists versions of an agent.
+  example: []
+  syntax:
+    content: Task<ListAgentVersionsResponse> ListAgentVersionsAsync(ListAgentVersionsRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListAgentVersionsRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentVersionsResponse}
+    content.vb: Function ListAgentVersionsAsync(request As ListAgentVersionsRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListAgentVersionsResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.ListAgentVersionsAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.ListAgentSecretsAsync(LiveKit.Proto.ListAgentSecretsRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.ListAgentSecretsAsync(LiveKit.Proto.ListAgentSecretsRequest,System.Threading.CancellationToken)
+  id: ListAgentSecretsAsync(LiveKit.Proto.ListAgentSecretsRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: ListAgentSecretsAsync(ListAgentSecretsRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.ListAgentSecretsAsync(ListAgentSecretsRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.ListAgentSecretsAsync(LiveKit.Proto.ListAgentSecretsRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListAgentSecretsAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 33
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists secrets for an agent.
+  example: []
+  syntax:
+    content: Task<ListAgentSecretsResponse> ListAgentSecretsAsync(ListAgentSecretsRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListAgentSecretsRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentSecretsResponse}
+    content.vb: Function ListAgentSecretsAsync(request As ListAgentSecretsRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListAgentSecretsResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.ListAgentSecretsAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentAsync(LiveKit.Proto.UpdateAgentRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentAsync(LiveKit.Proto.UpdateAgentRequest,System.Threading.CancellationToken)
+  id: UpdateAgentAsync(LiveKit.Proto.UpdateAgentRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: UpdateAgentAsync(UpdateAgentRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.UpdateAgentAsync(UpdateAgentRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentAsync(LiveKit.Proto.UpdateAgentRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateAgentAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 38
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates an existing agent.
+  example: []
+  syntax:
+    content: Task<UpdateAgentResponse> UpdateAgentAsync(UpdateAgentRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateAgentRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.UpdateAgentResponse}
+    content.vb: Function UpdateAgentAsync(request As UpdateAgentRequest, cancellationToken As CancellationToken = Nothing) As Task(Of UpdateAgentResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.RestartAgentAsync(LiveKit.Proto.RestartAgentRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.RestartAgentAsync(LiveKit.Proto.RestartAgentRequest,System.Threading.CancellationToken)
+  id: RestartAgentAsync(LiveKit.Proto.RestartAgentRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: RestartAgentAsync(RestartAgentRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.RestartAgentAsync(RestartAgentRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.RestartAgentAsync(LiveKit.Proto.RestartAgentRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RestartAgentAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 43
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Restarts an agent deployment.
+  example: []
+  syntax:
+    content: Task<RestartAgentResponse> RestartAgentAsync(RestartAgentRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.RestartAgentRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.RestartAgentResponse}
+    content.vb: Function RestartAgentAsync(request As RestartAgentRequest, cancellationToken As CancellationToken = Nothing) As Task(Of RestartAgentResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.RestartAgentAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.DeployAgentAsync(LiveKit.Proto.DeployAgentRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.DeployAgentAsync(LiveKit.Proto.DeployAgentRequest,System.Threading.CancellationToken)
+  id: DeployAgentAsync(LiveKit.Proto.DeployAgentRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: DeployAgentAsync(DeployAgentRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.DeployAgentAsync(DeployAgentRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.DeployAgentAsync(LiveKit.Proto.DeployAgentRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeployAgentAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 48
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Deploys a new version of an agent.
+  example: []
+  syntax:
+    content: Task<DeployAgentResponse> DeployAgentAsync(DeployAgentRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.DeployAgentRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.DeployAgentResponse}
+    content.vb: Function DeployAgentAsync(request As DeployAgentRequest, cancellationToken As CancellationToken = Nothing) As Task(Of DeployAgentResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.DeployAgentAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentSecretsAsync(LiveKit.Proto.UpdateAgentSecretsRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentSecretsAsync(LiveKit.Proto.UpdateAgentSecretsRequest,System.Threading.CancellationToken)
+  id: UpdateAgentSecretsAsync(LiveKit.Proto.UpdateAgentSecretsRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: UpdateAgentSecretsAsync(UpdateAgentSecretsRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.UpdateAgentSecretsAsync(UpdateAgentSecretsRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentSecretsAsync(LiveKit.Proto.UpdateAgentSecretsRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateAgentSecretsAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 53
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates secrets for an agent.
+  example: []
+  syntax:
+    content: Task<UpdateAgentSecretsResponse> UpdateAgentSecretsAsync(UpdateAgentSecretsRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateAgentSecretsRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.UpdateAgentSecretsResponse}
+    content.vb: Function UpdateAgentSecretsAsync(request As UpdateAgentSecretsRequest, cancellationToken As CancellationToken = Nothing) As Task(Of UpdateAgentSecretsResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentSecretsAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.RollbackAgentAsync(LiveKit.Proto.RollbackAgentRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.RollbackAgentAsync(LiveKit.Proto.RollbackAgentRequest,System.Threading.CancellationToken)
+  id: RollbackAgentAsync(LiveKit.Proto.RollbackAgentRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: RollbackAgentAsync(RollbackAgentRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.RollbackAgentAsync(RollbackAgentRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.RollbackAgentAsync(LiveKit.Proto.RollbackAgentRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RollbackAgentAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 58
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Rolls back an agent to a previous version.
+  example: []
+  syntax:
+    content: Task<RollbackAgentResponse> RollbackAgentAsync(RollbackAgentRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.RollbackAgentRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.RollbackAgentResponse}
+    content.vb: Function RollbackAgentAsync(request As RollbackAgentRequest, cancellationToken As CancellationToken = Nothing) As Task(Of RollbackAgentResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.RollbackAgentAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.DeleteAgentAsync(LiveKit.Proto.DeleteAgentRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.DeleteAgentAsync(LiveKit.Proto.DeleteAgentRequest,System.Threading.CancellationToken)
+  id: DeleteAgentAsync(LiveKit.Proto.DeleteAgentRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: DeleteAgentAsync(DeleteAgentRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.DeleteAgentAsync(DeleteAgentRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.DeleteAgentAsync(LiveKit.Proto.DeleteAgentRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteAgentAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 63
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Deletes an agent deployment.
+  example: []
+  syntax:
+    content: Task<DeleteAgentResponse> DeleteAgentAsync(DeleteAgentRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.DeleteAgentRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.DeleteAgentResponse}
+    content.vb: Function DeleteAgentAsync(request As DeleteAgentRequest, cancellationToken As CancellationToken = Nothing) As Task(Of DeleteAgentResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.DeleteAgentAsync*
+- uid: LiveKit.Services.ILiveKitCloudAgentService.GetClientSettingsAsync(LiveKit.Proto.ClientSettingsRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitCloudAgentService.GetClientSettingsAsync(LiveKit.Proto.ClientSettingsRequest,System.Threading.CancellationToken)
+  id: GetClientSettingsAsync(LiveKit.Proto.ClientSettingsRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitCloudAgentService
+  langs:
+  - csharp
+  - vb
+  name: GetClientSettingsAsync(ClientSettingsRequest, CancellationToken)
+  nameWithType: ILiveKitCloudAgentService.GetClientSettingsAsync(ClientSettingsRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.GetClientSettingsAsync(LiveKit.Proto.ClientSettingsRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetClientSettingsAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitCloudAgentService.cs
+    startLine: 68
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Gets client settings.
+  example: []
+  syntax:
+    content: Task<ClientSettingsResponse> GetClientSettingsAsync(ClientSettingsRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ClientSettingsRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ClientSettingsResponse}
+    content.vb: Function GetClientSettingsAsync(request As ClientSettingsRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ClientSettingsResponse)
+  overload: LiveKit.Services.ILiveKitCloudAgentService.GetClientSettingsAsync*
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: LiveKit.Services.ILiveKitCloudAgentService.CreateAgentAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.CreateAgentAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_CreateAgentAsync_LiveKit_Proto_CreateAgentRequest_System_Threading_CancellationToken_
+  name: CreateAgentAsync
+  nameWithType: ILiveKitCloudAgentService.CreateAgentAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.CreateAgentAsync
+- uid: LiveKit.Proto.CreateAgentRequest
+  commentId: T:LiveKit.Proto.CreateAgentRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateAgentRequest.html
+  name: CreateAgentRequest
+  nameWithType: CreateAgentRequest
+  fullName: LiveKit.Proto.CreateAgentRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.CreateAgentResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.CreateAgentResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CreateAgentResponse>
+  nameWithType: Task<CreateAgentResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.CreateAgentResponse>
+  nameWithType.vb: Task(Of CreateAgentResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.CreateAgentResponse)
+  name.vb: Task(Of CreateAgentResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.CreateAgentResponse
+    name: CreateAgentResponse
+    href: LiveKit.Proto.CreateAgentResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.CreateAgentResponse
+    name: CreateAgentResponse
+    href: LiveKit.Proto.CreateAgentResponse.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.ILiveKitCloudAgentService.ListAgentsAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.ListAgentsAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_ListAgentsAsync_LiveKit_Proto_ListAgentsRequest_System_Threading_CancellationToken_
+  name: ListAgentsAsync
+  nameWithType: ILiveKitCloudAgentService.ListAgentsAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.ListAgentsAsync
+- uid: LiveKit.Proto.ListAgentsRequest
+  commentId: T:LiveKit.Proto.ListAgentsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListAgentsRequest.html
+  name: ListAgentsRequest
+  nameWithType: ListAgentsRequest
+  fullName: LiveKit.Proto.ListAgentsRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentsResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListAgentsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListAgentsResponse>
+  nameWithType: Task<ListAgentsResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListAgentsResponse>
+  nameWithType.vb: Task(Of ListAgentsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListAgentsResponse)
+  name.vb: Task(Of ListAgentsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListAgentsResponse
+    name: ListAgentsResponse
+    href: LiveKit.Proto.ListAgentsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListAgentsResponse
+    name: ListAgentsResponse
+    href: LiveKit.Proto.ListAgentsResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.ListAgentVersionsAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.ListAgentVersionsAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_ListAgentVersionsAsync_LiveKit_Proto_ListAgentVersionsRequest_System_Threading_CancellationToken_
+  name: ListAgentVersionsAsync
+  nameWithType: ILiveKitCloudAgentService.ListAgentVersionsAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.ListAgentVersionsAsync
+- uid: LiveKit.Proto.ListAgentVersionsRequest
+  commentId: T:LiveKit.Proto.ListAgentVersionsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListAgentVersionsRequest.html
+  name: ListAgentVersionsRequest
+  nameWithType: ListAgentVersionsRequest
+  fullName: LiveKit.Proto.ListAgentVersionsRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentVersionsResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListAgentVersionsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListAgentVersionsResponse>
+  nameWithType: Task<ListAgentVersionsResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListAgentVersionsResponse>
+  nameWithType.vb: Task(Of ListAgentVersionsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListAgentVersionsResponse)
+  name.vb: Task(Of ListAgentVersionsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListAgentVersionsResponse
+    name: ListAgentVersionsResponse
+    href: LiveKit.Proto.ListAgentVersionsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListAgentVersionsResponse
+    name: ListAgentVersionsResponse
+    href: LiveKit.Proto.ListAgentVersionsResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.ListAgentSecretsAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.ListAgentSecretsAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_ListAgentSecretsAsync_LiveKit_Proto_ListAgentSecretsRequest_System_Threading_CancellationToken_
+  name: ListAgentSecretsAsync
+  nameWithType: ILiveKitCloudAgentService.ListAgentSecretsAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.ListAgentSecretsAsync
+- uid: LiveKit.Proto.ListAgentSecretsRequest
+  commentId: T:LiveKit.Proto.ListAgentSecretsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListAgentSecretsRequest.html
+  name: ListAgentSecretsRequest
+  nameWithType: ListAgentSecretsRequest
+  fullName: LiveKit.Proto.ListAgentSecretsRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListAgentSecretsResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListAgentSecretsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListAgentSecretsResponse>
+  nameWithType: Task<ListAgentSecretsResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListAgentSecretsResponse>
+  nameWithType.vb: Task(Of ListAgentSecretsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListAgentSecretsResponse)
+  name.vb: Task(Of ListAgentSecretsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListAgentSecretsResponse
+    name: ListAgentSecretsResponse
+    href: LiveKit.Proto.ListAgentSecretsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListAgentSecretsResponse
+    name: ListAgentSecretsResponse
+    href: LiveKit.Proto.ListAgentSecretsResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_UpdateAgentAsync_LiveKit_Proto_UpdateAgentRequest_System_Threading_CancellationToken_
+  name: UpdateAgentAsync
+  nameWithType: ILiveKitCloudAgentService.UpdateAgentAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentAsync
+- uid: LiveKit.Proto.UpdateAgentRequest
+  commentId: T:LiveKit.Proto.UpdateAgentRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateAgentRequest.html
+  name: UpdateAgentRequest
+  nameWithType: UpdateAgentRequest
+  fullName: LiveKit.Proto.UpdateAgentRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.UpdateAgentResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.UpdateAgentResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UpdateAgentResponse>
+  nameWithType: Task<UpdateAgentResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.UpdateAgentResponse>
+  nameWithType.vb: Task(Of UpdateAgentResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.UpdateAgentResponse)
+  name.vb: Task(Of UpdateAgentResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.UpdateAgentResponse
+    name: UpdateAgentResponse
+    href: LiveKit.Proto.UpdateAgentResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateAgentResponse
+    name: UpdateAgentResponse
+    href: LiveKit.Proto.UpdateAgentResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.RestartAgentAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.RestartAgentAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_RestartAgentAsync_LiveKit_Proto_RestartAgentRequest_System_Threading_CancellationToken_
+  name: RestartAgentAsync
+  nameWithType: ILiveKitCloudAgentService.RestartAgentAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.RestartAgentAsync
+- uid: LiveKit.Proto.RestartAgentRequest
+  commentId: T:LiveKit.Proto.RestartAgentRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RestartAgentRequest.html
+  name: RestartAgentRequest
+  nameWithType: RestartAgentRequest
+  fullName: LiveKit.Proto.RestartAgentRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.RestartAgentResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.RestartAgentResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RestartAgentResponse>
+  nameWithType: Task<RestartAgentResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.RestartAgentResponse>
+  nameWithType.vb: Task(Of RestartAgentResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.RestartAgentResponse)
+  name.vb: Task(Of RestartAgentResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.RestartAgentResponse
+    name: RestartAgentResponse
+    href: LiveKit.Proto.RestartAgentResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RestartAgentResponse
+    name: RestartAgentResponse
+    href: LiveKit.Proto.RestartAgentResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.DeployAgentAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.DeployAgentAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_DeployAgentAsync_LiveKit_Proto_DeployAgentRequest_System_Threading_CancellationToken_
+  name: DeployAgentAsync
+  nameWithType: ILiveKitCloudAgentService.DeployAgentAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.DeployAgentAsync
+- uid: LiveKit.Proto.DeployAgentRequest
+  commentId: T:LiveKit.Proto.DeployAgentRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeployAgentRequest.html
+  name: DeployAgentRequest
+  nameWithType: DeployAgentRequest
+  fullName: LiveKit.Proto.DeployAgentRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.DeployAgentResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.DeployAgentResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DeployAgentResponse>
+  nameWithType: Task<DeployAgentResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.DeployAgentResponse>
+  nameWithType.vb: Task(Of DeployAgentResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.DeployAgentResponse)
+  name.vb: Task(Of DeployAgentResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.DeployAgentResponse
+    name: DeployAgentResponse
+    href: LiveKit.Proto.DeployAgentResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DeployAgentResponse
+    name: DeployAgentResponse
+    href: LiveKit.Proto.DeployAgentResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentSecretsAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentSecretsAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_UpdateAgentSecretsAsync_LiveKit_Proto_UpdateAgentSecretsRequest_System_Threading_CancellationToken_
+  name: UpdateAgentSecretsAsync
+  nameWithType: ILiveKitCloudAgentService.UpdateAgentSecretsAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.UpdateAgentSecretsAsync
+- uid: LiveKit.Proto.UpdateAgentSecretsRequest
+  commentId: T:LiveKit.Proto.UpdateAgentSecretsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateAgentSecretsRequest.html
+  name: UpdateAgentSecretsRequest
+  nameWithType: UpdateAgentSecretsRequest
+  fullName: LiveKit.Proto.UpdateAgentSecretsRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.UpdateAgentSecretsResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.UpdateAgentSecretsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UpdateAgentSecretsResponse>
+  nameWithType: Task<UpdateAgentSecretsResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.UpdateAgentSecretsResponse>
+  nameWithType.vb: Task(Of UpdateAgentSecretsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.UpdateAgentSecretsResponse)
+  name.vb: Task(Of UpdateAgentSecretsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.UpdateAgentSecretsResponse
+    name: UpdateAgentSecretsResponse
+    href: LiveKit.Proto.UpdateAgentSecretsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateAgentSecretsResponse
+    name: UpdateAgentSecretsResponse
+    href: LiveKit.Proto.UpdateAgentSecretsResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.RollbackAgentAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.RollbackAgentAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_RollbackAgentAsync_LiveKit_Proto_RollbackAgentRequest_System_Threading_CancellationToken_
+  name: RollbackAgentAsync
+  nameWithType: ILiveKitCloudAgentService.RollbackAgentAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.RollbackAgentAsync
+- uid: LiveKit.Proto.RollbackAgentRequest
+  commentId: T:LiveKit.Proto.RollbackAgentRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.RollbackAgentRequest.html
+  name: RollbackAgentRequest
+  nameWithType: RollbackAgentRequest
+  fullName: LiveKit.Proto.RollbackAgentRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.RollbackAgentResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.RollbackAgentResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RollbackAgentResponse>
+  nameWithType: Task<RollbackAgentResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.RollbackAgentResponse>
+  nameWithType.vb: Task(Of RollbackAgentResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.RollbackAgentResponse)
+  name.vb: Task(Of RollbackAgentResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.RollbackAgentResponse
+    name: RollbackAgentResponse
+    href: LiveKit.Proto.RollbackAgentResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.RollbackAgentResponse
+    name: RollbackAgentResponse
+    href: LiveKit.Proto.RollbackAgentResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.DeleteAgentAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.DeleteAgentAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_DeleteAgentAsync_LiveKit_Proto_DeleteAgentRequest_System_Threading_CancellationToken_
+  name: DeleteAgentAsync
+  nameWithType: ILiveKitCloudAgentService.DeleteAgentAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.DeleteAgentAsync
+- uid: LiveKit.Proto.DeleteAgentRequest
+  commentId: T:LiveKit.Proto.DeleteAgentRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeleteAgentRequest.html
+  name: DeleteAgentRequest
+  nameWithType: DeleteAgentRequest
+  fullName: LiveKit.Proto.DeleteAgentRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.DeleteAgentResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.DeleteAgentResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DeleteAgentResponse>
+  nameWithType: Task<DeleteAgentResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.DeleteAgentResponse>
+  nameWithType.vb: Task(Of DeleteAgentResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.DeleteAgentResponse)
+  name.vb: Task(Of DeleteAgentResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.DeleteAgentResponse
+    name: DeleteAgentResponse
+    href: LiveKit.Proto.DeleteAgentResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DeleteAgentResponse
+    name: DeleteAgentResponse
+    href: LiveKit.Proto.DeleteAgentResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitCloudAgentService.GetClientSettingsAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitCloudAgentService.GetClientSettingsAsync
+  href: LiveKit.Services.ILiveKitCloudAgentService.html#LiveKit_Services_ILiveKitCloudAgentService_GetClientSettingsAsync_LiveKit_Proto_ClientSettingsRequest_System_Threading_CancellationToken_
+  name: GetClientSettingsAsync
+  nameWithType: ILiveKitCloudAgentService.GetClientSettingsAsync
+  fullName: LiveKit.Services.ILiveKitCloudAgentService.GetClientSettingsAsync
+- uid: LiveKit.Proto.ClientSettingsRequest
+  commentId: T:LiveKit.Proto.ClientSettingsRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ClientSettingsRequest.html
+  name: ClientSettingsRequest
+  nameWithType: ClientSettingsRequest
+  fullName: LiveKit.Proto.ClientSettingsRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ClientSettingsResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ClientSettingsResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ClientSettingsResponse>
+  nameWithType: Task<ClientSettingsResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ClientSettingsResponse>
+  nameWithType.vb: Task(Of ClientSettingsResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ClientSettingsResponse)
+  name.vb: Task(Of ClientSettingsResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ClientSettingsResponse
+    name: ClientSettingsResponse
+    href: LiveKit.Proto.ClientSettingsResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ClientSettingsResponse
+    name: ClientSettingsResponse
+    href: LiveKit.Proto.ClientSettingsResponse.html
+  - name: )

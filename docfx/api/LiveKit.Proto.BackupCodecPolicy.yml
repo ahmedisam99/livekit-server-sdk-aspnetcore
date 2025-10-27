@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.BackupCodecPolicy
+  commentId: T:LiveKit.Proto.BackupCodecPolicy
+  id: BackupCodecPolicy
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.BackupCodecPolicy.PreferRegression
+  - LiveKit.Proto.BackupCodecPolicy.Regression
+  - LiveKit.Proto.BackupCodecPolicy.Simulcast
+  langs:
+  - csharp
+  - vb
+  name: BackupCodecPolicy
+  nameWithType: BackupCodecPolicy
+  fullName: LiveKit.Proto.BackupCodecPolicy
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BackupCodecPolicy
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 365
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Policy for publisher to handle subscribers that are unable to support the primary codec of a track
+  example: []
+  syntax:
+    content: public enum BackupCodecPolicy
+    content.vb: Public Enum BackupCodecPolicy
+- uid: LiveKit.Proto.BackupCodecPolicy.PreferRegression
+  commentId: F:LiveKit.Proto.BackupCodecPolicy.PreferRegression
+  id: PreferRegression
+  parent: LiveKit.Proto.BackupCodecPolicy
+  langs:
+  - csharp
+  - vb
+  name: PreferRegression
+  nameWithType: BackupCodecPolicy.PreferRegression
+  fullName: LiveKit.Proto.BackupCodecPolicy.PreferRegression
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PreferRegression
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 370
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    default behavior, the track prefer to regress to backup codec and all subscribers will receive the backup codec,
+
+    the sfu will try to regress codec if possible but not assured.
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PREFER_REGRESSION")]
+
+      PreferRegression = 0
+    return:
+      type: LiveKit.Proto.BackupCodecPolicy
+    content.vb: >-
+      <OriginalName("PREFER_REGRESSION")>
+
+      PreferRegression = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PREFER_REGRESSION
+- uid: LiveKit.Proto.BackupCodecPolicy.Simulcast
+  commentId: F:LiveKit.Proto.BackupCodecPolicy.Simulcast
+  id: Simulcast
+  parent: LiveKit.Proto.BackupCodecPolicy
+  langs:
+  - csharp
+  - vb
+  name: Simulcast
+  nameWithType: BackupCodecPolicy.Simulcast
+  fullName: LiveKit.Proto.BackupCodecPolicy.Simulcast
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Simulcast
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 374
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: encoding/send the primary and backup codec simultaneously
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("SIMULCAST")]
+
+      Simulcast = 1
+    return:
+      type: LiveKit.Proto.BackupCodecPolicy
+    content.vb: >-
+      <OriginalName("SIMULCAST")>
+
+      Simulcast = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIMULCAST
+- uid: LiveKit.Proto.BackupCodecPolicy.Regression
+  commentId: F:LiveKit.Proto.BackupCodecPolicy.Regression
+  id: Regression
+  parent: LiveKit.Proto.BackupCodecPolicy
+  langs:
+  - csharp
+  - vb
+  name: Regression
+  nameWithType: BackupCodecPolicy.Regression
+  fullName: LiveKit.Proto.BackupCodecPolicy.Regression
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Regression
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 378
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: force the track to regress to backup codec, this option can be used in video conference or the publisher has limited bandwidth/encoding power
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("REGRESSION")]
+
+      Regression = 2
+    return:
+      type: LiveKit.Proto.BackupCodecPolicy
+    content.vb: >-
+      <OriginalName("REGRESSION")>
+
+      Regression = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: REGRESSION
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.BackupCodecPolicy
+  commentId: T:LiveKit.Proto.BackupCodecPolicy
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.BackupCodecPolicy.html
+  name: BackupCodecPolicy
+  nameWithType: BackupCodecPolicy
+  fullName: LiveKit.Proto.BackupCodecPolicy

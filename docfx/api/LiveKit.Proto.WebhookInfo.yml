@@ -1,0 +1,2843 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.WebhookInfo
+  commentId: T:LiveKit.Proto.WebhookInfo
+  id: WebhookInfo
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.WebhookInfo.#ctor
+  - LiveKit.Proto.WebhookInfo.#ctor(LiveKit.Proto.WebhookInfo)
+  - LiveKit.Proto.WebhookInfo.CalculateSize
+  - LiveKit.Proto.WebhookInfo.Clone
+  - LiveKit.Proto.WebhookInfo.CreatedAt
+  - LiveKit.Proto.WebhookInfo.CreatedAtFieldNumber
+  - LiveKit.Proto.WebhookInfo.Descriptor
+  - LiveKit.Proto.WebhookInfo.EgressId
+  - LiveKit.Proto.WebhookInfo.EgressIdFieldNumber
+  - LiveKit.Proto.WebhookInfo.Equals(LiveKit.Proto.WebhookInfo)
+  - LiveKit.Proto.WebhookInfo.Equals(System.Object)
+  - LiveKit.Proto.WebhookInfo.Event
+  - LiveKit.Proto.WebhookInfo.EventFieldNumber
+  - LiveKit.Proto.WebhookInfo.EventId
+  - LiveKit.Proto.WebhookInfo.EventIdFieldNumber
+  - LiveKit.Proto.WebhookInfo.GetHashCode
+  - LiveKit.Proto.WebhookInfo.IngressId
+  - LiveKit.Proto.WebhookInfo.IngressIdFieldNumber
+  - LiveKit.Proto.WebhookInfo.IsDropped
+  - LiveKit.Proto.WebhookInfo.IsDroppedFieldNumber
+  - LiveKit.Proto.WebhookInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.WebhookInfo.MergeFrom(LiveKit.Proto.WebhookInfo)
+  - LiveKit.Proto.WebhookInfo.NumDropped
+  - LiveKit.Proto.WebhookInfo.NumDroppedFieldNumber
+  - LiveKit.Proto.WebhookInfo.Parser
+  - LiveKit.Proto.WebhookInfo.ParticipantId
+  - LiveKit.Proto.WebhookInfo.ParticipantIdFieldNumber
+  - LiveKit.Proto.WebhookInfo.ParticipantIdentity
+  - LiveKit.Proto.WebhookInfo.ParticipantIdentityFieldNumber
+  - LiveKit.Proto.WebhookInfo.ProjectId
+  - LiveKit.Proto.WebhookInfo.ProjectIdFieldNumber
+  - LiveKit.Proto.WebhookInfo.QueueDurationNs
+  - LiveKit.Proto.WebhookInfo.QueueDurationNsFieldNumber
+  - LiveKit.Proto.WebhookInfo.QueuedAt
+  - LiveKit.Proto.WebhookInfo.QueuedAtFieldNumber
+  - LiveKit.Proto.WebhookInfo.RoomId
+  - LiveKit.Proto.WebhookInfo.RoomIdFieldNumber
+  - LiveKit.Proto.WebhookInfo.RoomName
+  - LiveKit.Proto.WebhookInfo.RoomNameFieldNumber
+  - LiveKit.Proto.WebhookInfo.SendDurationNs
+  - LiveKit.Proto.WebhookInfo.SendDurationNsFieldNumber
+  - LiveKit.Proto.WebhookInfo.SendError
+  - LiveKit.Proto.WebhookInfo.SendErrorFieldNumber
+  - LiveKit.Proto.WebhookInfo.SentAt
+  - LiveKit.Proto.WebhookInfo.SentAtFieldNumber
+  - LiveKit.Proto.WebhookInfo.ServiceError
+  - LiveKit.Proto.WebhookInfo.ServiceErrorCode
+  - LiveKit.Proto.WebhookInfo.ServiceErrorCodeFieldNumber
+  - LiveKit.Proto.WebhookInfo.ServiceErrorFieldNumber
+  - LiveKit.Proto.WebhookInfo.ServiceStatus
+  - LiveKit.Proto.WebhookInfo.ServiceStatusFieldNumber
+  - LiveKit.Proto.WebhookInfo.ToString
+  - LiveKit.Proto.WebhookInfo.TrackId
+  - LiveKit.Proto.WebhookInfo.TrackIdFieldNumber
+  - LiveKit.Proto.WebhookInfo.Url
+  - LiveKit.Proto.WebhookInfo.UrlFieldNumber
+  - LiveKit.Proto.WebhookInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: WebhookInfo
+  nameWithType: WebhookInfo
+  fullName: LiveKit.Proto.WebhookInfo
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WebhookInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 7994
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class WebhookInfo : IMessage<WebhookInfo>, IEquatable<WebhookInfo>, IDeepCloneable<WebhookInfo>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class WebhookInfo Implements IMessage(Of WebhookInfo), IEquatable(Of WebhookInfo), IDeepCloneable(Of WebhookInfo), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}
+  - System.IEquatable{LiveKit.Proto.WebhookInfo}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.WebhookInfo.Parser
+  commentId: P:LiveKit.Proto.WebhookInfo.Parser
+  id: Parser
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: WebhookInfo.Parser
+  fullName: LiveKit.Proto.WebhookInfo.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8002
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<WebhookInfo> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.WebhookInfo}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of WebhookInfo)
+  overload: LiveKit.Proto.WebhookInfo.Parser*
+- uid: LiveKit.Proto.WebhookInfo.Descriptor
+  commentId: P:LiveKit.Proto.WebhookInfo.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: WebhookInfo.Descriptor
+  fullName: LiveKit.Proto.WebhookInfo.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8006
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.WebhookInfo.Descriptor*
+- uid: LiveKit.Proto.WebhookInfo.#ctor
+  commentId: M:LiveKit.Proto.WebhookInfo.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: WebhookInfo()
+  nameWithType: WebhookInfo.WebhookInfo()
+  fullName: LiveKit.Proto.WebhookInfo.WebhookInfo()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8018
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WebhookInfo()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.WebhookInfo.#ctor*
+  nameWithType.vb: WebhookInfo.New()
+  fullName.vb: LiveKit.Proto.WebhookInfo.New()
+  name.vb: New()
+- uid: LiveKit.Proto.WebhookInfo.#ctor(LiveKit.Proto.WebhookInfo)
+  commentId: M:LiveKit.Proto.WebhookInfo.#ctor(LiveKit.Proto.WebhookInfo)
+  id: '#ctor(LiveKit.Proto.WebhookInfo)'
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: WebhookInfo(WebhookInfo)
+  nameWithType: WebhookInfo.WebhookInfo(WebhookInfo)
+  fullName: LiveKit.Proto.WebhookInfo.WebhookInfo(LiveKit.Proto.WebhookInfo)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8026
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WebhookInfo(WebhookInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WebhookInfo
+    content.vb: Public Sub New(other As WebhookInfo)
+  overload: LiveKit.Proto.WebhookInfo.#ctor*
+  nameWithType.vb: WebhookInfo.New(WebhookInfo)
+  fullName.vb: LiveKit.Proto.WebhookInfo.New(LiveKit.Proto.WebhookInfo)
+  name.vb: New(WebhookInfo)
+- uid: LiveKit.Proto.WebhookInfo.Clone
+  commentId: M:LiveKit.Proto.WebhookInfo.Clone
+  id: Clone
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: WebhookInfo.Clone()
+  fullName: LiveKit.Proto.WebhookInfo.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8054
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public WebhookInfo Clone()
+    return:
+      type: LiveKit.Proto.WebhookInfo
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As WebhookInfo
+  overload: LiveKit.Proto.WebhookInfo.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}.Clone
+- uid: LiveKit.Proto.WebhookInfo.EventIdFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.EventIdFieldNumber
+  id: EventIdFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: EventIdFieldNumber
+  nameWithType: WebhookInfo.EventIdFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.EventIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EventIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8061
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "event_id" field.
+  example: []
+  syntax:
+    content: public const int EventIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const EventIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.WebhookInfo.EventId
+  commentId: P:LiveKit.Proto.WebhookInfo.EventId
+  id: EventId
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: WebhookInfo.EventId
+  fullName: LiveKit.Proto.WebhookInfo.EventId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EventId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8063
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string EventId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EventId As String
+  overload: LiveKit.Proto.WebhookInfo.EventId*
+- uid: LiveKit.Proto.WebhookInfo.EventFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.EventFieldNumber
+  id: EventFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: EventFieldNumber
+  nameWithType: WebhookInfo.EventFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.EventFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EventFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8073
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "event" field.
+  example: []
+  syntax:
+    content: public const int EventFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const EventFieldNumber As Integer = 2
+- uid: LiveKit.Proto.WebhookInfo.Event
+  commentId: P:LiveKit.Proto.WebhookInfo.Event
+  id: Event
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: Event
+  nameWithType: WebhookInfo.Event
+  fullName: LiveKit.Proto.WebhookInfo.Event
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Event
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8075
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Event { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property [Event] As String
+  overload: LiveKit.Proto.WebhookInfo.Event*
+- uid: LiveKit.Proto.WebhookInfo.ProjectIdFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.ProjectIdFieldNumber
+  id: ProjectIdFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectIdFieldNumber
+  nameWithType: WebhookInfo.ProjectIdFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.ProjectIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ProjectIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8085
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "project_id" field.
+  example: []
+  syntax:
+    content: public const int ProjectIdFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const ProjectIdFieldNumber As Integer = 3
+- uid: LiveKit.Proto.WebhookInfo.ProjectId
+  commentId: P:LiveKit.Proto.WebhookInfo.ProjectId
+  id: ProjectId
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: WebhookInfo.ProjectId
+  fullName: LiveKit.Proto.WebhookInfo.ProjectId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ProjectId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8087
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectId As String
+  overload: LiveKit.Proto.WebhookInfo.ProjectId*
+- uid: LiveKit.Proto.WebhookInfo.RoomNameFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.RoomNameFieldNumber
+  id: RoomNameFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomNameFieldNumber
+  nameWithType: WebhookInfo.RoomNameFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.RoomNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8097
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_name" field.
+  example: []
+  syntax:
+    content: public const int RoomNameFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomNameFieldNumber As Integer = 4
+- uid: LiveKit.Proto.WebhookInfo.RoomName
+  commentId: P:LiveKit.Proto.WebhookInfo.RoomName
+  id: RoomName
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomName
+  nameWithType: WebhookInfo.RoomName
+  fullName: LiveKit.Proto.WebhookInfo.RoomName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8099
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string RoomName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomName As String
+  overload: LiveKit.Proto.WebhookInfo.RoomName*
+- uid: LiveKit.Proto.WebhookInfo.RoomIdFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.RoomIdFieldNumber
+  id: RoomIdFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomIdFieldNumber
+  nameWithType: WebhookInfo.RoomIdFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.RoomIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8109
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room_id" field.
+  example: []
+  syntax:
+    content: public const int RoomIdFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomIdFieldNumber As Integer = 5
+- uid: LiveKit.Proto.WebhookInfo.RoomId
+  commentId: P:LiveKit.Proto.WebhookInfo.RoomId
+  id: RoomId
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: RoomId
+  nameWithType: WebhookInfo.RoomId
+  fullName: LiveKit.Proto.WebhookInfo.RoomId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8111
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string RoomId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RoomId As String
+  overload: LiveKit.Proto.WebhookInfo.RoomId*
+- uid: LiveKit.Proto.WebhookInfo.ParticipantIdentityFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.ParticipantIdentityFieldNumber
+  id: ParticipantIdentityFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentityFieldNumber
+  nameWithType: WebhookInfo.ParticipantIdentityFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.ParticipantIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8121
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_identity" field.
+  example: []
+  syntax:
+    content: public const int ParticipantIdentityFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantIdentityFieldNumber As Integer = 6
+- uid: LiveKit.Proto.WebhookInfo.ParticipantIdentity
+  commentId: P:LiveKit.Proto.WebhookInfo.ParticipantIdentity
+  id: ParticipantIdentity
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdentity
+  nameWithType: WebhookInfo.ParticipantIdentity
+  fullName: LiveKit.Proto.WebhookInfo.ParticipantIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8123
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ParticipantIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantIdentity As String
+  overload: LiveKit.Proto.WebhookInfo.ParticipantIdentity*
+- uid: LiveKit.Proto.WebhookInfo.ParticipantIdFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.ParticipantIdFieldNumber
+  id: ParticipantIdFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantIdFieldNumber
+  nameWithType: WebhookInfo.ParticipantIdFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.ParticipantIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8133
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_id" field.
+  example: []
+  syntax:
+    content: public const int ParticipantIdFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantIdFieldNumber As Integer = 7
+- uid: LiveKit.Proto.WebhookInfo.ParticipantId
+  commentId: P:LiveKit.Proto.WebhookInfo.ParticipantId
+  id: ParticipantId
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ParticipantId
+  nameWithType: WebhookInfo.ParticipantId
+  fullName: LiveKit.Proto.WebhookInfo.ParticipantId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8135
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ParticipantId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ParticipantId As String
+  overload: LiveKit.Proto.WebhookInfo.ParticipantId*
+- uid: LiveKit.Proto.WebhookInfo.TrackIdFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.TrackIdFieldNumber
+  id: TrackIdFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: TrackIdFieldNumber
+  nameWithType: WebhookInfo.TrackIdFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.TrackIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8145
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_id" field.
+  example: []
+  syntax:
+    content: public const int TrackIdFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackIdFieldNumber As Integer = 8
+- uid: LiveKit.Proto.WebhookInfo.TrackId
+  commentId: P:LiveKit.Proto.WebhookInfo.TrackId
+  id: TrackId
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: TrackId
+  nameWithType: WebhookInfo.TrackId
+  fullName: LiveKit.Proto.WebhookInfo.TrackId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8147
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string TrackId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TrackId As String
+  overload: LiveKit.Proto.WebhookInfo.TrackId*
+- uid: LiveKit.Proto.WebhookInfo.EgressIdFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.EgressIdFieldNumber
+  id: EgressIdFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: EgressIdFieldNumber
+  nameWithType: WebhookInfo.EgressIdFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.EgressIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8157
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "egress_id" field.
+  example: []
+  syntax:
+    content: public const int EgressIdFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const EgressIdFieldNumber As Integer = 9
+- uid: LiveKit.Proto.WebhookInfo.EgressId
+  commentId: P:LiveKit.Proto.WebhookInfo.EgressId
+  id: EgressId
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: EgressId
+  nameWithType: WebhookInfo.EgressId
+  fullName: LiveKit.Proto.WebhookInfo.EgressId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8159
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string EgressId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EgressId As String
+  overload: LiveKit.Proto.WebhookInfo.EgressId*
+- uid: LiveKit.Proto.WebhookInfo.IngressIdFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.IngressIdFieldNumber
+  id: IngressIdFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: IngressIdFieldNumber
+  nameWithType: WebhookInfo.IngressIdFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.IngressIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8169
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ingress_id" field.
+  example: []
+  syntax:
+    content: public const int IngressIdFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const IngressIdFieldNumber As Integer = 10
+- uid: LiveKit.Proto.WebhookInfo.IngressId
+  commentId: P:LiveKit.Proto.WebhookInfo.IngressId
+  id: IngressId
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: IngressId
+  nameWithType: WebhookInfo.IngressId
+  fullName: LiveKit.Proto.WebhookInfo.IngressId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8171
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string IngressId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IngressId As String
+  overload: LiveKit.Proto.WebhookInfo.IngressId*
+- uid: LiveKit.Proto.WebhookInfo.CreatedAtFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.CreatedAtFieldNumber
+  id: CreatedAtFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedAtFieldNumber
+  nameWithType: WebhookInfo.CreatedAtFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.CreatedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreatedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8181
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "created_at" field.
+  example: []
+  syntax:
+    content: public const int CreatedAtFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const CreatedAtFieldNumber As Integer = 11
+- uid: LiveKit.Proto.WebhookInfo.CreatedAt
+  commentId: P:LiveKit.Proto.WebhookInfo.CreatedAt
+  id: CreatedAt
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: WebhookInfo.CreatedAt
+  fullName: LiveKit.Proto.WebhookInfo.CreatedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreatedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8183
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Timestamp CreatedAt { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property CreatedAt As Timestamp
+  overload: LiveKit.Proto.WebhookInfo.CreatedAt*
+- uid: LiveKit.Proto.WebhookInfo.QueuedAtFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.QueuedAtFieldNumber
+  id: QueuedAtFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: QueuedAtFieldNumber
+  nameWithType: WebhookInfo.QueuedAtFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.QueuedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: QueuedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8193
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "queued_at" field.
+  example: []
+  syntax:
+    content: public const int QueuedAtFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const QueuedAtFieldNumber As Integer = 12
+- uid: LiveKit.Proto.WebhookInfo.QueuedAt
+  commentId: P:LiveKit.Proto.WebhookInfo.QueuedAt
+  id: QueuedAt
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: QueuedAt
+  nameWithType: WebhookInfo.QueuedAt
+  fullName: LiveKit.Proto.WebhookInfo.QueuedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: QueuedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8195
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Timestamp QueuedAt { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property QueuedAt As Timestamp
+  overload: LiveKit.Proto.WebhookInfo.QueuedAt*
+- uid: LiveKit.Proto.WebhookInfo.QueueDurationNsFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.QueueDurationNsFieldNumber
+  id: QueueDurationNsFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: QueueDurationNsFieldNumber
+  nameWithType: WebhookInfo.QueueDurationNsFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.QueueDurationNsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: QueueDurationNsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8205
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "queue_duration_ns" field.
+  example: []
+  syntax:
+    content: public const int QueueDurationNsFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const QueueDurationNsFieldNumber As Integer = 13
+- uid: LiveKit.Proto.WebhookInfo.QueueDurationNs
+  commentId: P:LiveKit.Proto.WebhookInfo.QueueDurationNs
+  id: QueueDurationNs
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: QueueDurationNs
+  nameWithType: WebhookInfo.QueueDurationNs
+  fullName: LiveKit.Proto.WebhookInfo.QueueDurationNs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: QueueDurationNs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8207
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long QueueDurationNs { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property QueueDurationNs As Long
+  overload: LiveKit.Proto.WebhookInfo.QueueDurationNs*
+- uid: LiveKit.Proto.WebhookInfo.SentAtFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.SentAtFieldNumber
+  id: SentAtFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: SentAtFieldNumber
+  nameWithType: WebhookInfo.SentAtFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.SentAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SentAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8217
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sent_at" field.
+  example: []
+  syntax:
+    content: public const int SentAtFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const SentAtFieldNumber As Integer = 14
+- uid: LiveKit.Proto.WebhookInfo.SentAt
+  commentId: P:LiveKit.Proto.WebhookInfo.SentAt
+  id: SentAt
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: SentAt
+  nameWithType: WebhookInfo.SentAt
+  fullName: LiveKit.Proto.WebhookInfo.SentAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SentAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8219
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Timestamp SentAt { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property SentAt As Timestamp
+  overload: LiveKit.Proto.WebhookInfo.SentAt*
+- uid: LiveKit.Proto.WebhookInfo.SendDurationNsFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.SendDurationNsFieldNumber
+  id: SendDurationNsFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: SendDurationNsFieldNumber
+  nameWithType: WebhookInfo.SendDurationNsFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.SendDurationNsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SendDurationNsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8229
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "send_duration_ns" field.
+  example: []
+  syntax:
+    content: public const int SendDurationNsFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const SendDurationNsFieldNumber As Integer = 15
+- uid: LiveKit.Proto.WebhookInfo.SendDurationNs
+  commentId: P:LiveKit.Proto.WebhookInfo.SendDurationNs
+  id: SendDurationNs
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: SendDurationNs
+  nameWithType: WebhookInfo.SendDurationNs
+  fullName: LiveKit.Proto.WebhookInfo.SendDurationNs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SendDurationNs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8231
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long SendDurationNs { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SendDurationNs As Long
+  overload: LiveKit.Proto.WebhookInfo.SendDurationNs*
+- uid: LiveKit.Proto.WebhookInfo.UrlFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.UrlFieldNumber
+  id: UrlFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: UrlFieldNumber
+  nameWithType: WebhookInfo.UrlFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.UrlFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UrlFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8241
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "url" field.
+  example: []
+  syntax:
+    content: public const int UrlFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const UrlFieldNumber As Integer = 16
+- uid: LiveKit.Proto.WebhookInfo.Url
+  commentId: P:LiveKit.Proto.WebhookInfo.Url
+  id: Url
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: WebhookInfo.Url
+  fullName: LiveKit.Proto.WebhookInfo.Url
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Url
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8243
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: LiveKit.Proto.WebhookInfo.Url*
+- uid: LiveKit.Proto.WebhookInfo.NumDroppedFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.NumDroppedFieldNumber
+  id: NumDroppedFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: NumDroppedFieldNumber
+  nameWithType: WebhookInfo.NumDroppedFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.NumDroppedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumDroppedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8253
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "num_dropped" field.
+  example: []
+  syntax:
+    content: public const int NumDroppedFieldNumber = 17
+    return:
+      type: System.Int32
+    content.vb: Public Const NumDroppedFieldNumber As Integer = 17
+- uid: LiveKit.Proto.WebhookInfo.NumDropped
+  commentId: P:LiveKit.Proto.WebhookInfo.NumDropped
+  id: NumDropped
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: NumDropped
+  nameWithType: WebhookInfo.NumDropped
+  fullName: LiveKit.Proto.WebhookInfo.NumDropped
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumDropped
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8255
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int NumDropped { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumDropped As Integer
+  overload: LiveKit.Proto.WebhookInfo.NumDropped*
+- uid: LiveKit.Proto.WebhookInfo.IsDroppedFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.IsDroppedFieldNumber
+  id: IsDroppedFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: IsDroppedFieldNumber
+  nameWithType: WebhookInfo.IsDroppedFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.IsDroppedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IsDroppedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8265
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "is_dropped" field.
+  example: []
+  syntax:
+    content: public const int IsDroppedFieldNumber = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const IsDroppedFieldNumber As Integer = 18
+- uid: LiveKit.Proto.WebhookInfo.IsDropped
+  commentId: P:LiveKit.Proto.WebhookInfo.IsDropped
+  id: IsDropped
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: IsDropped
+  nameWithType: WebhookInfo.IsDropped
+  fullName: LiveKit.Proto.WebhookInfo.IsDropped
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IsDropped
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8267
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool IsDropped { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsDropped As Boolean
+  overload: LiveKit.Proto.WebhookInfo.IsDropped*
+- uid: LiveKit.Proto.WebhookInfo.ServiceStatusFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.ServiceStatusFieldNumber
+  id: ServiceStatusFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ServiceStatusFieldNumber
+  nameWithType: WebhookInfo.ServiceStatusFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.ServiceStatusFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServiceStatusFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8277
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "service_status" field.
+  example: []
+  syntax:
+    content: public const int ServiceStatusFieldNumber = 19
+    return:
+      type: System.Int32
+    content.vb: Public Const ServiceStatusFieldNumber As Integer = 19
+- uid: LiveKit.Proto.WebhookInfo.ServiceStatus
+  commentId: P:LiveKit.Proto.WebhookInfo.ServiceStatus
+  id: ServiceStatus
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ServiceStatus
+  nameWithType: WebhookInfo.ServiceStatus
+  fullName: LiveKit.Proto.WebhookInfo.ServiceStatus
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServiceStatus
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8279
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ServiceStatus { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceStatus As String
+  overload: LiveKit.Proto.WebhookInfo.ServiceStatus*
+- uid: LiveKit.Proto.WebhookInfo.ServiceErrorCodeFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.ServiceErrorCodeFieldNumber
+  id: ServiceErrorCodeFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ServiceErrorCodeFieldNumber
+  nameWithType: WebhookInfo.ServiceErrorCodeFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.ServiceErrorCodeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServiceErrorCodeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8289
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "service_error_code" field.
+  example: []
+  syntax:
+    content: public const int ServiceErrorCodeFieldNumber = 20
+    return:
+      type: System.Int32
+    content.vb: Public Const ServiceErrorCodeFieldNumber As Integer = 20
+- uid: LiveKit.Proto.WebhookInfo.ServiceErrorCode
+  commentId: P:LiveKit.Proto.WebhookInfo.ServiceErrorCode
+  id: ServiceErrorCode
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ServiceErrorCode
+  nameWithType: WebhookInfo.ServiceErrorCode
+  fullName: LiveKit.Proto.WebhookInfo.ServiceErrorCode
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServiceErrorCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8291
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int ServiceErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ServiceErrorCode As Integer
+  overload: LiveKit.Proto.WebhookInfo.ServiceErrorCode*
+- uid: LiveKit.Proto.WebhookInfo.ServiceErrorFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.ServiceErrorFieldNumber
+  id: ServiceErrorFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ServiceErrorFieldNumber
+  nameWithType: WebhookInfo.ServiceErrorFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.ServiceErrorFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServiceErrorFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8301
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "service_error" field.
+  example: []
+  syntax:
+    content: public const int ServiceErrorFieldNumber = 21
+    return:
+      type: System.Int32
+    content.vb: Public Const ServiceErrorFieldNumber As Integer = 21
+- uid: LiveKit.Proto.WebhookInfo.ServiceError
+  commentId: P:LiveKit.Proto.WebhookInfo.ServiceError
+  id: ServiceError
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ServiceError
+  nameWithType: WebhookInfo.ServiceError
+  fullName: LiveKit.Proto.WebhookInfo.ServiceError
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServiceError
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8303
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string ServiceError { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceError As String
+  overload: LiveKit.Proto.WebhookInfo.ServiceError*
+- uid: LiveKit.Proto.WebhookInfo.SendErrorFieldNumber
+  commentId: F:LiveKit.Proto.WebhookInfo.SendErrorFieldNumber
+  id: SendErrorFieldNumber
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: SendErrorFieldNumber
+  nameWithType: WebhookInfo.SendErrorFieldNumber
+  fullName: LiveKit.Proto.WebhookInfo.SendErrorFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SendErrorFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8313
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "send_error" field.
+  example: []
+  syntax:
+    content: public const int SendErrorFieldNumber = 22
+    return:
+      type: System.Int32
+    content.vb: Public Const SendErrorFieldNumber As Integer = 22
+- uid: LiveKit.Proto.WebhookInfo.SendError
+  commentId: P:LiveKit.Proto.WebhookInfo.SendError
+  id: SendError
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: SendError
+  nameWithType: WebhookInfo.SendError
+  fullName: LiveKit.Proto.WebhookInfo.SendError
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SendError
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8315
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string SendError { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SendError As String
+  overload: LiveKit.Proto.WebhookInfo.SendError*
+- uid: LiveKit.Proto.WebhookInfo.Equals(System.Object)
+  commentId: M:LiveKit.Proto.WebhookInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: WebhookInfo.Equals(object)
+  fullName: LiveKit.Proto.WebhookInfo.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8324
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.WebhookInfo.Equals*
+  nameWithType.vb: WebhookInfo.Equals(Object)
+  fullName.vb: LiveKit.Proto.WebhookInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.WebhookInfo.Equals(LiveKit.Proto.WebhookInfo)
+  commentId: M:LiveKit.Proto.WebhookInfo.Equals(LiveKit.Proto.WebhookInfo)
+  id: Equals(LiveKit.Proto.WebhookInfo)
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(WebhookInfo)
+  nameWithType: WebhookInfo.Equals(WebhookInfo)
+  fullName: LiveKit.Proto.WebhookInfo.Equals(LiveKit.Proto.WebhookInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8330
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(WebhookInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WebhookInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As WebhookInfo) As Boolean
+  overload: LiveKit.Proto.WebhookInfo.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.WebhookInfo}.Equals(LiveKit.Proto.WebhookInfo)
+- uid: LiveKit.Proto.WebhookInfo.GetHashCode
+  commentId: M:LiveKit.Proto.WebhookInfo.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: WebhookInfo.GetHashCode()
+  fullName: LiveKit.Proto.WebhookInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8364
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.WebhookInfo.GetHashCode*
+- uid: LiveKit.Proto.WebhookInfo.ToString
+  commentId: M:LiveKit.Proto.WebhookInfo.ToString
+  id: ToString
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WebhookInfo.ToString()
+  fullName: LiveKit.Proto.WebhookInfo.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8396
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.WebhookInfo.ToString*
+- uid: LiveKit.Proto.WebhookInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.WebhookInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: WebhookInfo.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.WebhookInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8402
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.WebhookInfo.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.WebhookInfo.CalculateSize
+  commentId: M:LiveKit.Proto.WebhookInfo.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: WebhookInfo.CalculateSize()
+  fullName: LiveKit.Proto.WebhookInfo.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8600
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.WebhookInfo.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.WebhookInfo.MergeFrom(LiveKit.Proto.WebhookInfo)
+  commentId: M:LiveKit.Proto.WebhookInfo.MergeFrom(LiveKit.Proto.WebhookInfo)
+  id: MergeFrom(LiveKit.Proto.WebhookInfo)
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(WebhookInfo)
+  nameWithType: WebhookInfo.MergeFrom(WebhookInfo)
+  fullName: LiveKit.Proto.WebhookInfo.MergeFrom(LiveKit.Proto.WebhookInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8676
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(WebhookInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WebhookInfo
+    content.vb: Public Sub MergeFrom(other As WebhookInfo)
+  overload: LiveKit.Proto.WebhookInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}.MergeFrom(LiveKit.Proto.WebhookInfo)
+- uid: LiveKit.Proto.WebhookInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.WebhookInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.WebhookInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: WebhookInfo.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.WebhookInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 8760
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.WebhookInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.WebhookInfo.html
+  name: IMessage<WebhookInfo>
+  nameWithType: IMessage<WebhookInfo>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.WebhookInfo>
+  nameWithType.vb: IMessage(Of WebhookInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.WebhookInfo)
+  name.vb: IMessage(Of WebhookInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.WebhookInfo}
+  commentId: T:System.IEquatable{LiveKit.Proto.WebhookInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<WebhookInfo>
+  nameWithType: IEquatable<WebhookInfo>
+  fullName: System.IEquatable<LiveKit.Proto.WebhookInfo>
+  nameWithType.vb: IEquatable(Of WebhookInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.WebhookInfo)
+  name.vb: IEquatable(Of WebhookInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.WebhookInfo.html
+  name: IDeepCloneable<WebhookInfo>
+  nameWithType: IDeepCloneable<WebhookInfo>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.WebhookInfo>
+  nameWithType.vb: IDeepCloneable(Of WebhookInfo)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.WebhookInfo)
+  name.vb: IDeepCloneable(Of WebhookInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.WebhookInfo.Parser*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.Parser
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_Parser
+  name: Parser
+  nameWithType: WebhookInfo.Parser
+  fullName: LiveKit.Proto.WebhookInfo.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.WebhookInfo}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.WebhookInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.WebhookInfo.html
+  name: MessageParser<WebhookInfo>
+  nameWithType: MessageParser<WebhookInfo>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.WebhookInfo>
+  nameWithType.vb: MessageParser(Of WebhookInfo)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.WebhookInfo)
+  name.vb: MessageParser(Of WebhookInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.WebhookInfo.Descriptor*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.Descriptor
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_Descriptor
+  name: Descriptor
+  nameWithType: WebhookInfo.Descriptor
+  fullName: LiveKit.Proto.WebhookInfo.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.WebhookInfo.#ctor*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.#ctor
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo__ctor
+  name: WebhookInfo
+  nameWithType: WebhookInfo.WebhookInfo
+  fullName: LiveKit.Proto.WebhookInfo.WebhookInfo
+  nameWithType.vb: WebhookInfo.New
+  fullName.vb: LiveKit.Proto.WebhookInfo.New
+  name.vb: New
+- uid: LiveKit.Proto.WebhookInfo
+  commentId: T:LiveKit.Proto.WebhookInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WebhookInfo.html
+  name: WebhookInfo
+  nameWithType: WebhookInfo
+  fullName: LiveKit.Proto.WebhookInfo
+- uid: LiveKit.Proto.WebhookInfo.Clone*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.Clone
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_Clone
+  name: Clone
+  nameWithType: WebhookInfo.Clone
+  fullName: LiveKit.Proto.WebhookInfo.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<WebhookInfo>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.WebhookInfo>.Clone()
+  nameWithType.vb: IDeepCloneable(Of WebhookInfo).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.WebhookInfo).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebhookInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.WebhookInfo.EventId*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.EventId
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_EventId
+  name: EventId
+  nameWithType: WebhookInfo.EventId
+  fullName: LiveKit.Proto.WebhookInfo.EventId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.WebhookInfo.Event*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.Event
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_Event
+  name: Event
+  nameWithType: WebhookInfo.Event
+  fullName: LiveKit.Proto.WebhookInfo.Event
+- uid: LiveKit.Proto.WebhookInfo.ProjectId*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.ProjectId
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_ProjectId
+  name: ProjectId
+  nameWithType: WebhookInfo.ProjectId
+  fullName: LiveKit.Proto.WebhookInfo.ProjectId
+- uid: LiveKit.Proto.WebhookInfo.RoomName*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.RoomName
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_RoomName
+  name: RoomName
+  nameWithType: WebhookInfo.RoomName
+  fullName: LiveKit.Proto.WebhookInfo.RoomName
+- uid: LiveKit.Proto.WebhookInfo.RoomId*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.RoomId
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_RoomId
+  name: RoomId
+  nameWithType: WebhookInfo.RoomId
+  fullName: LiveKit.Proto.WebhookInfo.RoomId
+- uid: LiveKit.Proto.WebhookInfo.ParticipantIdentity*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.ParticipantIdentity
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_ParticipantIdentity
+  name: ParticipantIdentity
+  nameWithType: WebhookInfo.ParticipantIdentity
+  fullName: LiveKit.Proto.WebhookInfo.ParticipantIdentity
+- uid: LiveKit.Proto.WebhookInfo.ParticipantId*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.ParticipantId
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_ParticipantId
+  name: ParticipantId
+  nameWithType: WebhookInfo.ParticipantId
+  fullName: LiveKit.Proto.WebhookInfo.ParticipantId
+- uid: LiveKit.Proto.WebhookInfo.TrackId*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.TrackId
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_TrackId
+  name: TrackId
+  nameWithType: WebhookInfo.TrackId
+  fullName: LiveKit.Proto.WebhookInfo.TrackId
+- uid: LiveKit.Proto.WebhookInfo.EgressId*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.EgressId
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_EgressId
+  name: EgressId
+  nameWithType: WebhookInfo.EgressId
+  fullName: LiveKit.Proto.WebhookInfo.EgressId
+- uid: LiveKit.Proto.WebhookInfo.IngressId*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.IngressId
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_IngressId
+  name: IngressId
+  nameWithType: WebhookInfo.IngressId
+  fullName: LiveKit.Proto.WebhookInfo.IngressId
+- uid: LiveKit.Proto.WebhookInfo.CreatedAt*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.CreatedAt
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_CreatedAt
+  name: CreatedAt
+  nameWithType: WebhookInfo.CreatedAt
+  fullName: LiveKit.Proto.WebhookInfo.CreatedAt
+- uid: Google.Protobuf.WellKnownTypes.Timestamp
+  commentId: T:Google.Protobuf.WellKnownTypes.Timestamp
+  parent: Google.Protobuf.WellKnownTypes
+  isExternal: true
+  name: Timestamp
+  nameWithType: Timestamp
+  fullName: Google.Protobuf.WellKnownTypes.Timestamp
+- uid: Google.Protobuf.WellKnownTypes
+  commentId: N:Google.Protobuf.WellKnownTypes
+  isExternal: true
+  name: Google.Protobuf.WellKnownTypes
+  nameWithType: Google.Protobuf.WellKnownTypes
+  fullName: Google.Protobuf.WellKnownTypes
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.WellKnownTypes
+    name: WellKnownTypes
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.WellKnownTypes
+    name: WellKnownTypes
+    isExternal: true
+- uid: LiveKit.Proto.WebhookInfo.QueuedAt*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.QueuedAt
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_QueuedAt
+  name: QueuedAt
+  nameWithType: WebhookInfo.QueuedAt
+  fullName: LiveKit.Proto.WebhookInfo.QueuedAt
+- uid: LiveKit.Proto.WebhookInfo.QueueDurationNs*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.QueueDurationNs
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_QueueDurationNs
+  name: QueueDurationNs
+  nameWithType: WebhookInfo.QueueDurationNs
+  fullName: LiveKit.Proto.WebhookInfo.QueueDurationNs
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.WebhookInfo.SentAt*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.SentAt
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_SentAt
+  name: SentAt
+  nameWithType: WebhookInfo.SentAt
+  fullName: LiveKit.Proto.WebhookInfo.SentAt
+- uid: LiveKit.Proto.WebhookInfo.SendDurationNs*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.SendDurationNs
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_SendDurationNs
+  name: SendDurationNs
+  nameWithType: WebhookInfo.SendDurationNs
+  fullName: LiveKit.Proto.WebhookInfo.SendDurationNs
+- uid: LiveKit.Proto.WebhookInfo.Url*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.Url
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_Url
+  name: Url
+  nameWithType: WebhookInfo.Url
+  fullName: LiveKit.Proto.WebhookInfo.Url
+- uid: LiveKit.Proto.WebhookInfo.NumDropped*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.NumDropped
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_NumDropped
+  name: NumDropped
+  nameWithType: WebhookInfo.NumDropped
+  fullName: LiveKit.Proto.WebhookInfo.NumDropped
+- uid: LiveKit.Proto.WebhookInfo.IsDropped*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.IsDropped
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_IsDropped
+  name: IsDropped
+  nameWithType: WebhookInfo.IsDropped
+  fullName: LiveKit.Proto.WebhookInfo.IsDropped
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.WebhookInfo.ServiceStatus*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.ServiceStatus
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_ServiceStatus
+  name: ServiceStatus
+  nameWithType: WebhookInfo.ServiceStatus
+  fullName: LiveKit.Proto.WebhookInfo.ServiceStatus
+- uid: LiveKit.Proto.WebhookInfo.ServiceErrorCode*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.ServiceErrorCode
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_ServiceErrorCode
+  name: ServiceErrorCode
+  nameWithType: WebhookInfo.ServiceErrorCode
+  fullName: LiveKit.Proto.WebhookInfo.ServiceErrorCode
+- uid: LiveKit.Proto.WebhookInfo.ServiceError*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.ServiceError
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_ServiceError
+  name: ServiceError
+  nameWithType: WebhookInfo.ServiceError
+  fullName: LiveKit.Proto.WebhookInfo.ServiceError
+- uid: LiveKit.Proto.WebhookInfo.SendError*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.SendError
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_SendError
+  name: SendError
+  nameWithType: WebhookInfo.SendError
+  fullName: LiveKit.Proto.WebhookInfo.SendError
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.WebhookInfo.Equals*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.Equals
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_Equals_System_Object_
+  name: Equals
+  nameWithType: WebhookInfo.Equals
+  fullName: LiveKit.Proto.WebhookInfo.Equals
+- uid: System.IEquatable{LiveKit.Proto.WebhookInfo}.Equals(LiveKit.Proto.WebhookInfo)
+  commentId: M:System.IEquatable{LiveKit.Proto.WebhookInfo}.Equals(LiveKit.Proto.WebhookInfo)
+  parent: System.IEquatable{LiveKit.Proto.WebhookInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(WebhookInfo)
+  nameWithType: IEquatable<WebhookInfo>.Equals(WebhookInfo)
+  fullName: System.IEquatable<LiveKit.Proto.WebhookInfo>.Equals(LiveKit.Proto.WebhookInfo)
+  nameWithType.vb: IEquatable(Of WebhookInfo).Equals(WebhookInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.WebhookInfo).Equals(LiveKit.Proto.WebhookInfo)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.WebhookInfo}.Equals(LiveKit.Proto.WebhookInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.WebhookInfo}.Equals(LiveKit.Proto.WebhookInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WebhookInfo.GetHashCode*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.GetHashCode
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: WebhookInfo.GetHashCode
+  fullName: LiveKit.Proto.WebhookInfo.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WebhookInfo.ToString*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.ToString
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_ToString
+  name: ToString
+  nameWithType: WebhookInfo.ToString
+  fullName: LiveKit.Proto.WebhookInfo.ToString
+- uid: LiveKit.Proto.WebhookInfo.WriteTo*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.WriteTo
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: WebhookInfo.WriteTo
+  fullName: LiveKit.Proto.WebhookInfo.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.WebhookInfo.CalculateSize*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.CalculateSize
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_CalculateSize
+  name: CalculateSize
+  nameWithType: WebhookInfo.CalculateSize
+  fullName: LiveKit.Proto.WebhookInfo.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WebhookInfo.MergeFrom*
+  commentId: Overload:LiveKit.Proto.WebhookInfo.MergeFrom
+  href: LiveKit.Proto.WebhookInfo.html#LiveKit_Proto_WebhookInfo_MergeFrom_LiveKit_Proto_WebhookInfo_
+  name: MergeFrom
+  nameWithType: WebhookInfo.MergeFrom
+  fullName: LiveKit.Proto.WebhookInfo.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}.MergeFrom(LiveKit.Proto.WebhookInfo)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}.MergeFrom(LiveKit.Proto.WebhookInfo)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.WebhookInfo.html
+  name: MergeFrom(WebhookInfo)
+  nameWithType: IMessage<WebhookInfo>.MergeFrom(WebhookInfo)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.WebhookInfo>.MergeFrom(LiveKit.Proto.WebhookInfo)
+  nameWithType.vb: IMessage(Of WebhookInfo).MergeFrom(WebhookInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.WebhookInfo).MergeFrom(LiveKit.Proto.WebhookInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}.MergeFrom(LiveKit.Proto.WebhookInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.WebhookInfo}.MergeFrom(LiveKit.Proto.WebhookInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.WebhookInfo
+    name: WebhookInfo
+    href: LiveKit.Proto.WebhookInfo.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

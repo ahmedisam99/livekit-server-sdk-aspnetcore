@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: Livekit.PhoneNumberStatus
+  commentId: T:Livekit.PhoneNumberStatus
+  id: PhoneNumberStatus
+  parent: Livekit
+  children:
+  - Livekit.PhoneNumberStatus.Active
+  - Livekit.PhoneNumberStatus.Pending
+  - Livekit.PhoneNumberStatus.Released
+  - Livekit.PhoneNumberStatus.Unspecified
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberStatus
+  nameWithType: PhoneNumberStatus
+  fullName: Livekit.PhoneNumberStatus
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PhoneNumberStatus
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 110
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Phone number status enumeration
+  example: []
+  syntax:
+    content: public enum PhoneNumberStatus
+    content.vb: Public Enum PhoneNumberStatus
+- uid: Livekit.PhoneNumberStatus.Unspecified
+  commentId: F:Livekit.PhoneNumberStatus.Unspecified
+  id: Unspecified
+  parent: Livekit.PhoneNumberStatus
+  langs:
+  - csharp
+  - vb
+  name: Unspecified
+  nameWithType: PhoneNumberStatus.Unspecified
+  fullName: Livekit.PhoneNumberStatus.Unspecified
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Unspecified
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 114
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Default value
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PHONE_NUMBER_STATUS_UNSPECIFIED")]
+
+      Unspecified = 0
+    return:
+      type: Livekit.PhoneNumberStatus
+    content.vb: >-
+      <OriginalName("PHONE_NUMBER_STATUS_UNSPECIFIED")>
+
+      Unspecified = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PHONE_NUMBER_STATUS_UNSPECIFIED
+- uid: Livekit.PhoneNumberStatus.Active
+  commentId: F:Livekit.PhoneNumberStatus.Active
+  id: Active
+  parent: Livekit.PhoneNumberStatus
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: PhoneNumberStatus.Active
+  fullName: Livekit.PhoneNumberStatus.Active
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Active
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 118
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Number is active and ready for use
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PHONE_NUMBER_STATUS_ACTIVE")]
+
+      Active = 1
+    return:
+      type: Livekit.PhoneNumberStatus
+    content.vb: >-
+      <OriginalName("PHONE_NUMBER_STATUS_ACTIVE")>
+
+      Active = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PHONE_NUMBER_STATUS_ACTIVE
+- uid: Livekit.PhoneNumberStatus.Pending
+  commentId: F:Livekit.PhoneNumberStatus.Pending
+  id: Pending
+  parent: Livekit.PhoneNumberStatus
+  langs:
+  - csharp
+  - vb
+  name: Pending
+  nameWithType: PhoneNumberStatus.Pending
+  fullName: Livekit.PhoneNumberStatus.Pending
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Pending
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 122
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Number is being provisioned
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PHONE_NUMBER_STATUS_PENDING")]
+
+      Pending = 2
+    return:
+      type: Livekit.PhoneNumberStatus
+    content.vb: >-
+      <OriginalName("PHONE_NUMBER_STATUS_PENDING")>
+
+      Pending = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PHONE_NUMBER_STATUS_PENDING
+- uid: Livekit.PhoneNumberStatus.Released
+  commentId: F:Livekit.PhoneNumberStatus.Released
+  id: Released
+  parent: Livekit.PhoneNumberStatus
+  langs:
+  - csharp
+  - vb
+  name: Released
+  nameWithType: PhoneNumberStatus.Released
+  fullName: Livekit.PhoneNumberStatus.Released
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Released
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitPhoneNumber.cs
+    startLine: 126
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: Livekit
+  summary: Number has been released
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("PHONE_NUMBER_STATUS_RELEASED")]
+
+      Released = 3
+    return:
+      type: Livekit.PhoneNumberStatus
+    content.vb: >-
+      <OriginalName("PHONE_NUMBER_STATUS_RELEASED")>
+
+      Released = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PHONE_NUMBER_STATUS_RELEASED
+references:
+- uid: Livekit
+  commentId: N:Livekit
+  href: Livekit.html
+  name: Livekit
+  nameWithType: Livekit
+  fullName: Livekit
+- uid: Livekit.PhoneNumberStatus
+  commentId: T:Livekit.PhoneNumberStatus
+  parent: Livekit
+  href: Livekit.PhoneNumberStatus.html
+  name: PhoneNumberStatus
+  nameWithType: PhoneNumberStatus
+  fullName: Livekit.PhoneNumberStatus

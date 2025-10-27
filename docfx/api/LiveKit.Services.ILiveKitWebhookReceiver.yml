@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.ILiveKitWebhookReceiver
+  commentId: T:LiveKit.Services.ILiveKitWebhookReceiver
+  id: ILiveKitWebhookReceiver
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.ILiveKitWebhookReceiver.Receive(System.String,System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitWebhookReceiver
+  nameWithType: ILiveKitWebhookReceiver
+  fullName: LiveKit.Services.ILiveKitWebhookReceiver
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitWebhookReceiver.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitWebhookReceiver
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitWebhookReceiver.cs
+    startLine: 19
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Service for receiving and validating LiveKit webhook events.
+
+    <p>
+
+    LiveKit sends webhook events to notify your server when room events occur, such as room started/finished,
+
+    participant joined/left, track published/unpublished, and egress/ingress events.
+
+    </p>
+
+    <p>
+
+    The webhook receiver validates that requests came from LiveKit by verifying the JWT token signature
+
+    and comparing the SHA256 hash of the request body.
+
+    </p>
+
+    <p>
+
+    See <a href="https://docs.livekit.io/home/server/webhooks/">LiveKit Webhooks Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitWebhookReceiver
+    content.vb: Public Interface ILiveKitWebhookReceiver
+- uid: LiveKit.Services.ILiveKitWebhookReceiver.Receive(System.String,System.String,System.Boolean)
+  commentId: M:LiveKit.Services.ILiveKitWebhookReceiver.Receive(System.String,System.String,System.Boolean)
+  id: Receive(System.String,System.String,System.Boolean)
+  parent: LiveKit.Services.ILiveKitWebhookReceiver
+  langs:
+  - csharp
+  - vb
+  name: Receive(string, string?, bool)
+  nameWithType: ILiveKitWebhookReceiver.Receive(string, string?, bool)
+  fullName: LiveKit.Services.ILiveKitWebhookReceiver.Receive(string, string?, bool)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitWebhookReceiver.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Receive
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitWebhookReceiver.cs
+    startLine: 35
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Receives and validates a webhook event from LiveKit.
+
+    <p>
+
+    This method performs two-layer security validation:
+
+    1. JWT Token Verification - Validates the token signature and expiration
+
+    2. SHA256 Checksum - Verifies the request body hasn't been tampered with
+
+    </p>
+  example: []
+  syntax:
+    content: WebhookEvent Receive(string body, string? authorizationHeader = null, bool skipAuth = false)
+    parameters:
+    - id: body
+      type: System.String
+      description: The raw JSON body of the webhook request.
+    - id: authorizationHeader
+      type: System.String
+      description: The Authorization header value containing the JWT token.
+    - id: skipAuth
+      type: System.Boolean
+      description: If true, skips authentication and signature validation. Use only for testing.
+    return:
+      type: LiveKit.Proto.WebhookEvent
+      description: The parsed webhook event containing event type, room, participant, and other event-specific data.
+    content.vb: Function Receive(body As String, authorizationHeader As String = Nothing, skipAuth As Boolean = False) As WebhookEvent
+  overload: LiveKit.Services.ILiveKitWebhookReceiver.Receive*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Thrown when validation fails or the body cannot be parsed.
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Thrown when the SHA256 checksum validation fails.
+  nameWithType.vb: ILiveKitWebhookReceiver.Receive(String, String, Boolean)
+  fullName.vb: LiveKit.Services.ILiveKitWebhookReceiver.Receive(String, String, Boolean)
+  name.vb: Receive(String, String, Boolean)
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: LiveKit.Services.ILiveKitWebhookReceiver.Receive*
+  commentId: Overload:LiveKit.Services.ILiveKitWebhookReceiver.Receive
+  href: LiveKit.Services.ILiveKitWebhookReceiver.html#LiveKit_Services_ILiveKitWebhookReceiver_Receive_System_String_System_String_System_Boolean_
+  name: Receive
+  nameWithType: ILiveKitWebhookReceiver.Receive
+  fullName: LiveKit.Services.ILiveKitWebhookReceiver.Receive
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.WebhookEvent
+  commentId: T:LiveKit.Proto.WebhookEvent
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WebhookEvent.html
+  name: WebhookEvent
+  nameWithType: WebhookEvent
+  fullName: LiveKit.Proto.WebhookEvent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html

@@ -1,0 +1,2382 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.Room
+  commentId: T:LiveKit.Proto.Room
+  id: Room
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.Room.#ctor
+  - LiveKit.Proto.Room.#ctor(LiveKit.Proto.Room)
+  - LiveKit.Proto.Room.ActiveRecording
+  - LiveKit.Proto.Room.ActiveRecordingFieldNumber
+  - LiveKit.Proto.Room.CalculateSize
+  - LiveKit.Proto.Room.Clone
+  - LiveKit.Proto.Room.CreationTime
+  - LiveKit.Proto.Room.CreationTimeFieldNumber
+  - LiveKit.Proto.Room.CreationTimeMs
+  - LiveKit.Proto.Room.CreationTimeMsFieldNumber
+  - LiveKit.Proto.Room.DepartureTimeout
+  - LiveKit.Proto.Room.DepartureTimeoutFieldNumber
+  - LiveKit.Proto.Room.Descriptor
+  - LiveKit.Proto.Room.EmptyTimeout
+  - LiveKit.Proto.Room.EmptyTimeoutFieldNumber
+  - LiveKit.Proto.Room.EnabledCodecs
+  - LiveKit.Proto.Room.EnabledCodecsFieldNumber
+  - LiveKit.Proto.Room.Equals(LiveKit.Proto.Room)
+  - LiveKit.Proto.Room.Equals(System.Object)
+  - LiveKit.Proto.Room.GetHashCode
+  - LiveKit.Proto.Room.MaxParticipants
+  - LiveKit.Proto.Room.MaxParticipantsFieldNumber
+  - LiveKit.Proto.Room.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.Room.MergeFrom(LiveKit.Proto.Room)
+  - LiveKit.Proto.Room.Metadata
+  - LiveKit.Proto.Room.MetadataFieldNumber
+  - LiveKit.Proto.Room.Name
+  - LiveKit.Proto.Room.NameFieldNumber
+  - LiveKit.Proto.Room.NumParticipants
+  - LiveKit.Proto.Room.NumParticipantsFieldNumber
+  - LiveKit.Proto.Room.NumPublishers
+  - LiveKit.Proto.Room.NumPublishersFieldNumber
+  - LiveKit.Proto.Room.Parser
+  - LiveKit.Proto.Room.Sid
+  - LiveKit.Proto.Room.SidFieldNumber
+  - LiveKit.Proto.Room.ToString
+  - LiveKit.Proto.Room.TurnPassword
+  - LiveKit.Proto.Room.TurnPasswordFieldNumber
+  - LiveKit.Proto.Room.Version
+  - LiveKit.Proto.Room.VersionFieldNumber
+  - LiveKit.Proto.Room.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: Room
+  fullName: LiveKit.Proto.Room
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Room
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1236
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class Room : IMessage<Room>, IEquatable<Room>, IDeepCloneable<Room>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class Room Implements IMessage(Of Room), IEquatable(Of Room), IDeepCloneable(Of Room), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.Room}
+  - System.IEquatable{LiveKit.Proto.Room}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.Room.Parser
+  commentId: P:LiveKit.Proto.Room.Parser
+  id: Parser
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: Room.Parser
+  fullName: LiveKit.Proto.Room.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1244
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<Room> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.Room}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of Room)
+  overload: LiveKit.Proto.Room.Parser*
+- uid: LiveKit.Proto.Room.Descriptor
+  commentId: P:LiveKit.Proto.Room.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: Room.Descriptor
+  fullName: LiveKit.Proto.Room.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1248
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.Room.Descriptor*
+- uid: LiveKit.Proto.Room.#ctor
+  commentId: M:LiveKit.Proto.Room.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Room()
+  nameWithType: Room.Room()
+  fullName: LiveKit.Proto.Room.Room()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1260
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Room()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.Room.#ctor*
+  nameWithType.vb: Room.New()
+  fullName.vb: LiveKit.Proto.Room.New()
+  name.vb: New()
+- uid: LiveKit.Proto.Room.#ctor(LiveKit.Proto.Room)
+  commentId: M:LiveKit.Proto.Room.#ctor(LiveKit.Proto.Room)
+  id: '#ctor(LiveKit.Proto.Room)'
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Room(Room)
+  nameWithType: Room.Room(Room)
+  fullName: LiveKit.Proto.Room.Room(LiveKit.Proto.Room)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1268
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Room(Room other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.Room
+    content.vb: Public Sub New(other As Room)
+  overload: LiveKit.Proto.Room.#ctor*
+  nameWithType.vb: Room.New(Room)
+  fullName.vb: LiveKit.Proto.Room.New(LiveKit.Proto.Room)
+  name.vb: New(Room)
+- uid: LiveKit.Proto.Room.Clone
+  commentId: M:LiveKit.Proto.Room.Clone
+  id: Clone
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: Room.Clone()
+  fullName: LiveKit.Proto.Room.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1288
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public Room Clone()
+    return:
+      type: LiveKit.Proto.Room
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As Room
+  overload: LiveKit.Proto.Room.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}.Clone
+- uid: LiveKit.Proto.Room.SidFieldNumber
+  commentId: F:LiveKit.Proto.Room.SidFieldNumber
+  id: SidFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: SidFieldNumber
+  nameWithType: Room.SidFieldNumber
+  fullName: LiveKit.Proto.Room.SidFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SidFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1295
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sid" field.
+  example: []
+  syntax:
+    content: public const int SidFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const SidFieldNumber As Integer = 1
+- uid: LiveKit.Proto.Room.Sid
+  commentId: P:LiveKit.Proto.Room.Sid
+  id: Sid
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Sid
+  nameWithType: Room.Sid
+  fullName: LiveKit.Proto.Room.Sid
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Sid
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1297
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Sid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Sid As String
+  overload: LiveKit.Proto.Room.Sid*
+- uid: LiveKit.Proto.Room.NameFieldNumber
+  commentId: F:LiveKit.Proto.Room.NameFieldNumber
+  id: NameFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: NameFieldNumber
+  nameWithType: Room.NameFieldNumber
+  fullName: LiveKit.Proto.Room.NameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1307
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "name" field.
+  example: []
+  syntax:
+    content: public const int NameFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const NameFieldNumber As Integer = 2
+- uid: LiveKit.Proto.Room.Name
+  commentId: P:LiveKit.Proto.Room.Name
+  id: Name
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Room.Name
+  fullName: LiveKit.Proto.Room.Name
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Name
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1309
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: LiveKit.Proto.Room.Name*
+- uid: LiveKit.Proto.Room.EmptyTimeoutFieldNumber
+  commentId: F:LiveKit.Proto.Room.EmptyTimeoutFieldNumber
+  id: EmptyTimeoutFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: EmptyTimeoutFieldNumber
+  nameWithType: Room.EmptyTimeoutFieldNumber
+  fullName: LiveKit.Proto.Room.EmptyTimeoutFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EmptyTimeoutFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1319
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "empty_timeout" field.
+  example: []
+  syntax:
+    content: public const int EmptyTimeoutFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const EmptyTimeoutFieldNumber As Integer = 3
+- uid: LiveKit.Proto.Room.EmptyTimeout
+  commentId: P:LiveKit.Proto.Room.EmptyTimeout
+  id: EmptyTimeout
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: EmptyTimeout
+  nameWithType: Room.EmptyTimeout
+  fullName: LiveKit.Proto.Room.EmptyTimeout
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EmptyTimeout
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1321
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint EmptyTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property EmptyTimeout As UInteger
+  overload: LiveKit.Proto.Room.EmptyTimeout*
+- uid: LiveKit.Proto.Room.DepartureTimeoutFieldNumber
+  commentId: F:LiveKit.Proto.Room.DepartureTimeoutFieldNumber
+  id: DepartureTimeoutFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: DepartureTimeoutFieldNumber
+  nameWithType: Room.DepartureTimeoutFieldNumber
+  fullName: LiveKit.Proto.Room.DepartureTimeoutFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DepartureTimeoutFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1331
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "departure_timeout" field.
+  example: []
+  syntax:
+    content: public const int DepartureTimeoutFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const DepartureTimeoutFieldNumber As Integer = 14
+- uid: LiveKit.Proto.Room.DepartureTimeout
+  commentId: P:LiveKit.Proto.Room.DepartureTimeout
+  id: DepartureTimeout
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: DepartureTimeout
+  nameWithType: Room.DepartureTimeout
+  fullName: LiveKit.Proto.Room.DepartureTimeout
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DepartureTimeout
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1333
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint DepartureTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property DepartureTimeout As UInteger
+  overload: LiveKit.Proto.Room.DepartureTimeout*
+- uid: LiveKit.Proto.Room.MaxParticipantsFieldNumber
+  commentId: F:LiveKit.Proto.Room.MaxParticipantsFieldNumber
+  id: MaxParticipantsFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: MaxParticipantsFieldNumber
+  nameWithType: Room.MaxParticipantsFieldNumber
+  fullName: LiveKit.Proto.Room.MaxParticipantsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MaxParticipantsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1343
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "max_participants" field.
+  example: []
+  syntax:
+    content: public const int MaxParticipantsFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const MaxParticipantsFieldNumber As Integer = 4
+- uid: LiveKit.Proto.Room.MaxParticipants
+  commentId: P:LiveKit.Proto.Room.MaxParticipants
+  id: MaxParticipants
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: MaxParticipants
+  nameWithType: Room.MaxParticipants
+  fullName: LiveKit.Proto.Room.MaxParticipants
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MaxParticipants
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1345
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint MaxParticipants { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property MaxParticipants As UInteger
+  overload: LiveKit.Proto.Room.MaxParticipants*
+- uid: LiveKit.Proto.Room.CreationTimeFieldNumber
+  commentId: F:LiveKit.Proto.Room.CreationTimeFieldNumber
+  id: CreationTimeFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: CreationTimeFieldNumber
+  nameWithType: Room.CreationTimeFieldNumber
+  fullName: LiveKit.Proto.Room.CreationTimeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreationTimeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1355
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "creation_time" field.
+  example: []
+  syntax:
+    content: public const int CreationTimeFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const CreationTimeFieldNumber As Integer = 5
+- uid: LiveKit.Proto.Room.CreationTime
+  commentId: P:LiveKit.Proto.Room.CreationTime
+  id: CreationTime
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: CreationTime
+  nameWithType: Room.CreationTime
+  fullName: LiveKit.Proto.Room.CreationTime
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreationTime
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1357
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long CreationTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property CreationTime As Long
+  overload: LiveKit.Proto.Room.CreationTime*
+- uid: LiveKit.Proto.Room.CreationTimeMsFieldNumber
+  commentId: F:LiveKit.Proto.Room.CreationTimeMsFieldNumber
+  id: CreationTimeMsFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: CreationTimeMsFieldNumber
+  nameWithType: Room.CreationTimeMsFieldNumber
+  fullName: LiveKit.Proto.Room.CreationTimeMsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreationTimeMsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1367
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "creation_time_ms" field.
+  example: []
+  syntax:
+    content: public const int CreationTimeMsFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const CreationTimeMsFieldNumber As Integer = 15
+- uid: LiveKit.Proto.Room.CreationTimeMs
+  commentId: P:LiveKit.Proto.Room.CreationTimeMs
+  id: CreationTimeMs
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: CreationTimeMs
+  nameWithType: Room.CreationTimeMs
+  fullName: LiveKit.Proto.Room.CreationTimeMs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreationTimeMs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1369
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long CreationTimeMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property CreationTimeMs As Long
+  overload: LiveKit.Proto.Room.CreationTimeMs*
+- uid: LiveKit.Proto.Room.TurnPasswordFieldNumber
+  commentId: F:LiveKit.Proto.Room.TurnPasswordFieldNumber
+  id: TurnPasswordFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: TurnPasswordFieldNumber
+  nameWithType: Room.TurnPasswordFieldNumber
+  fullName: LiveKit.Proto.Room.TurnPasswordFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TurnPasswordFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1379
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "turn_password" field.
+  example: []
+  syntax:
+    content: public const int TurnPasswordFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const TurnPasswordFieldNumber As Integer = 6
+- uid: LiveKit.Proto.Room.TurnPassword
+  commentId: P:LiveKit.Proto.Room.TurnPassword
+  id: TurnPassword
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: TurnPassword
+  nameWithType: Room.TurnPassword
+  fullName: LiveKit.Proto.Room.TurnPassword
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TurnPassword
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1381
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string TurnPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TurnPassword As String
+  overload: LiveKit.Proto.Room.TurnPassword*
+- uid: LiveKit.Proto.Room.EnabledCodecsFieldNumber
+  commentId: F:LiveKit.Proto.Room.EnabledCodecsFieldNumber
+  id: EnabledCodecsFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: EnabledCodecsFieldNumber
+  nameWithType: Room.EnabledCodecsFieldNumber
+  fullName: LiveKit.Proto.Room.EnabledCodecsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnabledCodecsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1391
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "enabled_codecs" field.
+  example: []
+  syntax:
+    content: public const int EnabledCodecsFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const EnabledCodecsFieldNumber As Integer = 7
+- uid: LiveKit.Proto.Room.EnabledCodecs
+  commentId: P:LiveKit.Proto.Room.EnabledCodecs
+  id: EnabledCodecs
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: EnabledCodecs
+  nameWithType: Room.EnabledCodecs
+  fullName: LiveKit.Proto.Room.EnabledCodecs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnabledCodecs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1395
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<Codec> EnabledCodecs { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.Codec}
+    content.vb: Public ReadOnly Property EnabledCodecs As RepeatedField(Of Codec)
+  overload: LiveKit.Proto.Room.EnabledCodecs*
+- uid: LiveKit.Proto.Room.MetadataFieldNumber
+  commentId: F:LiveKit.Proto.Room.MetadataFieldNumber
+  id: MetadataFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: MetadataFieldNumber
+  nameWithType: Room.MetadataFieldNumber
+  fullName: LiveKit.Proto.Room.MetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1402
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "metadata" field.
+  example: []
+  syntax:
+    content: public const int MetadataFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const MetadataFieldNumber As Integer = 8
+- uid: LiveKit.Proto.Room.Metadata
+  commentId: P:LiveKit.Proto.Room.Metadata
+  id: Metadata
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: Room.Metadata
+  fullName: LiveKit.Proto.Room.Metadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Metadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1404
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Metadata { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Metadata As String
+  overload: LiveKit.Proto.Room.Metadata*
+- uid: LiveKit.Proto.Room.NumParticipantsFieldNumber
+  commentId: F:LiveKit.Proto.Room.NumParticipantsFieldNumber
+  id: NumParticipantsFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: NumParticipantsFieldNumber
+  nameWithType: Room.NumParticipantsFieldNumber
+  fullName: LiveKit.Proto.Room.NumParticipantsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumParticipantsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1414
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "num_participants" field.
+  example: []
+  syntax:
+    content: public const int NumParticipantsFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const NumParticipantsFieldNumber As Integer = 9
+- uid: LiveKit.Proto.Room.NumParticipants
+  commentId: P:LiveKit.Proto.Room.NumParticipants
+  id: NumParticipants
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: NumParticipants
+  nameWithType: Room.NumParticipants
+  fullName: LiveKit.Proto.Room.NumParticipants
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumParticipants
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1416
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint NumParticipants { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NumParticipants As UInteger
+  overload: LiveKit.Proto.Room.NumParticipants*
+- uid: LiveKit.Proto.Room.NumPublishersFieldNumber
+  commentId: F:LiveKit.Proto.Room.NumPublishersFieldNumber
+  id: NumPublishersFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: NumPublishersFieldNumber
+  nameWithType: Room.NumPublishersFieldNumber
+  fullName: LiveKit.Proto.Room.NumPublishersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumPublishersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1426
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "num_publishers" field.
+  example: []
+  syntax:
+    content: public const int NumPublishersFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const NumPublishersFieldNumber As Integer = 11
+- uid: LiveKit.Proto.Room.NumPublishers
+  commentId: P:LiveKit.Proto.Room.NumPublishers
+  id: NumPublishers
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: NumPublishers
+  nameWithType: Room.NumPublishers
+  fullName: LiveKit.Proto.Room.NumPublishers
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NumPublishers
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1428
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint NumPublishers { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NumPublishers As UInteger
+  overload: LiveKit.Proto.Room.NumPublishers*
+- uid: LiveKit.Proto.Room.ActiveRecordingFieldNumber
+  commentId: F:LiveKit.Proto.Room.ActiveRecordingFieldNumber
+  id: ActiveRecordingFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: ActiveRecordingFieldNumber
+  nameWithType: Room.ActiveRecordingFieldNumber
+  fullName: LiveKit.Proto.Room.ActiveRecordingFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ActiveRecordingFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1438
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "active_recording" field.
+  example: []
+  syntax:
+    content: public const int ActiveRecordingFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const ActiveRecordingFieldNumber As Integer = 10
+- uid: LiveKit.Proto.Room.ActiveRecording
+  commentId: P:LiveKit.Proto.Room.ActiveRecording
+  id: ActiveRecording
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: ActiveRecording
+  nameWithType: Room.ActiveRecording
+  fullName: LiveKit.Proto.Room.ActiveRecording
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ActiveRecording
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1440
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool ActiveRecording { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ActiveRecording As Boolean
+  overload: LiveKit.Proto.Room.ActiveRecording*
+- uid: LiveKit.Proto.Room.VersionFieldNumber
+  commentId: F:LiveKit.Proto.Room.VersionFieldNumber
+  id: VersionFieldNumber
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: VersionFieldNumber
+  nameWithType: Room.VersionFieldNumber
+  fullName: LiveKit.Proto.Room.VersionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VersionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1450
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "version" field.
+  example: []
+  syntax:
+    content: public const int VersionFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const VersionFieldNumber As Integer = 13
+- uid: LiveKit.Proto.Room.Version
+  commentId: P:LiveKit.Proto.Room.Version
+  id: Version
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: Room.Version
+  fullName: LiveKit.Proto.Room.Version
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Version
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1452
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TimedVersion Version { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.TimedVersion
+    content.vb: Public Property Version As TimedVersion
+  overload: LiveKit.Proto.Room.Version*
+- uid: LiveKit.Proto.Room.Equals(System.Object)
+  commentId: M:LiveKit.Proto.Room.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Room.Equals(object)
+  fullName: LiveKit.Proto.Room.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1461
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.Room.Equals*
+  nameWithType.vb: Room.Equals(Object)
+  fullName.vb: LiveKit.Proto.Room.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.Room.Equals(LiveKit.Proto.Room)
+  commentId: M:LiveKit.Proto.Room.Equals(LiveKit.Proto.Room)
+  id: Equals(LiveKit.Proto.Room)
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: Equals(Room)
+  nameWithType: Room.Equals(Room)
+  fullName: LiveKit.Proto.Room.Equals(LiveKit.Proto.Room)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1467
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(Room other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.Room
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Room) As Boolean
+  overload: LiveKit.Proto.Room.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.Room}.Equals(LiveKit.Proto.Room)
+- uid: LiveKit.Proto.Room.GetHashCode
+  commentId: M:LiveKit.Proto.Room.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Room.GetHashCode()
+  fullName: LiveKit.Proto.Room.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1493
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.Room.GetHashCode*
+- uid: LiveKit.Proto.Room.ToString
+  commentId: M:LiveKit.Proto.Room.ToString
+  id: ToString
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Room.ToString()
+  fullName: LiveKit.Proto.Room.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1517
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.Room.ToString*
+- uid: LiveKit.Proto.Room.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.Room.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: Room.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.Room.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1523
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.Room.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.Room.CalculateSize
+  commentId: M:LiveKit.Proto.Room.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: Room.CalculateSize()
+  fullName: LiveKit.Proto.Room.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1651
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.Room.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.Room.MergeFrom(LiveKit.Proto.Room)
+  commentId: M:LiveKit.Proto.Room.MergeFrom(LiveKit.Proto.Room)
+  id: MergeFrom(LiveKit.Proto.Room)
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(Room)
+  nameWithType: Room.MergeFrom(Room)
+  fullName: LiveKit.Proto.Room.MergeFrom(LiveKit.Proto.Room)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1701
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(Room other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.Room
+    content.vb: Public Sub MergeFrom(other As Room)
+  overload: LiveKit.Proto.Room.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.Room}.MergeFrom(LiveKit.Proto.Room)
+- uid: LiveKit.Proto.Room.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.Room.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.Room
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: Room.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.Room.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 1753
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.Room.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.Room}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.Room}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.Room.html
+  name: IMessage<Room>
+  nameWithType: IMessage<Room>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.Room>
+  nameWithType.vb: IMessage(Of Room)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.Room)
+  name.vb: IMessage(Of Room)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.Room}
+  commentId: T:System.IEquatable{LiveKit.Proto.Room}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Room>
+  nameWithType: IEquatable<Room>
+  fullName: System.IEquatable<LiveKit.Proto.Room>
+  nameWithType.vb: IEquatable(Of Room)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.Room)
+  name.vb: IEquatable(Of Room)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.Room.html
+  name: IDeepCloneable<Room>
+  nameWithType: IDeepCloneable<Room>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.Room>
+  nameWithType.vb: IDeepCloneable(Of Room)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.Room)
+  name.vb: IDeepCloneable(Of Room)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.Room.Parser*
+  commentId: Overload:LiveKit.Proto.Room.Parser
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_Parser
+  name: Parser
+  nameWithType: Room.Parser
+  fullName: LiveKit.Proto.Room.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.Room}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.Room}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.Room.html
+  name: MessageParser<Room>
+  nameWithType: MessageParser<Room>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.Room>
+  nameWithType.vb: MessageParser(Of Room)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.Room)
+  name.vb: MessageParser(Of Room)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.Room.Descriptor*
+  commentId: Overload:LiveKit.Proto.Room.Descriptor
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_Descriptor
+  name: Descriptor
+  nameWithType: Room.Descriptor
+  fullName: LiveKit.Proto.Room.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.Room.#ctor*
+  commentId: Overload:LiveKit.Proto.Room.#ctor
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room__ctor
+  name: Room
+  nameWithType: Room.Room
+  fullName: LiveKit.Proto.Room.Room
+  nameWithType.vb: Room.New
+  fullName.vb: LiveKit.Proto.Room.New
+  name.vb: New
+- uid: LiveKit.Proto.Room
+  commentId: T:LiveKit.Proto.Room
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.Room.html
+  name: Room
+  nameWithType: Room
+  fullName: LiveKit.Proto.Room
+- uid: LiveKit.Proto.Room.Clone*
+  commentId: Overload:LiveKit.Proto.Room.Clone
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_Clone
+  name: Clone
+  nameWithType: Room.Clone
+  fullName: LiveKit.Proto.Room.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<Room>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.Room>.Clone()
+  nameWithType.vb: IDeepCloneable(Of Room).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.Room).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Room}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.Room.Sid*
+  commentId: Overload:LiveKit.Proto.Room.Sid
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_Sid
+  name: Sid
+  nameWithType: Room.Sid
+  fullName: LiveKit.Proto.Room.Sid
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.Room.Name*
+  commentId: Overload:LiveKit.Proto.Room.Name
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_Name
+  name: Name
+  nameWithType: Room.Name
+  fullName: LiveKit.Proto.Room.Name
+- uid: LiveKit.Proto.Room.EmptyTimeout*
+  commentId: Overload:LiveKit.Proto.Room.EmptyTimeout
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_EmptyTimeout
+  name: EmptyTimeout
+  nameWithType: Room.EmptyTimeout
+  fullName: LiveKit.Proto.Room.EmptyTimeout
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: LiveKit.Proto.Room.DepartureTimeout*
+  commentId: Overload:LiveKit.Proto.Room.DepartureTimeout
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_DepartureTimeout
+  name: DepartureTimeout
+  nameWithType: Room.DepartureTimeout
+  fullName: LiveKit.Proto.Room.DepartureTimeout
+- uid: LiveKit.Proto.Room.MaxParticipants*
+  commentId: Overload:LiveKit.Proto.Room.MaxParticipants
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_MaxParticipants
+  name: MaxParticipants
+  nameWithType: Room.MaxParticipants
+  fullName: LiveKit.Proto.Room.MaxParticipants
+- uid: LiveKit.Proto.Room.CreationTime*
+  commentId: Overload:LiveKit.Proto.Room.CreationTime
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_CreationTime
+  name: CreationTime
+  nameWithType: Room.CreationTime
+  fullName: LiveKit.Proto.Room.CreationTime
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.Room.CreationTimeMs*
+  commentId: Overload:LiveKit.Proto.Room.CreationTimeMs
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_CreationTimeMs
+  name: CreationTimeMs
+  nameWithType: Room.CreationTimeMs
+  fullName: LiveKit.Proto.Room.CreationTimeMs
+- uid: LiveKit.Proto.Room.TurnPassword*
+  commentId: Overload:LiveKit.Proto.Room.TurnPassword
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_TurnPassword
+  name: TurnPassword
+  nameWithType: Room.TurnPassword
+  fullName: LiveKit.Proto.Room.TurnPassword
+- uid: LiveKit.Proto.Room.EnabledCodecs*
+  commentId: Overload:LiveKit.Proto.Room.EnabledCodecs
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_EnabledCodecs
+  name: EnabledCodecs
+  nameWithType: Room.EnabledCodecs
+  fullName: LiveKit.Proto.Room.EnabledCodecs
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.Codec}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.Codec}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.Codec.html
+  name: RepeatedField<Codec>
+  nameWithType: RepeatedField<Codec>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.Codec>
+  nameWithType.vb: RepeatedField(Of Codec)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.Codec)
+  name.vb: RepeatedField(Of Codec)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.Codec
+    name: Codec
+    href: LiveKit.Proto.Codec.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Codec
+    name: Codec
+    href: LiveKit.Proto.Codec.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.Room.Metadata*
+  commentId: Overload:LiveKit.Proto.Room.Metadata
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_Metadata
+  name: Metadata
+  nameWithType: Room.Metadata
+  fullName: LiveKit.Proto.Room.Metadata
+- uid: LiveKit.Proto.Room.NumParticipants*
+  commentId: Overload:LiveKit.Proto.Room.NumParticipants
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_NumParticipants
+  name: NumParticipants
+  nameWithType: Room.NumParticipants
+  fullName: LiveKit.Proto.Room.NumParticipants
+- uid: LiveKit.Proto.Room.NumPublishers*
+  commentId: Overload:LiveKit.Proto.Room.NumPublishers
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_NumPublishers
+  name: NumPublishers
+  nameWithType: Room.NumPublishers
+  fullName: LiveKit.Proto.Room.NumPublishers
+- uid: LiveKit.Proto.Room.ActiveRecording*
+  commentId: Overload:LiveKit.Proto.Room.ActiveRecording
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_ActiveRecording
+  name: ActiveRecording
+  nameWithType: Room.ActiveRecording
+  fullName: LiveKit.Proto.Room.ActiveRecording
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.Room.Version*
+  commentId: Overload:LiveKit.Proto.Room.Version
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_Version
+  name: Version
+  nameWithType: Room.Version
+  fullName: LiveKit.Proto.Room.Version
+- uid: LiveKit.Proto.TimedVersion
+  commentId: T:LiveKit.Proto.TimedVersion
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TimedVersion.html
+  name: TimedVersion
+  nameWithType: TimedVersion
+  fullName: LiveKit.Proto.TimedVersion
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.Room.Equals*
+  commentId: Overload:LiveKit.Proto.Room.Equals
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_Equals_System_Object_
+  name: Equals
+  nameWithType: Room.Equals
+  fullName: LiveKit.Proto.Room.Equals
+- uid: System.IEquatable{LiveKit.Proto.Room}.Equals(LiveKit.Proto.Room)
+  commentId: M:System.IEquatable{LiveKit.Proto.Room}.Equals(LiveKit.Proto.Room)
+  parent: System.IEquatable{LiveKit.Proto.Room}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Room)
+  nameWithType: IEquatable<Room>.Equals(Room)
+  fullName: System.IEquatable<LiveKit.Proto.Room>.Equals(LiveKit.Proto.Room)
+  nameWithType.vb: IEquatable(Of Room).Equals(Room)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.Room).Equals(LiveKit.Proto.Room)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.Room}.Equals(LiveKit.Proto.Room)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.Room}.Equals(LiveKit.Proto.Room)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.Room.GetHashCode*
+  commentId: Overload:LiveKit.Proto.Room.GetHashCode
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_GetHashCode
+  name: GetHashCode
+  nameWithType: Room.GetHashCode
+  fullName: LiveKit.Proto.Room.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.Room.ToString*
+  commentId: Overload:LiveKit.Proto.Room.ToString
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_ToString
+  name: ToString
+  nameWithType: Room.ToString
+  fullName: LiveKit.Proto.Room.ToString
+- uid: LiveKit.Proto.Room.WriteTo*
+  commentId: Overload:LiveKit.Proto.Room.WriteTo
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: Room.WriteTo
+  fullName: LiveKit.Proto.Room.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.Room.CalculateSize*
+  commentId: Overload:LiveKit.Proto.Room.CalculateSize
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_CalculateSize
+  name: CalculateSize
+  nameWithType: Room.CalculateSize
+  fullName: LiveKit.Proto.Room.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.Room.MergeFrom*
+  commentId: Overload:LiveKit.Proto.Room.MergeFrom
+  href: LiveKit.Proto.Room.html#LiveKit_Proto_Room_MergeFrom_LiveKit_Proto_Room_
+  name: MergeFrom
+  nameWithType: Room.MergeFrom
+  fullName: LiveKit.Proto.Room.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.Room}.MergeFrom(LiveKit.Proto.Room)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.Room}.MergeFrom(LiveKit.Proto.Room)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.Room}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.Room.html
+  name: MergeFrom(Room)
+  nameWithType: IMessage<Room>.MergeFrom(Room)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.Room>.MergeFrom(LiveKit.Proto.Room)
+  nameWithType.vb: IMessage(Of Room).MergeFrom(Room)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.Room).MergeFrom(LiveKit.Proto.Room)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.Room}.MergeFrom(LiveKit.Proto.Room)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.Room}.MergeFrom(LiveKit.Proto.Room)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.Room
+    name: Room
+    href: LiveKit.Proto.Room.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

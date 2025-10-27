@@ -1,0 +1,1541 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.ProxyConfig
+  commentId: T:LiveKit.Proto.ProxyConfig
+  id: ProxyConfig
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.ProxyConfig.#ctor
+  - LiveKit.Proto.ProxyConfig.#ctor(LiveKit.Proto.ProxyConfig)
+  - LiveKit.Proto.ProxyConfig.CalculateSize
+  - LiveKit.Proto.ProxyConfig.Clone
+  - LiveKit.Proto.ProxyConfig.Descriptor
+  - LiveKit.Proto.ProxyConfig.Equals(LiveKit.Proto.ProxyConfig)
+  - LiveKit.Proto.ProxyConfig.Equals(System.Object)
+  - LiveKit.Proto.ProxyConfig.GetHashCode
+  - LiveKit.Proto.ProxyConfig.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.ProxyConfig.MergeFrom(LiveKit.Proto.ProxyConfig)
+  - LiveKit.Proto.ProxyConfig.Parser
+  - LiveKit.Proto.ProxyConfig.Password
+  - LiveKit.Proto.ProxyConfig.PasswordFieldNumber
+  - LiveKit.Proto.ProxyConfig.ToString
+  - LiveKit.Proto.ProxyConfig.Url
+  - LiveKit.Proto.ProxyConfig.UrlFieldNumber
+  - LiveKit.Proto.ProxyConfig.Username
+  - LiveKit.Proto.ProxyConfig.UsernameFieldNumber
+  - LiveKit.Proto.ProxyConfig.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: ProxyConfig
+  nameWithType: ProxyConfig
+  fullName: LiveKit.Proto.ProxyConfig
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ProxyConfig
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7637
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class ProxyConfig : IMessage<ProxyConfig>, IEquatable<ProxyConfig>, IDeepCloneable<ProxyConfig>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class ProxyConfig Implements IMessage(Of ProxyConfig), IEquatable(Of ProxyConfig), IDeepCloneable(Of ProxyConfig), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}
+  - System.IEquatable{LiveKit.Proto.ProxyConfig}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.ProxyConfig.Parser
+  commentId: P:LiveKit.Proto.ProxyConfig.Parser
+  id: Parser
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: ProxyConfig.Parser
+  fullName: LiveKit.Proto.ProxyConfig.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7645
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<ProxyConfig> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.ProxyConfig}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of ProxyConfig)
+  overload: LiveKit.Proto.ProxyConfig.Parser*
+- uid: LiveKit.Proto.ProxyConfig.Descriptor
+  commentId: P:LiveKit.Proto.ProxyConfig.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: ProxyConfig.Descriptor
+  fullName: LiveKit.Proto.ProxyConfig.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7649
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.ProxyConfig.Descriptor*
+- uid: LiveKit.Proto.ProxyConfig.#ctor
+  commentId: M:LiveKit.Proto.ProxyConfig.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: ProxyConfig()
+  nameWithType: ProxyConfig.ProxyConfig()
+  fullName: LiveKit.Proto.ProxyConfig.ProxyConfig()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7661
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ProxyConfig()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.ProxyConfig.#ctor*
+  nameWithType.vb: ProxyConfig.New()
+  fullName.vb: LiveKit.Proto.ProxyConfig.New()
+  name.vb: New()
+- uid: LiveKit.Proto.ProxyConfig.#ctor(LiveKit.Proto.ProxyConfig)
+  commentId: M:LiveKit.Proto.ProxyConfig.#ctor(LiveKit.Proto.ProxyConfig)
+  id: '#ctor(LiveKit.Proto.ProxyConfig)'
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: ProxyConfig(ProxyConfig)
+  nameWithType: ProxyConfig.ProxyConfig(ProxyConfig)
+  fullName: LiveKit.Proto.ProxyConfig.ProxyConfig(LiveKit.Proto.ProxyConfig)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7669
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ProxyConfig(ProxyConfig other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ProxyConfig
+    content.vb: Public Sub New(other As ProxyConfig)
+  overload: LiveKit.Proto.ProxyConfig.#ctor*
+  nameWithType.vb: ProxyConfig.New(ProxyConfig)
+  fullName.vb: LiveKit.Proto.ProxyConfig.New(LiveKit.Proto.ProxyConfig)
+  name.vb: New(ProxyConfig)
+- uid: LiveKit.Proto.ProxyConfig.Clone
+  commentId: M:LiveKit.Proto.ProxyConfig.Clone
+  id: Clone
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: ProxyConfig.Clone()
+  fullName: LiveKit.Proto.ProxyConfig.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7678
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public ProxyConfig Clone()
+    return:
+      type: LiveKit.Proto.ProxyConfig
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As ProxyConfig
+  overload: LiveKit.Proto.ProxyConfig.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}.Clone
+- uid: LiveKit.Proto.ProxyConfig.UrlFieldNumber
+  commentId: F:LiveKit.Proto.ProxyConfig.UrlFieldNumber
+  id: UrlFieldNumber
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: UrlFieldNumber
+  nameWithType: ProxyConfig.UrlFieldNumber
+  fullName: LiveKit.Proto.ProxyConfig.UrlFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UrlFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7685
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "url" field.
+  example: []
+  syntax:
+    content: public const int UrlFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const UrlFieldNumber As Integer = 1
+- uid: LiveKit.Proto.ProxyConfig.Url
+  commentId: P:LiveKit.Proto.ProxyConfig.Url
+  id: Url
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: ProxyConfig.Url
+  fullName: LiveKit.Proto.ProxyConfig.Url
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Url
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7687
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: LiveKit.Proto.ProxyConfig.Url*
+- uid: LiveKit.Proto.ProxyConfig.UsernameFieldNumber
+  commentId: F:LiveKit.Proto.ProxyConfig.UsernameFieldNumber
+  id: UsernameFieldNumber
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: UsernameFieldNumber
+  nameWithType: ProxyConfig.UsernameFieldNumber
+  fullName: LiveKit.Proto.ProxyConfig.UsernameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UsernameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7697
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "username" field.
+  example: []
+  syntax:
+    content: public const int UsernameFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const UsernameFieldNumber As Integer = 2
+- uid: LiveKit.Proto.ProxyConfig.Username
+  commentId: P:LiveKit.Proto.ProxyConfig.Username
+  id: Username
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: ProxyConfig.Username
+  fullName: LiveKit.Proto.ProxyConfig.Username
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Username
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7699
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: LiveKit.Proto.ProxyConfig.Username*
+- uid: LiveKit.Proto.ProxyConfig.PasswordFieldNumber
+  commentId: F:LiveKit.Proto.ProxyConfig.PasswordFieldNumber
+  id: PasswordFieldNumber
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: PasswordFieldNumber
+  nameWithType: ProxyConfig.PasswordFieldNumber
+  fullName: LiveKit.Proto.ProxyConfig.PasswordFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PasswordFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7709
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "password" field.
+  example: []
+  syntax:
+    content: public const int PasswordFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const PasswordFieldNumber As Integer = 3
+- uid: LiveKit.Proto.ProxyConfig.Password
+  commentId: P:LiveKit.Proto.ProxyConfig.Password
+  id: Password
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: ProxyConfig.Password
+  fullName: LiveKit.Proto.ProxyConfig.Password
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Password
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7711
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Password As String
+  overload: LiveKit.Proto.ProxyConfig.Password*
+- uid: LiveKit.Proto.ProxyConfig.Equals(System.Object)
+  commentId: M:LiveKit.Proto.ProxyConfig.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: ProxyConfig.Equals(object)
+  fullName: LiveKit.Proto.ProxyConfig.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7720
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.ProxyConfig.Equals*
+  nameWithType.vb: ProxyConfig.Equals(Object)
+  fullName.vb: LiveKit.Proto.ProxyConfig.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.ProxyConfig.Equals(LiveKit.Proto.ProxyConfig)
+  commentId: M:LiveKit.Proto.ProxyConfig.Equals(LiveKit.Proto.ProxyConfig)
+  id: Equals(LiveKit.Proto.ProxyConfig)
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: Equals(ProxyConfig)
+  nameWithType: ProxyConfig.Equals(ProxyConfig)
+  fullName: LiveKit.Proto.ProxyConfig.Equals(LiveKit.Proto.ProxyConfig)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7726
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(ProxyConfig other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ProxyConfig
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As ProxyConfig) As Boolean
+  overload: LiveKit.Proto.ProxyConfig.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.ProxyConfig}.Equals(LiveKit.Proto.ProxyConfig)
+- uid: LiveKit.Proto.ProxyConfig.GetHashCode
+  commentId: M:LiveKit.Proto.ProxyConfig.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ProxyConfig.GetHashCode()
+  fullName: LiveKit.Proto.ProxyConfig.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7741
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.ProxyConfig.GetHashCode*
+- uid: LiveKit.Proto.ProxyConfig.ToString
+  commentId: M:LiveKit.Proto.ProxyConfig.ToString
+  id: ToString
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ProxyConfig.ToString()
+  fullName: LiveKit.Proto.ProxyConfig.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7754
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.ProxyConfig.ToString*
+- uid: LiveKit.Proto.ProxyConfig.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.ProxyConfig.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: ProxyConfig.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.ProxyConfig.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7760
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.ProxyConfig.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.ProxyConfig.CalculateSize
+  commentId: M:LiveKit.Proto.ProxyConfig.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: ProxyConfig.CalculateSize()
+  fullName: LiveKit.Proto.ProxyConfig.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7806
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.ProxyConfig.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.ProxyConfig.MergeFrom(LiveKit.Proto.ProxyConfig)
+  commentId: M:LiveKit.Proto.ProxyConfig.MergeFrom(LiveKit.Proto.ProxyConfig)
+  id: MergeFrom(LiveKit.Proto.ProxyConfig)
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(ProxyConfig)
+  nameWithType: ProxyConfig.MergeFrom(ProxyConfig)
+  fullName: LiveKit.Proto.ProxyConfig.MergeFrom(LiveKit.Proto.ProxyConfig)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7825
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(ProxyConfig other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.ProxyConfig
+    content.vb: Public Sub MergeFrom(other As ProxyConfig)
+  overload: LiveKit.Proto.ProxyConfig.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}.MergeFrom(LiveKit.Proto.ProxyConfig)
+- uid: LiveKit.Proto.ProxyConfig.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.ProxyConfig.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.ProxyConfig
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: ProxyConfig.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.ProxyConfig.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 7843
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.ProxyConfig.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.ProxyConfig.html
+  name: IMessage<ProxyConfig>
+  nameWithType: IMessage<ProxyConfig>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.ProxyConfig>
+  nameWithType.vb: IMessage(Of ProxyConfig)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.ProxyConfig)
+  name.vb: IMessage(Of ProxyConfig)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.ProxyConfig}
+  commentId: T:System.IEquatable{LiveKit.Proto.ProxyConfig}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ProxyConfig>
+  nameWithType: IEquatable<ProxyConfig>
+  fullName: System.IEquatable<LiveKit.Proto.ProxyConfig>
+  nameWithType.vb: IEquatable(Of ProxyConfig)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.ProxyConfig)
+  name.vb: IEquatable(Of ProxyConfig)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.ProxyConfig.html
+  name: IDeepCloneable<ProxyConfig>
+  nameWithType: IDeepCloneable<ProxyConfig>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.ProxyConfig>
+  nameWithType.vb: IDeepCloneable(Of ProxyConfig)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.ProxyConfig)
+  name.vb: IDeepCloneable(Of ProxyConfig)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.ProxyConfig.Parser*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.Parser
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_Parser
+  name: Parser
+  nameWithType: ProxyConfig.Parser
+  fullName: LiveKit.Proto.ProxyConfig.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.ProxyConfig}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.ProxyConfig}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.ProxyConfig.html
+  name: MessageParser<ProxyConfig>
+  nameWithType: MessageParser<ProxyConfig>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.ProxyConfig>
+  nameWithType.vb: MessageParser(Of ProxyConfig)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.ProxyConfig)
+  name.vb: MessageParser(Of ProxyConfig)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.ProxyConfig.Descriptor*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.Descriptor
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_Descriptor
+  name: Descriptor
+  nameWithType: ProxyConfig.Descriptor
+  fullName: LiveKit.Proto.ProxyConfig.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.ProxyConfig.#ctor*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.#ctor
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig__ctor
+  name: ProxyConfig
+  nameWithType: ProxyConfig.ProxyConfig
+  fullName: LiveKit.Proto.ProxyConfig.ProxyConfig
+  nameWithType.vb: ProxyConfig.New
+  fullName.vb: LiveKit.Proto.ProxyConfig.New
+  name.vb: New
+- uid: LiveKit.Proto.ProxyConfig
+  commentId: T:LiveKit.Proto.ProxyConfig
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ProxyConfig.html
+  name: ProxyConfig
+  nameWithType: ProxyConfig
+  fullName: LiveKit.Proto.ProxyConfig
+- uid: LiveKit.Proto.ProxyConfig.Clone*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.Clone
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_Clone
+  name: Clone
+  nameWithType: ProxyConfig.Clone
+  fullName: LiveKit.Proto.ProxyConfig.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<ProxyConfig>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.ProxyConfig>.Clone()
+  nameWithType.vb: IDeepCloneable(Of ProxyConfig).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.ProxyConfig).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.ProxyConfig}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.ProxyConfig.Url*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.Url
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_Url
+  name: Url
+  nameWithType: ProxyConfig.Url
+  fullName: LiveKit.Proto.ProxyConfig.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.ProxyConfig.Username*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.Username
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_Username
+  name: Username
+  nameWithType: ProxyConfig.Username
+  fullName: LiveKit.Proto.ProxyConfig.Username
+- uid: LiveKit.Proto.ProxyConfig.Password*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.Password
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_Password
+  name: Password
+  nameWithType: ProxyConfig.Password
+  fullName: LiveKit.Proto.ProxyConfig.Password
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.ProxyConfig.Equals*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.Equals
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_Equals_System_Object_
+  name: Equals
+  nameWithType: ProxyConfig.Equals
+  fullName: LiveKit.Proto.ProxyConfig.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.ProxyConfig}.Equals(LiveKit.Proto.ProxyConfig)
+  commentId: M:System.IEquatable{LiveKit.Proto.ProxyConfig}.Equals(LiveKit.Proto.ProxyConfig)
+  parent: System.IEquatable{LiveKit.Proto.ProxyConfig}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(ProxyConfig)
+  nameWithType: IEquatable<ProxyConfig>.Equals(ProxyConfig)
+  fullName: System.IEquatable<LiveKit.Proto.ProxyConfig>.Equals(LiveKit.Proto.ProxyConfig)
+  nameWithType.vb: IEquatable(Of ProxyConfig).Equals(ProxyConfig)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.ProxyConfig).Equals(LiveKit.Proto.ProxyConfig)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.ProxyConfig}.Equals(LiveKit.Proto.ProxyConfig)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.ProxyConfig}.Equals(LiveKit.Proto.ProxyConfig)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ProxyConfig.GetHashCode*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.GetHashCode
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_GetHashCode
+  name: GetHashCode
+  nameWithType: ProxyConfig.GetHashCode
+  fullName: LiveKit.Proto.ProxyConfig.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ProxyConfig.ToString*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.ToString
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_ToString
+  name: ToString
+  nameWithType: ProxyConfig.ToString
+  fullName: LiveKit.Proto.ProxyConfig.ToString
+- uid: LiveKit.Proto.ProxyConfig.WriteTo*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.WriteTo
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: ProxyConfig.WriteTo
+  fullName: LiveKit.Proto.ProxyConfig.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.ProxyConfig.CalculateSize*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.CalculateSize
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_CalculateSize
+  name: CalculateSize
+  nameWithType: ProxyConfig.CalculateSize
+  fullName: LiveKit.Proto.ProxyConfig.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.ProxyConfig.MergeFrom*
+  commentId: Overload:LiveKit.Proto.ProxyConfig.MergeFrom
+  href: LiveKit.Proto.ProxyConfig.html#LiveKit_Proto_ProxyConfig_MergeFrom_LiveKit_Proto_ProxyConfig_
+  name: MergeFrom
+  nameWithType: ProxyConfig.MergeFrom
+  fullName: LiveKit.Proto.ProxyConfig.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}.MergeFrom(LiveKit.Proto.ProxyConfig)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}.MergeFrom(LiveKit.Proto.ProxyConfig)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.ProxyConfig.html
+  name: MergeFrom(ProxyConfig)
+  nameWithType: IMessage<ProxyConfig>.MergeFrom(ProxyConfig)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.ProxyConfig>.MergeFrom(LiveKit.Proto.ProxyConfig)
+  nameWithType.vb: IMessage(Of ProxyConfig).MergeFrom(ProxyConfig)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.ProxyConfig).MergeFrom(LiveKit.Proto.ProxyConfig)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}.MergeFrom(LiveKit.Proto.ProxyConfig)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.ProxyConfig}.MergeFrom(LiveKit.Proto.ProxyConfig)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.ProxyConfig
+    name: ProxyConfig
+    href: LiveKit.Proto.ProxyConfig.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

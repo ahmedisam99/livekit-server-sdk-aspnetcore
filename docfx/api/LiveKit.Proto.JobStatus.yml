@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.JobStatus
+  commentId: T:LiveKit.Proto.JobStatus
+  id: JobStatus
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.JobStatus.JsFailed
+  - LiveKit.Proto.JobStatus.JsPending
+  - LiveKit.Proto.JobStatus.JsRunning
+  - LiveKit.Proto.JobStatus.JsSuccess
+  langs:
+  - csharp
+  - vb
+  name: JobStatus
+  nameWithType: JobStatus
+  fullName: LiveKit.Proto.JobStatus
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JobStatus
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 123
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum JobStatus
+    content.vb: Public Enum JobStatus
+- uid: LiveKit.Proto.JobStatus.JsPending
+  commentId: F:LiveKit.Proto.JobStatus.JsPending
+  id: JsPending
+  parent: LiveKit.Proto.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: JsPending
+  nameWithType: JobStatus.JsPending
+  fullName: LiveKit.Proto.JobStatus.JsPending
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JsPending
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 124
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("JS_PENDING")]
+
+      JsPending = 0
+    return:
+      type: LiveKit.Proto.JobStatus
+    content.vb: >-
+      <OriginalName("JS_PENDING")>
+
+      JsPending = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: JS_PENDING
+- uid: LiveKit.Proto.JobStatus.JsRunning
+  commentId: F:LiveKit.Proto.JobStatus.JsRunning
+  id: JsRunning
+  parent: LiveKit.Proto.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: JsRunning
+  nameWithType: JobStatus.JsRunning
+  fullName: LiveKit.Proto.JobStatus.JsRunning
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JsRunning
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 125
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("JS_RUNNING")]
+
+      JsRunning = 1
+    return:
+      type: LiveKit.Proto.JobStatus
+    content.vb: >-
+      <OriginalName("JS_RUNNING")>
+
+      JsRunning = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: JS_RUNNING
+- uid: LiveKit.Proto.JobStatus.JsSuccess
+  commentId: F:LiveKit.Proto.JobStatus.JsSuccess
+  id: JsSuccess
+  parent: LiveKit.Proto.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: JsSuccess
+  nameWithType: JobStatus.JsSuccess
+  fullName: LiveKit.Proto.JobStatus.JsSuccess
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JsSuccess
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 126
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("JS_SUCCESS")]
+
+      JsSuccess = 2
+    return:
+      type: LiveKit.Proto.JobStatus
+    content.vb: >-
+      <OriginalName("JS_SUCCESS")>
+
+      JsSuccess = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: JS_SUCCESS
+- uid: LiveKit.Proto.JobStatus.JsFailed
+  commentId: F:LiveKit.Proto.JobStatus.JsFailed
+  id: JsFailed
+  parent: LiveKit.Proto.JobStatus
+  langs:
+  - csharp
+  - vb
+  name: JsFailed
+  nameWithType: JobStatus.JsFailed
+  fullName: LiveKit.Proto.JobStatus.JsFailed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JsFailed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 127
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("JS_FAILED")]
+
+      JsFailed = 3
+    return:
+      type: LiveKit.Proto.JobStatus
+    content.vb: >-
+      <OriginalName("JS_FAILED")>
+
+      JsFailed = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: JS_FAILED
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.JobStatus
+  commentId: T:LiveKit.Proto.JobStatus
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.JobStatus.html
+  name: JobStatus
+  nameWithType: JobStatus
+  fullName: LiveKit.Proto.JobStatus

@@ -1,0 +1,2041 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.Job
+  commentId: T:LiveKit.Proto.Job
+  id: Job
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.Job.#ctor
+  - LiveKit.Proto.Job.#ctor(LiveKit.Proto.Job)
+  - LiveKit.Proto.Job.AgentName
+  - LiveKit.Proto.Job.AgentNameFieldNumber
+  - LiveKit.Proto.Job.CalculateSize
+  - LiveKit.Proto.Job.Clone
+  - LiveKit.Proto.Job.Descriptor
+  - LiveKit.Proto.Job.DispatchId
+  - LiveKit.Proto.Job.DispatchIdFieldNumber
+  - LiveKit.Proto.Job.EnableRecording
+  - LiveKit.Proto.Job.EnableRecordingFieldNumber
+  - LiveKit.Proto.Job.Equals(LiveKit.Proto.Job)
+  - LiveKit.Proto.Job.Equals(System.Object)
+  - LiveKit.Proto.Job.GetHashCode
+  - LiveKit.Proto.Job.Id
+  - LiveKit.Proto.Job.IdFieldNumber
+  - LiveKit.Proto.Job.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.Job.MergeFrom(LiveKit.Proto.Job)
+  - LiveKit.Proto.Job.Metadata
+  - LiveKit.Proto.Job.MetadataFieldNumber
+  - LiveKit.Proto.Job.Namespace
+  - LiveKit.Proto.Job.NamespaceFieldNumber
+  - LiveKit.Proto.Job.Parser
+  - LiveKit.Proto.Job.Participant
+  - LiveKit.Proto.Job.ParticipantFieldNumber
+  - LiveKit.Proto.Job.Room
+  - LiveKit.Proto.Job.RoomFieldNumber
+  - LiveKit.Proto.Job.State
+  - LiveKit.Proto.Job.StateFieldNumber
+  - LiveKit.Proto.Job.ToString
+  - LiveKit.Proto.Job.Type
+  - LiveKit.Proto.Job.TypeFieldNumber
+  - LiveKit.Proto.Job.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: Job
+  nameWithType: Job
+  fullName: LiveKit.Proto.Job
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Job
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 133
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class Job : IMessage<Job>, IEquatable<Job>, IDeepCloneable<Job>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class Job Implements IMessage(Of Job), IEquatable(Of Job), IDeepCloneable(Of Job), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.Job}
+  - System.IEquatable{LiveKit.Proto.Job}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.Job.Parser
+  commentId: P:LiveKit.Proto.Job.Parser
+  id: Parser
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: Job.Parser
+  fullName: LiveKit.Proto.Job.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 141
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<Job> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.Job}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of Job)
+  overload: LiveKit.Proto.Job.Parser*
+- uid: LiveKit.Proto.Job.Descriptor
+  commentId: P:LiveKit.Proto.Job.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: Job.Descriptor
+  fullName: LiveKit.Proto.Job.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 145
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.Job.Descriptor*
+- uid: LiveKit.Proto.Job.#ctor
+  commentId: M:LiveKit.Proto.Job.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Job()
+  nameWithType: Job.Job()
+  fullName: LiveKit.Proto.Job.Job()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 157
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Job()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.Job.#ctor*
+  nameWithType.vb: Job.New()
+  fullName.vb: LiveKit.Proto.Job.New()
+  name.vb: New()
+- uid: LiveKit.Proto.Job.#ctor(LiveKit.Proto.Job)
+  commentId: M:LiveKit.Proto.Job.#ctor(LiveKit.Proto.Job)
+  id: '#ctor(LiveKit.Proto.Job)'
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Job(Job)
+  nameWithType: Job.Job(Job)
+  fullName: LiveKit.Proto.Job.Job(LiveKit.Proto.Job)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 165
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Job(Job other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.Job
+    content.vb: Public Sub New(other As Job)
+  overload: LiveKit.Proto.Job.#ctor*
+  nameWithType.vb: Job.New(Job)
+  fullName.vb: LiveKit.Proto.Job.New(LiveKit.Proto.Job)
+  name.vb: New(Job)
+- uid: LiveKit.Proto.Job.Clone
+  commentId: M:LiveKit.Proto.Job.Clone
+  id: Clone
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: Job.Clone()
+  fullName: LiveKit.Proto.Job.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 181
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public Job Clone()
+    return:
+      type: LiveKit.Proto.Job
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As Job
+  overload: LiveKit.Proto.Job.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}.Clone
+- uid: LiveKit.Proto.Job.IdFieldNumber
+  commentId: F:LiveKit.Proto.Job.IdFieldNumber
+  id: IdFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: IdFieldNumber
+  nameWithType: Job.IdFieldNumber
+  fullName: LiveKit.Proto.Job.IdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 188
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "id" field.
+  example: []
+  syntax:
+    content: public const int IdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const IdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.Job.Id
+  commentId: P:LiveKit.Proto.Job.Id
+  id: Id
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Job.Id
+  fullName: LiveKit.Proto.Job.Id
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Id
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 190
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: LiveKit.Proto.Job.Id*
+- uid: LiveKit.Proto.Job.DispatchIdFieldNumber
+  commentId: F:LiveKit.Proto.Job.DispatchIdFieldNumber
+  id: DispatchIdFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: DispatchIdFieldNumber
+  nameWithType: Job.DispatchIdFieldNumber
+  fullName: LiveKit.Proto.Job.DispatchIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DispatchIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 200
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "dispatch_id" field.
+  example: []
+  syntax:
+    content: public const int DispatchIdFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const DispatchIdFieldNumber As Integer = 9
+- uid: LiveKit.Proto.Job.DispatchId
+  commentId: P:LiveKit.Proto.Job.DispatchId
+  id: DispatchId
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: DispatchId
+  nameWithType: Job.DispatchId
+  fullName: LiveKit.Proto.Job.DispatchId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DispatchId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 202
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string DispatchId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DispatchId As String
+  overload: LiveKit.Proto.Job.DispatchId*
+- uid: LiveKit.Proto.Job.TypeFieldNumber
+  commentId: F:LiveKit.Proto.Job.TypeFieldNumber
+  id: TypeFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: TypeFieldNumber
+  nameWithType: Job.TypeFieldNumber
+  fullName: LiveKit.Proto.Job.TypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 212
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "type" field.
+  example: []
+  syntax:
+    content: public const int TypeFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const TypeFieldNumber As Integer = 2
+- uid: LiveKit.Proto.Job.Type
+  commentId: P:LiveKit.Proto.Job.Type
+  id: Type
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Job.Type
+  fullName: LiveKit.Proto.Job.Type
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Type
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 214
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public JobType Type { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.JobType
+    content.vb: Public Property Type As JobType
+  overload: LiveKit.Proto.Job.Type*
+- uid: LiveKit.Proto.Job.RoomFieldNumber
+  commentId: F:LiveKit.Proto.Job.RoomFieldNumber
+  id: RoomFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: RoomFieldNumber
+  nameWithType: Job.RoomFieldNumber
+  fullName: LiveKit.Proto.Job.RoomFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 224
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room" field.
+  example: []
+  syntax:
+    content: public const int RoomFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomFieldNumber As Integer = 3
+- uid: LiveKit.Proto.Job.Room
+  commentId: P:LiveKit.Proto.Job.Room
+  id: Room
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: Job.Room
+  fullName: LiveKit.Proto.Job.Room
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Room
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 226
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Room Room { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.Room
+    content.vb: Public Property Room As Room
+  overload: LiveKit.Proto.Job.Room*
+- uid: LiveKit.Proto.Job.ParticipantFieldNumber
+  commentId: F:LiveKit.Proto.Job.ParticipantFieldNumber
+  id: ParticipantFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: ParticipantFieldNumber
+  nameWithType: Job.ParticipantFieldNumber
+  fullName: LiveKit.Proto.Job.ParticipantFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 236
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant" field.
+  example: []
+  syntax:
+    content: public const int ParticipantFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantFieldNumber As Integer = 4
+- uid: LiveKit.Proto.Job.Participant
+  commentId: P:LiveKit.Proto.Job.Participant
+  id: Participant
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Participant
+  nameWithType: Job.Participant
+  fullName: LiveKit.Proto.Job.Participant
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Participant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 238
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ParticipantInfo Participant { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ParticipantInfo
+    content.vb: Public Property Participant As ParticipantInfo
+  overload: LiveKit.Proto.Job.Participant*
+- uid: LiveKit.Proto.Job.NamespaceFieldNumber
+  commentId: F:LiveKit.Proto.Job.NamespaceFieldNumber
+  id: NamespaceFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: NamespaceFieldNumber
+  nameWithType: Job.NamespaceFieldNumber
+  fullName: LiveKit.Proto.Job.NamespaceFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NamespaceFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 248
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "namespace" field.
+  example: []
+  syntax:
+    content: public const int NamespaceFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const NamespaceFieldNumber As Integer = 5
+- uid: LiveKit.Proto.Job.Namespace
+  commentId: P:LiveKit.Proto.Job.Namespace
+  id: Namespace
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Namespace
+  nameWithType: Job.Namespace
+  fullName: LiveKit.Proto.Job.Namespace
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Namespace
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 250
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public string Namespace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete>
+
+      Public Property [Namespace] As String
+  overload: LiveKit.Proto.Job.Namespace*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.Job.MetadataFieldNumber
+  commentId: F:LiveKit.Proto.Job.MetadataFieldNumber
+  id: MetadataFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: MetadataFieldNumber
+  nameWithType: Job.MetadataFieldNumber
+  fullName: LiveKit.Proto.Job.MetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 261
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "metadata" field.
+  example: []
+  syntax:
+    content: public const int MetadataFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const MetadataFieldNumber As Integer = 6
+- uid: LiveKit.Proto.Job.Metadata
+  commentId: P:LiveKit.Proto.Job.Metadata
+  id: Metadata
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: Job.Metadata
+  fullName: LiveKit.Proto.Job.Metadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Metadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 263
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Metadata { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Metadata As String
+  overload: LiveKit.Proto.Job.Metadata*
+- uid: LiveKit.Proto.Job.AgentNameFieldNumber
+  commentId: F:LiveKit.Proto.Job.AgentNameFieldNumber
+  id: AgentNameFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: AgentNameFieldNumber
+  nameWithType: Job.AgentNameFieldNumber
+  fullName: LiveKit.Proto.Job.AgentNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 273
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "agent_name" field.
+  example: []
+  syntax:
+    content: public const int AgentNameFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const AgentNameFieldNumber As Integer = 7
+- uid: LiveKit.Proto.Job.AgentName
+  commentId: P:LiveKit.Proto.Job.AgentName
+  id: AgentName
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: AgentName
+  nameWithType: Job.AgentName
+  fullName: LiveKit.Proto.Job.AgentName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AgentName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 275
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AgentName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AgentName As String
+  overload: LiveKit.Proto.Job.AgentName*
+- uid: LiveKit.Proto.Job.StateFieldNumber
+  commentId: F:LiveKit.Proto.Job.StateFieldNumber
+  id: StateFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: StateFieldNumber
+  nameWithType: Job.StateFieldNumber
+  fullName: LiveKit.Proto.Job.StateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 285
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "state" field.
+  example: []
+  syntax:
+    content: public const int StateFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const StateFieldNumber As Integer = 8
+- uid: LiveKit.Proto.Job.State
+  commentId: P:LiveKit.Proto.Job.State
+  id: State
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: Job.State
+  fullName: LiveKit.Proto.Job.State
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: State
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 287
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public JobState State { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.JobState
+    content.vb: Public Property State As JobState
+  overload: LiveKit.Proto.Job.State*
+- uid: LiveKit.Proto.Job.EnableRecordingFieldNumber
+  commentId: F:LiveKit.Proto.Job.EnableRecordingFieldNumber
+  id: EnableRecordingFieldNumber
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: EnableRecordingFieldNumber
+  nameWithType: Job.EnableRecordingFieldNumber
+  fullName: LiveKit.Proto.Job.EnableRecordingFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnableRecordingFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 297
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "enable_recording" field.
+  example: []
+  syntax:
+    content: public const int EnableRecordingFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const EnableRecordingFieldNumber As Integer = 10
+- uid: LiveKit.Proto.Job.EnableRecording
+  commentId: P:LiveKit.Proto.Job.EnableRecording
+  id: EnableRecording
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: EnableRecording
+  nameWithType: Job.EnableRecording
+  fullName: LiveKit.Proto.Job.EnableRecording
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EnableRecording
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 299
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool EnableRecording { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableRecording As Boolean
+  overload: LiveKit.Proto.Job.EnableRecording*
+- uid: LiveKit.Proto.Job.Equals(System.Object)
+  commentId: M:LiveKit.Proto.Job.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: Job.Equals(object)
+  fullName: LiveKit.Proto.Job.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 308
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.Job.Equals*
+  nameWithType.vb: Job.Equals(Object)
+  fullName.vb: LiveKit.Proto.Job.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.Job.Equals(LiveKit.Proto.Job)
+  commentId: M:LiveKit.Proto.Job.Equals(LiveKit.Proto.Job)
+  id: Equals(LiveKit.Proto.Job)
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: Equals(Job)
+  nameWithType: Job.Equals(Job)
+  fullName: LiveKit.Proto.Job.Equals(LiveKit.Proto.Job)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 314
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(Job other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.Job
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As Job) As Boolean
+  overload: LiveKit.Proto.Job.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.Job}.Equals(LiveKit.Proto.Job)
+- uid: LiveKit.Proto.Job.GetHashCode
+  commentId: M:LiveKit.Proto.Job.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Job.GetHashCode()
+  fullName: LiveKit.Proto.Job.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 336
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.Job.GetHashCode*
+- uid: LiveKit.Proto.Job.ToString
+  commentId: M:LiveKit.Proto.Job.ToString
+  id: ToString
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Job.ToString()
+  fullName: LiveKit.Proto.Job.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 356
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.Job.ToString*
+- uid: LiveKit.Proto.Job.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.Job.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: Job.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.Job.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 362
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.Job.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.Job.CalculateSize
+  commentId: M:LiveKit.Proto.Job.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: Job.CalculateSize()
+  fullName: LiveKit.Proto.Job.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 464
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.Job.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.Job.MergeFrom(LiveKit.Proto.Job)
+  commentId: M:LiveKit.Proto.Job.MergeFrom(LiveKit.Proto.Job)
+  id: MergeFrom(LiveKit.Proto.Job)
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(Job)
+  nameWithType: Job.MergeFrom(Job)
+  fullName: LiveKit.Proto.Job.MergeFrom(LiveKit.Proto.Job)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 504
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(Job other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.Job
+    content.vb: Public Sub MergeFrom(other As Job)
+  overload: LiveKit.Proto.Job.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.Job}.MergeFrom(LiveKit.Proto.Job)
+- uid: LiveKit.Proto.Job.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.Job.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.Job
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: Job.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.Job.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 552
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.Job.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.Job}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.Job}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.Job.html
+  name: IMessage<Job>
+  nameWithType: IMessage<Job>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.Job>
+  nameWithType.vb: IMessage(Of Job)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.Job)
+  name.vb: IMessage(Of Job)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.Job}
+  commentId: T:System.IEquatable{LiveKit.Proto.Job}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Job>
+  nameWithType: IEquatable<Job>
+  fullName: System.IEquatable<LiveKit.Proto.Job>
+  nameWithType.vb: IEquatable(Of Job)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.Job)
+  name.vb: IEquatable(Of Job)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.Job.html
+  name: IDeepCloneable<Job>
+  nameWithType: IDeepCloneable<Job>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.Job>
+  nameWithType.vb: IDeepCloneable(Of Job)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.Job)
+  name.vb: IDeepCloneable(Of Job)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.Job.Parser*
+  commentId: Overload:LiveKit.Proto.Job.Parser
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Parser
+  name: Parser
+  nameWithType: Job.Parser
+  fullName: LiveKit.Proto.Job.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.Job}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.Job}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.Job.html
+  name: MessageParser<Job>
+  nameWithType: MessageParser<Job>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.Job>
+  nameWithType.vb: MessageParser(Of Job)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.Job)
+  name.vb: MessageParser(Of Job)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.Job.Descriptor*
+  commentId: Overload:LiveKit.Proto.Job.Descriptor
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Descriptor
+  name: Descriptor
+  nameWithType: Job.Descriptor
+  fullName: LiveKit.Proto.Job.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.Job.#ctor*
+  commentId: Overload:LiveKit.Proto.Job.#ctor
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job__ctor
+  name: Job
+  nameWithType: Job.Job
+  fullName: LiveKit.Proto.Job.Job
+  nameWithType.vb: Job.New
+  fullName.vb: LiveKit.Proto.Job.New
+  name.vb: New
+- uid: LiveKit.Proto.Job
+  commentId: T:LiveKit.Proto.Job
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.Job.html
+  name: Job
+  nameWithType: Job
+  fullName: LiveKit.Proto.Job
+- uid: LiveKit.Proto.Job.Clone*
+  commentId: Overload:LiveKit.Proto.Job.Clone
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Clone
+  name: Clone
+  nameWithType: Job.Clone
+  fullName: LiveKit.Proto.Job.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<Job>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.Job>.Clone()
+  nameWithType.vb: IDeepCloneable(Of Job).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.Job).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.Job}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.Job.Id*
+  commentId: Overload:LiveKit.Proto.Job.Id
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Id
+  name: Id
+  nameWithType: Job.Id
+  fullName: LiveKit.Proto.Job.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.Job.DispatchId*
+  commentId: Overload:LiveKit.Proto.Job.DispatchId
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_DispatchId
+  name: DispatchId
+  nameWithType: Job.DispatchId
+  fullName: LiveKit.Proto.Job.DispatchId
+- uid: LiveKit.Proto.Job.Type*
+  commentId: Overload:LiveKit.Proto.Job.Type
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Type
+  name: Type
+  nameWithType: Job.Type
+  fullName: LiveKit.Proto.Job.Type
+- uid: LiveKit.Proto.JobType
+  commentId: T:LiveKit.Proto.JobType
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.JobType.html
+  name: JobType
+  nameWithType: JobType
+  fullName: LiveKit.Proto.JobType
+- uid: LiveKit.Proto.Job.Room*
+  commentId: Overload:LiveKit.Proto.Job.Room
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Room
+  name: Room
+  nameWithType: Job.Room
+  fullName: LiveKit.Proto.Job.Room
+- uid: LiveKit.Proto.Room
+  commentId: T:LiveKit.Proto.Room
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.Room.html
+  name: Room
+  nameWithType: Room
+  fullName: LiveKit.Proto.Room
+- uid: LiveKit.Proto.Job.Participant*
+  commentId: Overload:LiveKit.Proto.Job.Participant
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Participant
+  name: Participant
+  nameWithType: Job.Participant
+  fullName: LiveKit.Proto.Job.Participant
+- uid: LiveKit.Proto.ParticipantInfo
+  commentId: T:LiveKit.Proto.ParticipantInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ParticipantInfo.html
+  name: ParticipantInfo
+  nameWithType: ParticipantInfo
+  fullName: LiveKit.Proto.ParticipantInfo
+- uid: LiveKit.Proto.Job.Namespace*
+  commentId: Overload:LiveKit.Proto.Job.Namespace
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Namespace
+  name: Namespace
+  nameWithType: Job.Namespace
+  fullName: LiveKit.Proto.Job.Namespace
+- uid: LiveKit.Proto.Job.Metadata*
+  commentId: Overload:LiveKit.Proto.Job.Metadata
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Metadata
+  name: Metadata
+  nameWithType: Job.Metadata
+  fullName: LiveKit.Proto.Job.Metadata
+- uid: LiveKit.Proto.Job.AgentName*
+  commentId: Overload:LiveKit.Proto.Job.AgentName
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_AgentName
+  name: AgentName
+  nameWithType: Job.AgentName
+  fullName: LiveKit.Proto.Job.AgentName
+- uid: LiveKit.Proto.Job.State*
+  commentId: Overload:LiveKit.Proto.Job.State
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_State
+  name: State
+  nameWithType: Job.State
+  fullName: LiveKit.Proto.Job.State
+- uid: LiveKit.Proto.JobState
+  commentId: T:LiveKit.Proto.JobState
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.JobState.html
+  name: JobState
+  nameWithType: JobState
+  fullName: LiveKit.Proto.JobState
+- uid: LiveKit.Proto.Job.EnableRecording*
+  commentId: Overload:LiveKit.Proto.Job.EnableRecording
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_EnableRecording
+  name: EnableRecording
+  nameWithType: Job.EnableRecording
+  fullName: LiveKit.Proto.Job.EnableRecording
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.Job.Equals*
+  commentId: Overload:LiveKit.Proto.Job.Equals
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_Equals_System_Object_
+  name: Equals
+  nameWithType: Job.Equals
+  fullName: LiveKit.Proto.Job.Equals
+- uid: System.IEquatable{LiveKit.Proto.Job}.Equals(LiveKit.Proto.Job)
+  commentId: M:System.IEquatable{LiveKit.Proto.Job}.Equals(LiveKit.Proto.Job)
+  parent: System.IEquatable{LiveKit.Proto.Job}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Job)
+  nameWithType: IEquatable<Job>.Equals(Job)
+  fullName: System.IEquatable<LiveKit.Proto.Job>.Equals(LiveKit.Proto.Job)
+  nameWithType.vb: IEquatable(Of Job).Equals(Job)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.Job).Equals(LiveKit.Proto.Job)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.Job}.Equals(LiveKit.Proto.Job)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.Job}.Equals(LiveKit.Proto.Job)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.Job.GetHashCode*
+  commentId: Overload:LiveKit.Proto.Job.GetHashCode
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_GetHashCode
+  name: GetHashCode
+  nameWithType: Job.GetHashCode
+  fullName: LiveKit.Proto.Job.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.Job.ToString*
+  commentId: Overload:LiveKit.Proto.Job.ToString
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_ToString
+  name: ToString
+  nameWithType: Job.ToString
+  fullName: LiveKit.Proto.Job.ToString
+- uid: LiveKit.Proto.Job.WriteTo*
+  commentId: Overload:LiveKit.Proto.Job.WriteTo
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: Job.WriteTo
+  fullName: LiveKit.Proto.Job.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.Job.CalculateSize*
+  commentId: Overload:LiveKit.Proto.Job.CalculateSize
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_CalculateSize
+  name: CalculateSize
+  nameWithType: Job.CalculateSize
+  fullName: LiveKit.Proto.Job.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.Job.MergeFrom*
+  commentId: Overload:LiveKit.Proto.Job.MergeFrom
+  href: LiveKit.Proto.Job.html#LiveKit_Proto_Job_MergeFrom_LiveKit_Proto_Job_
+  name: MergeFrom
+  nameWithType: Job.MergeFrom
+  fullName: LiveKit.Proto.Job.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.Job}.MergeFrom(LiveKit.Proto.Job)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.Job}.MergeFrom(LiveKit.Proto.Job)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.Job}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.Job.html
+  name: MergeFrom(Job)
+  nameWithType: IMessage<Job>.MergeFrom(Job)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.Job>.MergeFrom(LiveKit.Proto.Job)
+  nameWithType.vb: IMessage(Of Job).MergeFrom(Job)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.Job).MergeFrom(LiveKit.Proto.Job)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.Job}.MergeFrom(LiveKit.Proto.Job)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.Job}.MergeFrom(LiveKit.Proto.Job)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.Job
+    name: Job
+    href: LiveKit.Proto.Job.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

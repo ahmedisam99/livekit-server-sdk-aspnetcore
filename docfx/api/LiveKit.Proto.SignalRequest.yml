@@ -1,0 +1,2787 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SignalRequest
+  commentId: T:LiveKit.Proto.SignalRequest
+  id: SignalRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SignalRequest.#ctor
+  - LiveKit.Proto.SignalRequest.#ctor(LiveKit.Proto.SignalRequest)
+  - LiveKit.Proto.SignalRequest.AddTrack
+  - LiveKit.Proto.SignalRequest.AddTrackFieldNumber
+  - LiveKit.Proto.SignalRequest.Answer
+  - LiveKit.Proto.SignalRequest.AnswerFieldNumber
+  - LiveKit.Proto.SignalRequest.CalculateSize
+  - LiveKit.Proto.SignalRequest.ClearMessage
+  - LiveKit.Proto.SignalRequest.ClearPing
+  - LiveKit.Proto.SignalRequest.Clone
+  - LiveKit.Proto.SignalRequest.Descriptor
+  - LiveKit.Proto.SignalRequest.Equals(LiveKit.Proto.SignalRequest)
+  - LiveKit.Proto.SignalRequest.Equals(System.Object)
+  - LiveKit.Proto.SignalRequest.GetHashCode
+  - LiveKit.Proto.SignalRequest.HasPing
+  - LiveKit.Proto.SignalRequest.Leave
+  - LiveKit.Proto.SignalRequest.LeaveFieldNumber
+  - LiveKit.Proto.SignalRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SignalRequest.MergeFrom(LiveKit.Proto.SignalRequest)
+  - LiveKit.Proto.SignalRequest.MessageCase
+  - LiveKit.Proto.SignalRequest.Mute
+  - LiveKit.Proto.SignalRequest.MuteFieldNumber
+  - LiveKit.Proto.SignalRequest.Offer
+  - LiveKit.Proto.SignalRequest.OfferFieldNumber
+  - LiveKit.Proto.SignalRequest.Parser
+  - LiveKit.Proto.SignalRequest.Ping
+  - LiveKit.Proto.SignalRequest.PingFieldNumber
+  - LiveKit.Proto.SignalRequest.PingReq
+  - LiveKit.Proto.SignalRequest.PingReqFieldNumber
+  - LiveKit.Proto.SignalRequest.Simulate
+  - LiveKit.Proto.SignalRequest.SimulateFieldNumber
+  - LiveKit.Proto.SignalRequest.Subscription
+  - LiveKit.Proto.SignalRequest.SubscriptionFieldNumber
+  - LiveKit.Proto.SignalRequest.SubscriptionPermission
+  - LiveKit.Proto.SignalRequest.SubscriptionPermissionFieldNumber
+  - LiveKit.Proto.SignalRequest.SyncState
+  - LiveKit.Proto.SignalRequest.SyncStateFieldNumber
+  - LiveKit.Proto.SignalRequest.ToString
+  - LiveKit.Proto.SignalRequest.TrackSetting
+  - LiveKit.Proto.SignalRequest.TrackSettingFieldNumber
+  - LiveKit.Proto.SignalRequest.Trickle
+  - LiveKit.Proto.SignalRequest.TrickleFieldNumber
+  - LiveKit.Proto.SignalRequest.UpdateAudioTrack
+  - LiveKit.Proto.SignalRequest.UpdateAudioTrackFieldNumber
+  - LiveKit.Proto.SignalRequest.UpdateLayers
+  - LiveKit.Proto.SignalRequest.UpdateLayersFieldNumber
+  - LiveKit.Proto.SignalRequest.UpdateMetadata
+  - LiveKit.Proto.SignalRequest.UpdateMetadataFieldNumber
+  - LiveKit.Proto.SignalRequest.UpdateVideoTrack
+  - LiveKit.Proto.SignalRequest.UpdateVideoTrackFieldNumber
+  - LiveKit.Proto.SignalRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SignalRequest
+  nameWithType: SignalRequest
+  fullName: LiveKit.Proto.SignalRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SignalRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 312
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SignalRequest : IMessage<SignalRequest>, IEquatable<SignalRequest>, IDeepCloneable<SignalRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SignalRequest Implements IMessage(Of SignalRequest), IEquatable(Of SignalRequest), IDeepCloneable(Of SignalRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}
+  - System.IEquatable{LiveKit.Proto.SignalRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SignalRequest.Parser
+  commentId: P:LiveKit.Proto.SignalRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SignalRequest.Parser
+  fullName: LiveKit.Proto.SignalRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 320
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SignalRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SignalRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SignalRequest)
+  overload: LiveKit.Proto.SignalRequest.Parser*
+- uid: LiveKit.Proto.SignalRequest.Descriptor
+  commentId: P:LiveKit.Proto.SignalRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SignalRequest.Descriptor
+  fullName: LiveKit.Proto.SignalRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 324
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SignalRequest.Descriptor*
+- uid: LiveKit.Proto.SignalRequest.#ctor
+  commentId: M:LiveKit.Proto.SignalRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: SignalRequest()
+  nameWithType: SignalRequest.SignalRequest()
+  fullName: LiveKit.Proto.SignalRequest.SignalRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 336
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SignalRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SignalRequest.#ctor*
+  nameWithType.vb: SignalRequest.New()
+  fullName.vb: LiveKit.Proto.SignalRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SignalRequest.#ctor(LiveKit.Proto.SignalRequest)
+  commentId: M:LiveKit.Proto.SignalRequest.#ctor(LiveKit.Proto.SignalRequest)
+  id: '#ctor(LiveKit.Proto.SignalRequest)'
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: SignalRequest(SignalRequest)
+  nameWithType: SignalRequest.SignalRequest(SignalRequest)
+  fullName: LiveKit.Proto.SignalRequest.SignalRequest(LiveKit.Proto.SignalRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 344
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SignalRequest(SignalRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SignalRequest
+    content.vb: Public Sub New(other As SignalRequest)
+  overload: LiveKit.Proto.SignalRequest.#ctor*
+  nameWithType.vb: SignalRequest.New(SignalRequest)
+  fullName.vb: LiveKit.Proto.SignalRequest.New(LiveKit.Proto.SignalRequest)
+  name.vb: New(SignalRequest)
+- uid: LiveKit.Proto.SignalRequest.Clone
+  commentId: M:LiveKit.Proto.SignalRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SignalRequest.Clone()
+  fullName: LiveKit.Proto.SignalRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 404
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SignalRequest Clone()
+    return:
+      type: LiveKit.Proto.SignalRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SignalRequest
+  overload: LiveKit.Proto.SignalRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}.Clone
+- uid: LiveKit.Proto.SignalRequest.OfferFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.OfferFieldNumber
+  id: OfferFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: OfferFieldNumber
+  nameWithType: SignalRequest.OfferFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.OfferFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: OfferFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 411
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "offer" field.
+  example: []
+  syntax:
+    content: public const int OfferFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const OfferFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SignalRequest.Offer
+  commentId: P:LiveKit.Proto.SignalRequest.Offer
+  id: Offer
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Offer
+  nameWithType: SignalRequest.Offer
+  fullName: LiveKit.Proto.SignalRequest.Offer
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Offer
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 415
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: participant offer for publisher
+  example: []
+  syntax:
+    content: public SessionDescription Offer { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SessionDescription
+    content.vb: Public Property Offer As SessionDescription
+  overload: LiveKit.Proto.SignalRequest.Offer*
+- uid: LiveKit.Proto.SignalRequest.AnswerFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.AnswerFieldNumber
+  id: AnswerFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: AnswerFieldNumber
+  nameWithType: SignalRequest.AnswerFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.AnswerFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AnswerFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 426
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "answer" field.
+  example: []
+  syntax:
+    content: public const int AnswerFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AnswerFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SignalRequest.Answer
+  commentId: P:LiveKit.Proto.SignalRequest.Answer
+  id: Answer
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Answer
+  nameWithType: SignalRequest.Answer
+  fullName: LiveKit.Proto.SignalRequest.Answer
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Answer
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 430
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: participant answering subscriber offer
+  example: []
+  syntax:
+    content: public SessionDescription Answer { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SessionDescription
+    content.vb: Public Property Answer As SessionDescription
+  overload: LiveKit.Proto.SignalRequest.Answer*
+- uid: LiveKit.Proto.SignalRequest.TrickleFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.TrickleFieldNumber
+  id: TrickleFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: TrickleFieldNumber
+  nameWithType: SignalRequest.TrickleFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.TrickleFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrickleFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 441
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "trickle" field.
+  example: []
+  syntax:
+    content: public const int TrickleFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const TrickleFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SignalRequest.Trickle
+  commentId: P:LiveKit.Proto.SignalRequest.Trickle
+  id: Trickle
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Trickle
+  nameWithType: SignalRequest.Trickle
+  fullName: LiveKit.Proto.SignalRequest.Trickle
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Trickle
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 442
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TrickleRequest Trickle { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.TrickleRequest
+    content.vb: Public Property Trickle As TrickleRequest
+  overload: LiveKit.Proto.SignalRequest.Trickle*
+- uid: LiveKit.Proto.SignalRequest.AddTrackFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.AddTrackFieldNumber
+  id: AddTrackFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: AddTrackFieldNumber
+  nameWithType: SignalRequest.AddTrackFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.AddTrackFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AddTrackFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 453
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "add_track" field.
+  example: []
+  syntax:
+    content: public const int AddTrackFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const AddTrackFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SignalRequest.AddTrack
+  commentId: P:LiveKit.Proto.SignalRequest.AddTrack
+  id: AddTrack
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: AddTrack
+  nameWithType: SignalRequest.AddTrack
+  fullName: LiveKit.Proto.SignalRequest.AddTrack
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AddTrack
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 454
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AddTrackRequest AddTrack { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.AddTrackRequest
+    content.vb: Public Property AddTrack As AddTrackRequest
+  overload: LiveKit.Proto.SignalRequest.AddTrack*
+- uid: LiveKit.Proto.SignalRequest.MuteFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.MuteFieldNumber
+  id: MuteFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: MuteFieldNumber
+  nameWithType: SignalRequest.MuteFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.MuteFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MuteFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 465
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "mute" field.
+  example: []
+  syntax:
+    content: public const int MuteFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const MuteFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SignalRequest.Mute
+  commentId: P:LiveKit.Proto.SignalRequest.Mute
+  id: Mute
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Mute
+  nameWithType: SignalRequest.Mute
+  fullName: LiveKit.Proto.SignalRequest.Mute
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Mute
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 469
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: mute the participant's published tracks
+  example: []
+  syntax:
+    content: public MuteTrackRequest Mute { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.MuteTrackRequest
+    content.vb: Public Property Mute As MuteTrackRequest
+  overload: LiveKit.Proto.SignalRequest.Mute*
+- uid: LiveKit.Proto.SignalRequest.SubscriptionFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.SubscriptionFieldNumber
+  id: SubscriptionFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionFieldNumber
+  nameWithType: SignalRequest.SubscriptionFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.SubscriptionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriptionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 480
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "subscription" field.
+  example: []
+  syntax:
+    content: public const int SubscriptionFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const SubscriptionFieldNumber As Integer = 6
+- uid: LiveKit.Proto.SignalRequest.Subscription
+  commentId: P:LiveKit.Proto.SignalRequest.Subscription
+  id: Subscription
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Subscription
+  nameWithType: SignalRequest.Subscription
+  fullName: LiveKit.Proto.SignalRequest.Subscription
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Subscription
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 484
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Subscribe or unsubscribe from tracks
+  example: []
+  syntax:
+    content: public UpdateSubscription Subscription { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateSubscription
+    content.vb: Public Property Subscription As UpdateSubscription
+  overload: LiveKit.Proto.SignalRequest.Subscription*
+- uid: LiveKit.Proto.SignalRequest.TrackSettingFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.TrackSettingFieldNumber
+  id: TrackSettingFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: TrackSettingFieldNumber
+  nameWithType: SignalRequest.TrackSettingFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.TrackSettingFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSettingFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 495
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_setting" field.
+  example: []
+  syntax:
+    content: public const int TrackSettingFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackSettingFieldNumber As Integer = 7
+- uid: LiveKit.Proto.SignalRequest.TrackSetting
+  commentId: P:LiveKit.Proto.SignalRequest.TrackSetting
+  id: TrackSetting
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: TrackSetting
+  nameWithType: SignalRequest.TrackSetting
+  fullName: LiveKit.Proto.SignalRequest.TrackSetting
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSetting
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 499
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Update settings of subscribed tracks
+  example: []
+  syntax:
+    content: public UpdateTrackSettings TrackSetting { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateTrackSettings
+    content.vb: Public Property TrackSetting As UpdateTrackSettings
+  overload: LiveKit.Proto.SignalRequest.TrackSetting*
+- uid: LiveKit.Proto.SignalRequest.LeaveFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.LeaveFieldNumber
+  id: LeaveFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: LeaveFieldNumber
+  nameWithType: SignalRequest.LeaveFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.LeaveFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LeaveFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 510
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "leave" field.
+  example: []
+  syntax:
+    content: public const int LeaveFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const LeaveFieldNumber As Integer = 8
+- uid: LiveKit.Proto.SignalRequest.Leave
+  commentId: P:LiveKit.Proto.SignalRequest.Leave
+  id: Leave
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Leave
+  nameWithType: SignalRequest.Leave
+  fullName: LiveKit.Proto.SignalRequest.Leave
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Leave
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 514
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Immediately terminate session
+  example: []
+  syntax:
+    content: public LeaveRequest Leave { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.LeaveRequest
+    content.vb: Public Property Leave As LeaveRequest
+  overload: LiveKit.Proto.SignalRequest.Leave*
+- uid: LiveKit.Proto.SignalRequest.UpdateLayersFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.UpdateLayersFieldNumber
+  id: UpdateLayersFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateLayersFieldNumber
+  nameWithType: SignalRequest.UpdateLayersFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.UpdateLayersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateLayersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 525
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "update_layers" field.
+  example: []
+  syntax:
+    content: public const int UpdateLayersFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdateLayersFieldNumber As Integer = 10
+- uid: LiveKit.Proto.SignalRequest.UpdateLayers
+  commentId: P:LiveKit.Proto.SignalRequest.UpdateLayers
+  id: UpdateLayers
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateLayers
+  nameWithType: SignalRequest.UpdateLayers
+  fullName: LiveKit.Proto.SignalRequest.UpdateLayers
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateLayers
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 529
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Update published video layers
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public UpdateVideoLayers UpdateLayers { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateVideoLayers
+    content.vb: >-
+      <Obsolete>
+
+      Public Property UpdateLayers As UpdateVideoLayers
+  overload: LiveKit.Proto.SignalRequest.UpdateLayers*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.SignalRequest.SubscriptionPermissionFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.SubscriptionPermissionFieldNumber
+  id: SubscriptionPermissionFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionPermissionFieldNumber
+  nameWithType: SignalRequest.SubscriptionPermissionFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.SubscriptionPermissionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriptionPermissionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 541
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "subscription_permission" field.
+  example: []
+  syntax:
+    content: public const int SubscriptionPermissionFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const SubscriptionPermissionFieldNumber As Integer = 11
+- uid: LiveKit.Proto.SignalRequest.SubscriptionPermission
+  commentId: P:LiveKit.Proto.SignalRequest.SubscriptionPermission
+  id: SubscriptionPermission
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionPermission
+  nameWithType: SignalRequest.SubscriptionPermission
+  fullName: LiveKit.Proto.SignalRequest.SubscriptionPermission
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriptionPermission
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 545
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Update subscriber permissions
+  example: []
+  syntax:
+    content: public SubscriptionPermission SubscriptionPermission { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SubscriptionPermission
+    content.vb: Public Property SubscriptionPermission As SubscriptionPermission
+  overload: LiveKit.Proto.SignalRequest.SubscriptionPermission*
+- uid: LiveKit.Proto.SignalRequest.SyncStateFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.SyncStateFieldNumber
+  id: SyncStateFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: SyncStateFieldNumber
+  nameWithType: SignalRequest.SyncStateFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.SyncStateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SyncStateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 556
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "sync_state" field.
+  example: []
+  syntax:
+    content: public const int SyncStateFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const SyncStateFieldNumber As Integer = 12
+- uid: LiveKit.Proto.SignalRequest.SyncState
+  commentId: P:LiveKit.Proto.SignalRequest.SyncState
+  id: SyncState
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: SyncState
+  nameWithType: SignalRequest.SyncState
+  fullName: LiveKit.Proto.SignalRequest.SyncState
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SyncState
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 560
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: sync client's subscribe state to server during reconnect
+  example: []
+  syntax:
+    content: public SyncState SyncState { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SyncState
+    content.vb: Public Property SyncState As SyncState
+  overload: LiveKit.Proto.SignalRequest.SyncState*
+- uid: LiveKit.Proto.SignalRequest.SimulateFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.SimulateFieldNumber
+  id: SimulateFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: SimulateFieldNumber
+  nameWithType: SignalRequest.SimulateFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.SimulateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SimulateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 571
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "simulate" field.
+  example: []
+  syntax:
+    content: public const int SimulateFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const SimulateFieldNumber As Integer = 13
+- uid: LiveKit.Proto.SignalRequest.Simulate
+  commentId: P:LiveKit.Proto.SignalRequest.Simulate
+  id: Simulate
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Simulate
+  nameWithType: SignalRequest.Simulate
+  fullName: LiveKit.Proto.SignalRequest.Simulate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Simulate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 575
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Simulate conditions, for client validations
+  example: []
+  syntax:
+    content: public SimulateScenario Simulate { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SimulateScenario
+    content.vb: Public Property Simulate As SimulateScenario
+  overload: LiveKit.Proto.SignalRequest.Simulate*
+- uid: LiveKit.Proto.SignalRequest.PingFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.PingFieldNumber
+  id: PingFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: PingFieldNumber
+  nameWithType: SignalRequest.PingFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.PingFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PingFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 586
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ping" field.
+  example: []
+  syntax:
+    content: public const int PingFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const PingFieldNumber As Integer = 14
+- uid: LiveKit.Proto.SignalRequest.Ping
+  commentId: P:LiveKit.Proto.SignalRequest.Ping
+  id: Ping
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Ping
+  nameWithType: SignalRequest.Ping
+  fullName: LiveKit.Proto.SignalRequest.Ping
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Ping
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 590
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: client triggered ping to server
+  example: []
+  syntax:
+    content: public long Ping { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Ping As Long
+  overload: LiveKit.Proto.SignalRequest.Ping*
+- uid: LiveKit.Proto.SignalRequest.HasPing
+  commentId: P:LiveKit.Proto.SignalRequest.HasPing
+  id: HasPing
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: HasPing
+  nameWithType: SignalRequest.HasPing
+  fullName: LiveKit.Proto.SignalRequest.HasPing
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasPing
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 600
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "ping" field is set
+  example: []
+  syntax:
+    content: public bool HasPing { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasPing As Boolean
+  overload: LiveKit.Proto.SignalRequest.HasPing*
+- uid: LiveKit.Proto.SignalRequest.ClearPing
+  commentId: M:LiveKit.Proto.SignalRequest.ClearPing
+  id: ClearPing
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearPing()
+  nameWithType: SignalRequest.ClearPing()
+  fullName: LiveKit.Proto.SignalRequest.ClearPing()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearPing
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 606
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "ping"
+  example: []
+  syntax:
+    content: public void ClearPing()
+    content.vb: Public Sub ClearPing()
+  overload: LiveKit.Proto.SignalRequest.ClearPing*
+- uid: LiveKit.Proto.SignalRequest.UpdateMetadataFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.UpdateMetadataFieldNumber
+  id: UpdateMetadataFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMetadataFieldNumber
+  nameWithType: SignalRequest.UpdateMetadataFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.UpdateMetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateMetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 615
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "update_metadata" field.
+  example: []
+  syntax:
+    content: public const int UpdateMetadataFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdateMetadataFieldNumber As Integer = 15
+- uid: LiveKit.Proto.SignalRequest.UpdateMetadata
+  commentId: P:LiveKit.Proto.SignalRequest.UpdateMetadata
+  id: UpdateMetadata
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMetadata
+  nameWithType: SignalRequest.UpdateMetadata
+  fullName: LiveKit.Proto.SignalRequest.UpdateMetadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 620
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    update a participant's own metadata, name, or attributes
+
+    requires canUpdateOwnParticipantMetadata permission
+  example: []
+  syntax:
+    content: public UpdateParticipantMetadata UpdateMetadata { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateParticipantMetadata
+    content.vb: Public Property UpdateMetadata As UpdateParticipantMetadata
+  overload: LiveKit.Proto.SignalRequest.UpdateMetadata*
+- uid: LiveKit.Proto.SignalRequest.PingReqFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.PingReqFieldNumber
+  id: PingReqFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: PingReqFieldNumber
+  nameWithType: SignalRequest.PingReqFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.PingReqFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PingReqFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 631
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ping_req" field.
+  example: []
+  syntax:
+    content: public const int PingReqFieldNumber = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const PingReqFieldNumber As Integer = 16
+- uid: LiveKit.Proto.SignalRequest.PingReq
+  commentId: P:LiveKit.Proto.SignalRequest.PingReq
+  id: PingReq
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: PingReq
+  nameWithType: SignalRequest.PingReq
+  fullName: LiveKit.Proto.SignalRequest.PingReq
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PingReq
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 632
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Ping PingReq { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.Ping
+    content.vb: Public Property PingReq As Ping
+  overload: LiveKit.Proto.SignalRequest.PingReq*
+- uid: LiveKit.Proto.SignalRequest.UpdateAudioTrackFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.UpdateAudioTrackFieldNumber
+  id: UpdateAudioTrackFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateAudioTrackFieldNumber
+  nameWithType: SignalRequest.UpdateAudioTrackFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.UpdateAudioTrackFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateAudioTrackFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 643
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "update_audio_track" field.
+  example: []
+  syntax:
+    content: public const int UpdateAudioTrackFieldNumber = 17
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdateAudioTrackFieldNumber As Integer = 17
+- uid: LiveKit.Proto.SignalRequest.UpdateAudioTrack
+  commentId: P:LiveKit.Proto.SignalRequest.UpdateAudioTrack
+  id: UpdateAudioTrack
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateAudioTrack
+  nameWithType: SignalRequest.UpdateAudioTrack
+  fullName: LiveKit.Proto.SignalRequest.UpdateAudioTrack
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateAudioTrack
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 647
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Update local audio track settings
+  example: []
+  syntax:
+    content: public UpdateLocalAudioTrack UpdateAudioTrack { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateLocalAudioTrack
+    content.vb: Public Property UpdateAudioTrack As UpdateLocalAudioTrack
+  overload: LiveKit.Proto.SignalRequest.UpdateAudioTrack*
+- uid: LiveKit.Proto.SignalRequest.UpdateVideoTrackFieldNumber
+  commentId: F:LiveKit.Proto.SignalRequest.UpdateVideoTrackFieldNumber
+  id: UpdateVideoTrackFieldNumber
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateVideoTrackFieldNumber
+  nameWithType: SignalRequest.UpdateVideoTrackFieldNumber
+  fullName: LiveKit.Proto.SignalRequest.UpdateVideoTrackFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateVideoTrackFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 658
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "update_video_track" field.
+  example: []
+  syntax:
+    content: public const int UpdateVideoTrackFieldNumber = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const UpdateVideoTrackFieldNumber As Integer = 18
+- uid: LiveKit.Proto.SignalRequest.UpdateVideoTrack
+  commentId: P:LiveKit.Proto.SignalRequest.UpdateVideoTrack
+  id: UpdateVideoTrack
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateVideoTrack
+  nameWithType: SignalRequest.UpdateVideoTrack
+  fullName: LiveKit.Proto.SignalRequest.UpdateVideoTrack
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateVideoTrack
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 662
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Update local video track settings
+  example: []
+  syntax:
+    content: public UpdateLocalVideoTrack UpdateVideoTrack { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.UpdateLocalVideoTrack
+    content.vb: Public Property UpdateVideoTrack As UpdateLocalVideoTrack
+  overload: LiveKit.Proto.SignalRequest.UpdateVideoTrack*
+- uid: LiveKit.Proto.SignalRequest.MessageCase
+  commentId: P:LiveKit.Proto.SignalRequest.MessageCase
+  id: MessageCase
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageCase
+  nameWithType: SignalRequest.MessageCase
+  fullName: LiveKit.Proto.SignalRequest.MessageCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MessageCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 695
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SignalRequest.MessageOneofCase MessageCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SignalRequest.MessageOneofCase
+    content.vb: Public ReadOnly Property MessageCase As SignalRequest.MessageOneofCase
+  overload: LiveKit.Proto.SignalRequest.MessageCase*
+- uid: LiveKit.Proto.SignalRequest.ClearMessage
+  commentId: M:LiveKit.Proto.SignalRequest.ClearMessage
+  id: ClearMessage
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearMessage()
+  nameWithType: SignalRequest.ClearMessage()
+  fullName: LiveKit.Proto.SignalRequest.ClearMessage()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearMessage
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 701
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearMessage()
+    content.vb: Public Sub ClearMessage()
+  overload: LiveKit.Proto.SignalRequest.ClearMessage*
+- uid: LiveKit.Proto.SignalRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SignalRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SignalRequest.Equals(object)
+  fullName: LiveKit.Proto.SignalRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 708
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SignalRequest.Equals*
+  nameWithType.vb: SignalRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.SignalRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SignalRequest.Equals(LiveKit.Proto.SignalRequest)
+  commentId: M:LiveKit.Proto.SignalRequest.Equals(LiveKit.Proto.SignalRequest)
+  id: Equals(LiveKit.Proto.SignalRequest)
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(SignalRequest)
+  nameWithType: SignalRequest.Equals(SignalRequest)
+  fullName: LiveKit.Proto.SignalRequest.Equals(LiveKit.Proto.SignalRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 714
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SignalRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SignalRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SignalRequest) As Boolean
+  overload: LiveKit.Proto.SignalRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SignalRequest}.Equals(LiveKit.Proto.SignalRequest)
+- uid: LiveKit.Proto.SignalRequest.GetHashCode
+  commentId: M:LiveKit.Proto.SignalRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SignalRequest.GetHashCode()
+  fullName: LiveKit.Proto.SignalRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 744
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SignalRequest.GetHashCode*
+- uid: LiveKit.Proto.SignalRequest.ToString
+  commentId: M:LiveKit.Proto.SignalRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SignalRequest.ToString()
+  fullName: LiveKit.Proto.SignalRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 772
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SignalRequest.ToString*
+- uid: LiveKit.Proto.SignalRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SignalRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SignalRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SignalRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 778
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SignalRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SignalRequest.CalculateSize
+  commentId: M:LiveKit.Proto.SignalRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SignalRequest.CalculateSize()
+  fullName: LiveKit.Proto.SignalRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 936
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SignalRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SignalRequest.MergeFrom(LiveKit.Proto.SignalRequest)
+  commentId: M:LiveKit.Proto.SignalRequest.MergeFrom(LiveKit.Proto.SignalRequest)
+  id: MergeFrom(LiveKit.Proto.SignalRequest)
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SignalRequest)
+  nameWithType: SignalRequest.MergeFrom(SignalRequest)
+  fullName: LiveKit.Proto.SignalRequest.MergeFrom(LiveKit.Proto.SignalRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 997
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SignalRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SignalRequest
+    content.vb: Public Sub MergeFrom(other As SignalRequest)
+  overload: LiveKit.Proto.SignalRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}.MergeFrom(LiveKit.Proto.SignalRequest)
+- uid: LiveKit.Proto.SignalRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SignalRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SignalRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SignalRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SignalRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 1108
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SignalRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SignalRequest.html
+  name: IMessage<SignalRequest>
+  nameWithType: IMessage<SignalRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SignalRequest>
+  nameWithType.vb: IMessage(Of SignalRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SignalRequest)
+  name.vb: IMessage(Of SignalRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SignalRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.SignalRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SignalRequest>
+  nameWithType: IEquatable<SignalRequest>
+  fullName: System.IEquatable<LiveKit.Proto.SignalRequest>
+  nameWithType.vb: IEquatable(Of SignalRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SignalRequest)
+  name.vb: IEquatable(Of SignalRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SignalRequest.html
+  name: IDeepCloneable<SignalRequest>
+  nameWithType: IDeepCloneable<SignalRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SignalRequest>
+  nameWithType.vb: IDeepCloneable(Of SignalRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SignalRequest)
+  name.vb: IDeepCloneable(Of SignalRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SignalRequest.Parser*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Parser
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Parser
+  name: Parser
+  nameWithType: SignalRequest.Parser
+  fullName: LiveKit.Proto.SignalRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SignalRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SignalRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SignalRequest.html
+  name: MessageParser<SignalRequest>
+  nameWithType: MessageParser<SignalRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SignalRequest>
+  nameWithType.vb: MessageParser(Of SignalRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SignalRequest)
+  name.vb: MessageParser(Of SignalRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SignalRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Descriptor
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Descriptor
+  name: Descriptor
+  nameWithType: SignalRequest.Descriptor
+  fullName: LiveKit.Proto.SignalRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SignalRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.SignalRequest.#ctor
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest__ctor
+  name: SignalRequest
+  nameWithType: SignalRequest.SignalRequest
+  fullName: LiveKit.Proto.SignalRequest.SignalRequest
+  nameWithType.vb: SignalRequest.New
+  fullName.vb: LiveKit.Proto.SignalRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.SignalRequest
+  commentId: T:LiveKit.Proto.SignalRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SignalRequest.html
+  name: SignalRequest
+  nameWithType: SignalRequest
+  fullName: LiveKit.Proto.SignalRequest
+- uid: LiveKit.Proto.SignalRequest.Clone*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Clone
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Clone
+  name: Clone
+  nameWithType: SignalRequest.Clone
+  fullName: LiveKit.Proto.SignalRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SignalRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SignalRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SignalRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SignalRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SignalRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SignalRequest.Offer*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Offer
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Offer
+  name: Offer
+  nameWithType: SignalRequest.Offer
+  fullName: LiveKit.Proto.SignalRequest.Offer
+- uid: LiveKit.Proto.SessionDescription
+  commentId: T:LiveKit.Proto.SessionDescription
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SessionDescription.html
+  name: SessionDescription
+  nameWithType: SessionDescription
+  fullName: LiveKit.Proto.SessionDescription
+- uid: LiveKit.Proto.SignalRequest.Answer*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Answer
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Answer
+  name: Answer
+  nameWithType: SignalRequest.Answer
+  fullName: LiveKit.Proto.SignalRequest.Answer
+- uid: LiveKit.Proto.SignalRequest.Trickle*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Trickle
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Trickle
+  name: Trickle
+  nameWithType: SignalRequest.Trickle
+  fullName: LiveKit.Proto.SignalRequest.Trickle
+- uid: LiveKit.Proto.TrickleRequest
+  commentId: T:LiveKit.Proto.TrickleRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrickleRequest.html
+  name: TrickleRequest
+  nameWithType: TrickleRequest
+  fullName: LiveKit.Proto.TrickleRequest
+- uid: LiveKit.Proto.SignalRequest.AddTrack*
+  commentId: Overload:LiveKit.Proto.SignalRequest.AddTrack
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_AddTrack
+  name: AddTrack
+  nameWithType: SignalRequest.AddTrack
+  fullName: LiveKit.Proto.SignalRequest.AddTrack
+- uid: LiveKit.Proto.AddTrackRequest
+  commentId: T:LiveKit.Proto.AddTrackRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.AddTrackRequest.html
+  name: AddTrackRequest
+  nameWithType: AddTrackRequest
+  fullName: LiveKit.Proto.AddTrackRequest
+- uid: LiveKit.Proto.SignalRequest.Mute*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Mute
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Mute
+  name: Mute
+  nameWithType: SignalRequest.Mute
+  fullName: LiveKit.Proto.SignalRequest.Mute
+- uid: LiveKit.Proto.MuteTrackRequest
+  commentId: T:LiveKit.Proto.MuteTrackRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.MuteTrackRequest.html
+  name: MuteTrackRequest
+  nameWithType: MuteTrackRequest
+  fullName: LiveKit.Proto.MuteTrackRequest
+- uid: LiveKit.Proto.SignalRequest.Subscription*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Subscription
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Subscription
+  name: Subscription
+  nameWithType: SignalRequest.Subscription
+  fullName: LiveKit.Proto.SignalRequest.Subscription
+- uid: LiveKit.Proto.UpdateSubscription
+  commentId: T:LiveKit.Proto.UpdateSubscription
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSubscription.html
+  name: UpdateSubscription
+  nameWithType: UpdateSubscription
+  fullName: LiveKit.Proto.UpdateSubscription
+- uid: LiveKit.Proto.SignalRequest.TrackSetting*
+  commentId: Overload:LiveKit.Proto.SignalRequest.TrackSetting
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_TrackSetting
+  name: TrackSetting
+  nameWithType: SignalRequest.TrackSetting
+  fullName: LiveKit.Proto.SignalRequest.TrackSetting
+- uid: LiveKit.Proto.UpdateTrackSettings
+  commentId: T:LiveKit.Proto.UpdateTrackSettings
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateTrackSettings.html
+  name: UpdateTrackSettings
+  nameWithType: UpdateTrackSettings
+  fullName: LiveKit.Proto.UpdateTrackSettings
+- uid: LiveKit.Proto.SignalRequest.Leave*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Leave
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Leave
+  name: Leave
+  nameWithType: SignalRequest.Leave
+  fullName: LiveKit.Proto.SignalRequest.Leave
+- uid: LiveKit.Proto.LeaveRequest
+  commentId: T:LiveKit.Proto.LeaveRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.LeaveRequest.html
+  name: LeaveRequest
+  nameWithType: LeaveRequest
+  fullName: LiveKit.Proto.LeaveRequest
+- uid: LiveKit.Proto.SignalRequest.UpdateLayers*
+  commentId: Overload:LiveKit.Proto.SignalRequest.UpdateLayers
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_UpdateLayers
+  name: UpdateLayers
+  nameWithType: SignalRequest.UpdateLayers
+  fullName: LiveKit.Proto.SignalRequest.UpdateLayers
+- uid: LiveKit.Proto.UpdateVideoLayers
+  commentId: T:LiveKit.Proto.UpdateVideoLayers
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateVideoLayers.html
+  name: UpdateVideoLayers
+  nameWithType: UpdateVideoLayers
+  fullName: LiveKit.Proto.UpdateVideoLayers
+- uid: LiveKit.Proto.SignalRequest.SubscriptionPermission*
+  commentId: Overload:LiveKit.Proto.SignalRequest.SubscriptionPermission
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_SubscriptionPermission
+  name: SubscriptionPermission
+  nameWithType: SignalRequest.SubscriptionPermission
+  fullName: LiveKit.Proto.SignalRequest.SubscriptionPermission
+- uid: LiveKit.Proto.SubscriptionPermission
+  commentId: T:LiveKit.Proto.SubscriptionPermission
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SubscriptionPermission.html
+  name: SubscriptionPermission
+  nameWithType: SubscriptionPermission
+  fullName: LiveKit.Proto.SubscriptionPermission
+- uid: LiveKit.Proto.SignalRequest.SyncState*
+  commentId: Overload:LiveKit.Proto.SignalRequest.SyncState
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_SyncState
+  name: SyncState
+  nameWithType: SignalRequest.SyncState
+  fullName: LiveKit.Proto.SignalRequest.SyncState
+- uid: LiveKit.Proto.SyncState
+  commentId: T:LiveKit.Proto.SyncState
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SyncState.html
+  name: SyncState
+  nameWithType: SyncState
+  fullName: LiveKit.Proto.SyncState
+- uid: LiveKit.Proto.SignalRequest.Simulate*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Simulate
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Simulate
+  name: Simulate
+  nameWithType: SignalRequest.Simulate
+  fullName: LiveKit.Proto.SignalRequest.Simulate
+- uid: LiveKit.Proto.SimulateScenario
+  commentId: T:LiveKit.Proto.SimulateScenario
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SimulateScenario.html
+  name: SimulateScenario
+  nameWithType: SimulateScenario
+  fullName: LiveKit.Proto.SimulateScenario
+- uid: LiveKit.Proto.SignalRequest.Ping*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Ping
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Ping
+  name: Ping
+  nameWithType: SignalRequest.Ping
+  fullName: LiveKit.Proto.SignalRequest.Ping
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.SignalRequest.HasPing*
+  commentId: Overload:LiveKit.Proto.SignalRequest.HasPing
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_HasPing
+  name: HasPing
+  nameWithType: SignalRequest.HasPing
+  fullName: LiveKit.Proto.SignalRequest.HasPing
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.SignalRequest.ClearPing*
+  commentId: Overload:LiveKit.Proto.SignalRequest.ClearPing
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_ClearPing
+  name: ClearPing
+  nameWithType: SignalRequest.ClearPing
+  fullName: LiveKit.Proto.SignalRequest.ClearPing
+- uid: LiveKit.Proto.SignalRequest.UpdateMetadata*
+  commentId: Overload:LiveKit.Proto.SignalRequest.UpdateMetadata
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_UpdateMetadata
+  name: UpdateMetadata
+  nameWithType: SignalRequest.UpdateMetadata
+  fullName: LiveKit.Proto.SignalRequest.UpdateMetadata
+- uid: LiveKit.Proto.UpdateParticipantMetadata
+  commentId: T:LiveKit.Proto.UpdateParticipantMetadata
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateParticipantMetadata.html
+  name: UpdateParticipantMetadata
+  nameWithType: UpdateParticipantMetadata
+  fullName: LiveKit.Proto.UpdateParticipantMetadata
+- uid: LiveKit.Proto.SignalRequest.PingReq*
+  commentId: Overload:LiveKit.Proto.SignalRequest.PingReq
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_PingReq
+  name: PingReq
+  nameWithType: SignalRequest.PingReq
+  fullName: LiveKit.Proto.SignalRequest.PingReq
+- uid: LiveKit.Proto.Ping
+  commentId: T:LiveKit.Proto.Ping
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.Ping.html
+  name: Ping
+  nameWithType: Ping
+  fullName: LiveKit.Proto.Ping
+- uid: LiveKit.Proto.SignalRequest.UpdateAudioTrack*
+  commentId: Overload:LiveKit.Proto.SignalRequest.UpdateAudioTrack
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_UpdateAudioTrack
+  name: UpdateAudioTrack
+  nameWithType: SignalRequest.UpdateAudioTrack
+  fullName: LiveKit.Proto.SignalRequest.UpdateAudioTrack
+- uid: LiveKit.Proto.UpdateLocalAudioTrack
+  commentId: T:LiveKit.Proto.UpdateLocalAudioTrack
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateLocalAudioTrack.html
+  name: UpdateLocalAudioTrack
+  nameWithType: UpdateLocalAudioTrack
+  fullName: LiveKit.Proto.UpdateLocalAudioTrack
+- uid: LiveKit.Proto.SignalRequest.UpdateVideoTrack*
+  commentId: Overload:LiveKit.Proto.SignalRequest.UpdateVideoTrack
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_UpdateVideoTrack
+  name: UpdateVideoTrack
+  nameWithType: SignalRequest.UpdateVideoTrack
+  fullName: LiveKit.Proto.SignalRequest.UpdateVideoTrack
+- uid: LiveKit.Proto.UpdateLocalVideoTrack
+  commentId: T:LiveKit.Proto.UpdateLocalVideoTrack
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateLocalVideoTrack.html
+  name: UpdateLocalVideoTrack
+  nameWithType: UpdateLocalVideoTrack
+  fullName: LiveKit.Proto.UpdateLocalVideoTrack
+- uid: LiveKit.Proto.SignalRequest.MessageCase*
+  commentId: Overload:LiveKit.Proto.SignalRequest.MessageCase
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_MessageCase
+  name: MessageCase
+  nameWithType: SignalRequest.MessageCase
+  fullName: LiveKit.Proto.SignalRequest.MessageCase
+- uid: LiveKit.Proto.SignalRequest.MessageOneofCase
+  commentId: T:LiveKit.Proto.SignalRequest.MessageOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SignalRequest.html
+  name: SignalRequest.MessageOneofCase
+  nameWithType: SignalRequest.MessageOneofCase
+  fullName: LiveKit.Proto.SignalRequest.MessageOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: .
+  - uid: LiveKit.Proto.SignalRequest.MessageOneofCase
+    name: MessageOneofCase
+    href: LiveKit.Proto.SignalRequest.MessageOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: .
+  - uid: LiveKit.Proto.SignalRequest.MessageOneofCase
+    name: MessageOneofCase
+    href: LiveKit.Proto.SignalRequest.MessageOneofCase.html
+- uid: LiveKit.Proto.SignalRequest.ClearMessage*
+  commentId: Overload:LiveKit.Proto.SignalRequest.ClearMessage
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_ClearMessage
+  name: ClearMessage
+  nameWithType: SignalRequest.ClearMessage
+  fullName: LiveKit.Proto.SignalRequest.ClearMessage
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SignalRequest.Equals*
+  commentId: Overload:LiveKit.Proto.SignalRequest.Equals
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: SignalRequest.Equals
+  fullName: LiveKit.Proto.SignalRequest.Equals
+- uid: System.IEquatable{LiveKit.Proto.SignalRequest}.Equals(LiveKit.Proto.SignalRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.SignalRequest}.Equals(LiveKit.Proto.SignalRequest)
+  parent: System.IEquatable{LiveKit.Proto.SignalRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SignalRequest)
+  nameWithType: IEquatable<SignalRequest>.Equals(SignalRequest)
+  fullName: System.IEquatable<LiveKit.Proto.SignalRequest>.Equals(LiveKit.Proto.SignalRequest)
+  nameWithType.vb: IEquatable(Of SignalRequest).Equals(SignalRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SignalRequest).Equals(LiveKit.Proto.SignalRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SignalRequest}.Equals(LiveKit.Proto.SignalRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SignalRequest}.Equals(LiveKit.Proto.SignalRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SignalRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SignalRequest.GetHashCode
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: SignalRequest.GetHashCode
+  fullName: LiveKit.Proto.SignalRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SignalRequest.ToString*
+  commentId: Overload:LiveKit.Proto.SignalRequest.ToString
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_ToString
+  name: ToString
+  nameWithType: SignalRequest.ToString
+  fullName: LiveKit.Proto.SignalRequest.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SignalRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.SignalRequest.WriteTo
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SignalRequest.WriteTo
+  fullName: LiveKit.Proto.SignalRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SignalRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SignalRequest.CalculateSize
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: SignalRequest.CalculateSize
+  fullName: LiveKit.Proto.SignalRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SignalRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SignalRequest.MergeFrom
+  href: LiveKit.Proto.SignalRequest.html#LiveKit_Proto_SignalRequest_MergeFrom_LiveKit_Proto_SignalRequest_
+  name: MergeFrom
+  nameWithType: SignalRequest.MergeFrom
+  fullName: LiveKit.Proto.SignalRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}.MergeFrom(LiveKit.Proto.SignalRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}.MergeFrom(LiveKit.Proto.SignalRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SignalRequest.html
+  name: MergeFrom(SignalRequest)
+  nameWithType: IMessage<SignalRequest>.MergeFrom(SignalRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SignalRequest>.MergeFrom(LiveKit.Proto.SignalRequest)
+  nameWithType.vb: IMessage(Of SignalRequest).MergeFrom(SignalRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SignalRequest).MergeFrom(LiveKit.Proto.SignalRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}.MergeFrom(LiveKit.Proto.SignalRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SignalRequest}.MergeFrom(LiveKit.Proto.SignalRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SignalRequest
+    name: SignalRequest
+    href: LiveKit.Proto.SignalRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

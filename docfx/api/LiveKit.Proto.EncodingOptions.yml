@@ -1,0 +1,2184 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.EncodingOptions
+  commentId: T:LiveKit.Proto.EncodingOptions
+  id: EncodingOptions
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.EncodingOptions.#ctor
+  - LiveKit.Proto.EncodingOptions.#ctor(LiveKit.Proto.EncodingOptions)
+  - LiveKit.Proto.EncodingOptions.AudioBitrate
+  - LiveKit.Proto.EncodingOptions.AudioBitrateFieldNumber
+  - LiveKit.Proto.EncodingOptions.AudioCodec
+  - LiveKit.Proto.EncodingOptions.AudioCodecFieldNumber
+  - LiveKit.Proto.EncodingOptions.AudioFrequency
+  - LiveKit.Proto.EncodingOptions.AudioFrequencyFieldNumber
+  - LiveKit.Proto.EncodingOptions.AudioQuality
+  - LiveKit.Proto.EncodingOptions.AudioQualityFieldNumber
+  - LiveKit.Proto.EncodingOptions.CalculateSize
+  - LiveKit.Proto.EncodingOptions.Clone
+  - LiveKit.Proto.EncodingOptions.Depth
+  - LiveKit.Proto.EncodingOptions.DepthFieldNumber
+  - LiveKit.Proto.EncodingOptions.Descriptor
+  - LiveKit.Proto.EncodingOptions.Equals(LiveKit.Proto.EncodingOptions)
+  - LiveKit.Proto.EncodingOptions.Equals(System.Object)
+  - LiveKit.Proto.EncodingOptions.Framerate
+  - LiveKit.Proto.EncodingOptions.FramerateFieldNumber
+  - LiveKit.Proto.EncodingOptions.GetHashCode
+  - LiveKit.Proto.EncodingOptions.Height
+  - LiveKit.Proto.EncodingOptions.HeightFieldNumber
+  - LiveKit.Proto.EncodingOptions.KeyFrameInterval
+  - LiveKit.Proto.EncodingOptions.KeyFrameIntervalFieldNumber
+  - LiveKit.Proto.EncodingOptions.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.EncodingOptions.MergeFrom(LiveKit.Proto.EncodingOptions)
+  - LiveKit.Proto.EncodingOptions.Parser
+  - LiveKit.Proto.EncodingOptions.ToString
+  - LiveKit.Proto.EncodingOptions.VideoBitrate
+  - LiveKit.Proto.EncodingOptions.VideoBitrateFieldNumber
+  - LiveKit.Proto.EncodingOptions.VideoCodec
+  - LiveKit.Proto.EncodingOptions.VideoCodecFieldNumber
+  - LiveKit.Proto.EncodingOptions.VideoQuality
+  - LiveKit.Proto.EncodingOptions.VideoQualityFieldNumber
+  - LiveKit.Proto.EncodingOptions.Width
+  - LiveKit.Proto.EncodingOptions.WidthFieldNumber
+  - LiveKit.Proto.EncodingOptions.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: EncodingOptions
+  nameWithType: EncodingOptions
+  fullName: LiveKit.Proto.EncodingOptions
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EncodingOptions
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8139
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class EncodingOptions : IMessage<EncodingOptions>, IEquatable<EncodingOptions>, IDeepCloneable<EncodingOptions>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class EncodingOptions Implements IMessage(Of EncodingOptions), IEquatable(Of EncodingOptions), IDeepCloneable(Of EncodingOptions), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}
+  - System.IEquatable{LiveKit.Proto.EncodingOptions}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.EncodingOptions.Parser
+  commentId: P:LiveKit.Proto.EncodingOptions.Parser
+  id: Parser
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: EncodingOptions.Parser
+  fullName: LiveKit.Proto.EncodingOptions.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8147
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<EncodingOptions> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.EncodingOptions}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of EncodingOptions)
+  overload: LiveKit.Proto.EncodingOptions.Parser*
+- uid: LiveKit.Proto.EncodingOptions.Descriptor
+  commentId: P:LiveKit.Proto.EncodingOptions.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: EncodingOptions.Descriptor
+  fullName: LiveKit.Proto.EncodingOptions.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8151
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.EncodingOptions.Descriptor*
+- uid: LiveKit.Proto.EncodingOptions.#ctor
+  commentId: M:LiveKit.Proto.EncodingOptions.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: EncodingOptions()
+  nameWithType: EncodingOptions.EncodingOptions()
+  fullName: LiveKit.Proto.EncodingOptions.EncodingOptions()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8163
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EncodingOptions()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.EncodingOptions.#ctor*
+  nameWithType.vb: EncodingOptions.New()
+  fullName.vb: LiveKit.Proto.EncodingOptions.New()
+  name.vb: New()
+- uid: LiveKit.Proto.EncodingOptions.#ctor(LiveKit.Proto.EncodingOptions)
+  commentId: M:LiveKit.Proto.EncodingOptions.#ctor(LiveKit.Proto.EncodingOptions)
+  id: '#ctor(LiveKit.Proto.EncodingOptions)'
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: EncodingOptions(EncodingOptions)
+  nameWithType: EncodingOptions.EncodingOptions(EncodingOptions)
+  fullName: LiveKit.Proto.EncodingOptions.EncodingOptions(LiveKit.Proto.EncodingOptions)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8171
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EncodingOptions(EncodingOptions other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.EncodingOptions
+    content.vb: Public Sub New(other As EncodingOptions)
+  overload: LiveKit.Proto.EncodingOptions.#ctor*
+  nameWithType.vb: EncodingOptions.New(EncodingOptions)
+  fullName.vb: LiveKit.Proto.EncodingOptions.New(LiveKit.Proto.EncodingOptions)
+  name.vb: New(EncodingOptions)
+- uid: LiveKit.Proto.EncodingOptions.Clone
+  commentId: M:LiveKit.Proto.EncodingOptions.Clone
+  id: Clone
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: EncodingOptions.Clone()
+  fullName: LiveKit.Proto.EncodingOptions.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8189
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public EncodingOptions Clone()
+    return:
+      type: LiveKit.Proto.EncodingOptions
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As EncodingOptions
+  overload: LiveKit.Proto.EncodingOptions.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}.Clone
+- uid: LiveKit.Proto.EncodingOptions.WidthFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.WidthFieldNumber
+  id: WidthFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: WidthFieldNumber
+  nameWithType: EncodingOptions.WidthFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.WidthFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WidthFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8196
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "width" field.
+  example: []
+  syntax:
+    content: public const int WidthFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const WidthFieldNumber As Integer = 1
+- uid: LiveKit.Proto.EncodingOptions.Width
+  commentId: P:LiveKit.Proto.EncodingOptions.Width
+  id: Width
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: EncodingOptions.Width
+  fullName: LiveKit.Proto.EncodingOptions.Width
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Width
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8201
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default 1920)
+  example: []
+  syntax:
+    content: public int Width { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Width As Integer
+  overload: LiveKit.Proto.EncodingOptions.Width*
+- uid: LiveKit.Proto.EncodingOptions.HeightFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.HeightFieldNumber
+  id: HeightFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: HeightFieldNumber
+  nameWithType: EncodingOptions.HeightFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.HeightFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HeightFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8211
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "height" field.
+  example: []
+  syntax:
+    content: public const int HeightFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const HeightFieldNumber As Integer = 2
+- uid: LiveKit.Proto.EncodingOptions.Height
+  commentId: P:LiveKit.Proto.EncodingOptions.Height
+  id: Height
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: EncodingOptions.Height
+  fullName: LiveKit.Proto.EncodingOptions.Height
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Height
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8216
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default 1080)
+  example: []
+  syntax:
+    content: public int Height { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Height As Integer
+  overload: LiveKit.Proto.EncodingOptions.Height*
+- uid: LiveKit.Proto.EncodingOptions.DepthFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.DepthFieldNumber
+  id: DepthFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: DepthFieldNumber
+  nameWithType: EncodingOptions.DepthFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.DepthFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DepthFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8226
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "depth" field.
+  example: []
+  syntax:
+    content: public const int DepthFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const DepthFieldNumber As Integer = 3
+- uid: LiveKit.Proto.EncodingOptions.Depth
+  commentId: P:LiveKit.Proto.EncodingOptions.Depth
+  id: Depth
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: EncodingOptions.Depth
+  fullName: LiveKit.Proto.EncodingOptions.Depth
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Depth
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8231
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default 24)
+  example: []
+  syntax:
+    content: public int Depth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Depth As Integer
+  overload: LiveKit.Proto.EncodingOptions.Depth*
+- uid: LiveKit.Proto.EncodingOptions.FramerateFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.FramerateFieldNumber
+  id: FramerateFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: FramerateFieldNumber
+  nameWithType: EncodingOptions.FramerateFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.FramerateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FramerateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8241
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "framerate" field.
+  example: []
+  syntax:
+    content: public const int FramerateFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const FramerateFieldNumber As Integer = 4
+- uid: LiveKit.Proto.EncodingOptions.Framerate
+  commentId: P:LiveKit.Proto.EncodingOptions.Framerate
+  id: Framerate
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Framerate
+  nameWithType: EncodingOptions.Framerate
+  fullName: LiveKit.Proto.EncodingOptions.Framerate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Framerate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8246
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default 30)
+  example: []
+  syntax:
+    content: public int Framerate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Framerate As Integer
+  overload: LiveKit.Proto.EncodingOptions.Framerate*
+- uid: LiveKit.Proto.EncodingOptions.AudioCodecFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.AudioCodecFieldNumber
+  id: AudioCodecFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioCodecFieldNumber
+  nameWithType: EncodingOptions.AudioCodecFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.AudioCodecFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioCodecFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8256
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "audio_codec" field.
+  example: []
+  syntax:
+    content: public const int AudioCodecFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const AudioCodecFieldNumber As Integer = 5
+- uid: LiveKit.Proto.EncodingOptions.AudioCodec
+  commentId: P:LiveKit.Proto.EncodingOptions.AudioCodec
+  id: AudioCodec
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioCodec
+  nameWithType: EncodingOptions.AudioCodec
+  fullName: LiveKit.Proto.EncodingOptions.AudioCodec
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioCodec
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8261
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default OPUS)
+  example: []
+  syntax:
+    content: public AudioCodec AudioCodec { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.AudioCodec
+    content.vb: Public Property AudioCodec As AudioCodec
+  overload: LiveKit.Proto.EncodingOptions.AudioCodec*
+- uid: LiveKit.Proto.EncodingOptions.AudioBitrateFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.AudioBitrateFieldNumber
+  id: AudioBitrateFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioBitrateFieldNumber
+  nameWithType: EncodingOptions.AudioBitrateFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.AudioBitrateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioBitrateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8271
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "audio_bitrate" field.
+  example: []
+  syntax:
+    content: public const int AudioBitrateFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const AudioBitrateFieldNumber As Integer = 6
+- uid: LiveKit.Proto.EncodingOptions.AudioBitrate
+  commentId: P:LiveKit.Proto.EncodingOptions.AudioBitrate
+  id: AudioBitrate
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioBitrate
+  nameWithType: EncodingOptions.AudioBitrate
+  fullName: LiveKit.Proto.EncodingOptions.AudioBitrate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioBitrate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8276
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default 128)
+  example: []
+  syntax:
+    content: public int AudioBitrate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AudioBitrate As Integer
+  overload: LiveKit.Proto.EncodingOptions.AudioBitrate*
+- uid: LiveKit.Proto.EncodingOptions.AudioQualityFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.AudioQualityFieldNumber
+  id: AudioQualityFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioQualityFieldNumber
+  nameWithType: EncodingOptions.AudioQualityFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.AudioQualityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioQualityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8286
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "audio_quality" field.
+  example: []
+  syntax:
+    content: public const int AudioQualityFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const AudioQualityFieldNumber As Integer = 11
+- uid: LiveKit.Proto.EncodingOptions.AudioQuality
+  commentId: P:LiveKit.Proto.EncodingOptions.AudioQuality
+  id: AudioQuality
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioQuality
+  nameWithType: EncodingOptions.AudioQuality
+  fullName: LiveKit.Proto.EncodingOptions.AudioQuality
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioQuality
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8291
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: quality setting on audio encoder
+  example: []
+  syntax:
+    content: public int AudioQuality { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AudioQuality As Integer
+  overload: LiveKit.Proto.EncodingOptions.AudioQuality*
+- uid: LiveKit.Proto.EncodingOptions.AudioFrequencyFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.AudioFrequencyFieldNumber
+  id: AudioFrequencyFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioFrequencyFieldNumber
+  nameWithType: EncodingOptions.AudioFrequencyFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.AudioFrequencyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioFrequencyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8301
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "audio_frequency" field.
+  example: []
+  syntax:
+    content: public const int AudioFrequencyFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const AudioFrequencyFieldNumber As Integer = 7
+- uid: LiveKit.Proto.EncodingOptions.AudioFrequency
+  commentId: P:LiveKit.Proto.EncodingOptions.AudioFrequency
+  id: AudioFrequency
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioFrequency
+  nameWithType: EncodingOptions.AudioFrequency
+  fullName: LiveKit.Proto.EncodingOptions.AudioFrequency
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioFrequency
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8306
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default 44100)
+  example: []
+  syntax:
+    content: public int AudioFrequency { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AudioFrequency As Integer
+  overload: LiveKit.Proto.EncodingOptions.AudioFrequency*
+- uid: LiveKit.Proto.EncodingOptions.VideoCodecFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.VideoCodecFieldNumber
+  id: VideoCodecFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: VideoCodecFieldNumber
+  nameWithType: EncodingOptions.VideoCodecFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.VideoCodecFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoCodecFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8316
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "video_codec" field.
+  example: []
+  syntax:
+    content: public const int VideoCodecFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const VideoCodecFieldNumber As Integer = 8
+- uid: LiveKit.Proto.EncodingOptions.VideoCodec
+  commentId: P:LiveKit.Proto.EncodingOptions.VideoCodec
+  id: VideoCodec
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: VideoCodec
+  nameWithType: EncodingOptions.VideoCodec
+  fullName: LiveKit.Proto.EncodingOptions.VideoCodec
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoCodec
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8321
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default H264_MAIN)
+  example: []
+  syntax:
+    content: public VideoCodec VideoCodec { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.VideoCodec
+    content.vb: Public Property VideoCodec As VideoCodec
+  overload: LiveKit.Proto.EncodingOptions.VideoCodec*
+- uid: LiveKit.Proto.EncodingOptions.VideoBitrateFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.VideoBitrateFieldNumber
+  id: VideoBitrateFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: VideoBitrateFieldNumber
+  nameWithType: EncodingOptions.VideoBitrateFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.VideoBitrateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoBitrateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8331
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "video_bitrate" field.
+  example: []
+  syntax:
+    content: public const int VideoBitrateFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const VideoBitrateFieldNumber As Integer = 9
+- uid: LiveKit.Proto.EncodingOptions.VideoBitrate
+  commentId: P:LiveKit.Proto.EncodingOptions.VideoBitrate
+  id: VideoBitrate
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: VideoBitrate
+  nameWithType: EncodingOptions.VideoBitrate
+  fullName: LiveKit.Proto.EncodingOptions.VideoBitrate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoBitrate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8336
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: (default 4500)
+  example: []
+  syntax:
+    content: public int VideoBitrate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property VideoBitrate As Integer
+  overload: LiveKit.Proto.EncodingOptions.VideoBitrate*
+- uid: LiveKit.Proto.EncodingOptions.VideoQualityFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.VideoQualityFieldNumber
+  id: VideoQualityFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: VideoQualityFieldNumber
+  nameWithType: EncodingOptions.VideoQualityFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.VideoQualityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoQualityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8346
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "video_quality" field.
+  example: []
+  syntax:
+    content: public const int VideoQualityFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const VideoQualityFieldNumber As Integer = 12
+- uid: LiveKit.Proto.EncodingOptions.VideoQuality
+  commentId: P:LiveKit.Proto.EncodingOptions.VideoQuality
+  id: VideoQuality
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: VideoQuality
+  nameWithType: EncodingOptions.VideoQuality
+  fullName: LiveKit.Proto.EncodingOptions.VideoQuality
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoQuality
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8351
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: quality setting on video encoder
+  example: []
+  syntax:
+    content: public int VideoQuality { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property VideoQuality As Integer
+  overload: LiveKit.Proto.EncodingOptions.VideoQuality*
+- uid: LiveKit.Proto.EncodingOptions.KeyFrameIntervalFieldNumber
+  commentId: F:LiveKit.Proto.EncodingOptions.KeyFrameIntervalFieldNumber
+  id: KeyFrameIntervalFieldNumber
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: KeyFrameIntervalFieldNumber
+  nameWithType: EncodingOptions.KeyFrameIntervalFieldNumber
+  fullName: LiveKit.Proto.EncodingOptions.KeyFrameIntervalFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: KeyFrameIntervalFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8361
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "key_frame_interval" field.
+  example: []
+  syntax:
+    content: public const int KeyFrameIntervalFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const KeyFrameIntervalFieldNumber As Integer = 10
+- uid: LiveKit.Proto.EncodingOptions.KeyFrameInterval
+  commentId: P:LiveKit.Proto.EncodingOptions.KeyFrameInterval
+  id: KeyFrameInterval
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: KeyFrameInterval
+  nameWithType: EncodingOptions.KeyFrameInterval
+  fullName: LiveKit.Proto.EncodingOptions.KeyFrameInterval
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: KeyFrameInterval
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8366
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: in seconds (default 4s for streaming, segment duration for segmented output, encoder default for files)
+  example: []
+  syntax:
+    content: public double KeyFrameInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property KeyFrameInterval As Double
+  overload: LiveKit.Proto.EncodingOptions.KeyFrameInterval*
+- uid: LiveKit.Proto.EncodingOptions.Equals(System.Object)
+  commentId: M:LiveKit.Proto.EncodingOptions.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: EncodingOptions.Equals(object)
+  fullName: LiveKit.Proto.EncodingOptions.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8375
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.EncodingOptions.Equals*
+  nameWithType.vb: EncodingOptions.Equals(Object)
+  fullName.vb: LiveKit.Proto.EncodingOptions.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.EncodingOptions.Equals(LiveKit.Proto.EncodingOptions)
+  commentId: M:LiveKit.Proto.EncodingOptions.Equals(LiveKit.Proto.EncodingOptions)
+  id: Equals(LiveKit.Proto.EncodingOptions)
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: Equals(EncodingOptions)
+  nameWithType: EncodingOptions.Equals(EncodingOptions)
+  fullName: LiveKit.Proto.EncodingOptions.Equals(LiveKit.Proto.EncodingOptions)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8381
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(EncodingOptions other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.EncodingOptions
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As EncodingOptions) As Boolean
+  overload: LiveKit.Proto.EncodingOptions.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.EncodingOptions}.Equals(LiveKit.Proto.EncodingOptions)
+- uid: LiveKit.Proto.EncodingOptions.GetHashCode
+  commentId: M:LiveKit.Proto.EncodingOptions.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: EncodingOptions.GetHashCode()
+  fullName: LiveKit.Proto.EncodingOptions.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8405
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.EncodingOptions.GetHashCode*
+- uid: LiveKit.Proto.EncodingOptions.ToString
+  commentId: M:LiveKit.Proto.EncodingOptions.ToString
+  id: ToString
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EncodingOptions.ToString()
+  fullName: LiveKit.Proto.EncodingOptions.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8427
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.EncodingOptions.ToString*
+- uid: LiveKit.Proto.EncodingOptions.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.EncodingOptions.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: EncodingOptions.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.EncodingOptions.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8433
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.EncodingOptions.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.EncodingOptions.CalculateSize
+  commentId: M:LiveKit.Proto.EncodingOptions.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: EncodingOptions.CalculateSize()
+  fullName: LiveKit.Proto.EncodingOptions.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8551
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.EncodingOptions.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.EncodingOptions.MergeFrom(LiveKit.Proto.EncodingOptions)
+  commentId: M:LiveKit.Proto.EncodingOptions.MergeFrom(LiveKit.Proto.EncodingOptions)
+  id: MergeFrom(LiveKit.Proto.EncodingOptions)
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(EncodingOptions)
+  nameWithType: EncodingOptions.MergeFrom(EncodingOptions)
+  fullName: LiveKit.Proto.EncodingOptions.MergeFrom(LiveKit.Proto.EncodingOptions)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8597
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(EncodingOptions other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.EncodingOptions
+    content.vb: Public Sub MergeFrom(other As EncodingOptions)
+  overload: LiveKit.Proto.EncodingOptions.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}.MergeFrom(LiveKit.Proto.EncodingOptions)
+- uid: LiveKit.Proto.EncodingOptions.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.EncodingOptions.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.EncodingOptions
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: EncodingOptions.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.EncodingOptions.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 8642
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.EncodingOptions.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.EncodingOptions.html
+  name: IMessage<EncodingOptions>
+  nameWithType: IMessage<EncodingOptions>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.EncodingOptions>
+  nameWithType.vb: IMessage(Of EncodingOptions)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.EncodingOptions)
+  name.vb: IMessage(Of EncodingOptions)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.EncodingOptions}
+  commentId: T:System.IEquatable{LiveKit.Proto.EncodingOptions}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<EncodingOptions>
+  nameWithType: IEquatable<EncodingOptions>
+  fullName: System.IEquatable<LiveKit.Proto.EncodingOptions>
+  nameWithType.vb: IEquatable(Of EncodingOptions)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.EncodingOptions)
+  name.vb: IEquatable(Of EncodingOptions)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.EncodingOptions.html
+  name: IDeepCloneable<EncodingOptions>
+  nameWithType: IDeepCloneable<EncodingOptions>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.EncodingOptions>
+  nameWithType.vb: IDeepCloneable(Of EncodingOptions)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.EncodingOptions)
+  name.vb: IDeepCloneable(Of EncodingOptions)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.EncodingOptions.Parser*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.Parser
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_Parser
+  name: Parser
+  nameWithType: EncodingOptions.Parser
+  fullName: LiveKit.Proto.EncodingOptions.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.EncodingOptions}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.EncodingOptions}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.EncodingOptions.html
+  name: MessageParser<EncodingOptions>
+  nameWithType: MessageParser<EncodingOptions>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.EncodingOptions>
+  nameWithType.vb: MessageParser(Of EncodingOptions)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.EncodingOptions)
+  name.vb: MessageParser(Of EncodingOptions)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.EncodingOptions.Descriptor*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.Descriptor
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_Descriptor
+  name: Descriptor
+  nameWithType: EncodingOptions.Descriptor
+  fullName: LiveKit.Proto.EncodingOptions.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.EncodingOptions.#ctor*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.#ctor
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions__ctor
+  name: EncodingOptions
+  nameWithType: EncodingOptions.EncodingOptions
+  fullName: LiveKit.Proto.EncodingOptions.EncodingOptions
+  nameWithType.vb: EncodingOptions.New
+  fullName.vb: LiveKit.Proto.EncodingOptions.New
+  name.vb: New
+- uid: LiveKit.Proto.EncodingOptions
+  commentId: T:LiveKit.Proto.EncodingOptions
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EncodingOptions.html
+  name: EncodingOptions
+  nameWithType: EncodingOptions
+  fullName: LiveKit.Proto.EncodingOptions
+- uid: LiveKit.Proto.EncodingOptions.Clone*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.Clone
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_Clone
+  name: Clone
+  nameWithType: EncodingOptions.Clone
+  fullName: LiveKit.Proto.EncodingOptions.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<EncodingOptions>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.EncodingOptions>.Clone()
+  nameWithType.vb: IDeepCloneable(Of EncodingOptions).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.EncodingOptions).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.EncodingOptions}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.EncodingOptions.Width*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.Width
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_Width
+  name: Width
+  nameWithType: EncodingOptions.Width
+  fullName: LiveKit.Proto.EncodingOptions.Width
+- uid: LiveKit.Proto.EncodingOptions.Height*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.Height
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_Height
+  name: Height
+  nameWithType: EncodingOptions.Height
+  fullName: LiveKit.Proto.EncodingOptions.Height
+- uid: LiveKit.Proto.EncodingOptions.Depth*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.Depth
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_Depth
+  name: Depth
+  nameWithType: EncodingOptions.Depth
+  fullName: LiveKit.Proto.EncodingOptions.Depth
+- uid: LiveKit.Proto.EncodingOptions.Framerate*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.Framerate
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_Framerate
+  name: Framerate
+  nameWithType: EncodingOptions.Framerate
+  fullName: LiveKit.Proto.EncodingOptions.Framerate
+- uid: LiveKit.Proto.EncodingOptions.AudioCodec*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.AudioCodec
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_AudioCodec
+  name: AudioCodec
+  nameWithType: EncodingOptions.AudioCodec
+  fullName: LiveKit.Proto.EncodingOptions.AudioCodec
+- uid: LiveKit.Proto.AudioCodec
+  commentId: T:LiveKit.Proto.AudioCodec
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.AudioCodec.html
+  name: AudioCodec
+  nameWithType: AudioCodec
+  fullName: LiveKit.Proto.AudioCodec
+- uid: LiveKit.Proto.EncodingOptions.AudioBitrate*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.AudioBitrate
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_AudioBitrate
+  name: AudioBitrate
+  nameWithType: EncodingOptions.AudioBitrate
+  fullName: LiveKit.Proto.EncodingOptions.AudioBitrate
+- uid: LiveKit.Proto.EncodingOptions.AudioQuality*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.AudioQuality
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_AudioQuality
+  name: AudioQuality
+  nameWithType: EncodingOptions.AudioQuality
+  fullName: LiveKit.Proto.EncodingOptions.AudioQuality
+- uid: LiveKit.Proto.EncodingOptions.AudioFrequency*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.AudioFrequency
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_AudioFrequency
+  name: AudioFrequency
+  nameWithType: EncodingOptions.AudioFrequency
+  fullName: LiveKit.Proto.EncodingOptions.AudioFrequency
+- uid: LiveKit.Proto.EncodingOptions.VideoCodec*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.VideoCodec
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_VideoCodec
+  name: VideoCodec
+  nameWithType: EncodingOptions.VideoCodec
+  fullName: LiveKit.Proto.EncodingOptions.VideoCodec
+- uid: LiveKit.Proto.VideoCodec
+  commentId: T:LiveKit.Proto.VideoCodec
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.VideoCodec.html
+  name: VideoCodec
+  nameWithType: VideoCodec
+  fullName: LiveKit.Proto.VideoCodec
+- uid: LiveKit.Proto.EncodingOptions.VideoBitrate*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.VideoBitrate
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_VideoBitrate
+  name: VideoBitrate
+  nameWithType: EncodingOptions.VideoBitrate
+  fullName: LiveKit.Proto.EncodingOptions.VideoBitrate
+- uid: LiveKit.Proto.EncodingOptions.VideoQuality*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.VideoQuality
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_VideoQuality
+  name: VideoQuality
+  nameWithType: EncodingOptions.VideoQuality
+  fullName: LiveKit.Proto.EncodingOptions.VideoQuality
+- uid: LiveKit.Proto.EncodingOptions.KeyFrameInterval*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.KeyFrameInterval
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_KeyFrameInterval
+  name: KeyFrameInterval
+  nameWithType: EncodingOptions.KeyFrameInterval
+  fullName: LiveKit.Proto.EncodingOptions.KeyFrameInterval
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.EncodingOptions.Equals*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.Equals
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_Equals_System_Object_
+  name: Equals
+  nameWithType: EncodingOptions.Equals
+  fullName: LiveKit.Proto.EncodingOptions.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.EncodingOptions}.Equals(LiveKit.Proto.EncodingOptions)
+  commentId: M:System.IEquatable{LiveKit.Proto.EncodingOptions}.Equals(LiveKit.Proto.EncodingOptions)
+  parent: System.IEquatable{LiveKit.Proto.EncodingOptions}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(EncodingOptions)
+  nameWithType: IEquatable<EncodingOptions>.Equals(EncodingOptions)
+  fullName: System.IEquatable<LiveKit.Proto.EncodingOptions>.Equals(LiveKit.Proto.EncodingOptions)
+  nameWithType.vb: IEquatable(Of EncodingOptions).Equals(EncodingOptions)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.EncodingOptions).Equals(LiveKit.Proto.EncodingOptions)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.EncodingOptions}.Equals(LiveKit.Proto.EncodingOptions)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.EncodingOptions}.Equals(LiveKit.Proto.EncodingOptions)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.EncodingOptions.GetHashCode*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.GetHashCode
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_GetHashCode
+  name: GetHashCode
+  nameWithType: EncodingOptions.GetHashCode
+  fullName: LiveKit.Proto.EncodingOptions.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.EncodingOptions.ToString*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.ToString
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_ToString
+  name: ToString
+  nameWithType: EncodingOptions.ToString
+  fullName: LiveKit.Proto.EncodingOptions.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.EncodingOptions.WriteTo*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.WriteTo
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: EncodingOptions.WriteTo
+  fullName: LiveKit.Proto.EncodingOptions.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.EncodingOptions.CalculateSize*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.CalculateSize
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_CalculateSize
+  name: CalculateSize
+  nameWithType: EncodingOptions.CalculateSize
+  fullName: LiveKit.Proto.EncodingOptions.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.EncodingOptions.MergeFrom*
+  commentId: Overload:LiveKit.Proto.EncodingOptions.MergeFrom
+  href: LiveKit.Proto.EncodingOptions.html#LiveKit_Proto_EncodingOptions_MergeFrom_LiveKit_Proto_EncodingOptions_
+  name: MergeFrom
+  nameWithType: EncodingOptions.MergeFrom
+  fullName: LiveKit.Proto.EncodingOptions.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}.MergeFrom(LiveKit.Proto.EncodingOptions)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}.MergeFrom(LiveKit.Proto.EncodingOptions)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.EncodingOptions.html
+  name: MergeFrom(EncodingOptions)
+  nameWithType: IMessage<EncodingOptions>.MergeFrom(EncodingOptions)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.EncodingOptions>.MergeFrom(LiveKit.Proto.EncodingOptions)
+  nameWithType.vb: IMessage(Of EncodingOptions).MergeFrom(EncodingOptions)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.EncodingOptions).MergeFrom(LiveKit.Proto.EncodingOptions)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}.MergeFrom(LiveKit.Proto.EncodingOptions)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.EncodingOptions}.MergeFrom(LiveKit.Proto.EncodingOptions)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.EncodingOptions
+    name: EncodingOptions
+    href: LiveKit.Proto.EncodingOptions.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

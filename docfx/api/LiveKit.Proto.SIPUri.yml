@@ -1,0 +1,1691 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SIPUri
+  commentId: T:LiveKit.Proto.SIPUri
+  id: SIPUri
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SIPUri.#ctor
+  - LiveKit.Proto.SIPUri.#ctor(LiveKit.Proto.SIPUri)
+  - LiveKit.Proto.SIPUri.CalculateSize
+  - LiveKit.Proto.SIPUri.Clone
+  - LiveKit.Proto.SIPUri.Descriptor
+  - LiveKit.Proto.SIPUri.Equals(LiveKit.Proto.SIPUri)
+  - LiveKit.Proto.SIPUri.Equals(System.Object)
+  - LiveKit.Proto.SIPUri.GetHashCode
+  - LiveKit.Proto.SIPUri.Host
+  - LiveKit.Proto.SIPUri.HostFieldNumber
+  - LiveKit.Proto.SIPUri.Ip
+  - LiveKit.Proto.SIPUri.IpFieldNumber
+  - LiveKit.Proto.SIPUri.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SIPUri.MergeFrom(LiveKit.Proto.SIPUri)
+  - LiveKit.Proto.SIPUri.Parser
+  - LiveKit.Proto.SIPUri.Port
+  - LiveKit.Proto.SIPUri.PortFieldNumber
+  - LiveKit.Proto.SIPUri.ToString
+  - LiveKit.Proto.SIPUri.Transport
+  - LiveKit.Proto.SIPUri.TransportFieldNumber
+  - LiveKit.Proto.SIPUri.User
+  - LiveKit.Proto.SIPUri.UserFieldNumber
+  - LiveKit.Proto.SIPUri.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SIPUri
+  nameWithType: SIPUri
+  fullName: LiveKit.Proto.SIPUri
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SIPUri
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15799
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SIPUri : IMessage<SIPUri>, IEquatable<SIPUri>, IDeepCloneable<SIPUri>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SIPUri Implements IMessage(Of SIPUri), IEquatable(Of SIPUri), IDeepCloneable(Of SIPUri), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}
+  - System.IEquatable{LiveKit.Proto.SIPUri}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SIPUri.Parser
+  commentId: P:LiveKit.Proto.SIPUri.Parser
+  id: Parser
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SIPUri.Parser
+  fullName: LiveKit.Proto.SIPUri.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15807
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SIPUri> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SIPUri}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SIPUri)
+  overload: LiveKit.Proto.SIPUri.Parser*
+- uid: LiveKit.Proto.SIPUri.Descriptor
+  commentId: P:LiveKit.Proto.SIPUri.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SIPUri.Descriptor
+  fullName: LiveKit.Proto.SIPUri.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15811
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SIPUri.Descriptor*
+- uid: LiveKit.Proto.SIPUri.#ctor
+  commentId: M:LiveKit.Proto.SIPUri.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: SIPUri()
+  nameWithType: SIPUri.SIPUri()
+  fullName: LiveKit.Proto.SIPUri.SIPUri()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15823
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPUri()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SIPUri.#ctor*
+  nameWithType.vb: SIPUri.New()
+  fullName.vb: LiveKit.Proto.SIPUri.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SIPUri.#ctor(LiveKit.Proto.SIPUri)
+  commentId: M:LiveKit.Proto.SIPUri.#ctor(LiveKit.Proto.SIPUri)
+  id: '#ctor(LiveKit.Proto.SIPUri)'
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: SIPUri(SIPUri)
+  nameWithType: SIPUri.SIPUri(SIPUri)
+  fullName: LiveKit.Proto.SIPUri.SIPUri(LiveKit.Proto.SIPUri)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15831
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPUri(SIPUri other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPUri
+    content.vb: Public Sub New(other As SIPUri)
+  overload: LiveKit.Proto.SIPUri.#ctor*
+  nameWithType.vb: SIPUri.New(SIPUri)
+  fullName.vb: LiveKit.Proto.SIPUri.New(LiveKit.Proto.SIPUri)
+  name.vb: New(SIPUri)
+- uid: LiveKit.Proto.SIPUri.Clone
+  commentId: M:LiveKit.Proto.SIPUri.Clone
+  id: Clone
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SIPUri.Clone()
+  fullName: LiveKit.Proto.SIPUri.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15842
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SIPUri Clone()
+    return:
+      type: LiveKit.Proto.SIPUri
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SIPUri
+  overload: LiveKit.Proto.SIPUri.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}.Clone
+- uid: LiveKit.Proto.SIPUri.UserFieldNumber
+  commentId: F:LiveKit.Proto.SIPUri.UserFieldNumber
+  id: UserFieldNumber
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: UserFieldNumber
+  nameWithType: SIPUri.UserFieldNumber
+  fullName: LiveKit.Proto.SIPUri.UserFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UserFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15849
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "user" field.
+  example: []
+  syntax:
+    content: public const int UserFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const UserFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SIPUri.User
+  commentId: P:LiveKit.Proto.SIPUri.User
+  id: User
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: SIPUri.User
+  fullName: LiveKit.Proto.SIPUri.User
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: User
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15851
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string User { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property User As String
+  overload: LiveKit.Proto.SIPUri.User*
+- uid: LiveKit.Proto.SIPUri.HostFieldNumber
+  commentId: F:LiveKit.Proto.SIPUri.HostFieldNumber
+  id: HostFieldNumber
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: HostFieldNumber
+  nameWithType: SIPUri.HostFieldNumber
+  fullName: LiveKit.Proto.SIPUri.HostFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HostFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15861
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "host" field.
+  example: []
+  syntax:
+    content: public const int HostFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const HostFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SIPUri.Host
+  commentId: P:LiveKit.Proto.SIPUri.Host
+  id: Host
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Host
+  nameWithType: SIPUri.Host
+  fullName: LiveKit.Proto.SIPUri.Host
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Host
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15863
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Host { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Host As String
+  overload: LiveKit.Proto.SIPUri.Host*
+- uid: LiveKit.Proto.SIPUri.IpFieldNumber
+  commentId: F:LiveKit.Proto.SIPUri.IpFieldNumber
+  id: IpFieldNumber
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: IpFieldNumber
+  nameWithType: SIPUri.IpFieldNumber
+  fullName: LiveKit.Proto.SIPUri.IpFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IpFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15873
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ip" field.
+  example: []
+  syntax:
+    content: public const int IpFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const IpFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SIPUri.Ip
+  commentId: P:LiveKit.Proto.SIPUri.Ip
+  id: Ip
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Ip
+  nameWithType: SIPUri.Ip
+  fullName: LiveKit.Proto.SIPUri.Ip
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Ip
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15875
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Ip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Ip As String
+  overload: LiveKit.Proto.SIPUri.Ip*
+- uid: LiveKit.Proto.SIPUri.PortFieldNumber
+  commentId: F:LiveKit.Proto.SIPUri.PortFieldNumber
+  id: PortFieldNumber
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: PortFieldNumber
+  nameWithType: SIPUri.PortFieldNumber
+  fullName: LiveKit.Proto.SIPUri.PortFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PortFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15885
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "port" field.
+  example: []
+  syntax:
+    content: public const int PortFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const PortFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SIPUri.Port
+  commentId: P:LiveKit.Proto.SIPUri.Port
+  id: Port
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: SIPUri.Port
+  fullName: LiveKit.Proto.SIPUri.Port
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Port
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15887
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Port { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Port As UInteger
+  overload: LiveKit.Proto.SIPUri.Port*
+- uid: LiveKit.Proto.SIPUri.TransportFieldNumber
+  commentId: F:LiveKit.Proto.SIPUri.TransportFieldNumber
+  id: TransportFieldNumber
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: TransportFieldNumber
+  nameWithType: SIPUri.TransportFieldNumber
+  fullName: LiveKit.Proto.SIPUri.TransportFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TransportFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15897
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "transport" field.
+  example: []
+  syntax:
+    content: public const int TransportFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const TransportFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SIPUri.Transport
+  commentId: P:LiveKit.Proto.SIPUri.Transport
+  id: Transport
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Transport
+  nameWithType: SIPUri.Transport
+  fullName: LiveKit.Proto.SIPUri.Transport
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Transport
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15899
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SIPTransport Transport { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SIPTransport
+    content.vb: Public Property Transport As SIPTransport
+  overload: LiveKit.Proto.SIPUri.Transport*
+- uid: LiveKit.Proto.SIPUri.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SIPUri.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SIPUri.Equals(object)
+  fullName: LiveKit.Proto.SIPUri.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15908
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SIPUri.Equals*
+  nameWithType.vb: SIPUri.Equals(Object)
+  fullName.vb: LiveKit.Proto.SIPUri.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SIPUri.Equals(LiveKit.Proto.SIPUri)
+  commentId: M:LiveKit.Proto.SIPUri.Equals(LiveKit.Proto.SIPUri)
+  id: Equals(LiveKit.Proto.SIPUri)
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: Equals(SIPUri)
+  nameWithType: SIPUri.Equals(SIPUri)
+  fullName: LiveKit.Proto.SIPUri.Equals(LiveKit.Proto.SIPUri)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15914
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SIPUri other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPUri
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SIPUri) As Boolean
+  overload: LiveKit.Proto.SIPUri.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SIPUri}.Equals(LiveKit.Proto.SIPUri)
+- uid: LiveKit.Proto.SIPUri.GetHashCode
+  commentId: M:LiveKit.Proto.SIPUri.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SIPUri.GetHashCode()
+  fullName: LiveKit.Proto.SIPUri.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15931
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SIPUri.GetHashCode*
+- uid: LiveKit.Proto.SIPUri.ToString
+  commentId: M:LiveKit.Proto.SIPUri.ToString
+  id: ToString
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SIPUri.ToString()
+  fullName: LiveKit.Proto.SIPUri.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15946
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SIPUri.ToString*
+- uid: LiveKit.Proto.SIPUri.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SIPUri.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SIPUri.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SIPUri.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 15952
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SIPUri.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SIPUri.CalculateSize
+  commentId: M:LiveKit.Proto.SIPUri.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SIPUri.CalculateSize()
+  fullName: LiveKit.Proto.SIPUri.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 16014
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SIPUri.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SIPUri.MergeFrom(LiveKit.Proto.SIPUri)
+  commentId: M:LiveKit.Proto.SIPUri.MergeFrom(LiveKit.Proto.SIPUri)
+  id: MergeFrom(LiveKit.Proto.SIPUri)
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SIPUri)
+  nameWithType: SIPUri.MergeFrom(SIPUri)
+  fullName: LiveKit.Proto.SIPUri.MergeFrom(LiveKit.Proto.SIPUri)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 16039
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SIPUri other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SIPUri
+    content.vb: Public Sub MergeFrom(other As SIPUri)
+  overload: LiveKit.Proto.SIPUri.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}.MergeFrom(LiveKit.Proto.SIPUri)
+- uid: LiveKit.Proto.SIPUri.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SIPUri.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SIPUri
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SIPUri.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SIPUri.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitSip.cs
+    startLine: 16063
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SIPUri.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SIPUri.html
+  name: IMessage<SIPUri>
+  nameWithType: IMessage<SIPUri>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SIPUri>
+  nameWithType.vb: IMessage(Of SIPUri)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SIPUri)
+  name.vb: IMessage(Of SIPUri)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SIPUri}
+  commentId: T:System.IEquatable{LiveKit.Proto.SIPUri}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SIPUri>
+  nameWithType: IEquatable<SIPUri>
+  fullName: System.IEquatable<LiveKit.Proto.SIPUri>
+  nameWithType.vb: IEquatable(Of SIPUri)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SIPUri)
+  name.vb: IEquatable(Of SIPUri)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SIPUri.html
+  name: IDeepCloneable<SIPUri>
+  nameWithType: IDeepCloneable<SIPUri>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SIPUri>
+  nameWithType.vb: IDeepCloneable(Of SIPUri)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SIPUri)
+  name.vb: IDeepCloneable(Of SIPUri)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SIPUri.Parser*
+  commentId: Overload:LiveKit.Proto.SIPUri.Parser
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_Parser
+  name: Parser
+  nameWithType: SIPUri.Parser
+  fullName: LiveKit.Proto.SIPUri.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SIPUri}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SIPUri}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SIPUri.html
+  name: MessageParser<SIPUri>
+  nameWithType: MessageParser<SIPUri>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SIPUri>
+  nameWithType.vb: MessageParser(Of SIPUri)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SIPUri)
+  name.vb: MessageParser(Of SIPUri)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SIPUri.Descriptor*
+  commentId: Overload:LiveKit.Proto.SIPUri.Descriptor
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_Descriptor
+  name: Descriptor
+  nameWithType: SIPUri.Descriptor
+  fullName: LiveKit.Proto.SIPUri.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SIPUri.#ctor*
+  commentId: Overload:LiveKit.Proto.SIPUri.#ctor
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri__ctor
+  name: SIPUri
+  nameWithType: SIPUri.SIPUri
+  fullName: LiveKit.Proto.SIPUri.SIPUri
+  nameWithType.vb: SIPUri.New
+  fullName.vb: LiveKit.Proto.SIPUri.New
+  name.vb: New
+- uid: LiveKit.Proto.SIPUri
+  commentId: T:LiveKit.Proto.SIPUri
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPUri.html
+  name: SIPUri
+  nameWithType: SIPUri
+  fullName: LiveKit.Proto.SIPUri
+- uid: LiveKit.Proto.SIPUri.Clone*
+  commentId: Overload:LiveKit.Proto.SIPUri.Clone
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_Clone
+  name: Clone
+  nameWithType: SIPUri.Clone
+  fullName: LiveKit.Proto.SIPUri.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SIPUri>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SIPUri>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SIPUri).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SIPUri).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SIPUri}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SIPUri.User*
+  commentId: Overload:LiveKit.Proto.SIPUri.User
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_User
+  name: User
+  nameWithType: SIPUri.User
+  fullName: LiveKit.Proto.SIPUri.User
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SIPUri.Host*
+  commentId: Overload:LiveKit.Proto.SIPUri.Host
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_Host
+  name: Host
+  nameWithType: SIPUri.Host
+  fullName: LiveKit.Proto.SIPUri.Host
+- uid: LiveKit.Proto.SIPUri.Ip*
+  commentId: Overload:LiveKit.Proto.SIPUri.Ip
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_Ip
+  name: Ip
+  nameWithType: SIPUri.Ip
+  fullName: LiveKit.Proto.SIPUri.Ip
+- uid: LiveKit.Proto.SIPUri.Port*
+  commentId: Overload:LiveKit.Proto.SIPUri.Port
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_Port
+  name: Port
+  nameWithType: SIPUri.Port
+  fullName: LiveKit.Proto.SIPUri.Port
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: LiveKit.Proto.SIPUri.Transport*
+  commentId: Overload:LiveKit.Proto.SIPUri.Transport
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_Transport
+  name: Transport
+  nameWithType: SIPUri.Transport
+  fullName: LiveKit.Proto.SIPUri.Transport
+- uid: LiveKit.Proto.SIPTransport
+  commentId: T:LiveKit.Proto.SIPTransport
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SIPTransport.html
+  name: SIPTransport
+  nameWithType: SIPTransport
+  fullName: LiveKit.Proto.SIPTransport
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SIPUri.Equals*
+  commentId: Overload:LiveKit.Proto.SIPUri.Equals
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_Equals_System_Object_
+  name: Equals
+  nameWithType: SIPUri.Equals
+  fullName: LiveKit.Proto.SIPUri.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.SIPUri}.Equals(LiveKit.Proto.SIPUri)
+  commentId: M:System.IEquatable{LiveKit.Proto.SIPUri}.Equals(LiveKit.Proto.SIPUri)
+  parent: System.IEquatable{LiveKit.Proto.SIPUri}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SIPUri)
+  nameWithType: IEquatable<SIPUri>.Equals(SIPUri)
+  fullName: System.IEquatable<LiveKit.Proto.SIPUri>.Equals(LiveKit.Proto.SIPUri)
+  nameWithType.vb: IEquatable(Of SIPUri).Equals(SIPUri)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SIPUri).Equals(LiveKit.Proto.SIPUri)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SIPUri}.Equals(LiveKit.Proto.SIPUri)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SIPUri}.Equals(LiveKit.Proto.SIPUri)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPUri.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SIPUri.GetHashCode
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_GetHashCode
+  name: GetHashCode
+  nameWithType: SIPUri.GetHashCode
+  fullName: LiveKit.Proto.SIPUri.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPUri.ToString*
+  commentId: Overload:LiveKit.Proto.SIPUri.ToString
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_ToString
+  name: ToString
+  nameWithType: SIPUri.ToString
+  fullName: LiveKit.Proto.SIPUri.ToString
+- uid: LiveKit.Proto.SIPUri.WriteTo*
+  commentId: Overload:LiveKit.Proto.SIPUri.WriteTo
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SIPUri.WriteTo
+  fullName: LiveKit.Proto.SIPUri.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SIPUri.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SIPUri.CalculateSize
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_CalculateSize
+  name: CalculateSize
+  nameWithType: SIPUri.CalculateSize
+  fullName: LiveKit.Proto.SIPUri.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SIPUri.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SIPUri.MergeFrom
+  href: LiveKit.Proto.SIPUri.html#LiveKit_Proto_SIPUri_MergeFrom_LiveKit_Proto_SIPUri_
+  name: MergeFrom
+  nameWithType: SIPUri.MergeFrom
+  fullName: LiveKit.Proto.SIPUri.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}.MergeFrom(LiveKit.Proto.SIPUri)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}.MergeFrom(LiveKit.Proto.SIPUri)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SIPUri.html
+  name: MergeFrom(SIPUri)
+  nameWithType: IMessage<SIPUri>.MergeFrom(SIPUri)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SIPUri>.MergeFrom(LiveKit.Proto.SIPUri)
+  nameWithType.vb: IMessage(Of SIPUri).MergeFrom(SIPUri)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SIPUri).MergeFrom(LiveKit.Proto.SIPUri)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}.MergeFrom(LiveKit.Proto.SIPUri)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SIPUri}.MergeFrom(LiveKit.Proto.SIPUri)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SIPUri
+    name: SIPUri
+    href: LiveKit.Proto.SIPUri.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

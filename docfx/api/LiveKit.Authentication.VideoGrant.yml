@@ -1,0 +1,1129 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Authentication.VideoGrant
+  commentId: T:LiveKit.Authentication.VideoGrant
+  id: VideoGrant
+  parent: LiveKit.Authentication
+  children:
+  - LiveKit.Authentication.VideoGrant.Agent
+  - LiveKit.Authentication.VideoGrant.CanPublish
+  - LiveKit.Authentication.VideoGrant.CanPublishData
+  - LiveKit.Authentication.VideoGrant.CanPublishSources
+  - LiveKit.Authentication.VideoGrant.CanSubscribe
+  - LiveKit.Authentication.VideoGrant.CanSubscribeMetrics
+  - LiveKit.Authentication.VideoGrant.CanUpdateOwnMetadata
+  - LiveKit.Authentication.VideoGrant.DestinationRoom
+  - LiveKit.Authentication.VideoGrant.Hidden
+  - LiveKit.Authentication.VideoGrant.IngressAdmin
+  - LiveKit.Authentication.VideoGrant.Recorder
+  - LiveKit.Authentication.VideoGrant.Room
+  - LiveKit.Authentication.VideoGrant.RoomAdmin
+  - LiveKit.Authentication.VideoGrant.RoomCreate
+  - LiveKit.Authentication.VideoGrant.RoomJoin
+  - LiveKit.Authentication.VideoGrant.RoomList
+  - LiveKit.Authentication.VideoGrant.RoomRecord
+  langs:
+  - csharp
+  - vb
+  name: VideoGrant
+  nameWithType: VideoGrant
+  fullName: LiveKit.Authentication.VideoGrant
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoGrant
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 11
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: >-
+    Video grant containing room permissions and participant capabilities.
+
+    <p>
+
+    Room permissions are specified in the video field of a decoded join token.
+
+    See <a href="https://docs.livekit.io/home/get-started/authentication/#video-grant">Video Grant Documentation</a> for details on available permissions.
+
+    </p>
+  example: []
+  syntax:
+    content: public sealed class VideoGrant
+    content.vb: Public NotInheritable Class VideoGrant
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: LiveKit.Authentication.VideoGrant.RoomCreate
+  commentId: P:LiveKit.Authentication.VideoGrant.RoomCreate
+  id: RoomCreate
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: RoomCreate
+  nameWithType: VideoGrant.RoomCreate
+  fullName: LiveKit.Authentication.VideoGrant.RoomCreate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomCreate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 16
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Permission to create or delete rooms.
+  example: []
+  syntax:
+    content: public bool? RoomCreate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property RoomCreate As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.RoomCreate*
+- uid: LiveKit.Authentication.VideoGrant.RoomJoin
+  commentId: P:LiveKit.Authentication.VideoGrant.RoomJoin
+  id: RoomJoin
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: RoomJoin
+  nameWithType: VideoGrant.RoomJoin
+  fullName: LiveKit.Authentication.VideoGrant.RoomJoin
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomJoin
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 21
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Permission to join a room as a participant. Room must be set.
+  example: []
+  syntax:
+    content: public bool? RoomJoin { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property RoomJoin As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.RoomJoin*
+- uid: LiveKit.Authentication.VideoGrant.RoomList
+  commentId: P:LiveKit.Authentication.VideoGrant.RoomList
+  id: RoomList
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: RoomList
+  nameWithType: VideoGrant.RoomList
+  fullName: LiveKit.Authentication.VideoGrant.RoomList
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomList
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 26
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Permission to list available rooms.
+  example: []
+  syntax:
+    content: public bool? RoomList { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property RoomList As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.RoomList*
+- uid: LiveKit.Authentication.VideoGrant.RoomRecord
+  commentId: P:LiveKit.Authentication.VideoGrant.RoomRecord
+  id: RoomRecord
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: RoomRecord
+  nameWithType: VideoGrant.RoomRecord
+  fullName: LiveKit.Authentication.VideoGrant.RoomRecord
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomRecord
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 31
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Permission to start a recording. Permissions to use Egress service.
+  example: []
+  syntax:
+    content: public bool? RoomRecord { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property RoomRecord As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.RoomRecord*
+- uid: LiveKit.Authentication.VideoGrant.RoomAdmin
+  commentId: P:LiveKit.Authentication.VideoGrant.RoomAdmin
+  id: RoomAdmin
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: RoomAdmin
+  nameWithType: VideoGrant.RoomAdmin
+  fullName: LiveKit.Authentication.VideoGrant.RoomAdmin
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomAdmin
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 36
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Permission to control a specific room. Room must be set.
+  example: []
+  syntax:
+    content: public bool? RoomAdmin { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property RoomAdmin As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.RoomAdmin*
+- uid: LiveKit.Authentication.VideoGrant.Room
+  commentId: P:LiveKit.Authentication.VideoGrant.Room
+  id: Room
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: VideoGrant.Room
+  fullName: LiveKit.Authentication.VideoGrant.Room
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Room
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 41
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Name of the room, must be set for admin or join permissions.
+  example: []
+  syntax:
+    content: public string? Room { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Room As String
+  overload: LiveKit.Authentication.VideoGrant.Room*
+- uid: LiveKit.Authentication.VideoGrant.IngressAdmin
+  commentId: P:LiveKit.Authentication.VideoGrant.IngressAdmin
+  id: IngressAdmin
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: IngressAdmin
+  nameWithType: VideoGrant.IngressAdmin
+  fullName: LiveKit.Authentication.VideoGrant.IngressAdmin
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressAdmin
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 46
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Permissions to control ingress, not specific to any room or ingress.
+  example: []
+  syntax:
+    content: public bool? IngressAdmin { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property IngressAdmin As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.IngressAdmin*
+- uid: LiveKit.Authentication.VideoGrant.CanPublish
+  commentId: P:LiveKit.Authentication.VideoGrant.CanPublish
+  id: CanPublish
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: CanPublish
+  nameWithType: VideoGrant.CanPublish
+  fullName: LiveKit.Authentication.VideoGrant.CanPublish
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublish
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 52
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: >-
+    Allow participant to publish. If neither canPublish or canSubscribe is set,
+
+    both publish and subscribe are enabled.
+  example: []
+  syntax:
+    content: public bool? CanPublish { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property CanPublish As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.CanPublish*
+- uid: LiveKit.Authentication.VideoGrant.CanPublishSources
+  commentId: P:LiveKit.Authentication.VideoGrant.CanPublishSources
+  id: CanPublishSources
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: CanPublishSources
+  nameWithType: VideoGrant.CanPublishSources
+  fullName: LiveKit.Authentication.VideoGrant.CanPublishSources
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublishSources
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 59
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: >-
+    TrackSource types that the participant is allowed to publish.
+
+    When set, it supersedes CanPublish. Only sources explicitly set here can be published.
+
+    <xref href="LiveKit.Proto.TrackSource" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public List<string>? CanPublishSources { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property CanPublishSources As List(Of String)
+  overload: LiveKit.Authentication.VideoGrant.CanPublishSources*
+- uid: LiveKit.Authentication.VideoGrant.CanSubscribe
+  commentId: P:LiveKit.Authentication.VideoGrant.CanSubscribe
+  id: CanSubscribe
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: CanSubscribe
+  nameWithType: VideoGrant.CanSubscribe
+  fullName: LiveKit.Authentication.VideoGrant.CanSubscribe
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanSubscribe
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 64
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Allow participant to subscribe to other tracks.
+  example: []
+  syntax:
+    content: public bool? CanSubscribe { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property CanSubscribe As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.CanSubscribe*
+- uid: LiveKit.Authentication.VideoGrant.CanPublishData
+  commentId: P:LiveKit.Authentication.VideoGrant.CanPublishData
+  id: CanPublishData
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: CanPublishData
+  nameWithType: VideoGrant.CanPublishData
+  fullName: LiveKit.Authentication.VideoGrant.CanPublishData
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanPublishData
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 69
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Allow participants to publish data, defaults to true if not set.
+  example: []
+  syntax:
+    content: public bool? CanPublishData { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property CanPublishData As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.CanPublishData*
+- uid: LiveKit.Authentication.VideoGrant.CanUpdateOwnMetadata
+  commentId: P:LiveKit.Authentication.VideoGrant.CanUpdateOwnMetadata
+  id: CanUpdateOwnMetadata
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: CanUpdateOwnMetadata
+  nameWithType: VideoGrant.CanUpdateOwnMetadata
+  fullName: LiveKit.Authentication.VideoGrant.CanUpdateOwnMetadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanUpdateOwnMetadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 74
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: By default, a participant is not allowed to update its own metadata.
+  example: []
+  syntax:
+    content: public bool? CanUpdateOwnMetadata { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property CanUpdateOwnMetadata As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.CanUpdateOwnMetadata*
+- uid: LiveKit.Authentication.VideoGrant.Hidden
+  commentId: P:LiveKit.Authentication.VideoGrant.Hidden
+  id: Hidden
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: VideoGrant.Hidden
+  fullName: LiveKit.Authentication.VideoGrant.Hidden
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Hidden
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 79
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Hide participant from others in the room.
+  example: []
+  syntax:
+    content: public bool? Hidden { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property Hidden As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.Hidden*
+- uid: LiveKit.Authentication.VideoGrant.Recorder
+  commentId: P:LiveKit.Authentication.VideoGrant.Recorder
+  id: Recorder
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: Recorder
+  nameWithType: VideoGrant.Recorder
+  fullName: LiveKit.Authentication.VideoGrant.Recorder
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Recorder
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 84
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Participant is recording the room, when set, allows room to indicate it's being recorded.
+  example: []
+  syntax:
+    content: public bool? Recorder { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property Recorder As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.Recorder*
+- uid: LiveKit.Authentication.VideoGrant.Agent
+  commentId: P:LiveKit.Authentication.VideoGrant.Agent
+  id: Agent
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: VideoGrant.Agent
+  fullName: LiveKit.Authentication.VideoGrant.Agent
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Agent
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 89
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Participant allowed to connect to LiveKit as Agent Framework worker.
+  example: []
+  syntax:
+    content: public bool? Agent { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property Agent As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.Agent*
+- uid: LiveKit.Authentication.VideoGrant.CanSubscribeMetrics
+  commentId: P:LiveKit.Authentication.VideoGrant.CanSubscribeMetrics
+  id: CanSubscribeMetrics
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: CanSubscribeMetrics
+  nameWithType: VideoGrant.CanSubscribeMetrics
+  fullName: LiveKit.Authentication.VideoGrant.CanSubscribeMetrics
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CanSubscribeMetrics
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 94
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Allow participant to subscribe to metrics.
+  example: []
+  syntax:
+    content: public bool? CanSubscribeMetrics { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property CanSubscribeMetrics As Boolean?
+  overload: LiveKit.Authentication.VideoGrant.CanSubscribeMetrics*
+- uid: LiveKit.Authentication.VideoGrant.DestinationRoom
+  commentId: P:LiveKit.Authentication.VideoGrant.DestinationRoom
+  id: DestinationRoom
+  parent: LiveKit.Authentication.VideoGrant
+  langs:
+  - csharp
+  - vb
+  name: DestinationRoom
+  nameWithType: VideoGrant.DestinationRoom
+  fullName: LiveKit.Authentication.VideoGrant.DestinationRoom
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationRoom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/VideoGrant.cs
+    startLine: 99
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Destination room which this participant can forward to.
+  example: []
+  syntax:
+    content: public string? DestinationRoom { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DestinationRoom As String
+  overload: LiveKit.Authentication.VideoGrant.DestinationRoom*
+references:
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LiveKit.Authentication.VideoGrant.RoomCreate*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.RoomCreate
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_RoomCreate
+  name: RoomCreate
+  nameWithType: VideoGrant.RoomCreate
+  fullName: LiveKit.Authentication.VideoGrant.RoomCreate
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Authentication.VideoGrant.RoomJoin*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.RoomJoin
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_RoomJoin
+  name: RoomJoin
+  nameWithType: VideoGrant.RoomJoin
+  fullName: LiveKit.Authentication.VideoGrant.RoomJoin
+- uid: LiveKit.Authentication.VideoGrant.RoomList*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.RoomList
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_RoomList
+  name: RoomList
+  nameWithType: VideoGrant.RoomList
+  fullName: LiveKit.Authentication.VideoGrant.RoomList
+- uid: LiveKit.Authentication.VideoGrant.RoomRecord*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.RoomRecord
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_RoomRecord
+  name: RoomRecord
+  nameWithType: VideoGrant.RoomRecord
+  fullName: LiveKit.Authentication.VideoGrant.RoomRecord
+- uid: LiveKit.Authentication.VideoGrant.RoomAdmin*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.RoomAdmin
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_RoomAdmin
+  name: RoomAdmin
+  nameWithType: VideoGrant.RoomAdmin
+  fullName: LiveKit.Authentication.VideoGrant.RoomAdmin
+- uid: LiveKit.Authentication.VideoGrant.Room*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.Room
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_Room
+  name: Room
+  nameWithType: VideoGrant.Room
+  fullName: LiveKit.Authentication.VideoGrant.Room
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Authentication.VideoGrant.IngressAdmin*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.IngressAdmin
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_IngressAdmin
+  name: IngressAdmin
+  nameWithType: VideoGrant.IngressAdmin
+  fullName: LiveKit.Authentication.VideoGrant.IngressAdmin
+- uid: LiveKit.Authentication.VideoGrant.CanPublish*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.CanPublish
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_CanPublish
+  name: CanPublish
+  nameWithType: VideoGrant.CanPublish
+  fullName: LiveKit.Authentication.VideoGrant.CanPublish
+- uid: LiveKit.Proto.TrackSource
+  commentId: T:LiveKit.Proto.TrackSource
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TrackSource.html
+  name: TrackSource
+  nameWithType: TrackSource
+  fullName: LiveKit.Proto.TrackSource
+- uid: LiveKit.Authentication.VideoGrant.CanPublishSources*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.CanPublishSources
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_CanPublishSources
+  name: CanPublishSources
+  nameWithType: VideoGrant.CanPublishSources
+  fullName: LiveKit.Authentication.VideoGrant.CanPublishSources
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: LiveKit.Authentication.VideoGrant.CanSubscribe*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.CanSubscribe
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_CanSubscribe
+  name: CanSubscribe
+  nameWithType: VideoGrant.CanSubscribe
+  fullName: LiveKit.Authentication.VideoGrant.CanSubscribe
+- uid: LiveKit.Authentication.VideoGrant.CanPublishData*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.CanPublishData
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_CanPublishData
+  name: CanPublishData
+  nameWithType: VideoGrant.CanPublishData
+  fullName: LiveKit.Authentication.VideoGrant.CanPublishData
+- uid: LiveKit.Authentication.VideoGrant.CanUpdateOwnMetadata*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.CanUpdateOwnMetadata
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_CanUpdateOwnMetadata
+  name: CanUpdateOwnMetadata
+  nameWithType: VideoGrant.CanUpdateOwnMetadata
+  fullName: LiveKit.Authentication.VideoGrant.CanUpdateOwnMetadata
+- uid: LiveKit.Authentication.VideoGrant.Hidden*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.Hidden
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_Hidden
+  name: Hidden
+  nameWithType: VideoGrant.Hidden
+  fullName: LiveKit.Authentication.VideoGrant.Hidden
+- uid: LiveKit.Authentication.VideoGrant.Recorder*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.Recorder
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_Recorder
+  name: Recorder
+  nameWithType: VideoGrant.Recorder
+  fullName: LiveKit.Authentication.VideoGrant.Recorder
+- uid: LiveKit.Authentication.VideoGrant.Agent*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.Agent
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_Agent
+  name: Agent
+  nameWithType: VideoGrant.Agent
+  fullName: LiveKit.Authentication.VideoGrant.Agent
+- uid: LiveKit.Authentication.VideoGrant.CanSubscribeMetrics*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.CanSubscribeMetrics
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_CanSubscribeMetrics
+  name: CanSubscribeMetrics
+  nameWithType: VideoGrant.CanSubscribeMetrics
+  fullName: LiveKit.Authentication.VideoGrant.CanSubscribeMetrics
+- uid: LiveKit.Authentication.VideoGrant.DestinationRoom*
+  commentId: Overload:LiveKit.Authentication.VideoGrant.DestinationRoom
+  href: LiveKit.Authentication.VideoGrant.html#LiveKit_Authentication_VideoGrant_DestinationRoom
+  name: DestinationRoom
+  nameWithType: VideoGrant.DestinationRoom
+  fullName: LiveKit.Authentication.VideoGrant.DestinationRoom

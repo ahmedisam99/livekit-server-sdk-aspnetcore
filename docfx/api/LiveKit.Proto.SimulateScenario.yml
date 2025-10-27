@@ -1,0 +1,2725 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SimulateScenario
+  commentId: T:LiveKit.Proto.SimulateScenario
+  id: SimulateScenario
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SimulateScenario.#ctor
+  - LiveKit.Proto.SimulateScenario.#ctor(LiveKit.Proto.SimulateScenario)
+  - LiveKit.Proto.SimulateScenario.CalculateSize
+  - LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResume
+  - LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResumeNoMessages
+  - LiveKit.Proto.SimulateScenario.ClearLeaveRequestFullReconnect
+  - LiveKit.Proto.SimulateScenario.ClearMigration
+  - LiveKit.Proto.SimulateScenario.ClearNodeFailure
+  - LiveKit.Proto.SimulateScenario.ClearScenario
+  - LiveKit.Proto.SimulateScenario.ClearServerLeave
+  - LiveKit.Proto.SimulateScenario.ClearSpeakerUpdate
+  - LiveKit.Proto.SimulateScenario.ClearSubscriberBandwidth
+  - LiveKit.Proto.SimulateScenario.ClearSwitchCandidateProtocol
+  - LiveKit.Proto.SimulateScenario.Clone
+  - LiveKit.Proto.SimulateScenario.Descriptor
+  - LiveKit.Proto.SimulateScenario.DisconnectSignalOnResume
+  - LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeFieldNumber
+  - LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessages
+  - LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessagesFieldNumber
+  - LiveKit.Proto.SimulateScenario.Equals(LiveKit.Proto.SimulateScenario)
+  - LiveKit.Proto.SimulateScenario.Equals(System.Object)
+  - LiveKit.Proto.SimulateScenario.GetHashCode
+  - LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResume
+  - LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResumeNoMessages
+  - LiveKit.Proto.SimulateScenario.HasLeaveRequestFullReconnect
+  - LiveKit.Proto.SimulateScenario.HasMigration
+  - LiveKit.Proto.SimulateScenario.HasNodeFailure
+  - LiveKit.Proto.SimulateScenario.HasServerLeave
+  - LiveKit.Proto.SimulateScenario.HasSpeakerUpdate
+  - LiveKit.Proto.SimulateScenario.HasSubscriberBandwidth
+  - LiveKit.Proto.SimulateScenario.HasSwitchCandidateProtocol
+  - LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnect
+  - LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnectFieldNumber
+  - LiveKit.Proto.SimulateScenario.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SimulateScenario.MergeFrom(LiveKit.Proto.SimulateScenario)
+  - LiveKit.Proto.SimulateScenario.Migration
+  - LiveKit.Proto.SimulateScenario.MigrationFieldNumber
+  - LiveKit.Proto.SimulateScenario.NodeFailure
+  - LiveKit.Proto.SimulateScenario.NodeFailureFieldNumber
+  - LiveKit.Proto.SimulateScenario.Parser
+  - LiveKit.Proto.SimulateScenario.ScenarioCase
+  - LiveKit.Proto.SimulateScenario.ServerLeave
+  - LiveKit.Proto.SimulateScenario.ServerLeaveFieldNumber
+  - LiveKit.Proto.SimulateScenario.SpeakerUpdate
+  - LiveKit.Proto.SimulateScenario.SpeakerUpdateFieldNumber
+  - LiveKit.Proto.SimulateScenario.SubscriberBandwidth
+  - LiveKit.Proto.SimulateScenario.SubscriberBandwidthFieldNumber
+  - LiveKit.Proto.SimulateScenario.SwitchCandidateProtocol
+  - LiveKit.Proto.SimulateScenario.SwitchCandidateProtocolFieldNumber
+  - LiveKit.Proto.SimulateScenario.ToString
+  - LiveKit.Proto.SimulateScenario.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SimulateScenario
+  nameWithType: SimulateScenario
+  fullName: LiveKit.Proto.SimulateScenario
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SimulateScenario
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13215
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SimulateScenario : IMessage<SimulateScenario>, IEquatable<SimulateScenario>, IDeepCloneable<SimulateScenario>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SimulateScenario Implements IMessage(Of SimulateScenario), IEquatable(Of SimulateScenario), IDeepCloneable(Of SimulateScenario), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}
+  - System.IEquatable{LiveKit.Proto.SimulateScenario}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SimulateScenario.Parser
+  commentId: P:LiveKit.Proto.SimulateScenario.Parser
+  id: Parser
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SimulateScenario.Parser
+  fullName: LiveKit.Proto.SimulateScenario.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13223
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SimulateScenario> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SimulateScenario}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SimulateScenario)
+  overload: LiveKit.Proto.SimulateScenario.Parser*
+- uid: LiveKit.Proto.SimulateScenario.Descriptor
+  commentId: P:LiveKit.Proto.SimulateScenario.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SimulateScenario.Descriptor
+  fullName: LiveKit.Proto.SimulateScenario.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13227
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SimulateScenario.Descriptor*
+- uid: LiveKit.Proto.SimulateScenario.#ctor
+  commentId: M:LiveKit.Proto.SimulateScenario.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: SimulateScenario()
+  nameWithType: SimulateScenario.SimulateScenario()
+  fullName: LiveKit.Proto.SimulateScenario.SimulateScenario()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13239
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SimulateScenario()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SimulateScenario.#ctor*
+  nameWithType.vb: SimulateScenario.New()
+  fullName.vb: LiveKit.Proto.SimulateScenario.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SimulateScenario.#ctor(LiveKit.Proto.SimulateScenario)
+  commentId: M:LiveKit.Proto.SimulateScenario.#ctor(LiveKit.Proto.SimulateScenario)
+  id: '#ctor(LiveKit.Proto.SimulateScenario)'
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: SimulateScenario(SimulateScenario)
+  nameWithType: SimulateScenario.SimulateScenario(SimulateScenario)
+  fullName: LiveKit.Proto.SimulateScenario.SimulateScenario(LiveKit.Proto.SimulateScenario)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13247
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SimulateScenario(SimulateScenario other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulateScenario
+    content.vb: Public Sub New(other As SimulateScenario)
+  overload: LiveKit.Proto.SimulateScenario.#ctor*
+  nameWithType.vb: SimulateScenario.New(SimulateScenario)
+  fullName.vb: LiveKit.Proto.SimulateScenario.New(LiveKit.Proto.SimulateScenario)
+  name.vb: New(SimulateScenario)
+- uid: LiveKit.Proto.SimulateScenario.Clone
+  commentId: M:LiveKit.Proto.SimulateScenario.Clone
+  id: Clone
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SimulateScenario.Clone()
+  fullName: LiveKit.Proto.SimulateScenario.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13283
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SimulateScenario Clone()
+    return:
+      type: LiveKit.Proto.SimulateScenario
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SimulateScenario
+  overload: LiveKit.Proto.SimulateScenario.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}.Clone
+- uid: LiveKit.Proto.SimulateScenario.SpeakerUpdateFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.SpeakerUpdateFieldNumber
+  id: SpeakerUpdateFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: SpeakerUpdateFieldNumber
+  nameWithType: SimulateScenario.SpeakerUpdateFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.SpeakerUpdateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SpeakerUpdateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13290
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "speaker_update" field.
+  example: []
+  syntax:
+    content: public const int SpeakerUpdateFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const SpeakerUpdateFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SimulateScenario.SpeakerUpdate
+  commentId: P:LiveKit.Proto.SimulateScenario.SpeakerUpdate
+  id: SpeakerUpdate
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: SpeakerUpdate
+  nameWithType: SimulateScenario.SpeakerUpdate
+  fullName: LiveKit.Proto.SimulateScenario.SpeakerUpdate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SpeakerUpdate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13294
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: simulate N seconds of speaker activity
+  example: []
+  syntax:
+    content: public int SpeakerUpdate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SpeakerUpdate As Integer
+  overload: LiveKit.Proto.SimulateScenario.SpeakerUpdate*
+- uid: LiveKit.Proto.SimulateScenario.HasSpeakerUpdate
+  commentId: P:LiveKit.Proto.SimulateScenario.HasSpeakerUpdate
+  id: HasSpeakerUpdate
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasSpeakerUpdate
+  nameWithType: SimulateScenario.HasSpeakerUpdate
+  fullName: LiveKit.Proto.SimulateScenario.HasSpeakerUpdate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasSpeakerUpdate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13304
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "speaker_update" field is set
+  example: []
+  syntax:
+    content: public bool HasSpeakerUpdate { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasSpeakerUpdate As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasSpeakerUpdate*
+- uid: LiveKit.Proto.SimulateScenario.ClearSpeakerUpdate
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearSpeakerUpdate
+  id: ClearSpeakerUpdate
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearSpeakerUpdate()
+  nameWithType: SimulateScenario.ClearSpeakerUpdate()
+  fullName: LiveKit.Proto.SimulateScenario.ClearSpeakerUpdate()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearSpeakerUpdate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13310
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "speaker_update"
+  example: []
+  syntax:
+    content: public void ClearSpeakerUpdate()
+    content.vb: Public Sub ClearSpeakerUpdate()
+  overload: LiveKit.Proto.SimulateScenario.ClearSpeakerUpdate*
+- uid: LiveKit.Proto.SimulateScenario.NodeFailureFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.NodeFailureFieldNumber
+  id: NodeFailureFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: NodeFailureFieldNumber
+  nameWithType: SimulateScenario.NodeFailureFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.NodeFailureFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NodeFailureFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13319
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "node_failure" field.
+  example: []
+  syntax:
+    content: public const int NodeFailureFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const NodeFailureFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SimulateScenario.NodeFailure
+  commentId: P:LiveKit.Proto.SimulateScenario.NodeFailure
+  id: NodeFailure
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: NodeFailure
+  nameWithType: SimulateScenario.NodeFailure
+  fullName: LiveKit.Proto.SimulateScenario.NodeFailure
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NodeFailure
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13323
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: simulate local node failure
+  example: []
+  syntax:
+    content: public bool NodeFailure { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NodeFailure As Boolean
+  overload: LiveKit.Proto.SimulateScenario.NodeFailure*
+- uid: LiveKit.Proto.SimulateScenario.HasNodeFailure
+  commentId: P:LiveKit.Proto.SimulateScenario.HasNodeFailure
+  id: HasNodeFailure
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasNodeFailure
+  nameWithType: SimulateScenario.HasNodeFailure
+  fullName: LiveKit.Proto.SimulateScenario.HasNodeFailure
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasNodeFailure
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13333
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "node_failure" field is set
+  example: []
+  syntax:
+    content: public bool HasNodeFailure { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasNodeFailure As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasNodeFailure*
+- uid: LiveKit.Proto.SimulateScenario.ClearNodeFailure
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearNodeFailure
+  id: ClearNodeFailure
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearNodeFailure()
+  nameWithType: SimulateScenario.ClearNodeFailure()
+  fullName: LiveKit.Proto.SimulateScenario.ClearNodeFailure()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearNodeFailure
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13339
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "node_failure"
+  example: []
+  syntax:
+    content: public void ClearNodeFailure()
+    content.vb: Public Sub ClearNodeFailure()
+  overload: LiveKit.Proto.SimulateScenario.ClearNodeFailure*
+- uid: LiveKit.Proto.SimulateScenario.MigrationFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.MigrationFieldNumber
+  id: MigrationFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: MigrationFieldNumber
+  nameWithType: SimulateScenario.MigrationFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.MigrationFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MigrationFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13348
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "migration" field.
+  example: []
+  syntax:
+    content: public const int MigrationFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const MigrationFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SimulateScenario.Migration
+  commentId: P:LiveKit.Proto.SimulateScenario.Migration
+  id: Migration
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: Migration
+  nameWithType: SimulateScenario.Migration
+  fullName: LiveKit.Proto.SimulateScenario.Migration
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Migration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13352
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: simulate migration
+  example: []
+  syntax:
+    content: public bool Migration { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Migration As Boolean
+  overload: LiveKit.Proto.SimulateScenario.Migration*
+- uid: LiveKit.Proto.SimulateScenario.HasMigration
+  commentId: P:LiveKit.Proto.SimulateScenario.HasMigration
+  id: HasMigration
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasMigration
+  nameWithType: SimulateScenario.HasMigration
+  fullName: LiveKit.Proto.SimulateScenario.HasMigration
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasMigration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13362
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "migration" field is set
+  example: []
+  syntax:
+    content: public bool HasMigration { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasMigration As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasMigration*
+- uid: LiveKit.Proto.SimulateScenario.ClearMigration
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearMigration
+  id: ClearMigration
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearMigration()
+  nameWithType: SimulateScenario.ClearMigration()
+  fullName: LiveKit.Proto.SimulateScenario.ClearMigration()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearMigration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13368
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "migration"
+  example: []
+  syntax:
+    content: public void ClearMigration()
+    content.vb: Public Sub ClearMigration()
+  overload: LiveKit.Proto.SimulateScenario.ClearMigration*
+- uid: LiveKit.Proto.SimulateScenario.ServerLeaveFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.ServerLeaveFieldNumber
+  id: ServerLeaveFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ServerLeaveFieldNumber
+  nameWithType: SimulateScenario.ServerLeaveFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.ServerLeaveFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerLeaveFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13377
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "server_leave" field.
+  example: []
+  syntax:
+    content: public const int ServerLeaveFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const ServerLeaveFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SimulateScenario.ServerLeave
+  commentId: P:LiveKit.Proto.SimulateScenario.ServerLeave
+  id: ServerLeave
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ServerLeave
+  nameWithType: SimulateScenario.ServerLeave
+  fullName: LiveKit.Proto.SimulateScenario.ServerLeave
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ServerLeave
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13381
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: server to send leave
+  example: []
+  syntax:
+    content: public bool ServerLeave { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ServerLeave As Boolean
+  overload: LiveKit.Proto.SimulateScenario.ServerLeave*
+- uid: LiveKit.Proto.SimulateScenario.HasServerLeave
+  commentId: P:LiveKit.Proto.SimulateScenario.HasServerLeave
+  id: HasServerLeave
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasServerLeave
+  nameWithType: SimulateScenario.HasServerLeave
+  fullName: LiveKit.Proto.SimulateScenario.HasServerLeave
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasServerLeave
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13391
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "server_leave" field is set
+  example: []
+  syntax:
+    content: public bool HasServerLeave { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasServerLeave As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasServerLeave*
+- uid: LiveKit.Proto.SimulateScenario.ClearServerLeave
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearServerLeave
+  id: ClearServerLeave
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearServerLeave()
+  nameWithType: SimulateScenario.ClearServerLeave()
+  fullName: LiveKit.Proto.SimulateScenario.ClearServerLeave()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearServerLeave
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13397
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "server_leave"
+  example: []
+  syntax:
+    content: public void ClearServerLeave()
+    content.vb: Public Sub ClearServerLeave()
+  overload: LiveKit.Proto.SimulateScenario.ClearServerLeave*
+- uid: LiveKit.Proto.SimulateScenario.SwitchCandidateProtocolFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.SwitchCandidateProtocolFieldNumber
+  id: SwitchCandidateProtocolFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: SwitchCandidateProtocolFieldNumber
+  nameWithType: SimulateScenario.SwitchCandidateProtocolFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.SwitchCandidateProtocolFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SwitchCandidateProtocolFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13406
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "switch_candidate_protocol" field.
+  example: []
+  syntax:
+    content: public const int SwitchCandidateProtocolFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const SwitchCandidateProtocolFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SimulateScenario.SwitchCandidateProtocol
+  commentId: P:LiveKit.Proto.SimulateScenario.SwitchCandidateProtocol
+  id: SwitchCandidateProtocol
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: SwitchCandidateProtocol
+  nameWithType: SimulateScenario.SwitchCandidateProtocol
+  fullName: LiveKit.Proto.SimulateScenario.SwitchCandidateProtocol
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SwitchCandidateProtocol
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13410
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: switch candidate protocol to tcp
+  example: []
+  syntax:
+    content: public CandidateProtocol SwitchCandidateProtocol { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.CandidateProtocol
+    content.vb: Public Property SwitchCandidateProtocol As CandidateProtocol
+  overload: LiveKit.Proto.SimulateScenario.SwitchCandidateProtocol*
+- uid: LiveKit.Proto.SimulateScenario.HasSwitchCandidateProtocol
+  commentId: P:LiveKit.Proto.SimulateScenario.HasSwitchCandidateProtocol
+  id: HasSwitchCandidateProtocol
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasSwitchCandidateProtocol
+  nameWithType: SimulateScenario.HasSwitchCandidateProtocol
+  fullName: LiveKit.Proto.SimulateScenario.HasSwitchCandidateProtocol
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasSwitchCandidateProtocol
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13420
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "switch_candidate_protocol" field is set
+  example: []
+  syntax:
+    content: public bool HasSwitchCandidateProtocol { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasSwitchCandidateProtocol As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasSwitchCandidateProtocol*
+- uid: LiveKit.Proto.SimulateScenario.ClearSwitchCandidateProtocol
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearSwitchCandidateProtocol
+  id: ClearSwitchCandidateProtocol
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearSwitchCandidateProtocol()
+  nameWithType: SimulateScenario.ClearSwitchCandidateProtocol()
+  fullName: LiveKit.Proto.SimulateScenario.ClearSwitchCandidateProtocol()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearSwitchCandidateProtocol
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13426
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "switch_candidate_protocol"
+  example: []
+  syntax:
+    content: public void ClearSwitchCandidateProtocol()
+    content.vb: Public Sub ClearSwitchCandidateProtocol()
+  overload: LiveKit.Proto.SimulateScenario.ClearSwitchCandidateProtocol*
+- uid: LiveKit.Proto.SimulateScenario.SubscriberBandwidthFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.SubscriberBandwidthFieldNumber
+  id: SubscriberBandwidthFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: SubscriberBandwidthFieldNumber
+  nameWithType: SimulateScenario.SubscriberBandwidthFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.SubscriberBandwidthFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriberBandwidthFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13435
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "subscriber_bandwidth" field.
+  example: []
+  syntax:
+    content: public const int SubscriberBandwidthFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const SubscriberBandwidthFieldNumber As Integer = 6
+- uid: LiveKit.Proto.SimulateScenario.SubscriberBandwidth
+  commentId: P:LiveKit.Proto.SimulateScenario.SubscriberBandwidth
+  id: SubscriberBandwidth
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: SubscriberBandwidth
+  nameWithType: SimulateScenario.SubscriberBandwidth
+  fullName: LiveKit.Proto.SimulateScenario.SubscriberBandwidth
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscriberBandwidth
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13440
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: >-
+    maximum bandwidth for subscribers, in bps
+
+    when zero, clears artificial bandwidth limit
+  example: []
+  syntax:
+    content: public long SubscriberBandwidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SubscriberBandwidth As Long
+  overload: LiveKit.Proto.SimulateScenario.SubscriberBandwidth*
+- uid: LiveKit.Proto.SimulateScenario.HasSubscriberBandwidth
+  commentId: P:LiveKit.Proto.SimulateScenario.HasSubscriberBandwidth
+  id: HasSubscriberBandwidth
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasSubscriberBandwidth
+  nameWithType: SimulateScenario.HasSubscriberBandwidth
+  fullName: LiveKit.Proto.SimulateScenario.HasSubscriberBandwidth
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasSubscriberBandwidth
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13450
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "subscriber_bandwidth" field is set
+  example: []
+  syntax:
+    content: public bool HasSubscriberBandwidth { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasSubscriberBandwidth As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasSubscriberBandwidth*
+- uid: LiveKit.Proto.SimulateScenario.ClearSubscriberBandwidth
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearSubscriberBandwidth
+  id: ClearSubscriberBandwidth
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearSubscriberBandwidth()
+  nameWithType: SimulateScenario.ClearSubscriberBandwidth()
+  fullName: LiveKit.Proto.SimulateScenario.ClearSubscriberBandwidth()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearSubscriberBandwidth
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13456
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "subscriber_bandwidth"
+  example: []
+  syntax:
+    content: public void ClearSubscriberBandwidth()
+    content.vb: Public Sub ClearSubscriberBandwidth()
+  overload: LiveKit.Proto.SimulateScenario.ClearSubscriberBandwidth*
+- uid: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeFieldNumber
+  id: DisconnectSignalOnResumeFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: DisconnectSignalOnResumeFieldNumber
+  nameWithType: SimulateScenario.DisconnectSignalOnResumeFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectSignalOnResumeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13465
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "disconnect_signal_on_resume" field.
+  example: []
+  syntax:
+    content: public const int DisconnectSignalOnResumeFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const DisconnectSignalOnResumeFieldNumber As Integer = 7
+- uid: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResume
+  commentId: P:LiveKit.Proto.SimulateScenario.DisconnectSignalOnResume
+  id: DisconnectSignalOnResume
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: DisconnectSignalOnResume
+  nameWithType: SimulateScenario.DisconnectSignalOnResume
+  fullName: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResume
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectSignalOnResume
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13469
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: disconnect signal on resume
+  example: []
+  syntax:
+    content: public bool DisconnectSignalOnResume { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DisconnectSignalOnResume As Boolean
+  overload: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResume*
+- uid: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResume
+  commentId: P:LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResume
+  id: HasDisconnectSignalOnResume
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasDisconnectSignalOnResume
+  nameWithType: SimulateScenario.HasDisconnectSignalOnResume
+  fullName: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResume
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasDisconnectSignalOnResume
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13479
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "disconnect_signal_on_resume" field is set
+  example: []
+  syntax:
+    content: public bool HasDisconnectSignalOnResume { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasDisconnectSignalOnResume As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResume*
+- uid: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResume
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResume
+  id: ClearDisconnectSignalOnResume
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearDisconnectSignalOnResume()
+  nameWithType: SimulateScenario.ClearDisconnectSignalOnResume()
+  fullName: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResume()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearDisconnectSignalOnResume
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13485
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "disconnect_signal_on_resume"
+  example: []
+  syntax:
+    content: public void ClearDisconnectSignalOnResume()
+    content.vb: Public Sub ClearDisconnectSignalOnResume()
+  overload: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResume*
+- uid: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessagesFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessagesFieldNumber
+  id: DisconnectSignalOnResumeNoMessagesFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: DisconnectSignalOnResumeNoMessagesFieldNumber
+  nameWithType: SimulateScenario.DisconnectSignalOnResumeNoMessagesFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessagesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectSignalOnResumeNoMessagesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13494
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "disconnect_signal_on_resume_no_messages" field.
+  example: []
+  syntax:
+    content: public const int DisconnectSignalOnResumeNoMessagesFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const DisconnectSignalOnResumeNoMessagesFieldNumber As Integer = 8
+- uid: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessages
+  commentId: P:LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessages
+  id: DisconnectSignalOnResumeNoMessages
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: DisconnectSignalOnResumeNoMessages
+  nameWithType: SimulateScenario.DisconnectSignalOnResumeNoMessages
+  fullName: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessages
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DisconnectSignalOnResumeNoMessages
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13498
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: disconnect signal on resume before sending any messages from server
+  example: []
+  syntax:
+    content: public bool DisconnectSignalOnResumeNoMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DisconnectSignalOnResumeNoMessages As Boolean
+  overload: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessages*
+- uid: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResumeNoMessages
+  commentId: P:LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResumeNoMessages
+  id: HasDisconnectSignalOnResumeNoMessages
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasDisconnectSignalOnResumeNoMessages
+  nameWithType: SimulateScenario.HasDisconnectSignalOnResumeNoMessages
+  fullName: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResumeNoMessages
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasDisconnectSignalOnResumeNoMessages
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13508
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "disconnect_signal_on_resume_no_messages" field is set
+  example: []
+  syntax:
+    content: public bool HasDisconnectSignalOnResumeNoMessages { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasDisconnectSignalOnResumeNoMessages As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResumeNoMessages*
+- uid: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResumeNoMessages
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResumeNoMessages
+  id: ClearDisconnectSignalOnResumeNoMessages
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearDisconnectSignalOnResumeNoMessages()
+  nameWithType: SimulateScenario.ClearDisconnectSignalOnResumeNoMessages()
+  fullName: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResumeNoMessages()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearDisconnectSignalOnResumeNoMessages
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13514
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "disconnect_signal_on_resume_no_messages"
+  example: []
+  syntax:
+    content: public void ClearDisconnectSignalOnResumeNoMessages()
+    content.vb: Public Sub ClearDisconnectSignalOnResumeNoMessages()
+  overload: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResumeNoMessages*
+- uid: LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnectFieldNumber
+  commentId: F:LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnectFieldNumber
+  id: LeaveRequestFullReconnectFieldNumber
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: LeaveRequestFullReconnectFieldNumber
+  nameWithType: SimulateScenario.LeaveRequestFullReconnectFieldNumber
+  fullName: LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnectFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LeaveRequestFullReconnectFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13523
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "leave_request_full_reconnect" field.
+  example: []
+  syntax:
+    content: public const int LeaveRequestFullReconnectFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const LeaveRequestFullReconnectFieldNumber As Integer = 9
+- uid: LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnect
+  commentId: P:LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnect
+  id: LeaveRequestFullReconnect
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: LeaveRequestFullReconnect
+  nameWithType: SimulateScenario.LeaveRequestFullReconnect
+  fullName: LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnect
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LeaveRequestFullReconnect
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13527
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: full reconnect leave request
+  example: []
+  syntax:
+    content: public bool LeaveRequestFullReconnect { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LeaveRequestFullReconnect As Boolean
+  overload: LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnect*
+- uid: LiveKit.Proto.SimulateScenario.HasLeaveRequestFullReconnect
+  commentId: P:LiveKit.Proto.SimulateScenario.HasLeaveRequestFullReconnect
+  id: HasLeaveRequestFullReconnect
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: HasLeaveRequestFullReconnect
+  nameWithType: SimulateScenario.HasLeaveRequestFullReconnect
+  fullName: LiveKit.Proto.SimulateScenario.HasLeaveRequestFullReconnect
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasLeaveRequestFullReconnect
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13537
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "leave_request_full_reconnect" field is set
+  example: []
+  syntax:
+    content: public bool HasLeaveRequestFullReconnect { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasLeaveRequestFullReconnect As Boolean
+  overload: LiveKit.Proto.SimulateScenario.HasLeaveRequestFullReconnect*
+- uid: LiveKit.Proto.SimulateScenario.ClearLeaveRequestFullReconnect
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearLeaveRequestFullReconnect
+  id: ClearLeaveRequestFullReconnect
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearLeaveRequestFullReconnect()
+  nameWithType: SimulateScenario.ClearLeaveRequestFullReconnect()
+  fullName: LiveKit.Proto.SimulateScenario.ClearLeaveRequestFullReconnect()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearLeaveRequestFullReconnect
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13543
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "leave_request_full_reconnect"
+  example: []
+  syntax:
+    content: public void ClearLeaveRequestFullReconnect()
+    content.vb: Public Sub ClearLeaveRequestFullReconnect()
+  overload: LiveKit.Proto.SimulateScenario.ClearLeaveRequestFullReconnect*
+- uid: LiveKit.Proto.SimulateScenario.ScenarioCase
+  commentId: P:LiveKit.Proto.SimulateScenario.ScenarioCase
+  id: ScenarioCase
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ScenarioCase
+  nameWithType: SimulateScenario.ScenarioCase
+  fullName: LiveKit.Proto.SimulateScenario.ScenarioCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ScenarioCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13566
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SimulateScenario.ScenarioOneofCase ScenarioCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SimulateScenario.ScenarioOneofCase
+    content.vb: Public ReadOnly Property ScenarioCase As SimulateScenario.ScenarioOneofCase
+  overload: LiveKit.Proto.SimulateScenario.ScenarioCase*
+- uid: LiveKit.Proto.SimulateScenario.ClearScenario
+  commentId: M:LiveKit.Proto.SimulateScenario.ClearScenario
+  id: ClearScenario
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ClearScenario()
+  nameWithType: SimulateScenario.ClearScenario()
+  fullName: LiveKit.Proto.SimulateScenario.ClearScenario()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearScenario
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13572
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearScenario()
+    content.vb: Public Sub ClearScenario()
+  overload: LiveKit.Proto.SimulateScenario.ClearScenario*
+- uid: LiveKit.Proto.SimulateScenario.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SimulateScenario.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SimulateScenario.Equals(object)
+  fullName: LiveKit.Proto.SimulateScenario.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13579
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SimulateScenario.Equals*
+  nameWithType.vb: SimulateScenario.Equals(Object)
+  fullName.vb: LiveKit.Proto.SimulateScenario.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SimulateScenario.Equals(LiveKit.Proto.SimulateScenario)
+  commentId: M:LiveKit.Proto.SimulateScenario.Equals(LiveKit.Proto.SimulateScenario)
+  id: Equals(LiveKit.Proto.SimulateScenario)
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: Equals(SimulateScenario)
+  nameWithType: SimulateScenario.Equals(SimulateScenario)
+  fullName: LiveKit.Proto.SimulateScenario.Equals(LiveKit.Proto.SimulateScenario)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13585
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SimulateScenario other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulateScenario
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SimulateScenario) As Boolean
+  overload: LiveKit.Proto.SimulateScenario.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SimulateScenario}.Equals(LiveKit.Proto.SimulateScenario)
+- uid: LiveKit.Proto.SimulateScenario.GetHashCode
+  commentId: M:LiveKit.Proto.SimulateScenario.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SimulateScenario.GetHashCode()
+  fullName: LiveKit.Proto.SimulateScenario.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13607
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SimulateScenario.GetHashCode*
+- uid: LiveKit.Proto.SimulateScenario.ToString
+  commentId: M:LiveKit.Proto.SimulateScenario.ToString
+  id: ToString
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SimulateScenario.ToString()
+  fullName: LiveKit.Proto.SimulateScenario.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13627
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SimulateScenario.ToString*
+- uid: LiveKit.Proto.SimulateScenario.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SimulateScenario.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SimulateScenario.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SimulateScenario.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13633
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SimulateScenario.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SimulateScenario.CalculateSize
+  commentId: M:LiveKit.Proto.SimulateScenario.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SimulateScenario.CalculateSize()
+  fullName: LiveKit.Proto.SimulateScenario.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13727
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SimulateScenario.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SimulateScenario.MergeFrom(LiveKit.Proto.SimulateScenario)
+  commentId: M:LiveKit.Proto.SimulateScenario.MergeFrom(LiveKit.Proto.SimulateScenario)
+  id: MergeFrom(LiveKit.Proto.SimulateScenario)
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SimulateScenario)
+  nameWithType: SimulateScenario.MergeFrom(SimulateScenario)
+  fullName: LiveKit.Proto.SimulateScenario.MergeFrom(LiveKit.Proto.SimulateScenario)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13764
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SimulateScenario other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SimulateScenario
+    content.vb: Public Sub MergeFrom(other As SimulateScenario)
+  overload: LiveKit.Proto.SimulateScenario.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}.MergeFrom(LiveKit.Proto.SimulateScenario)
+- uid: LiveKit.Proto.SimulateScenario.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SimulateScenario.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SimulateScenario
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SimulateScenario.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SimulateScenario.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 13803
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SimulateScenario.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SimulateScenario.html
+  name: IMessage<SimulateScenario>
+  nameWithType: IMessage<SimulateScenario>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SimulateScenario>
+  nameWithType.vb: IMessage(Of SimulateScenario)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SimulateScenario)
+  name.vb: IMessage(Of SimulateScenario)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SimulateScenario}
+  commentId: T:System.IEquatable{LiveKit.Proto.SimulateScenario}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SimulateScenario>
+  nameWithType: IEquatable<SimulateScenario>
+  fullName: System.IEquatable<LiveKit.Proto.SimulateScenario>
+  nameWithType.vb: IEquatable(Of SimulateScenario)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SimulateScenario)
+  name.vb: IEquatable(Of SimulateScenario)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SimulateScenario.html
+  name: IDeepCloneable<SimulateScenario>
+  nameWithType: IDeepCloneable<SimulateScenario>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SimulateScenario>
+  nameWithType.vb: IDeepCloneable(Of SimulateScenario)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SimulateScenario)
+  name.vb: IDeepCloneable(Of SimulateScenario)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SimulateScenario.Parser*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.Parser
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_Parser
+  name: Parser
+  nameWithType: SimulateScenario.Parser
+  fullName: LiveKit.Proto.SimulateScenario.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SimulateScenario}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SimulateScenario}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SimulateScenario.html
+  name: MessageParser<SimulateScenario>
+  nameWithType: MessageParser<SimulateScenario>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SimulateScenario>
+  nameWithType.vb: MessageParser(Of SimulateScenario)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SimulateScenario)
+  name.vb: MessageParser(Of SimulateScenario)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SimulateScenario.Descriptor*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.Descriptor
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_Descriptor
+  name: Descriptor
+  nameWithType: SimulateScenario.Descriptor
+  fullName: LiveKit.Proto.SimulateScenario.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SimulateScenario.#ctor*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.#ctor
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario__ctor
+  name: SimulateScenario
+  nameWithType: SimulateScenario.SimulateScenario
+  fullName: LiveKit.Proto.SimulateScenario.SimulateScenario
+  nameWithType.vb: SimulateScenario.New
+  fullName.vb: LiveKit.Proto.SimulateScenario.New
+  name.vb: New
+- uid: LiveKit.Proto.SimulateScenario
+  commentId: T:LiveKit.Proto.SimulateScenario
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SimulateScenario.html
+  name: SimulateScenario
+  nameWithType: SimulateScenario
+  fullName: LiveKit.Proto.SimulateScenario
+- uid: LiveKit.Proto.SimulateScenario.Clone*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.Clone
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_Clone
+  name: Clone
+  nameWithType: SimulateScenario.Clone
+  fullName: LiveKit.Proto.SimulateScenario.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SimulateScenario>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SimulateScenario>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SimulateScenario).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SimulateScenario).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SimulateScenario}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SimulateScenario.SpeakerUpdate*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.SpeakerUpdate
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_SpeakerUpdate
+  name: SpeakerUpdate
+  nameWithType: SimulateScenario.SpeakerUpdate
+  fullName: LiveKit.Proto.SimulateScenario.SpeakerUpdate
+- uid: LiveKit.Proto.SimulateScenario.HasSpeakerUpdate*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasSpeakerUpdate
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasSpeakerUpdate
+  name: HasSpeakerUpdate
+  nameWithType: SimulateScenario.HasSpeakerUpdate
+  fullName: LiveKit.Proto.SimulateScenario.HasSpeakerUpdate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.SimulateScenario.ClearSpeakerUpdate*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearSpeakerUpdate
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearSpeakerUpdate
+  name: ClearSpeakerUpdate
+  nameWithType: SimulateScenario.ClearSpeakerUpdate
+  fullName: LiveKit.Proto.SimulateScenario.ClearSpeakerUpdate
+- uid: LiveKit.Proto.SimulateScenario.NodeFailure*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.NodeFailure
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_NodeFailure
+  name: NodeFailure
+  nameWithType: SimulateScenario.NodeFailure
+  fullName: LiveKit.Proto.SimulateScenario.NodeFailure
+- uid: LiveKit.Proto.SimulateScenario.HasNodeFailure*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasNodeFailure
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasNodeFailure
+  name: HasNodeFailure
+  nameWithType: SimulateScenario.HasNodeFailure
+  fullName: LiveKit.Proto.SimulateScenario.HasNodeFailure
+- uid: LiveKit.Proto.SimulateScenario.ClearNodeFailure*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearNodeFailure
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearNodeFailure
+  name: ClearNodeFailure
+  nameWithType: SimulateScenario.ClearNodeFailure
+  fullName: LiveKit.Proto.SimulateScenario.ClearNodeFailure
+- uid: LiveKit.Proto.SimulateScenario.Migration*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.Migration
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_Migration
+  name: Migration
+  nameWithType: SimulateScenario.Migration
+  fullName: LiveKit.Proto.SimulateScenario.Migration
+- uid: LiveKit.Proto.SimulateScenario.HasMigration*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasMigration
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasMigration
+  name: HasMigration
+  nameWithType: SimulateScenario.HasMigration
+  fullName: LiveKit.Proto.SimulateScenario.HasMigration
+- uid: LiveKit.Proto.SimulateScenario.ClearMigration*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearMigration
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearMigration
+  name: ClearMigration
+  nameWithType: SimulateScenario.ClearMigration
+  fullName: LiveKit.Proto.SimulateScenario.ClearMigration
+- uid: LiveKit.Proto.SimulateScenario.ServerLeave*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ServerLeave
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ServerLeave
+  name: ServerLeave
+  nameWithType: SimulateScenario.ServerLeave
+  fullName: LiveKit.Proto.SimulateScenario.ServerLeave
+- uid: LiveKit.Proto.SimulateScenario.HasServerLeave*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasServerLeave
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasServerLeave
+  name: HasServerLeave
+  nameWithType: SimulateScenario.HasServerLeave
+  fullName: LiveKit.Proto.SimulateScenario.HasServerLeave
+- uid: LiveKit.Proto.SimulateScenario.ClearServerLeave*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearServerLeave
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearServerLeave
+  name: ClearServerLeave
+  nameWithType: SimulateScenario.ClearServerLeave
+  fullName: LiveKit.Proto.SimulateScenario.ClearServerLeave
+- uid: LiveKit.Proto.SimulateScenario.SwitchCandidateProtocol*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.SwitchCandidateProtocol
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_SwitchCandidateProtocol
+  name: SwitchCandidateProtocol
+  nameWithType: SimulateScenario.SwitchCandidateProtocol
+  fullName: LiveKit.Proto.SimulateScenario.SwitchCandidateProtocol
+- uid: LiveKit.Proto.CandidateProtocol
+  commentId: T:LiveKit.Proto.CandidateProtocol
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CandidateProtocol.html
+  name: CandidateProtocol
+  nameWithType: CandidateProtocol
+  fullName: LiveKit.Proto.CandidateProtocol
+- uid: LiveKit.Proto.SimulateScenario.HasSwitchCandidateProtocol*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasSwitchCandidateProtocol
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasSwitchCandidateProtocol
+  name: HasSwitchCandidateProtocol
+  nameWithType: SimulateScenario.HasSwitchCandidateProtocol
+  fullName: LiveKit.Proto.SimulateScenario.HasSwitchCandidateProtocol
+- uid: LiveKit.Proto.SimulateScenario.ClearSwitchCandidateProtocol*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearSwitchCandidateProtocol
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearSwitchCandidateProtocol
+  name: ClearSwitchCandidateProtocol
+  nameWithType: SimulateScenario.ClearSwitchCandidateProtocol
+  fullName: LiveKit.Proto.SimulateScenario.ClearSwitchCandidateProtocol
+- uid: LiveKit.Proto.SimulateScenario.SubscriberBandwidth*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.SubscriberBandwidth
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_SubscriberBandwidth
+  name: SubscriberBandwidth
+  nameWithType: SimulateScenario.SubscriberBandwidth
+  fullName: LiveKit.Proto.SimulateScenario.SubscriberBandwidth
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.SimulateScenario.HasSubscriberBandwidth*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasSubscriberBandwidth
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasSubscriberBandwidth
+  name: HasSubscriberBandwidth
+  nameWithType: SimulateScenario.HasSubscriberBandwidth
+  fullName: LiveKit.Proto.SimulateScenario.HasSubscriberBandwidth
+- uid: LiveKit.Proto.SimulateScenario.ClearSubscriberBandwidth*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearSubscriberBandwidth
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearSubscriberBandwidth
+  name: ClearSubscriberBandwidth
+  nameWithType: SimulateScenario.ClearSubscriberBandwidth
+  fullName: LiveKit.Proto.SimulateScenario.ClearSubscriberBandwidth
+- uid: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResume*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.DisconnectSignalOnResume
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_DisconnectSignalOnResume
+  name: DisconnectSignalOnResume
+  nameWithType: SimulateScenario.DisconnectSignalOnResume
+  fullName: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResume
+- uid: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResume*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResume
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasDisconnectSignalOnResume
+  name: HasDisconnectSignalOnResume
+  nameWithType: SimulateScenario.HasDisconnectSignalOnResume
+  fullName: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResume
+- uid: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResume*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResume
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearDisconnectSignalOnResume
+  name: ClearDisconnectSignalOnResume
+  nameWithType: SimulateScenario.ClearDisconnectSignalOnResume
+  fullName: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResume
+- uid: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessages*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessages
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_DisconnectSignalOnResumeNoMessages
+  name: DisconnectSignalOnResumeNoMessages
+  nameWithType: SimulateScenario.DisconnectSignalOnResumeNoMessages
+  fullName: LiveKit.Proto.SimulateScenario.DisconnectSignalOnResumeNoMessages
+- uid: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResumeNoMessages*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResumeNoMessages
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasDisconnectSignalOnResumeNoMessages
+  name: HasDisconnectSignalOnResumeNoMessages
+  nameWithType: SimulateScenario.HasDisconnectSignalOnResumeNoMessages
+  fullName: LiveKit.Proto.SimulateScenario.HasDisconnectSignalOnResumeNoMessages
+- uid: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResumeNoMessages*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResumeNoMessages
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearDisconnectSignalOnResumeNoMessages
+  name: ClearDisconnectSignalOnResumeNoMessages
+  nameWithType: SimulateScenario.ClearDisconnectSignalOnResumeNoMessages
+  fullName: LiveKit.Proto.SimulateScenario.ClearDisconnectSignalOnResumeNoMessages
+- uid: LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnect*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnect
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_LeaveRequestFullReconnect
+  name: LeaveRequestFullReconnect
+  nameWithType: SimulateScenario.LeaveRequestFullReconnect
+  fullName: LiveKit.Proto.SimulateScenario.LeaveRequestFullReconnect
+- uid: LiveKit.Proto.SimulateScenario.HasLeaveRequestFullReconnect*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.HasLeaveRequestFullReconnect
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_HasLeaveRequestFullReconnect
+  name: HasLeaveRequestFullReconnect
+  nameWithType: SimulateScenario.HasLeaveRequestFullReconnect
+  fullName: LiveKit.Proto.SimulateScenario.HasLeaveRequestFullReconnect
+- uid: LiveKit.Proto.SimulateScenario.ClearLeaveRequestFullReconnect*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearLeaveRequestFullReconnect
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearLeaveRequestFullReconnect
+  name: ClearLeaveRequestFullReconnect
+  nameWithType: SimulateScenario.ClearLeaveRequestFullReconnect
+  fullName: LiveKit.Proto.SimulateScenario.ClearLeaveRequestFullReconnect
+- uid: LiveKit.Proto.SimulateScenario.ScenarioCase*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ScenarioCase
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ScenarioCase
+  name: ScenarioCase
+  nameWithType: SimulateScenario.ScenarioCase
+  fullName: LiveKit.Proto.SimulateScenario.ScenarioCase
+- uid: LiveKit.Proto.SimulateScenario.ScenarioOneofCase
+  commentId: T:LiveKit.Proto.SimulateScenario.ScenarioOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SimulateScenario.html
+  name: SimulateScenario.ScenarioOneofCase
+  nameWithType: SimulateScenario.ScenarioOneofCase
+  fullName: LiveKit.Proto.SimulateScenario.ScenarioOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: .
+  - uid: LiveKit.Proto.SimulateScenario.ScenarioOneofCase
+    name: ScenarioOneofCase
+    href: LiveKit.Proto.SimulateScenario.ScenarioOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: .
+  - uid: LiveKit.Proto.SimulateScenario.ScenarioOneofCase
+    name: ScenarioOneofCase
+    href: LiveKit.Proto.SimulateScenario.ScenarioOneofCase.html
+- uid: LiveKit.Proto.SimulateScenario.ClearScenario*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ClearScenario
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ClearScenario
+  name: ClearScenario
+  nameWithType: SimulateScenario.ClearScenario
+  fullName: LiveKit.Proto.SimulateScenario.ClearScenario
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SimulateScenario.Equals*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.Equals
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_Equals_System_Object_
+  name: Equals
+  nameWithType: SimulateScenario.Equals
+  fullName: LiveKit.Proto.SimulateScenario.Equals
+- uid: System.IEquatable{LiveKit.Proto.SimulateScenario}.Equals(LiveKit.Proto.SimulateScenario)
+  commentId: M:System.IEquatable{LiveKit.Proto.SimulateScenario}.Equals(LiveKit.Proto.SimulateScenario)
+  parent: System.IEquatable{LiveKit.Proto.SimulateScenario}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SimulateScenario)
+  nameWithType: IEquatable<SimulateScenario>.Equals(SimulateScenario)
+  fullName: System.IEquatable<LiveKit.Proto.SimulateScenario>.Equals(LiveKit.Proto.SimulateScenario)
+  nameWithType.vb: IEquatable(Of SimulateScenario).Equals(SimulateScenario)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SimulateScenario).Equals(LiveKit.Proto.SimulateScenario)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SimulateScenario}.Equals(LiveKit.Proto.SimulateScenario)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SimulateScenario}.Equals(LiveKit.Proto.SimulateScenario)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulateScenario.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.GetHashCode
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_GetHashCode
+  name: GetHashCode
+  nameWithType: SimulateScenario.GetHashCode
+  fullName: LiveKit.Proto.SimulateScenario.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulateScenario.ToString*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.ToString
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_ToString
+  name: ToString
+  nameWithType: SimulateScenario.ToString
+  fullName: LiveKit.Proto.SimulateScenario.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SimulateScenario.WriteTo*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.WriteTo
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SimulateScenario.WriteTo
+  fullName: LiveKit.Proto.SimulateScenario.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SimulateScenario.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.CalculateSize
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_CalculateSize
+  name: CalculateSize
+  nameWithType: SimulateScenario.CalculateSize
+  fullName: LiveKit.Proto.SimulateScenario.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SimulateScenario.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SimulateScenario.MergeFrom
+  href: LiveKit.Proto.SimulateScenario.html#LiveKit_Proto_SimulateScenario_MergeFrom_LiveKit_Proto_SimulateScenario_
+  name: MergeFrom
+  nameWithType: SimulateScenario.MergeFrom
+  fullName: LiveKit.Proto.SimulateScenario.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}.MergeFrom(LiveKit.Proto.SimulateScenario)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}.MergeFrom(LiveKit.Proto.SimulateScenario)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SimulateScenario.html
+  name: MergeFrom(SimulateScenario)
+  nameWithType: IMessage<SimulateScenario>.MergeFrom(SimulateScenario)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SimulateScenario>.MergeFrom(LiveKit.Proto.SimulateScenario)
+  nameWithType.vb: IMessage(Of SimulateScenario).MergeFrom(SimulateScenario)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SimulateScenario).MergeFrom(LiveKit.Proto.SimulateScenario)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}.MergeFrom(LiveKit.Proto.SimulateScenario)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SimulateScenario}.MergeFrom(LiveKit.Proto.SimulateScenario)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SimulateScenario
+    name: SimulateScenario
+    href: LiveKit.Proto.SimulateScenario.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

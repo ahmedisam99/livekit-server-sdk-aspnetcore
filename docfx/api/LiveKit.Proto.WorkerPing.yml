@@ -1,0 +1,1420 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.WorkerPing
+  commentId: T:LiveKit.Proto.WorkerPing
+  id: WorkerPing
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.WorkerPing.#ctor
+  - LiveKit.Proto.WorkerPing.#ctor(LiveKit.Proto.WorkerPing)
+  - LiveKit.Proto.WorkerPing.CalculateSize
+  - LiveKit.Proto.WorkerPing.Clone
+  - LiveKit.Proto.WorkerPing.Descriptor
+  - LiveKit.Proto.WorkerPing.Equals(LiveKit.Proto.WorkerPing)
+  - LiveKit.Proto.WorkerPing.Equals(System.Object)
+  - LiveKit.Proto.WorkerPing.GetHashCode
+  - LiveKit.Proto.WorkerPing.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.WorkerPing.MergeFrom(LiveKit.Proto.WorkerPing)
+  - LiveKit.Proto.WorkerPing.Parser
+  - LiveKit.Proto.WorkerPing.Timestamp
+  - LiveKit.Proto.WorkerPing.TimestampFieldNumber
+  - LiveKit.Proto.WorkerPing.ToString
+  - LiveKit.Proto.WorkerPing.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: WorkerPing
+  nameWithType: WorkerPing
+  fullName: LiveKit.Proto.WorkerPing
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WorkerPing
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2475
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class WorkerPing : IMessage<WorkerPing>, IEquatable<WorkerPing>, IDeepCloneable<WorkerPing>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class WorkerPing Implements IMessage(Of WorkerPing), IEquatable(Of WorkerPing), IDeepCloneable(Of WorkerPing), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}
+  - System.IEquatable{LiveKit.Proto.WorkerPing}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.WorkerPing.Parser
+  commentId: P:LiveKit.Proto.WorkerPing.Parser
+  id: Parser
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: WorkerPing.Parser
+  fullName: LiveKit.Proto.WorkerPing.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2483
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<WorkerPing> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.WorkerPing}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of WorkerPing)
+  overload: LiveKit.Proto.WorkerPing.Parser*
+- uid: LiveKit.Proto.WorkerPing.Descriptor
+  commentId: P:LiveKit.Proto.WorkerPing.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: WorkerPing.Descriptor
+  fullName: LiveKit.Proto.WorkerPing.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2487
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.WorkerPing.Descriptor*
+- uid: LiveKit.Proto.WorkerPing.#ctor
+  commentId: M:LiveKit.Proto.WorkerPing.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: WorkerPing()
+  nameWithType: WorkerPing.WorkerPing()
+  fullName: LiveKit.Proto.WorkerPing.WorkerPing()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2499
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WorkerPing()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.WorkerPing.#ctor*
+  nameWithType.vb: WorkerPing.New()
+  fullName.vb: LiveKit.Proto.WorkerPing.New()
+  name.vb: New()
+- uid: LiveKit.Proto.WorkerPing.#ctor(LiveKit.Proto.WorkerPing)
+  commentId: M:LiveKit.Proto.WorkerPing.#ctor(LiveKit.Proto.WorkerPing)
+  id: '#ctor(LiveKit.Proto.WorkerPing)'
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: WorkerPing(WorkerPing)
+  nameWithType: WorkerPing.WorkerPing(WorkerPing)
+  fullName: LiveKit.Proto.WorkerPing.WorkerPing(LiveKit.Proto.WorkerPing)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2507
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WorkerPing(WorkerPing other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WorkerPing
+    content.vb: Public Sub New(other As WorkerPing)
+  overload: LiveKit.Proto.WorkerPing.#ctor*
+  nameWithType.vb: WorkerPing.New(WorkerPing)
+  fullName.vb: LiveKit.Proto.WorkerPing.New(LiveKit.Proto.WorkerPing)
+  name.vb: New(WorkerPing)
+- uid: LiveKit.Proto.WorkerPing.Clone
+  commentId: M:LiveKit.Proto.WorkerPing.Clone
+  id: Clone
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: WorkerPing.Clone()
+  fullName: LiveKit.Proto.WorkerPing.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2514
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public WorkerPing Clone()
+    return:
+      type: LiveKit.Proto.WorkerPing
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As WorkerPing
+  overload: LiveKit.Proto.WorkerPing.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}.Clone
+- uid: LiveKit.Proto.WorkerPing.TimestampFieldNumber
+  commentId: F:LiveKit.Proto.WorkerPing.TimestampFieldNumber
+  id: TimestampFieldNumber
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: TimestampFieldNumber
+  nameWithType: WorkerPing.TimestampFieldNumber
+  fullName: LiveKit.Proto.WorkerPing.TimestampFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TimestampFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2521
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "timestamp" field.
+  example: []
+  syntax:
+    content: public const int TimestampFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const TimestampFieldNumber As Integer = 1
+- uid: LiveKit.Proto.WorkerPing.Timestamp
+  commentId: P:LiveKit.Proto.WorkerPing.Timestamp
+  id: Timestamp
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: WorkerPing.Timestamp
+  fullName: LiveKit.Proto.WorkerPing.Timestamp
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Timestamp
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2523
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Timestamp As Long
+  overload: LiveKit.Proto.WorkerPing.Timestamp*
+- uid: LiveKit.Proto.WorkerPing.Equals(System.Object)
+  commentId: M:LiveKit.Proto.WorkerPing.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: WorkerPing.Equals(object)
+  fullName: LiveKit.Proto.WorkerPing.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2532
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.WorkerPing.Equals*
+  nameWithType.vb: WorkerPing.Equals(Object)
+  fullName.vb: LiveKit.Proto.WorkerPing.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.WorkerPing.Equals(LiveKit.Proto.WorkerPing)
+  commentId: M:LiveKit.Proto.WorkerPing.Equals(LiveKit.Proto.WorkerPing)
+  id: Equals(LiveKit.Proto.WorkerPing)
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: Equals(WorkerPing)
+  nameWithType: WorkerPing.Equals(WorkerPing)
+  fullName: LiveKit.Proto.WorkerPing.Equals(LiveKit.Proto.WorkerPing)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2538
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(WorkerPing other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WorkerPing
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As WorkerPing) As Boolean
+  overload: LiveKit.Proto.WorkerPing.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.WorkerPing}.Equals(LiveKit.Proto.WorkerPing)
+- uid: LiveKit.Proto.WorkerPing.GetHashCode
+  commentId: M:LiveKit.Proto.WorkerPing.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: WorkerPing.GetHashCode()
+  fullName: LiveKit.Proto.WorkerPing.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2551
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.WorkerPing.GetHashCode*
+- uid: LiveKit.Proto.WorkerPing.ToString
+  commentId: M:LiveKit.Proto.WorkerPing.ToString
+  id: ToString
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WorkerPing.ToString()
+  fullName: LiveKit.Proto.WorkerPing.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2562
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.WorkerPing.ToString*
+- uid: LiveKit.Proto.WorkerPing.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.WorkerPing.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: WorkerPing.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.WorkerPing.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2568
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.WorkerPing.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.WorkerPing.CalculateSize
+  commentId: M:LiveKit.Proto.WorkerPing.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: WorkerPing.CalculateSize()
+  fullName: LiveKit.Proto.WorkerPing.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2598
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.WorkerPing.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.WorkerPing.MergeFrom(LiveKit.Proto.WorkerPing)
+  commentId: M:LiveKit.Proto.WorkerPing.MergeFrom(LiveKit.Proto.WorkerPing)
+  id: MergeFrom(LiveKit.Proto.WorkerPing)
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(WorkerPing)
+  nameWithType: WorkerPing.MergeFrom(WorkerPing)
+  fullName: LiveKit.Proto.WorkerPing.MergeFrom(LiveKit.Proto.WorkerPing)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2611
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(WorkerPing other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WorkerPing
+    content.vb: Public Sub MergeFrom(other As WorkerPing)
+  overload: LiveKit.Proto.WorkerPing.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}.MergeFrom(LiveKit.Proto.WorkerPing)
+- uid: LiveKit.Proto.WorkerPing.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.WorkerPing.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.WorkerPing
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: WorkerPing.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.WorkerPing.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAgent.cs
+    startLine: 2623
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.WorkerPing.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.WorkerPing.html
+  name: IMessage<WorkerPing>
+  nameWithType: IMessage<WorkerPing>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.WorkerPing>
+  nameWithType.vb: IMessage(Of WorkerPing)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.WorkerPing)
+  name.vb: IMessage(Of WorkerPing)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.WorkerPing}
+  commentId: T:System.IEquatable{LiveKit.Proto.WorkerPing}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<WorkerPing>
+  nameWithType: IEquatable<WorkerPing>
+  fullName: System.IEquatable<LiveKit.Proto.WorkerPing>
+  nameWithType.vb: IEquatable(Of WorkerPing)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.WorkerPing)
+  name.vb: IEquatable(Of WorkerPing)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.WorkerPing.html
+  name: IDeepCloneable<WorkerPing>
+  nameWithType: IDeepCloneable<WorkerPing>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.WorkerPing>
+  nameWithType.vb: IDeepCloneable(Of WorkerPing)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.WorkerPing)
+  name.vb: IDeepCloneable(Of WorkerPing)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.WorkerPing.Parser*
+  commentId: Overload:LiveKit.Proto.WorkerPing.Parser
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_Parser
+  name: Parser
+  nameWithType: WorkerPing.Parser
+  fullName: LiveKit.Proto.WorkerPing.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.WorkerPing}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.WorkerPing}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.WorkerPing.html
+  name: MessageParser<WorkerPing>
+  nameWithType: MessageParser<WorkerPing>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.WorkerPing>
+  nameWithType.vb: MessageParser(Of WorkerPing)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.WorkerPing)
+  name.vb: MessageParser(Of WorkerPing)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.WorkerPing.Descriptor*
+  commentId: Overload:LiveKit.Proto.WorkerPing.Descriptor
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_Descriptor
+  name: Descriptor
+  nameWithType: WorkerPing.Descriptor
+  fullName: LiveKit.Proto.WorkerPing.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.WorkerPing.#ctor*
+  commentId: Overload:LiveKit.Proto.WorkerPing.#ctor
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing__ctor
+  name: WorkerPing
+  nameWithType: WorkerPing.WorkerPing
+  fullName: LiveKit.Proto.WorkerPing.WorkerPing
+  nameWithType.vb: WorkerPing.New
+  fullName.vb: LiveKit.Proto.WorkerPing.New
+  name.vb: New
+- uid: LiveKit.Proto.WorkerPing
+  commentId: T:LiveKit.Proto.WorkerPing
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WorkerPing.html
+  name: WorkerPing
+  nameWithType: WorkerPing
+  fullName: LiveKit.Proto.WorkerPing
+- uid: LiveKit.Proto.WorkerPing.Clone*
+  commentId: Overload:LiveKit.Proto.WorkerPing.Clone
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_Clone
+  name: Clone
+  nameWithType: WorkerPing.Clone
+  fullName: LiveKit.Proto.WorkerPing.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<WorkerPing>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.WorkerPing>.Clone()
+  nameWithType.vb: IDeepCloneable(Of WorkerPing).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.WorkerPing).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WorkerPing}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.WorkerPing.Timestamp*
+  commentId: Overload:LiveKit.Proto.WorkerPing.Timestamp
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_Timestamp
+  name: Timestamp
+  nameWithType: WorkerPing.Timestamp
+  fullName: LiveKit.Proto.WorkerPing.Timestamp
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.WorkerPing.Equals*
+  commentId: Overload:LiveKit.Proto.WorkerPing.Equals
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_Equals_System_Object_
+  name: Equals
+  nameWithType: WorkerPing.Equals
+  fullName: LiveKit.Proto.WorkerPing.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.WorkerPing}.Equals(LiveKit.Proto.WorkerPing)
+  commentId: M:System.IEquatable{LiveKit.Proto.WorkerPing}.Equals(LiveKit.Proto.WorkerPing)
+  parent: System.IEquatable{LiveKit.Proto.WorkerPing}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(WorkerPing)
+  nameWithType: IEquatable<WorkerPing>.Equals(WorkerPing)
+  fullName: System.IEquatable<LiveKit.Proto.WorkerPing>.Equals(LiveKit.Proto.WorkerPing)
+  nameWithType.vb: IEquatable(Of WorkerPing).Equals(WorkerPing)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.WorkerPing).Equals(LiveKit.Proto.WorkerPing)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.WorkerPing}.Equals(LiveKit.Proto.WorkerPing)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.WorkerPing}.Equals(LiveKit.Proto.WorkerPing)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WorkerPing.GetHashCode*
+  commentId: Overload:LiveKit.Proto.WorkerPing.GetHashCode
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_GetHashCode
+  name: GetHashCode
+  nameWithType: WorkerPing.GetHashCode
+  fullName: LiveKit.Proto.WorkerPing.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WorkerPing.ToString*
+  commentId: Overload:LiveKit.Proto.WorkerPing.ToString
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_ToString
+  name: ToString
+  nameWithType: WorkerPing.ToString
+  fullName: LiveKit.Proto.WorkerPing.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.WorkerPing.WriteTo*
+  commentId: Overload:LiveKit.Proto.WorkerPing.WriteTo
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: WorkerPing.WriteTo
+  fullName: LiveKit.Proto.WorkerPing.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.WorkerPing.CalculateSize*
+  commentId: Overload:LiveKit.Proto.WorkerPing.CalculateSize
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_CalculateSize
+  name: CalculateSize
+  nameWithType: WorkerPing.CalculateSize
+  fullName: LiveKit.Proto.WorkerPing.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WorkerPing.MergeFrom*
+  commentId: Overload:LiveKit.Proto.WorkerPing.MergeFrom
+  href: LiveKit.Proto.WorkerPing.html#LiveKit_Proto_WorkerPing_MergeFrom_LiveKit_Proto_WorkerPing_
+  name: MergeFrom
+  nameWithType: WorkerPing.MergeFrom
+  fullName: LiveKit.Proto.WorkerPing.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}.MergeFrom(LiveKit.Proto.WorkerPing)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}.MergeFrom(LiveKit.Proto.WorkerPing)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.WorkerPing.html
+  name: MergeFrom(WorkerPing)
+  nameWithType: IMessage<WorkerPing>.MergeFrom(WorkerPing)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.WorkerPing>.MergeFrom(LiveKit.Proto.WorkerPing)
+  nameWithType.vb: IMessage(Of WorkerPing).MergeFrom(WorkerPing)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.WorkerPing).MergeFrom(LiveKit.Proto.WorkerPing)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}.MergeFrom(LiveKit.Proto.WorkerPing)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.WorkerPing}.MergeFrom(LiveKit.Proto.WorkerPing)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.WorkerPing
+    name: WorkerPing
+    href: LiveKit.Proto.WorkerPing.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

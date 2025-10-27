@@ -1,0 +1,1948 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.SegmentsInfo
+  commentId: T:LiveKit.Proto.SegmentsInfo
+  id: SegmentsInfo
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.SegmentsInfo.#ctor
+  - LiveKit.Proto.SegmentsInfo.#ctor(LiveKit.Proto.SegmentsInfo)
+  - LiveKit.Proto.SegmentsInfo.CalculateSize
+  - LiveKit.Proto.SegmentsInfo.Clone
+  - LiveKit.Proto.SegmentsInfo.Descriptor
+  - LiveKit.Proto.SegmentsInfo.Duration
+  - LiveKit.Proto.SegmentsInfo.DurationFieldNumber
+  - LiveKit.Proto.SegmentsInfo.EndedAt
+  - LiveKit.Proto.SegmentsInfo.EndedAtFieldNumber
+  - LiveKit.Proto.SegmentsInfo.Equals(LiveKit.Proto.SegmentsInfo)
+  - LiveKit.Proto.SegmentsInfo.Equals(System.Object)
+  - LiveKit.Proto.SegmentsInfo.GetHashCode
+  - LiveKit.Proto.SegmentsInfo.LivePlaylistLocation
+  - LiveKit.Proto.SegmentsInfo.LivePlaylistLocationFieldNumber
+  - LiveKit.Proto.SegmentsInfo.LivePlaylistName
+  - LiveKit.Proto.SegmentsInfo.LivePlaylistNameFieldNumber
+  - LiveKit.Proto.SegmentsInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.SegmentsInfo.MergeFrom(LiveKit.Proto.SegmentsInfo)
+  - LiveKit.Proto.SegmentsInfo.Parser
+  - LiveKit.Proto.SegmentsInfo.PlaylistLocation
+  - LiveKit.Proto.SegmentsInfo.PlaylistLocationFieldNumber
+  - LiveKit.Proto.SegmentsInfo.PlaylistName
+  - LiveKit.Proto.SegmentsInfo.PlaylistNameFieldNumber
+  - LiveKit.Proto.SegmentsInfo.SegmentCount
+  - LiveKit.Proto.SegmentsInfo.SegmentCountFieldNumber
+  - LiveKit.Proto.SegmentsInfo.Size
+  - LiveKit.Proto.SegmentsInfo.SizeFieldNumber
+  - LiveKit.Proto.SegmentsInfo.StartedAt
+  - LiveKit.Proto.SegmentsInfo.StartedAtFieldNumber
+  - LiveKit.Proto.SegmentsInfo.ToString
+  - LiveKit.Proto.SegmentsInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: SegmentsInfo
+  nameWithType: SegmentsInfo
+  fullName: LiveKit.Proto.SegmentsInfo
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentsInfo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12129
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class SegmentsInfo : IMessage<SegmentsInfo>, IEquatable<SegmentsInfo>, IDeepCloneable<SegmentsInfo>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class SegmentsInfo Implements IMessage(Of SegmentsInfo), IEquatable(Of SegmentsInfo), IDeepCloneable(Of SegmentsInfo), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}
+  - System.IEquatable{LiveKit.Proto.SegmentsInfo}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.SegmentsInfo.Parser
+  commentId: P:LiveKit.Proto.SegmentsInfo.Parser
+  id: Parser
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: SegmentsInfo.Parser
+  fullName: LiveKit.Proto.SegmentsInfo.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12137
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<SegmentsInfo> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.SegmentsInfo}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of SegmentsInfo)
+  overload: LiveKit.Proto.SegmentsInfo.Parser*
+- uid: LiveKit.Proto.SegmentsInfo.Descriptor
+  commentId: P:LiveKit.Proto.SegmentsInfo.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: SegmentsInfo.Descriptor
+  fullName: LiveKit.Proto.SegmentsInfo.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12141
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.SegmentsInfo.Descriptor*
+- uid: LiveKit.Proto.SegmentsInfo.#ctor
+  commentId: M:LiveKit.Proto.SegmentsInfo.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: SegmentsInfo()
+  nameWithType: SegmentsInfo.SegmentsInfo()
+  fullName: LiveKit.Proto.SegmentsInfo.SegmentsInfo()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12153
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SegmentsInfo()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.SegmentsInfo.#ctor*
+  nameWithType.vb: SegmentsInfo.New()
+  fullName.vb: LiveKit.Proto.SegmentsInfo.New()
+  name.vb: New()
+- uid: LiveKit.Proto.SegmentsInfo.#ctor(LiveKit.Proto.SegmentsInfo)
+  commentId: M:LiveKit.Proto.SegmentsInfo.#ctor(LiveKit.Proto.SegmentsInfo)
+  id: '#ctor(LiveKit.Proto.SegmentsInfo)'
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: SegmentsInfo(SegmentsInfo)
+  nameWithType: SegmentsInfo.SegmentsInfo(SegmentsInfo)
+  fullName: LiveKit.Proto.SegmentsInfo.SegmentsInfo(LiveKit.Proto.SegmentsInfo)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12161
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public SegmentsInfo(SegmentsInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SegmentsInfo
+    content.vb: Public Sub New(other As SegmentsInfo)
+  overload: LiveKit.Proto.SegmentsInfo.#ctor*
+  nameWithType.vb: SegmentsInfo.New(SegmentsInfo)
+  fullName.vb: LiveKit.Proto.SegmentsInfo.New(LiveKit.Proto.SegmentsInfo)
+  name.vb: New(SegmentsInfo)
+- uid: LiveKit.Proto.SegmentsInfo.Clone
+  commentId: M:LiveKit.Proto.SegmentsInfo.Clone
+  id: Clone
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: SegmentsInfo.Clone()
+  fullName: LiveKit.Proto.SegmentsInfo.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12176
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public SegmentsInfo Clone()
+    return:
+      type: LiveKit.Proto.SegmentsInfo
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As SegmentsInfo
+  overload: LiveKit.Proto.SegmentsInfo.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}.Clone
+- uid: LiveKit.Proto.SegmentsInfo.PlaylistNameFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.PlaylistNameFieldNumber
+  id: PlaylistNameFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: PlaylistNameFieldNumber
+  nameWithType: SegmentsInfo.PlaylistNameFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.PlaylistNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PlaylistNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12183
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "playlist_name" field.
+  example: []
+  syntax:
+    content: public const int PlaylistNameFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const PlaylistNameFieldNumber As Integer = 1
+- uid: LiveKit.Proto.SegmentsInfo.PlaylistName
+  commentId: P:LiveKit.Proto.SegmentsInfo.PlaylistName
+  id: PlaylistName
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: PlaylistName
+  nameWithType: SegmentsInfo.PlaylistName
+  fullName: LiveKit.Proto.SegmentsInfo.PlaylistName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PlaylistName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12185
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string PlaylistName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PlaylistName As String
+  overload: LiveKit.Proto.SegmentsInfo.PlaylistName*
+- uid: LiveKit.Proto.SegmentsInfo.LivePlaylistNameFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.LivePlaylistNameFieldNumber
+  id: LivePlaylistNameFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: LivePlaylistNameFieldNumber
+  nameWithType: SegmentsInfo.LivePlaylistNameFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.LivePlaylistNameFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LivePlaylistNameFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12195
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "live_playlist_name" field.
+  example: []
+  syntax:
+    content: public const int LivePlaylistNameFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const LivePlaylistNameFieldNumber As Integer = 8
+- uid: LiveKit.Proto.SegmentsInfo.LivePlaylistName
+  commentId: P:LiveKit.Proto.SegmentsInfo.LivePlaylistName
+  id: LivePlaylistName
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: LivePlaylistName
+  nameWithType: SegmentsInfo.LivePlaylistName
+  fullName: LiveKit.Proto.SegmentsInfo.LivePlaylistName
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LivePlaylistName
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12197
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string LivePlaylistName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LivePlaylistName As String
+  overload: LiveKit.Proto.SegmentsInfo.LivePlaylistName*
+- uid: LiveKit.Proto.SegmentsInfo.DurationFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.DurationFieldNumber
+  id: DurationFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: DurationFieldNumber
+  nameWithType: SegmentsInfo.DurationFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.DurationFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DurationFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12207
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "duration" field.
+  example: []
+  syntax:
+    content: public const int DurationFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const DurationFieldNumber As Integer = 2
+- uid: LiveKit.Proto.SegmentsInfo.Duration
+  commentId: P:LiveKit.Proto.SegmentsInfo.Duration
+  id: Duration
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: SegmentsInfo.Duration
+  fullName: LiveKit.Proto.SegmentsInfo.Duration
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Duration
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12209
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Duration As Long
+  overload: LiveKit.Proto.SegmentsInfo.Duration*
+- uid: LiveKit.Proto.SegmentsInfo.SizeFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.SizeFieldNumber
+  id: SizeFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: SizeFieldNumber
+  nameWithType: SegmentsInfo.SizeFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.SizeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SizeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12219
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "size" field.
+  example: []
+  syntax:
+    content: public const int SizeFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const SizeFieldNumber As Integer = 3
+- uid: LiveKit.Proto.SegmentsInfo.Size
+  commentId: P:LiveKit.Proto.SegmentsInfo.Size
+  id: Size
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: SegmentsInfo.Size
+  fullName: LiveKit.Proto.SegmentsInfo.Size
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Size
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12221
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Size As Long
+  overload: LiveKit.Proto.SegmentsInfo.Size*
+- uid: LiveKit.Proto.SegmentsInfo.PlaylistLocationFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.PlaylistLocationFieldNumber
+  id: PlaylistLocationFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: PlaylistLocationFieldNumber
+  nameWithType: SegmentsInfo.PlaylistLocationFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.PlaylistLocationFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PlaylistLocationFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12231
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "playlist_location" field.
+  example: []
+  syntax:
+    content: public const int PlaylistLocationFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const PlaylistLocationFieldNumber As Integer = 4
+- uid: LiveKit.Proto.SegmentsInfo.PlaylistLocation
+  commentId: P:LiveKit.Proto.SegmentsInfo.PlaylistLocation
+  id: PlaylistLocation
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: PlaylistLocation
+  nameWithType: SegmentsInfo.PlaylistLocation
+  fullName: LiveKit.Proto.SegmentsInfo.PlaylistLocation
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PlaylistLocation
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12233
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string PlaylistLocation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PlaylistLocation As String
+  overload: LiveKit.Proto.SegmentsInfo.PlaylistLocation*
+- uid: LiveKit.Proto.SegmentsInfo.LivePlaylistLocationFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.LivePlaylistLocationFieldNumber
+  id: LivePlaylistLocationFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: LivePlaylistLocationFieldNumber
+  nameWithType: SegmentsInfo.LivePlaylistLocationFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.LivePlaylistLocationFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LivePlaylistLocationFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12243
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "live_playlist_location" field.
+  example: []
+  syntax:
+    content: public const int LivePlaylistLocationFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const LivePlaylistLocationFieldNumber As Integer = 9
+- uid: LiveKit.Proto.SegmentsInfo.LivePlaylistLocation
+  commentId: P:LiveKit.Proto.SegmentsInfo.LivePlaylistLocation
+  id: LivePlaylistLocation
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: LivePlaylistLocation
+  nameWithType: SegmentsInfo.LivePlaylistLocation
+  fullName: LiveKit.Proto.SegmentsInfo.LivePlaylistLocation
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LivePlaylistLocation
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12245
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string LivePlaylistLocation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LivePlaylistLocation As String
+  overload: LiveKit.Proto.SegmentsInfo.LivePlaylistLocation*
+- uid: LiveKit.Proto.SegmentsInfo.SegmentCountFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.SegmentCountFieldNumber
+  id: SegmentCountFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: SegmentCountFieldNumber
+  nameWithType: SegmentsInfo.SegmentCountFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.SegmentCountFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentCountFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12255
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "segment_count" field.
+  example: []
+  syntax:
+    content: public const int SegmentCountFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const SegmentCountFieldNumber As Integer = 5
+- uid: LiveKit.Proto.SegmentsInfo.SegmentCount
+  commentId: P:LiveKit.Proto.SegmentsInfo.SegmentCount
+  id: SegmentCount
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: SegmentCount
+  nameWithType: SegmentsInfo.SegmentCount
+  fullName: LiveKit.Proto.SegmentsInfo.SegmentCount
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentCount
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12257
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long SegmentCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SegmentCount As Long
+  overload: LiveKit.Proto.SegmentsInfo.SegmentCount*
+- uid: LiveKit.Proto.SegmentsInfo.StartedAtFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.StartedAtFieldNumber
+  id: StartedAtFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: StartedAtFieldNumber
+  nameWithType: SegmentsInfo.StartedAtFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.StartedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12267
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "started_at" field.
+  example: []
+  syntax:
+    content: public const int StartedAtFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const StartedAtFieldNumber As Integer = 6
+- uid: LiveKit.Proto.SegmentsInfo.StartedAt
+  commentId: P:LiveKit.Proto.SegmentsInfo.StartedAt
+  id: StartedAt
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: StartedAt
+  nameWithType: SegmentsInfo.StartedAt
+  fullName: LiveKit.Proto.SegmentsInfo.StartedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12269
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long StartedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property StartedAt As Long
+  overload: LiveKit.Proto.SegmentsInfo.StartedAt*
+- uid: LiveKit.Proto.SegmentsInfo.EndedAtFieldNumber
+  commentId: F:LiveKit.Proto.SegmentsInfo.EndedAtFieldNumber
+  id: EndedAtFieldNumber
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: EndedAtFieldNumber
+  nameWithType: SegmentsInfo.EndedAtFieldNumber
+  fullName: LiveKit.Proto.SegmentsInfo.EndedAtFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAtFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12279
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ended_at" field.
+  example: []
+  syntax:
+    content: public const int EndedAtFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const EndedAtFieldNumber As Integer = 7
+- uid: LiveKit.Proto.SegmentsInfo.EndedAt
+  commentId: P:LiveKit.Proto.SegmentsInfo.EndedAt
+  id: EndedAt
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: EndedAt
+  nameWithType: SegmentsInfo.EndedAt
+  fullName: LiveKit.Proto.SegmentsInfo.EndedAt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndedAt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12281
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long EndedAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property EndedAt As Long
+  overload: LiveKit.Proto.SegmentsInfo.EndedAt*
+- uid: LiveKit.Proto.SegmentsInfo.Equals(System.Object)
+  commentId: M:LiveKit.Proto.SegmentsInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: SegmentsInfo.Equals(object)
+  fullName: LiveKit.Proto.SegmentsInfo.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12290
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.SegmentsInfo.Equals*
+  nameWithType.vb: SegmentsInfo.Equals(Object)
+  fullName.vb: LiveKit.Proto.SegmentsInfo.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.SegmentsInfo.Equals(LiveKit.Proto.SegmentsInfo)
+  commentId: M:LiveKit.Proto.SegmentsInfo.Equals(LiveKit.Proto.SegmentsInfo)
+  id: Equals(LiveKit.Proto.SegmentsInfo)
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: Equals(SegmentsInfo)
+  nameWithType: SegmentsInfo.Equals(SegmentsInfo)
+  fullName: LiveKit.Proto.SegmentsInfo.Equals(LiveKit.Proto.SegmentsInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12296
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(SegmentsInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SegmentsInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As SegmentsInfo) As Boolean
+  overload: LiveKit.Proto.SegmentsInfo.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.SegmentsInfo}.Equals(LiveKit.Proto.SegmentsInfo)
+- uid: LiveKit.Proto.SegmentsInfo.GetHashCode
+  commentId: M:LiveKit.Proto.SegmentsInfo.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SegmentsInfo.GetHashCode()
+  fullName: LiveKit.Proto.SegmentsInfo.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12317
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.SegmentsInfo.GetHashCode*
+- uid: LiveKit.Proto.SegmentsInfo.ToString
+  commentId: M:LiveKit.Proto.SegmentsInfo.ToString
+  id: ToString
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SegmentsInfo.ToString()
+  fullName: LiveKit.Proto.SegmentsInfo.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12336
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.SegmentsInfo.ToString*
+- uid: LiveKit.Proto.SegmentsInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.SegmentsInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: SegmentsInfo.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.SegmentsInfo.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12342
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.SegmentsInfo.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.SegmentsInfo.CalculateSize
+  commentId: M:LiveKit.Proto.SegmentsInfo.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: SegmentsInfo.CalculateSize()
+  fullName: LiveKit.Proto.SegmentsInfo.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12436
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.SegmentsInfo.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.SegmentsInfo.MergeFrom(LiveKit.Proto.SegmentsInfo)
+  commentId: M:LiveKit.Proto.SegmentsInfo.MergeFrom(LiveKit.Proto.SegmentsInfo)
+  id: MergeFrom(LiveKit.Proto.SegmentsInfo)
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(SegmentsInfo)
+  nameWithType: SegmentsInfo.MergeFrom(SegmentsInfo)
+  fullName: LiveKit.Proto.SegmentsInfo.MergeFrom(LiveKit.Proto.SegmentsInfo)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12473
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(SegmentsInfo other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.SegmentsInfo
+    content.vb: Public Sub MergeFrom(other As SegmentsInfo)
+  overload: LiveKit.Proto.SegmentsInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}.MergeFrom(LiveKit.Proto.SegmentsInfo)
+- uid: LiveKit.Proto.SegmentsInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.SegmentsInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.SegmentsInfo
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: SegmentsInfo.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.SegmentsInfo.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 12509
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.SegmentsInfo.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.SegmentsInfo.html
+  name: IMessage<SegmentsInfo>
+  nameWithType: IMessage<SegmentsInfo>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SegmentsInfo>
+  nameWithType.vb: IMessage(Of SegmentsInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SegmentsInfo)
+  name.vb: IMessage(Of SegmentsInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.SegmentsInfo}
+  commentId: T:System.IEquatable{LiveKit.Proto.SegmentsInfo}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SegmentsInfo>
+  nameWithType: IEquatable<SegmentsInfo>
+  fullName: System.IEquatable<LiveKit.Proto.SegmentsInfo>
+  nameWithType.vb: IEquatable(Of SegmentsInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SegmentsInfo)
+  name.vb: IEquatable(Of SegmentsInfo)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.SegmentsInfo.html
+  name: IDeepCloneable<SegmentsInfo>
+  nameWithType: IDeepCloneable<SegmentsInfo>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SegmentsInfo>
+  nameWithType.vb: IDeepCloneable(Of SegmentsInfo)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SegmentsInfo)
+  name.vb: IDeepCloneable(Of SegmentsInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SegmentsInfo.Parser*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.Parser
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_Parser
+  name: Parser
+  nameWithType: SegmentsInfo.Parser
+  fullName: LiveKit.Proto.SegmentsInfo.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.SegmentsInfo}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.SegmentsInfo}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.SegmentsInfo.html
+  name: MessageParser<SegmentsInfo>
+  nameWithType: MessageParser<SegmentsInfo>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.SegmentsInfo>
+  nameWithType.vb: MessageParser(Of SegmentsInfo)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.SegmentsInfo)
+  name.vb: MessageParser(Of SegmentsInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.SegmentsInfo.Descriptor*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.Descriptor
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_Descriptor
+  name: Descriptor
+  nameWithType: SegmentsInfo.Descriptor
+  fullName: LiveKit.Proto.SegmentsInfo.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.SegmentsInfo.#ctor*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.#ctor
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo__ctor
+  name: SegmentsInfo
+  nameWithType: SegmentsInfo.SegmentsInfo
+  fullName: LiveKit.Proto.SegmentsInfo.SegmentsInfo
+  nameWithType.vb: SegmentsInfo.New
+  fullName.vb: LiveKit.Proto.SegmentsInfo.New
+  name.vb: New
+- uid: LiveKit.Proto.SegmentsInfo
+  commentId: T:LiveKit.Proto.SegmentsInfo
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SegmentsInfo.html
+  name: SegmentsInfo
+  nameWithType: SegmentsInfo
+  fullName: LiveKit.Proto.SegmentsInfo
+- uid: LiveKit.Proto.SegmentsInfo.Clone*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.Clone
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_Clone
+  name: Clone
+  nameWithType: SegmentsInfo.Clone
+  fullName: LiveKit.Proto.SegmentsInfo.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<SegmentsInfo>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.SegmentsInfo>.Clone()
+  nameWithType.vb: IDeepCloneable(Of SegmentsInfo).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.SegmentsInfo).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.SegmentsInfo}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.SegmentsInfo.PlaylistName*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.PlaylistName
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_PlaylistName
+  name: PlaylistName
+  nameWithType: SegmentsInfo.PlaylistName
+  fullName: LiveKit.Proto.SegmentsInfo.PlaylistName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.SegmentsInfo.LivePlaylistName*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.LivePlaylistName
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_LivePlaylistName
+  name: LivePlaylistName
+  nameWithType: SegmentsInfo.LivePlaylistName
+  fullName: LiveKit.Proto.SegmentsInfo.LivePlaylistName
+- uid: LiveKit.Proto.SegmentsInfo.Duration*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.Duration
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_Duration
+  name: Duration
+  nameWithType: SegmentsInfo.Duration
+  fullName: LiveKit.Proto.SegmentsInfo.Duration
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.SegmentsInfo.Size*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.Size
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_Size
+  name: Size
+  nameWithType: SegmentsInfo.Size
+  fullName: LiveKit.Proto.SegmentsInfo.Size
+- uid: LiveKit.Proto.SegmentsInfo.PlaylistLocation*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.PlaylistLocation
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_PlaylistLocation
+  name: PlaylistLocation
+  nameWithType: SegmentsInfo.PlaylistLocation
+  fullName: LiveKit.Proto.SegmentsInfo.PlaylistLocation
+- uid: LiveKit.Proto.SegmentsInfo.LivePlaylistLocation*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.LivePlaylistLocation
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_LivePlaylistLocation
+  name: LivePlaylistLocation
+  nameWithType: SegmentsInfo.LivePlaylistLocation
+  fullName: LiveKit.Proto.SegmentsInfo.LivePlaylistLocation
+- uid: LiveKit.Proto.SegmentsInfo.SegmentCount*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.SegmentCount
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_SegmentCount
+  name: SegmentCount
+  nameWithType: SegmentsInfo.SegmentCount
+  fullName: LiveKit.Proto.SegmentsInfo.SegmentCount
+- uid: LiveKit.Proto.SegmentsInfo.StartedAt*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.StartedAt
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_StartedAt
+  name: StartedAt
+  nameWithType: SegmentsInfo.StartedAt
+  fullName: LiveKit.Proto.SegmentsInfo.StartedAt
+- uid: LiveKit.Proto.SegmentsInfo.EndedAt*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.EndedAt
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_EndedAt
+  name: EndedAt
+  nameWithType: SegmentsInfo.EndedAt
+  fullName: LiveKit.Proto.SegmentsInfo.EndedAt
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.SegmentsInfo.Equals*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.Equals
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_Equals_System_Object_
+  name: Equals
+  nameWithType: SegmentsInfo.Equals
+  fullName: LiveKit.Proto.SegmentsInfo.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.SegmentsInfo}.Equals(LiveKit.Proto.SegmentsInfo)
+  commentId: M:System.IEquatable{LiveKit.Proto.SegmentsInfo}.Equals(LiveKit.Proto.SegmentsInfo)
+  parent: System.IEquatable{LiveKit.Proto.SegmentsInfo}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SegmentsInfo)
+  nameWithType: IEquatable<SegmentsInfo>.Equals(SegmentsInfo)
+  fullName: System.IEquatable<LiveKit.Proto.SegmentsInfo>.Equals(LiveKit.Proto.SegmentsInfo)
+  nameWithType.vb: IEquatable(Of SegmentsInfo).Equals(SegmentsInfo)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.SegmentsInfo).Equals(LiveKit.Proto.SegmentsInfo)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.SegmentsInfo}.Equals(LiveKit.Proto.SegmentsInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.SegmentsInfo}.Equals(LiveKit.Proto.SegmentsInfo)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SegmentsInfo.GetHashCode*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.GetHashCode
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_GetHashCode
+  name: GetHashCode
+  nameWithType: SegmentsInfo.GetHashCode
+  fullName: LiveKit.Proto.SegmentsInfo.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SegmentsInfo.ToString*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.ToString
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_ToString
+  name: ToString
+  nameWithType: SegmentsInfo.ToString
+  fullName: LiveKit.Proto.SegmentsInfo.ToString
+- uid: LiveKit.Proto.SegmentsInfo.WriteTo*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.WriteTo
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: SegmentsInfo.WriteTo
+  fullName: LiveKit.Proto.SegmentsInfo.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.SegmentsInfo.CalculateSize*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.CalculateSize
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_CalculateSize
+  name: CalculateSize
+  nameWithType: SegmentsInfo.CalculateSize
+  fullName: LiveKit.Proto.SegmentsInfo.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.SegmentsInfo.MergeFrom*
+  commentId: Overload:LiveKit.Proto.SegmentsInfo.MergeFrom
+  href: LiveKit.Proto.SegmentsInfo.html#LiveKit_Proto_SegmentsInfo_MergeFrom_LiveKit_Proto_SegmentsInfo_
+  name: MergeFrom
+  nameWithType: SegmentsInfo.MergeFrom
+  fullName: LiveKit.Proto.SegmentsInfo.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}.MergeFrom(LiveKit.Proto.SegmentsInfo)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}.MergeFrom(LiveKit.Proto.SegmentsInfo)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.SegmentsInfo.html
+  name: MergeFrom(SegmentsInfo)
+  nameWithType: IMessage<SegmentsInfo>.MergeFrom(SegmentsInfo)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.SegmentsInfo>.MergeFrom(LiveKit.Proto.SegmentsInfo)
+  nameWithType.vb: IMessage(Of SegmentsInfo).MergeFrom(SegmentsInfo)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.SegmentsInfo).MergeFrom(LiveKit.Proto.SegmentsInfo)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}.MergeFrom(LiveKit.Proto.SegmentsInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.SegmentsInfo}.MergeFrom(LiveKit.Proto.SegmentsInfo)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.SegmentsInfo
+    name: SegmentsInfo
+    href: LiveKit.Proto.SegmentsInfo.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Authentication.ILiveKitTokenService
+  commentId: T:LiveKit.Authentication.ILiveKitTokenService
+  id: ILiveKitTokenService
+  parent: LiveKit.Authentication
+  children:
+  - LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  - LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitTokenService
+  nameWithType: ILiveKitTokenService
+  fullName: LiveKit.Authentication.ILiveKitTokenService
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitTokenService
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenService.cs
+    startLine: 11
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: >-
+    Service for creating LiveKit authentication tokens.
+
+    <p>
+
+    Provides methods for generating JWT tokens for participant authentication and server API access.
+
+    See <a href="https://docs.livekit.io/home/get-started/authentication/">LiveKit Authentication Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitTokenService
+    content.vb: Public Interface ILiveKitTokenService
+- uid: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(System.String)
+  commentId: M:LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(System.String)
+  id: CreateTokenBuilder(System.String)
+  parent: LiveKit.Authentication.ILiveKitTokenService
+  langs:
+  - csharp
+  - vb
+  name: CreateTokenBuilder(string)
+  nameWithType: ILiveKitTokenService.CreateTokenBuilder(string)
+  fullName: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(string)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateTokenBuilder
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenService.cs
+    startLine: 16
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Creates a token builder for the specified identity.
+  example: []
+  syntax:
+    content: ILiveKitTokenBuilder CreateTokenBuilder(string identity)
+    parameters:
+    - id: identity
+      type: System.String
+    return:
+      type: LiveKit.Authentication.ILiveKitTokenBuilder
+    content.vb: Function CreateTokenBuilder(identity As String) As ILiveKitTokenBuilder
+  overload: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder*
+  nameWithType.vb: ILiveKitTokenService.CreateTokenBuilder(String)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder(String)
+  name.vb: CreateTokenBuilder(String)
+- uid: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  commentId: M:LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  id: CreateServerToken(System.String,System.Nullable{System.TimeSpan})
+  parent: LiveKit.Authentication.ILiveKitTokenService
+  langs:
+  - csharp
+  - vb
+  name: CreateServerToken(string?, TimeSpan?)
+  nameWithType: ILiveKitTokenService.CreateServerToken(string?, TimeSpan?)
+  fullName: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(string?, System.TimeSpan?)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateServerToken
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Authentication/ILiveKitTokenService.cs
+    startLine: 21
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Authentication
+  summary: Creates a server token for API calls.
+  example: []
+  syntax:
+    content: string CreateServerToken(string? roomName = null, TimeSpan? ttl = null)
+    parameters:
+    - id: roomName
+      type: System.String
+    - id: ttl
+      type: System.Nullable{System.TimeSpan}
+    return:
+      type: System.String
+    content.vb: Function CreateServerToken(roomName As String = Nothing, ttl As TimeSpan? = Nothing) As String
+  overload: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken*
+  nameWithType.vb: ILiveKitTokenService.CreateServerToken(String, TimeSpan?)
+  fullName.vb: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken(String, System.TimeSpan?)
+  name.vb: CreateServerToken(String, TimeSpan?)
+references:
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder
+  href: LiveKit.Authentication.ILiveKitTokenService.html#LiveKit_Authentication_ILiveKitTokenService_CreateTokenBuilder_System_String_
+  name: CreateTokenBuilder
+  nameWithType: ILiveKitTokenService.CreateTokenBuilder
+  fullName: LiveKit.Authentication.ILiveKitTokenService.CreateTokenBuilder
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Authentication.ILiveKitTokenBuilder
+  commentId: T:LiveKit.Authentication.ILiveKitTokenBuilder
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.ILiveKitTokenBuilder.html
+  name: ILiveKitTokenBuilder
+  nameWithType: ILiveKitTokenBuilder
+  fullName: LiveKit.Authentication.ILiveKitTokenBuilder
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken*
+  commentId: Overload:LiveKit.Authentication.ILiveKitTokenService.CreateServerToken
+  href: LiveKit.Authentication.ILiveKitTokenService.html#LiveKit_Authentication_ILiveKitTokenService_CreateServerToken_System_String_System_Nullable_System_TimeSpan__
+  name: CreateServerToken
+  nameWithType: ILiveKitTokenService.CreateServerToken
+  fullName: LiveKit.Authentication.ILiveKitTokenService.CreateServerToken
+- uid: System.Nullable{System.TimeSpan}
+  commentId: T:System.Nullable{System.TimeSpan}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan?
+  nameWithType: TimeSpan?
+  fullName: System.TimeSpan?
+  spec.csharp:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: '?'
+  spec.vb:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.timespan
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

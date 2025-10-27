@@ -1,0 +1,2449 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.DataStream.Types.Header
+  commentId: T:LiveKit.Proto.DataStream.Types.Header
+  id: DataStream.Types.Header
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.DataStream.Types.Header.#ctor
+  - LiveKit.Proto.DataStream.Types.Header.#ctor(LiveKit.Proto.DataStream.Types.Header)
+  - LiveKit.Proto.DataStream.Types.Header.Attributes
+  - LiveKit.Proto.DataStream.Types.Header.AttributesFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.ByteHeader
+  - LiveKit.Proto.DataStream.Types.Header.ByteHeaderFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.CalculateSize
+  - LiveKit.Proto.DataStream.Types.Header.ClearContentHeader
+  - LiveKit.Proto.DataStream.Types.Header.ClearTotalLength
+  - LiveKit.Proto.DataStream.Types.Header.Clone
+  - LiveKit.Proto.DataStream.Types.Header.ContentHeaderCase
+  - LiveKit.Proto.DataStream.Types.Header.Descriptor
+  - LiveKit.Proto.DataStream.Types.Header.EncryptionType
+  - LiveKit.Proto.DataStream.Types.Header.EncryptionTypeFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.Equals(LiveKit.Proto.DataStream.Types.Header)
+  - LiveKit.Proto.DataStream.Types.Header.Equals(System.Object)
+  - LiveKit.Proto.DataStream.Types.Header.GetHashCode
+  - LiveKit.Proto.DataStream.Types.Header.HasTotalLength
+  - LiveKit.Proto.DataStream.Types.Header.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.DataStream.Types.Header.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  - LiveKit.Proto.DataStream.Types.Header.MimeType
+  - LiveKit.Proto.DataStream.Types.Header.MimeTypeFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.Parser
+  - LiveKit.Proto.DataStream.Types.Header.StreamId
+  - LiveKit.Proto.DataStream.Types.Header.StreamIdFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.TextHeader
+  - LiveKit.Proto.DataStream.Types.Header.TextHeaderFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.Timestamp
+  - LiveKit.Proto.DataStream.Types.Header.TimestampFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.ToString
+  - LiveKit.Proto.DataStream.Types.Header.Topic
+  - LiveKit.Proto.DataStream.Types.Header.TopicFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.TotalLength
+  - LiveKit.Proto.DataStream.Types.Header.TotalLengthFieldNumber
+  - LiveKit.Proto.DataStream.Types.Header.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: DataStream.Types.Header
+  nameWithType: DataStream.Types.Header
+  fullName: LiveKit.Proto.DataStream.Types.Header
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Header
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18324
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: main DataStream.Header that contains a oneof for specific headers
+  example: []
+  syntax:
+    content: 'public sealed class DataStream.Types.Header : IMessage<DataStream.Types.Header>, IEquatable<DataStream.Types.Header>, IDeepCloneable<DataStream.Types.Header>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class DataStream.Types.Header Implements IMessage(Of DataStream.Types.Header), IEquatable(Of DataStream.Types.Header), IDeepCloneable(Of DataStream.Types.Header), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}
+  - System.IEquatable{LiveKit.Proto.DataStream.Types.Header}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.DataStream.Types.Header.Parser
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.Parser
+  id: Parser
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: DataStream.Types.Header.Parser
+  fullName: LiveKit.Proto.DataStream.Types.Header.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18333
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<DataStream.Types.Header> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.DataStream.Types.Header}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of DataStream.Types.Header)
+  overload: LiveKit.Proto.DataStream.Types.Header.Parser*
+- uid: LiveKit.Proto.DataStream.Types.Header.Descriptor
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: DataStream.Types.Header.Descriptor
+  fullName: LiveKit.Proto.DataStream.Types.Header.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18337
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.DataStream.Types.Header.Descriptor*
+- uid: LiveKit.Proto.DataStream.Types.Header.#ctor
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Header()
+  nameWithType: DataStream.Types.Header.Header()
+  fullName: LiveKit.Proto.DataStream.Types.Header.Header()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18349
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Header()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.DataStream.Types.Header.#ctor*
+  nameWithType.vb: DataStream.Types.Header.New()
+  fullName.vb: LiveKit.Proto.DataStream.Types.Header.New()
+  name.vb: New()
+- uid: LiveKit.Proto.DataStream.Types.Header.#ctor(LiveKit.Proto.DataStream.Types.Header)
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.#ctor(LiveKit.Proto.DataStream.Types.Header)
+  id: '#ctor(LiveKit.Proto.DataStream.Types.Header)'
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Header(Header)
+  nameWithType: DataStream.Types.Header.Header(DataStream.Types.Header)
+  fullName: LiveKit.Proto.DataStream.Types.Header.Header(LiveKit.Proto.DataStream.Types.Header)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18357
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Header(DataStream.Types.Header other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DataStream.Types.Header
+    content.vb: Public Sub New(other As DataStream.Types.Header)
+  overload: LiveKit.Proto.DataStream.Types.Header.#ctor*
+  nameWithType.vb: DataStream.Types.Header.New(DataStream.Types.Header)
+  fullName.vb: LiveKit.Proto.DataStream.Types.Header.New(LiveKit.Proto.DataStream.Types.Header)
+  name.vb: New(Header)
+- uid: LiveKit.Proto.DataStream.Types.Header.Clone
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.Clone
+  id: Clone
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: DataStream.Types.Header.Clone()
+  fullName: LiveKit.Proto.DataStream.Types.Header.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18380
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public DataStream.Types.Header Clone()
+    return:
+      type: LiveKit.Proto.DataStream.Types.Header
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As DataStream.Types.Header
+  overload: LiveKit.Proto.DataStream.Types.Header.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}.Clone
+- uid: LiveKit.Proto.DataStream.Types.Header.StreamIdFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.StreamIdFieldNumber
+  id: StreamIdFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: StreamIdFieldNumber
+  nameWithType: DataStream.Types.Header.StreamIdFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.StreamIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18387
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "stream_id" field.
+  example: []
+  syntax:
+    content: public const int StreamIdFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const StreamIdFieldNumber As Integer = 1
+- uid: LiveKit.Proto.DataStream.Types.Header.StreamId
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.StreamId
+  id: StreamId
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: StreamId
+  nameWithType: DataStream.Types.Header.StreamId
+  fullName: LiveKit.Proto.DataStream.Types.Header.StreamId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18392
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: unique identifier for this data stream
+  example: []
+  syntax:
+    content: public string StreamId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StreamId As String
+  overload: LiveKit.Proto.DataStream.Types.Header.StreamId*
+- uid: LiveKit.Proto.DataStream.Types.Header.TimestampFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.TimestampFieldNumber
+  id: TimestampFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: TimestampFieldNumber
+  nameWithType: DataStream.Types.Header.TimestampFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.TimestampFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TimestampFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18402
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "timestamp" field.
+  example: []
+  syntax:
+    content: public const int TimestampFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const TimestampFieldNumber As Integer = 2
+- uid: LiveKit.Proto.DataStream.Types.Header.Timestamp
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.Timestamp
+  id: Timestamp
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Timestamp
+  nameWithType: DataStream.Types.Header.Timestamp
+  fullName: LiveKit.Proto.DataStream.Types.Header.Timestamp
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Timestamp
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18407
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: using int64 for Unix timestamp
+  example: []
+  syntax:
+    content: public long Timestamp { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Timestamp As Long
+  overload: LiveKit.Proto.DataStream.Types.Header.Timestamp*
+- uid: LiveKit.Proto.DataStream.Types.Header.TopicFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.TopicFieldNumber
+  id: TopicFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: TopicFieldNumber
+  nameWithType: DataStream.Types.Header.TopicFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.TopicFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TopicFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18417
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "topic" field.
+  example: []
+  syntax:
+    content: public const int TopicFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const TopicFieldNumber As Integer = 3
+- uid: LiveKit.Proto.DataStream.Types.Header.Topic
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.Topic
+  id: Topic
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Topic
+  nameWithType: DataStream.Types.Header.Topic
+  fullName: LiveKit.Proto.DataStream.Types.Header.Topic
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Topic
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18419
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Topic { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Topic As String
+  overload: LiveKit.Proto.DataStream.Types.Header.Topic*
+- uid: LiveKit.Proto.DataStream.Types.Header.MimeTypeFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.MimeTypeFieldNumber
+  id: MimeTypeFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: MimeTypeFieldNumber
+  nameWithType: DataStream.Types.Header.MimeTypeFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.MimeTypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MimeTypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18429
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "mime_type" field.
+  example: []
+  syntax:
+    content: public const int MimeTypeFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const MimeTypeFieldNumber As Integer = 4
+- uid: LiveKit.Proto.DataStream.Types.Header.MimeType
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.MimeType
+  id: MimeType
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: DataStream.Types.Header.MimeType
+  fullName: LiveKit.Proto.DataStream.Types.Header.MimeType
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MimeType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18431
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MimeType As String
+  overload: LiveKit.Proto.DataStream.Types.Header.MimeType*
+- uid: LiveKit.Proto.DataStream.Types.Header.TotalLengthFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.TotalLengthFieldNumber
+  id: TotalLengthFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: TotalLengthFieldNumber
+  nameWithType: DataStream.Types.Header.TotalLengthFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.TotalLengthFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TotalLengthFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18441
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "total_length" field.
+  example: []
+  syntax:
+    content: public const int TotalLengthFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const TotalLengthFieldNumber As Integer = 5
+- uid: LiveKit.Proto.DataStream.Types.Header.TotalLength
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.TotalLength
+  id: TotalLength
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: TotalLength
+  nameWithType: DataStream.Types.Header.TotalLength
+  fullName: LiveKit.Proto.DataStream.Types.Header.TotalLength
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TotalLength
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18448
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: only populated for finite streams, if it's a stream of unknown size this stays empty
+  example: []
+  syntax:
+    content: public ulong TotalLength { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property TotalLength As ULong
+  overload: LiveKit.Proto.DataStream.Types.Header.TotalLength*
+- uid: LiveKit.Proto.DataStream.Types.Header.HasTotalLength
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.HasTotalLength
+  id: HasTotalLength
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: HasTotalLength
+  nameWithType: DataStream.Types.Header.HasTotalLength
+  fullName: LiveKit.Proto.DataStream.Types.Header.HasTotalLength
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasTotalLength
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18458
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "total_length" field is set
+  example: []
+  syntax:
+    content: public bool HasTotalLength { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasTotalLength As Boolean
+  overload: LiveKit.Proto.DataStream.Types.Header.HasTotalLength*
+- uid: LiveKit.Proto.DataStream.Types.Header.ClearTotalLength
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.ClearTotalLength
+  id: ClearTotalLength
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: ClearTotalLength()
+  nameWithType: DataStream.Types.Header.ClearTotalLength()
+  fullName: LiveKit.Proto.DataStream.Types.Header.ClearTotalLength()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearTotalLength
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18464
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the "total_length" field
+  example: []
+  syntax:
+    content: public void ClearTotalLength()
+    content.vb: Public Sub ClearTotalLength()
+  overload: LiveKit.Proto.DataStream.Types.Header.ClearTotalLength*
+- uid: LiveKit.Proto.DataStream.Types.Header.EncryptionTypeFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.EncryptionTypeFieldNumber
+  id: EncryptionTypeFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: EncryptionTypeFieldNumber
+  nameWithType: DataStream.Types.Header.EncryptionTypeFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.EncryptionTypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EncryptionTypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18471
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "encryption_type" field.
+  example: []
+  syntax:
+    content: public const int EncryptionTypeFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const EncryptionTypeFieldNumber As Integer = 7
+- uid: LiveKit.Proto.DataStream.Types.Header.EncryptionType
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.EncryptionType
+  id: EncryptionType
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: EncryptionType
+  nameWithType: DataStream.Types.Header.EncryptionType
+  fullName: LiveKit.Proto.DataStream.Types.Header.EncryptionType
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EncryptionType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18476
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: this is set on the DataPacket
+  example: []
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public Encryption.Types.Type EncryptionType { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.Encryption.Types.Type
+    content.vb: >-
+      <Obsolete>
+
+      Public Property EncryptionType As Encryption.Types.Type
+  overload: LiveKit.Proto.DataStream.Types.Header.EncryptionType*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.DataStream.Types.Header.AttributesFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.AttributesFieldNumber
+  id: AttributesFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: AttributesFieldNumber
+  nameWithType: DataStream.Types.Header.AttributesFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.AttributesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AttributesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18487
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "attributes" field.
+  example: []
+  syntax:
+    content: public const int AttributesFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const AttributesFieldNumber As Integer = 8
+- uid: LiveKit.Proto.DataStream.Types.Header.Attributes
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.Attributes
+  id: Attributes
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: DataStream.Types.Header.Attributes
+  fullName: LiveKit.Proto.DataStream.Types.Header.Attributes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Attributes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18494
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: user defined attributes map that can carry additional info
+  example: []
+  syntax:
+    content: public MapField<string, string> Attributes { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property Attributes As MapField(Of String, String)
+  overload: LiveKit.Proto.DataStream.Types.Header.Attributes*
+- uid: LiveKit.Proto.DataStream.Types.Header.TextHeaderFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.TextHeaderFieldNumber
+  id: TextHeaderFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: TextHeaderFieldNumber
+  nameWithType: DataStream.Types.Header.TextHeaderFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.TextHeaderFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TextHeaderFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18501
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "text_header" field.
+  example: []
+  syntax:
+    content: public const int TextHeaderFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const TextHeaderFieldNumber As Integer = 9
+- uid: LiveKit.Proto.DataStream.Types.Header.TextHeader
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.TextHeader
+  id: TextHeader
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: TextHeader
+  nameWithType: DataStream.Types.Header.TextHeader
+  fullName: LiveKit.Proto.DataStream.Types.Header.TextHeader
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TextHeader
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18502
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DataStream.Types.TextHeader TextHeader { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.DataStream.Types.TextHeader
+    content.vb: Public Property TextHeader As DataStream.Types.TextHeader
+  overload: LiveKit.Proto.DataStream.Types.Header.TextHeader*
+- uid: LiveKit.Proto.DataStream.Types.Header.ByteHeaderFieldNumber
+  commentId: F:LiveKit.Proto.DataStream.Types.Header.ByteHeaderFieldNumber
+  id: ByteHeaderFieldNumber
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: ByteHeaderFieldNumber
+  nameWithType: DataStream.Types.Header.ByteHeaderFieldNumber
+  fullName: LiveKit.Proto.DataStream.Types.Header.ByteHeaderFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ByteHeaderFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18513
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "byte_header" field.
+  example: []
+  syntax:
+    content: public const int ByteHeaderFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const ByteHeaderFieldNumber As Integer = 10
+- uid: LiveKit.Proto.DataStream.Types.Header.ByteHeader
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.ByteHeader
+  id: ByteHeader
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: ByteHeader
+  nameWithType: DataStream.Types.Header.ByteHeader
+  fullName: LiveKit.Proto.DataStream.Types.Header.ByteHeader
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ByteHeader
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18514
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DataStream.Types.ByteHeader ByteHeader { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.DataStream.Types.ByteHeader
+    content.vb: Public Property ByteHeader As DataStream.Types.ByteHeader
+  overload: LiveKit.Proto.DataStream.Types.Header.ByteHeader*
+- uid: LiveKit.Proto.DataStream.Types.Header.ContentHeaderCase
+  commentId: P:LiveKit.Proto.DataStream.Types.Header.ContentHeaderCase
+  id: ContentHeaderCase
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: ContentHeaderCase
+  nameWithType: DataStream.Types.Header.ContentHeaderCase
+  fullName: LiveKit.Proto.DataStream.Types.Header.ContentHeaderCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ContentHeaderCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18532
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public DataStream.Types.Header.ContentHeaderOneofCase ContentHeaderCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.DataStream.Types.Header.ContentHeaderOneofCase
+    content.vb: Public ReadOnly Property ContentHeaderCase As DataStream.Types.Header.ContentHeaderOneofCase
+  overload: LiveKit.Proto.DataStream.Types.Header.ContentHeaderCase*
+- uid: LiveKit.Proto.DataStream.Types.Header.ClearContentHeader
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.ClearContentHeader
+  id: ClearContentHeader
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: ClearContentHeader()
+  nameWithType: DataStream.Types.Header.ClearContentHeader()
+  fullName: LiveKit.Proto.DataStream.Types.Header.ClearContentHeader()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearContentHeader
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18538
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearContentHeader()
+    content.vb: Public Sub ClearContentHeader()
+  overload: LiveKit.Proto.DataStream.Types.Header.ClearContentHeader*
+- uid: LiveKit.Proto.DataStream.Types.Header.Equals(System.Object)
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: DataStream.Types.Header.Equals(object)
+  fullName: LiveKit.Proto.DataStream.Types.Header.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18545
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.DataStream.Types.Header.Equals*
+  nameWithType.vb: DataStream.Types.Header.Equals(Object)
+  fullName.vb: LiveKit.Proto.DataStream.Types.Header.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.DataStream.Types.Header.Equals(LiveKit.Proto.DataStream.Types.Header)
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.Equals(LiveKit.Proto.DataStream.Types.Header)
+  id: Equals(LiveKit.Proto.DataStream.Types.Header)
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: Equals(Header)
+  nameWithType: DataStream.Types.Header.Equals(DataStream.Types.Header)
+  fullName: LiveKit.Proto.DataStream.Types.Header.Equals(LiveKit.Proto.DataStream.Types.Header)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18551
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(DataStream.Types.Header other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DataStream.Types.Header
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As DataStream.Types.Header) As Boolean
+  overload: LiveKit.Proto.DataStream.Types.Header.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.DataStream.Types.Header}.Equals(LiveKit.Proto.DataStream.Types.Header)
+- uid: LiveKit.Proto.DataStream.Types.Header.GetHashCode
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: DataStream.Types.Header.GetHashCode()
+  fullName: LiveKit.Proto.DataStream.Types.Header.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18573
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.DataStream.Types.Header.GetHashCode*
+- uid: LiveKit.Proto.DataStream.Types.Header.ToString
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.ToString
+  id: ToString
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DataStream.Types.Header.ToString()
+  fullName: LiveKit.Proto.DataStream.Types.Header.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18593
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.DataStream.Types.Header.ToString*
+- uid: LiveKit.Proto.DataStream.Types.Header.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: DataStream.Types.Header.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.DataStream.Types.Header.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18599
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.DataStream.Types.Header.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.DataStream.Types.Header.CalculateSize
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: DataStream.Types.Header.CalculateSize()
+  fullName: LiveKit.Proto.DataStream.Types.Header.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18687
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.DataStream.Types.Header.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.DataStream.Types.Header.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  id: MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(Header)
+  nameWithType: DataStream.Types.Header.MergeFrom(DataStream.Types.Header)
+  fullName: LiveKit.Proto.DataStream.Types.Header.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18722
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(DataStream.Types.Header other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.DataStream.Types.Header
+    content.vb: Public Sub MergeFrom(other As DataStream.Types.Header)
+  overload: LiveKit.Proto.DataStream.Types.Header.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+- uid: LiveKit.Proto.DataStream.Types.Header.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.DataStream.Types.Header.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.DataStream.Types.Header
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: DataStream.Types.Header.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.DataStream.Types.Header.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 18765
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.DataStream.Types.Header.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.DataStream.html
+  name: IMessage<DataStream.Types.Header>
+  nameWithType: IMessage<DataStream.Types.Header>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.DataStream.Types.Header>
+  nameWithType.vb: IMessage(Of DataStream.Types.Header)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.DataStream.Types.Header)
+  name.vb: IMessage(Of DataStream.Types.Header)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.DataStream.Types.Header}
+  commentId: T:System.IEquatable{LiveKit.Proto.DataStream.Types.Header}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<DataStream.Types.Header>
+  nameWithType: IEquatable<DataStream.Types.Header>
+  fullName: System.IEquatable<LiveKit.Proto.DataStream.Types.Header>
+  nameWithType.vb: IEquatable(Of DataStream.Types.Header)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.DataStream.Types.Header)
+  name.vb: IEquatable(Of DataStream.Types.Header)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.DataStream.html
+  name: IDeepCloneable<DataStream.Types.Header>
+  nameWithType: IDeepCloneable<DataStream.Types.Header>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.DataStream.Types.Header>
+  nameWithType.vb: IDeepCloneable(Of DataStream.Types.Header)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.DataStream.Types.Header)
+  name.vb: IDeepCloneable(Of DataStream.Types.Header)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Header.Parser*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.Parser
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_Parser
+  name: Parser
+  nameWithType: DataStream.Types.Header.Parser
+  fullName: LiveKit.Proto.DataStream.Types.Header.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.DataStream.Types.Header}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.DataStream.Types.Header}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.DataStream.html
+  name: MessageParser<DataStream.Types.Header>
+  nameWithType: MessageParser<DataStream.Types.Header>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.DataStream.Types.Header>
+  nameWithType.vb: MessageParser(Of DataStream.Types.Header)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.DataStream.Types.Header)
+  name.vb: MessageParser(Of DataStream.Types.Header)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Header.Descriptor*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.Descriptor
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_Descriptor
+  name: Descriptor
+  nameWithType: DataStream.Types.Header.Descriptor
+  fullName: LiveKit.Proto.DataStream.Types.Header.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.DataStream.Types.Header.#ctor*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.#ctor
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header__ctor
+  name: Header
+  nameWithType: DataStream.Types.Header.Header
+  fullName: LiveKit.Proto.DataStream.Types.Header.Header
+  nameWithType.vb: DataStream.Types.Header.New
+  fullName.vb: LiveKit.Proto.DataStream.Types.Header.New
+  name.vb: New
+- uid: LiveKit.Proto.DataStream.Types.Header
+  commentId: T:LiveKit.Proto.DataStream.Types.Header
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DataStream.html
+  name: DataStream.Types.Header
+  nameWithType: DataStream.Types.Header
+  fullName: LiveKit.Proto.DataStream.Types.Header
+  spec.csharp:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  spec.vb:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+- uid: LiveKit.Proto.DataStream.Types.Header.Clone*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.Clone
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_Clone
+  name: Clone
+  nameWithType: DataStream.Types.Header.Clone
+  fullName: LiveKit.Proto.DataStream.Types.Header.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<DataStream.Types.Header>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.DataStream.Types.Header>.Clone()
+  nameWithType.vb: IDeepCloneable(Of DataStream.Types.Header).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.DataStream.Types.Header).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.DataStream.Types.Header}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.DataStream.Types.Header.StreamId*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.StreamId
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_StreamId
+  name: StreamId
+  nameWithType: DataStream.Types.Header.StreamId
+  fullName: LiveKit.Proto.DataStream.Types.Header.StreamId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.DataStream.Types.Header.Timestamp*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.Timestamp
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_Timestamp
+  name: Timestamp
+  nameWithType: DataStream.Types.Header.Timestamp
+  fullName: LiveKit.Proto.DataStream.Types.Header.Timestamp
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.DataStream.Types.Header.Topic*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.Topic
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_Topic
+  name: Topic
+  nameWithType: DataStream.Types.Header.Topic
+  fullName: LiveKit.Proto.DataStream.Types.Header.Topic
+- uid: LiveKit.Proto.DataStream.Types.Header.MimeType*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.MimeType
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_MimeType
+  name: MimeType
+  nameWithType: DataStream.Types.Header.MimeType
+  fullName: LiveKit.Proto.DataStream.Types.Header.MimeType
+- uid: LiveKit.Proto.DataStream.Types.Header.TotalLength*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.TotalLength
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_TotalLength
+  name: TotalLength
+  nameWithType: DataStream.Types.Header.TotalLength
+  fullName: LiveKit.Proto.DataStream.Types.Header.TotalLength
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: LiveKit.Proto.DataStream.Types.Header.HasTotalLength*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.HasTotalLength
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_HasTotalLength
+  name: HasTotalLength
+  nameWithType: DataStream.Types.Header.HasTotalLength
+  fullName: LiveKit.Proto.DataStream.Types.Header.HasTotalLength
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.DataStream.Types.Header.ClearTotalLength*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.ClearTotalLength
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_ClearTotalLength
+  name: ClearTotalLength
+  nameWithType: DataStream.Types.Header.ClearTotalLength
+  fullName: LiveKit.Proto.DataStream.Types.Header.ClearTotalLength
+- uid: LiveKit.Proto.DataStream.Types.Header.EncryptionType*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.EncryptionType
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_EncryptionType
+  name: EncryptionType
+  nameWithType: DataStream.Types.Header.EncryptionType
+  fullName: LiveKit.Proto.DataStream.Types.Header.EncryptionType
+- uid: LiveKit.Proto.Encryption.Types.Type
+  commentId: T:LiveKit.Proto.Encryption.Types.Type
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.Encryption.html
+  name: Encryption.Types.Type
+  nameWithType: Encryption.Types.Type
+  fullName: LiveKit.Proto.Encryption.Types.Type
+  spec.csharp:
+  - uid: LiveKit.Proto.Encryption
+    name: Encryption
+    href: LiveKit.Proto.Encryption.html
+  - name: .
+  - uid: LiveKit.Proto.Encryption.Types
+    name: Types
+    href: LiveKit.Proto.Encryption.Types.html
+  - name: .
+  - uid: LiveKit.Proto.Encryption.Types.Type
+    name: Type
+    href: LiveKit.Proto.Encryption.Types.Type.html
+  spec.vb:
+  - uid: LiveKit.Proto.Encryption
+    name: Encryption
+    href: LiveKit.Proto.Encryption.html
+  - name: .
+  - uid: LiveKit.Proto.Encryption.Types
+    name: Types
+    href: LiveKit.Proto.Encryption.Types.html
+  - name: .
+  - uid: LiveKit.Proto.Encryption.Types.Type
+    name: Type
+    href: LiveKit.Proto.Encryption.Types.Type.html
+- uid: LiveKit.Proto.DataStream.Types.Header.Attributes*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.Attributes
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_Attributes
+  name: Attributes
+  nameWithType: DataStream.Types.Header.Attributes
+  fullName: LiveKit.Proto.DataStream.Types.Header.Attributes
+- uid: Google.Protobuf.Collections.MapField{System.String,System.String}
+  commentId: T:Google.Protobuf.Collections.MapField{System.String,System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.MapField`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MapField<string, string>
+  nameWithType: MapField<string, string>
+  fullName: Google.Protobuf.Collections.MapField<string, string>
+  nameWithType.vb: MapField(Of String, String)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of String, String)
+  name.vb: MapField(Of String, String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.MapField`2
+  commentId: T:Google.Protobuf.Collections.MapField`2
+  isExternal: true
+  name: MapField<TKey, TValue>
+  nameWithType: MapField<TKey, TValue>
+  fullName: Google.Protobuf.Collections.MapField<TKey, TValue>
+  nameWithType.vb: MapField(Of TKey, TValue)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of TKey, TValue)
+  name.vb: MapField(Of TKey, TValue)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.DataStream.Types.Header.TextHeader*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.TextHeader
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_TextHeader
+  name: TextHeader
+  nameWithType: DataStream.Types.Header.TextHeader
+  fullName: LiveKit.Proto.DataStream.Types.Header.TextHeader
+- uid: LiveKit.Proto.DataStream.Types.TextHeader
+  commentId: T:LiveKit.Proto.DataStream.Types.TextHeader
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DataStream.html
+  name: DataStream.Types.TextHeader
+  nameWithType: DataStream.Types.TextHeader
+  fullName: LiveKit.Proto.DataStream.Types.TextHeader
+  spec.csharp:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.TextHeader
+    name: TextHeader
+    href: LiveKit.Proto.DataStream.Types.TextHeader.html
+  spec.vb:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.TextHeader
+    name: TextHeader
+    href: LiveKit.Proto.DataStream.Types.TextHeader.html
+- uid: LiveKit.Proto.DataStream.Types.Header.ByteHeader*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.ByteHeader
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_ByteHeader
+  name: ByteHeader
+  nameWithType: DataStream.Types.Header.ByteHeader
+  fullName: LiveKit.Proto.DataStream.Types.Header.ByteHeader
+- uid: LiveKit.Proto.DataStream.Types.ByteHeader
+  commentId: T:LiveKit.Proto.DataStream.Types.ByteHeader
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DataStream.html
+  name: DataStream.Types.ByteHeader
+  nameWithType: DataStream.Types.ByteHeader
+  fullName: LiveKit.Proto.DataStream.Types.ByteHeader
+  spec.csharp:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.ByteHeader
+    name: ByteHeader
+    href: LiveKit.Proto.DataStream.Types.ByteHeader.html
+  spec.vb:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.ByteHeader
+    name: ByteHeader
+    href: LiveKit.Proto.DataStream.Types.ByteHeader.html
+- uid: LiveKit.Proto.DataStream.Types.Header.ContentHeaderCase*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.ContentHeaderCase
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_ContentHeaderCase
+  name: ContentHeaderCase
+  nameWithType: DataStream.Types.Header.ContentHeaderCase
+  fullName: LiveKit.Proto.DataStream.Types.Header.ContentHeaderCase
+- uid: LiveKit.Proto.DataStream.Types.Header.ContentHeaderOneofCase
+  commentId: T:LiveKit.Proto.DataStream.Types.Header.ContentHeaderOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DataStream.html
+  name: DataStream.Types.Header.ContentHeaderOneofCase
+  nameWithType: DataStream.Types.Header.ContentHeaderOneofCase
+  fullName: LiveKit.Proto.DataStream.Types.Header.ContentHeaderOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header.ContentHeaderOneofCase
+    name: ContentHeaderOneofCase
+    href: LiveKit.Proto.DataStream.Types.Header.ContentHeaderOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.DataStream
+    name: DataStream
+    href: LiveKit.Proto.DataStream.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types
+    name: Types
+    href: LiveKit.Proto.DataStream.Types.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: .
+  - uid: LiveKit.Proto.DataStream.Types.Header.ContentHeaderOneofCase
+    name: ContentHeaderOneofCase
+    href: LiveKit.Proto.DataStream.Types.Header.ContentHeaderOneofCase.html
+- uid: LiveKit.Proto.DataStream.Types.Header.ClearContentHeader*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.ClearContentHeader
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_ClearContentHeader
+  name: ClearContentHeader
+  nameWithType: DataStream.Types.Header.ClearContentHeader
+  fullName: LiveKit.Proto.DataStream.Types.Header.ClearContentHeader
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Header.Equals*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.Equals
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_Equals_System_Object_
+  name: Equals
+  nameWithType: DataStream.Types.Header.Equals
+  fullName: LiveKit.Proto.DataStream.Types.Header.Equals
+- uid: System.IEquatable{LiveKit.Proto.DataStream.Types.Header}.Equals(LiveKit.Proto.DataStream.Types.Header)
+  commentId: M:System.IEquatable{LiveKit.Proto.DataStream.Types.Header}.Equals(LiveKit.Proto.DataStream.Types.Header)
+  parent: System.IEquatable{LiveKit.Proto.DataStream.Types.Header}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(Header)
+  nameWithType: IEquatable<DataStream.Types.Header>.Equals(DataStream.Types.Header)
+  fullName: System.IEquatable<LiveKit.Proto.DataStream.Types.Header>.Equals(LiveKit.Proto.DataStream.Types.Header)
+  nameWithType.vb: IEquatable(Of DataStream.Types.Header).Equals(DataStream.Types.Header)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.DataStream.Types.Header).Equals(LiveKit.Proto.DataStream.Types.Header)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.DataStream.Types.Header}.Equals(LiveKit.Proto.DataStream.Types.Header)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.DataStream.Types.Header}.Equals(LiveKit.Proto.DataStream.Types.Header)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Header.GetHashCode*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.GetHashCode
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_GetHashCode
+  name: GetHashCode
+  nameWithType: DataStream.Types.Header.GetHashCode
+  fullName: LiveKit.Proto.DataStream.Types.Header.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Header.ToString*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.ToString
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_ToString
+  name: ToString
+  nameWithType: DataStream.Types.Header.ToString
+  fullName: LiveKit.Proto.DataStream.Types.Header.ToString
+- uid: LiveKit.Proto.DataStream.Types.Header.WriteTo*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.WriteTo
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: DataStream.Types.Header.WriteTo
+  fullName: LiveKit.Proto.DataStream.Types.Header.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.DataStream.Types.Header.CalculateSize*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.CalculateSize
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_CalculateSize
+  name: CalculateSize
+  nameWithType: DataStream.Types.Header.CalculateSize
+  fullName: LiveKit.Proto.DataStream.Types.Header.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.DataStream.Types.Header.MergeFrom*
+  commentId: Overload:LiveKit.Proto.DataStream.Types.Header.MergeFrom
+  href: LiveKit.Proto.DataStream.Types.Header.html#LiveKit_Proto_DataStream_Types_Header_MergeFrom_LiveKit_Proto_DataStream_Types_Header_
+  name: MergeFrom
+  nameWithType: DataStream.Types.Header.MergeFrom
+  fullName: LiveKit.Proto.DataStream.Types.Header.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.DataStream.Types.Header.html
+  name: MergeFrom(Header)
+  nameWithType: IMessage<DataStream.Types.Header>.MergeFrom(DataStream.Types.Header)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.DataStream.Types.Header>.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  nameWithType.vb: IMessage(Of DataStream.Types.Header).MergeFrom(DataStream.Types.Header)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.DataStream.Types.Header).MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.DataStream.Types.Header}.MergeFrom(LiveKit.Proto.DataStream.Types.Header)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.DataStream.Types.Header
+    name: Header
+    href: LiveKit.Proto.DataStream.Types.Header.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

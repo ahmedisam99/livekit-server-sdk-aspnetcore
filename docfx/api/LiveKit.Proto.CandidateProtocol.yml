@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.CandidateProtocol
+  commentId: T:LiveKit.Proto.CandidateProtocol
+  id: CandidateProtocol
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.CandidateProtocol.Tcp
+  - LiveKit.Proto.CandidateProtocol.Tls
+  - LiveKit.Proto.CandidateProtocol.Udp
+  langs:
+  - csharp
+  - vb
+  name: CandidateProtocol
+  nameWithType: CandidateProtocol
+  fullName: LiveKit.Proto.CandidateProtocol
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CandidateProtocol
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 303
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum CandidateProtocol
+    content.vb: Public Enum CandidateProtocol
+- uid: LiveKit.Proto.CandidateProtocol.Udp
+  commentId: F:LiveKit.Proto.CandidateProtocol.Udp
+  id: Udp
+  parent: LiveKit.Proto.CandidateProtocol
+  langs:
+  - csharp
+  - vb
+  name: Udp
+  nameWithType: CandidateProtocol.Udp
+  fullName: LiveKit.Proto.CandidateProtocol.Udp
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Udp
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 304
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("UDP")]
+
+      Udp = 0
+    return:
+      type: LiveKit.Proto.CandidateProtocol
+    content.vb: >-
+      <OriginalName("UDP")>
+
+      Udp = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: UDP
+- uid: LiveKit.Proto.CandidateProtocol.Tcp
+  commentId: F:LiveKit.Proto.CandidateProtocol.Tcp
+  id: Tcp
+  parent: LiveKit.Proto.CandidateProtocol
+  langs:
+  - csharp
+  - vb
+  name: Tcp
+  nameWithType: CandidateProtocol.Tcp
+  fullName: LiveKit.Proto.CandidateProtocol.Tcp
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Tcp
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 305
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TCP")]
+
+      Tcp = 1
+    return:
+      type: LiveKit.Proto.CandidateProtocol
+    content.vb: >-
+      <OriginalName("TCP")>
+
+      Tcp = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TCP
+- uid: LiveKit.Proto.CandidateProtocol.Tls
+  commentId: F:LiveKit.Proto.CandidateProtocol.Tls
+  id: Tls
+  parent: LiveKit.Proto.CandidateProtocol
+  langs:
+  - csharp
+  - vb
+  name: Tls
+  nameWithType: CandidateProtocol.Tls
+  fullName: LiveKit.Proto.CandidateProtocol.Tls
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Tls
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 306
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TLS")]
+
+      Tls = 2
+    return:
+      type: LiveKit.Proto.CandidateProtocol
+    content.vb: >-
+      <OriginalName("TLS")>
+
+      Tls = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TLS
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.CandidateProtocol
+  commentId: T:LiveKit.Proto.CandidateProtocol
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CandidateProtocol.html
+  name: CandidateProtocol
+  nameWithType: CandidateProtocol
+  fullName: LiveKit.Proto.CandidateProtocol

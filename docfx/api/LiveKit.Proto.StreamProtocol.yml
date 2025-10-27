@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.StreamProtocol
+  commentId: T:LiveKit.Proto.StreamProtocol
+  id: StreamProtocol
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.StreamProtocol.DefaultProtocol
+  - LiveKit.Proto.StreamProtocol.Rtmp
+  - LiveKit.Proto.StreamProtocol.Srt
+  langs:
+  - csharp
+  - vb
+  name: StreamProtocol
+  nameWithType: StreamProtocol
+  fullName: LiveKit.Proto.StreamProtocol
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamProtocol
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 294
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum StreamProtocol
+    content.vb: Public Enum StreamProtocol
+- uid: LiveKit.Proto.StreamProtocol.DefaultProtocol
+  commentId: F:LiveKit.Proto.StreamProtocol.DefaultProtocol
+  id: DefaultProtocol
+  parent: LiveKit.Proto.StreamProtocol
+  langs:
+  - csharp
+  - vb
+  name: DefaultProtocol
+  nameWithType: StreamProtocol.DefaultProtocol
+  fullName: LiveKit.Proto.StreamProtocol.DefaultProtocol
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DefaultProtocol
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 298
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: protocol chosen based on urls
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("DEFAULT_PROTOCOL")]
+
+      DefaultProtocol = 0
+    return:
+      type: LiveKit.Proto.StreamProtocol
+    content.vb: >-
+      <OriginalName("DEFAULT_PROTOCOL")>
+
+      DefaultProtocol = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DEFAULT_PROTOCOL
+- uid: LiveKit.Proto.StreamProtocol.Rtmp
+  commentId: F:LiveKit.Proto.StreamProtocol.Rtmp
+  id: Rtmp
+  parent: LiveKit.Proto.StreamProtocol
+  langs:
+  - csharp
+  - vb
+  name: Rtmp
+  nameWithType: StreamProtocol.Rtmp
+  fullName: LiveKit.Proto.StreamProtocol.Rtmp
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Rtmp
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 299
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("RTMP")]
+
+      Rtmp = 1
+    return:
+      type: LiveKit.Proto.StreamProtocol
+    content.vb: >-
+      <OriginalName("RTMP")>
+
+      Rtmp = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RTMP
+- uid: LiveKit.Proto.StreamProtocol.Srt
+  commentId: F:LiveKit.Proto.StreamProtocol.Srt
+  id: Srt
+  parent: LiveKit.Proto.StreamProtocol
+  langs:
+  - csharp
+  - vb
+  name: Srt
+  nameWithType: StreamProtocol.Srt
+  fullName: LiveKit.Proto.StreamProtocol.Srt
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Srt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 300
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SRT")]
+
+      Srt = 2
+    return:
+      type: LiveKit.Proto.StreamProtocol
+    content.vb: >-
+      <OriginalName("SRT")>
+
+      Srt = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SRT
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.StreamProtocol
+  commentId: T:LiveKit.Proto.StreamProtocol
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.StreamProtocol.html
+  name: StreamProtocol
+  nameWithType: StreamProtocol
+  fullName: LiveKit.Proto.StreamProtocol

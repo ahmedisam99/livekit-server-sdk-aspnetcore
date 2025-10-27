@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LiveKitRoomService | livekit-server-sdk-aspnetcore </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LiveKitRoomService | livekit-server-sdk-aspnetcore ">
+      
+      <meta name="description" content="Service for managing LiveKit rooms and participants.  Provides methods for room creation, participant management, and room operations. See LiveKit Room Service Documentation for more information.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/new/main/apiSpec/new?filename=LiveKit_Services_LiveKitRoomService.md&amp;value=---%0Auid%3A%20LiveKit.Services.LiveKitRoomService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="livekit-server-sdk-aspnetcore">
+            livekit-server-sdk-aspnetcore
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveKit.Services.LiveKitRoomService">
+
+
+
+  <h1 id="LiveKit_Services_LiveKitRoomService" data-uid="LiveKit.Services.LiveKitRoomService" class="text-break">
+Class LiveKitRoomService  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveKit.html">LiveKit</a>.<a class="xref" href="LiveKit.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveKit.AspNetCore.ServerSdk.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Service for managing LiveKit rooms and participants.</p>
+<p>
+Provides methods for room creation, participant management, and room operations.
+See <a href="https://docs.livekit.io/reference/server/server-apis/#room-service">LiveKit Room Service Documentation</a> for more information.
+</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class LiveKitRoomService : TwirpClient, ILiveKitRoomService</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="LiveKit.Services.TwirpClient.html">TwirpClient</a></div>
+      <div><span class="xref">LiveKitRoomService</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="LiveKit.Services.ILiveKitRoomService.html">ILiveKitRoomService</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveKit_Services_LiveKitRoomService__ctor_" data-uid="LiveKit.Services.LiveKitRoomService.#ctor*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Logging_ILogger_LiveKit_Services_LiveKitRoomService__LiveKit_Authentication_ILiveKitTokenService_" data-uid="LiveKit.Services.LiveKitRoomService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitRoomService},LiveKit.Authentication.ILiveKitTokenService)">
+  LiveKitRoomService(HttpClient, ILogger&lt;LiveKitRoomService&gt;, ILiveKitTokenService)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="LiveKit.Services.LiveKitRoomService.html">LiveKitRoomService</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LiveKitRoomService(HttpClient httpClient, ILogger&lt;LiveKitRoomService&gt; logger, ILiveKitTokenService _tokenService)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>httpClient</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd></dd>
+    <dt><code>logger</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;<a class="xref" href="LiveKit.Services.LiveKitRoomService.html">LiveKitRoomService</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>_tokenService</code> <a class="xref" href="LiveKit.Authentication.ILiveKitTokenService.html">ILiveKitTokenService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_CreateRoomAsync_" data-uid="LiveKit.Services.LiveKitRoomService.CreateRoomAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_CreateRoomAsync_LiveKit_Proto_CreateRoomRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.CreateRoomAsync(LiveKit.Proto.CreateRoomRequest,System.Threading.CancellationToken)">
+  CreateRoomAsync(CreateRoomRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a room with settings. Requires <code>roomCreate</code> permission.
+This method is optional; rooms are automatically created when clients connect to them for the first time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Room&gt; CreateRoomAsync(CreateRoomRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.CreateRoomRequest.html">CreateRoomRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.Room.html">Room</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_DeleteRoomAsync_" data-uid="LiveKit.Services.LiveKitRoomService.DeleteRoomAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_DeleteRoomAsync_LiveKit_Proto_DeleteRoomRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.DeleteRoomAsync(LiveKit.Proto.DeleteRoomRequest,System.Threading.CancellationToken)">
+  DeleteRoomAsync(DeleteRoomRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes an existing room by name or id. Requires <code>roomCreate</code> permission.
+DeleteRoom will disconnect all participants that are currently in the room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DeleteRoomResponse&gt; DeleteRoomAsync(DeleteRoomRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.DeleteRoomRequest.html">DeleteRoomRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.DeleteRoomResponse.html">DeleteRoomResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_ForwardParticipantAsync_" data-uid="LiveKit.Services.LiveKitRoomService.ForwardParticipantAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_ForwardParticipantAsync_LiveKit_Proto_ForwardParticipantRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.ForwardParticipantAsync(LiveKit.Proto.ForwardParticipantRequest,System.Threading.CancellationToken)">
+  ForwardParticipantAsync(ForwardParticipantRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cloud-only: Forwards a connected participant's track(s) to another room. Requires <code>roomAdmin</code> and <code>destinationRoom</code> permissions.
+The forwarding will stop when the participant leaves the room or RemoveParticipant has been called in the destination room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ForwardParticipantResponse&gt; ForwardParticipantAsync(ForwardParticipantRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.ForwardParticipantRequest.html">ForwardParticipantRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ForwardParticipantResponse.html">ForwardParticipantResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_GetParticipantAsync_" data-uid="LiveKit.Services.LiveKitRoomService.GetParticipantAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_GetParticipantAsync_LiveKit_Proto_RoomParticipantIdentity_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.GetParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)">
+  GetParticipantAsync(RoomParticipantIdentity, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets information on a specific participant. Requires <code>roomAdmin</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ParticipantInfo&gt; GetParticipantAsync(RoomParticipantIdentity request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.RoomParticipantIdentity.html">RoomParticipantIdentity</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ParticipantInfo.html">ParticipantInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_ListParticipantsAsync_" data-uid="LiveKit.Services.LiveKitRoomService.ListParticipantsAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_ListParticipantsAsync_LiveKit_Proto_ListParticipantsRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.ListParticipantsAsync(LiveKit.Proto.ListParticipantsRequest,System.Threading.CancellationToken)">
+  ListParticipantsAsync(ListParticipantsRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lists participants in a room. Requires <code>roomAdmin</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ListParticipantsResponse&gt; ListParticipantsAsync(ListParticipantsRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.ListParticipantsRequest.html">ListParticipantsRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ListParticipantsResponse.html">ListParticipantsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_ListRoomsAsync_" data-uid="LiveKit.Services.LiveKitRoomService.ListRoomsAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_ListRoomsAsync_LiveKit_Proto_ListRoomsRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.ListRoomsAsync(LiveKit.Proto.ListRoomsRequest,System.Threading.CancellationToken)">
+  ListRoomsAsync(ListRoomsRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Lists rooms that are active on the server. Requires <code>roomList</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ListRoomsResponse&gt; ListRoomsAsync(ListRoomsRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.ListRoomsRequest.html">ListRoomsRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ListRoomsResponse.html">ListRoomsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_MoveParticipantAsync_" data-uid="LiveKit.Services.LiveKitRoomService.MoveParticipantAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_MoveParticipantAsync_LiveKit_Proto_MoveParticipantRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.MoveParticipantAsync(LiveKit.Proto.MoveParticipantRequest,System.Threading.CancellationToken)">
+  MoveParticipantAsync(MoveParticipantRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cloud-only: Moves a connected participant to a different room. Requires <code>roomAdmin</code> and <code>destinationRoom</code> permissions.
+The participant will be removed from the current room and added to the destination room.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MoveParticipantResponse&gt; MoveParticipantAsync(MoveParticipantRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.MoveParticipantRequest.html">MoveParticipantRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.MoveParticipantResponse.html">MoveParticipantResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_MutePublishedTrackAsync_" data-uid="LiveKit.Services.LiveKitRoomService.MutePublishedTrackAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_MutePublishedTrackAsync_LiveKit_Proto_MuteRoomTrackRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.MutePublishedTrackAsync(LiveKit.Proto.MuteRoomTrackRequest,System.Threading.CancellationToken)">
+  MutePublishedTrackAsync(MuteRoomTrackRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mutes or unmutes a participant's track. Requires <code>roomAdmin</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MuteRoomTrackResponse&gt; MutePublishedTrackAsync(MuteRoomTrackRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.MuteRoomTrackRequest.html">MuteRoomTrackRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.MuteRoomTrackResponse.html">MuteRoomTrackResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_PerformRpcAsync_" data-uid="LiveKit.Services.LiveKitRoomService.PerformRpcAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_PerformRpcAsync_LiveKit_Proto_PerformRpcRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.PerformRpcAsync(LiveKit.Proto.PerformRpcRequest,System.Threading.CancellationToken)">
+  PerformRpcAsync(PerformRpcRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Performs an RPC call to a participant.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PerformRpcResponse&gt; PerformRpcAsync(PerformRpcRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.PerformRpcRequest.html">PerformRpcRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.PerformRpcResponse.html">PerformRpcResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_RemoveParticipantAsync_" data-uid="LiveKit.Services.LiveKitRoomService.RemoveParticipantAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_RemoveParticipantAsync_LiveKit_Proto_RoomParticipantIdentity_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.RemoveParticipantAsync(LiveKit.Proto.RoomParticipantIdentity,System.Threading.CancellationToken)">
+  RemoveParticipantAsync(RoomParticipantIdentity, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Removes a participant from room. Requires <code>roomAdmin</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RemoveParticipantResponse&gt; RemoveParticipantAsync(RoomParticipantIdentity request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.RoomParticipantIdentity.html">RoomParticipantIdentity</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.RemoveParticipantResponse.html">RemoveParticipantResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_SendDataAsync_" data-uid="LiveKit.Services.LiveKitRoomService.SendDataAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_SendDataAsync_LiveKit_Proto_SendDataRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.SendDataAsync(LiveKit.Proto.SendDataRequest,System.Threading.CancellationToken)">
+  SendDataAsync(SendDataRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sends data over data channel to participants in a room. Requires <code>roomAdmin</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;SendDataResponse&gt; SendDataAsync(SendDataRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.SendDataRequest.html">SendDataRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.SendDataResponse.html">SendDataResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_UpdateParticipantAsync_" data-uid="LiveKit.Services.LiveKitRoomService.UpdateParticipantAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_UpdateParticipantAsync_LiveKit_Proto_UpdateParticipantRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.UpdateParticipantAsync(LiveKit.Proto.UpdateParticipantRequest,System.Threading.CancellationToken)">
+  UpdateParticipantAsync(UpdateParticipantRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates participant metadata. Will cause updates to be broadcasted to everyone in the room. Requires <code>roomAdmin</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;ParticipantInfo&gt; UpdateParticipantAsync(UpdateParticipantRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.UpdateParticipantRequest.html">UpdateParticipantRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.ParticipantInfo.html">ParticipantInfo</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_UpdateRoomMetadataAsync_" data-uid="LiveKit.Services.LiveKitRoomService.UpdateRoomMetadataAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_UpdateRoomMetadataAsync_LiveKit_Proto_UpdateRoomMetadataRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.UpdateRoomMetadataAsync(LiveKit.Proto.UpdateRoomMetadataRequest,System.Threading.CancellationToken)">
+  UpdateRoomMetadataAsync(UpdateRoomMetadataRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates room metadata. Will cause updates to be broadcasted to everyone in the room. Requires <code>roomAdmin</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Room&gt; UpdateRoomMetadataAsync(UpdateRoomMetadataRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.UpdateRoomMetadataRequest.html">UpdateRoomMetadataRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.Room.html">Room</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveKit_Services_LiveKitRoomService_UpdateSubscriptionsAsync_" data-uid="LiveKit.Services.LiveKitRoomService.UpdateSubscriptionsAsync*"></a>
+
+  <h3 id="LiveKit_Services_LiveKitRoomService_UpdateSubscriptionsAsync_LiveKit_Proto_UpdateSubscriptionsRequest_System_Threading_CancellationToken_" data-uid="LiveKit.Services.LiveKitRoomService.UpdateSubscriptionsAsync(LiveKit.Proto.UpdateSubscriptionsRequest,System.Threading.CancellationToken)">
+  UpdateSubscriptionsAsync(UpdateSubscriptionsRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Subscribes or unsubscribes a participant from tracks. Requires <code>roomAdmin</code> permission.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;UpdateSubscriptionsResponse&gt; UpdateSubscriptionsAsync(UpdateSubscriptionsRequest request, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="LiveKit.Proto.UpdateSubscriptionsRequest.html">UpdateSubscriptionsRequest</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="LiveKit.Proto.UpdateSubscriptionsResponse.html">UpdateSubscriptionsResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/ahmedisam99/livekit-server-sdk-aspnetcore/blob/main/LiveKit.AspNetCore.ServerSdk/Services/LiveKitRoomService.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

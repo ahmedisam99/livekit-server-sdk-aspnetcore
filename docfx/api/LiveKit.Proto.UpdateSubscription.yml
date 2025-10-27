@@ -1,0 +1,1660 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.UpdateSubscription
+  commentId: T:LiveKit.Proto.UpdateSubscription
+  id: UpdateSubscription
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.UpdateSubscription.#ctor
+  - LiveKit.Proto.UpdateSubscription.#ctor(LiveKit.Proto.UpdateSubscription)
+  - LiveKit.Proto.UpdateSubscription.CalculateSize
+  - LiveKit.Proto.UpdateSubscription.Clone
+  - LiveKit.Proto.UpdateSubscription.Descriptor
+  - LiveKit.Proto.UpdateSubscription.Equals(LiveKit.Proto.UpdateSubscription)
+  - LiveKit.Proto.UpdateSubscription.Equals(System.Object)
+  - LiveKit.Proto.UpdateSubscription.GetHashCode
+  - LiveKit.Proto.UpdateSubscription.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.UpdateSubscription.MergeFrom(LiveKit.Proto.UpdateSubscription)
+  - LiveKit.Proto.UpdateSubscription.Parser
+  - LiveKit.Proto.UpdateSubscription.ParticipantTracks
+  - LiveKit.Proto.UpdateSubscription.ParticipantTracksFieldNumber
+  - LiveKit.Proto.UpdateSubscription.Subscribe
+  - LiveKit.Proto.UpdateSubscription.SubscribeFieldNumber
+  - LiveKit.Proto.UpdateSubscription.ToString
+  - LiveKit.Proto.UpdateSubscription.TrackSids
+  - LiveKit.Proto.UpdateSubscription.TrackSidsFieldNumber
+  - LiveKit.Proto.UpdateSubscription.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: UpdateSubscription
+  nameWithType: UpdateSubscription
+  fullName: LiveKit.Proto.UpdateSubscription
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateSubscription
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6612
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class UpdateSubscription : IMessage<UpdateSubscription>, IEquatable<UpdateSubscription>, IDeepCloneable<UpdateSubscription>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class UpdateSubscription Implements IMessage(Of UpdateSubscription), IEquatable(Of UpdateSubscription), IDeepCloneable(Of UpdateSubscription), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}
+  - System.IEquatable{LiveKit.Proto.UpdateSubscription}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.UpdateSubscription.Parser
+  commentId: P:LiveKit.Proto.UpdateSubscription.Parser
+  id: Parser
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: UpdateSubscription.Parser
+  fullName: LiveKit.Proto.UpdateSubscription.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6620
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<UpdateSubscription> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.UpdateSubscription}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of UpdateSubscription)
+  overload: LiveKit.Proto.UpdateSubscription.Parser*
+- uid: LiveKit.Proto.UpdateSubscription.Descriptor
+  commentId: P:LiveKit.Proto.UpdateSubscription.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: UpdateSubscription.Descriptor
+  fullName: LiveKit.Proto.UpdateSubscription.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6624
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.UpdateSubscription.Descriptor*
+- uid: LiveKit.Proto.UpdateSubscription.#ctor
+  commentId: M:LiveKit.Proto.UpdateSubscription.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: UpdateSubscription()
+  nameWithType: UpdateSubscription.UpdateSubscription()
+  fullName: LiveKit.Proto.UpdateSubscription.UpdateSubscription()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6636
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateSubscription()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.UpdateSubscription.#ctor*
+  nameWithType.vb: UpdateSubscription.New()
+  fullName.vb: LiveKit.Proto.UpdateSubscription.New()
+  name.vb: New()
+- uid: LiveKit.Proto.UpdateSubscription.#ctor(LiveKit.Proto.UpdateSubscription)
+  commentId: M:LiveKit.Proto.UpdateSubscription.#ctor(LiveKit.Proto.UpdateSubscription)
+  id: '#ctor(LiveKit.Proto.UpdateSubscription)'
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: UpdateSubscription(UpdateSubscription)
+  nameWithType: UpdateSubscription.UpdateSubscription(UpdateSubscription)
+  fullName: LiveKit.Proto.UpdateSubscription.UpdateSubscription(LiveKit.Proto.UpdateSubscription)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6644
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public UpdateSubscription(UpdateSubscription other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateSubscription
+    content.vb: Public Sub New(other As UpdateSubscription)
+  overload: LiveKit.Proto.UpdateSubscription.#ctor*
+  nameWithType.vb: UpdateSubscription.New(UpdateSubscription)
+  fullName.vb: LiveKit.Proto.UpdateSubscription.New(LiveKit.Proto.UpdateSubscription)
+  name.vb: New(UpdateSubscription)
+- uid: LiveKit.Proto.UpdateSubscription.Clone
+  commentId: M:LiveKit.Proto.UpdateSubscription.Clone
+  id: Clone
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: UpdateSubscription.Clone()
+  fullName: LiveKit.Proto.UpdateSubscription.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6653
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public UpdateSubscription Clone()
+    return:
+      type: LiveKit.Proto.UpdateSubscription
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As UpdateSubscription
+  overload: LiveKit.Proto.UpdateSubscription.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}.Clone
+- uid: LiveKit.Proto.UpdateSubscription.TrackSidsFieldNumber
+  commentId: F:LiveKit.Proto.UpdateSubscription.TrackSidsFieldNumber
+  id: TrackSidsFieldNumber
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: TrackSidsFieldNumber
+  nameWithType: UpdateSubscription.TrackSidsFieldNumber
+  fullName: LiveKit.Proto.UpdateSubscription.TrackSidsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSidsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6660
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "track_sids" field.
+  example: []
+  syntax:
+    content: public const int TrackSidsFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const TrackSidsFieldNumber As Integer = 1
+- uid: LiveKit.Proto.UpdateSubscription.TrackSids
+  commentId: P:LiveKit.Proto.UpdateSubscription.TrackSids
+  id: TrackSids
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: TrackSids
+  nameWithType: UpdateSubscription.TrackSids
+  fullName: LiveKit.Proto.UpdateSubscription.TrackSids
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSids
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6664
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<string> TrackSids { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{System.String}
+    content.vb: Public ReadOnly Property TrackSids As RepeatedField(Of String)
+  overload: LiveKit.Proto.UpdateSubscription.TrackSids*
+- uid: LiveKit.Proto.UpdateSubscription.SubscribeFieldNumber
+  commentId: F:LiveKit.Proto.UpdateSubscription.SubscribeFieldNumber
+  id: SubscribeFieldNumber
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: SubscribeFieldNumber
+  nameWithType: UpdateSubscription.SubscribeFieldNumber
+  fullName: LiveKit.Proto.UpdateSubscription.SubscribeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SubscribeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6671
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "subscribe" field.
+  example: []
+  syntax:
+    content: public const int SubscribeFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const SubscribeFieldNumber As Integer = 2
+- uid: LiveKit.Proto.UpdateSubscription.Subscribe
+  commentId: P:LiveKit.Proto.UpdateSubscription.Subscribe
+  id: Subscribe
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: Subscribe
+  nameWithType: UpdateSubscription.Subscribe
+  fullName: LiveKit.Proto.UpdateSubscription.Subscribe
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Subscribe
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6673
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool Subscribe { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Subscribe As Boolean
+  overload: LiveKit.Proto.UpdateSubscription.Subscribe*
+- uid: LiveKit.Proto.UpdateSubscription.ParticipantTracksFieldNumber
+  commentId: F:LiveKit.Proto.UpdateSubscription.ParticipantTracksFieldNumber
+  id: ParticipantTracksFieldNumber
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: ParticipantTracksFieldNumber
+  nameWithType: UpdateSubscription.ParticipantTracksFieldNumber
+  fullName: LiveKit.Proto.UpdateSubscription.ParticipantTracksFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantTracksFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6683
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "participant_tracks" field.
+  example: []
+  syntax:
+    content: public const int ParticipantTracksFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const ParticipantTracksFieldNumber As Integer = 3
+- uid: LiveKit.Proto.UpdateSubscription.ParticipantTracks
+  commentId: P:LiveKit.Proto.UpdateSubscription.ParticipantTracks
+  id: ParticipantTracks
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: ParticipantTracks
+  nameWithType: UpdateSubscription.ParticipantTracks
+  fullName: LiveKit.Proto.UpdateSubscription.ParticipantTracks
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantTracks
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6687
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<ParticipantTracks> ParticipantTracks { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantTracks}
+    content.vb: Public ReadOnly Property ParticipantTracks As RepeatedField(Of ParticipantTracks)
+  overload: LiveKit.Proto.UpdateSubscription.ParticipantTracks*
+- uid: LiveKit.Proto.UpdateSubscription.Equals(System.Object)
+  commentId: M:LiveKit.Proto.UpdateSubscription.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: UpdateSubscription.Equals(object)
+  fullName: LiveKit.Proto.UpdateSubscription.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6693
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.UpdateSubscription.Equals*
+  nameWithType.vb: UpdateSubscription.Equals(Object)
+  fullName.vb: LiveKit.Proto.UpdateSubscription.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.UpdateSubscription.Equals(LiveKit.Proto.UpdateSubscription)
+  commentId: M:LiveKit.Proto.UpdateSubscription.Equals(LiveKit.Proto.UpdateSubscription)
+  id: Equals(LiveKit.Proto.UpdateSubscription)
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: Equals(UpdateSubscription)
+  nameWithType: UpdateSubscription.Equals(UpdateSubscription)
+  fullName: LiveKit.Proto.UpdateSubscription.Equals(LiveKit.Proto.UpdateSubscription)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6699
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(UpdateSubscription other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateSubscription
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As UpdateSubscription) As Boolean
+  overload: LiveKit.Proto.UpdateSubscription.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.UpdateSubscription}.Equals(LiveKit.Proto.UpdateSubscription)
+- uid: LiveKit.Proto.UpdateSubscription.GetHashCode
+  commentId: M:LiveKit.Proto.UpdateSubscription.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: UpdateSubscription.GetHashCode()
+  fullName: LiveKit.Proto.UpdateSubscription.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6714
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.UpdateSubscription.GetHashCode*
+- uid: LiveKit.Proto.UpdateSubscription.ToString
+  commentId: M:LiveKit.Proto.UpdateSubscription.ToString
+  id: ToString
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UpdateSubscription.ToString()
+  fullName: LiveKit.Proto.UpdateSubscription.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6727
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.UpdateSubscription.ToString*
+- uid: LiveKit.Proto.UpdateSubscription.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.UpdateSubscription.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: UpdateSubscription.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.UpdateSubscription.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6733
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.UpdateSubscription.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.UpdateSubscription.CalculateSize
+  commentId: M:LiveKit.Proto.UpdateSubscription.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: UpdateSubscription.CalculateSize()
+  fullName: LiveKit.Proto.UpdateSubscription.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6767
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.UpdateSubscription.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.UpdateSubscription.MergeFrom(LiveKit.Proto.UpdateSubscription)
+  commentId: M:LiveKit.Proto.UpdateSubscription.MergeFrom(LiveKit.Proto.UpdateSubscription)
+  id: MergeFrom(LiveKit.Proto.UpdateSubscription)
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(UpdateSubscription)
+  nameWithType: UpdateSubscription.MergeFrom(UpdateSubscription)
+  fullName: LiveKit.Proto.UpdateSubscription.MergeFrom(LiveKit.Proto.UpdateSubscription)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6782
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(UpdateSubscription other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.UpdateSubscription
+    content.vb: Public Sub MergeFrom(other As UpdateSubscription)
+  overload: LiveKit.Proto.UpdateSubscription.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}.MergeFrom(LiveKit.Proto.UpdateSubscription)
+- uid: LiveKit.Proto.UpdateSubscription.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.UpdateSubscription.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.UpdateSubscription
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: UpdateSubscription.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.UpdateSubscription.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRtc.cs
+    startLine: 6796
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.UpdateSubscription.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.UpdateSubscription.html
+  name: IMessage<UpdateSubscription>
+  nameWithType: IMessage<UpdateSubscription>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.UpdateSubscription>
+  nameWithType.vb: IMessage(Of UpdateSubscription)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.UpdateSubscription)
+  name.vb: IMessage(Of UpdateSubscription)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.UpdateSubscription}
+  commentId: T:System.IEquatable{LiveKit.Proto.UpdateSubscription}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<UpdateSubscription>
+  nameWithType: IEquatable<UpdateSubscription>
+  fullName: System.IEquatable<LiveKit.Proto.UpdateSubscription>
+  nameWithType.vb: IEquatable(Of UpdateSubscription)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.UpdateSubscription)
+  name.vb: IEquatable(Of UpdateSubscription)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.UpdateSubscription.html
+  name: IDeepCloneable<UpdateSubscription>
+  nameWithType: IDeepCloneable<UpdateSubscription>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.UpdateSubscription>
+  nameWithType.vb: IDeepCloneable(Of UpdateSubscription)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.UpdateSubscription)
+  name.vb: IDeepCloneable(Of UpdateSubscription)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.UpdateSubscription.Parser*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.Parser
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_Parser
+  name: Parser
+  nameWithType: UpdateSubscription.Parser
+  fullName: LiveKit.Proto.UpdateSubscription.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.UpdateSubscription}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.UpdateSubscription}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.UpdateSubscription.html
+  name: MessageParser<UpdateSubscription>
+  nameWithType: MessageParser<UpdateSubscription>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.UpdateSubscription>
+  nameWithType.vb: MessageParser(Of UpdateSubscription)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.UpdateSubscription)
+  name.vb: MessageParser(Of UpdateSubscription)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.UpdateSubscription.Descriptor*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.Descriptor
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_Descriptor
+  name: Descriptor
+  nameWithType: UpdateSubscription.Descriptor
+  fullName: LiveKit.Proto.UpdateSubscription.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.UpdateSubscription.#ctor*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.#ctor
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription__ctor
+  name: UpdateSubscription
+  nameWithType: UpdateSubscription.UpdateSubscription
+  fullName: LiveKit.Proto.UpdateSubscription.UpdateSubscription
+  nameWithType.vb: UpdateSubscription.New
+  fullName.vb: LiveKit.Proto.UpdateSubscription.New
+  name.vb: New
+- uid: LiveKit.Proto.UpdateSubscription
+  commentId: T:LiveKit.Proto.UpdateSubscription
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSubscription.html
+  name: UpdateSubscription
+  nameWithType: UpdateSubscription
+  fullName: LiveKit.Proto.UpdateSubscription
+- uid: LiveKit.Proto.UpdateSubscription.Clone*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.Clone
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_Clone
+  name: Clone
+  nameWithType: UpdateSubscription.Clone
+  fullName: LiveKit.Proto.UpdateSubscription.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<UpdateSubscription>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.UpdateSubscription>.Clone()
+  nameWithType.vb: IDeepCloneable(Of UpdateSubscription).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.UpdateSubscription).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.UpdateSubscription}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.UpdateSubscription.TrackSids*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.TrackSids
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_TrackSids
+  name: TrackSids
+  nameWithType: UpdateSubscription.TrackSids
+  fullName: LiveKit.Proto.UpdateSubscription.TrackSids
+- uid: Google.Protobuf.Collections.RepeatedField{System.String}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RepeatedField<string>
+  nameWithType: RepeatedField<string>
+  fullName: Google.Protobuf.Collections.RepeatedField<string>
+  nameWithType.vb: RepeatedField(Of String)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of String)
+  name.vb: RepeatedField(Of String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.UpdateSubscription.Subscribe*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.Subscribe
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_Subscribe
+  name: Subscribe
+  nameWithType: UpdateSubscription.Subscribe
+  fullName: LiveKit.Proto.UpdateSubscription.Subscribe
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.UpdateSubscription.ParticipantTracks*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.ParticipantTracks
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_ParticipantTracks
+  name: ParticipantTracks
+  nameWithType: UpdateSubscription.ParticipantTracks
+  fullName: LiveKit.Proto.UpdateSubscription.ParticipantTracks
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantTracks}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ParticipantTracks}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.ParticipantTracks.html
+  name: RepeatedField<ParticipantTracks>
+  nameWithType: RepeatedField<ParticipantTracks>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.ParticipantTracks>
+  nameWithType.vb: RepeatedField(Of ParticipantTracks)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.ParticipantTracks)
+  name.vb: RepeatedField(Of ParticipantTracks)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ParticipantTracks
+    name: ParticipantTracks
+    href: LiveKit.Proto.ParticipantTracks.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ParticipantTracks
+    name: ParticipantTracks
+    href: LiveKit.Proto.ParticipantTracks.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.UpdateSubscription.Equals*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.Equals
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_Equals_System_Object_
+  name: Equals
+  nameWithType: UpdateSubscription.Equals
+  fullName: LiveKit.Proto.UpdateSubscription.Equals
+- uid: System.IEquatable{LiveKit.Proto.UpdateSubscription}.Equals(LiveKit.Proto.UpdateSubscription)
+  commentId: M:System.IEquatable{LiveKit.Proto.UpdateSubscription}.Equals(LiveKit.Proto.UpdateSubscription)
+  parent: System.IEquatable{LiveKit.Proto.UpdateSubscription}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(UpdateSubscription)
+  nameWithType: IEquatable<UpdateSubscription>.Equals(UpdateSubscription)
+  fullName: System.IEquatable<LiveKit.Proto.UpdateSubscription>.Equals(LiveKit.Proto.UpdateSubscription)
+  nameWithType.vb: IEquatable(Of UpdateSubscription).Equals(UpdateSubscription)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.UpdateSubscription).Equals(LiveKit.Proto.UpdateSubscription)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.UpdateSubscription}.Equals(LiveKit.Proto.UpdateSubscription)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.UpdateSubscription}.Equals(LiveKit.Proto.UpdateSubscription)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateSubscription.GetHashCode*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.GetHashCode
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_GetHashCode
+  name: GetHashCode
+  nameWithType: UpdateSubscription.GetHashCode
+  fullName: LiveKit.Proto.UpdateSubscription.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateSubscription.ToString*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.ToString
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_ToString
+  name: ToString
+  nameWithType: UpdateSubscription.ToString
+  fullName: LiveKit.Proto.UpdateSubscription.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.UpdateSubscription.WriteTo*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.WriteTo
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: UpdateSubscription.WriteTo
+  fullName: LiveKit.Proto.UpdateSubscription.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.UpdateSubscription.CalculateSize*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.CalculateSize
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_CalculateSize
+  name: CalculateSize
+  nameWithType: UpdateSubscription.CalculateSize
+  fullName: LiveKit.Proto.UpdateSubscription.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.UpdateSubscription.MergeFrom*
+  commentId: Overload:LiveKit.Proto.UpdateSubscription.MergeFrom
+  href: LiveKit.Proto.UpdateSubscription.html#LiveKit_Proto_UpdateSubscription_MergeFrom_LiveKit_Proto_UpdateSubscription_
+  name: MergeFrom
+  nameWithType: UpdateSubscription.MergeFrom
+  fullName: LiveKit.Proto.UpdateSubscription.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}.MergeFrom(LiveKit.Proto.UpdateSubscription)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}.MergeFrom(LiveKit.Proto.UpdateSubscription)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.UpdateSubscription.html
+  name: MergeFrom(UpdateSubscription)
+  nameWithType: IMessage<UpdateSubscription>.MergeFrom(UpdateSubscription)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.UpdateSubscription>.MergeFrom(LiveKit.Proto.UpdateSubscription)
+  nameWithType.vb: IMessage(Of UpdateSubscription).MergeFrom(UpdateSubscription)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.UpdateSubscription).MergeFrom(LiveKit.Proto.UpdateSubscription)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}.MergeFrom(LiveKit.Proto.UpdateSubscription)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.UpdateSubscription}.MergeFrom(LiveKit.Proto.UpdateSubscription)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.UpdateSubscription
+    name: UpdateSubscription
+    href: LiveKit.Proto.UpdateSubscription.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

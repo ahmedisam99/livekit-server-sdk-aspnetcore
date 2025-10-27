@@ -1,0 +1,1357 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.LiveKitPhoneNumberService
+  commentId: T:LiveKit.Services.LiveKitPhoneNumberService
+  id: LiveKitPhoneNumberService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.LiveKitPhoneNumberService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitPhoneNumberService},LiveKit.Authentication.ILiveKitTokenService)
+  - LiveKit.Services.LiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.LiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: LiveKitPhoneNumberService
+  nameWithType: LiveKitPhoneNumberService
+  fullName: LiveKit.Services.LiveKitPhoneNumberService
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: LiveKitPhoneNumberService
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+    startLine: 10
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: >-
+    Service for managing phone numbers for SIP integration.
+
+    <p>
+
+    Provides methods for searching, purchasing, and managing phone numbers for SIP trunk configuration.
+
+    See <a href="https://docs.livekit.io/reference/server/server-apis/#phone-number-service">Phone Number Service Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: 'public sealed class LiveKitPhoneNumberService : TwirpClient, ILiveKitPhoneNumberService'
+    content.vb: Public NotInheritable Class LiveKitPhoneNumberService Inherits TwirpClient Implements ILiveKitPhoneNumberService
+  inheritance:
+  - System.Object
+  - LiveKit.Services.TwirpClient
+  implements:
+  - LiveKit.Services.ILiveKitPhoneNumberService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: LiveKit.Services.LiveKitPhoneNumberService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitPhoneNumberService},LiveKit.Authentication.ILiveKitTokenService)
+  commentId: M:LiveKit.Services.LiveKitPhoneNumberService.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitPhoneNumberService},LiveKit.Authentication.ILiveKitTokenService)
+  id: '#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitPhoneNumberService},LiveKit.Authentication.ILiveKitTokenService)'
+  parent: LiveKit.Services.LiveKitPhoneNumberService
+  langs:
+  - csharp
+  - vb
+  name: LiveKitPhoneNumberService(HttpClient, ILogger<LiveKitPhoneNumberService>, ILiveKitTokenService)
+  nameWithType: LiveKitPhoneNumberService.LiveKitPhoneNumberService(HttpClient, ILogger<LiveKitPhoneNumberService>, ILiveKitTokenService)
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.LiveKitPhoneNumberService(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger<LiveKit.Services.LiveKitPhoneNumberService>, LiveKit.Authentication.ILiveKitTokenService)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+    startLine: 17
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Initializes a new instance of the <xref href="LiveKit.Services.LiveKitPhoneNumberService" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public LiveKitPhoneNumberService(HttpClient httpClient, ILogger<LiveKitPhoneNumberService> logger, ILiveKitTokenService _tokenService)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitPhoneNumberService}
+    - id: _tokenService
+      type: LiveKit.Authentication.ILiveKitTokenService
+    content.vb: Public Sub New(httpClient As HttpClient, logger As ILogger(Of LiveKitPhoneNumberService), _tokenService As ILiveKitTokenService)
+  overload: LiveKit.Services.LiveKitPhoneNumberService.#ctor*
+  nameWithType.vb: LiveKitPhoneNumberService.New(HttpClient, ILogger(Of LiveKitPhoneNumberService), ILiveKitTokenService)
+  fullName.vb: LiveKit.Services.LiveKitPhoneNumberService.New(System.Net.Http.HttpClient, Microsoft.Extensions.Logging.ILogger(Of LiveKit.Services.LiveKitPhoneNumberService), LiveKit.Authentication.ILiveKitTokenService)
+  name.vb: New(HttpClient, ILogger(Of LiveKitPhoneNumberService), ILiveKitTokenService)
+- uid: LiveKit.Services.LiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+  id: SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitPhoneNumberService
+  langs:
+  - csharp
+  - vb
+  name: SearchPhoneNumbersAsync(SearchPhoneNumbersRequest, CancellationToken)
+  nameWithType: LiveKitPhoneNumberService.SearchPhoneNumbersAsync(SearchPhoneNumbersRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SearchPhoneNumbersAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+    startLine: 23
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Searches available phone numbers in inventory.
+  example: []
+  syntax:
+    content: public Task<SearchPhoneNumbersResponse> SearchPhoneNumbersAsync(SearchPhoneNumbersRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.SearchPhoneNumbersRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SearchPhoneNumbersResponse}
+    content.vb: Public Function SearchPhoneNumbersAsync(request As SearchPhoneNumbersRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SearchPhoneNumbersResponse)
+  overload: LiveKit.Services.LiveKitPhoneNumberService.SearchPhoneNumbersAsync*
+  implements:
+  - LiveKit.Services.ILiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+  id: PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitPhoneNumberService
+  langs:
+  - csharp
+  - vb
+  name: PurchasePhoneNumberAsync(PurchasePhoneNumberRequest, CancellationToken)
+  nameWithType: LiveKitPhoneNumberService.PurchasePhoneNumberAsync(PurchasePhoneNumberRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PurchasePhoneNumberAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+    startLine: 30
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Purchases phone numbers from inventory.
+  example: []
+  syntax:
+    content: public Task<PurchasePhoneNumberResponse> PurchasePhoneNumberAsync(PurchasePhoneNumberRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.PurchasePhoneNumberRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.PurchasePhoneNumberResponse}
+    content.vb: Public Function PurchasePhoneNumberAsync(request As PurchasePhoneNumberRequest, cancellationToken As CancellationToken = Nothing) As Task(Of PurchasePhoneNumberResponse)
+  overload: LiveKit.Services.LiveKitPhoneNumberService.PurchasePhoneNumberAsync*
+  implements:
+  - LiveKit.Services.ILiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+  id: ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitPhoneNumberService
+  langs:
+  - csharp
+  - vb
+  name: ListPhoneNumbersAsync(ListPhoneNumbersRequest, CancellationToken)
+  nameWithType: LiveKitPhoneNumberService.ListPhoneNumbersAsync(ListPhoneNumbersRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListPhoneNumbersAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+    startLine: 37
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Lists phone numbers for the project.
+  example: []
+  syntax:
+    content: public Task<ListPhoneNumbersResponse> ListPhoneNumbersAsync(ListPhoneNumbersRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListPhoneNumbersRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListPhoneNumbersResponse}
+    content.vb: Public Function ListPhoneNumbersAsync(request As ListPhoneNumbersRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListPhoneNumbersResponse)
+  overload: LiveKit.Services.LiveKitPhoneNumberService.ListPhoneNumbersAsync*
+  implements:
+  - LiveKit.Services.ILiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+  id: GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitPhoneNumberService
+  langs:
+  - csharp
+  - vb
+  name: GetPhoneNumberAsync(GetPhoneNumberRequest, CancellationToken)
+  nameWithType: LiveKitPhoneNumberService.GetPhoneNumberAsync(GetPhoneNumberRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetPhoneNumberAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+    startLine: 43
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Gets a specific phone number.
+  example: []
+  syntax:
+    content: public Task<GetPhoneNumberResponse> GetPhoneNumberAsync(GetPhoneNumberRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.GetPhoneNumberRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.GetPhoneNumberResponse}
+    content.vb: Public Function GetPhoneNumberAsync(request As GetPhoneNumberRequest, cancellationToken As CancellationToken = Nothing) As Task(Of GetPhoneNumberResponse)
+  overload: LiveKit.Services.LiveKitPhoneNumberService.GetPhoneNumberAsync*
+  implements:
+  - LiveKit.Services.ILiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+  id: UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitPhoneNumberService
+  langs:
+  - csharp
+  - vb
+  name: UpdatePhoneNumberAsync(UpdatePhoneNumberRequest, CancellationToken)
+  nameWithType: LiveKitPhoneNumberService.UpdatePhoneNumberAsync(UpdatePhoneNumberRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdatePhoneNumberAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+    startLine: 49
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Updates a phone number configuration.
+  example: []
+  syntax:
+    content: public Task<UpdatePhoneNumberResponse> UpdatePhoneNumberAsync(UpdatePhoneNumberRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdatePhoneNumberRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.UpdatePhoneNumberResponse}
+    content.vb: Public Function UpdatePhoneNumberAsync(request As UpdatePhoneNumberRequest, cancellationToken As CancellationToken = Nothing) As Task(Of UpdatePhoneNumberResponse)
+  overload: LiveKit.Services.LiveKitPhoneNumberService.UpdatePhoneNumberAsync*
+  implements:
+  - LiveKit.Services.ILiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+- uid: LiveKit.Services.LiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.LiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+  id: ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.LiveKitPhoneNumberService
+  langs:
+  - csharp
+  - vb
+  name: ReleasePhoneNumbersAsync(ReleasePhoneNumbersRequest, CancellationToken)
+  nameWithType: LiveKitPhoneNumberService.ReleasePhoneNumbersAsync(ReleasePhoneNumbersRequest, CancellationToken)
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReleasePhoneNumbersAsync
+    path: ../LiveKit.AspNetCore.ServerSdk/Services/LiveKitPhoneNumberService.cs
+    startLine: 56
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk
+  namespace: LiveKit.Services
+  summary: Releases phone numbers back to inventory.
+  example: []
+  syntax:
+    content: public Task<ReleasePhoneNumbersResponse> ReleasePhoneNumbersAsync(ReleasePhoneNumbersRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ReleasePhoneNumbersRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ReleasePhoneNumbersResponse}
+    content.vb: Public Function ReleasePhoneNumbersAsync(request As ReleasePhoneNumbersRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ReleasePhoneNumbersResponse)
+  overload: LiveKit.Services.LiveKitPhoneNumberService.ReleasePhoneNumbersAsync*
+  implements:
+  - LiveKit.Services.ILiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: LiveKit.Services.TwirpClient
+  commentId: T:LiveKit.Services.TwirpClient
+  parent: LiveKit.Services
+  href: LiveKit.Services.TwirpClient.html
+  name: TwirpClient
+  nameWithType: TwirpClient
+  fullName: LiveKit.Services.TwirpClient
+- uid: LiveKit.Services.ILiveKitPhoneNumberService
+  commentId: T:LiveKit.Services.ILiveKitPhoneNumberService
+  parent: LiveKit.Services
+  href: LiveKit.Services.ILiveKitPhoneNumberService.html
+  name: ILiveKitPhoneNumberService
+  nameWithType: ILiveKitPhoneNumberService
+  fullName: LiveKit.Services.ILiveKitPhoneNumberService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LiveKit.Services.LiveKitPhoneNumberService
+  commentId: T:LiveKit.Services.LiveKitPhoneNumberService
+  href: LiveKit.Services.LiveKitPhoneNumberService.html
+  name: LiveKitPhoneNumberService
+  nameWithType: LiveKitPhoneNumberService
+  fullName: LiveKit.Services.LiveKitPhoneNumberService
+- uid: LiveKit.Services.LiveKitPhoneNumberService.#ctor*
+  commentId: Overload:LiveKit.Services.LiveKitPhoneNumberService.#ctor
+  href: LiveKit.Services.LiveKitPhoneNumberService.html#LiveKit_Services_LiveKitPhoneNumberService__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Logging_ILogger_LiveKit_Services_LiveKitPhoneNumberService__LiveKit_Authentication_ILiveKitTokenService_
+  name: LiveKitPhoneNumberService
+  nameWithType: LiveKitPhoneNumberService.LiveKitPhoneNumberService
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.LiveKitPhoneNumberService
+  nameWithType.vb: LiveKitPhoneNumberService.New
+  fullName.vb: LiveKit.Services.LiveKitPhoneNumberService.New
+  name.vb: New
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitPhoneNumberService}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{LiveKit.Services.LiveKitPhoneNumberService}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<LiveKitPhoneNumberService>
+  nameWithType: ILogger<LiveKitPhoneNumberService>
+  fullName: Microsoft.Extensions.Logging.ILogger<LiveKit.Services.LiveKitPhoneNumberService>
+  nameWithType.vb: ILogger(Of LiveKitPhoneNumberService)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of LiveKit.Services.LiveKitPhoneNumberService)
+  name.vb: ILogger(Of LiveKitPhoneNumberService)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: LiveKit.Services.LiveKitPhoneNumberService
+    name: LiveKitPhoneNumberService
+    href: LiveKit.Services.LiveKitPhoneNumberService.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Services.LiveKitPhoneNumberService
+    name: LiveKitPhoneNumberService
+    href: LiveKit.Services.LiveKitPhoneNumberService.html
+  - name: )
+- uid: LiveKit.Authentication.ILiveKitTokenService
+  commentId: T:LiveKit.Authentication.ILiveKitTokenService
+  parent: LiveKit.Authentication
+  href: LiveKit.Authentication.ILiveKitTokenService.html
+  name: ILiveKitTokenService
+  nameWithType: ILiveKitTokenService
+  fullName: LiveKit.Authentication.ILiveKitTokenService
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: LiveKit.Authentication
+  commentId: N:LiveKit.Authentication
+  href: LiveKit.html
+  name: LiveKit.Authentication
+  nameWithType: LiveKit.Authentication
+  fullName: LiveKit.Authentication
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Authentication
+    name: Authentication
+    href: LiveKit.Authentication.html
+- uid: LiveKit.Services.LiveKitPhoneNumberService.SearchPhoneNumbersAsync*
+  commentId: Overload:LiveKit.Services.LiveKitPhoneNumberService.SearchPhoneNumbersAsync
+  href: LiveKit.Services.LiveKitPhoneNumberService.html#LiveKit_Services_LiveKitPhoneNumberService_SearchPhoneNumbersAsync_LiveKit_Proto_SearchPhoneNumbersRequest_System_Threading_CancellationToken_
+  name: SearchPhoneNumbersAsync
+  nameWithType: LiveKitPhoneNumberService.SearchPhoneNumbersAsync
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.SearchPhoneNumbersAsync
+- uid: LiveKit.Services.ILiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitPhoneNumberService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SearchPhoneNumbersAsync(SearchPhoneNumbersRequest, CancellationToken)
+  nameWithType: ILiveKitPhoneNumberService.SearchPhoneNumbersAsync(SearchPhoneNumbersRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+    name: SearchPhoneNumbersAsync
+  - name: (
+  - uid: LiveKit.Proto.SearchPhoneNumbersRequest
+    name: SearchPhoneNumbersRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.SearchPhoneNumbersAsync(LiveKit.Proto.SearchPhoneNumbersRequest,System.Threading.CancellationToken)
+    name: SearchPhoneNumbersAsync
+  - name: (
+  - uid: LiveKit.Proto.SearchPhoneNumbersRequest
+    name: SearchPhoneNumbersRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.SearchPhoneNumbersRequest
+  commentId: T:LiveKit.Proto.SearchPhoneNumbersRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SearchPhoneNumbersRequest.html
+  name: SearchPhoneNumbersRequest
+  nameWithType: SearchPhoneNumbersRequest
+  fullName: LiveKit.Proto.SearchPhoneNumbersRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.SearchPhoneNumbersResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.SearchPhoneNumbersResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SearchPhoneNumbersResponse>
+  nameWithType: Task<SearchPhoneNumbersResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.SearchPhoneNumbersResponse>
+  nameWithType.vb: Task(Of SearchPhoneNumbersResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.SearchPhoneNumbersResponse)
+  name.vb: Task(Of SearchPhoneNumbersResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.SearchPhoneNumbersResponse
+    name: SearchPhoneNumbersResponse
+    href: LiveKit.Proto.SearchPhoneNumbersResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SearchPhoneNumbersResponse
+    name: SearchPhoneNumbersResponse
+    href: LiveKit.Proto.SearchPhoneNumbersResponse.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.LiveKitPhoneNumberService.PurchasePhoneNumberAsync*
+  commentId: Overload:LiveKit.Services.LiveKitPhoneNumberService.PurchasePhoneNumberAsync
+  href: LiveKit.Services.LiveKitPhoneNumberService.html#LiveKit_Services_LiveKitPhoneNumberService_PurchasePhoneNumberAsync_LiveKit_Proto_PurchasePhoneNumberRequest_System_Threading_CancellationToken_
+  name: PurchasePhoneNumberAsync
+  nameWithType: LiveKitPhoneNumberService.PurchasePhoneNumberAsync
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.PurchasePhoneNumberAsync
+- uid: LiveKit.Services.ILiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitPhoneNumberService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: PurchasePhoneNumberAsync(PurchasePhoneNumberRequest, CancellationToken)
+  nameWithType: ILiveKitPhoneNumberService.PurchasePhoneNumberAsync(PurchasePhoneNumberRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+    name: PurchasePhoneNumberAsync
+  - name: (
+  - uid: LiveKit.Proto.PurchasePhoneNumberRequest
+    name: PurchasePhoneNumberRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.PurchasePhoneNumberAsync(LiveKit.Proto.PurchasePhoneNumberRequest,System.Threading.CancellationToken)
+    name: PurchasePhoneNumberAsync
+  - name: (
+  - uid: LiveKit.Proto.PurchasePhoneNumberRequest
+    name: PurchasePhoneNumberRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.PurchasePhoneNumberRequest
+  commentId: T:LiveKit.Proto.PurchasePhoneNumberRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.PurchasePhoneNumberRequest.html
+  name: PurchasePhoneNumberRequest
+  nameWithType: PurchasePhoneNumberRequest
+  fullName: LiveKit.Proto.PurchasePhoneNumberRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.PurchasePhoneNumberResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.PurchasePhoneNumberResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PurchasePhoneNumberResponse>
+  nameWithType: Task<PurchasePhoneNumberResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.PurchasePhoneNumberResponse>
+  nameWithType.vb: Task(Of PurchasePhoneNumberResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.PurchasePhoneNumberResponse)
+  name.vb: Task(Of PurchasePhoneNumberResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.PurchasePhoneNumberResponse
+    name: PurchasePhoneNumberResponse
+    href: LiveKit.Proto.PurchasePhoneNumberResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.PurchasePhoneNumberResponse
+    name: PurchasePhoneNumberResponse
+    href: LiveKit.Proto.PurchasePhoneNumberResponse.html
+  - name: )
+- uid: LiveKit.Services.LiveKitPhoneNumberService.ListPhoneNumbersAsync*
+  commentId: Overload:LiveKit.Services.LiveKitPhoneNumberService.ListPhoneNumbersAsync
+  href: LiveKit.Services.LiveKitPhoneNumberService.html#LiveKit_Services_LiveKitPhoneNumberService_ListPhoneNumbersAsync_LiveKit_Proto_ListPhoneNumbersRequest_System_Threading_CancellationToken_
+  name: ListPhoneNumbersAsync
+  nameWithType: LiveKitPhoneNumberService.ListPhoneNumbersAsync
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.ListPhoneNumbersAsync
+- uid: LiveKit.Services.ILiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitPhoneNumberService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: ListPhoneNumbersAsync(ListPhoneNumbersRequest, CancellationToken)
+  nameWithType: ILiveKitPhoneNumberService.ListPhoneNumbersAsync(ListPhoneNumbersRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+    name: ListPhoneNumbersAsync
+  - name: (
+  - uid: LiveKit.Proto.ListPhoneNumbersRequest
+    name: ListPhoneNumbersRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.ListPhoneNumbersAsync(LiveKit.Proto.ListPhoneNumbersRequest,System.Threading.CancellationToken)
+    name: ListPhoneNumbersAsync
+  - name: (
+  - uid: LiveKit.Proto.ListPhoneNumbersRequest
+    name: ListPhoneNumbersRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.ListPhoneNumbersRequest
+  commentId: T:LiveKit.Proto.ListPhoneNumbersRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListPhoneNumbersRequest.html
+  name: ListPhoneNumbersRequest
+  nameWithType: ListPhoneNumbersRequest
+  fullName: LiveKit.Proto.ListPhoneNumbersRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListPhoneNumbersResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListPhoneNumbersResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListPhoneNumbersResponse>
+  nameWithType: Task<ListPhoneNumbersResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListPhoneNumbersResponse>
+  nameWithType.vb: Task(Of ListPhoneNumbersResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListPhoneNumbersResponse)
+  name.vb: Task(Of ListPhoneNumbersResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListPhoneNumbersResponse
+    name: ListPhoneNumbersResponse
+    href: LiveKit.Proto.ListPhoneNumbersResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListPhoneNumbersResponse
+    name: ListPhoneNumbersResponse
+    href: LiveKit.Proto.ListPhoneNumbersResponse.html
+  - name: )
+- uid: LiveKit.Services.LiveKitPhoneNumberService.GetPhoneNumberAsync*
+  commentId: Overload:LiveKit.Services.LiveKitPhoneNumberService.GetPhoneNumberAsync
+  href: LiveKit.Services.LiveKitPhoneNumberService.html#LiveKit_Services_LiveKitPhoneNumberService_GetPhoneNumberAsync_LiveKit_Proto_GetPhoneNumberRequest_System_Threading_CancellationToken_
+  name: GetPhoneNumberAsync
+  nameWithType: LiveKitPhoneNumberService.GetPhoneNumberAsync
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.GetPhoneNumberAsync
+- uid: LiveKit.Services.ILiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitPhoneNumberService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetPhoneNumberAsync(GetPhoneNumberRequest, CancellationToken)
+  nameWithType: ILiveKitPhoneNumberService.GetPhoneNumberAsync(GetPhoneNumberRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+    name: GetPhoneNumberAsync
+  - name: (
+  - uid: LiveKit.Proto.GetPhoneNumberRequest
+    name: GetPhoneNumberRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.GetPhoneNumberAsync(LiveKit.Proto.GetPhoneNumberRequest,System.Threading.CancellationToken)
+    name: GetPhoneNumberAsync
+  - name: (
+  - uid: LiveKit.Proto.GetPhoneNumberRequest
+    name: GetPhoneNumberRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.GetPhoneNumberRequest
+  commentId: T:LiveKit.Proto.GetPhoneNumberRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.GetPhoneNumberRequest.html
+  name: GetPhoneNumberRequest
+  nameWithType: GetPhoneNumberRequest
+  fullName: LiveKit.Proto.GetPhoneNumberRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.GetPhoneNumberResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.GetPhoneNumberResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<GetPhoneNumberResponse>
+  nameWithType: Task<GetPhoneNumberResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.GetPhoneNumberResponse>
+  nameWithType.vb: Task(Of GetPhoneNumberResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.GetPhoneNumberResponse)
+  name.vb: Task(Of GetPhoneNumberResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.GetPhoneNumberResponse
+    name: GetPhoneNumberResponse
+    href: LiveKit.Proto.GetPhoneNumberResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.GetPhoneNumberResponse
+    name: GetPhoneNumberResponse
+    href: LiveKit.Proto.GetPhoneNumberResponse.html
+  - name: )
+- uid: LiveKit.Services.LiveKitPhoneNumberService.UpdatePhoneNumberAsync*
+  commentId: Overload:LiveKit.Services.LiveKitPhoneNumberService.UpdatePhoneNumberAsync
+  href: LiveKit.Services.LiveKitPhoneNumberService.html#LiveKit_Services_LiveKitPhoneNumberService_UpdatePhoneNumberAsync_LiveKit_Proto_UpdatePhoneNumberRequest_System_Threading_CancellationToken_
+  name: UpdatePhoneNumberAsync
+  nameWithType: LiveKitPhoneNumberService.UpdatePhoneNumberAsync
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.UpdatePhoneNumberAsync
+- uid: LiveKit.Services.ILiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitPhoneNumberService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: UpdatePhoneNumberAsync(UpdatePhoneNumberRequest, CancellationToken)
+  nameWithType: ILiveKitPhoneNumberService.UpdatePhoneNumberAsync(UpdatePhoneNumberRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+    name: UpdatePhoneNumberAsync
+  - name: (
+  - uid: LiveKit.Proto.UpdatePhoneNumberRequest
+    name: UpdatePhoneNumberRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.UpdatePhoneNumberAsync(LiveKit.Proto.UpdatePhoneNumberRequest,System.Threading.CancellationToken)
+    name: UpdatePhoneNumberAsync
+  - name: (
+  - uid: LiveKit.Proto.UpdatePhoneNumberRequest
+    name: UpdatePhoneNumberRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.UpdatePhoneNumberRequest
+  commentId: T:LiveKit.Proto.UpdatePhoneNumberRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdatePhoneNumberRequest.html
+  name: UpdatePhoneNumberRequest
+  nameWithType: UpdatePhoneNumberRequest
+  fullName: LiveKit.Proto.UpdatePhoneNumberRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.UpdatePhoneNumberResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.UpdatePhoneNumberResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UpdatePhoneNumberResponse>
+  nameWithType: Task<UpdatePhoneNumberResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.UpdatePhoneNumberResponse>
+  nameWithType.vb: Task(Of UpdatePhoneNumberResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.UpdatePhoneNumberResponse)
+  name.vb: Task(Of UpdatePhoneNumberResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.UpdatePhoneNumberResponse
+    name: UpdatePhoneNumberResponse
+    href: LiveKit.Proto.UpdatePhoneNumberResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.UpdatePhoneNumberResponse
+    name: UpdatePhoneNumberResponse
+    href: LiveKit.Proto.UpdatePhoneNumberResponse.html
+  - name: )
+- uid: LiveKit.Services.LiveKitPhoneNumberService.ReleasePhoneNumbersAsync*
+  commentId: Overload:LiveKit.Services.LiveKitPhoneNumberService.ReleasePhoneNumbersAsync
+  href: LiveKit.Services.LiveKitPhoneNumberService.html#LiveKit_Services_LiveKitPhoneNumberService_ReleasePhoneNumbersAsync_LiveKit_Proto_ReleasePhoneNumbersRequest_System_Threading_CancellationToken_
+  name: ReleasePhoneNumbersAsync
+  nameWithType: LiveKitPhoneNumberService.ReleasePhoneNumbersAsync
+  fullName: LiveKit.Services.LiveKitPhoneNumberService.ReleasePhoneNumbersAsync
+- uid: LiveKit.Services.ILiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitPhoneNumberService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: ReleasePhoneNumbersAsync(ReleasePhoneNumbersRequest, CancellationToken)
+  nameWithType: ILiveKitPhoneNumberService.ReleasePhoneNumbersAsync(ReleasePhoneNumbersRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+    name: ReleasePhoneNumbersAsync
+  - name: (
+  - uid: LiveKit.Proto.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: LiveKit.Services.ILiveKitPhoneNumberService.ReleasePhoneNumbersAsync(LiveKit.Proto.ReleasePhoneNumbersRequest,System.Threading.CancellationToken)
+    name: ReleasePhoneNumbersAsync
+  - name: (
+  - uid: LiveKit.Proto.ReleasePhoneNumbersRequest
+    name: ReleasePhoneNumbersRequest
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: LiveKit.Proto.ReleasePhoneNumbersRequest
+  commentId: T:LiveKit.Proto.ReleasePhoneNumbersRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ReleasePhoneNumbersRequest.html
+  name: ReleasePhoneNumbersRequest
+  nameWithType: ReleasePhoneNumbersRequest
+  fullName: LiveKit.Proto.ReleasePhoneNumbersRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ReleasePhoneNumbersResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ReleasePhoneNumbersResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ReleasePhoneNumbersResponse>
+  nameWithType: Task<ReleasePhoneNumbersResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ReleasePhoneNumbersResponse>
+  nameWithType.vb: Task(Of ReleasePhoneNumbersResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ReleasePhoneNumbersResponse)
+  name.vb: Task(Of ReleasePhoneNumbersResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ReleasePhoneNumbersResponse
+    name: ReleasePhoneNumbersResponse
+    href: LiveKit.Proto.ReleasePhoneNumbersResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ReleasePhoneNumbersResponse
+    name: ReleasePhoneNumbersResponse
+    href: LiveKit.Proto.ReleasePhoneNumbersResponse.html
+  - name: )

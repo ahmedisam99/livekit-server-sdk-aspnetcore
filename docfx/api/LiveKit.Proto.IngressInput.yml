@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.IngressInput
+  commentId: T:LiveKit.Proto.IngressInput
+  id: IngressInput
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.IngressInput.RtmpInput
+  - LiveKit.Proto.IngressInput.UrlInput
+  - LiveKit.Proto.IngressInput.WhipInput
+  langs:
+  - csharp
+  - vb
+  name: IngressInput
+  nameWithType: IngressInput
+  fullName: LiveKit.Proto.IngressInput
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressInput
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 132
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum IngressInput
+    content.vb: Public Enum IngressInput
+- uid: LiveKit.Proto.IngressInput.RtmpInput
+  commentId: F:LiveKit.Proto.IngressInput.RtmpInput
+  id: RtmpInput
+  parent: LiveKit.Proto.IngressInput
+  langs:
+  - csharp
+  - vb
+  name: RtmpInput
+  nameWithType: IngressInput.RtmpInput
+  fullName: LiveKit.Proto.IngressInput.RtmpInput
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RtmpInput
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 133
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("RTMP_INPUT")]
+
+      RtmpInput = 0
+    return:
+      type: LiveKit.Proto.IngressInput
+    content.vb: >-
+      <OriginalName("RTMP_INPUT")>
+
+      RtmpInput = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RTMP_INPUT
+- uid: LiveKit.Proto.IngressInput.WhipInput
+  commentId: F:LiveKit.Proto.IngressInput.WhipInput
+  id: WhipInput
+  parent: LiveKit.Proto.IngressInput
+  langs:
+  - csharp
+  - vb
+  name: WhipInput
+  nameWithType: IngressInput.WhipInput
+  fullName: LiveKit.Proto.IngressInput.WhipInput
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WhipInput
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 134
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("WHIP_INPUT")]
+
+      WhipInput = 1
+    return:
+      type: LiveKit.Proto.IngressInput
+    content.vb: >-
+      <OriginalName("WHIP_INPUT")>
+
+      WhipInput = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: WHIP_INPUT
+- uid: LiveKit.Proto.IngressInput.UrlInput
+  commentId: F:LiveKit.Proto.IngressInput.UrlInput
+  id: UrlInput
+  parent: LiveKit.Proto.IngressInput
+  langs:
+  - csharp
+  - vb
+  name: UrlInput
+  nameWithType: IngressInput.UrlInput
+  fullName: LiveKit.Proto.IngressInput.UrlInput
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UrlInput
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 138
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Pull from the provided URL. Only HTTP url are supported, serving either a single media file or a HLS stream
+  example: []
+  syntax:
+    content: >-
+      [OriginalName("URL_INPUT")]
+
+      UrlInput = 2
+    return:
+      type: LiveKit.Proto.IngressInput
+    content.vb: >-
+      <OriginalName("URL_INPUT")>
+
+      UrlInput = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: URL_INPUT
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.IngressInput
+  commentId: T:LiveKit.Proto.IngressInput
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.IngressInput.html
+  name: IngressInput
+  nameWithType: IngressInput
+  fullName: LiveKit.Proto.IngressInput

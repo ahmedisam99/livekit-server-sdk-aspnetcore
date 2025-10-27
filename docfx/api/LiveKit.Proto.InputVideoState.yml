@@ -1,0 +1,1695 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.InputVideoState
+  commentId: T:LiveKit.Proto.InputVideoState
+  id: InputVideoState
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.InputVideoState.#ctor
+  - LiveKit.Proto.InputVideoState.#ctor(LiveKit.Proto.InputVideoState)
+  - LiveKit.Proto.InputVideoState.AverageBitrate
+  - LiveKit.Proto.InputVideoState.AverageBitrateFieldNumber
+  - LiveKit.Proto.InputVideoState.CalculateSize
+  - LiveKit.Proto.InputVideoState.Clone
+  - LiveKit.Proto.InputVideoState.Descriptor
+  - LiveKit.Proto.InputVideoState.Equals(LiveKit.Proto.InputVideoState)
+  - LiveKit.Proto.InputVideoState.Equals(System.Object)
+  - LiveKit.Proto.InputVideoState.Framerate
+  - LiveKit.Proto.InputVideoState.FramerateFieldNumber
+  - LiveKit.Proto.InputVideoState.GetHashCode
+  - LiveKit.Proto.InputVideoState.Height
+  - LiveKit.Proto.InputVideoState.HeightFieldNumber
+  - LiveKit.Proto.InputVideoState.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.InputVideoState.MergeFrom(LiveKit.Proto.InputVideoState)
+  - LiveKit.Proto.InputVideoState.MimeType
+  - LiveKit.Proto.InputVideoState.MimeTypeFieldNumber
+  - LiveKit.Proto.InputVideoState.Parser
+  - LiveKit.Proto.InputVideoState.ToString
+  - LiveKit.Proto.InputVideoState.Width
+  - LiveKit.Proto.InputVideoState.WidthFieldNumber
+  - LiveKit.Proto.InputVideoState.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: InputVideoState
+  nameWithType: InputVideoState
+  fullName: LiveKit.Proto.InputVideoState
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: InputVideoState
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3589
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class InputVideoState : IMessage<InputVideoState>, IEquatable<InputVideoState>, IDeepCloneable<InputVideoState>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class InputVideoState Implements IMessage(Of InputVideoState), IEquatable(Of InputVideoState), IDeepCloneable(Of InputVideoState), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}
+  - System.IEquatable{LiveKit.Proto.InputVideoState}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.InputVideoState.Parser
+  commentId: P:LiveKit.Proto.InputVideoState.Parser
+  id: Parser
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: InputVideoState.Parser
+  fullName: LiveKit.Proto.InputVideoState.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3597
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<InputVideoState> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.InputVideoState}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of InputVideoState)
+  overload: LiveKit.Proto.InputVideoState.Parser*
+- uid: LiveKit.Proto.InputVideoState.Descriptor
+  commentId: P:LiveKit.Proto.InputVideoState.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: InputVideoState.Descriptor
+  fullName: LiveKit.Proto.InputVideoState.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3601
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.InputVideoState.Descriptor*
+- uid: LiveKit.Proto.InputVideoState.#ctor
+  commentId: M:LiveKit.Proto.InputVideoState.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: InputVideoState()
+  nameWithType: InputVideoState.InputVideoState()
+  fullName: LiveKit.Proto.InputVideoState.InputVideoState()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3613
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public InputVideoState()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.InputVideoState.#ctor*
+  nameWithType.vb: InputVideoState.New()
+  fullName.vb: LiveKit.Proto.InputVideoState.New()
+  name.vb: New()
+- uid: LiveKit.Proto.InputVideoState.#ctor(LiveKit.Proto.InputVideoState)
+  commentId: M:LiveKit.Proto.InputVideoState.#ctor(LiveKit.Proto.InputVideoState)
+  id: '#ctor(LiveKit.Proto.InputVideoState)'
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: InputVideoState(InputVideoState)
+  nameWithType: InputVideoState.InputVideoState(InputVideoState)
+  fullName: LiveKit.Proto.InputVideoState.InputVideoState(LiveKit.Proto.InputVideoState)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3621
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public InputVideoState(InputVideoState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.InputVideoState
+    content.vb: Public Sub New(other As InputVideoState)
+  overload: LiveKit.Proto.InputVideoState.#ctor*
+  nameWithType.vb: InputVideoState.New(InputVideoState)
+  fullName.vb: LiveKit.Proto.InputVideoState.New(LiveKit.Proto.InputVideoState)
+  name.vb: New(InputVideoState)
+- uid: LiveKit.Proto.InputVideoState.Clone
+  commentId: M:LiveKit.Proto.InputVideoState.Clone
+  id: Clone
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: InputVideoState.Clone()
+  fullName: LiveKit.Proto.InputVideoState.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3632
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public InputVideoState Clone()
+    return:
+      type: LiveKit.Proto.InputVideoState
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As InputVideoState
+  overload: LiveKit.Proto.InputVideoState.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}.Clone
+- uid: LiveKit.Proto.InputVideoState.MimeTypeFieldNumber
+  commentId: F:LiveKit.Proto.InputVideoState.MimeTypeFieldNumber
+  id: MimeTypeFieldNumber
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: MimeTypeFieldNumber
+  nameWithType: InputVideoState.MimeTypeFieldNumber
+  fullName: LiveKit.Proto.InputVideoState.MimeTypeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MimeTypeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3639
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "mime_type" field.
+  example: []
+  syntax:
+    content: public const int MimeTypeFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const MimeTypeFieldNumber As Integer = 1
+- uid: LiveKit.Proto.InputVideoState.MimeType
+  commentId: P:LiveKit.Proto.InputVideoState.MimeType
+  id: MimeType
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: InputVideoState.MimeType
+  fullName: LiveKit.Proto.InputVideoState.MimeType
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MimeType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3641
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MimeType As String
+  overload: LiveKit.Proto.InputVideoState.MimeType*
+- uid: LiveKit.Proto.InputVideoState.AverageBitrateFieldNumber
+  commentId: F:LiveKit.Proto.InputVideoState.AverageBitrateFieldNumber
+  id: AverageBitrateFieldNumber
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: AverageBitrateFieldNumber
+  nameWithType: InputVideoState.AverageBitrateFieldNumber
+  fullName: LiveKit.Proto.InputVideoState.AverageBitrateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AverageBitrateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3651
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "average_bitrate" field.
+  example: []
+  syntax:
+    content: public const int AverageBitrateFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AverageBitrateFieldNumber As Integer = 2
+- uid: LiveKit.Proto.InputVideoState.AverageBitrate
+  commentId: P:LiveKit.Proto.InputVideoState.AverageBitrate
+  id: AverageBitrate
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: AverageBitrate
+  nameWithType: InputVideoState.AverageBitrate
+  fullName: LiveKit.Proto.InputVideoState.AverageBitrate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AverageBitrate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3653
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint AverageBitrate { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property AverageBitrate As UInteger
+  overload: LiveKit.Proto.InputVideoState.AverageBitrate*
+- uid: LiveKit.Proto.InputVideoState.WidthFieldNumber
+  commentId: F:LiveKit.Proto.InputVideoState.WidthFieldNumber
+  id: WidthFieldNumber
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: WidthFieldNumber
+  nameWithType: InputVideoState.WidthFieldNumber
+  fullName: LiveKit.Proto.InputVideoState.WidthFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WidthFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3663
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "width" field.
+  example: []
+  syntax:
+    content: public const int WidthFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const WidthFieldNumber As Integer = 3
+- uid: LiveKit.Proto.InputVideoState.Width
+  commentId: P:LiveKit.Proto.InputVideoState.Width
+  id: Width
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: InputVideoState.Width
+  fullName: LiveKit.Proto.InputVideoState.Width
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Width
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3665
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Width { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Width As UInteger
+  overload: LiveKit.Proto.InputVideoState.Width*
+- uid: LiveKit.Proto.InputVideoState.HeightFieldNumber
+  commentId: F:LiveKit.Proto.InputVideoState.HeightFieldNumber
+  id: HeightFieldNumber
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: HeightFieldNumber
+  nameWithType: InputVideoState.HeightFieldNumber
+  fullName: LiveKit.Proto.InputVideoState.HeightFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HeightFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3675
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "height" field.
+  example: []
+  syntax:
+    content: public const int HeightFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const HeightFieldNumber As Integer = 4
+- uid: LiveKit.Proto.InputVideoState.Height
+  commentId: P:LiveKit.Proto.InputVideoState.Height
+  id: Height
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: InputVideoState.Height
+  fullName: LiveKit.Proto.InputVideoState.Height
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Height
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3677
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Height { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Height As UInteger
+  overload: LiveKit.Proto.InputVideoState.Height*
+- uid: LiveKit.Proto.InputVideoState.FramerateFieldNumber
+  commentId: F:LiveKit.Proto.InputVideoState.FramerateFieldNumber
+  id: FramerateFieldNumber
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: FramerateFieldNumber
+  nameWithType: InputVideoState.FramerateFieldNumber
+  fullName: LiveKit.Proto.InputVideoState.FramerateFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FramerateFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3687
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "framerate" field.
+  example: []
+  syntax:
+    content: public const int FramerateFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const FramerateFieldNumber As Integer = 5
+- uid: LiveKit.Proto.InputVideoState.Framerate
+  commentId: P:LiveKit.Proto.InputVideoState.Framerate
+  id: Framerate
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: Framerate
+  nameWithType: InputVideoState.Framerate
+  fullName: LiveKit.Proto.InputVideoState.Framerate
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Framerate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3689
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public double Framerate { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Framerate As Double
+  overload: LiveKit.Proto.InputVideoState.Framerate*
+- uid: LiveKit.Proto.InputVideoState.Equals(System.Object)
+  commentId: M:LiveKit.Proto.InputVideoState.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: InputVideoState.Equals(object)
+  fullName: LiveKit.Proto.InputVideoState.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3698
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.InputVideoState.Equals*
+  nameWithType.vb: InputVideoState.Equals(Object)
+  fullName.vb: LiveKit.Proto.InputVideoState.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.InputVideoState.Equals(LiveKit.Proto.InputVideoState)
+  commentId: M:LiveKit.Proto.InputVideoState.Equals(LiveKit.Proto.InputVideoState)
+  id: Equals(LiveKit.Proto.InputVideoState)
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: Equals(InputVideoState)
+  nameWithType: InputVideoState.Equals(InputVideoState)
+  fullName: LiveKit.Proto.InputVideoState.Equals(LiveKit.Proto.InputVideoState)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3704
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(InputVideoState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.InputVideoState
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As InputVideoState) As Boolean
+  overload: LiveKit.Proto.InputVideoState.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.InputVideoState}.Equals(LiveKit.Proto.InputVideoState)
+- uid: LiveKit.Proto.InputVideoState.GetHashCode
+  commentId: M:LiveKit.Proto.InputVideoState.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: InputVideoState.GetHashCode()
+  fullName: LiveKit.Proto.InputVideoState.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3721
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.InputVideoState.GetHashCode*
+- uid: LiveKit.Proto.InputVideoState.ToString
+  commentId: M:LiveKit.Proto.InputVideoState.ToString
+  id: ToString
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: InputVideoState.ToString()
+  fullName: LiveKit.Proto.InputVideoState.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3736
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.InputVideoState.ToString*
+- uid: LiveKit.Proto.InputVideoState.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.InputVideoState.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: InputVideoState.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.InputVideoState.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3742
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.InputVideoState.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.InputVideoState.CalculateSize
+  commentId: M:LiveKit.Proto.InputVideoState.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: InputVideoState.CalculateSize()
+  fullName: LiveKit.Proto.InputVideoState.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3804
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.InputVideoState.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.InputVideoState.MergeFrom(LiveKit.Proto.InputVideoState)
+  commentId: M:LiveKit.Proto.InputVideoState.MergeFrom(LiveKit.Proto.InputVideoState)
+  id: MergeFrom(LiveKit.Proto.InputVideoState)
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(InputVideoState)
+  nameWithType: InputVideoState.MergeFrom(InputVideoState)
+  fullName: LiveKit.Proto.InputVideoState.MergeFrom(LiveKit.Proto.InputVideoState)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3829
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(InputVideoState other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.InputVideoState
+    content.vb: Public Sub MergeFrom(other As InputVideoState)
+  overload: LiveKit.Proto.InputVideoState.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}.MergeFrom(LiveKit.Proto.InputVideoState)
+- uid: LiveKit.Proto.InputVideoState.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.InputVideoState.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.InputVideoState
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: InputVideoState.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.InputVideoState.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitIngress.cs
+    startLine: 3853
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.InputVideoState.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.InputVideoState.html
+  name: IMessage<InputVideoState>
+  nameWithType: IMessage<InputVideoState>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.InputVideoState>
+  nameWithType.vb: IMessage(Of InputVideoState)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.InputVideoState)
+  name.vb: IMessage(Of InputVideoState)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.InputVideoState}
+  commentId: T:System.IEquatable{LiveKit.Proto.InputVideoState}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<InputVideoState>
+  nameWithType: IEquatable<InputVideoState>
+  fullName: System.IEquatable<LiveKit.Proto.InputVideoState>
+  nameWithType.vb: IEquatable(Of InputVideoState)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.InputVideoState)
+  name.vb: IEquatable(Of InputVideoState)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.InputVideoState.html
+  name: IDeepCloneable<InputVideoState>
+  nameWithType: IDeepCloneable<InputVideoState>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.InputVideoState>
+  nameWithType.vb: IDeepCloneable(Of InputVideoState)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.InputVideoState)
+  name.vb: IDeepCloneable(Of InputVideoState)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.InputVideoState.Parser*
+  commentId: Overload:LiveKit.Proto.InputVideoState.Parser
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_Parser
+  name: Parser
+  nameWithType: InputVideoState.Parser
+  fullName: LiveKit.Proto.InputVideoState.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.InputVideoState}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.InputVideoState}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.InputVideoState.html
+  name: MessageParser<InputVideoState>
+  nameWithType: MessageParser<InputVideoState>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.InputVideoState>
+  nameWithType.vb: MessageParser(Of InputVideoState)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.InputVideoState)
+  name.vb: MessageParser(Of InputVideoState)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.InputVideoState.Descriptor*
+  commentId: Overload:LiveKit.Proto.InputVideoState.Descriptor
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_Descriptor
+  name: Descriptor
+  nameWithType: InputVideoState.Descriptor
+  fullName: LiveKit.Proto.InputVideoState.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.InputVideoState.#ctor*
+  commentId: Overload:LiveKit.Proto.InputVideoState.#ctor
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState__ctor
+  name: InputVideoState
+  nameWithType: InputVideoState.InputVideoState
+  fullName: LiveKit.Proto.InputVideoState.InputVideoState
+  nameWithType.vb: InputVideoState.New
+  fullName.vb: LiveKit.Proto.InputVideoState.New
+  name.vb: New
+- uid: LiveKit.Proto.InputVideoState
+  commentId: T:LiveKit.Proto.InputVideoState
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.InputVideoState.html
+  name: InputVideoState
+  nameWithType: InputVideoState
+  fullName: LiveKit.Proto.InputVideoState
+- uid: LiveKit.Proto.InputVideoState.Clone*
+  commentId: Overload:LiveKit.Proto.InputVideoState.Clone
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_Clone
+  name: Clone
+  nameWithType: InputVideoState.Clone
+  fullName: LiveKit.Proto.InputVideoState.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<InputVideoState>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.InputVideoState>.Clone()
+  nameWithType.vb: IDeepCloneable(Of InputVideoState).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.InputVideoState).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.InputVideoState}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.InputVideoState.MimeType*
+  commentId: Overload:LiveKit.Proto.InputVideoState.MimeType
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_MimeType
+  name: MimeType
+  nameWithType: InputVideoState.MimeType
+  fullName: LiveKit.Proto.InputVideoState.MimeType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.InputVideoState.AverageBitrate*
+  commentId: Overload:LiveKit.Proto.InputVideoState.AverageBitrate
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_AverageBitrate
+  name: AverageBitrate
+  nameWithType: InputVideoState.AverageBitrate
+  fullName: LiveKit.Proto.InputVideoState.AverageBitrate
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: LiveKit.Proto.InputVideoState.Width*
+  commentId: Overload:LiveKit.Proto.InputVideoState.Width
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_Width
+  name: Width
+  nameWithType: InputVideoState.Width
+  fullName: LiveKit.Proto.InputVideoState.Width
+- uid: LiveKit.Proto.InputVideoState.Height*
+  commentId: Overload:LiveKit.Proto.InputVideoState.Height
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_Height
+  name: Height
+  nameWithType: InputVideoState.Height
+  fullName: LiveKit.Proto.InputVideoState.Height
+- uid: LiveKit.Proto.InputVideoState.Framerate*
+  commentId: Overload:LiveKit.Proto.InputVideoState.Framerate
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_Framerate
+  name: Framerate
+  nameWithType: InputVideoState.Framerate
+  fullName: LiveKit.Proto.InputVideoState.Framerate
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.InputVideoState.Equals*
+  commentId: Overload:LiveKit.Proto.InputVideoState.Equals
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_Equals_System_Object_
+  name: Equals
+  nameWithType: InputVideoState.Equals
+  fullName: LiveKit.Proto.InputVideoState.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.InputVideoState}.Equals(LiveKit.Proto.InputVideoState)
+  commentId: M:System.IEquatable{LiveKit.Proto.InputVideoState}.Equals(LiveKit.Proto.InputVideoState)
+  parent: System.IEquatable{LiveKit.Proto.InputVideoState}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(InputVideoState)
+  nameWithType: IEquatable<InputVideoState>.Equals(InputVideoState)
+  fullName: System.IEquatable<LiveKit.Proto.InputVideoState>.Equals(LiveKit.Proto.InputVideoState)
+  nameWithType.vb: IEquatable(Of InputVideoState).Equals(InputVideoState)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.InputVideoState).Equals(LiveKit.Proto.InputVideoState)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.InputVideoState}.Equals(LiveKit.Proto.InputVideoState)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.InputVideoState}.Equals(LiveKit.Proto.InputVideoState)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.InputVideoState.GetHashCode*
+  commentId: Overload:LiveKit.Proto.InputVideoState.GetHashCode
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_GetHashCode
+  name: GetHashCode
+  nameWithType: InputVideoState.GetHashCode
+  fullName: LiveKit.Proto.InputVideoState.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.InputVideoState.ToString*
+  commentId: Overload:LiveKit.Proto.InputVideoState.ToString
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_ToString
+  name: ToString
+  nameWithType: InputVideoState.ToString
+  fullName: LiveKit.Proto.InputVideoState.ToString
+- uid: LiveKit.Proto.InputVideoState.WriteTo*
+  commentId: Overload:LiveKit.Proto.InputVideoState.WriteTo
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: InputVideoState.WriteTo
+  fullName: LiveKit.Proto.InputVideoState.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.InputVideoState.CalculateSize*
+  commentId: Overload:LiveKit.Proto.InputVideoState.CalculateSize
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_CalculateSize
+  name: CalculateSize
+  nameWithType: InputVideoState.CalculateSize
+  fullName: LiveKit.Proto.InputVideoState.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.InputVideoState.MergeFrom*
+  commentId: Overload:LiveKit.Proto.InputVideoState.MergeFrom
+  href: LiveKit.Proto.InputVideoState.html#LiveKit_Proto_InputVideoState_MergeFrom_LiveKit_Proto_InputVideoState_
+  name: MergeFrom
+  nameWithType: InputVideoState.MergeFrom
+  fullName: LiveKit.Proto.InputVideoState.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}.MergeFrom(LiveKit.Proto.InputVideoState)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}.MergeFrom(LiveKit.Proto.InputVideoState)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.InputVideoState.html
+  name: MergeFrom(InputVideoState)
+  nameWithType: IMessage<InputVideoState>.MergeFrom(InputVideoState)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.InputVideoState>.MergeFrom(LiveKit.Proto.InputVideoState)
+  nameWithType.vb: IMessage(Of InputVideoState).MergeFrom(InputVideoState)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.InputVideoState).MergeFrom(LiveKit.Proto.InputVideoState)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}.MergeFrom(LiveKit.Proto.InputVideoState)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.InputVideoState}.MergeFrom(LiveKit.Proto.InputVideoState)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.InputVideoState
+    name: InputVideoState
+    href: LiveKit.Proto.InputVideoState.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

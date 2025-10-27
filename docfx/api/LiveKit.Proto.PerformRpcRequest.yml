@@ -1,0 +1,1684 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.PerformRpcRequest
+  commentId: T:LiveKit.Proto.PerformRpcRequest
+  id: PerformRpcRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.PerformRpcRequest.#ctor
+  - LiveKit.Proto.PerformRpcRequest.#ctor(LiveKit.Proto.PerformRpcRequest)
+  - LiveKit.Proto.PerformRpcRequest.CalculateSize
+  - LiveKit.Proto.PerformRpcRequest.Clone
+  - LiveKit.Proto.PerformRpcRequest.Descriptor
+  - LiveKit.Proto.PerformRpcRequest.DestinationIdentity
+  - LiveKit.Proto.PerformRpcRequest.DestinationIdentityFieldNumber
+  - LiveKit.Proto.PerformRpcRequest.Equals(LiveKit.Proto.PerformRpcRequest)
+  - LiveKit.Proto.PerformRpcRequest.Equals(System.Object)
+  - LiveKit.Proto.PerformRpcRequest.GetHashCode
+  - LiveKit.Proto.PerformRpcRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.PerformRpcRequest.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  - LiveKit.Proto.PerformRpcRequest.Method
+  - LiveKit.Proto.PerformRpcRequest.MethodFieldNumber
+  - LiveKit.Proto.PerformRpcRequest.Parser
+  - LiveKit.Proto.PerformRpcRequest.Payload
+  - LiveKit.Proto.PerformRpcRequest.PayloadFieldNumber
+  - LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMs
+  - LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMsFieldNumber
+  - LiveKit.Proto.PerformRpcRequest.Room
+  - LiveKit.Proto.PerformRpcRequest.RoomFieldNumber
+  - LiveKit.Proto.PerformRpcRequest.ToString
+  - LiveKit.Proto.PerformRpcRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: PerformRpcRequest
+  nameWithType: PerformRpcRequest
+  fullName: LiveKit.Proto.PerformRpcRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PerformRpcRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6518
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class PerformRpcRequest : IMessage<PerformRpcRequest>, IEquatable<PerformRpcRequest>, IDeepCloneable<PerformRpcRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class PerformRpcRequest Implements IMessage(Of PerformRpcRequest), IEquatable(Of PerformRpcRequest), IDeepCloneable(Of PerformRpcRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}
+  - System.IEquatable{LiveKit.Proto.PerformRpcRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.PerformRpcRequest.Parser
+  commentId: P:LiveKit.Proto.PerformRpcRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: PerformRpcRequest.Parser
+  fullName: LiveKit.Proto.PerformRpcRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6526
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<PerformRpcRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.PerformRpcRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of PerformRpcRequest)
+  overload: LiveKit.Proto.PerformRpcRequest.Parser*
+- uid: LiveKit.Proto.PerformRpcRequest.Descriptor
+  commentId: P:LiveKit.Proto.PerformRpcRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: PerformRpcRequest.Descriptor
+  fullName: LiveKit.Proto.PerformRpcRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6530
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.PerformRpcRequest.Descriptor*
+- uid: LiveKit.Proto.PerformRpcRequest.#ctor
+  commentId: M:LiveKit.Proto.PerformRpcRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: PerformRpcRequest()
+  nameWithType: PerformRpcRequest.PerformRpcRequest()
+  fullName: LiveKit.Proto.PerformRpcRequest.PerformRpcRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6542
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public PerformRpcRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.PerformRpcRequest.#ctor*
+  nameWithType.vb: PerformRpcRequest.New()
+  fullName.vb: LiveKit.Proto.PerformRpcRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.PerformRpcRequest.#ctor(LiveKit.Proto.PerformRpcRequest)
+  commentId: M:LiveKit.Proto.PerformRpcRequest.#ctor(LiveKit.Proto.PerformRpcRequest)
+  id: '#ctor(LiveKit.Proto.PerformRpcRequest)'
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: PerformRpcRequest(PerformRpcRequest)
+  nameWithType: PerformRpcRequest.PerformRpcRequest(PerformRpcRequest)
+  fullName: LiveKit.Proto.PerformRpcRequest.PerformRpcRequest(LiveKit.Proto.PerformRpcRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6550
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public PerformRpcRequest(PerformRpcRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.PerformRpcRequest
+    content.vb: Public Sub New(other As PerformRpcRequest)
+  overload: LiveKit.Proto.PerformRpcRequest.#ctor*
+  nameWithType.vb: PerformRpcRequest.New(PerformRpcRequest)
+  fullName.vb: LiveKit.Proto.PerformRpcRequest.New(LiveKit.Proto.PerformRpcRequest)
+  name.vb: New(PerformRpcRequest)
+- uid: LiveKit.Proto.PerformRpcRequest.Clone
+  commentId: M:LiveKit.Proto.PerformRpcRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: PerformRpcRequest.Clone()
+  fullName: LiveKit.Proto.PerformRpcRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6561
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public PerformRpcRequest Clone()
+    return:
+      type: LiveKit.Proto.PerformRpcRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As PerformRpcRequest
+  overload: LiveKit.Proto.PerformRpcRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}.Clone
+- uid: LiveKit.Proto.PerformRpcRequest.RoomFieldNumber
+  commentId: F:LiveKit.Proto.PerformRpcRequest.RoomFieldNumber
+  id: RoomFieldNumber
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: RoomFieldNumber
+  nameWithType: PerformRpcRequest.RoomFieldNumber
+  fullName: LiveKit.Proto.PerformRpcRequest.RoomFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6568
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "room" field.
+  example: []
+  syntax:
+    content: public const int RoomFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const RoomFieldNumber As Integer = 1
+- uid: LiveKit.Proto.PerformRpcRequest.Room
+  commentId: P:LiveKit.Proto.PerformRpcRequest.Room
+  id: Room
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: PerformRpcRequest.Room
+  fullName: LiveKit.Proto.PerformRpcRequest.Room
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Room
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6570
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Room { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Room As String
+  overload: LiveKit.Proto.PerformRpcRequest.Room*
+- uid: LiveKit.Proto.PerformRpcRequest.DestinationIdentityFieldNumber
+  commentId: F:LiveKit.Proto.PerformRpcRequest.DestinationIdentityFieldNumber
+  id: DestinationIdentityFieldNumber
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationIdentityFieldNumber
+  nameWithType: PerformRpcRequest.DestinationIdentityFieldNumber
+  fullName: LiveKit.Proto.PerformRpcRequest.DestinationIdentityFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationIdentityFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6580
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "destination_identity" field.
+  example: []
+  syntax:
+    content: public const int DestinationIdentityFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const DestinationIdentityFieldNumber As Integer = 2
+- uid: LiveKit.Proto.PerformRpcRequest.DestinationIdentity
+  commentId: P:LiveKit.Proto.PerformRpcRequest.DestinationIdentity
+  id: DestinationIdentity
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: DestinationIdentity
+  nameWithType: PerformRpcRequest.DestinationIdentity
+  fullName: LiveKit.Proto.PerformRpcRequest.DestinationIdentity
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DestinationIdentity
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6582
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string DestinationIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DestinationIdentity As String
+  overload: LiveKit.Proto.PerformRpcRequest.DestinationIdentity*
+- uid: LiveKit.Proto.PerformRpcRequest.MethodFieldNumber
+  commentId: F:LiveKit.Proto.PerformRpcRequest.MethodFieldNumber
+  id: MethodFieldNumber
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: MethodFieldNumber
+  nameWithType: PerformRpcRequest.MethodFieldNumber
+  fullName: LiveKit.Proto.PerformRpcRequest.MethodFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MethodFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6592
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "method" field.
+  example: []
+  syntax:
+    content: public const int MethodFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const MethodFieldNumber As Integer = 3
+- uid: LiveKit.Proto.PerformRpcRequest.Method
+  commentId: P:LiveKit.Proto.PerformRpcRequest.Method
+  id: Method
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: Method
+  nameWithType: PerformRpcRequest.Method
+  fullName: LiveKit.Proto.PerformRpcRequest.Method
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Method
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6594
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Method { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Method As String
+  overload: LiveKit.Proto.PerformRpcRequest.Method*
+- uid: LiveKit.Proto.PerformRpcRequest.PayloadFieldNumber
+  commentId: F:LiveKit.Proto.PerformRpcRequest.PayloadFieldNumber
+  id: PayloadFieldNumber
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: PayloadFieldNumber
+  nameWithType: PerformRpcRequest.PayloadFieldNumber
+  fullName: LiveKit.Proto.PerformRpcRequest.PayloadFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PayloadFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6604
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "payload" field.
+  example: []
+  syntax:
+    content: public const int PayloadFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const PayloadFieldNumber As Integer = 4
+- uid: LiveKit.Proto.PerformRpcRequest.Payload
+  commentId: P:LiveKit.Proto.PerformRpcRequest.Payload
+  id: Payload
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: PerformRpcRequest.Payload
+  fullName: LiveKit.Proto.PerformRpcRequest.Payload
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Payload
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6606
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Payload { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Payload As String
+  overload: LiveKit.Proto.PerformRpcRequest.Payload*
+- uid: LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMsFieldNumber
+  commentId: F:LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMsFieldNumber
+  id: ResponseTimeoutMsFieldNumber
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: ResponseTimeoutMsFieldNumber
+  nameWithType: PerformRpcRequest.ResponseTimeoutMsFieldNumber
+  fullName: LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ResponseTimeoutMsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6616
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "response_timeout_ms" field.
+  example: []
+  syntax:
+    content: public const int ResponseTimeoutMsFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const ResponseTimeoutMsFieldNumber As Integer = 5
+- uid: LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMs
+  commentId: P:LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMs
+  id: ResponseTimeoutMs
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: ResponseTimeoutMs
+  nameWithType: PerformRpcRequest.ResponseTimeoutMs
+  fullName: LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ResponseTimeoutMs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6618
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint ResponseTimeoutMs { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ResponseTimeoutMs As UInteger
+  overload: LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMs*
+- uid: LiveKit.Proto.PerformRpcRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.PerformRpcRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: PerformRpcRequest.Equals(object)
+  fullName: LiveKit.Proto.PerformRpcRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6627
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.PerformRpcRequest.Equals*
+  nameWithType.vb: PerformRpcRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.PerformRpcRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.PerformRpcRequest.Equals(LiveKit.Proto.PerformRpcRequest)
+  commentId: M:LiveKit.Proto.PerformRpcRequest.Equals(LiveKit.Proto.PerformRpcRequest)
+  id: Equals(LiveKit.Proto.PerformRpcRequest)
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(PerformRpcRequest)
+  nameWithType: PerformRpcRequest.Equals(PerformRpcRequest)
+  fullName: LiveKit.Proto.PerformRpcRequest.Equals(LiveKit.Proto.PerformRpcRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6633
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(PerformRpcRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.PerformRpcRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As PerformRpcRequest) As Boolean
+  overload: LiveKit.Proto.PerformRpcRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.PerformRpcRequest}.Equals(LiveKit.Proto.PerformRpcRequest)
+- uid: LiveKit.Proto.PerformRpcRequest.GetHashCode
+  commentId: M:LiveKit.Proto.PerformRpcRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: PerformRpcRequest.GetHashCode()
+  fullName: LiveKit.Proto.PerformRpcRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6650
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.PerformRpcRequest.GetHashCode*
+- uid: LiveKit.Proto.PerformRpcRequest.ToString
+  commentId: M:LiveKit.Proto.PerformRpcRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PerformRpcRequest.ToString()
+  fullName: LiveKit.Proto.PerformRpcRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6665
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.PerformRpcRequest.ToString*
+- uid: LiveKit.Proto.PerformRpcRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.PerformRpcRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: PerformRpcRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.PerformRpcRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6671
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.PerformRpcRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.PerformRpcRequest.CalculateSize
+  commentId: M:LiveKit.Proto.PerformRpcRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: PerformRpcRequest.CalculateSize()
+  fullName: LiveKit.Proto.PerformRpcRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6733
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.PerformRpcRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.PerformRpcRequest.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  commentId: M:LiveKit.Proto.PerformRpcRequest.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  id: MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(PerformRpcRequest)
+  nameWithType: PerformRpcRequest.MergeFrom(PerformRpcRequest)
+  fullName: LiveKit.Proto.PerformRpcRequest.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6758
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(PerformRpcRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.PerformRpcRequest
+    content.vb: Public Sub MergeFrom(other As PerformRpcRequest)
+  overload: LiveKit.Proto.PerformRpcRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+- uid: LiveKit.Proto.PerformRpcRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.PerformRpcRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.PerformRpcRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: PerformRpcRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.PerformRpcRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitRoom.cs
+    startLine: 6782
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.PerformRpcRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.PerformRpcRequest.html
+  name: IMessage<PerformRpcRequest>
+  nameWithType: IMessage<PerformRpcRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.PerformRpcRequest>
+  nameWithType.vb: IMessage(Of PerformRpcRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.PerformRpcRequest)
+  name.vb: IMessage(Of PerformRpcRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.PerformRpcRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.PerformRpcRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<PerformRpcRequest>
+  nameWithType: IEquatable<PerformRpcRequest>
+  fullName: System.IEquatable<LiveKit.Proto.PerformRpcRequest>
+  nameWithType.vb: IEquatable(Of PerformRpcRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.PerformRpcRequest)
+  name.vb: IEquatable(Of PerformRpcRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.PerformRpcRequest.html
+  name: IDeepCloneable<PerformRpcRequest>
+  nameWithType: IDeepCloneable<PerformRpcRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.PerformRpcRequest>
+  nameWithType.vb: IDeepCloneable(Of PerformRpcRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.PerformRpcRequest)
+  name.vb: IDeepCloneable(Of PerformRpcRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.PerformRpcRequest.Parser*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.Parser
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_Parser
+  name: Parser
+  nameWithType: PerformRpcRequest.Parser
+  fullName: LiveKit.Proto.PerformRpcRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.PerformRpcRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.PerformRpcRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.PerformRpcRequest.html
+  name: MessageParser<PerformRpcRequest>
+  nameWithType: MessageParser<PerformRpcRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.PerformRpcRequest>
+  nameWithType.vb: MessageParser(Of PerformRpcRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.PerformRpcRequest)
+  name.vb: MessageParser(Of PerformRpcRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.PerformRpcRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.Descriptor
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_Descriptor
+  name: Descriptor
+  nameWithType: PerformRpcRequest.Descriptor
+  fullName: LiveKit.Proto.PerformRpcRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.PerformRpcRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.#ctor
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest__ctor
+  name: PerformRpcRequest
+  nameWithType: PerformRpcRequest.PerformRpcRequest
+  fullName: LiveKit.Proto.PerformRpcRequest.PerformRpcRequest
+  nameWithType.vb: PerformRpcRequest.New
+  fullName.vb: LiveKit.Proto.PerformRpcRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.PerformRpcRequest
+  commentId: T:LiveKit.Proto.PerformRpcRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.PerformRpcRequest.html
+  name: PerformRpcRequest
+  nameWithType: PerformRpcRequest
+  fullName: LiveKit.Proto.PerformRpcRequest
+- uid: LiveKit.Proto.PerformRpcRequest.Clone*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.Clone
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_Clone
+  name: Clone
+  nameWithType: PerformRpcRequest.Clone
+  fullName: LiveKit.Proto.PerformRpcRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<PerformRpcRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.PerformRpcRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of PerformRpcRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.PerformRpcRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.PerformRpcRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.PerformRpcRequest.Room*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.Room
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_Room
+  name: Room
+  nameWithType: PerformRpcRequest.Room
+  fullName: LiveKit.Proto.PerformRpcRequest.Room
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.PerformRpcRequest.DestinationIdentity*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.DestinationIdentity
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_DestinationIdentity
+  name: DestinationIdentity
+  nameWithType: PerformRpcRequest.DestinationIdentity
+  fullName: LiveKit.Proto.PerformRpcRequest.DestinationIdentity
+- uid: LiveKit.Proto.PerformRpcRequest.Method*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.Method
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_Method
+  name: Method
+  nameWithType: PerformRpcRequest.Method
+  fullName: LiveKit.Proto.PerformRpcRequest.Method
+- uid: LiveKit.Proto.PerformRpcRequest.Payload*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.Payload
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_Payload
+  name: Payload
+  nameWithType: PerformRpcRequest.Payload
+  fullName: LiveKit.Proto.PerformRpcRequest.Payload
+- uid: LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMs*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMs
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_ResponseTimeoutMs
+  name: ResponseTimeoutMs
+  nameWithType: PerformRpcRequest.ResponseTimeoutMs
+  fullName: LiveKit.Proto.PerformRpcRequest.ResponseTimeoutMs
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.PerformRpcRequest.Equals*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.Equals
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: PerformRpcRequest.Equals
+  fullName: LiveKit.Proto.PerformRpcRequest.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.PerformRpcRequest}.Equals(LiveKit.Proto.PerformRpcRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.PerformRpcRequest}.Equals(LiveKit.Proto.PerformRpcRequest)
+  parent: System.IEquatable{LiveKit.Proto.PerformRpcRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(PerformRpcRequest)
+  nameWithType: IEquatable<PerformRpcRequest>.Equals(PerformRpcRequest)
+  fullName: System.IEquatable<LiveKit.Proto.PerformRpcRequest>.Equals(LiveKit.Proto.PerformRpcRequest)
+  nameWithType.vb: IEquatable(Of PerformRpcRequest).Equals(PerformRpcRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.PerformRpcRequest).Equals(LiveKit.Proto.PerformRpcRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.PerformRpcRequest}.Equals(LiveKit.Proto.PerformRpcRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.PerformRpcRequest}.Equals(LiveKit.Proto.PerformRpcRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.PerformRpcRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.GetHashCode
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: PerformRpcRequest.GetHashCode
+  fullName: LiveKit.Proto.PerformRpcRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.PerformRpcRequest.ToString*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.ToString
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_ToString
+  name: ToString
+  nameWithType: PerformRpcRequest.ToString
+  fullName: LiveKit.Proto.PerformRpcRequest.ToString
+- uid: LiveKit.Proto.PerformRpcRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.WriteTo
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: PerformRpcRequest.WriteTo
+  fullName: LiveKit.Proto.PerformRpcRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.PerformRpcRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.CalculateSize
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: PerformRpcRequest.CalculateSize
+  fullName: LiveKit.Proto.PerformRpcRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.PerformRpcRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.PerformRpcRequest.MergeFrom
+  href: LiveKit.Proto.PerformRpcRequest.html#LiveKit_Proto_PerformRpcRequest_MergeFrom_LiveKit_Proto_PerformRpcRequest_
+  name: MergeFrom
+  nameWithType: PerformRpcRequest.MergeFrom
+  fullName: LiveKit.Proto.PerformRpcRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.PerformRpcRequest.html
+  name: MergeFrom(PerformRpcRequest)
+  nameWithType: IMessage<PerformRpcRequest>.MergeFrom(PerformRpcRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.PerformRpcRequest>.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  nameWithType.vb: IMessage(Of PerformRpcRequest).MergeFrom(PerformRpcRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.PerformRpcRequest).MergeFrom(LiveKit.Proto.PerformRpcRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.PerformRpcRequest}.MergeFrom(LiveKit.Proto.PerformRpcRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.PerformRpcRequest
+    name: PerformRpcRequest
+    href: LiveKit.Proto.PerformRpcRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

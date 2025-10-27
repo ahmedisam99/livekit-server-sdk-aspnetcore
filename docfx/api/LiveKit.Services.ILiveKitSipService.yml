@@ -1,0 +1,1351 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.ILiveKitSipService
+  commentId: T:LiveKit.Services.ILiveKitSipService
+  id: ILiveKitSipService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.ILiveKitSipService.CreateSIPDispatchRuleAsync(LiveKit.Proto.CreateSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.CreateSIPInboundTrunkAsync(LiveKit.Proto.CreateSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.CreateSIPOutboundTrunkAsync(LiveKit.Proto.CreateSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.CreateSIPParticipantAsync(LiveKit.Proto.CreateSIPParticipantRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.DeleteSIPDispatchRuleAsync(LiveKit.Proto.DeleteSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.DeleteSIPTrunkAsync(LiveKit.Proto.DeleteSIPTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.GetSIPInboundTrunkAsync(LiveKit.Proto.GetSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.GetSIPOutboundTrunkAsync(LiveKit.Proto.GetSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.ListSIPDispatchRuleAsync(LiveKit.Proto.ListSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.ListSIPInboundTrunkAsync(LiveKit.Proto.ListSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.ListSIPOutboundTrunkAsync(LiveKit.Proto.ListSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.ListSIPTrunkAsync(LiveKit.Proto.ListSIPTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.TransferSIPParticipantAsync(LiveKit.Proto.TransferSIPParticipantRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.UpdateSIPDispatchRuleAsync(LiveKit.Proto.UpdateSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.UpdateSIPInboundTrunkAsync(LiveKit.Proto.UpdateSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitSipService.UpdateSIPOutboundTrunkAsync(LiveKit.Proto.UpdateSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitSipService
+  nameWithType: ILiveKitSipService
+  fullName: LiveKit.Services.ILiveKitSipService
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitSipService
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 14
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Service for managing SIP trunks, dispatch rules, and participants.
+
+    <p>
+
+    Provides methods for SIP integration, including managing trunks, dispatch rules, and making SIP calls.
+
+    See <a href="https://docs.livekit.io/reference/server/server-apis/#sip-service">LiveKit SIP Service Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitSipService
+    content.vb: Public Interface ILiveKitSipService
+- uid: LiveKit.Services.ILiveKitSipService.ListSIPTrunkAsync(LiveKit.Proto.ListSIPTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.ListSIPTrunkAsync(LiveKit.Proto.ListSIPTrunkRequest,System.Threading.CancellationToken)
+  id: ListSIPTrunkAsync(LiveKit.Proto.ListSIPTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: ListSIPTrunkAsync(ListSIPTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.ListSIPTrunkAsync(ListSIPTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.ListSIPTrunkAsync(LiveKit.Proto.ListSIPTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListSIPTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 19
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists SIP trunks (deprecated, use ListSIPInboundTrunk or ListSIPOutboundTrunk).
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use ListSIPInboundTrunk or ListSIPOutboundTrunk instead")]
+
+      Task<ListSIPTrunkResponse> ListSIPTrunkAsync(ListSIPTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListSIPTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListSIPTrunkResponse}
+    content.vb: >-
+      <Obsolete("Use ListSIPInboundTrunk or ListSIPOutboundTrunk instead")>
+
+      Function ListSIPTrunkAsync(request As ListSIPTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListSIPTrunkResponse)
+  overload: LiveKit.Services.ILiveKitSipService.ListSIPTrunkAsync*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use ListSIPInboundTrunk or ListSIPOutboundTrunk instead
+- uid: LiveKit.Services.ILiveKitSipService.CreateSIPInboundTrunkAsync(LiveKit.Proto.CreateSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.CreateSIPInboundTrunkAsync(LiveKit.Proto.CreateSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  id: CreateSIPInboundTrunkAsync(LiveKit.Proto.CreateSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: CreateSIPInboundTrunkAsync(CreateSIPInboundTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.CreateSIPInboundTrunkAsync(CreateSIPInboundTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.CreateSIPInboundTrunkAsync(LiveKit.Proto.CreateSIPInboundTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateSIPInboundTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 25
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Creates a new SIP inbound trunk.
+  example: []
+  syntax:
+    content: Task<SIPInboundTrunkInfo> CreateSIPInboundTrunkAsync(CreateSIPInboundTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateSIPInboundTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPInboundTrunkInfo}
+    content.vb: Function CreateSIPInboundTrunkAsync(request As CreateSIPInboundTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPInboundTrunkInfo)
+  overload: LiveKit.Services.ILiveKitSipService.CreateSIPInboundTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.CreateSIPOutboundTrunkAsync(LiveKit.Proto.CreateSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.CreateSIPOutboundTrunkAsync(LiveKit.Proto.CreateSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  id: CreateSIPOutboundTrunkAsync(LiveKit.Proto.CreateSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: CreateSIPOutboundTrunkAsync(CreateSIPOutboundTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.CreateSIPOutboundTrunkAsync(CreateSIPOutboundTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.CreateSIPOutboundTrunkAsync(LiveKit.Proto.CreateSIPOutboundTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateSIPOutboundTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 30
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Creates a new SIP outbound trunk.
+  example: []
+  syntax:
+    content: Task<SIPOutboundTrunkInfo> CreateSIPOutboundTrunkAsync(CreateSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateSIPOutboundTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPOutboundTrunkInfo}
+    content.vb: Function CreateSIPOutboundTrunkAsync(request As CreateSIPOutboundTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPOutboundTrunkInfo)
+  overload: LiveKit.Services.ILiveKitSipService.CreateSIPOutboundTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.UpdateSIPInboundTrunkAsync(LiveKit.Proto.UpdateSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.UpdateSIPInboundTrunkAsync(LiveKit.Proto.UpdateSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  id: UpdateSIPInboundTrunkAsync(LiveKit.Proto.UpdateSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: UpdateSIPInboundTrunkAsync(UpdateSIPInboundTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.UpdateSIPInboundTrunkAsync(UpdateSIPInboundTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.UpdateSIPInboundTrunkAsync(LiveKit.Proto.UpdateSIPInboundTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateSIPInboundTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 35
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates an existing SIP inbound trunk.
+  example: []
+  syntax:
+    content: Task<SIPInboundTrunkInfo> UpdateSIPInboundTrunkAsync(UpdateSIPInboundTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPInboundTrunkInfo}
+    content.vb: Function UpdateSIPInboundTrunkAsync(request As UpdateSIPInboundTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPInboundTrunkInfo)
+  overload: LiveKit.Services.ILiveKitSipService.UpdateSIPInboundTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.UpdateSIPOutboundTrunkAsync(LiveKit.Proto.UpdateSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.UpdateSIPOutboundTrunkAsync(LiveKit.Proto.UpdateSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  id: UpdateSIPOutboundTrunkAsync(LiveKit.Proto.UpdateSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: UpdateSIPOutboundTrunkAsync(UpdateSIPOutboundTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.UpdateSIPOutboundTrunkAsync(UpdateSIPOutboundTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.UpdateSIPOutboundTrunkAsync(LiveKit.Proto.UpdateSIPOutboundTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateSIPOutboundTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 40
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates an existing SIP outbound trunk.
+  example: []
+  syntax:
+    content: Task<SIPOutboundTrunkInfo> UpdateSIPOutboundTrunkAsync(UpdateSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateSIPOutboundTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPOutboundTrunkInfo}
+    content.vb: Function UpdateSIPOutboundTrunkAsync(request As UpdateSIPOutboundTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPOutboundTrunkInfo)
+  overload: LiveKit.Services.ILiveKitSipService.UpdateSIPOutboundTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.GetSIPInboundTrunkAsync(LiveKit.Proto.GetSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.GetSIPInboundTrunkAsync(LiveKit.Proto.GetSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  id: GetSIPInboundTrunkAsync(LiveKit.Proto.GetSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: GetSIPInboundTrunkAsync(GetSIPInboundTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.GetSIPInboundTrunkAsync(GetSIPInboundTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.GetSIPInboundTrunkAsync(LiveKit.Proto.GetSIPInboundTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetSIPInboundTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 45
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Gets a SIP inbound trunk by ID.
+  example: []
+  syntax:
+    content: Task<GetSIPInboundTrunkResponse> GetSIPInboundTrunkAsync(GetSIPInboundTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.GetSIPInboundTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.GetSIPInboundTrunkResponse}
+    content.vb: Function GetSIPInboundTrunkAsync(request As GetSIPInboundTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of GetSIPInboundTrunkResponse)
+  overload: LiveKit.Services.ILiveKitSipService.GetSIPInboundTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.GetSIPOutboundTrunkAsync(LiveKit.Proto.GetSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.GetSIPOutboundTrunkAsync(LiveKit.Proto.GetSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  id: GetSIPOutboundTrunkAsync(LiveKit.Proto.GetSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: GetSIPOutboundTrunkAsync(GetSIPOutboundTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.GetSIPOutboundTrunkAsync(GetSIPOutboundTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.GetSIPOutboundTrunkAsync(LiveKit.Proto.GetSIPOutboundTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetSIPOutboundTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 50
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Gets a SIP outbound trunk by ID.
+  example: []
+  syntax:
+    content: Task<GetSIPOutboundTrunkResponse> GetSIPOutboundTrunkAsync(GetSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.GetSIPOutboundTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.GetSIPOutboundTrunkResponse}
+    content.vb: Function GetSIPOutboundTrunkAsync(request As GetSIPOutboundTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of GetSIPOutboundTrunkResponse)
+  overload: LiveKit.Services.ILiveKitSipService.GetSIPOutboundTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.ListSIPInboundTrunkAsync(LiveKit.Proto.ListSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.ListSIPInboundTrunkAsync(LiveKit.Proto.ListSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  id: ListSIPInboundTrunkAsync(LiveKit.Proto.ListSIPInboundTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: ListSIPInboundTrunkAsync(ListSIPInboundTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.ListSIPInboundTrunkAsync(ListSIPInboundTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.ListSIPInboundTrunkAsync(LiveKit.Proto.ListSIPInboundTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListSIPInboundTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 55
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists SIP inbound trunks.
+  example: []
+  syntax:
+    content: Task<ListSIPInboundTrunkResponse> ListSIPInboundTrunkAsync(ListSIPInboundTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListSIPInboundTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListSIPInboundTrunkResponse}
+    content.vb: Function ListSIPInboundTrunkAsync(request As ListSIPInboundTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListSIPInboundTrunkResponse)
+  overload: LiveKit.Services.ILiveKitSipService.ListSIPInboundTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.ListSIPOutboundTrunkAsync(LiveKit.Proto.ListSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.ListSIPOutboundTrunkAsync(LiveKit.Proto.ListSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  id: ListSIPOutboundTrunkAsync(LiveKit.Proto.ListSIPOutboundTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: ListSIPOutboundTrunkAsync(ListSIPOutboundTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.ListSIPOutboundTrunkAsync(ListSIPOutboundTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.ListSIPOutboundTrunkAsync(LiveKit.Proto.ListSIPOutboundTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListSIPOutboundTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 60
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists SIP outbound trunks.
+  example: []
+  syntax:
+    content: Task<ListSIPOutboundTrunkResponse> ListSIPOutboundTrunkAsync(ListSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListSIPOutboundTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListSIPOutboundTrunkResponse}
+    content.vb: Function ListSIPOutboundTrunkAsync(request As ListSIPOutboundTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListSIPOutboundTrunkResponse)
+  overload: LiveKit.Services.ILiveKitSipService.ListSIPOutboundTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.DeleteSIPTrunkAsync(LiveKit.Proto.DeleteSIPTrunkRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.DeleteSIPTrunkAsync(LiveKit.Proto.DeleteSIPTrunkRequest,System.Threading.CancellationToken)
+  id: DeleteSIPTrunkAsync(LiveKit.Proto.DeleteSIPTrunkRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: DeleteSIPTrunkAsync(DeleteSIPTrunkRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.DeleteSIPTrunkAsync(DeleteSIPTrunkRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.DeleteSIPTrunkAsync(LiveKit.Proto.DeleteSIPTrunkRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteSIPTrunkAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 66
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Deletes a SIP trunk by ID.
+  example: []
+  syntax:
+    content: Task<SIPTrunkInfo> DeleteSIPTrunkAsync(DeleteSIPTrunkRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.DeleteSIPTrunkRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPTrunkInfo}
+    content.vb: Function DeleteSIPTrunkAsync(request As DeleteSIPTrunkRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPTrunkInfo)
+  overload: LiveKit.Services.ILiveKitSipService.DeleteSIPTrunkAsync*
+- uid: LiveKit.Services.ILiveKitSipService.CreateSIPDispatchRuleAsync(LiveKit.Proto.CreateSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.CreateSIPDispatchRuleAsync(LiveKit.Proto.CreateSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  id: CreateSIPDispatchRuleAsync(LiveKit.Proto.CreateSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: CreateSIPDispatchRuleAsync(CreateSIPDispatchRuleRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.CreateSIPDispatchRuleAsync(CreateSIPDispatchRuleRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.CreateSIPDispatchRuleAsync(LiveKit.Proto.CreateSIPDispatchRuleRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateSIPDispatchRuleAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 72
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Creates a new SIP dispatch rule.
+  example: []
+  syntax:
+    content: Task<SIPDispatchRuleInfo> CreateSIPDispatchRuleAsync(CreateSIPDispatchRuleRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateSIPDispatchRuleRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPDispatchRuleInfo}
+    content.vb: Function CreateSIPDispatchRuleAsync(request As CreateSIPDispatchRuleRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPDispatchRuleInfo)
+  overload: LiveKit.Services.ILiveKitSipService.CreateSIPDispatchRuleAsync*
+- uid: LiveKit.Services.ILiveKitSipService.UpdateSIPDispatchRuleAsync(LiveKit.Proto.UpdateSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.UpdateSIPDispatchRuleAsync(LiveKit.Proto.UpdateSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  id: UpdateSIPDispatchRuleAsync(LiveKit.Proto.UpdateSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: UpdateSIPDispatchRuleAsync(UpdateSIPDispatchRuleRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.UpdateSIPDispatchRuleAsync(UpdateSIPDispatchRuleRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.UpdateSIPDispatchRuleAsync(LiveKit.Proto.UpdateSIPDispatchRuleRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateSIPDispatchRuleAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 77
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates an existing SIP dispatch rule.
+  example: []
+  syntax:
+    content: Task<SIPDispatchRuleInfo> UpdateSIPDispatchRuleAsync(UpdateSIPDispatchRuleRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateSIPDispatchRuleRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPDispatchRuleInfo}
+    content.vb: Function UpdateSIPDispatchRuleAsync(request As UpdateSIPDispatchRuleRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPDispatchRuleInfo)
+  overload: LiveKit.Services.ILiveKitSipService.UpdateSIPDispatchRuleAsync*
+- uid: LiveKit.Services.ILiveKitSipService.ListSIPDispatchRuleAsync(LiveKit.Proto.ListSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.ListSIPDispatchRuleAsync(LiveKit.Proto.ListSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  id: ListSIPDispatchRuleAsync(LiveKit.Proto.ListSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: ListSIPDispatchRuleAsync(ListSIPDispatchRuleRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.ListSIPDispatchRuleAsync(ListSIPDispatchRuleRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.ListSIPDispatchRuleAsync(LiveKit.Proto.ListSIPDispatchRuleRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListSIPDispatchRuleAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 82
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists SIP dispatch rules.
+  example: []
+  syntax:
+    content: Task<ListSIPDispatchRuleResponse> ListSIPDispatchRuleAsync(ListSIPDispatchRuleRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListSIPDispatchRuleRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListSIPDispatchRuleResponse}
+    content.vb: Function ListSIPDispatchRuleAsync(request As ListSIPDispatchRuleRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListSIPDispatchRuleResponse)
+  overload: LiveKit.Services.ILiveKitSipService.ListSIPDispatchRuleAsync*
+- uid: LiveKit.Services.ILiveKitSipService.DeleteSIPDispatchRuleAsync(LiveKit.Proto.DeleteSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.DeleteSIPDispatchRuleAsync(LiveKit.Proto.DeleteSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  id: DeleteSIPDispatchRuleAsync(LiveKit.Proto.DeleteSIPDispatchRuleRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: DeleteSIPDispatchRuleAsync(DeleteSIPDispatchRuleRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.DeleteSIPDispatchRuleAsync(DeleteSIPDispatchRuleRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.DeleteSIPDispatchRuleAsync(LiveKit.Proto.DeleteSIPDispatchRuleRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteSIPDispatchRuleAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 87
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Deletes a SIP dispatch rule by ID.
+  example: []
+  syntax:
+    content: Task<SIPDispatchRuleInfo> DeleteSIPDispatchRuleAsync(DeleteSIPDispatchRuleRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.DeleteSIPDispatchRuleRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPDispatchRuleInfo}
+    content.vb: Function DeleteSIPDispatchRuleAsync(request As DeleteSIPDispatchRuleRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPDispatchRuleInfo)
+  overload: LiveKit.Services.ILiveKitSipService.DeleteSIPDispatchRuleAsync*
+- uid: LiveKit.Services.ILiveKitSipService.CreateSIPParticipantAsync(LiveKit.Proto.CreateSIPParticipantRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.CreateSIPParticipantAsync(LiveKit.Proto.CreateSIPParticipantRequest,System.Threading.CancellationToken)
+  id: CreateSIPParticipantAsync(LiveKit.Proto.CreateSIPParticipantRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: CreateSIPParticipantAsync(CreateSIPParticipantRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.CreateSIPParticipantAsync(CreateSIPParticipantRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.CreateSIPParticipantAsync(LiveKit.Proto.CreateSIPParticipantRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateSIPParticipantAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 92
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Creates a SIP participant to make an outbound call.
+  example: []
+  syntax:
+    content: Task<SIPParticipantInfo> CreateSIPParticipantAsync(CreateSIPParticipantRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateSIPParticipantRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.SIPParticipantInfo}
+    content.vb: Function CreateSIPParticipantAsync(request As CreateSIPParticipantRequest, cancellationToken As CancellationToken = Nothing) As Task(Of SIPParticipantInfo)
+  overload: LiveKit.Services.ILiveKitSipService.CreateSIPParticipantAsync*
+- uid: LiveKit.Services.ILiveKitSipService.TransferSIPParticipantAsync(LiveKit.Proto.TransferSIPParticipantRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitSipService.TransferSIPParticipantAsync(LiveKit.Proto.TransferSIPParticipantRequest,System.Threading.CancellationToken)
+  id: TransferSIPParticipantAsync(LiveKit.Proto.TransferSIPParticipantRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitSipService
+  langs:
+  - csharp
+  - vb
+  name: TransferSIPParticipantAsync(TransferSIPParticipantRequest, CancellationToken)
+  nameWithType: ILiveKitSipService.TransferSIPParticipantAsync(TransferSIPParticipantRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitSipService.TransferSIPParticipantAsync(LiveKit.Proto.TransferSIPParticipantRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TransferSIPParticipantAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitSipService.cs
+    startLine: 97
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Transfers an active SIP participant to another number.
+  example: []
+  syntax:
+    content: Task TransferSIPParticipantAsync(TransferSIPParticipantRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.TransferSIPParticipantRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function TransferSIPParticipantAsync(request As TransferSIPParticipantRequest, cancellationToken As CancellationToken = Nothing) As Task
+  overload: LiveKit.Services.ILiveKitSipService.TransferSIPParticipantAsync*
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: LiveKit.Services.ILiveKitSipService.ListSIPTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.ListSIPTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_ListSIPTrunkAsync_LiveKit_Proto_ListSIPTrunkRequest_System_Threading_CancellationToken_
+  name: ListSIPTrunkAsync
+  nameWithType: ILiveKitSipService.ListSIPTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.ListSIPTrunkAsync
+- uid: LiveKit.Proto.ListSIPTrunkRequest
+  commentId: T:LiveKit.Proto.ListSIPTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListSIPTrunkRequest.html
+  name: ListSIPTrunkRequest
+  nameWithType: ListSIPTrunkRequest
+  fullName: LiveKit.Proto.ListSIPTrunkRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListSIPTrunkResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListSIPTrunkResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListSIPTrunkResponse>
+  nameWithType: Task<ListSIPTrunkResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListSIPTrunkResponse>
+  nameWithType.vb: Task(Of ListSIPTrunkResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListSIPTrunkResponse)
+  name.vb: Task(Of ListSIPTrunkResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListSIPTrunkResponse
+    name: ListSIPTrunkResponse
+    href: LiveKit.Proto.ListSIPTrunkResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListSIPTrunkResponse
+    name: ListSIPTrunkResponse
+    href: LiveKit.Proto.ListSIPTrunkResponse.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.ILiveKitSipService.CreateSIPInboundTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.CreateSIPInboundTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_CreateSIPInboundTrunkAsync_LiveKit_Proto_CreateSIPInboundTrunkRequest_System_Threading_CancellationToken_
+  name: CreateSIPInboundTrunkAsync
+  nameWithType: ILiveKitSipService.CreateSIPInboundTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.CreateSIPInboundTrunkAsync
+- uid: LiveKit.Proto.CreateSIPInboundTrunkRequest
+  commentId: T:LiveKit.Proto.CreateSIPInboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateSIPInboundTrunkRequest.html
+  name: CreateSIPInboundTrunkRequest
+  nameWithType: CreateSIPInboundTrunkRequest
+  fullName: LiveKit.Proto.CreateSIPInboundTrunkRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.SIPInboundTrunkInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.SIPInboundTrunkInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SIPInboundTrunkInfo>
+  nameWithType: Task<SIPInboundTrunkInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.SIPInboundTrunkInfo>
+  nameWithType.vb: Task(Of SIPInboundTrunkInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.SIPInboundTrunkInfo)
+  name.vb: Task(Of SIPInboundTrunkInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.SIPInboundTrunkInfo
+    name: SIPInboundTrunkInfo
+    href: LiveKit.Proto.SIPInboundTrunkInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPInboundTrunkInfo
+    name: SIPInboundTrunkInfo
+    href: LiveKit.Proto.SIPInboundTrunkInfo.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.CreateSIPOutboundTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.CreateSIPOutboundTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_CreateSIPOutboundTrunkAsync_LiveKit_Proto_CreateSIPOutboundTrunkRequest_System_Threading_CancellationToken_
+  name: CreateSIPOutboundTrunkAsync
+  nameWithType: ILiveKitSipService.CreateSIPOutboundTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.CreateSIPOutboundTrunkAsync
+- uid: LiveKit.Proto.CreateSIPOutboundTrunkRequest
+  commentId: T:LiveKit.Proto.CreateSIPOutboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateSIPOutboundTrunkRequest.html
+  name: CreateSIPOutboundTrunkRequest
+  nameWithType: CreateSIPOutboundTrunkRequest
+  fullName: LiveKit.Proto.CreateSIPOutboundTrunkRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.SIPOutboundTrunkInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.SIPOutboundTrunkInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SIPOutboundTrunkInfo>
+  nameWithType: Task<SIPOutboundTrunkInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.SIPOutboundTrunkInfo>
+  nameWithType.vb: Task(Of SIPOutboundTrunkInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.SIPOutboundTrunkInfo)
+  name.vb: Task(Of SIPOutboundTrunkInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPOutboundTrunkInfo
+    name: SIPOutboundTrunkInfo
+    href: LiveKit.Proto.SIPOutboundTrunkInfo.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.UpdateSIPInboundTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.UpdateSIPInboundTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_UpdateSIPInboundTrunkAsync_LiveKit_Proto_UpdateSIPInboundTrunkRequest_System_Threading_CancellationToken_
+  name: UpdateSIPInboundTrunkAsync
+  nameWithType: ILiveKitSipService.UpdateSIPInboundTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.UpdateSIPInboundTrunkAsync
+- uid: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  commentId: T:LiveKit.Proto.UpdateSIPInboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSIPInboundTrunkRequest.html
+  name: UpdateSIPInboundTrunkRequest
+  nameWithType: UpdateSIPInboundTrunkRequest
+  fullName: LiveKit.Proto.UpdateSIPInboundTrunkRequest
+- uid: LiveKit.Services.ILiveKitSipService.UpdateSIPOutboundTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.UpdateSIPOutboundTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_UpdateSIPOutboundTrunkAsync_LiveKit_Proto_UpdateSIPOutboundTrunkRequest_System_Threading_CancellationToken_
+  name: UpdateSIPOutboundTrunkAsync
+  nameWithType: ILiveKitSipService.UpdateSIPOutboundTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.UpdateSIPOutboundTrunkAsync
+- uid: LiveKit.Proto.UpdateSIPOutboundTrunkRequest
+  commentId: T:LiveKit.Proto.UpdateSIPOutboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSIPOutboundTrunkRequest.html
+  name: UpdateSIPOutboundTrunkRequest
+  nameWithType: UpdateSIPOutboundTrunkRequest
+  fullName: LiveKit.Proto.UpdateSIPOutboundTrunkRequest
+- uid: LiveKit.Services.ILiveKitSipService.GetSIPInboundTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.GetSIPInboundTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_GetSIPInboundTrunkAsync_LiveKit_Proto_GetSIPInboundTrunkRequest_System_Threading_CancellationToken_
+  name: GetSIPInboundTrunkAsync
+  nameWithType: ILiveKitSipService.GetSIPInboundTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.GetSIPInboundTrunkAsync
+- uid: LiveKit.Proto.GetSIPInboundTrunkRequest
+  commentId: T:LiveKit.Proto.GetSIPInboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.GetSIPInboundTrunkRequest.html
+  name: GetSIPInboundTrunkRequest
+  nameWithType: GetSIPInboundTrunkRequest
+  fullName: LiveKit.Proto.GetSIPInboundTrunkRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.GetSIPInboundTrunkResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.GetSIPInboundTrunkResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<GetSIPInboundTrunkResponse>
+  nameWithType: Task<GetSIPInboundTrunkResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.GetSIPInboundTrunkResponse>
+  nameWithType.vb: Task(Of GetSIPInboundTrunkResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.GetSIPInboundTrunkResponse)
+  name.vb: Task(Of GetSIPInboundTrunkResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.GetSIPInboundTrunkResponse
+    name: GetSIPInboundTrunkResponse
+    href: LiveKit.Proto.GetSIPInboundTrunkResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.GetSIPInboundTrunkResponse
+    name: GetSIPInboundTrunkResponse
+    href: LiveKit.Proto.GetSIPInboundTrunkResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.GetSIPOutboundTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.GetSIPOutboundTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_GetSIPOutboundTrunkAsync_LiveKit_Proto_GetSIPOutboundTrunkRequest_System_Threading_CancellationToken_
+  name: GetSIPOutboundTrunkAsync
+  nameWithType: ILiveKitSipService.GetSIPOutboundTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.GetSIPOutboundTrunkAsync
+- uid: LiveKit.Proto.GetSIPOutboundTrunkRequest
+  commentId: T:LiveKit.Proto.GetSIPOutboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.GetSIPOutboundTrunkRequest.html
+  name: GetSIPOutboundTrunkRequest
+  nameWithType: GetSIPOutboundTrunkRequest
+  fullName: LiveKit.Proto.GetSIPOutboundTrunkRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.GetSIPOutboundTrunkResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.GetSIPOutboundTrunkResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<GetSIPOutboundTrunkResponse>
+  nameWithType: Task<GetSIPOutboundTrunkResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.GetSIPOutboundTrunkResponse>
+  nameWithType.vb: Task(Of GetSIPOutboundTrunkResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.GetSIPOutboundTrunkResponse)
+  name.vb: Task(Of GetSIPOutboundTrunkResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.GetSIPOutboundTrunkResponse
+    name: GetSIPOutboundTrunkResponse
+    href: LiveKit.Proto.GetSIPOutboundTrunkResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.GetSIPOutboundTrunkResponse
+    name: GetSIPOutboundTrunkResponse
+    href: LiveKit.Proto.GetSIPOutboundTrunkResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.ListSIPInboundTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.ListSIPInboundTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_ListSIPInboundTrunkAsync_LiveKit_Proto_ListSIPInboundTrunkRequest_System_Threading_CancellationToken_
+  name: ListSIPInboundTrunkAsync
+  nameWithType: ILiveKitSipService.ListSIPInboundTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.ListSIPInboundTrunkAsync
+- uid: LiveKit.Proto.ListSIPInboundTrunkRequest
+  commentId: T:LiveKit.Proto.ListSIPInboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListSIPInboundTrunkRequest.html
+  name: ListSIPInboundTrunkRequest
+  nameWithType: ListSIPInboundTrunkRequest
+  fullName: LiveKit.Proto.ListSIPInboundTrunkRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListSIPInboundTrunkResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListSIPInboundTrunkResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListSIPInboundTrunkResponse>
+  nameWithType: Task<ListSIPInboundTrunkResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListSIPInboundTrunkResponse>
+  nameWithType.vb: Task(Of ListSIPInboundTrunkResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListSIPInboundTrunkResponse)
+  name.vb: Task(Of ListSIPInboundTrunkResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListSIPInboundTrunkResponse
+    name: ListSIPInboundTrunkResponse
+    href: LiveKit.Proto.ListSIPInboundTrunkResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListSIPInboundTrunkResponse
+    name: ListSIPInboundTrunkResponse
+    href: LiveKit.Proto.ListSIPInboundTrunkResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.ListSIPOutboundTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.ListSIPOutboundTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_ListSIPOutboundTrunkAsync_LiveKit_Proto_ListSIPOutboundTrunkRequest_System_Threading_CancellationToken_
+  name: ListSIPOutboundTrunkAsync
+  nameWithType: ILiveKitSipService.ListSIPOutboundTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.ListSIPOutboundTrunkAsync
+- uid: LiveKit.Proto.ListSIPOutboundTrunkRequest
+  commentId: T:LiveKit.Proto.ListSIPOutboundTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListSIPOutboundTrunkRequest.html
+  name: ListSIPOutboundTrunkRequest
+  nameWithType: ListSIPOutboundTrunkRequest
+  fullName: LiveKit.Proto.ListSIPOutboundTrunkRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListSIPOutboundTrunkResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListSIPOutboundTrunkResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListSIPOutboundTrunkResponse>
+  nameWithType: Task<ListSIPOutboundTrunkResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListSIPOutboundTrunkResponse>
+  nameWithType.vb: Task(Of ListSIPOutboundTrunkResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListSIPOutboundTrunkResponse)
+  name.vb: Task(Of ListSIPOutboundTrunkResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListSIPOutboundTrunkResponse
+    name: ListSIPOutboundTrunkResponse
+    href: LiveKit.Proto.ListSIPOutboundTrunkResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListSIPOutboundTrunkResponse
+    name: ListSIPOutboundTrunkResponse
+    href: LiveKit.Proto.ListSIPOutboundTrunkResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.DeleteSIPTrunkAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.DeleteSIPTrunkAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_DeleteSIPTrunkAsync_LiveKit_Proto_DeleteSIPTrunkRequest_System_Threading_CancellationToken_
+  name: DeleteSIPTrunkAsync
+  nameWithType: ILiveKitSipService.DeleteSIPTrunkAsync
+  fullName: LiveKit.Services.ILiveKitSipService.DeleteSIPTrunkAsync
+- uid: LiveKit.Proto.DeleteSIPTrunkRequest
+  commentId: T:LiveKit.Proto.DeleteSIPTrunkRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeleteSIPTrunkRequest.html
+  name: DeleteSIPTrunkRequest
+  nameWithType: DeleteSIPTrunkRequest
+  fullName: LiveKit.Proto.DeleteSIPTrunkRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.SIPTrunkInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.SIPTrunkInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SIPTrunkInfo>
+  nameWithType: Task<SIPTrunkInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.SIPTrunkInfo>
+  nameWithType.vb: Task(Of SIPTrunkInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.SIPTrunkInfo)
+  name.vb: Task(Of SIPTrunkInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.SIPTrunkInfo
+    name: SIPTrunkInfo
+    href: LiveKit.Proto.SIPTrunkInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPTrunkInfo
+    name: SIPTrunkInfo
+    href: LiveKit.Proto.SIPTrunkInfo.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.CreateSIPDispatchRuleAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.CreateSIPDispatchRuleAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_CreateSIPDispatchRuleAsync_LiveKit_Proto_CreateSIPDispatchRuleRequest_System_Threading_CancellationToken_
+  name: CreateSIPDispatchRuleAsync
+  nameWithType: ILiveKitSipService.CreateSIPDispatchRuleAsync
+  fullName: LiveKit.Services.ILiveKitSipService.CreateSIPDispatchRuleAsync
+- uid: LiveKit.Proto.CreateSIPDispatchRuleRequest
+  commentId: T:LiveKit.Proto.CreateSIPDispatchRuleRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateSIPDispatchRuleRequest.html
+  name: CreateSIPDispatchRuleRequest
+  nameWithType: CreateSIPDispatchRuleRequest
+  fullName: LiveKit.Proto.CreateSIPDispatchRuleRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.SIPDispatchRuleInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.SIPDispatchRuleInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SIPDispatchRuleInfo>
+  nameWithType: Task<SIPDispatchRuleInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.SIPDispatchRuleInfo>
+  nameWithType.vb: Task(Of SIPDispatchRuleInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.SIPDispatchRuleInfo)
+  name.vb: Task(Of SIPDispatchRuleInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.SIPDispatchRuleInfo
+    name: SIPDispatchRuleInfo
+    href: LiveKit.Proto.SIPDispatchRuleInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPDispatchRuleInfo
+    name: SIPDispatchRuleInfo
+    href: LiveKit.Proto.SIPDispatchRuleInfo.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.UpdateSIPDispatchRuleAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.UpdateSIPDispatchRuleAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_UpdateSIPDispatchRuleAsync_LiveKit_Proto_UpdateSIPDispatchRuleRequest_System_Threading_CancellationToken_
+  name: UpdateSIPDispatchRuleAsync
+  nameWithType: ILiveKitSipService.UpdateSIPDispatchRuleAsync
+  fullName: LiveKit.Services.ILiveKitSipService.UpdateSIPDispatchRuleAsync
+- uid: LiveKit.Proto.UpdateSIPDispatchRuleRequest
+  commentId: T:LiveKit.Proto.UpdateSIPDispatchRuleRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateSIPDispatchRuleRequest.html
+  name: UpdateSIPDispatchRuleRequest
+  nameWithType: UpdateSIPDispatchRuleRequest
+  fullName: LiveKit.Proto.UpdateSIPDispatchRuleRequest
+- uid: LiveKit.Services.ILiveKitSipService.ListSIPDispatchRuleAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.ListSIPDispatchRuleAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_ListSIPDispatchRuleAsync_LiveKit_Proto_ListSIPDispatchRuleRequest_System_Threading_CancellationToken_
+  name: ListSIPDispatchRuleAsync
+  nameWithType: ILiveKitSipService.ListSIPDispatchRuleAsync
+  fullName: LiveKit.Services.ILiveKitSipService.ListSIPDispatchRuleAsync
+- uid: LiveKit.Proto.ListSIPDispatchRuleRequest
+  commentId: T:LiveKit.Proto.ListSIPDispatchRuleRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListSIPDispatchRuleRequest.html
+  name: ListSIPDispatchRuleRequest
+  nameWithType: ListSIPDispatchRuleRequest
+  fullName: LiveKit.Proto.ListSIPDispatchRuleRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListSIPDispatchRuleResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListSIPDispatchRuleResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListSIPDispatchRuleResponse>
+  nameWithType: Task<ListSIPDispatchRuleResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListSIPDispatchRuleResponse>
+  nameWithType.vb: Task(Of ListSIPDispatchRuleResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListSIPDispatchRuleResponse)
+  name.vb: Task(Of ListSIPDispatchRuleResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListSIPDispatchRuleResponse
+    name: ListSIPDispatchRuleResponse
+    href: LiveKit.Proto.ListSIPDispatchRuleResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListSIPDispatchRuleResponse
+    name: ListSIPDispatchRuleResponse
+    href: LiveKit.Proto.ListSIPDispatchRuleResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.DeleteSIPDispatchRuleAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.DeleteSIPDispatchRuleAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_DeleteSIPDispatchRuleAsync_LiveKit_Proto_DeleteSIPDispatchRuleRequest_System_Threading_CancellationToken_
+  name: DeleteSIPDispatchRuleAsync
+  nameWithType: ILiveKitSipService.DeleteSIPDispatchRuleAsync
+  fullName: LiveKit.Services.ILiveKitSipService.DeleteSIPDispatchRuleAsync
+- uid: LiveKit.Proto.DeleteSIPDispatchRuleRequest
+  commentId: T:LiveKit.Proto.DeleteSIPDispatchRuleRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeleteSIPDispatchRuleRequest.html
+  name: DeleteSIPDispatchRuleRequest
+  nameWithType: DeleteSIPDispatchRuleRequest
+  fullName: LiveKit.Proto.DeleteSIPDispatchRuleRequest
+- uid: LiveKit.Services.ILiveKitSipService.CreateSIPParticipantAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.CreateSIPParticipantAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_CreateSIPParticipantAsync_LiveKit_Proto_CreateSIPParticipantRequest_System_Threading_CancellationToken_
+  name: CreateSIPParticipantAsync
+  nameWithType: ILiveKitSipService.CreateSIPParticipantAsync
+  fullName: LiveKit.Services.ILiveKitSipService.CreateSIPParticipantAsync
+- uid: LiveKit.Proto.CreateSIPParticipantRequest
+  commentId: T:LiveKit.Proto.CreateSIPParticipantRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateSIPParticipantRequest.html
+  name: CreateSIPParticipantRequest
+  nameWithType: CreateSIPParticipantRequest
+  fullName: LiveKit.Proto.CreateSIPParticipantRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.SIPParticipantInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.SIPParticipantInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SIPParticipantInfo>
+  nameWithType: Task<SIPParticipantInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.SIPParticipantInfo>
+  nameWithType.vb: Task(Of SIPParticipantInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.SIPParticipantInfo)
+  name.vb: Task(Of SIPParticipantInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.SIPParticipantInfo
+    name: SIPParticipantInfo
+    href: LiveKit.Proto.SIPParticipantInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SIPParticipantInfo
+    name: SIPParticipantInfo
+    href: LiveKit.Proto.SIPParticipantInfo.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitSipService.TransferSIPParticipantAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitSipService.TransferSIPParticipantAsync
+  href: LiveKit.Services.ILiveKitSipService.html#LiveKit_Services_ILiveKitSipService_TransferSIPParticipantAsync_LiveKit_Proto_TransferSIPParticipantRequest_System_Threading_CancellationToken_
+  name: TransferSIPParticipantAsync
+  nameWithType: ILiveKitSipService.TransferSIPParticipantAsync
+  fullName: LiveKit.Services.ILiveKitSipService.TransferSIPParticipantAsync
+- uid: LiveKit.Proto.TransferSIPParticipantRequest
+  commentId: T:LiveKit.Proto.TransferSIPParticipantRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TransferSIPParticipantRequest.html
+  name: TransferSIPParticipantRequest
+  nameWithType: TransferSIPParticipantRequest
+  fullName: LiveKit.Proto.TransferSIPParticipantRequest
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task

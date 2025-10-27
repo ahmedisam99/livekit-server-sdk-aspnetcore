@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.ReconnectReason
+  commentId: T:LiveKit.Proto.ReconnectReason
+  id: ReconnectReason
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.ReconnectReason.RrPublisherFailed
+  - LiveKit.Proto.ReconnectReason.RrSignalDisconnected
+  - LiveKit.Proto.ReconnectReason.RrSubscriberFailed
+  - LiveKit.Proto.ReconnectReason.RrSwitchCandidate
+  - LiveKit.Proto.ReconnectReason.RrUnknown
+  langs:
+  - csharp
+  - vb
+  name: ReconnectReason
+  nameWithType: ReconnectReason
+  fullName: LiveKit.Proto.ReconnectReason
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ReconnectReason
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 479
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum ReconnectReason
+    content.vb: Public Enum ReconnectReason
+- uid: LiveKit.Proto.ReconnectReason.RrUnknown
+  commentId: F:LiveKit.Proto.ReconnectReason.RrUnknown
+  id: RrUnknown
+  parent: LiveKit.Proto.ReconnectReason
+  langs:
+  - csharp
+  - vb
+  name: RrUnknown
+  nameWithType: ReconnectReason.RrUnknown
+  fullName: LiveKit.Proto.ReconnectReason.RrUnknown
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RrUnknown
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 480
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("RR_UNKNOWN")]
+
+      RrUnknown = 0
+    return:
+      type: LiveKit.Proto.ReconnectReason
+    content.vb: >-
+      <OriginalName("RR_UNKNOWN")>
+
+      RrUnknown = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RR_UNKNOWN
+- uid: LiveKit.Proto.ReconnectReason.RrSignalDisconnected
+  commentId: F:LiveKit.Proto.ReconnectReason.RrSignalDisconnected
+  id: RrSignalDisconnected
+  parent: LiveKit.Proto.ReconnectReason
+  langs:
+  - csharp
+  - vb
+  name: RrSignalDisconnected
+  nameWithType: ReconnectReason.RrSignalDisconnected
+  fullName: LiveKit.Proto.ReconnectReason.RrSignalDisconnected
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RrSignalDisconnected
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 481
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("RR_SIGNAL_DISCONNECTED")]
+
+      RrSignalDisconnected = 1
+    return:
+      type: LiveKit.Proto.ReconnectReason
+    content.vb: >-
+      <OriginalName("RR_SIGNAL_DISCONNECTED")>
+
+      RrSignalDisconnected = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RR_SIGNAL_DISCONNECTED
+- uid: LiveKit.Proto.ReconnectReason.RrPublisherFailed
+  commentId: F:LiveKit.Proto.ReconnectReason.RrPublisherFailed
+  id: RrPublisherFailed
+  parent: LiveKit.Proto.ReconnectReason
+  langs:
+  - csharp
+  - vb
+  name: RrPublisherFailed
+  nameWithType: ReconnectReason.RrPublisherFailed
+  fullName: LiveKit.Proto.ReconnectReason.RrPublisherFailed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RrPublisherFailed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 482
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("RR_PUBLISHER_FAILED")]
+
+      RrPublisherFailed = 2
+    return:
+      type: LiveKit.Proto.ReconnectReason
+    content.vb: >-
+      <OriginalName("RR_PUBLISHER_FAILED")>
+
+      RrPublisherFailed = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RR_PUBLISHER_FAILED
+- uid: LiveKit.Proto.ReconnectReason.RrSubscriberFailed
+  commentId: F:LiveKit.Proto.ReconnectReason.RrSubscriberFailed
+  id: RrSubscriberFailed
+  parent: LiveKit.Proto.ReconnectReason
+  langs:
+  - csharp
+  - vb
+  name: RrSubscriberFailed
+  nameWithType: ReconnectReason.RrSubscriberFailed
+  fullName: LiveKit.Proto.ReconnectReason.RrSubscriberFailed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RrSubscriberFailed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 483
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("RR_SUBSCRIBER_FAILED")]
+
+      RrSubscriberFailed = 3
+    return:
+      type: LiveKit.Proto.ReconnectReason
+    content.vb: >-
+      <OriginalName("RR_SUBSCRIBER_FAILED")>
+
+      RrSubscriberFailed = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RR_SUBSCRIBER_FAILED
+- uid: LiveKit.Proto.ReconnectReason.RrSwitchCandidate
+  commentId: F:LiveKit.Proto.ReconnectReason.RrSwitchCandidate
+  id: RrSwitchCandidate
+  parent: LiveKit.Proto.ReconnectReason
+  langs:
+  - csharp
+  - vb
+  name: RrSwitchCandidate
+  nameWithType: ReconnectReason.RrSwitchCandidate
+  fullName: LiveKit.Proto.ReconnectReason.RrSwitchCandidate
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RrSwitchCandidate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 484
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("RR_SWITCH_CANDIDATE")]
+
+      RrSwitchCandidate = 4
+    return:
+      type: LiveKit.Proto.ReconnectReason
+    content.vb: >-
+      <OriginalName("RR_SWITCH_CANDIDATE")>
+
+      RrSwitchCandidate = 4
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RR_SWITCH_CANDIDATE
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.ReconnectReason
+  commentId: T:LiveKit.Proto.ReconnectReason
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ReconnectReason.html
+  name: ReconnectReason
+  nameWithType: ReconnectReason
+  fullName: LiveKit.Proto.ReconnectReason

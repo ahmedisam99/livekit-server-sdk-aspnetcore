@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Services.ILiveKitIngressService
+  commentId: T:LiveKit.Services.ILiveKitIngressService
+  id: ILiveKitIngressService
+  parent: LiveKit.Services
+  children:
+  - LiveKit.Services.ILiveKitIngressService.CreateIngressAsync(LiveKit.Proto.CreateIngressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitIngressService.DeleteIngressAsync(LiveKit.Proto.DeleteIngressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitIngressService.ListIngressAsync(LiveKit.Proto.ListIngressRequest,System.Threading.CancellationToken)
+  - LiveKit.Services.ILiveKitIngressService.UpdateIngressAsync(LiveKit.Proto.UpdateIngressRequest,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: ILiveKitIngressService
+  nameWithType: ILiveKitIngressService
+  fullName: LiveKit.Services.ILiveKitIngressService
+  type: Interface
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ILiveKitIngressService
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+    startLine: 13
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: >-
+    Service for managing media ingress (RTMP, WHIP, URL pull).
+
+    <p>
+
+    Provides methods for creating and managing ingress endpoints for bringing external media into LiveKit rooms.
+
+    See <a href="https://docs.livekit.io/home/ingress/overview/#api">LiveKit Ingress API Documentation</a> for more information.
+
+    </p>
+  example: []
+  syntax:
+    content: public interface ILiveKitIngressService
+    content.vb: Public Interface ILiveKitIngressService
+- uid: LiveKit.Services.ILiveKitIngressService.CreateIngressAsync(LiveKit.Proto.CreateIngressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitIngressService.CreateIngressAsync(LiveKit.Proto.CreateIngressRequest,System.Threading.CancellationToken)
+  id: CreateIngressAsync(LiveKit.Proto.CreateIngressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitIngressService
+  langs:
+  - csharp
+  - vb
+  name: CreateIngressAsync(CreateIngressRequest, CancellationToken)
+  nameWithType: ILiveKitIngressService.CreateIngressAsync(CreateIngressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitIngressService.CreateIngressAsync(LiveKit.Proto.CreateIngressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CreateIngressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+    startLine: 18
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Creates a new ingress endpoint.
+  example: []
+  syntax:
+    content: Task<IngressInfo> CreateIngressAsync(CreateIngressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.CreateIngressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.IngressInfo}
+    content.vb: Function CreateIngressAsync(request As CreateIngressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of IngressInfo)
+  overload: LiveKit.Services.ILiveKitIngressService.CreateIngressAsync*
+- uid: LiveKit.Services.ILiveKitIngressService.UpdateIngressAsync(LiveKit.Proto.UpdateIngressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitIngressService.UpdateIngressAsync(LiveKit.Proto.UpdateIngressRequest,System.Threading.CancellationToken)
+  id: UpdateIngressAsync(LiveKit.Proto.UpdateIngressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitIngressService
+  langs:
+  - csharp
+  - vb
+  name: UpdateIngressAsync(UpdateIngressRequest, CancellationToken)
+  nameWithType: ILiveKitIngressService.UpdateIngressAsync(UpdateIngressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitIngressService.UpdateIngressAsync(LiveKit.Proto.UpdateIngressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UpdateIngressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+    startLine: 23
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Updates an existing ingress. Ingress can only be updated when in ENDPOINT_WAITING state.
+  example: []
+  syntax:
+    content: Task<IngressInfo> UpdateIngressAsync(UpdateIngressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.UpdateIngressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.IngressInfo}
+    content.vb: Function UpdateIngressAsync(request As UpdateIngressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of IngressInfo)
+  overload: LiveKit.Services.ILiveKitIngressService.UpdateIngressAsync*
+- uid: LiveKit.Services.ILiveKitIngressService.ListIngressAsync(LiveKit.Proto.ListIngressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitIngressService.ListIngressAsync(LiveKit.Proto.ListIngressRequest,System.Threading.CancellationToken)
+  id: ListIngressAsync(LiveKit.Proto.ListIngressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitIngressService
+  langs:
+  - csharp
+  - vb
+  name: ListIngressAsync(ListIngressRequest, CancellationToken)
+  nameWithType: ILiveKitIngressService.ListIngressAsync(ListIngressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitIngressService.ListIngressAsync(LiveKit.Proto.ListIngressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ListIngressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+    startLine: 28
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Lists ingress endpoints.
+  example: []
+  syntax:
+    content: Task<ListIngressResponse> ListIngressAsync(ListIngressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.ListIngressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.ListIngressResponse}
+    content.vb: Function ListIngressAsync(request As ListIngressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of ListIngressResponse)
+  overload: LiveKit.Services.ILiveKitIngressService.ListIngressAsync*
+- uid: LiveKit.Services.ILiveKitIngressService.DeleteIngressAsync(LiveKit.Proto.DeleteIngressRequest,System.Threading.CancellationToken)
+  commentId: M:LiveKit.Services.ILiveKitIngressService.DeleteIngressAsync(LiveKit.Proto.DeleteIngressRequest,System.Threading.CancellationToken)
+  id: DeleteIngressAsync(LiveKit.Proto.DeleteIngressRequest,System.Threading.CancellationToken)
+  parent: LiveKit.Services.ILiveKitIngressService
+  langs:
+  - csharp
+  - vb
+  name: DeleteIngressAsync(DeleteIngressRequest, CancellationToken)
+  nameWithType: ILiveKitIngressService.DeleteIngressAsync(DeleteIngressRequest, CancellationToken)
+  fullName: LiveKit.Services.ILiveKitIngressService.DeleteIngressAsync(LiveKit.Proto.DeleteIngressRequest, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: DeleteIngressAsync
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Services/ILiveKitIngressService.cs
+    startLine: 33
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Services
+  summary: Deletes an ingress endpoint.
+  example: []
+  syntax:
+    content: Task<IngressInfo> DeleteIngressAsync(DeleteIngressRequest request, CancellationToken cancellationToken = default)
+    parameters:
+    - id: request
+      type: LiveKit.Proto.DeleteIngressRequest
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{LiveKit.Proto.IngressInfo}
+    content.vb: Function DeleteIngressAsync(request As DeleteIngressRequest, cancellationToken As CancellationToken = Nothing) As Task(Of IngressInfo)
+  overload: LiveKit.Services.ILiveKitIngressService.DeleteIngressAsync*
+references:
+- uid: LiveKit.Services
+  commentId: N:LiveKit.Services
+  href: LiveKit.html
+  name: LiveKit.Services
+  nameWithType: LiveKit.Services
+  fullName: LiveKit.Services
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Services
+    name: Services
+    href: LiveKit.Services.html
+- uid: LiveKit.Services.ILiveKitIngressService.CreateIngressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitIngressService.CreateIngressAsync
+  href: LiveKit.Services.ILiveKitIngressService.html#LiveKit_Services_ILiveKitIngressService_CreateIngressAsync_LiveKit_Proto_CreateIngressRequest_System_Threading_CancellationToken_
+  name: CreateIngressAsync
+  nameWithType: ILiveKitIngressService.CreateIngressAsync
+  fullName: LiveKit.Services.ILiveKitIngressService.CreateIngressAsync
+- uid: LiveKit.Proto.CreateIngressRequest
+  commentId: T:LiveKit.Proto.CreateIngressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.CreateIngressRequest.html
+  name: CreateIngressRequest
+  nameWithType: CreateIngressRequest
+  fullName: LiveKit.Proto.CreateIngressRequest
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.IngressInfo}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.IngressInfo}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<IngressInfo>
+  nameWithType: Task<IngressInfo>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.IngressInfo>
+  nameWithType.vb: Task(Of IngressInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.IngressInfo)
+  name.vb: Task(Of IngressInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.IngressInfo
+    name: IngressInfo
+    href: LiveKit.Proto.IngressInfo.html
+  - name: )
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: LiveKit.Services.ILiveKitIngressService.UpdateIngressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitIngressService.UpdateIngressAsync
+  href: LiveKit.Services.ILiveKitIngressService.html#LiveKit_Services_ILiveKitIngressService_UpdateIngressAsync_LiveKit_Proto_UpdateIngressRequest_System_Threading_CancellationToken_
+  name: UpdateIngressAsync
+  nameWithType: ILiveKitIngressService.UpdateIngressAsync
+  fullName: LiveKit.Services.ILiveKitIngressService.UpdateIngressAsync
+- uid: LiveKit.Proto.UpdateIngressRequest
+  commentId: T:LiveKit.Proto.UpdateIngressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.UpdateIngressRequest.html
+  name: UpdateIngressRequest
+  nameWithType: UpdateIngressRequest
+  fullName: LiveKit.Proto.UpdateIngressRequest
+- uid: LiveKit.Services.ILiveKitIngressService.ListIngressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitIngressService.ListIngressAsync
+  href: LiveKit.Services.ILiveKitIngressService.html#LiveKit_Services_ILiveKitIngressService_ListIngressAsync_LiveKit_Proto_ListIngressRequest_System_Threading_CancellationToken_
+  name: ListIngressAsync
+  nameWithType: ILiveKitIngressService.ListIngressAsync
+  fullName: LiveKit.Services.ILiveKitIngressService.ListIngressAsync
+- uid: LiveKit.Proto.ListIngressRequest
+  commentId: T:LiveKit.Proto.ListIngressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ListIngressRequest.html
+  name: ListIngressRequest
+  nameWithType: ListIngressRequest
+  fullName: LiveKit.Proto.ListIngressRequest
+- uid: System.Threading.Tasks.Task{LiveKit.Proto.ListIngressResponse}
+  commentId: T:System.Threading.Tasks.Task{LiveKit.Proto.ListIngressResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ListIngressResponse>
+  nameWithType: Task<ListIngressResponse>
+  fullName: System.Threading.Tasks.Task<LiveKit.Proto.ListIngressResponse>
+  nameWithType.vb: Task(Of ListIngressResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of LiveKit.Proto.ListIngressResponse)
+  name.vb: Task(Of ListIngressResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: LiveKit.Proto.ListIngressResponse
+    name: ListIngressResponse
+    href: LiveKit.Proto.ListIngressResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ListIngressResponse
+    name: ListIngressResponse
+    href: LiveKit.Proto.ListIngressResponse.html
+  - name: )
+- uid: LiveKit.Services.ILiveKitIngressService.DeleteIngressAsync*
+  commentId: Overload:LiveKit.Services.ILiveKitIngressService.DeleteIngressAsync
+  href: LiveKit.Services.ILiveKitIngressService.html#LiveKit_Services_ILiveKitIngressService_DeleteIngressAsync_LiveKit_Proto_DeleteIngressRequest_System_Threading_CancellationToken_
+  name: DeleteIngressAsync
+  nameWithType: ILiveKitIngressService.DeleteIngressAsync
+  fullName: LiveKit.Services.ILiveKitIngressService.DeleteIngressAsync
+- uid: LiveKit.Proto.DeleteIngressRequest
+  commentId: T:LiveKit.Proto.DeleteIngressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.DeleteIngressRequest.html
+  name: DeleteIngressRequest
+  nameWithType: DeleteIngressRequest
+  fullName: LiveKit.Proto.DeleteIngressRequest

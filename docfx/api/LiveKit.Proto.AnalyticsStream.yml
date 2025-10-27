@@ -1,0 +1,2676 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.AnalyticsStream
+  commentId: T:LiveKit.Proto.AnalyticsStream
+  id: AnalyticsStream
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.AnalyticsStream.#ctor
+  - LiveKit.Proto.AnalyticsStream.#ctor(LiveKit.Proto.AnalyticsStream)
+  - LiveKit.Proto.AnalyticsStream.CalculateSize
+  - LiveKit.Proto.AnalyticsStream.Clone
+  - LiveKit.Proto.AnalyticsStream.Descriptor
+  - LiveKit.Proto.AnalyticsStream.EndTime
+  - LiveKit.Proto.AnalyticsStream.EndTimeFieldNumber
+  - LiveKit.Proto.AnalyticsStream.Equals(LiveKit.Proto.AnalyticsStream)
+  - LiveKit.Proto.AnalyticsStream.Equals(System.Object)
+  - LiveKit.Proto.AnalyticsStream.Firs
+  - LiveKit.Proto.AnalyticsStream.FirsFieldNumber
+  - LiveKit.Proto.AnalyticsStream.Frames
+  - LiveKit.Proto.AnalyticsStream.FramesFieldNumber
+  - LiveKit.Proto.AnalyticsStream.GetHashCode
+  - LiveKit.Proto.AnalyticsStream.Jitter
+  - LiveKit.Proto.AnalyticsStream.JitterFieldNumber
+  - LiveKit.Proto.AnalyticsStream.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.AnalyticsStream.MergeFrom(LiveKit.Proto.AnalyticsStream)
+  - LiveKit.Proto.AnalyticsStream.Nacks
+  - LiveKit.Proto.AnalyticsStream.NacksFieldNumber
+  - LiveKit.Proto.AnalyticsStream.PacketsLost
+  - LiveKit.Proto.AnalyticsStream.PacketsLostFieldNumber
+  - LiveKit.Proto.AnalyticsStream.PacketsOutOfOrder
+  - LiveKit.Proto.AnalyticsStream.PacketsOutOfOrderFieldNumber
+  - LiveKit.Proto.AnalyticsStream.PaddingBytes
+  - LiveKit.Proto.AnalyticsStream.PaddingBytesFieldNumber
+  - LiveKit.Proto.AnalyticsStream.PaddingPackets
+  - LiveKit.Proto.AnalyticsStream.PaddingPacketsFieldNumber
+  - LiveKit.Proto.AnalyticsStream.Parser
+  - LiveKit.Proto.AnalyticsStream.Plis
+  - LiveKit.Proto.AnalyticsStream.PlisFieldNumber
+  - LiveKit.Proto.AnalyticsStream.PrimaryBytes
+  - LiveKit.Proto.AnalyticsStream.PrimaryBytesFieldNumber
+  - LiveKit.Proto.AnalyticsStream.PrimaryPackets
+  - LiveKit.Proto.AnalyticsStream.PrimaryPacketsFieldNumber
+  - LiveKit.Proto.AnalyticsStream.RetransmitBytes
+  - LiveKit.Proto.AnalyticsStream.RetransmitBytesFieldNumber
+  - LiveKit.Proto.AnalyticsStream.RetransmitPackets
+  - LiveKit.Proto.AnalyticsStream.RetransmitPacketsFieldNumber
+  - LiveKit.Proto.AnalyticsStream.Rtt
+  - LiveKit.Proto.AnalyticsStream.RttFieldNumber
+  - LiveKit.Proto.AnalyticsStream.Ssrc
+  - LiveKit.Proto.AnalyticsStream.SsrcFieldNumber
+  - LiveKit.Proto.AnalyticsStream.StartTime
+  - LiveKit.Proto.AnalyticsStream.StartTimeFieldNumber
+  - LiveKit.Proto.AnalyticsStream.ToString
+  - LiveKit.Proto.AnalyticsStream.VideoLayers
+  - LiveKit.Proto.AnalyticsStream.VideoLayersFieldNumber
+  - LiveKit.Proto.AnalyticsStream.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: AnalyticsStream
+  nameWithType: AnalyticsStream
+  fullName: LiveKit.Proto.AnalyticsStream
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AnalyticsStream
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 561
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class AnalyticsStream : IMessage<AnalyticsStream>, IEquatable<AnalyticsStream>, IDeepCloneable<AnalyticsStream>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class AnalyticsStream Implements IMessage(Of AnalyticsStream), IEquatable(Of AnalyticsStream), IDeepCloneable(Of AnalyticsStream), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}
+  - System.IEquatable{LiveKit.Proto.AnalyticsStream}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.AnalyticsStream.Parser
+  commentId: P:LiveKit.Proto.AnalyticsStream.Parser
+  id: Parser
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: AnalyticsStream.Parser
+  fullName: LiveKit.Proto.AnalyticsStream.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 569
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<AnalyticsStream> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.AnalyticsStream}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of AnalyticsStream)
+  overload: LiveKit.Proto.AnalyticsStream.Parser*
+- uid: LiveKit.Proto.AnalyticsStream.Descriptor
+  commentId: P:LiveKit.Proto.AnalyticsStream.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: AnalyticsStream.Descriptor
+  fullName: LiveKit.Proto.AnalyticsStream.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 573
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.AnalyticsStream.Descriptor*
+- uid: LiveKit.Proto.AnalyticsStream.#ctor
+  commentId: M:LiveKit.Proto.AnalyticsStream.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: AnalyticsStream()
+  nameWithType: AnalyticsStream.AnalyticsStream()
+  fullName: LiveKit.Proto.AnalyticsStream.AnalyticsStream()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 585
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AnalyticsStream()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.AnalyticsStream.#ctor*
+  nameWithType.vb: AnalyticsStream.New()
+  fullName.vb: LiveKit.Proto.AnalyticsStream.New()
+  name.vb: New()
+- uid: LiveKit.Proto.AnalyticsStream.#ctor(LiveKit.Proto.AnalyticsStream)
+  commentId: M:LiveKit.Proto.AnalyticsStream.#ctor(LiveKit.Proto.AnalyticsStream)
+  id: '#ctor(LiveKit.Proto.AnalyticsStream)'
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: AnalyticsStream(AnalyticsStream)
+  nameWithType: AnalyticsStream.AnalyticsStream(AnalyticsStream)
+  fullName: LiveKit.Proto.AnalyticsStream.AnalyticsStream(LiveKit.Proto.AnalyticsStream)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 593
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public AnalyticsStream(AnalyticsStream other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AnalyticsStream
+    content.vb: Public Sub New(other As AnalyticsStream)
+  overload: LiveKit.Proto.AnalyticsStream.#ctor*
+  nameWithType.vb: AnalyticsStream.New(AnalyticsStream)
+  fullName.vb: LiveKit.Proto.AnalyticsStream.New(LiveKit.Proto.AnalyticsStream)
+  name.vb: New(AnalyticsStream)
+- uid: LiveKit.Proto.AnalyticsStream.Clone
+  commentId: M:LiveKit.Proto.AnalyticsStream.Clone
+  id: Clone
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: AnalyticsStream.Clone()
+  fullName: LiveKit.Proto.AnalyticsStream.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 617
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public AnalyticsStream Clone()
+    return:
+      type: LiveKit.Proto.AnalyticsStream
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As AnalyticsStream
+  overload: LiveKit.Proto.AnalyticsStream.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}.Clone
+- uid: LiveKit.Proto.AnalyticsStream.SsrcFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.SsrcFieldNumber
+  id: SsrcFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: SsrcFieldNumber
+  nameWithType: AnalyticsStream.SsrcFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.SsrcFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SsrcFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 624
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ssrc" field.
+  example: []
+  syntax:
+    content: public const int SsrcFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const SsrcFieldNumber As Integer = 1
+- uid: LiveKit.Proto.AnalyticsStream.Ssrc
+  commentId: P:LiveKit.Proto.AnalyticsStream.Ssrc
+  id: Ssrc
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Ssrc
+  nameWithType: AnalyticsStream.Ssrc
+  fullName: LiveKit.Proto.AnalyticsStream.Ssrc
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Ssrc
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 626
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Ssrc { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Ssrc As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.Ssrc*
+- uid: LiveKit.Proto.AnalyticsStream.PrimaryPacketsFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.PrimaryPacketsFieldNumber
+  id: PrimaryPacketsFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PrimaryPacketsFieldNumber
+  nameWithType: AnalyticsStream.PrimaryPacketsFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.PrimaryPacketsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PrimaryPacketsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 636
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "primary_packets" field.
+  example: []
+  syntax:
+    content: public const int PrimaryPacketsFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const PrimaryPacketsFieldNumber As Integer = 2
+- uid: LiveKit.Proto.AnalyticsStream.PrimaryPackets
+  commentId: P:LiveKit.Proto.AnalyticsStream.PrimaryPackets
+  id: PrimaryPackets
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PrimaryPackets
+  nameWithType: AnalyticsStream.PrimaryPackets
+  fullName: LiveKit.Proto.AnalyticsStream.PrimaryPackets
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PrimaryPackets
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 638
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint PrimaryPackets { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PrimaryPackets As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.PrimaryPackets*
+- uid: LiveKit.Proto.AnalyticsStream.PrimaryBytesFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.PrimaryBytesFieldNumber
+  id: PrimaryBytesFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PrimaryBytesFieldNumber
+  nameWithType: AnalyticsStream.PrimaryBytesFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.PrimaryBytesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PrimaryBytesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 648
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "primary_bytes" field.
+  example: []
+  syntax:
+    content: public const int PrimaryBytesFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const PrimaryBytesFieldNumber As Integer = 3
+- uid: LiveKit.Proto.AnalyticsStream.PrimaryBytes
+  commentId: P:LiveKit.Proto.AnalyticsStream.PrimaryBytes
+  id: PrimaryBytes
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PrimaryBytes
+  nameWithType: AnalyticsStream.PrimaryBytes
+  fullName: LiveKit.Proto.AnalyticsStream.PrimaryBytes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PrimaryBytes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 650
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ulong PrimaryBytes { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property PrimaryBytes As ULong
+  overload: LiveKit.Proto.AnalyticsStream.PrimaryBytes*
+- uid: LiveKit.Proto.AnalyticsStream.RetransmitPacketsFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.RetransmitPacketsFieldNumber
+  id: RetransmitPacketsFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: RetransmitPacketsFieldNumber
+  nameWithType: AnalyticsStream.RetransmitPacketsFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.RetransmitPacketsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RetransmitPacketsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 660
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "retransmit_packets" field.
+  example: []
+  syntax:
+    content: public const int RetransmitPacketsFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const RetransmitPacketsFieldNumber As Integer = 4
+- uid: LiveKit.Proto.AnalyticsStream.RetransmitPackets
+  commentId: P:LiveKit.Proto.AnalyticsStream.RetransmitPackets
+  id: RetransmitPackets
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: RetransmitPackets
+  nameWithType: AnalyticsStream.RetransmitPackets
+  fullName: LiveKit.Proto.AnalyticsStream.RetransmitPackets
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RetransmitPackets
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 662
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint RetransmitPackets { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property RetransmitPackets As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.RetransmitPackets*
+- uid: LiveKit.Proto.AnalyticsStream.RetransmitBytesFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.RetransmitBytesFieldNumber
+  id: RetransmitBytesFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: RetransmitBytesFieldNumber
+  nameWithType: AnalyticsStream.RetransmitBytesFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.RetransmitBytesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RetransmitBytesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 672
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "retransmit_bytes" field.
+  example: []
+  syntax:
+    content: public const int RetransmitBytesFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const RetransmitBytesFieldNumber As Integer = 5
+- uid: LiveKit.Proto.AnalyticsStream.RetransmitBytes
+  commentId: P:LiveKit.Proto.AnalyticsStream.RetransmitBytes
+  id: RetransmitBytes
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: RetransmitBytes
+  nameWithType: AnalyticsStream.RetransmitBytes
+  fullName: LiveKit.Proto.AnalyticsStream.RetransmitBytes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RetransmitBytes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 674
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ulong RetransmitBytes { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property RetransmitBytes As ULong
+  overload: LiveKit.Proto.AnalyticsStream.RetransmitBytes*
+- uid: LiveKit.Proto.AnalyticsStream.PaddingPacketsFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.PaddingPacketsFieldNumber
+  id: PaddingPacketsFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PaddingPacketsFieldNumber
+  nameWithType: AnalyticsStream.PaddingPacketsFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.PaddingPacketsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PaddingPacketsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 684
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "padding_packets" field.
+  example: []
+  syntax:
+    content: public const int PaddingPacketsFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const PaddingPacketsFieldNumber As Integer = 6
+- uid: LiveKit.Proto.AnalyticsStream.PaddingPackets
+  commentId: P:LiveKit.Proto.AnalyticsStream.PaddingPackets
+  id: PaddingPackets
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PaddingPackets
+  nameWithType: AnalyticsStream.PaddingPackets
+  fullName: LiveKit.Proto.AnalyticsStream.PaddingPackets
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PaddingPackets
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 686
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint PaddingPackets { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PaddingPackets As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.PaddingPackets*
+- uid: LiveKit.Proto.AnalyticsStream.PaddingBytesFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.PaddingBytesFieldNumber
+  id: PaddingBytesFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PaddingBytesFieldNumber
+  nameWithType: AnalyticsStream.PaddingBytesFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.PaddingBytesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PaddingBytesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 696
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "padding_bytes" field.
+  example: []
+  syntax:
+    content: public const int PaddingBytesFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const PaddingBytesFieldNumber As Integer = 7
+- uid: LiveKit.Proto.AnalyticsStream.PaddingBytes
+  commentId: P:LiveKit.Proto.AnalyticsStream.PaddingBytes
+  id: PaddingBytes
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PaddingBytes
+  nameWithType: AnalyticsStream.PaddingBytes
+  fullName: LiveKit.Proto.AnalyticsStream.PaddingBytes
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PaddingBytes
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 698
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ulong PaddingBytes { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property PaddingBytes As ULong
+  overload: LiveKit.Proto.AnalyticsStream.PaddingBytes*
+- uid: LiveKit.Proto.AnalyticsStream.PacketsLostFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.PacketsLostFieldNumber
+  id: PacketsLostFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PacketsLostFieldNumber
+  nameWithType: AnalyticsStream.PacketsLostFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.PacketsLostFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PacketsLostFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 708
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "packets_lost" field.
+  example: []
+  syntax:
+    content: public const int PacketsLostFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const PacketsLostFieldNumber As Integer = 8
+- uid: LiveKit.Proto.AnalyticsStream.PacketsLost
+  commentId: P:LiveKit.Proto.AnalyticsStream.PacketsLost
+  id: PacketsLost
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PacketsLost
+  nameWithType: AnalyticsStream.PacketsLost
+  fullName: LiveKit.Proto.AnalyticsStream.PacketsLost
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PacketsLost
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 710
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint PacketsLost { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PacketsLost As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.PacketsLost*
+- uid: LiveKit.Proto.AnalyticsStream.FramesFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.FramesFieldNumber
+  id: FramesFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: FramesFieldNumber
+  nameWithType: AnalyticsStream.FramesFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.FramesFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FramesFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 720
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "frames" field.
+  example: []
+  syntax:
+    content: public const int FramesFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const FramesFieldNumber As Integer = 9
+- uid: LiveKit.Proto.AnalyticsStream.Frames
+  commentId: P:LiveKit.Proto.AnalyticsStream.Frames
+  id: Frames
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Frames
+  nameWithType: AnalyticsStream.Frames
+  fullName: LiveKit.Proto.AnalyticsStream.Frames
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Frames
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 722
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Frames { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Frames As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.Frames*
+- uid: LiveKit.Proto.AnalyticsStream.RttFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.RttFieldNumber
+  id: RttFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: RttFieldNumber
+  nameWithType: AnalyticsStream.RttFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.RttFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RttFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 732
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "rtt" field.
+  example: []
+  syntax:
+    content: public const int RttFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const RttFieldNumber As Integer = 10
+- uid: LiveKit.Proto.AnalyticsStream.Rtt
+  commentId: P:LiveKit.Proto.AnalyticsStream.Rtt
+  id: Rtt
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Rtt
+  nameWithType: AnalyticsStream.Rtt
+  fullName: LiveKit.Proto.AnalyticsStream.Rtt
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Rtt
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 734
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Rtt { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Rtt As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.Rtt*
+- uid: LiveKit.Proto.AnalyticsStream.JitterFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.JitterFieldNumber
+  id: JitterFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: JitterFieldNumber
+  nameWithType: AnalyticsStream.JitterFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.JitterFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: JitterFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 744
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "jitter" field.
+  example: []
+  syntax:
+    content: public const int JitterFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const JitterFieldNumber As Integer = 11
+- uid: LiveKit.Proto.AnalyticsStream.Jitter
+  commentId: P:LiveKit.Proto.AnalyticsStream.Jitter
+  id: Jitter
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Jitter
+  nameWithType: AnalyticsStream.Jitter
+  fullName: LiveKit.Proto.AnalyticsStream.Jitter
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Jitter
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 746
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Jitter { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Jitter As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.Jitter*
+- uid: LiveKit.Proto.AnalyticsStream.NacksFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.NacksFieldNumber
+  id: NacksFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: NacksFieldNumber
+  nameWithType: AnalyticsStream.NacksFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.NacksFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: NacksFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 756
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "nacks" field.
+  example: []
+  syntax:
+    content: public const int NacksFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const NacksFieldNumber As Integer = 12
+- uid: LiveKit.Proto.AnalyticsStream.Nacks
+  commentId: P:LiveKit.Proto.AnalyticsStream.Nacks
+  id: Nacks
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Nacks
+  nameWithType: AnalyticsStream.Nacks
+  fullName: LiveKit.Proto.AnalyticsStream.Nacks
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Nacks
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 758
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Nacks { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Nacks As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.Nacks*
+- uid: LiveKit.Proto.AnalyticsStream.PlisFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.PlisFieldNumber
+  id: PlisFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PlisFieldNumber
+  nameWithType: AnalyticsStream.PlisFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.PlisFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PlisFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 768
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "plis" field.
+  example: []
+  syntax:
+    content: public const int PlisFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const PlisFieldNumber As Integer = 13
+- uid: LiveKit.Proto.AnalyticsStream.Plis
+  commentId: P:LiveKit.Proto.AnalyticsStream.Plis
+  id: Plis
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Plis
+  nameWithType: AnalyticsStream.Plis
+  fullName: LiveKit.Proto.AnalyticsStream.Plis
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Plis
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 770
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Plis { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Plis As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.Plis*
+- uid: LiveKit.Proto.AnalyticsStream.FirsFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.FirsFieldNumber
+  id: FirsFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: FirsFieldNumber
+  nameWithType: AnalyticsStream.FirsFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.FirsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FirsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 780
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "firs" field.
+  example: []
+  syntax:
+    content: public const int FirsFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const FirsFieldNumber As Integer = 14
+- uid: LiveKit.Proto.AnalyticsStream.Firs
+  commentId: P:LiveKit.Proto.AnalyticsStream.Firs
+  id: Firs
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Firs
+  nameWithType: AnalyticsStream.Firs
+  fullName: LiveKit.Proto.AnalyticsStream.Firs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Firs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 782
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint Firs { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Firs As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.Firs*
+- uid: LiveKit.Proto.AnalyticsStream.VideoLayersFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.VideoLayersFieldNumber
+  id: VideoLayersFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: VideoLayersFieldNumber
+  nameWithType: AnalyticsStream.VideoLayersFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.VideoLayersFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoLayersFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 792
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "video_layers" field.
+  example: []
+  syntax:
+    content: public const int VideoLayersFieldNumber = 15
+    return:
+      type: System.Int32
+    content.vb: Public Const VideoLayersFieldNumber As Integer = 15
+- uid: LiveKit.Proto.AnalyticsStream.VideoLayers
+  commentId: P:LiveKit.Proto.AnalyticsStream.VideoLayers
+  id: VideoLayers
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: VideoLayers
+  nameWithType: AnalyticsStream.VideoLayers
+  fullName: LiveKit.Proto.AnalyticsStream.VideoLayers
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoLayers
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 796
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<AnalyticsVideoLayer> VideoLayers { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.AnalyticsVideoLayer}
+    content.vb: Public ReadOnly Property VideoLayers As RepeatedField(Of AnalyticsVideoLayer)
+  overload: LiveKit.Proto.AnalyticsStream.VideoLayers*
+- uid: LiveKit.Proto.AnalyticsStream.StartTimeFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.StartTimeFieldNumber
+  id: StartTimeFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: StartTimeFieldNumber
+  nameWithType: AnalyticsStream.StartTimeFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.StartTimeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartTimeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 803
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "start_time" field.
+  example: []
+  syntax:
+    content: public const int StartTimeFieldNumber = 17
+    return:
+      type: System.Int32
+    content.vb: Public Const StartTimeFieldNumber As Integer = 17
+- uid: LiveKit.Proto.AnalyticsStream.StartTime
+  commentId: P:LiveKit.Proto.AnalyticsStream.StartTime
+  id: StartTime
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: AnalyticsStream.StartTime
+  fullName: LiveKit.Proto.AnalyticsStream.StartTime
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StartTime
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 805
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Timestamp StartTime { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property StartTime As Timestamp
+  overload: LiveKit.Proto.AnalyticsStream.StartTime*
+- uid: LiveKit.Proto.AnalyticsStream.EndTimeFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.EndTimeFieldNumber
+  id: EndTimeFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: EndTimeFieldNumber
+  nameWithType: AnalyticsStream.EndTimeFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.EndTimeFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndTimeFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 815
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "end_time" field.
+  example: []
+  syntax:
+    content: public const int EndTimeFieldNumber = 18
+    return:
+      type: System.Int32
+    content.vb: Public Const EndTimeFieldNumber As Integer = 18
+- uid: LiveKit.Proto.AnalyticsStream.EndTime
+  commentId: P:LiveKit.Proto.AnalyticsStream.EndTime
+  id: EndTime
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: AnalyticsStream.EndTime
+  fullName: LiveKit.Proto.AnalyticsStream.EndTime
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndTime
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 817
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public Timestamp EndTime { get; set; }
+    parameters: []
+    return:
+      type: Google.Protobuf.WellKnownTypes.Timestamp
+    content.vb: Public Property EndTime As Timestamp
+  overload: LiveKit.Proto.AnalyticsStream.EndTime*
+- uid: LiveKit.Proto.AnalyticsStream.PacketsOutOfOrderFieldNumber
+  commentId: F:LiveKit.Proto.AnalyticsStream.PacketsOutOfOrderFieldNumber
+  id: PacketsOutOfOrderFieldNumber
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PacketsOutOfOrderFieldNumber
+  nameWithType: AnalyticsStream.PacketsOutOfOrderFieldNumber
+  fullName: LiveKit.Proto.AnalyticsStream.PacketsOutOfOrderFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PacketsOutOfOrderFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 827
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "packets_out_of_order" field.
+  example: []
+  syntax:
+    content: public const int PacketsOutOfOrderFieldNumber = 19
+    return:
+      type: System.Int32
+    content.vb: Public Const PacketsOutOfOrderFieldNumber As Integer = 19
+- uid: LiveKit.Proto.AnalyticsStream.PacketsOutOfOrder
+  commentId: P:LiveKit.Proto.AnalyticsStream.PacketsOutOfOrder
+  id: PacketsOutOfOrder
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: PacketsOutOfOrder
+  nameWithType: AnalyticsStream.PacketsOutOfOrder
+  fullName: LiveKit.Proto.AnalyticsStream.PacketsOutOfOrder
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PacketsOutOfOrder
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 829
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public uint PacketsOutOfOrder { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property PacketsOutOfOrder As UInteger
+  overload: LiveKit.Proto.AnalyticsStream.PacketsOutOfOrder*
+- uid: LiveKit.Proto.AnalyticsStream.Equals(System.Object)
+  commentId: M:LiveKit.Proto.AnalyticsStream.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: AnalyticsStream.Equals(object)
+  fullName: LiveKit.Proto.AnalyticsStream.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 838
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.AnalyticsStream.Equals*
+  nameWithType.vb: AnalyticsStream.Equals(Object)
+  fullName.vb: LiveKit.Proto.AnalyticsStream.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.AnalyticsStream.Equals(LiveKit.Proto.AnalyticsStream)
+  commentId: M:LiveKit.Proto.AnalyticsStream.Equals(LiveKit.Proto.AnalyticsStream)
+  id: Equals(LiveKit.Proto.AnalyticsStream)
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: Equals(AnalyticsStream)
+  nameWithType: AnalyticsStream.Equals(AnalyticsStream)
+  fullName: LiveKit.Proto.AnalyticsStream.Equals(LiveKit.Proto.AnalyticsStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 844
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(AnalyticsStream other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AnalyticsStream
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As AnalyticsStream) As Boolean
+  overload: LiveKit.Proto.AnalyticsStream.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.AnalyticsStream}.Equals(LiveKit.Proto.AnalyticsStream)
+- uid: LiveKit.Proto.AnalyticsStream.GetHashCode
+  commentId: M:LiveKit.Proto.AnalyticsStream.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: AnalyticsStream.GetHashCode()
+  fullName: LiveKit.Proto.AnalyticsStream.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 874
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.AnalyticsStream.GetHashCode*
+- uid: LiveKit.Proto.AnalyticsStream.ToString
+  commentId: M:LiveKit.Proto.AnalyticsStream.ToString
+  id: ToString
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AnalyticsStream.ToString()
+  fullName: LiveKit.Proto.AnalyticsStream.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 902
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.AnalyticsStream.ToString*
+- uid: LiveKit.Proto.AnalyticsStream.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.AnalyticsStream.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: AnalyticsStream.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.AnalyticsStream.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 908
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.AnalyticsStream.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.AnalyticsStream.CalculateSize
+  commentId: M:LiveKit.Proto.AnalyticsStream.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: AnalyticsStream.CalculateSize()
+  fullName: LiveKit.Proto.AnalyticsStream.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 1068
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.AnalyticsStream.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.AnalyticsStream.MergeFrom(LiveKit.Proto.AnalyticsStream)
+  commentId: M:LiveKit.Proto.AnalyticsStream.MergeFrom(LiveKit.Proto.AnalyticsStream)
+  id: MergeFrom(LiveKit.Proto.AnalyticsStream)
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(AnalyticsStream)
+  nameWithType: AnalyticsStream.MergeFrom(AnalyticsStream)
+  fullName: LiveKit.Proto.AnalyticsStream.MergeFrom(LiveKit.Proto.AnalyticsStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 1130
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(AnalyticsStream other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.AnalyticsStream
+    content.vb: Public Sub MergeFrom(other As AnalyticsStream)
+  overload: LiveKit.Proto.AnalyticsStream.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}.MergeFrom(LiveKit.Proto.AnalyticsStream)
+- uid: LiveKit.Proto.AnalyticsStream.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.AnalyticsStream.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.AnalyticsStream
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: AnalyticsStream.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.AnalyticsStream.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 1197
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.AnalyticsStream.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.AnalyticsStream.html
+  name: IMessage<AnalyticsStream>
+  nameWithType: IMessage<AnalyticsStream>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.AnalyticsStream>
+  nameWithType.vb: IMessage(Of AnalyticsStream)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.AnalyticsStream)
+  name.vb: IMessage(Of AnalyticsStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.AnalyticsStream}
+  commentId: T:System.IEquatable{LiveKit.Proto.AnalyticsStream}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<AnalyticsStream>
+  nameWithType: IEquatable<AnalyticsStream>
+  fullName: System.IEquatable<LiveKit.Proto.AnalyticsStream>
+  nameWithType.vb: IEquatable(Of AnalyticsStream)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.AnalyticsStream)
+  name.vb: IEquatable(Of AnalyticsStream)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.AnalyticsStream.html
+  name: IDeepCloneable<AnalyticsStream>
+  nameWithType: IDeepCloneable<AnalyticsStream>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.AnalyticsStream>
+  nameWithType.vb: IDeepCloneable(Of AnalyticsStream)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.AnalyticsStream)
+  name.vb: IDeepCloneable(Of AnalyticsStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.AnalyticsStream.Parser*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Parser
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Parser
+  name: Parser
+  nameWithType: AnalyticsStream.Parser
+  fullName: LiveKit.Proto.AnalyticsStream.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.AnalyticsStream}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.AnalyticsStream}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.AnalyticsStream.html
+  name: MessageParser<AnalyticsStream>
+  nameWithType: MessageParser<AnalyticsStream>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.AnalyticsStream>
+  nameWithType.vb: MessageParser(Of AnalyticsStream)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.AnalyticsStream)
+  name.vb: MessageParser(Of AnalyticsStream)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.AnalyticsStream.Descriptor*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Descriptor
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Descriptor
+  name: Descriptor
+  nameWithType: AnalyticsStream.Descriptor
+  fullName: LiveKit.Proto.AnalyticsStream.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.AnalyticsStream.#ctor*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.#ctor
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream__ctor
+  name: AnalyticsStream
+  nameWithType: AnalyticsStream.AnalyticsStream
+  fullName: LiveKit.Proto.AnalyticsStream.AnalyticsStream
+  nameWithType.vb: AnalyticsStream.New
+  fullName.vb: LiveKit.Proto.AnalyticsStream.New
+  name.vb: New
+- uid: LiveKit.Proto.AnalyticsStream
+  commentId: T:LiveKit.Proto.AnalyticsStream
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.AnalyticsStream.html
+  name: AnalyticsStream
+  nameWithType: AnalyticsStream
+  fullName: LiveKit.Proto.AnalyticsStream
+- uid: LiveKit.Proto.AnalyticsStream.Clone*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Clone
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Clone
+  name: Clone
+  nameWithType: AnalyticsStream.Clone
+  fullName: LiveKit.Proto.AnalyticsStream.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<AnalyticsStream>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.AnalyticsStream>.Clone()
+  nameWithType.vb: IDeepCloneable(Of AnalyticsStream).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.AnalyticsStream).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.AnalyticsStream}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.AnalyticsStream.Ssrc*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Ssrc
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Ssrc
+  name: Ssrc
+  nameWithType: AnalyticsStream.Ssrc
+  fullName: LiveKit.Proto.AnalyticsStream.Ssrc
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: LiveKit.Proto.AnalyticsStream.PrimaryPackets*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.PrimaryPackets
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_PrimaryPackets
+  name: PrimaryPackets
+  nameWithType: AnalyticsStream.PrimaryPackets
+  fullName: LiveKit.Proto.AnalyticsStream.PrimaryPackets
+- uid: LiveKit.Proto.AnalyticsStream.PrimaryBytes*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.PrimaryBytes
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_PrimaryBytes
+  name: PrimaryBytes
+  nameWithType: AnalyticsStream.PrimaryBytes
+  fullName: LiveKit.Proto.AnalyticsStream.PrimaryBytes
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: LiveKit.Proto.AnalyticsStream.RetransmitPackets*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.RetransmitPackets
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_RetransmitPackets
+  name: RetransmitPackets
+  nameWithType: AnalyticsStream.RetransmitPackets
+  fullName: LiveKit.Proto.AnalyticsStream.RetransmitPackets
+- uid: LiveKit.Proto.AnalyticsStream.RetransmitBytes*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.RetransmitBytes
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_RetransmitBytes
+  name: RetransmitBytes
+  nameWithType: AnalyticsStream.RetransmitBytes
+  fullName: LiveKit.Proto.AnalyticsStream.RetransmitBytes
+- uid: LiveKit.Proto.AnalyticsStream.PaddingPackets*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.PaddingPackets
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_PaddingPackets
+  name: PaddingPackets
+  nameWithType: AnalyticsStream.PaddingPackets
+  fullName: LiveKit.Proto.AnalyticsStream.PaddingPackets
+- uid: LiveKit.Proto.AnalyticsStream.PaddingBytes*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.PaddingBytes
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_PaddingBytes
+  name: PaddingBytes
+  nameWithType: AnalyticsStream.PaddingBytes
+  fullName: LiveKit.Proto.AnalyticsStream.PaddingBytes
+- uid: LiveKit.Proto.AnalyticsStream.PacketsLost*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.PacketsLost
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_PacketsLost
+  name: PacketsLost
+  nameWithType: AnalyticsStream.PacketsLost
+  fullName: LiveKit.Proto.AnalyticsStream.PacketsLost
+- uid: LiveKit.Proto.AnalyticsStream.Frames*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Frames
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Frames
+  name: Frames
+  nameWithType: AnalyticsStream.Frames
+  fullName: LiveKit.Proto.AnalyticsStream.Frames
+- uid: LiveKit.Proto.AnalyticsStream.Rtt*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Rtt
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Rtt
+  name: Rtt
+  nameWithType: AnalyticsStream.Rtt
+  fullName: LiveKit.Proto.AnalyticsStream.Rtt
+- uid: LiveKit.Proto.AnalyticsStream.Jitter*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Jitter
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Jitter
+  name: Jitter
+  nameWithType: AnalyticsStream.Jitter
+  fullName: LiveKit.Proto.AnalyticsStream.Jitter
+- uid: LiveKit.Proto.AnalyticsStream.Nacks*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Nacks
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Nacks
+  name: Nacks
+  nameWithType: AnalyticsStream.Nacks
+  fullName: LiveKit.Proto.AnalyticsStream.Nacks
+- uid: LiveKit.Proto.AnalyticsStream.Plis*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Plis
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Plis
+  name: Plis
+  nameWithType: AnalyticsStream.Plis
+  fullName: LiveKit.Proto.AnalyticsStream.Plis
+- uid: LiveKit.Proto.AnalyticsStream.Firs*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Firs
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Firs
+  name: Firs
+  nameWithType: AnalyticsStream.Firs
+  fullName: LiveKit.Proto.AnalyticsStream.Firs
+- uid: LiveKit.Proto.AnalyticsStream.VideoLayers*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.VideoLayers
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_VideoLayers
+  name: VideoLayers
+  nameWithType: AnalyticsStream.VideoLayers
+  fullName: LiveKit.Proto.AnalyticsStream.VideoLayers
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.AnalyticsVideoLayer}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.AnalyticsVideoLayer}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.AnalyticsVideoLayer.html
+  name: RepeatedField<AnalyticsVideoLayer>
+  nameWithType: RepeatedField<AnalyticsVideoLayer>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.AnalyticsVideoLayer>
+  nameWithType.vb: RepeatedField(Of AnalyticsVideoLayer)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.AnalyticsVideoLayer)
+  name.vb: RepeatedField(Of AnalyticsVideoLayer)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.AnalyticsVideoLayer
+    name: AnalyticsVideoLayer
+    href: LiveKit.Proto.AnalyticsVideoLayer.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.AnalyticsVideoLayer
+    name: AnalyticsVideoLayer
+    href: LiveKit.Proto.AnalyticsVideoLayer.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.AnalyticsStream.StartTime*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.StartTime
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_StartTime
+  name: StartTime
+  nameWithType: AnalyticsStream.StartTime
+  fullName: LiveKit.Proto.AnalyticsStream.StartTime
+- uid: Google.Protobuf.WellKnownTypes.Timestamp
+  commentId: T:Google.Protobuf.WellKnownTypes.Timestamp
+  parent: Google.Protobuf.WellKnownTypes
+  isExternal: true
+  name: Timestamp
+  nameWithType: Timestamp
+  fullName: Google.Protobuf.WellKnownTypes.Timestamp
+- uid: Google.Protobuf.WellKnownTypes
+  commentId: N:Google.Protobuf.WellKnownTypes
+  isExternal: true
+  name: Google.Protobuf.WellKnownTypes
+  nameWithType: Google.Protobuf.WellKnownTypes
+  fullName: Google.Protobuf.WellKnownTypes
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.WellKnownTypes
+    name: WellKnownTypes
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.WellKnownTypes
+    name: WellKnownTypes
+    isExternal: true
+- uid: LiveKit.Proto.AnalyticsStream.EndTime*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.EndTime
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_EndTime
+  name: EndTime
+  nameWithType: AnalyticsStream.EndTime
+  fullName: LiveKit.Proto.AnalyticsStream.EndTime
+- uid: LiveKit.Proto.AnalyticsStream.PacketsOutOfOrder*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.PacketsOutOfOrder
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_PacketsOutOfOrder
+  name: PacketsOutOfOrder
+  nameWithType: AnalyticsStream.PacketsOutOfOrder
+  fullName: LiveKit.Proto.AnalyticsStream.PacketsOutOfOrder
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.AnalyticsStream.Equals*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.Equals
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_Equals_System_Object_
+  name: Equals
+  nameWithType: AnalyticsStream.Equals
+  fullName: LiveKit.Proto.AnalyticsStream.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.AnalyticsStream}.Equals(LiveKit.Proto.AnalyticsStream)
+  commentId: M:System.IEquatable{LiveKit.Proto.AnalyticsStream}.Equals(LiveKit.Proto.AnalyticsStream)
+  parent: System.IEquatable{LiveKit.Proto.AnalyticsStream}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(AnalyticsStream)
+  nameWithType: IEquatable<AnalyticsStream>.Equals(AnalyticsStream)
+  fullName: System.IEquatable<LiveKit.Proto.AnalyticsStream>.Equals(LiveKit.Proto.AnalyticsStream)
+  nameWithType.vb: IEquatable(Of AnalyticsStream).Equals(AnalyticsStream)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.AnalyticsStream).Equals(LiveKit.Proto.AnalyticsStream)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.AnalyticsStream}.Equals(LiveKit.Proto.AnalyticsStream)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.AnalyticsStream}.Equals(LiveKit.Proto.AnalyticsStream)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AnalyticsStream.GetHashCode*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.GetHashCode
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_GetHashCode
+  name: GetHashCode
+  nameWithType: AnalyticsStream.GetHashCode
+  fullName: LiveKit.Proto.AnalyticsStream.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AnalyticsStream.ToString*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.ToString
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_ToString
+  name: ToString
+  nameWithType: AnalyticsStream.ToString
+  fullName: LiveKit.Proto.AnalyticsStream.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.AnalyticsStream.WriteTo*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.WriteTo
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: AnalyticsStream.WriteTo
+  fullName: LiveKit.Proto.AnalyticsStream.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.AnalyticsStream.CalculateSize*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.CalculateSize
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_CalculateSize
+  name: CalculateSize
+  nameWithType: AnalyticsStream.CalculateSize
+  fullName: LiveKit.Proto.AnalyticsStream.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.AnalyticsStream.MergeFrom*
+  commentId: Overload:LiveKit.Proto.AnalyticsStream.MergeFrom
+  href: LiveKit.Proto.AnalyticsStream.html#LiveKit_Proto_AnalyticsStream_MergeFrom_LiveKit_Proto_AnalyticsStream_
+  name: MergeFrom
+  nameWithType: AnalyticsStream.MergeFrom
+  fullName: LiveKit.Proto.AnalyticsStream.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}.MergeFrom(LiveKit.Proto.AnalyticsStream)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}.MergeFrom(LiveKit.Proto.AnalyticsStream)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.AnalyticsStream.html
+  name: MergeFrom(AnalyticsStream)
+  nameWithType: IMessage<AnalyticsStream>.MergeFrom(AnalyticsStream)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.AnalyticsStream>.MergeFrom(LiveKit.Proto.AnalyticsStream)
+  nameWithType.vb: IMessage(Of AnalyticsStream).MergeFrom(AnalyticsStream)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.AnalyticsStream).MergeFrom(LiveKit.Proto.AnalyticsStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}.MergeFrom(LiveKit.Proto.AnalyticsStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.AnalyticsStream}.MergeFrom(LiveKit.Proto.AnalyticsStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.AnalyticsStream
+    name: AnalyticsStream
+    href: LiveKit.Proto.AnalyticsStream.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

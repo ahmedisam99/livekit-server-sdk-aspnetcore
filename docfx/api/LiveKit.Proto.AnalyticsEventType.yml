@@ -1,0 +1,1858 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.AnalyticsEventType
+  commentId: T:LiveKit.Proto.AnalyticsEventType
+  id: AnalyticsEventType
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.AnalyticsEventType.ApiCall
+  - LiveKit.Proto.AnalyticsEventType.EgressEnded
+  - LiveKit.Proto.AnalyticsEventType.EgressStarted
+  - LiveKit.Proto.AnalyticsEventType.EgressUpdated
+  - LiveKit.Proto.AnalyticsEventType.IngressCreated
+  - LiveKit.Proto.AnalyticsEventType.IngressDeleted
+  - LiveKit.Proto.AnalyticsEventType.IngressEnded
+  - LiveKit.Proto.AnalyticsEventType.IngressStarted
+  - LiveKit.Proto.AnalyticsEventType.IngressUpdated
+  - LiveKit.Proto.AnalyticsEventType.ParticipantActive
+  - LiveKit.Proto.AnalyticsEventType.ParticipantConnectionAborted
+  - LiveKit.Proto.AnalyticsEventType.ParticipantJoined
+  - LiveKit.Proto.AnalyticsEventType.ParticipantLeft
+  - LiveKit.Proto.AnalyticsEventType.ParticipantResumed
+  - LiveKit.Proto.AnalyticsEventType.Reconnected
+  - LiveKit.Proto.AnalyticsEventType.Report
+  - LiveKit.Proto.AnalyticsEventType.RoomCreated
+  - LiveKit.Proto.AnalyticsEventType.RoomEnded
+  - LiveKit.Proto.AnalyticsEventType.SipCallEnded
+  - LiveKit.Proto.AnalyticsEventType.SipCallIncoming
+  - LiveKit.Proto.AnalyticsEventType.SipCallStarted
+  - LiveKit.Proto.AnalyticsEventType.SipCallUpdate
+  - LiveKit.Proto.AnalyticsEventType.SipDispatchRuleCreated
+  - LiveKit.Proto.AnalyticsEventType.SipDispatchRuleDeleted
+  - LiveKit.Proto.AnalyticsEventType.SipInboundTrunkCreated
+  - LiveKit.Proto.AnalyticsEventType.SipInboundTrunkDeleted
+  - LiveKit.Proto.AnalyticsEventType.SipOutboundTrunkCreated
+  - LiveKit.Proto.AnalyticsEventType.SipOutboundTrunkDeleted
+  - LiveKit.Proto.AnalyticsEventType.SipParticipantCreated
+  - LiveKit.Proto.AnalyticsEventType.SipTransferComplete
+  - LiveKit.Proto.AnalyticsEventType.SipTransferRequested
+  - LiveKit.Proto.AnalyticsEventType.TrackMaxSubscribedVideoQuality
+  - LiveKit.Proto.AnalyticsEventType.TrackMuted
+  - LiveKit.Proto.AnalyticsEventType.TrackPublishRequested
+  - LiveKit.Proto.AnalyticsEventType.TrackPublishStats
+  - LiveKit.Proto.AnalyticsEventType.TrackPublished
+  - LiveKit.Proto.AnalyticsEventType.TrackPublishedUpdate
+  - LiveKit.Proto.AnalyticsEventType.TrackSubscribeFailed
+  - LiveKit.Proto.AnalyticsEventType.TrackSubscribeRequested
+  - LiveKit.Proto.AnalyticsEventType.TrackSubscribeStats
+  - LiveKit.Proto.AnalyticsEventType.TrackSubscribed
+  - LiveKit.Proto.AnalyticsEventType.TrackUnmuted
+  - LiveKit.Proto.AnalyticsEventType.TrackUnpublished
+  - LiveKit.Proto.AnalyticsEventType.TrackUnsubscribed
+  - LiveKit.Proto.AnalyticsEventType.Webhook
+  langs:
+  - csharp
+  - vb
+  name: AnalyticsEventType
+  nameWithType: AnalyticsEventType
+  fullName: LiveKit.Proto.AnalyticsEventType
+  type: Enum
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AnalyticsEventType
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 201
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public enum AnalyticsEventType
+    content.vb: Public Enum AnalyticsEventType
+- uid: LiveKit.Proto.AnalyticsEventType.RoomCreated
+  commentId: F:LiveKit.Proto.AnalyticsEventType.RoomCreated
+  id: RoomCreated
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: RoomCreated
+  nameWithType: AnalyticsEventType.RoomCreated
+  fullName: LiveKit.Proto.AnalyticsEventType.RoomCreated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomCreated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 202
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("ROOM_CREATED")]
+
+      RoomCreated = 0
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("ROOM_CREATED")>
+
+      RoomCreated = 0
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ROOM_CREATED
+- uid: LiveKit.Proto.AnalyticsEventType.RoomEnded
+  commentId: F:LiveKit.Proto.AnalyticsEventType.RoomEnded
+  id: RoomEnded
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: RoomEnded
+  nameWithType: AnalyticsEventType.RoomEnded
+  fullName: LiveKit.Proto.AnalyticsEventType.RoomEnded
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RoomEnded
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 203
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("ROOM_ENDED")]
+
+      RoomEnded = 1
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("ROOM_ENDED")>
+
+      RoomEnded = 1
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ROOM_ENDED
+- uid: LiveKit.Proto.AnalyticsEventType.ParticipantJoined
+  commentId: F:LiveKit.Proto.AnalyticsEventType.ParticipantJoined
+  id: ParticipantJoined
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: ParticipantJoined
+  nameWithType: AnalyticsEventType.ParticipantJoined
+  fullName: LiveKit.Proto.AnalyticsEventType.ParticipantJoined
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantJoined
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 204
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("PARTICIPANT_JOINED")]
+
+      ParticipantJoined = 2
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("PARTICIPANT_JOINED")>
+
+      ParticipantJoined = 2
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PARTICIPANT_JOINED
+- uid: LiveKit.Proto.AnalyticsEventType.ParticipantLeft
+  commentId: F:LiveKit.Proto.AnalyticsEventType.ParticipantLeft
+  id: ParticipantLeft
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: ParticipantLeft
+  nameWithType: AnalyticsEventType.ParticipantLeft
+  fullName: LiveKit.Proto.AnalyticsEventType.ParticipantLeft
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantLeft
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 205
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("PARTICIPANT_LEFT")]
+
+      ParticipantLeft = 3
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("PARTICIPANT_LEFT")>
+
+      ParticipantLeft = 3
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PARTICIPANT_LEFT
+- uid: LiveKit.Proto.AnalyticsEventType.ParticipantConnectionAborted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.ParticipantConnectionAborted
+  id: ParticipantConnectionAborted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: ParticipantConnectionAborted
+  nameWithType: AnalyticsEventType.ParticipantConnectionAborted
+  fullName: LiveKit.Proto.AnalyticsEventType.ParticipantConnectionAborted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantConnectionAborted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 206
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("PARTICIPANT_CONNECTION_ABORTED")]
+
+      ParticipantConnectionAborted = 45
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("PARTICIPANT_CONNECTION_ABORTED")>
+
+      ParticipantConnectionAborted = 45
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PARTICIPANT_CONNECTION_ABORTED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackPublished
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackPublished
+  id: TrackPublished
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackPublished
+  nameWithType: AnalyticsEventType.TrackPublished
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackPublished
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPublished
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 207
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_PUBLISHED")]
+
+      TrackPublished = 4
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_PUBLISHED")>
+
+      TrackPublished = 4
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_PUBLISHED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackPublishRequested
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackPublishRequested
+  id: TrackPublishRequested
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackPublishRequested
+  nameWithType: AnalyticsEventType.TrackPublishRequested
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackPublishRequested
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPublishRequested
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 208
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_PUBLISH_REQUESTED")]
+
+      TrackPublishRequested = 20
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_PUBLISH_REQUESTED")>
+
+      TrackPublishRequested = 20
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_PUBLISH_REQUESTED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackUnpublished
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackUnpublished
+  id: TrackUnpublished
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackUnpublished
+  nameWithType: AnalyticsEventType.TrackUnpublished
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackUnpublished
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackUnpublished
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 209
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_UNPUBLISHED")]
+
+      TrackUnpublished = 5
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_UNPUBLISHED")>
+
+      TrackUnpublished = 5
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_UNPUBLISHED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackSubscribed
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackSubscribed
+  id: TrackSubscribed
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackSubscribed
+  nameWithType: AnalyticsEventType.TrackSubscribed
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackSubscribed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSubscribed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 210
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_SUBSCRIBED")]
+
+      TrackSubscribed = 6
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_SUBSCRIBED")>
+
+      TrackSubscribed = 6
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_SUBSCRIBED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackSubscribeRequested
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackSubscribeRequested
+  id: TrackSubscribeRequested
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackSubscribeRequested
+  nameWithType: AnalyticsEventType.TrackSubscribeRequested
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackSubscribeRequested
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSubscribeRequested
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 211
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_SUBSCRIBE_REQUESTED")]
+
+      TrackSubscribeRequested = 21
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_SUBSCRIBE_REQUESTED")>
+
+      TrackSubscribeRequested = 21
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_SUBSCRIBE_REQUESTED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackSubscribeFailed
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackSubscribeFailed
+  id: TrackSubscribeFailed
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackSubscribeFailed
+  nameWithType: AnalyticsEventType.TrackSubscribeFailed
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackSubscribeFailed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSubscribeFailed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 212
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_SUBSCRIBE_FAILED")]
+
+      TrackSubscribeFailed = 25
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_SUBSCRIBE_FAILED")>
+
+      TrackSubscribeFailed = 25
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_SUBSCRIBE_FAILED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackUnsubscribed
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackUnsubscribed
+  id: TrackUnsubscribed
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackUnsubscribed
+  nameWithType: AnalyticsEventType.TrackUnsubscribed
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackUnsubscribed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackUnsubscribed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 213
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_UNSUBSCRIBED")]
+
+      TrackUnsubscribed = 7
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_UNSUBSCRIBED")>
+
+      TrackUnsubscribed = 7
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_UNSUBSCRIBED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackPublishedUpdate
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackPublishedUpdate
+  id: TrackPublishedUpdate
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackPublishedUpdate
+  nameWithType: AnalyticsEventType.TrackPublishedUpdate
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackPublishedUpdate
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPublishedUpdate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 214
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_PUBLISHED_UPDATE")]
+
+      TrackPublishedUpdate = 10
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_PUBLISHED_UPDATE")>
+
+      TrackPublishedUpdate = 10
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_PUBLISHED_UPDATE
+- uid: LiveKit.Proto.AnalyticsEventType.TrackMuted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackMuted
+  id: TrackMuted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackMuted
+  nameWithType: AnalyticsEventType.TrackMuted
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackMuted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackMuted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 215
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_MUTED")]
+
+      TrackMuted = 23
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_MUTED")>
+
+      TrackMuted = 23
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_MUTED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackUnmuted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackUnmuted
+  id: TrackUnmuted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackUnmuted
+  nameWithType: AnalyticsEventType.TrackUnmuted
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackUnmuted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackUnmuted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 216
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_UNMUTED")]
+
+      TrackUnmuted = 24
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_UNMUTED")>
+
+      TrackUnmuted = 24
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_UNMUTED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackPublishStats
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackPublishStats
+  id: TrackPublishStats
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackPublishStats
+  nameWithType: AnalyticsEventType.TrackPublishStats
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackPublishStats
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackPublishStats
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 217
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_PUBLISH_STATS")]
+
+      TrackPublishStats = 26
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_PUBLISH_STATS")>
+
+      TrackPublishStats = 26
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_PUBLISH_STATS
+- uid: LiveKit.Proto.AnalyticsEventType.TrackSubscribeStats
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackSubscribeStats
+  id: TrackSubscribeStats
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackSubscribeStats
+  nameWithType: AnalyticsEventType.TrackSubscribeStats
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackSubscribeStats
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackSubscribeStats
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 218
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_SUBSCRIBE_STATS")]
+
+      TrackSubscribeStats = 27
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_SUBSCRIBE_STATS")>
+
+      TrackSubscribeStats = 27
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_SUBSCRIBE_STATS
+- uid: LiveKit.Proto.AnalyticsEventType.ParticipantActive
+  commentId: F:LiveKit.Proto.AnalyticsEventType.ParticipantActive
+  id: ParticipantActive
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: ParticipantActive
+  nameWithType: AnalyticsEventType.ParticipantActive
+  fullName: LiveKit.Proto.AnalyticsEventType.ParticipantActive
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantActive
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 219
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("PARTICIPANT_ACTIVE")]
+
+      ParticipantActive = 11
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("PARTICIPANT_ACTIVE")>
+
+      ParticipantActive = 11
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PARTICIPANT_ACTIVE
+- uid: LiveKit.Proto.AnalyticsEventType.ParticipantResumed
+  commentId: F:LiveKit.Proto.AnalyticsEventType.ParticipantResumed
+  id: ParticipantResumed
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: ParticipantResumed
+  nameWithType: AnalyticsEventType.ParticipantResumed
+  fullName: LiveKit.Proto.AnalyticsEventType.ParticipantResumed
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ParticipantResumed
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 220
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("PARTICIPANT_RESUMED")]
+
+      ParticipantResumed = 22
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("PARTICIPANT_RESUMED")>
+
+      ParticipantResumed = 22
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: PARTICIPANT_RESUMED
+- uid: LiveKit.Proto.AnalyticsEventType.EgressStarted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.EgressStarted
+  id: EgressStarted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: EgressStarted
+  nameWithType: AnalyticsEventType.EgressStarted
+  fullName: LiveKit.Proto.AnalyticsEventType.EgressStarted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressStarted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 221
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_STARTED")]
+
+      EgressStarted = 12
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("EGRESS_STARTED")>
+
+      EgressStarted = 12
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_STARTED
+- uid: LiveKit.Proto.AnalyticsEventType.EgressEnded
+  commentId: F:LiveKit.Proto.AnalyticsEventType.EgressEnded
+  id: EgressEnded
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: EgressEnded
+  nameWithType: AnalyticsEventType.EgressEnded
+  fullName: LiveKit.Proto.AnalyticsEventType.EgressEnded
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressEnded
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 222
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_ENDED")]
+
+      EgressEnded = 13
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("EGRESS_ENDED")>
+
+      EgressEnded = 13
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_ENDED
+- uid: LiveKit.Proto.AnalyticsEventType.EgressUpdated
+  commentId: F:LiveKit.Proto.AnalyticsEventType.EgressUpdated
+  id: EgressUpdated
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: EgressUpdated
+  nameWithType: AnalyticsEventType.EgressUpdated
+  fullName: LiveKit.Proto.AnalyticsEventType.EgressUpdated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EgressUpdated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 223
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("EGRESS_UPDATED")]
+
+      EgressUpdated = 28
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("EGRESS_UPDATED")>
+
+      EgressUpdated = 28
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EGRESS_UPDATED
+- uid: LiveKit.Proto.AnalyticsEventType.TrackMaxSubscribedVideoQuality
+  commentId: F:LiveKit.Proto.AnalyticsEventType.TrackMaxSubscribedVideoQuality
+  id: TrackMaxSubscribedVideoQuality
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: TrackMaxSubscribedVideoQuality
+  nameWithType: AnalyticsEventType.TrackMaxSubscribedVideoQuality
+  fullName: LiveKit.Proto.AnalyticsEventType.TrackMaxSubscribedVideoQuality
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TrackMaxSubscribedVideoQuality
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 224
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("TRACK_MAX_SUBSCRIBED_VIDEO_QUALITY")]
+
+      TrackMaxSubscribedVideoQuality = 14
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("TRACK_MAX_SUBSCRIBED_VIDEO_QUALITY")>
+
+      TrackMaxSubscribedVideoQuality = 14
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TRACK_MAX_SUBSCRIBED_VIDEO_QUALITY
+- uid: LiveKit.Proto.AnalyticsEventType.Reconnected
+  commentId: F:LiveKit.Proto.AnalyticsEventType.Reconnected
+  id: Reconnected
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: Reconnected
+  nameWithType: AnalyticsEventType.Reconnected
+  fullName: LiveKit.Proto.AnalyticsEventType.Reconnected
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Reconnected
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 225
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("RECONNECTED")]
+
+      Reconnected = 15
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("RECONNECTED")>
+
+      Reconnected = 15
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RECONNECTED
+- uid: LiveKit.Proto.AnalyticsEventType.IngressCreated
+  commentId: F:LiveKit.Proto.AnalyticsEventType.IngressCreated
+  id: IngressCreated
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: IngressCreated
+  nameWithType: AnalyticsEventType.IngressCreated
+  fullName: LiveKit.Proto.AnalyticsEventType.IngressCreated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressCreated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 226
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("INGRESS_CREATED")]
+
+      IngressCreated = 18
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("INGRESS_CREATED")>
+
+      IngressCreated = 18
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: INGRESS_CREATED
+- uid: LiveKit.Proto.AnalyticsEventType.IngressDeleted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.IngressDeleted
+  id: IngressDeleted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: IngressDeleted
+  nameWithType: AnalyticsEventType.IngressDeleted
+  fullName: LiveKit.Proto.AnalyticsEventType.IngressDeleted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressDeleted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 227
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("INGRESS_DELETED")]
+
+      IngressDeleted = 19
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("INGRESS_DELETED")>
+
+      IngressDeleted = 19
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: INGRESS_DELETED
+- uid: LiveKit.Proto.AnalyticsEventType.IngressStarted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.IngressStarted
+  id: IngressStarted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: IngressStarted
+  nameWithType: AnalyticsEventType.IngressStarted
+  fullName: LiveKit.Proto.AnalyticsEventType.IngressStarted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressStarted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 228
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("INGRESS_STARTED")]
+
+      IngressStarted = 16
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("INGRESS_STARTED")>
+
+      IngressStarted = 16
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: INGRESS_STARTED
+- uid: LiveKit.Proto.AnalyticsEventType.IngressEnded
+  commentId: F:LiveKit.Proto.AnalyticsEventType.IngressEnded
+  id: IngressEnded
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: IngressEnded
+  nameWithType: AnalyticsEventType.IngressEnded
+  fullName: LiveKit.Proto.AnalyticsEventType.IngressEnded
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressEnded
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 229
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("INGRESS_ENDED")]
+
+      IngressEnded = 17
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("INGRESS_ENDED")>
+
+      IngressEnded = 17
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: INGRESS_ENDED
+- uid: LiveKit.Proto.AnalyticsEventType.IngressUpdated
+  commentId: F:LiveKit.Proto.AnalyticsEventType.IngressUpdated
+  id: IngressUpdated
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: IngressUpdated
+  nameWithType: AnalyticsEventType.IngressUpdated
+  fullName: LiveKit.Proto.AnalyticsEventType.IngressUpdated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: IngressUpdated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 230
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("INGRESS_UPDATED")]
+
+      IngressUpdated = 29
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("INGRESS_UPDATED")>
+
+      IngressUpdated = 29
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: INGRESS_UPDATED
+- uid: LiveKit.Proto.AnalyticsEventType.SipInboundTrunkCreated
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipInboundTrunkCreated
+  id: SipInboundTrunkCreated
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipInboundTrunkCreated
+  nameWithType: AnalyticsEventType.SipInboundTrunkCreated
+  fullName: LiveKit.Proto.AnalyticsEventType.SipInboundTrunkCreated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipInboundTrunkCreated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 231
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_INBOUND_TRUNK_CREATED")]
+
+      SipInboundTrunkCreated = 30
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_INBOUND_TRUNK_CREATED")>
+
+      SipInboundTrunkCreated = 30
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_INBOUND_TRUNK_CREATED
+- uid: LiveKit.Proto.AnalyticsEventType.SipInboundTrunkDeleted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipInboundTrunkDeleted
+  id: SipInboundTrunkDeleted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipInboundTrunkDeleted
+  nameWithType: AnalyticsEventType.SipInboundTrunkDeleted
+  fullName: LiveKit.Proto.AnalyticsEventType.SipInboundTrunkDeleted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipInboundTrunkDeleted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 232
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_INBOUND_TRUNK_DELETED")]
+
+      SipInboundTrunkDeleted = 31
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_INBOUND_TRUNK_DELETED")>
+
+      SipInboundTrunkDeleted = 31
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_INBOUND_TRUNK_DELETED
+- uid: LiveKit.Proto.AnalyticsEventType.SipOutboundTrunkCreated
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipOutboundTrunkCreated
+  id: SipOutboundTrunkCreated
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipOutboundTrunkCreated
+  nameWithType: AnalyticsEventType.SipOutboundTrunkCreated
+  fullName: LiveKit.Proto.AnalyticsEventType.SipOutboundTrunkCreated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipOutboundTrunkCreated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 233
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_OUTBOUND_TRUNK_CREATED")]
+
+      SipOutboundTrunkCreated = 32
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_OUTBOUND_TRUNK_CREATED")>
+
+      SipOutboundTrunkCreated = 32
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_OUTBOUND_TRUNK_CREATED
+- uid: LiveKit.Proto.AnalyticsEventType.SipOutboundTrunkDeleted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipOutboundTrunkDeleted
+  id: SipOutboundTrunkDeleted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipOutboundTrunkDeleted
+  nameWithType: AnalyticsEventType.SipOutboundTrunkDeleted
+  fullName: LiveKit.Proto.AnalyticsEventType.SipOutboundTrunkDeleted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipOutboundTrunkDeleted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 234
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_OUTBOUND_TRUNK_DELETED")]
+
+      SipOutboundTrunkDeleted = 33
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_OUTBOUND_TRUNK_DELETED")>
+
+      SipOutboundTrunkDeleted = 33
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_OUTBOUND_TRUNK_DELETED
+- uid: LiveKit.Proto.AnalyticsEventType.SipDispatchRuleCreated
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipDispatchRuleCreated
+  id: SipDispatchRuleCreated
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipDispatchRuleCreated
+  nameWithType: AnalyticsEventType.SipDispatchRuleCreated
+  fullName: LiveKit.Proto.AnalyticsEventType.SipDispatchRuleCreated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipDispatchRuleCreated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 235
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_DISPATCH_RULE_CREATED")]
+
+      SipDispatchRuleCreated = 34
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_DISPATCH_RULE_CREATED")>
+
+      SipDispatchRuleCreated = 34
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_DISPATCH_RULE_CREATED
+- uid: LiveKit.Proto.AnalyticsEventType.SipDispatchRuleDeleted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipDispatchRuleDeleted
+  id: SipDispatchRuleDeleted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipDispatchRuleDeleted
+  nameWithType: AnalyticsEventType.SipDispatchRuleDeleted
+  fullName: LiveKit.Proto.AnalyticsEventType.SipDispatchRuleDeleted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipDispatchRuleDeleted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 236
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_DISPATCH_RULE_DELETED")]
+
+      SipDispatchRuleDeleted = 35
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_DISPATCH_RULE_DELETED")>
+
+      SipDispatchRuleDeleted = 35
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_DISPATCH_RULE_DELETED
+- uid: LiveKit.Proto.AnalyticsEventType.SipParticipantCreated
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipParticipantCreated
+  id: SipParticipantCreated
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipParticipantCreated
+  nameWithType: AnalyticsEventType.SipParticipantCreated
+  fullName: LiveKit.Proto.AnalyticsEventType.SipParticipantCreated
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipParticipantCreated
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 237
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_PARTICIPANT_CREATED")]
+
+      SipParticipantCreated = 36
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_PARTICIPANT_CREATED")>
+
+      SipParticipantCreated = 36
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_PARTICIPANT_CREATED
+- uid: LiveKit.Proto.AnalyticsEventType.SipCallIncoming
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipCallIncoming
+  id: SipCallIncoming
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipCallIncoming
+  nameWithType: AnalyticsEventType.SipCallIncoming
+  fullName: LiveKit.Proto.AnalyticsEventType.SipCallIncoming
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipCallIncoming
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 238
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_CALL_INCOMING")]
+
+      SipCallIncoming = 37
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_CALL_INCOMING")>
+
+      SipCallIncoming = 37
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_CALL_INCOMING
+- uid: LiveKit.Proto.AnalyticsEventType.SipCallStarted
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipCallStarted
+  id: SipCallStarted
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipCallStarted
+  nameWithType: AnalyticsEventType.SipCallStarted
+  fullName: LiveKit.Proto.AnalyticsEventType.SipCallStarted
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipCallStarted
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 239
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_CALL_STARTED")]
+
+      SipCallStarted = 38
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_CALL_STARTED")>
+
+      SipCallStarted = 38
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_CALL_STARTED
+- uid: LiveKit.Proto.AnalyticsEventType.SipCallEnded
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipCallEnded
+  id: SipCallEnded
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipCallEnded
+  nameWithType: AnalyticsEventType.SipCallEnded
+  fullName: LiveKit.Proto.AnalyticsEventType.SipCallEnded
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipCallEnded
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 240
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_CALL_ENDED")]
+
+      SipCallEnded = 39
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_CALL_ENDED")>
+
+      SipCallEnded = 39
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_CALL_ENDED
+- uid: LiveKit.Proto.AnalyticsEventType.SipTransferRequested
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipTransferRequested
+  id: SipTransferRequested
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipTransferRequested
+  nameWithType: AnalyticsEventType.SipTransferRequested
+  fullName: LiveKit.Proto.AnalyticsEventType.SipTransferRequested
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipTransferRequested
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 241
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_TRANSFER_REQUESTED")]
+
+      SipTransferRequested = 43
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_TRANSFER_REQUESTED")>
+
+      SipTransferRequested = 43
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_TRANSFER_REQUESTED
+- uid: LiveKit.Proto.AnalyticsEventType.SipTransferComplete
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipTransferComplete
+  id: SipTransferComplete
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipTransferComplete
+  nameWithType: AnalyticsEventType.SipTransferComplete
+  fullName: LiveKit.Proto.AnalyticsEventType.SipTransferComplete
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipTransferComplete
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 242
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_TRANSFER_COMPLETE")]
+
+      SipTransferComplete = 44
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_TRANSFER_COMPLETE")>
+
+      SipTransferComplete = 44
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_TRANSFER_COMPLETE
+- uid: LiveKit.Proto.AnalyticsEventType.SipCallUpdate
+  commentId: F:LiveKit.Proto.AnalyticsEventType.SipCallUpdate
+  id: SipCallUpdate
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: SipCallUpdate
+  nameWithType: AnalyticsEventType.SipCallUpdate
+  fullName: LiveKit.Proto.AnalyticsEventType.SipCallUpdate
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SipCallUpdate
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 243
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("SIP_CALL_UPDATE")]
+
+      SipCallUpdate = 46
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("SIP_CALL_UPDATE")>
+
+      SipCallUpdate = 46
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SIP_CALL_UPDATE
+- uid: LiveKit.Proto.AnalyticsEventType.Report
+  commentId: F:LiveKit.Proto.AnalyticsEventType.Report
+  id: Report
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: AnalyticsEventType.Report
+  fullName: LiveKit.Proto.AnalyticsEventType.Report
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Report
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 244
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("REPORT")]
+
+      Report = 40
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("REPORT")>
+
+      Report = 40
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: REPORT
+- uid: LiveKit.Proto.AnalyticsEventType.ApiCall
+  commentId: F:LiveKit.Proto.AnalyticsEventType.ApiCall
+  id: ApiCall
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: ApiCall
+  nameWithType: AnalyticsEventType.ApiCall
+  fullName: LiveKit.Proto.AnalyticsEventType.ApiCall
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ApiCall
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 245
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("API_CALL")]
+
+      ApiCall = 41
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("API_CALL")>
+
+      ApiCall = 41
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: API_CALL
+- uid: LiveKit.Proto.AnalyticsEventType.Webhook
+  commentId: F:LiveKit.Proto.AnalyticsEventType.Webhook
+  id: Webhook
+  parent: LiveKit.Proto.AnalyticsEventType
+  langs:
+  - csharp
+  - vb
+  name: Webhook
+  nameWithType: AnalyticsEventType.Webhook
+  fullName: LiveKit.Proto.AnalyticsEventType.Webhook
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Webhook
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitAnalytics.cs
+    startLine: 246
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [OriginalName("WEBHOOK")]
+
+      Webhook = 42
+    return:
+      type: LiveKit.Proto.AnalyticsEventType
+    content.vb: >-
+      <OriginalName("WEBHOOK")>
+
+      Webhook = 42
+  attributes:
+  - type: Google.Protobuf.Reflection.OriginalNameAttribute
+    ctor: Google.Protobuf.Reflection.OriginalNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: WEBHOOK
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: LiveKit.Proto.AnalyticsEventType
+  commentId: T:LiveKit.Proto.AnalyticsEventType
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.AnalyticsEventType.html
+  name: AnalyticsEventType
+  nameWithType: AnalyticsEventType
+  fullName: LiveKit.Proto.AnalyticsEventType

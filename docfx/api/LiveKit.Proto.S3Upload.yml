@@ -1,0 +1,2320 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.S3Upload
+  commentId: T:LiveKit.Proto.S3Upload
+  id: S3Upload
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.S3Upload.#ctor
+  - LiveKit.Proto.S3Upload.#ctor(LiveKit.Proto.S3Upload)
+  - LiveKit.Proto.S3Upload.AccessKey
+  - LiveKit.Proto.S3Upload.AccessKeyFieldNumber
+  - LiveKit.Proto.S3Upload.AssumeRoleArn
+  - LiveKit.Proto.S3Upload.AssumeRoleArnFieldNumber
+  - LiveKit.Proto.S3Upload.AssumeRoleExternalId
+  - LiveKit.Proto.S3Upload.AssumeRoleExternalIdFieldNumber
+  - LiveKit.Proto.S3Upload.Bucket
+  - LiveKit.Proto.S3Upload.BucketFieldNumber
+  - LiveKit.Proto.S3Upload.CalculateSize
+  - LiveKit.Proto.S3Upload.Clone
+  - LiveKit.Proto.S3Upload.ContentDisposition
+  - LiveKit.Proto.S3Upload.ContentDispositionFieldNumber
+  - LiveKit.Proto.S3Upload.Descriptor
+  - LiveKit.Proto.S3Upload.Endpoint
+  - LiveKit.Proto.S3Upload.EndpointFieldNumber
+  - LiveKit.Proto.S3Upload.Equals(LiveKit.Proto.S3Upload)
+  - LiveKit.Proto.S3Upload.Equals(System.Object)
+  - LiveKit.Proto.S3Upload.ForcePathStyle
+  - LiveKit.Proto.S3Upload.ForcePathStyleFieldNumber
+  - LiveKit.Proto.S3Upload.GetHashCode
+  - LiveKit.Proto.S3Upload.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.S3Upload.MergeFrom(LiveKit.Proto.S3Upload)
+  - LiveKit.Proto.S3Upload.Metadata
+  - LiveKit.Proto.S3Upload.MetadataFieldNumber
+  - LiveKit.Proto.S3Upload.Parser
+  - LiveKit.Proto.S3Upload.Proxy
+  - LiveKit.Proto.S3Upload.ProxyFieldNumber
+  - LiveKit.Proto.S3Upload.Region
+  - LiveKit.Proto.S3Upload.RegionFieldNumber
+  - LiveKit.Proto.S3Upload.Secret
+  - LiveKit.Proto.S3Upload.SecretFieldNumber
+  - LiveKit.Proto.S3Upload.SessionToken
+  - LiveKit.Proto.S3Upload.SessionTokenFieldNumber
+  - LiveKit.Proto.S3Upload.Tagging
+  - LiveKit.Proto.S3Upload.TaggingFieldNumber
+  - LiveKit.Proto.S3Upload.ToString
+  - LiveKit.Proto.S3Upload.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: S3Upload
+  nameWithType: S3Upload
+  fullName: LiveKit.Proto.S3Upload
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: S3Upload
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6086
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class S3Upload : IMessage<S3Upload>, IEquatable<S3Upload>, IDeepCloneable<S3Upload>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class S3Upload Implements IMessage(Of S3Upload), IEquatable(Of S3Upload), IDeepCloneable(Of S3Upload), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}
+  - System.IEquatable{LiveKit.Proto.S3Upload}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.S3Upload.Parser
+  commentId: P:LiveKit.Proto.S3Upload.Parser
+  id: Parser
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: S3Upload.Parser
+  fullName: LiveKit.Proto.S3Upload.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6094
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<S3Upload> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.S3Upload}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of S3Upload)
+  overload: LiveKit.Proto.S3Upload.Parser*
+- uid: LiveKit.Proto.S3Upload.Descriptor
+  commentId: P:LiveKit.Proto.S3Upload.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: S3Upload.Descriptor
+  fullName: LiveKit.Proto.S3Upload.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6098
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.S3Upload.Descriptor*
+- uid: LiveKit.Proto.S3Upload.#ctor
+  commentId: M:LiveKit.Proto.S3Upload.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: S3Upload()
+  nameWithType: S3Upload.S3Upload()
+  fullName: LiveKit.Proto.S3Upload.S3Upload()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6110
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public S3Upload()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.S3Upload.#ctor*
+  nameWithType.vb: S3Upload.New()
+  fullName.vb: LiveKit.Proto.S3Upload.New()
+  name.vb: New()
+- uid: LiveKit.Proto.S3Upload.#ctor(LiveKit.Proto.S3Upload)
+  commentId: M:LiveKit.Proto.S3Upload.#ctor(LiveKit.Proto.S3Upload)
+  id: '#ctor(LiveKit.Proto.S3Upload)'
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: S3Upload(S3Upload)
+  nameWithType: S3Upload.S3Upload(S3Upload)
+  fullName: LiveKit.Proto.S3Upload.S3Upload(LiveKit.Proto.S3Upload)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6118
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public S3Upload(S3Upload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.S3Upload
+    content.vb: Public Sub New(other As S3Upload)
+  overload: LiveKit.Proto.S3Upload.#ctor*
+  nameWithType.vb: S3Upload.New(S3Upload)
+  fullName.vb: LiveKit.Proto.S3Upload.New(LiveKit.Proto.S3Upload)
+  name.vb: New(S3Upload)
+- uid: LiveKit.Proto.S3Upload.Clone
+  commentId: M:LiveKit.Proto.S3Upload.Clone
+  id: Clone
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: S3Upload.Clone()
+  fullName: LiveKit.Proto.S3Upload.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6137
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public S3Upload Clone()
+    return:
+      type: LiveKit.Proto.S3Upload
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As S3Upload
+  overload: LiveKit.Proto.S3Upload.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}.Clone
+- uid: LiveKit.Proto.S3Upload.AccessKeyFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.AccessKeyFieldNumber
+  id: AccessKeyFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: AccessKeyFieldNumber
+  nameWithType: S3Upload.AccessKeyFieldNumber
+  fullName: LiveKit.Proto.S3Upload.AccessKeyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AccessKeyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6144
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "access_key" field.
+  example: []
+  syntax:
+    content: public const int AccessKeyFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const AccessKeyFieldNumber As Integer = 1
+- uid: LiveKit.Proto.S3Upload.AccessKey
+  commentId: P:LiveKit.Proto.S3Upload.AccessKey
+  id: AccessKey
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: AccessKey
+  nameWithType: S3Upload.AccessKey
+  fullName: LiveKit.Proto.S3Upload.AccessKey
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AccessKey
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6146
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string AccessKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AccessKey As String
+  overload: LiveKit.Proto.S3Upload.AccessKey*
+- uid: LiveKit.Proto.S3Upload.SecretFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.SecretFieldNumber
+  id: SecretFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: SecretFieldNumber
+  nameWithType: S3Upload.SecretFieldNumber
+  fullName: LiveKit.Proto.S3Upload.SecretFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SecretFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6156
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "secret" field.
+  example: []
+  syntax:
+    content: public const int SecretFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const SecretFieldNumber As Integer = 2
+- uid: LiveKit.Proto.S3Upload.Secret
+  commentId: P:LiveKit.Proto.S3Upload.Secret
+  id: Secret
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Secret
+  nameWithType: S3Upload.Secret
+  fullName: LiveKit.Proto.S3Upload.Secret
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Secret
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6158
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Secret { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Secret As String
+  overload: LiveKit.Proto.S3Upload.Secret*
+- uid: LiveKit.Proto.S3Upload.SessionTokenFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.SessionTokenFieldNumber
+  id: SessionTokenFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: SessionTokenFieldNumber
+  nameWithType: S3Upload.SessionTokenFieldNumber
+  fullName: LiveKit.Proto.S3Upload.SessionTokenFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SessionTokenFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6168
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "session_token" field.
+  example: []
+  syntax:
+    content: public const int SessionTokenFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const SessionTokenFieldNumber As Integer = 11
+- uid: LiveKit.Proto.S3Upload.SessionToken
+  commentId: P:LiveKit.Proto.S3Upload.SessionToken
+  id: SessionToken
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: SessionToken
+  nameWithType: S3Upload.SessionToken
+  fullName: LiveKit.Proto.S3Upload.SessionToken
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SessionToken
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6170
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string SessionToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SessionToken As String
+  overload: LiveKit.Proto.S3Upload.SessionToken*
+- uid: LiveKit.Proto.S3Upload.AssumeRoleArnFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.AssumeRoleArnFieldNumber
+  id: AssumeRoleArnFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: AssumeRoleArnFieldNumber
+  nameWithType: S3Upload.AssumeRoleArnFieldNumber
+  fullName: LiveKit.Proto.S3Upload.AssumeRoleArnFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AssumeRoleArnFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6180
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "assume_role_arn" field.
+  example: []
+  syntax:
+    content: public const int AssumeRoleArnFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const AssumeRoleArnFieldNumber As Integer = 12
+- uid: LiveKit.Proto.S3Upload.AssumeRoleArn
+  commentId: P:LiveKit.Proto.S3Upload.AssumeRoleArn
+  id: AssumeRoleArn
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: AssumeRoleArn
+  nameWithType: S3Upload.AssumeRoleArn
+  fullName: LiveKit.Proto.S3Upload.AssumeRoleArn
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AssumeRoleArn
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6185
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: ARN of the role to assume for file upload. Egress will make an AssumeRole API call using the provided access_key and secret to assume that role. On LiveKit cloud, this is only available on accounts that have the feature enabled
+  example: []
+  syntax:
+    content: public string AssumeRoleArn { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AssumeRoleArn As String
+  overload: LiveKit.Proto.S3Upload.AssumeRoleArn*
+- uid: LiveKit.Proto.S3Upload.AssumeRoleExternalIdFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.AssumeRoleExternalIdFieldNumber
+  id: AssumeRoleExternalIdFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: AssumeRoleExternalIdFieldNumber
+  nameWithType: S3Upload.AssumeRoleExternalIdFieldNumber
+  fullName: LiveKit.Proto.S3Upload.AssumeRoleExternalIdFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AssumeRoleExternalIdFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6195
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "assume_role_external_id" field.
+  example: []
+  syntax:
+    content: public const int AssumeRoleExternalIdFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const AssumeRoleExternalIdFieldNumber As Integer = 13
+- uid: LiveKit.Proto.S3Upload.AssumeRoleExternalId
+  commentId: P:LiveKit.Proto.S3Upload.AssumeRoleExternalId
+  id: AssumeRoleExternalId
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: AssumeRoleExternalId
+  nameWithType: S3Upload.AssumeRoleExternalId
+  fullName: LiveKit.Proto.S3Upload.AssumeRoleExternalId
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AssumeRoleExternalId
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6200
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: ExternalID to use when assuming role for upload
+  example: []
+  syntax:
+    content: public string AssumeRoleExternalId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AssumeRoleExternalId As String
+  overload: LiveKit.Proto.S3Upload.AssumeRoleExternalId*
+- uid: LiveKit.Proto.S3Upload.RegionFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.RegionFieldNumber
+  id: RegionFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: RegionFieldNumber
+  nameWithType: S3Upload.RegionFieldNumber
+  fullName: LiveKit.Proto.S3Upload.RegionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: RegionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6210
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "region" field.
+  example: []
+  syntax:
+    content: public const int RegionFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const RegionFieldNumber As Integer = 3
+- uid: LiveKit.Proto.S3Upload.Region
+  commentId: P:LiveKit.Proto.S3Upload.Region
+  id: Region
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Region
+  nameWithType: S3Upload.Region
+  fullName: LiveKit.Proto.S3Upload.Region
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Region
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6212
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Region { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Region As String
+  overload: LiveKit.Proto.S3Upload.Region*
+- uid: LiveKit.Proto.S3Upload.EndpointFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.EndpointFieldNumber
+  id: EndpointFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: EndpointFieldNumber
+  nameWithType: S3Upload.EndpointFieldNumber
+  fullName: LiveKit.Proto.S3Upload.EndpointFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: EndpointFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6222
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "endpoint" field.
+  example: []
+  syntax:
+    content: public const int EndpointFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const EndpointFieldNumber As Integer = 4
+- uid: LiveKit.Proto.S3Upload.Endpoint
+  commentId: P:LiveKit.Proto.S3Upload.Endpoint
+  id: Endpoint
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Endpoint
+  nameWithType: S3Upload.Endpoint
+  fullName: LiveKit.Proto.S3Upload.Endpoint
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Endpoint
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6224
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Endpoint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Endpoint As String
+  overload: LiveKit.Proto.S3Upload.Endpoint*
+- uid: LiveKit.Proto.S3Upload.BucketFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.BucketFieldNumber
+  id: BucketFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: BucketFieldNumber
+  nameWithType: S3Upload.BucketFieldNumber
+  fullName: LiveKit.Proto.S3Upload.BucketFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: BucketFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6234
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "bucket" field.
+  example: []
+  syntax:
+    content: public const int BucketFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const BucketFieldNumber As Integer = 5
+- uid: LiveKit.Proto.S3Upload.Bucket
+  commentId: P:LiveKit.Proto.S3Upload.Bucket
+  id: Bucket
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Bucket
+  nameWithType: S3Upload.Bucket
+  fullName: LiveKit.Proto.S3Upload.Bucket
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Bucket
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6236
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Bucket { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Bucket As String
+  overload: LiveKit.Proto.S3Upload.Bucket*
+- uid: LiveKit.Proto.S3Upload.ForcePathStyleFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.ForcePathStyleFieldNumber
+  id: ForcePathStyleFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: ForcePathStyleFieldNumber
+  nameWithType: S3Upload.ForcePathStyleFieldNumber
+  fullName: LiveKit.Proto.S3Upload.ForcePathStyleFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ForcePathStyleFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6246
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "force_path_style" field.
+  example: []
+  syntax:
+    content: public const int ForcePathStyleFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const ForcePathStyleFieldNumber As Integer = 6
+- uid: LiveKit.Proto.S3Upload.ForcePathStyle
+  commentId: P:LiveKit.Proto.S3Upload.ForcePathStyle
+  id: ForcePathStyle
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: ForcePathStyle
+  nameWithType: S3Upload.ForcePathStyle
+  fullName: LiveKit.Proto.S3Upload.ForcePathStyle
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ForcePathStyle
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6248
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool ForcePathStyle { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ForcePathStyle As Boolean
+  overload: LiveKit.Proto.S3Upload.ForcePathStyle*
+- uid: LiveKit.Proto.S3Upload.MetadataFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.MetadataFieldNumber
+  id: MetadataFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: MetadataFieldNumber
+  nameWithType: S3Upload.MetadataFieldNumber
+  fullName: LiveKit.Proto.S3Upload.MetadataFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MetadataFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6258
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "metadata" field.
+  example: []
+  syntax:
+    content: public const int MetadataFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const MetadataFieldNumber As Integer = 7
+- uid: LiveKit.Proto.S3Upload.Metadata
+  commentId: P:LiveKit.Proto.S3Upload.Metadata
+  id: Metadata
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Metadata
+  nameWithType: S3Upload.Metadata
+  fullName: LiveKit.Proto.S3Upload.Metadata
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Metadata
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6262
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public MapField<string, string> Metadata { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.MapField{System.String,System.String}
+    content.vb: Public ReadOnly Property Metadata As MapField(Of String, String)
+  overload: LiveKit.Proto.S3Upload.Metadata*
+- uid: LiveKit.Proto.S3Upload.TaggingFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.TaggingFieldNumber
+  id: TaggingFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: TaggingFieldNumber
+  nameWithType: S3Upload.TaggingFieldNumber
+  fullName: LiveKit.Proto.S3Upload.TaggingFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TaggingFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6269
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "tagging" field.
+  example: []
+  syntax:
+    content: public const int TaggingFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const TaggingFieldNumber As Integer = 8
+- uid: LiveKit.Proto.S3Upload.Tagging
+  commentId: P:LiveKit.Proto.S3Upload.Tagging
+  id: Tagging
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Tagging
+  nameWithType: S3Upload.Tagging
+  fullName: LiveKit.Proto.S3Upload.Tagging
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Tagging
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6271
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Tagging { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tagging As String
+  overload: LiveKit.Proto.S3Upload.Tagging*
+- uid: LiveKit.Proto.S3Upload.ContentDispositionFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.ContentDispositionFieldNumber
+  id: ContentDispositionFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: ContentDispositionFieldNumber
+  nameWithType: S3Upload.ContentDispositionFieldNumber
+  fullName: LiveKit.Proto.S3Upload.ContentDispositionFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ContentDispositionFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6281
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "content_disposition" field.
+  example: []
+  syntax:
+    content: public const int ContentDispositionFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const ContentDispositionFieldNumber As Integer = 9
+- uid: LiveKit.Proto.S3Upload.ContentDisposition
+  commentId: P:LiveKit.Proto.S3Upload.ContentDisposition
+  id: ContentDisposition
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: ContentDisposition
+  nameWithType: S3Upload.ContentDisposition
+  fullName: LiveKit.Proto.S3Upload.ContentDisposition
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ContentDisposition
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6286
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Content-Disposition header
+  example: []
+  syntax:
+    content: public string ContentDisposition { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ContentDisposition As String
+  overload: LiveKit.Proto.S3Upload.ContentDisposition*
+- uid: LiveKit.Proto.S3Upload.ProxyFieldNumber
+  commentId: F:LiveKit.Proto.S3Upload.ProxyFieldNumber
+  id: ProxyFieldNumber
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: ProxyFieldNumber
+  nameWithType: S3Upload.ProxyFieldNumber
+  fullName: LiveKit.Proto.S3Upload.ProxyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ProxyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6296
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "proxy" field.
+  example: []
+  syntax:
+    content: public const int ProxyFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const ProxyFieldNumber As Integer = 10
+- uid: LiveKit.Proto.S3Upload.Proxy
+  commentId: P:LiveKit.Proto.S3Upload.Proxy
+  id: Proxy
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Proxy
+  nameWithType: S3Upload.Proxy
+  fullName: LiveKit.Proto.S3Upload.Proxy
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Proxy
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6298
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public ProxyConfig Proxy { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.ProxyConfig
+    content.vb: Public Property Proxy As ProxyConfig
+  overload: LiveKit.Proto.S3Upload.Proxy*
+- uid: LiveKit.Proto.S3Upload.Equals(System.Object)
+  commentId: M:LiveKit.Proto.S3Upload.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: S3Upload.Equals(object)
+  fullName: LiveKit.Proto.S3Upload.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6307
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.S3Upload.Equals*
+  nameWithType.vb: S3Upload.Equals(Object)
+  fullName.vb: LiveKit.Proto.S3Upload.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.S3Upload.Equals(LiveKit.Proto.S3Upload)
+  commentId: M:LiveKit.Proto.S3Upload.Equals(LiveKit.Proto.S3Upload)
+  id: Equals(LiveKit.Proto.S3Upload)
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: Equals(S3Upload)
+  nameWithType: S3Upload.Equals(S3Upload)
+  fullName: LiveKit.Proto.S3Upload.Equals(LiveKit.Proto.S3Upload)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6313
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(S3Upload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.S3Upload
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As S3Upload) As Boolean
+  overload: LiveKit.Proto.S3Upload.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.S3Upload}.Equals(LiveKit.Proto.S3Upload)
+- uid: LiveKit.Proto.S3Upload.GetHashCode
+  commentId: M:LiveKit.Proto.S3Upload.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: S3Upload.GetHashCode()
+  fullName: LiveKit.Proto.S3Upload.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6338
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.S3Upload.GetHashCode*
+- uid: LiveKit.Proto.S3Upload.ToString
+  commentId: M:LiveKit.Proto.S3Upload.ToString
+  id: ToString
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: S3Upload.ToString()
+  fullName: LiveKit.Proto.S3Upload.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6361
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.S3Upload.ToString*
+- uid: LiveKit.Proto.S3Upload.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.S3Upload.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: S3Upload.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.S3Upload.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6367
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.S3Upload.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.S3Upload.CalculateSize
+  commentId: M:LiveKit.Proto.S3Upload.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: S3Upload.CalculateSize()
+  fullName: LiveKit.Proto.S3Upload.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6487
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.S3Upload.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.S3Upload.MergeFrom(LiveKit.Proto.S3Upload)
+  commentId: M:LiveKit.Proto.S3Upload.MergeFrom(LiveKit.Proto.S3Upload)
+  id: MergeFrom(LiveKit.Proto.S3Upload)
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(S3Upload)
+  nameWithType: S3Upload.MergeFrom(S3Upload)
+  fullName: LiveKit.Proto.S3Upload.MergeFrom(LiveKit.Proto.S3Upload)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6534
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(S3Upload other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.S3Upload
+    content.vb: Public Sub MergeFrom(other As S3Upload)
+  overload: LiveKit.Proto.S3Upload.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}.MergeFrom(LiveKit.Proto.S3Upload)
+- uid: LiveKit.Proto.S3Upload.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.S3Upload.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.S3Upload
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: S3Upload.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.S3Upload.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 6583
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.S3Upload.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.S3Upload.html
+  name: IMessage<S3Upload>
+  nameWithType: IMessage<S3Upload>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.S3Upload>
+  nameWithType.vb: IMessage(Of S3Upload)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.S3Upload)
+  name.vb: IMessage(Of S3Upload)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.S3Upload}
+  commentId: T:System.IEquatable{LiveKit.Proto.S3Upload}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<S3Upload>
+  nameWithType: IEquatable<S3Upload>
+  fullName: System.IEquatable<LiveKit.Proto.S3Upload>
+  nameWithType.vb: IEquatable(Of S3Upload)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.S3Upload)
+  name.vb: IEquatable(Of S3Upload)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.S3Upload.html
+  name: IDeepCloneable<S3Upload>
+  nameWithType: IDeepCloneable<S3Upload>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.S3Upload>
+  nameWithType.vb: IDeepCloneable(Of S3Upload)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.S3Upload)
+  name.vb: IDeepCloneable(Of S3Upload)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.S3Upload.Parser*
+  commentId: Overload:LiveKit.Proto.S3Upload.Parser
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Parser
+  name: Parser
+  nameWithType: S3Upload.Parser
+  fullName: LiveKit.Proto.S3Upload.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.S3Upload}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.S3Upload}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.S3Upload.html
+  name: MessageParser<S3Upload>
+  nameWithType: MessageParser<S3Upload>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.S3Upload>
+  nameWithType.vb: MessageParser(Of S3Upload)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.S3Upload)
+  name.vb: MessageParser(Of S3Upload)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.S3Upload.Descriptor*
+  commentId: Overload:LiveKit.Proto.S3Upload.Descriptor
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Descriptor
+  name: Descriptor
+  nameWithType: S3Upload.Descriptor
+  fullName: LiveKit.Proto.S3Upload.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.S3Upload.#ctor*
+  commentId: Overload:LiveKit.Proto.S3Upload.#ctor
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload__ctor
+  name: S3Upload
+  nameWithType: S3Upload.S3Upload
+  fullName: LiveKit.Proto.S3Upload.S3Upload
+  nameWithType.vb: S3Upload.New
+  fullName.vb: LiveKit.Proto.S3Upload.New
+  name.vb: New
+- uid: LiveKit.Proto.S3Upload
+  commentId: T:LiveKit.Proto.S3Upload
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.S3Upload.html
+  name: S3Upload
+  nameWithType: S3Upload
+  fullName: LiveKit.Proto.S3Upload
+- uid: LiveKit.Proto.S3Upload.Clone*
+  commentId: Overload:LiveKit.Proto.S3Upload.Clone
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Clone
+  name: Clone
+  nameWithType: S3Upload.Clone
+  fullName: LiveKit.Proto.S3Upload.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<S3Upload>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.S3Upload>.Clone()
+  nameWithType.vb: IDeepCloneable(Of S3Upload).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.S3Upload).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.S3Upload}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.S3Upload.AccessKey*
+  commentId: Overload:LiveKit.Proto.S3Upload.AccessKey
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_AccessKey
+  name: AccessKey
+  nameWithType: S3Upload.AccessKey
+  fullName: LiveKit.Proto.S3Upload.AccessKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.S3Upload.Secret*
+  commentId: Overload:LiveKit.Proto.S3Upload.Secret
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Secret
+  name: Secret
+  nameWithType: S3Upload.Secret
+  fullName: LiveKit.Proto.S3Upload.Secret
+- uid: LiveKit.Proto.S3Upload.SessionToken*
+  commentId: Overload:LiveKit.Proto.S3Upload.SessionToken
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_SessionToken
+  name: SessionToken
+  nameWithType: S3Upload.SessionToken
+  fullName: LiveKit.Proto.S3Upload.SessionToken
+- uid: LiveKit.Proto.S3Upload.AssumeRoleArn*
+  commentId: Overload:LiveKit.Proto.S3Upload.AssumeRoleArn
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_AssumeRoleArn
+  name: AssumeRoleArn
+  nameWithType: S3Upload.AssumeRoleArn
+  fullName: LiveKit.Proto.S3Upload.AssumeRoleArn
+- uid: LiveKit.Proto.S3Upload.AssumeRoleExternalId*
+  commentId: Overload:LiveKit.Proto.S3Upload.AssumeRoleExternalId
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_AssumeRoleExternalId
+  name: AssumeRoleExternalId
+  nameWithType: S3Upload.AssumeRoleExternalId
+  fullName: LiveKit.Proto.S3Upload.AssumeRoleExternalId
+- uid: LiveKit.Proto.S3Upload.Region*
+  commentId: Overload:LiveKit.Proto.S3Upload.Region
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Region
+  name: Region
+  nameWithType: S3Upload.Region
+  fullName: LiveKit.Proto.S3Upload.Region
+- uid: LiveKit.Proto.S3Upload.Endpoint*
+  commentId: Overload:LiveKit.Proto.S3Upload.Endpoint
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Endpoint
+  name: Endpoint
+  nameWithType: S3Upload.Endpoint
+  fullName: LiveKit.Proto.S3Upload.Endpoint
+- uid: LiveKit.Proto.S3Upload.Bucket*
+  commentId: Overload:LiveKit.Proto.S3Upload.Bucket
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Bucket
+  name: Bucket
+  nameWithType: S3Upload.Bucket
+  fullName: LiveKit.Proto.S3Upload.Bucket
+- uid: LiveKit.Proto.S3Upload.ForcePathStyle*
+  commentId: Overload:LiveKit.Proto.S3Upload.ForcePathStyle
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_ForcePathStyle
+  name: ForcePathStyle
+  nameWithType: S3Upload.ForcePathStyle
+  fullName: LiveKit.Proto.S3Upload.ForcePathStyle
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.S3Upload.Metadata*
+  commentId: Overload:LiveKit.Proto.S3Upload.Metadata
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Metadata
+  name: Metadata
+  nameWithType: S3Upload.Metadata
+  fullName: LiveKit.Proto.S3Upload.Metadata
+- uid: Google.Protobuf.Collections.MapField{System.String,System.String}
+  commentId: T:Google.Protobuf.Collections.MapField{System.String,System.String}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.MapField`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: MapField<string, string>
+  nameWithType: MapField<string, string>
+  fullName: Google.Protobuf.Collections.MapField<string, string>
+  nameWithType.vb: MapField(Of String, String)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of String, String)
+  name.vb: MapField(Of String, String)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Google.Protobuf.Collections.MapField`2
+  commentId: T:Google.Protobuf.Collections.MapField`2
+  isExternal: true
+  name: MapField<TKey, TValue>
+  nameWithType: MapField<TKey, TValue>
+  fullName: Google.Protobuf.Collections.MapField<TKey, TValue>
+  nameWithType.vb: MapField(Of TKey, TValue)
+  fullName.vb: Google.Protobuf.Collections.MapField(Of TKey, TValue)
+  name.vb: MapField(Of TKey, TValue)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.MapField`2
+    name: MapField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.S3Upload.Tagging*
+  commentId: Overload:LiveKit.Proto.S3Upload.Tagging
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Tagging
+  name: Tagging
+  nameWithType: S3Upload.Tagging
+  fullName: LiveKit.Proto.S3Upload.Tagging
+- uid: LiveKit.Proto.S3Upload.ContentDisposition*
+  commentId: Overload:LiveKit.Proto.S3Upload.ContentDisposition
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_ContentDisposition
+  name: ContentDisposition
+  nameWithType: S3Upload.ContentDisposition
+  fullName: LiveKit.Proto.S3Upload.ContentDisposition
+- uid: LiveKit.Proto.S3Upload.Proxy*
+  commentId: Overload:LiveKit.Proto.S3Upload.Proxy
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Proxy
+  name: Proxy
+  nameWithType: S3Upload.Proxy
+  fullName: LiveKit.Proto.S3Upload.Proxy
+- uid: LiveKit.Proto.ProxyConfig
+  commentId: T:LiveKit.Proto.ProxyConfig
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.ProxyConfig.html
+  name: ProxyConfig
+  nameWithType: ProxyConfig
+  fullName: LiveKit.Proto.ProxyConfig
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.S3Upload.Equals*
+  commentId: Overload:LiveKit.Proto.S3Upload.Equals
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_Equals_System_Object_
+  name: Equals
+  nameWithType: S3Upload.Equals
+  fullName: LiveKit.Proto.S3Upload.Equals
+- uid: System.IEquatable{LiveKit.Proto.S3Upload}.Equals(LiveKit.Proto.S3Upload)
+  commentId: M:System.IEquatable{LiveKit.Proto.S3Upload}.Equals(LiveKit.Proto.S3Upload)
+  parent: System.IEquatable{LiveKit.Proto.S3Upload}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(S3Upload)
+  nameWithType: IEquatable<S3Upload>.Equals(S3Upload)
+  fullName: System.IEquatable<LiveKit.Proto.S3Upload>.Equals(LiveKit.Proto.S3Upload)
+  nameWithType.vb: IEquatable(Of S3Upload).Equals(S3Upload)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.S3Upload).Equals(LiveKit.Proto.S3Upload)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.S3Upload}.Equals(LiveKit.Proto.S3Upload)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.S3Upload}.Equals(LiveKit.Proto.S3Upload)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.S3Upload.GetHashCode*
+  commentId: Overload:LiveKit.Proto.S3Upload.GetHashCode
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_GetHashCode
+  name: GetHashCode
+  nameWithType: S3Upload.GetHashCode
+  fullName: LiveKit.Proto.S3Upload.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.S3Upload.ToString*
+  commentId: Overload:LiveKit.Proto.S3Upload.ToString
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_ToString
+  name: ToString
+  nameWithType: S3Upload.ToString
+  fullName: LiveKit.Proto.S3Upload.ToString
+- uid: LiveKit.Proto.S3Upload.WriteTo*
+  commentId: Overload:LiveKit.Proto.S3Upload.WriteTo
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: S3Upload.WriteTo
+  fullName: LiveKit.Proto.S3Upload.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.S3Upload.CalculateSize*
+  commentId: Overload:LiveKit.Proto.S3Upload.CalculateSize
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_CalculateSize
+  name: CalculateSize
+  nameWithType: S3Upload.CalculateSize
+  fullName: LiveKit.Proto.S3Upload.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.S3Upload.MergeFrom*
+  commentId: Overload:LiveKit.Proto.S3Upload.MergeFrom
+  href: LiveKit.Proto.S3Upload.html#LiveKit_Proto_S3Upload_MergeFrom_LiveKit_Proto_S3Upload_
+  name: MergeFrom
+  nameWithType: S3Upload.MergeFrom
+  fullName: LiveKit.Proto.S3Upload.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}.MergeFrom(LiveKit.Proto.S3Upload)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}.MergeFrom(LiveKit.Proto.S3Upload)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.S3Upload.html
+  name: MergeFrom(S3Upload)
+  nameWithType: IMessage<S3Upload>.MergeFrom(S3Upload)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.S3Upload>.MergeFrom(LiveKit.Proto.S3Upload)
+  nameWithType.vb: IMessage(Of S3Upload).MergeFrom(S3Upload)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.S3Upload).MergeFrom(LiveKit.Proto.S3Upload)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}.MergeFrom(LiveKit.Proto.S3Upload)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.S3Upload}.MergeFrom(LiveKit.Proto.S3Upload)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.S3Upload
+    name: S3Upload
+    href: LiveKit.Proto.S3Upload.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

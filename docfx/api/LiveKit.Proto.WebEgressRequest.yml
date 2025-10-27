@@ -1,0 +1,2803 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.WebEgressRequest
+  commentId: T:LiveKit.Proto.WebEgressRequest
+  id: WebEgressRequest
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.WebEgressRequest.#ctor
+  - LiveKit.Proto.WebEgressRequest.#ctor(LiveKit.Proto.WebEgressRequest)
+  - LiveKit.Proto.WebEgressRequest.Advanced
+  - LiveKit.Proto.WebEgressRequest.AdvancedFieldNumber
+  - LiveKit.Proto.WebEgressRequest.AudioOnly
+  - LiveKit.Proto.WebEgressRequest.AudioOnlyFieldNumber
+  - LiveKit.Proto.WebEgressRequest.AwaitStartSignal
+  - LiveKit.Proto.WebEgressRequest.AwaitStartSignalFieldNumber
+  - LiveKit.Proto.WebEgressRequest.CalculateSize
+  - LiveKit.Proto.WebEgressRequest.ClearOptions
+  - LiveKit.Proto.WebEgressRequest.ClearOutput
+  - LiveKit.Proto.WebEgressRequest.ClearPreset
+  - LiveKit.Proto.WebEgressRequest.Clone
+  - LiveKit.Proto.WebEgressRequest.Descriptor
+  - LiveKit.Proto.WebEgressRequest.Equals(LiveKit.Proto.WebEgressRequest)
+  - LiveKit.Proto.WebEgressRequest.Equals(System.Object)
+  - LiveKit.Proto.WebEgressRequest.File
+  - LiveKit.Proto.WebEgressRequest.FileFieldNumber
+  - LiveKit.Proto.WebEgressRequest.FileOutputs
+  - LiveKit.Proto.WebEgressRequest.FileOutputsFieldNumber
+  - LiveKit.Proto.WebEgressRequest.GetHashCode
+  - LiveKit.Proto.WebEgressRequest.HasPreset
+  - LiveKit.Proto.WebEgressRequest.ImageOutputs
+  - LiveKit.Proto.WebEgressRequest.ImageOutputsFieldNumber
+  - LiveKit.Proto.WebEgressRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.WebEgressRequest.MergeFrom(LiveKit.Proto.WebEgressRequest)
+  - LiveKit.Proto.WebEgressRequest.OptionsCase
+  - LiveKit.Proto.WebEgressRequest.OutputCase
+  - LiveKit.Proto.WebEgressRequest.Parser
+  - LiveKit.Proto.WebEgressRequest.Preset
+  - LiveKit.Proto.WebEgressRequest.PresetFieldNumber
+  - LiveKit.Proto.WebEgressRequest.SegmentOutputs
+  - LiveKit.Proto.WebEgressRequest.SegmentOutputsFieldNumber
+  - LiveKit.Proto.WebEgressRequest.Segments
+  - LiveKit.Proto.WebEgressRequest.SegmentsFieldNumber
+  - LiveKit.Proto.WebEgressRequest.Stream
+  - LiveKit.Proto.WebEgressRequest.StreamFieldNumber
+  - LiveKit.Proto.WebEgressRequest.StreamOutputs
+  - LiveKit.Proto.WebEgressRequest.StreamOutputsFieldNumber
+  - LiveKit.Proto.WebEgressRequest.ToString
+  - LiveKit.Proto.WebEgressRequest.Url
+  - LiveKit.Proto.WebEgressRequest.UrlFieldNumber
+  - LiveKit.Proto.WebEgressRequest.VideoOnly
+  - LiveKit.Proto.WebEgressRequest.VideoOnlyFieldNumber
+  - LiveKit.Proto.WebEgressRequest.Webhooks
+  - LiveKit.Proto.WebEgressRequest.WebhooksFieldNumber
+  - LiveKit.Proto.WebEgressRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: WebEgressRequest
+  nameWithType: WebEgressRequest
+  fullName: LiveKit.Proto.WebEgressRequest
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WebEgressRequest
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1242
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: record any website
+  example: []
+  syntax:
+    content: 'public sealed class WebEgressRequest : IMessage<WebEgressRequest>, IEquatable<WebEgressRequest>, IDeepCloneable<WebEgressRequest>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class WebEgressRequest Implements IMessage(Of WebEgressRequest), IEquatable(Of WebEgressRequest), IDeepCloneable(Of WebEgressRequest), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}
+  - System.IEquatable{LiveKit.Proto.WebEgressRequest}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.WebEgressRequest.Parser
+  commentId: P:LiveKit.Proto.WebEgressRequest.Parser
+  id: Parser
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: WebEgressRequest.Parser
+  fullName: LiveKit.Proto.WebEgressRequest.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1250
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<WebEgressRequest> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.WebEgressRequest}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of WebEgressRequest)
+  overload: LiveKit.Proto.WebEgressRequest.Parser*
+- uid: LiveKit.Proto.WebEgressRequest.Descriptor
+  commentId: P:LiveKit.Proto.WebEgressRequest.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: WebEgressRequest.Descriptor
+  fullName: LiveKit.Proto.WebEgressRequest.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1254
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.WebEgressRequest.Descriptor*
+- uid: LiveKit.Proto.WebEgressRequest.#ctor
+  commentId: M:LiveKit.Proto.WebEgressRequest.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: WebEgressRequest()
+  nameWithType: WebEgressRequest.WebEgressRequest()
+  fullName: LiveKit.Proto.WebEgressRequest.WebEgressRequest()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1266
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WebEgressRequest()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.WebEgressRequest.#ctor*
+  nameWithType.vb: WebEgressRequest.New()
+  fullName.vb: LiveKit.Proto.WebEgressRequest.New()
+  name.vb: New()
+- uid: LiveKit.Proto.WebEgressRequest.#ctor(LiveKit.Proto.WebEgressRequest)
+  commentId: M:LiveKit.Proto.WebEgressRequest.#ctor(LiveKit.Proto.WebEgressRequest)
+  id: '#ctor(LiveKit.Proto.WebEgressRequest)'
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: WebEgressRequest(WebEgressRequest)
+  nameWithType: WebEgressRequest.WebEgressRequest(WebEgressRequest)
+  fullName: LiveKit.Proto.WebEgressRequest.WebEgressRequest(LiveKit.Proto.WebEgressRequest)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1274
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WebEgressRequest(WebEgressRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WebEgressRequest
+    content.vb: Public Sub New(other As WebEgressRequest)
+  overload: LiveKit.Proto.WebEgressRequest.#ctor*
+  nameWithType.vb: WebEgressRequest.New(WebEgressRequest)
+  fullName.vb: LiveKit.Proto.WebEgressRequest.New(LiveKit.Proto.WebEgressRequest)
+  name.vb: New(WebEgressRequest)
+- uid: LiveKit.Proto.WebEgressRequest.Clone
+  commentId: M:LiveKit.Proto.WebEgressRequest.Clone
+  id: Clone
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: WebEgressRequest.Clone()
+  fullName: LiveKit.Proto.WebEgressRequest.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1310
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public WebEgressRequest Clone()
+    return:
+      type: LiveKit.Proto.WebEgressRequest
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As WebEgressRequest
+  overload: LiveKit.Proto.WebEgressRequest.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}.Clone
+- uid: LiveKit.Proto.WebEgressRequest.UrlFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.UrlFieldNumber
+  id: UrlFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: UrlFieldNumber
+  nameWithType: WebEgressRequest.UrlFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.UrlFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UrlFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1317
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "url" field.
+  example: []
+  syntax:
+    content: public const int UrlFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const UrlFieldNumber As Integer = 1
+- uid: LiveKit.Proto.WebEgressRequest.Url
+  commentId: P:LiveKit.Proto.WebEgressRequest.Url
+  id: Url
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: WebEgressRequest.Url
+  fullName: LiveKit.Proto.WebEgressRequest.Url
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Url
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1319
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: LiveKit.Proto.WebEgressRequest.Url*
+- uid: LiveKit.Proto.WebEgressRequest.AudioOnlyFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.AudioOnlyFieldNumber
+  id: AudioOnlyFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: AudioOnlyFieldNumber
+  nameWithType: WebEgressRequest.AudioOnlyFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.AudioOnlyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioOnlyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1329
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "audio_only" field.
+  example: []
+  syntax:
+    content: public const int AudioOnlyFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AudioOnlyFieldNumber As Integer = 2
+- uid: LiveKit.Proto.WebEgressRequest.AudioOnly
+  commentId: P:LiveKit.Proto.WebEgressRequest.AudioOnly
+  id: AudioOnly
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: AudioOnly
+  nameWithType: WebEgressRequest.AudioOnly
+  fullName: LiveKit.Proto.WebEgressRequest.AudioOnly
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AudioOnly
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1331
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool AudioOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AudioOnly As Boolean
+  overload: LiveKit.Proto.WebEgressRequest.AudioOnly*
+- uid: LiveKit.Proto.WebEgressRequest.VideoOnlyFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.VideoOnlyFieldNumber
+  id: VideoOnlyFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: VideoOnlyFieldNumber
+  nameWithType: WebEgressRequest.VideoOnlyFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.VideoOnlyFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoOnlyFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1341
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "video_only" field.
+  example: []
+  syntax:
+    content: public const int VideoOnlyFieldNumber = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const VideoOnlyFieldNumber As Integer = 3
+- uid: LiveKit.Proto.WebEgressRequest.VideoOnly
+  commentId: P:LiveKit.Proto.WebEgressRequest.VideoOnly
+  id: VideoOnly
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: VideoOnly
+  nameWithType: WebEgressRequest.VideoOnly
+  fullName: LiveKit.Proto.WebEgressRequest.VideoOnly
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: VideoOnly
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1343
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool VideoOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property VideoOnly As Boolean
+  overload: LiveKit.Proto.WebEgressRequest.VideoOnly*
+- uid: LiveKit.Proto.WebEgressRequest.AwaitStartSignalFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.AwaitStartSignalFieldNumber
+  id: AwaitStartSignalFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: AwaitStartSignalFieldNumber
+  nameWithType: WebEgressRequest.AwaitStartSignalFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.AwaitStartSignalFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AwaitStartSignalFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1353
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "await_start_signal" field.
+  example: []
+  syntax:
+    content: public const int AwaitStartSignalFieldNumber = 12
+    return:
+      type: System.Int32
+    content.vb: Public Const AwaitStartSignalFieldNumber As Integer = 12
+- uid: LiveKit.Proto.WebEgressRequest.AwaitStartSignal
+  commentId: P:LiveKit.Proto.WebEgressRequest.AwaitStartSignal
+  id: AwaitStartSignal
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: AwaitStartSignal
+  nameWithType: WebEgressRequest.AwaitStartSignal
+  fullName: LiveKit.Proto.WebEgressRequest.AwaitStartSignal
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AwaitStartSignal
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1355
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public bool AwaitStartSignal { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AwaitStartSignal As Boolean
+  overload: LiveKit.Proto.WebEgressRequest.AwaitStartSignal*
+- uid: LiveKit.Proto.WebEgressRequest.FileFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.FileFieldNumber
+  id: FileFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: FileFieldNumber
+  nameWithType: WebEgressRequest.FileFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.FileFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FileFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1365
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "file" field.
+  example: []
+  syntax:
+    content: public const int FileFieldNumber = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const FileFieldNumber As Integer = 4
+- uid: LiveKit.Proto.WebEgressRequest.File
+  commentId: P:LiveKit.Proto.WebEgressRequest.File
+  id: File
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: WebEgressRequest.File
+  fullName: LiveKit.Proto.WebEgressRequest.File
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: File
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1366
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public EncodedFileOutput File { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.EncodedFileOutput
+    content.vb: >-
+      <Obsolete>
+
+      Public Property File As EncodedFileOutput
+  overload: LiveKit.Proto.WebEgressRequest.File*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.WebEgressRequest.StreamFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.StreamFieldNumber
+  id: StreamFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: StreamFieldNumber
+  nameWithType: WebEgressRequest.StreamFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.StreamFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1378
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "stream" field.
+  example: []
+  syntax:
+    content: public const int StreamFieldNumber = 5
+    return:
+      type: System.Int32
+    content.vb: Public Const StreamFieldNumber As Integer = 5
+- uid: LiveKit.Proto.WebEgressRequest.Stream
+  commentId: P:LiveKit.Proto.WebEgressRequest.Stream
+  id: Stream
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: WebEgressRequest.Stream
+  fullName: LiveKit.Proto.WebEgressRequest.Stream
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Stream
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1379
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public StreamOutput Stream { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.StreamOutput
+    content.vb: >-
+      <Obsolete>
+
+      Public Property Stream As StreamOutput
+  overload: LiveKit.Proto.WebEgressRequest.Stream*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.WebEgressRequest.SegmentsFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.SegmentsFieldNumber
+  id: SegmentsFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: SegmentsFieldNumber
+  nameWithType: WebEgressRequest.SegmentsFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.SegmentsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1391
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "segments" field.
+  example: []
+  syntax:
+    content: public const int SegmentsFieldNumber = 6
+    return:
+      type: System.Int32
+    content.vb: Public Const SegmentsFieldNumber As Integer = 6
+- uid: LiveKit.Proto.WebEgressRequest.Segments
+  commentId: P:LiveKit.Proto.WebEgressRequest.Segments
+  id: Segments
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Segments
+  nameWithType: WebEgressRequest.Segments
+  fullName: LiveKit.Proto.WebEgressRequest.Segments
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Segments
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1392
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: >-
+      [Obsolete]
+
+      public SegmentedFileOutput Segments { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.SegmentedFileOutput
+    content.vb: >-
+      <Obsolete>
+
+      Public Property Segments As SegmentedFileOutput
+  overload: LiveKit.Proto.WebEgressRequest.Segments*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor
+    arguments: []
+- uid: LiveKit.Proto.WebEgressRequest.PresetFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.PresetFieldNumber
+  id: PresetFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: PresetFieldNumber
+  nameWithType: WebEgressRequest.PresetFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.PresetFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: PresetFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1404
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "preset" field.
+  example: []
+  syntax:
+    content: public const int PresetFieldNumber = 7
+    return:
+      type: System.Int32
+    content.vb: Public Const PresetFieldNumber As Integer = 7
+- uid: LiveKit.Proto.WebEgressRequest.Preset
+  commentId: P:LiveKit.Proto.WebEgressRequest.Preset
+  id: Preset
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Preset
+  nameWithType: WebEgressRequest.Preset
+  fullName: LiveKit.Proto.WebEgressRequest.Preset
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Preset
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1405
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EncodingOptionsPreset Preset { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.EncodingOptionsPreset
+    content.vb: Public Property Preset As EncodingOptionsPreset
+  overload: LiveKit.Proto.WebEgressRequest.Preset*
+- uid: LiveKit.Proto.WebEgressRequest.HasPreset
+  commentId: P:LiveKit.Proto.WebEgressRequest.HasPreset
+  id: HasPreset
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: HasPreset
+  nameWithType: WebEgressRequest.HasPreset
+  fullName: LiveKit.Proto.WebEgressRequest.HasPreset
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: HasPreset
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1415
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Gets whether the "preset" field is set
+  example: []
+  syntax:
+    content: public bool HasPreset { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasPreset As Boolean
+  overload: LiveKit.Proto.WebEgressRequest.HasPreset*
+- uid: LiveKit.Proto.WebEgressRequest.ClearPreset
+  commentId: M:LiveKit.Proto.WebEgressRequest.ClearPreset
+  id: ClearPreset
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearPreset()
+  nameWithType: WebEgressRequest.ClearPreset()
+  fullName: LiveKit.Proto.WebEgressRequest.ClearPreset()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearPreset
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1421
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Clears the value of the oneof if it's currently set to "preset"
+  example: []
+  syntax:
+    content: public void ClearPreset()
+    content.vb: Public Sub ClearPreset()
+  overload: LiveKit.Proto.WebEgressRequest.ClearPreset*
+- uid: LiveKit.Proto.WebEgressRequest.AdvancedFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.AdvancedFieldNumber
+  id: AdvancedFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: AdvancedFieldNumber
+  nameWithType: WebEgressRequest.AdvancedFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.AdvancedFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: AdvancedFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1430
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "advanced" field.
+  example: []
+  syntax:
+    content: public const int AdvancedFieldNumber = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const AdvancedFieldNumber As Integer = 8
+- uid: LiveKit.Proto.WebEgressRequest.Advanced
+  commentId: P:LiveKit.Proto.WebEgressRequest.Advanced
+  id: Advanced
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Advanced
+  nameWithType: WebEgressRequest.Advanced
+  fullName: LiveKit.Proto.WebEgressRequest.Advanced
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Advanced
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1431
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public EncodingOptions Advanced { get; set; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.EncodingOptions
+    content.vb: Public Property Advanced As EncodingOptions
+  overload: LiveKit.Proto.WebEgressRequest.Advanced*
+- uid: LiveKit.Proto.WebEgressRequest.FileOutputsFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.FileOutputsFieldNumber
+  id: FileOutputsFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: FileOutputsFieldNumber
+  nameWithType: WebEgressRequest.FileOutputsFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.FileOutputsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FileOutputsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1442
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "file_outputs" field.
+  example: []
+  syntax:
+    content: public const int FileOutputsFieldNumber = 9
+    return:
+      type: System.Int32
+    content.vb: Public Const FileOutputsFieldNumber As Integer = 9
+- uid: LiveKit.Proto.WebEgressRequest.FileOutputs
+  commentId: P:LiveKit.Proto.WebEgressRequest.FileOutputs
+  id: FileOutputs
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: FileOutputs
+  nameWithType: WebEgressRequest.FileOutputs
+  fullName: LiveKit.Proto.WebEgressRequest.FileOutputs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: FileOutputs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1446
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<EncodedFileOutput> FileOutputs { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.EncodedFileOutput}
+    content.vb: Public ReadOnly Property FileOutputs As RepeatedField(Of EncodedFileOutput)
+  overload: LiveKit.Proto.WebEgressRequest.FileOutputs*
+- uid: LiveKit.Proto.WebEgressRequest.StreamOutputsFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.StreamOutputsFieldNumber
+  id: StreamOutputsFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: StreamOutputsFieldNumber
+  nameWithType: WebEgressRequest.StreamOutputsFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.StreamOutputsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamOutputsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1453
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "stream_outputs" field.
+  example: []
+  syntax:
+    content: public const int StreamOutputsFieldNumber = 10
+    return:
+      type: System.Int32
+    content.vb: Public Const StreamOutputsFieldNumber As Integer = 10
+- uid: LiveKit.Proto.WebEgressRequest.StreamOutputs
+  commentId: P:LiveKit.Proto.WebEgressRequest.StreamOutputs
+  id: StreamOutputs
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: StreamOutputs
+  nameWithType: WebEgressRequest.StreamOutputs
+  fullName: LiveKit.Proto.WebEgressRequest.StreamOutputs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: StreamOutputs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1457
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<StreamOutput> StreamOutputs { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.StreamOutput}
+    content.vb: Public ReadOnly Property StreamOutputs As RepeatedField(Of StreamOutput)
+  overload: LiveKit.Proto.WebEgressRequest.StreamOutputs*
+- uid: LiveKit.Proto.WebEgressRequest.SegmentOutputsFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.SegmentOutputsFieldNumber
+  id: SegmentOutputsFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: SegmentOutputsFieldNumber
+  nameWithType: WebEgressRequest.SegmentOutputsFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.SegmentOutputsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentOutputsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1464
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "segment_outputs" field.
+  example: []
+  syntax:
+    content: public const int SegmentOutputsFieldNumber = 11
+    return:
+      type: System.Int32
+    content.vb: Public Const SegmentOutputsFieldNumber As Integer = 11
+- uid: LiveKit.Proto.WebEgressRequest.SegmentOutputs
+  commentId: P:LiveKit.Proto.WebEgressRequest.SegmentOutputs
+  id: SegmentOutputs
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: SegmentOutputs
+  nameWithType: WebEgressRequest.SegmentOutputs
+  fullName: LiveKit.Proto.WebEgressRequest.SegmentOutputs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: SegmentOutputs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1468
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<SegmentedFileOutput> SegmentOutputs { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SegmentedFileOutput}
+    content.vb: Public ReadOnly Property SegmentOutputs As RepeatedField(Of SegmentedFileOutput)
+  overload: LiveKit.Proto.WebEgressRequest.SegmentOutputs*
+- uid: LiveKit.Proto.WebEgressRequest.ImageOutputsFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.ImageOutputsFieldNumber
+  id: ImageOutputsFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: ImageOutputsFieldNumber
+  nameWithType: WebEgressRequest.ImageOutputsFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.ImageOutputsFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ImageOutputsFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1475
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "image_outputs" field.
+  example: []
+  syntax:
+    content: public const int ImageOutputsFieldNumber = 13
+    return:
+      type: System.Int32
+    content.vb: Public Const ImageOutputsFieldNumber As Integer = 13
+- uid: LiveKit.Proto.WebEgressRequest.ImageOutputs
+  commentId: P:LiveKit.Proto.WebEgressRequest.ImageOutputs
+  id: ImageOutputs
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: ImageOutputs
+  nameWithType: WebEgressRequest.ImageOutputs
+  fullName: LiveKit.Proto.WebEgressRequest.ImageOutputs
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ImageOutputs
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1479
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public RepeatedField<ImageOutput> ImageOutputs { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ImageOutput}
+    content.vb: Public ReadOnly Property ImageOutputs As RepeatedField(Of ImageOutput)
+  overload: LiveKit.Proto.WebEgressRequest.ImageOutputs*
+- uid: LiveKit.Proto.WebEgressRequest.WebhooksFieldNumber
+  commentId: F:LiveKit.Proto.WebEgressRequest.WebhooksFieldNumber
+  id: WebhooksFieldNumber
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: WebhooksFieldNumber
+  nameWithType: WebEgressRequest.WebhooksFieldNumber
+  fullName: LiveKit.Proto.WebEgressRequest.WebhooksFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WebhooksFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1486
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "webhooks" field.
+  example: []
+  syntax:
+    content: public const int WebhooksFieldNumber = 14
+    return:
+      type: System.Int32
+    content.vb: Public Const WebhooksFieldNumber As Integer = 14
+- uid: LiveKit.Proto.WebEgressRequest.Webhooks
+  commentId: P:LiveKit.Proto.WebEgressRequest.Webhooks
+  id: Webhooks
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Webhooks
+  nameWithType: WebEgressRequest.Webhooks
+  fullName: LiveKit.Proto.WebEgressRequest.Webhooks
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Webhooks
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1493
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: extra webhooks to call for this request
+  example: []
+  syntax:
+    content: public RepeatedField<WebhookConfig> Webhooks { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.WebhookConfig}
+    content.vb: Public ReadOnly Property Webhooks As RepeatedField(Of WebhookConfig)
+  overload: LiveKit.Proto.WebEgressRequest.Webhooks*
+- uid: LiveKit.Proto.WebEgressRequest.OutputCase
+  commentId: P:LiveKit.Proto.WebEgressRequest.OutputCase
+  id: OutputCase
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: OutputCase
+  nameWithType: WebEgressRequest.OutputCase
+  fullName: LiveKit.Proto.WebEgressRequest.OutputCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: OutputCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1508
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WebEgressRequest.OutputOneofCase OutputCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.WebEgressRequest.OutputOneofCase
+    content.vb: Public ReadOnly Property OutputCase As WebEgressRequest.OutputOneofCase
+  overload: LiveKit.Proto.WebEgressRequest.OutputCase*
+- uid: LiveKit.Proto.WebEgressRequest.ClearOutput
+  commentId: M:LiveKit.Proto.WebEgressRequest.ClearOutput
+  id: ClearOutput
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearOutput()
+  nameWithType: WebEgressRequest.ClearOutput()
+  fullName: LiveKit.Proto.WebEgressRequest.ClearOutput()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearOutput
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1514
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearOutput()
+    content.vb: Public Sub ClearOutput()
+  overload: LiveKit.Proto.WebEgressRequest.ClearOutput*
+- uid: LiveKit.Proto.WebEgressRequest.OptionsCase
+  commentId: P:LiveKit.Proto.WebEgressRequest.OptionsCase
+  id: OptionsCase
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: OptionsCase
+  nameWithType: WebEgressRequest.OptionsCase
+  fullName: LiveKit.Proto.WebEgressRequest.OptionsCase
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: OptionsCase
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1529
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public WebEgressRequest.OptionsOneofCase OptionsCase { get; }
+    parameters: []
+    return:
+      type: LiveKit.Proto.WebEgressRequest.OptionsOneofCase
+    content.vb: Public ReadOnly Property OptionsCase As WebEgressRequest.OptionsOneofCase
+  overload: LiveKit.Proto.WebEgressRequest.OptionsCase*
+- uid: LiveKit.Proto.WebEgressRequest.ClearOptions
+  commentId: M:LiveKit.Proto.WebEgressRequest.ClearOptions
+  id: ClearOptions
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: ClearOptions()
+  nameWithType: WebEgressRequest.ClearOptions()
+  fullName: LiveKit.Proto.WebEgressRequest.ClearOptions()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ClearOptions
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1535
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public void ClearOptions()
+    content.vb: Public Sub ClearOptions()
+  overload: LiveKit.Proto.WebEgressRequest.ClearOptions*
+- uid: LiveKit.Proto.WebEgressRequest.Equals(System.Object)
+  commentId: M:LiveKit.Proto.WebEgressRequest.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: WebEgressRequest.Equals(object)
+  fullName: LiveKit.Proto.WebEgressRequest.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1542
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.WebEgressRequest.Equals*
+  nameWithType.vb: WebEgressRequest.Equals(Object)
+  fullName.vb: LiveKit.Proto.WebEgressRequest.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.WebEgressRequest.Equals(LiveKit.Proto.WebEgressRequest)
+  commentId: M:LiveKit.Proto.WebEgressRequest.Equals(LiveKit.Proto.WebEgressRequest)
+  id: Equals(LiveKit.Proto.WebEgressRequest)
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: Equals(WebEgressRequest)
+  nameWithType: WebEgressRequest.Equals(WebEgressRequest)
+  fullName: LiveKit.Proto.WebEgressRequest.Equals(LiveKit.Proto.WebEgressRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1548
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(WebEgressRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WebEgressRequest
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As WebEgressRequest) As Boolean
+  overload: LiveKit.Proto.WebEgressRequest.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.WebEgressRequest}.Equals(LiveKit.Proto.WebEgressRequest)
+- uid: LiveKit.Proto.WebEgressRequest.GetHashCode
+  commentId: M:LiveKit.Proto.WebEgressRequest.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: WebEgressRequest.GetHashCode()
+  fullName: LiveKit.Proto.WebEgressRequest.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1576
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.WebEgressRequest.GetHashCode*
+- uid: LiveKit.Proto.WebEgressRequest.ToString
+  commentId: M:LiveKit.Proto.WebEgressRequest.ToString
+  id: ToString
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: WebEgressRequest.ToString()
+  fullName: LiveKit.Proto.WebEgressRequest.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1602
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.WebEgressRequest.ToString*
+- uid: LiveKit.Proto.WebEgressRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.WebEgressRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: WebEgressRequest.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.WebEgressRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1608
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.WebEgressRequest.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.WebEgressRequest.CalculateSize
+  commentId: M:LiveKit.Proto.WebEgressRequest.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: WebEgressRequest.CalculateSize()
+  fullName: LiveKit.Proto.WebEgressRequest.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1712
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.WebEgressRequest.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.WebEgressRequest.MergeFrom(LiveKit.Proto.WebEgressRequest)
+  commentId: M:LiveKit.Proto.WebEgressRequest.MergeFrom(LiveKit.Proto.WebEgressRequest)
+  id: MergeFrom(LiveKit.Proto.WebEgressRequest)
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(WebEgressRequest)
+  nameWithType: WebEgressRequest.MergeFrom(WebEgressRequest)
+  fullName: LiveKit.Proto.WebEgressRequest.MergeFrom(LiveKit.Proto.WebEgressRequest)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1754
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(WebEgressRequest other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.WebEgressRequest
+    content.vb: Public Sub MergeFrom(other As WebEgressRequest)
+  overload: LiveKit.Proto.WebEgressRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}.MergeFrom(LiveKit.Proto.WebEgressRequest)
+- uid: LiveKit.Proto.WebEgressRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.WebEgressRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.WebEgressRequest
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: WebEgressRequest.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.WebEgressRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitEgress.cs
+    startLine: 1813
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.WebEgressRequest.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: IMessage<WebEgressRequest>
+  nameWithType: IMessage<WebEgressRequest>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.WebEgressRequest>
+  nameWithType.vb: IMessage(Of WebEgressRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.WebEgressRequest)
+  name.vb: IMessage(Of WebEgressRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.WebEgressRequest}
+  commentId: T:System.IEquatable{LiveKit.Proto.WebEgressRequest}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<WebEgressRequest>
+  nameWithType: IEquatable<WebEgressRequest>
+  fullName: System.IEquatable<LiveKit.Proto.WebEgressRequest>
+  nameWithType.vb: IEquatable(Of WebEgressRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.WebEgressRequest)
+  name.vb: IEquatable(Of WebEgressRequest)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: IDeepCloneable<WebEgressRequest>
+  nameWithType: IDeepCloneable<WebEgressRequest>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.WebEgressRequest>
+  nameWithType.vb: IDeepCloneable(Of WebEgressRequest)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.WebEgressRequest)
+  name.vb: IDeepCloneable(Of WebEgressRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.Parser*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Parser
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Parser
+  name: Parser
+  nameWithType: WebEgressRequest.Parser
+  fullName: LiveKit.Proto.WebEgressRequest.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.WebEgressRequest}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.WebEgressRequest}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: MessageParser<WebEgressRequest>
+  nameWithType: MessageParser<WebEgressRequest>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.WebEgressRequest>
+  nameWithType.vb: MessageParser(Of WebEgressRequest)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.WebEgressRequest)
+  name.vb: MessageParser(Of WebEgressRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.Descriptor*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Descriptor
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Descriptor
+  name: Descriptor
+  nameWithType: WebEgressRequest.Descriptor
+  fullName: LiveKit.Proto.WebEgressRequest.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.WebEgressRequest.#ctor*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.#ctor
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest__ctor
+  name: WebEgressRequest
+  nameWithType: WebEgressRequest.WebEgressRequest
+  fullName: LiveKit.Proto.WebEgressRequest.WebEgressRequest
+  nameWithType.vb: WebEgressRequest.New
+  fullName.vb: LiveKit.Proto.WebEgressRequest.New
+  name.vb: New
+- uid: LiveKit.Proto.WebEgressRequest
+  commentId: T:LiveKit.Proto.WebEgressRequest
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: WebEgressRequest
+  nameWithType: WebEgressRequest
+  fullName: LiveKit.Proto.WebEgressRequest
+- uid: LiveKit.Proto.WebEgressRequest.Clone*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Clone
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Clone
+  name: Clone
+  nameWithType: WebEgressRequest.Clone
+  fullName: LiveKit.Proto.WebEgressRequest.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<WebEgressRequest>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.WebEgressRequest>.Clone()
+  nameWithType.vb: IDeepCloneable(Of WebEgressRequest).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.WebEgressRequest).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.WebEgressRequest}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.WebEgressRequest.Url*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Url
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Url
+  name: Url
+  nameWithType: WebEgressRequest.Url
+  fullName: LiveKit.Proto.WebEgressRequest.Url
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.WebEgressRequest.AudioOnly*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.AudioOnly
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_AudioOnly
+  name: AudioOnly
+  nameWithType: WebEgressRequest.AudioOnly
+  fullName: LiveKit.Proto.WebEgressRequest.AudioOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: LiveKit.Proto.WebEgressRequest.VideoOnly*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.VideoOnly
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_VideoOnly
+  name: VideoOnly
+  nameWithType: WebEgressRequest.VideoOnly
+  fullName: LiveKit.Proto.WebEgressRequest.VideoOnly
+- uid: LiveKit.Proto.WebEgressRequest.AwaitStartSignal*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.AwaitStartSignal
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_AwaitStartSignal
+  name: AwaitStartSignal
+  nameWithType: WebEgressRequest.AwaitStartSignal
+  fullName: LiveKit.Proto.WebEgressRequest.AwaitStartSignal
+- uid: LiveKit.Proto.WebEgressRequest.File*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.File
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_File
+  name: File
+  nameWithType: WebEgressRequest.File
+  fullName: LiveKit.Proto.WebEgressRequest.File
+- uid: LiveKit.Proto.EncodedFileOutput
+  commentId: T:LiveKit.Proto.EncodedFileOutput
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EncodedFileOutput.html
+  name: EncodedFileOutput
+  nameWithType: EncodedFileOutput
+  fullName: LiveKit.Proto.EncodedFileOutput
+- uid: LiveKit.Proto.WebEgressRequest.Stream*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Stream
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Stream
+  name: Stream
+  nameWithType: WebEgressRequest.Stream
+  fullName: LiveKit.Proto.WebEgressRequest.Stream
+- uid: LiveKit.Proto.StreamOutput
+  commentId: T:LiveKit.Proto.StreamOutput
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.StreamOutput.html
+  name: StreamOutput
+  nameWithType: StreamOutput
+  fullName: LiveKit.Proto.StreamOutput
+- uid: LiveKit.Proto.WebEgressRequest.Segments*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Segments
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Segments
+  name: Segments
+  nameWithType: WebEgressRequest.Segments
+  fullName: LiveKit.Proto.WebEgressRequest.Segments
+- uid: LiveKit.Proto.SegmentedFileOutput
+  commentId: T:LiveKit.Proto.SegmentedFileOutput
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.SegmentedFileOutput.html
+  name: SegmentedFileOutput
+  nameWithType: SegmentedFileOutput
+  fullName: LiveKit.Proto.SegmentedFileOutput
+- uid: LiveKit.Proto.WebEgressRequest.Preset*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Preset
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Preset
+  name: Preset
+  nameWithType: WebEgressRequest.Preset
+  fullName: LiveKit.Proto.WebEgressRequest.Preset
+- uid: LiveKit.Proto.EncodingOptionsPreset
+  commentId: T:LiveKit.Proto.EncodingOptionsPreset
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EncodingOptionsPreset.html
+  name: EncodingOptionsPreset
+  nameWithType: EncodingOptionsPreset
+  fullName: LiveKit.Proto.EncodingOptionsPreset
+- uid: LiveKit.Proto.WebEgressRequest.HasPreset*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.HasPreset
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_HasPreset
+  name: HasPreset
+  nameWithType: WebEgressRequest.HasPreset
+  fullName: LiveKit.Proto.WebEgressRequest.HasPreset
+- uid: LiveKit.Proto.WebEgressRequest.ClearPreset*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.ClearPreset
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_ClearPreset
+  name: ClearPreset
+  nameWithType: WebEgressRequest.ClearPreset
+  fullName: LiveKit.Proto.WebEgressRequest.ClearPreset
+- uid: LiveKit.Proto.WebEgressRequest.Advanced*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Advanced
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Advanced
+  name: Advanced
+  nameWithType: WebEgressRequest.Advanced
+  fullName: LiveKit.Proto.WebEgressRequest.Advanced
+- uid: LiveKit.Proto.EncodingOptions
+  commentId: T:LiveKit.Proto.EncodingOptions
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.EncodingOptions.html
+  name: EncodingOptions
+  nameWithType: EncodingOptions
+  fullName: LiveKit.Proto.EncodingOptions
+- uid: LiveKit.Proto.WebEgressRequest.FileOutputs*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.FileOutputs
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_FileOutputs
+  name: FileOutputs
+  nameWithType: WebEgressRequest.FileOutputs
+  fullName: LiveKit.Proto.WebEgressRequest.FileOutputs
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.EncodedFileOutput}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.EncodedFileOutput}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.EncodedFileOutput.html
+  name: RepeatedField<EncodedFileOutput>
+  nameWithType: RepeatedField<EncodedFileOutput>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.EncodedFileOutput>
+  nameWithType.vb: RepeatedField(Of EncodedFileOutput)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.EncodedFileOutput)
+  name.vb: RepeatedField(Of EncodedFileOutput)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.EncodedFileOutput
+    name: EncodedFileOutput
+    href: LiveKit.Proto.EncodedFileOutput.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.EncodedFileOutput
+    name: EncodedFileOutput
+    href: LiveKit.Proto.EncodedFileOutput.html
+  - name: )
+- uid: Google.Protobuf.Collections.RepeatedField`1
+  commentId: T:Google.Protobuf.Collections.RepeatedField`1
+  isExternal: true
+  name: RepeatedField<T>
+  nameWithType: RepeatedField<T>
+  fullName: Google.Protobuf.Collections.RepeatedField<T>
+  nameWithType.vb: RepeatedField(Of T)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of T)
+  name.vb: RepeatedField(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.Collections
+  commentId: N:Google.Protobuf.Collections
+  isExternal: true
+  name: Google.Protobuf.Collections
+  nameWithType: Google.Protobuf.Collections
+  fullName: Google.Protobuf.Collections
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Collections
+    name: Collections
+    isExternal: true
+- uid: LiveKit.Proto.WebEgressRequest.StreamOutputs*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.StreamOutputs
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_StreamOutputs
+  name: StreamOutputs
+  nameWithType: WebEgressRequest.StreamOutputs
+  fullName: LiveKit.Proto.WebEgressRequest.StreamOutputs
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.StreamOutput}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.StreamOutput}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.StreamOutput.html
+  name: RepeatedField<StreamOutput>
+  nameWithType: RepeatedField<StreamOutput>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.StreamOutput>
+  nameWithType.vb: RepeatedField(Of StreamOutput)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.StreamOutput)
+  name.vb: RepeatedField(Of StreamOutput)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.StreamOutput
+    name: StreamOutput
+    href: LiveKit.Proto.StreamOutput.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.StreamOutput
+    name: StreamOutput
+    href: LiveKit.Proto.StreamOutput.html
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.SegmentOutputs*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.SegmentOutputs
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_SegmentOutputs
+  name: SegmentOutputs
+  nameWithType: WebEgressRequest.SegmentOutputs
+  fullName: LiveKit.Proto.WebEgressRequest.SegmentOutputs
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SegmentedFileOutput}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.SegmentedFileOutput}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.SegmentedFileOutput.html
+  name: RepeatedField<SegmentedFileOutput>
+  nameWithType: RepeatedField<SegmentedFileOutput>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.SegmentedFileOutput>
+  nameWithType.vb: RepeatedField(Of SegmentedFileOutput)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.SegmentedFileOutput)
+  name.vb: RepeatedField(Of SegmentedFileOutput)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.SegmentedFileOutput
+    name: SegmentedFileOutput
+    href: LiveKit.Proto.SegmentedFileOutput.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.SegmentedFileOutput
+    name: SegmentedFileOutput
+    href: LiveKit.Proto.SegmentedFileOutput.html
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.ImageOutputs*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.ImageOutputs
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_ImageOutputs
+  name: ImageOutputs
+  nameWithType: WebEgressRequest.ImageOutputs
+  fullName: LiveKit.Proto.WebEgressRequest.ImageOutputs
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ImageOutput}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.ImageOutput}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.ImageOutput.html
+  name: RepeatedField<ImageOutput>
+  nameWithType: RepeatedField<ImageOutput>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.ImageOutput>
+  nameWithType.vb: RepeatedField(Of ImageOutput)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.ImageOutput)
+  name.vb: RepeatedField(Of ImageOutput)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.ImageOutput
+    name: ImageOutput
+    href: LiveKit.Proto.ImageOutput.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.ImageOutput
+    name: ImageOutput
+    href: LiveKit.Proto.ImageOutput.html
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.Webhooks*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Webhooks
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Webhooks
+  name: Webhooks
+  nameWithType: WebEgressRequest.Webhooks
+  fullName: LiveKit.Proto.WebEgressRequest.Webhooks
+- uid: Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.WebhookConfig}
+  commentId: T:Google.Protobuf.Collections.RepeatedField{LiveKit.Proto.WebhookConfig}
+  parent: Google.Protobuf.Collections
+  definition: Google.Protobuf.Collections.RepeatedField`1
+  href: LiveKit.Proto.WebhookConfig.html
+  name: RepeatedField<WebhookConfig>
+  nameWithType: RepeatedField<WebhookConfig>
+  fullName: Google.Protobuf.Collections.RepeatedField<LiveKit.Proto.WebhookConfig>
+  nameWithType.vb: RepeatedField(Of WebhookConfig)
+  fullName.vb: Google.Protobuf.Collections.RepeatedField(Of LiveKit.Proto.WebhookConfig)
+  name.vb: RepeatedField(Of WebhookConfig)
+  spec.csharp:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.WebhookConfig
+    name: WebhookConfig
+    href: LiveKit.Proto.WebhookConfig.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.Collections.RepeatedField`1
+    name: RepeatedField
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.WebhookConfig
+    name: WebhookConfig
+    href: LiveKit.Proto.WebhookConfig.html
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.OutputCase*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.OutputCase
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_OutputCase
+  name: OutputCase
+  nameWithType: WebEgressRequest.OutputCase
+  fullName: LiveKit.Proto.WebEgressRequest.OutputCase
+- uid: LiveKit.Proto.WebEgressRequest.OutputOneofCase
+  commentId: T:LiveKit.Proto.WebEgressRequest.OutputOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: WebEgressRequest.OutputOneofCase
+  nameWithType: WebEgressRequest.OutputOneofCase
+  fullName: LiveKit.Proto.WebEgressRequest.OutputOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: .
+  - uid: LiveKit.Proto.WebEgressRequest.OutputOneofCase
+    name: OutputOneofCase
+    href: LiveKit.Proto.WebEgressRequest.OutputOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: .
+  - uid: LiveKit.Proto.WebEgressRequest.OutputOneofCase
+    name: OutputOneofCase
+    href: LiveKit.Proto.WebEgressRequest.OutputOneofCase.html
+- uid: LiveKit.Proto.WebEgressRequest.ClearOutput*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.ClearOutput
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_ClearOutput
+  name: ClearOutput
+  nameWithType: WebEgressRequest.ClearOutput
+  fullName: LiveKit.Proto.WebEgressRequest.ClearOutput
+- uid: LiveKit.Proto.WebEgressRequest.OptionsCase*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.OptionsCase
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_OptionsCase
+  name: OptionsCase
+  nameWithType: WebEgressRequest.OptionsCase
+  fullName: LiveKit.Proto.WebEgressRequest.OptionsCase
+- uid: LiveKit.Proto.WebEgressRequest.OptionsOneofCase
+  commentId: T:LiveKit.Proto.WebEgressRequest.OptionsOneofCase
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: WebEgressRequest.OptionsOneofCase
+  nameWithType: WebEgressRequest.OptionsOneofCase
+  fullName: LiveKit.Proto.WebEgressRequest.OptionsOneofCase
+  spec.csharp:
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: .
+  - uid: LiveKit.Proto.WebEgressRequest.OptionsOneofCase
+    name: OptionsOneofCase
+    href: LiveKit.Proto.WebEgressRequest.OptionsOneofCase.html
+  spec.vb:
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: .
+  - uid: LiveKit.Proto.WebEgressRequest.OptionsOneofCase
+    name: OptionsOneofCase
+    href: LiveKit.Proto.WebEgressRequest.OptionsOneofCase.html
+- uid: LiveKit.Proto.WebEgressRequest.ClearOptions*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.ClearOptions
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_ClearOptions
+  name: ClearOptions
+  nameWithType: WebEgressRequest.ClearOptions
+  fullName: LiveKit.Proto.WebEgressRequest.ClearOptions
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.Equals*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.Equals
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_Equals_System_Object_
+  name: Equals
+  nameWithType: WebEgressRequest.Equals
+  fullName: LiveKit.Proto.WebEgressRequest.Equals
+- uid: System.IEquatable{LiveKit.Proto.WebEgressRequest}.Equals(LiveKit.Proto.WebEgressRequest)
+  commentId: M:System.IEquatable{LiveKit.Proto.WebEgressRequest}.Equals(LiveKit.Proto.WebEgressRequest)
+  parent: System.IEquatable{LiveKit.Proto.WebEgressRequest}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(WebEgressRequest)
+  nameWithType: IEquatable<WebEgressRequest>.Equals(WebEgressRequest)
+  fullName: System.IEquatable<LiveKit.Proto.WebEgressRequest>.Equals(LiveKit.Proto.WebEgressRequest)
+  nameWithType.vb: IEquatable(Of WebEgressRequest).Equals(WebEgressRequest)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.WebEgressRequest).Equals(LiveKit.Proto.WebEgressRequest)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.WebEgressRequest}.Equals(LiveKit.Proto.WebEgressRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.WebEgressRequest}.Equals(LiveKit.Proto.WebEgressRequest)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.GetHashCode*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.GetHashCode
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_GetHashCode
+  name: GetHashCode
+  nameWithType: WebEgressRequest.GetHashCode
+  fullName: LiveKit.Proto.WebEgressRequest.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.ToString*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.ToString
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_ToString
+  name: ToString
+  nameWithType: WebEgressRequest.ToString
+  fullName: LiveKit.Proto.WebEgressRequest.ToString
+- uid: LiveKit.Proto.WebEgressRequest.WriteTo*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.WriteTo
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: WebEgressRequest.WriteTo
+  fullName: LiveKit.Proto.WebEgressRequest.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.WebEgressRequest.CalculateSize*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.CalculateSize
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_CalculateSize
+  name: CalculateSize
+  nameWithType: WebEgressRequest.CalculateSize
+  fullName: LiveKit.Proto.WebEgressRequest.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.WebEgressRequest.MergeFrom*
+  commentId: Overload:LiveKit.Proto.WebEgressRequest.MergeFrom
+  href: LiveKit.Proto.WebEgressRequest.html#LiveKit_Proto_WebEgressRequest_MergeFrom_LiveKit_Proto_WebEgressRequest_
+  name: MergeFrom
+  nameWithType: WebEgressRequest.MergeFrom
+  fullName: LiveKit.Proto.WebEgressRequest.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}.MergeFrom(LiveKit.Proto.WebEgressRequest)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}.MergeFrom(LiveKit.Proto.WebEgressRequest)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.WebEgressRequest.html
+  name: MergeFrom(WebEgressRequest)
+  nameWithType: IMessage<WebEgressRequest>.MergeFrom(WebEgressRequest)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.WebEgressRequest>.MergeFrom(LiveKit.Proto.WebEgressRequest)
+  nameWithType.vb: IMessage(Of WebEgressRequest).MergeFrom(WebEgressRequest)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.WebEgressRequest).MergeFrom(LiveKit.Proto.WebEgressRequest)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}.MergeFrom(LiveKit.Proto.WebEgressRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.WebEgressRequest}.MergeFrom(LiveKit.Proto.WebEgressRequest)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.WebEgressRequest
+    name: WebEgressRequest
+    href: LiveKit.Proto.WebEgressRequest.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream

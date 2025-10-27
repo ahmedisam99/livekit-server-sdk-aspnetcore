@@ -1,0 +1,1486 @@
+### YamlMime:ManagedReference
+items:
+- uid: LiveKit.Proto.TimedVersion
+  commentId: T:LiveKit.Proto.TimedVersion
+  id: TimedVersion
+  parent: LiveKit.Proto
+  children:
+  - LiveKit.Proto.TimedVersion.#ctor
+  - LiveKit.Proto.TimedVersion.#ctor(LiveKit.Proto.TimedVersion)
+  - LiveKit.Proto.TimedVersion.CalculateSize
+  - LiveKit.Proto.TimedVersion.Clone
+  - LiveKit.Proto.TimedVersion.Descriptor
+  - LiveKit.Proto.TimedVersion.Equals(LiveKit.Proto.TimedVersion)
+  - LiveKit.Proto.TimedVersion.Equals(System.Object)
+  - LiveKit.Proto.TimedVersion.GetHashCode
+  - LiveKit.Proto.TimedVersion.MergeFrom(Google.Protobuf.CodedInputStream)
+  - LiveKit.Proto.TimedVersion.MergeFrom(LiveKit.Proto.TimedVersion)
+  - LiveKit.Proto.TimedVersion.Parser
+  - LiveKit.Proto.TimedVersion.Ticks
+  - LiveKit.Proto.TimedVersion.TicksFieldNumber
+  - LiveKit.Proto.TimedVersion.ToString
+  - LiveKit.Proto.TimedVersion.UnixMicro
+  - LiveKit.Proto.TimedVersion.UnixMicroFieldNumber
+  - LiveKit.Proto.TimedVersion.WriteTo(Google.Protobuf.CodedOutputStream)
+  langs:
+  - csharp
+  - vb
+  name: TimedVersion
+  nameWithType: TimedVersion
+  fullName: LiveKit.Proto.TimedVersion
+  type: Class
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TimedVersion
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17361
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: 'public sealed class TimedVersion : IMessage<TimedVersion>, IEquatable<TimedVersion>, IDeepCloneable<TimedVersion>, IBufferMessage, IMessage'
+    content.vb: Public NotInheritable Class TimedVersion Implements IMessage(Of TimedVersion), IEquatable(Of TimedVersion), IDeepCloneable(Of TimedVersion), IBufferMessage, IMessage
+  inheritance:
+  - System.Object
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}
+  - System.IEquatable{LiveKit.Proto.TimedVersion}
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}
+  - Google.Protobuf.IBufferMessage
+  - Google.Protobuf.IMessage
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: LiveKit.Proto.TimedVersion.Parser
+  commentId: P:LiveKit.Proto.TimedVersion.Parser
+  id: Parser
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: Parser
+  nameWithType: TimedVersion.Parser
+  fullName: LiveKit.Proto.TimedVersion.Parser
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Parser
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17369
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageParser<TimedVersion> Parser { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.MessageParser{LiveKit.Proto.TimedVersion}
+    content.vb: Public Shared ReadOnly Property Parser As MessageParser(Of TimedVersion)
+  overload: LiveKit.Proto.TimedVersion.Parser*
+- uid: LiveKit.Proto.TimedVersion.Descriptor
+  commentId: P:LiveKit.Proto.TimedVersion.Descriptor
+  id: Descriptor
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: TimedVersion.Descriptor
+  fullName: LiveKit.Proto.TimedVersion.Descriptor
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Descriptor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17373
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public static MessageDescriptor Descriptor { get; }
+    parameters: []
+    return:
+      type: Google.Protobuf.Reflection.MessageDescriptor
+    content.vb: Public Shared ReadOnly Property Descriptor As MessageDescriptor
+  overload: LiveKit.Proto.TimedVersion.Descriptor*
+- uid: LiveKit.Proto.TimedVersion.#ctor
+  commentId: M:LiveKit.Proto.TimedVersion.#ctor
+  id: '#ctor'
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: TimedVersion()
+  nameWithType: TimedVersion.TimedVersion()
+  fullName: LiveKit.Proto.TimedVersion.TimedVersion()
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17385
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TimedVersion()
+    content.vb: Public Sub New()
+  overload: LiveKit.Proto.TimedVersion.#ctor*
+  nameWithType.vb: TimedVersion.New()
+  fullName.vb: LiveKit.Proto.TimedVersion.New()
+  name.vb: New()
+- uid: LiveKit.Proto.TimedVersion.#ctor(LiveKit.Proto.TimedVersion)
+  commentId: M:LiveKit.Proto.TimedVersion.#ctor(LiveKit.Proto.TimedVersion)
+  id: '#ctor(LiveKit.Proto.TimedVersion)'
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: TimedVersion(TimedVersion)
+  nameWithType: TimedVersion.TimedVersion(TimedVersion)
+  fullName: LiveKit.Proto.TimedVersion.TimedVersion(LiveKit.Proto.TimedVersion)
+  type: Constructor
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: .ctor
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17393
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public TimedVersion(TimedVersion other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TimedVersion
+    content.vb: Public Sub New(other As TimedVersion)
+  overload: LiveKit.Proto.TimedVersion.#ctor*
+  nameWithType.vb: TimedVersion.New(TimedVersion)
+  fullName.vb: LiveKit.Proto.TimedVersion.New(LiveKit.Proto.TimedVersion)
+  name.vb: New(TimedVersion)
+- uid: LiveKit.Proto.TimedVersion.Clone
+  commentId: M:LiveKit.Proto.TimedVersion.Clone
+  id: Clone
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: TimedVersion.Clone()
+  fullName: LiveKit.Proto.TimedVersion.Clone()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Clone
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17401
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Creates a deep clone of this object.
+  example: []
+  syntax:
+    content: public TimedVersion Clone()
+    return:
+      type: LiveKit.Proto.TimedVersion
+      description: A deep clone of this object.
+    content.vb: Public Function Clone() As TimedVersion
+  overload: LiveKit.Proto.TimedVersion.Clone*
+  implements:
+  - Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}.Clone
+- uid: LiveKit.Proto.TimedVersion.UnixMicroFieldNumber
+  commentId: F:LiveKit.Proto.TimedVersion.UnixMicroFieldNumber
+  id: UnixMicroFieldNumber
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: UnixMicroFieldNumber
+  nameWithType: TimedVersion.UnixMicroFieldNumber
+  fullName: LiveKit.Proto.TimedVersion.UnixMicroFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UnixMicroFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17408
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "unix_micro" field.
+  example: []
+  syntax:
+    content: public const int UnixMicroFieldNumber = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const UnixMicroFieldNumber As Integer = 1
+- uid: LiveKit.Proto.TimedVersion.UnixMicro
+  commentId: P:LiveKit.Proto.TimedVersion.UnixMicro
+  id: UnixMicro
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: UnixMicro
+  nameWithType: TimedVersion.UnixMicro
+  fullName: LiveKit.Proto.TimedVersion.UnixMicro
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: UnixMicro
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17410
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public long UnixMicro { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property UnixMicro As Long
+  overload: LiveKit.Proto.TimedVersion.UnixMicro*
+- uid: LiveKit.Proto.TimedVersion.TicksFieldNumber
+  commentId: F:LiveKit.Proto.TimedVersion.TicksFieldNumber
+  id: TicksFieldNumber
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: TicksFieldNumber
+  nameWithType: TimedVersion.TicksFieldNumber
+  fullName: LiveKit.Proto.TimedVersion.TicksFieldNumber
+  type: Field
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: TicksFieldNumber
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17420
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Field number for the "ticks" field.
+  example: []
+  syntax:
+    content: public const int TicksFieldNumber = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const TicksFieldNumber As Integer = 2
+- uid: LiveKit.Proto.TimedVersion.Ticks
+  commentId: P:LiveKit.Proto.TimedVersion.Ticks
+  id: Ticks
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: Ticks
+  nameWithType: TimedVersion.Ticks
+  fullName: LiveKit.Proto.TimedVersion.Ticks
+  type: Property
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Ticks
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17422
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  syntax:
+    content: public int Ticks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Ticks As Integer
+  overload: LiveKit.Proto.TimedVersion.Ticks*
+- uid: LiveKit.Proto.TimedVersion.Equals(System.Object)
+  commentId: M:LiveKit.Proto.TimedVersion.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: TimedVersion.Equals(object)
+  fullName: LiveKit.Proto.TimedVersion.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17431
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override bool Equals(object other)
+    parameters:
+    - id: other
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(other As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: LiveKit.Proto.TimedVersion.Equals*
+  nameWithType.vb: TimedVersion.Equals(Object)
+  fullName.vb: LiveKit.Proto.TimedVersion.Equals(Object)
+  name.vb: Equals(Object)
+- uid: LiveKit.Proto.TimedVersion.Equals(LiveKit.Proto.TimedVersion)
+  commentId: M:LiveKit.Proto.TimedVersion.Equals(LiveKit.Proto.TimedVersion)
+  id: Equals(LiveKit.Proto.TimedVersion)
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: Equals(TimedVersion)
+  nameWithType: TimedVersion.Equals(TimedVersion)
+  fullName: LiveKit.Proto.TimedVersion.Equals(LiveKit.Proto.TimedVersion)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: Equals
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17437
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public bool Equals(TimedVersion other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TimedVersion
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As TimedVersion) As Boolean
+  overload: LiveKit.Proto.TimedVersion.Equals*
+  implements:
+  - System.IEquatable{LiveKit.Proto.TimedVersion}.Equals(LiveKit.Proto.TimedVersion)
+- uid: LiveKit.Proto.TimedVersion.GetHashCode
+  commentId: M:LiveKit.Proto.TimedVersion.GetHashCode
+  id: GetHashCode
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TimedVersion.GetHashCode()
+  fullName: LiveKit.Proto.TimedVersion.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: GetHashCode
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17451
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: LiveKit.Proto.TimedVersion.GetHashCode*
+- uid: LiveKit.Proto.TimedVersion.ToString
+  commentId: M:LiveKit.Proto.TimedVersion.ToString
+  id: ToString
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TimedVersion.ToString()
+  fullName: LiveKit.Proto.TimedVersion.ToString()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: ToString
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17463
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: LiveKit.Proto.TimedVersion.ToString*
+- uid: LiveKit.Proto.TimedVersion.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:LiveKit.Proto.TimedVersion.WriteTo(Google.Protobuf.CodedOutputStream)
+  id: WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: WriteTo(CodedOutputStream)
+  nameWithType: TimedVersion.WriteTo(CodedOutputStream)
+  fullName: LiveKit.Proto.TimedVersion.WriteTo(Google.Protobuf.CodedOutputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: WriteTo
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17469
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Writes the data to the given coded output stream.
+  example: []
+  syntax:
+    content: public void WriteTo(CodedOutputStream output)
+    parameters:
+    - id: output
+      type: Google.Protobuf.CodedOutputStream
+      description: Coded output stream to write the data to. Must not be null.
+    content.vb: Public Sub WriteTo(output As CodedOutputStream)
+  overload: LiveKit.Proto.TimedVersion.WriteTo*
+  implements:
+  - Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+- uid: LiveKit.Proto.TimedVersion.CalculateSize
+  commentId: M:LiveKit.Proto.TimedVersion.CalculateSize
+  id: CalculateSize
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: CalculateSize()
+  nameWithType: TimedVersion.CalculateSize()
+  fullName: LiveKit.Proto.TimedVersion.CalculateSize()
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: CalculateSize
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17507
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Calculates the size of this message in Protocol Buffer wire format, in bytes.
+  example: []
+  syntax:
+    content: public int CalculateSize()
+    return:
+      type: System.Int32
+      description: >-
+        The number of bytes required to write this message
+                    to a coded output stream.
+    content.vb: Public Function CalculateSize() As Integer
+  overload: LiveKit.Proto.TimedVersion.CalculateSize*
+  implements:
+  - Google.Protobuf.IMessage.CalculateSize
+- uid: LiveKit.Proto.TimedVersion.MergeFrom(LiveKit.Proto.TimedVersion)
+  commentId: M:LiveKit.Proto.TimedVersion.MergeFrom(LiveKit.Proto.TimedVersion)
+  id: MergeFrom(LiveKit.Proto.TimedVersion)
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(TimedVersion)
+  nameWithType: TimedVersion.MergeFrom(TimedVersion)
+  fullName: LiveKit.Proto.TimedVersion.MergeFrom(LiveKit.Proto.TimedVersion)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17523
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the given message into this one.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(TimedVersion other)
+    parameters:
+    - id: other
+      type: LiveKit.Proto.TimedVersion
+    content.vb: Public Sub MergeFrom(other As TimedVersion)
+  overload: LiveKit.Proto.TimedVersion.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}.MergeFrom(LiveKit.Proto.TimedVersion)
+- uid: LiveKit.Proto.TimedVersion.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:LiveKit.Proto.TimedVersion.MergeFrom(Google.Protobuf.CodedInputStream)
+  id: MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: LiveKit.Proto.TimedVersion
+  langs:
+  - csharp
+  - vb
+  name: MergeFrom(CodedInputStream)
+  nameWithType: TimedVersion.MergeFrom(CodedInputStream)
+  fullName: LiveKit.Proto.TimedVersion.MergeFrom(Google.Protobuf.CodedInputStream)
+  type: Method
+  source:
+    remote:
+      path: LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+      branch: main
+      repo: git@github.com:ahmedisam99/livekit-server-sdk-aspnetcore.git
+    id: MergeFrom
+    path: ../LiveKit.AspNetCore.ServerSdk.Abstractions/Proto/LivekitModels.cs
+    startLine: 17538
+  assemblies:
+  - LiveKit.AspNetCore.ServerSdk.Abstractions
+  namespace: LiveKit.Proto
+  summary: Merges the data from the specified coded input stream with the current message.
+  remarks: See the user guide for precise merge semantics.
+  example: []
+  syntax:
+    content: public void MergeFrom(CodedInputStream input)
+    parameters:
+    - id: input
+      type: Google.Protobuf.CodedInputStream
+      description: ''
+    content.vb: Public Sub MergeFrom(input As CodedInputStream)
+  overload: LiveKit.Proto.TimedVersion.MergeFrom*
+  implements:
+  - Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+references:
+- uid: LiveKit.Proto
+  commentId: N:LiveKit.Proto
+  href: LiveKit.html
+  name: LiveKit.Proto
+  nameWithType: LiveKit.Proto
+  fullName: LiveKit.Proto
+  spec.csharp:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+  spec.vb:
+  - uid: LiveKit
+    name: LiveKit
+    href: LiveKit.html
+  - name: .
+  - uid: LiveKit.Proto
+    name: Proto
+    href: LiveKit.Proto.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}
+  commentId: T:Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IMessage`1
+  href: LiveKit.Proto.TimedVersion.html
+  name: IMessage<TimedVersion>
+  nameWithType: IMessage<TimedVersion>
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.TimedVersion>
+  nameWithType.vb: IMessage(Of TimedVersion)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.TimedVersion)
+  name.vb: IMessage(Of TimedVersion)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: )
+- uid: System.IEquatable{LiveKit.Proto.TimedVersion}
+  commentId: T:System.IEquatable{LiveKit.Proto.TimedVersion}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TimedVersion>
+  nameWithType: IEquatable<TimedVersion>
+  fullName: System.IEquatable<LiveKit.Proto.TimedVersion>
+  nameWithType.vb: IEquatable(Of TimedVersion)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.TimedVersion)
+  name.vb: IEquatable(Of TimedVersion)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}
+  commentId: T:Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.IDeepCloneable`1
+  href: LiveKit.Proto.TimedVersion.html
+  name: IDeepCloneable<TimedVersion>
+  nameWithType: IDeepCloneable<TimedVersion>
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.TimedVersion>
+  nameWithType.vb: IDeepCloneable(Of TimedVersion)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.TimedVersion)
+  name.vb: IDeepCloneable(Of TimedVersion)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: )
+- uid: Google.Protobuf.IBufferMessage
+  commentId: T:Google.Protobuf.IBufferMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IBufferMessage
+  nameWithType: IBufferMessage
+  fullName: Google.Protobuf.IBufferMessage
+- uid: Google.Protobuf.IMessage
+  commentId: T:Google.Protobuf.IMessage
+  parent: Google.Protobuf
+  isExternal: true
+  name: IMessage
+  nameWithType: IMessage
+  fullName: Google.Protobuf.IMessage
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Google.Protobuf.IMessage`1
+  commentId: T:Google.Protobuf.IMessage`1
+  isExternal: true
+  name: IMessage<T>
+  nameWithType: IMessage<T>
+  fullName: Google.Protobuf.IMessage<T>
+  nameWithType.vb: IMessage(Of T)
+  fullName.vb: Google.Protobuf.IMessage(Of T)
+  name.vb: IMessage(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1
+    name: IMessage
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf
+  commentId: N:Google.Protobuf
+  isExternal: true
+  name: Google.Protobuf
+  nameWithType: Google.Protobuf
+  fullName: Google.Protobuf
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1
+  commentId: T:Google.Protobuf.IDeepCloneable`1
+  isExternal: true
+  name: IDeepCloneable<T>
+  nameWithType: IDeepCloneable<T>
+  fullName: Google.Protobuf.IDeepCloneable<T>
+  nameWithType.vb: IDeepCloneable(Of T)
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T)
+  name.vb: IDeepCloneable(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1
+    name: IDeepCloneable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.TimedVersion.Parser*
+  commentId: Overload:LiveKit.Proto.TimedVersion.Parser
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_Parser
+  name: Parser
+  nameWithType: TimedVersion.Parser
+  fullName: LiveKit.Proto.TimedVersion.Parser
+- uid: Google.Protobuf.MessageParser{LiveKit.Proto.TimedVersion}
+  commentId: T:Google.Protobuf.MessageParser{LiveKit.Proto.TimedVersion}
+  parent: Google.Protobuf
+  definition: Google.Protobuf.MessageParser`1
+  href: LiveKit.Proto.TimedVersion.html
+  name: MessageParser<TimedVersion>
+  nameWithType: MessageParser<TimedVersion>
+  fullName: Google.Protobuf.MessageParser<LiveKit.Proto.TimedVersion>
+  nameWithType.vb: MessageParser(Of TimedVersion)
+  fullName.vb: Google.Protobuf.MessageParser(Of LiveKit.Proto.TimedVersion)
+  name.vb: MessageParser(Of TimedVersion)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: )
+- uid: Google.Protobuf.MessageParser`1
+  commentId: T:Google.Protobuf.MessageParser`1
+  isExternal: true
+  name: MessageParser<T>
+  nameWithType: MessageParser<T>
+  fullName: Google.Protobuf.MessageParser<T>
+  nameWithType.vb: MessageParser(Of T)
+  fullName.vb: Google.Protobuf.MessageParser(Of T)
+  name.vb: MessageParser(Of T)
+  spec.csharp:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Google.Protobuf.MessageParser`1
+    name: MessageParser
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: LiveKit.Proto.TimedVersion.Descriptor*
+  commentId: Overload:LiveKit.Proto.TimedVersion.Descriptor
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_Descriptor
+  name: Descriptor
+  nameWithType: TimedVersion.Descriptor
+  fullName: LiveKit.Proto.TimedVersion.Descriptor
+- uid: Google.Protobuf.Reflection.MessageDescriptor
+  commentId: T:Google.Protobuf.Reflection.MessageDescriptor
+  parent: Google.Protobuf.Reflection
+  isExternal: true
+  name: MessageDescriptor
+  nameWithType: MessageDescriptor
+  fullName: Google.Protobuf.Reflection.MessageDescriptor
+- uid: Google.Protobuf.Reflection
+  commentId: N:Google.Protobuf.Reflection
+  isExternal: true
+  name: Google.Protobuf.Reflection
+  nameWithType: Google.Protobuf.Reflection
+  fullName: Google.Protobuf.Reflection
+  spec.csharp:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: Google
+    name: Google
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf
+    name: Protobuf
+    isExternal: true
+  - name: .
+  - uid: Google.Protobuf.Reflection
+    name: Reflection
+    isExternal: true
+- uid: LiveKit.Proto.TimedVersion.#ctor*
+  commentId: Overload:LiveKit.Proto.TimedVersion.#ctor
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion__ctor
+  name: TimedVersion
+  nameWithType: TimedVersion.TimedVersion
+  fullName: LiveKit.Proto.TimedVersion.TimedVersion
+  nameWithType.vb: TimedVersion.New
+  fullName.vb: LiveKit.Proto.TimedVersion.New
+  name.vb: New
+- uid: LiveKit.Proto.TimedVersion
+  commentId: T:LiveKit.Proto.TimedVersion
+  parent: LiveKit.Proto
+  href: LiveKit.Proto.TimedVersion.html
+  name: TimedVersion
+  nameWithType: TimedVersion
+  fullName: LiveKit.Proto.TimedVersion
+- uid: LiveKit.Proto.TimedVersion.Clone*
+  commentId: Overload:LiveKit.Proto.TimedVersion.Clone
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_Clone
+  name: Clone
+  nameWithType: TimedVersion.Clone
+  fullName: LiveKit.Proto.TimedVersion.Clone
+- uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}.Clone
+  parent: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}
+  definition: Google.Protobuf.IDeepCloneable`1.Clone
+  name: Clone()
+  nameWithType: IDeepCloneable<TimedVersion>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<LiveKit.Proto.TimedVersion>.Clone()
+  nameWithType.vb: IDeepCloneable(Of TimedVersion).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of LiveKit.Proto.TimedVersion).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable{LiveKit.Proto.TimedVersion}.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Google.Protobuf.IDeepCloneable`1.Clone
+  commentId: M:Google.Protobuf.IDeepCloneable`1.Clone
+  isExternal: true
+  name: Clone()
+  nameWithType: IDeepCloneable<T>.Clone()
+  fullName: Google.Protobuf.IDeepCloneable<T>.Clone()
+  nameWithType.vb: IDeepCloneable(Of T).Clone()
+  fullName.vb: Google.Protobuf.IDeepCloneable(Of T).Clone()
+  spec.csharp:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IDeepCloneable`1.Clone
+    name: Clone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: LiveKit.Proto.TimedVersion.UnixMicro*
+  commentId: Overload:LiveKit.Proto.TimedVersion.UnixMicro
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_UnixMicro
+  name: UnixMicro
+  nameWithType: TimedVersion.UnixMicro
+  fullName: LiveKit.Proto.TimedVersion.UnixMicro
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: LiveKit.Proto.TimedVersion.Ticks*
+  commentId: Overload:LiveKit.Proto.TimedVersion.Ticks
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_Ticks
+  name: Ticks
+  nameWithType: TimedVersion.Ticks
+  fullName: LiveKit.Proto.TimedVersion.Ticks
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: LiveKit.Proto.TimedVersion.Equals*
+  commentId: Overload:LiveKit.Proto.TimedVersion.Equals
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_Equals_System_Object_
+  name: Equals
+  nameWithType: TimedVersion.Equals
+  fullName: LiveKit.Proto.TimedVersion.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable{LiveKit.Proto.TimedVersion}.Equals(LiveKit.Proto.TimedVersion)
+  commentId: M:System.IEquatable{LiveKit.Proto.TimedVersion}.Equals(LiveKit.Proto.TimedVersion)
+  parent: System.IEquatable{LiveKit.Proto.TimedVersion}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(TimedVersion)
+  nameWithType: IEquatable<TimedVersion>.Equals(TimedVersion)
+  fullName: System.IEquatable<LiveKit.Proto.TimedVersion>.Equals(LiveKit.Proto.TimedVersion)
+  nameWithType.vb: IEquatable(Of TimedVersion).Equals(TimedVersion)
+  fullName.vb: System.IEquatable(Of LiveKit.Proto.TimedVersion).Equals(LiveKit.Proto.TimedVersion)
+  spec.csharp:
+  - uid: System.IEquatable{LiveKit.Proto.TimedVersion}.Equals(LiveKit.Proto.TimedVersion)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{LiveKit.Proto.TimedVersion}.Equals(LiveKit.Proto.TimedVersion)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TimedVersion.GetHashCode*
+  commentId: Overload:LiveKit.Proto.TimedVersion.GetHashCode
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_GetHashCode
+  name: GetHashCode
+  nameWithType: TimedVersion.GetHashCode
+  fullName: LiveKit.Proto.TimedVersion.GetHashCode
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TimedVersion.ToString*
+  commentId: Overload:LiveKit.Proto.TimedVersion.ToString
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_ToString
+  name: ToString
+  nameWithType: TimedVersion.ToString
+  fullName: LiveKit.Proto.TimedVersion.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: LiveKit.Proto.TimedVersion.WriteTo*
+  commentId: Overload:LiveKit.Proto.TimedVersion.WriteTo
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_WriteTo_Google_Protobuf_CodedOutputStream_
+  name: WriteTo
+  nameWithType: TimedVersion.WriteTo
+  fullName: LiveKit.Proto.TimedVersion.WriteTo
+- uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  commentId: M:Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: WriteTo(CodedOutputStream)
+  nameWithType: IMessage.WriteTo(CodedOutputStream)
+  fullName: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.WriteTo(Google.Protobuf.CodedOutputStream)
+    name: WriteTo
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedOutputStream
+    name: CodedOutputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedOutputStream
+  commentId: T:Google.Protobuf.CodedOutputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedOutputStream
+  nameWithType: CodedOutputStream
+  fullName: Google.Protobuf.CodedOutputStream
+- uid: LiveKit.Proto.TimedVersion.CalculateSize*
+  commentId: Overload:LiveKit.Proto.TimedVersion.CalculateSize
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_CalculateSize
+  name: CalculateSize
+  nameWithType: TimedVersion.CalculateSize
+  fullName: LiveKit.Proto.TimedVersion.CalculateSize
+- uid: Google.Protobuf.IMessage.CalculateSize
+  commentId: M:Google.Protobuf.IMessage.CalculateSize
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: CalculateSize()
+  nameWithType: IMessage.CalculateSize()
+  fullName: Google.Protobuf.IMessage.CalculateSize()
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.CalculateSize
+    name: CalculateSize
+    isExternal: true
+  - name: (
+  - name: )
+- uid: LiveKit.Proto.TimedVersion.MergeFrom*
+  commentId: Overload:LiveKit.Proto.TimedVersion.MergeFrom
+  href: LiveKit.Proto.TimedVersion.html#LiveKit_Proto_TimedVersion_MergeFrom_LiveKit_Proto_TimedVersion_
+  name: MergeFrom
+  nameWithType: TimedVersion.MergeFrom
+  fullName: LiveKit.Proto.TimedVersion.MergeFrom
+- uid: Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}.MergeFrom(LiveKit.Proto.TimedVersion)
+  commentId: M:Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}.MergeFrom(LiveKit.Proto.TimedVersion)
+  parent: Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}
+  definition: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  href: LiveKit.Proto.TimedVersion.html
+  name: MergeFrom(TimedVersion)
+  nameWithType: IMessage<TimedVersion>.MergeFrom(TimedVersion)
+  fullName: Google.Protobuf.IMessage<LiveKit.Proto.TimedVersion>.MergeFrom(LiveKit.Proto.TimedVersion)
+  nameWithType.vb: IMessage(Of TimedVersion).MergeFrom(TimedVersion)
+  fullName.vb: Google.Protobuf.IMessage(Of LiveKit.Proto.TimedVersion).MergeFrom(LiveKit.Proto.TimedVersion)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}.MergeFrom(LiveKit.Proto.TimedVersion)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage{LiveKit.Proto.TimedVersion}.MergeFrom(LiveKit.Proto.TimedVersion)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: LiveKit.Proto.TimedVersion
+    name: TimedVersion
+    href: LiveKit.Proto.TimedVersion.html
+  - name: )
+- uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+  commentId: M:Google.Protobuf.IMessage`1.MergeFrom(`0)
+  isExternal: true
+  name: MergeFrom(T)
+  nameWithType: IMessage<T>.MergeFrom(T)
+  fullName: Google.Protobuf.IMessage<T>.MergeFrom(T)
+  nameWithType.vb: IMessage(Of T).MergeFrom(T)
+  fullName.vb: Google.Protobuf.IMessage(Of T).MergeFrom(T)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage`1.MergeFrom(`0)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  commentId: M:Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  parent: Google.Protobuf.IMessage
+  isExternal: true
+  name: MergeFrom(CodedInputStream)
+  nameWithType: IMessage.MergeFrom(CodedInputStream)
+  fullName: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+  spec.csharp:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Google.Protobuf.IMessage.MergeFrom(Google.Protobuf.CodedInputStream)
+    name: MergeFrom
+    isExternal: true
+  - name: (
+  - uid: Google.Protobuf.CodedInputStream
+    name: CodedInputStream
+    isExternal: true
+  - name: )
+- uid: Google.Protobuf.CodedInputStream
+  commentId: T:Google.Protobuf.CodedInputStream
+  parent: Google.Protobuf
+  isExternal: true
+  name: CodedInputStream
+  nameWithType: CodedInputStream
+  fullName: Google.Protobuf.CodedInputStream
