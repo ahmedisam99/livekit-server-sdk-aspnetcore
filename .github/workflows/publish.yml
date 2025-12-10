@@ -19,6 +19,10 @@ jobs:
         with:
           dotnet-version: '9.x'
 
+      - name: Patch livekit_phone_number.proto with csharp_namespace
+        run: |
+          sed -i '/^option go_package/a option csharp_namespace = "LiveKit.Proto";' livekit-protocol/protobufs/livekit_phone_number.proto
+
       - name: Build and pack
         run: dotnet pack -c Release --output nupkg
 
