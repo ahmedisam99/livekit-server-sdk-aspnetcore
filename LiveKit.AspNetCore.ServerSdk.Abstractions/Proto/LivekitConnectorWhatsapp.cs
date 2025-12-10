@@ -26,55 +26,57 @@ namespace LiveKit.Proto {
           string.Concat(
             "CiBsaXZla2l0X2Nvbm5lY3Rvcl93aGF0c2FwcC5wcm90bxIHbGl2ZWtpdBoc",
             "bGl2ZWtpdF9hZ2VudF9kaXNwYXRjaC5wcm90bxoRbGl2ZWtpdF9ydGMucHJv",
-            "dG8i7wMKF0RpYWxXaGF0c0FwcENhbGxSZXF1ZXN0EiAKGHdoYXRzYXBwX3Bo",
-            "b25lX251bWJlcl9pZBgBIAEoCRIgChh3aGF0c2FwcF90b19waG9uZV9udW1i",
-            "ZXIYAiABKAkSGAoQd2hhdHNhcHBfYXBpX2tleRgDIAEoCRIpCiF3aGF0c2Fw",
-            "cF9iaXpfb3BhcXVlX2NhbGxiYWNrX2RhdGEYBCABKAkSEQoJcm9vbV9uYW1l",
-            "GAUgASgJEioKBmFnZW50cxgGIAMoCzIaLmxpdmVraXQuUm9vbUFnZW50RGlz",
-            "cGF0Y2gSHAoUcGFydGljaXBhbnRfaWRlbnRpdHkYByABKAkSGAoQcGFydGlj",
-            "aXBhbnRfbmFtZRgIIAEoCRIcChRwYXJ0aWNpcGFudF9tZXRhZGF0YRgJIAEo",
-            "CRJbChZwYXJ0aWNpcGFudF9hdHRyaWJ1dGVzGAogAygLMjsubGl2ZWtpdC5E",
-            "aWFsV2hhdHNBcHBDYWxsUmVxdWVzdC5QYXJ0aWNpcGFudEF0dHJpYnV0ZXNF",
-            "bnRyeRIbChNkZXN0aW5hdGlvbl9jb3VudHJ5GAsgASgJGjwKGlBhcnRpY2lw",
-            "YW50QXR0cmlidXRlc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEo",
-            "CToCOAEiNAoYRGlhbFdoYXRzQXBwQ2FsbFJlc3BvbnNlEhgKEHdoYXRzYXBw",
-            "X2NhbGxfaWQYASABKAkiUwodRGlzY29ubmVjdFdoYXRzQXBwQ2FsbFJlcXVl",
-            "c3QSGAoQd2hhdHNhcHBfY2FsbF9pZBgBIAEoCRIYChB3aGF0c2FwcF9hcGlf",
-            "a2V5GAIgASgJIiAKHkRpc2Nvbm5lY3RXaGF0c0FwcENhbGxSZXNwb25zZSKc",
-            "AQoaQ29ubmVjdFdoYXRzQXBwQ2FsbFJlcXVlc3QSIAoYd2hhdHNhcHBfcGhv",
-            "bmVfbnVtYmVyX2lkGAEgASgJEhgKEHdoYXRzYXBwX2FwaV9rZXkYAiABKAkS",
-            "GAoQd2hhdHNhcHBfY2FsbF9pZBgDIAEoCRIoCgNzZHAYBCABKAsyGy5saXZl",
-            "a2l0LlNlc3Npb25EZXNjcmlwdGlvbiIdChtDb25uZWN0V2hhdHNBcHBDYWxs",
-            "UmVzcG9uc2UilQQKGUFjY2VwdFdoYXRzQXBwQ2FsbFJlcXVlc3QSIAoYd2hh",
-            "dHNhcHBfcGhvbmVfbnVtYmVyX2lkGAEgASgJEhgKEHdoYXRzYXBwX2FwaV9r",
-            "ZXkYAiABKAkSGAoQd2hhdHNhcHBfY2FsbF9pZBgDIAEoCRIpCiF3aGF0c2Fw",
-            "cF9iaXpfb3BhcXVlX2NhbGxiYWNrX2RhdGEYBCABKAkSKAoDc2RwGAUgASgL",
-            "MhsubGl2ZWtpdC5TZXNzaW9uRGVzY3JpcHRpb24SEQoJcm9vbV9uYW1lGAYg",
-            "ASgJEioKBmFnZW50cxgHIAMoCzIaLmxpdmVraXQuUm9vbUFnZW50RGlzcGF0",
-            "Y2gSHAoUcGFydGljaXBhbnRfaWRlbnRpdHkYCCABKAkSGAoQcGFydGljaXBh",
-            "bnRfbmFtZRgJIAEoCRIcChRwYXJ0aWNpcGFudF9tZXRhZGF0YRgKIAEoCRJd",
-            "ChZwYXJ0aWNpcGFudF9hdHRyaWJ1dGVzGAsgAygLMj0ubGl2ZWtpdC5BY2Nl",
-            "cHRXaGF0c0FwcENhbGxSZXF1ZXN0LlBhcnRpY2lwYW50QXR0cmlidXRlc0Vu",
-            "dHJ5EhsKE2Rlc3RpbmF0aW9uX2NvdW50cnkYDCABKAkaPAoaUGFydGljaXBh",
-            "bnRBdHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJ",
-            "OgI4ASIcChpBY2NlcHRXaGF0c0FwcENhbGxSZXNwb25zZSJbCgxXaGF0c0Fw",
-            "cENhbGwSGAoQd2hhdHNhcHBfY2FsbF9pZBgBIAEoCRIxCglkaXJlY3Rpb24Y",
-            "AiABKA4yHi5saXZla2l0LldoYXRzQXBwQ2FsbERpcmVjdGlvbipiChVXaGF0",
-            "c0FwcENhbGxEaXJlY3Rpb24SIwofV0hBVFNBUFBfQ0FMTF9ESVJFQ1RJT05f",
-            "SU5CT1VORBAAEiQKIFdIQVRTQVBQX0NBTExfRElSRUNUSU9OX09VVEJPVU5E",
-            "EAJCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1M",
-            "aXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
+            "dG8aFGxvZ2dlci9vcHRpb25zLnByb3RvIpkEChdEaWFsV2hhdHNBcHBDYWxs",
+            "UmVxdWVzdBIgChh3aGF0c2FwcF9waG9uZV9udW1iZXJfaWQYASABKAkSIAoY",
+            "d2hhdHNhcHBfdG9fcGhvbmVfbnVtYmVyGAIgASgJEh4KEHdoYXRzYXBwX2Fw",
+            "aV9rZXkYAyABKAlCBIi1GAESIgoad2hhdHNhcHBfY2xvdWRfYXBpX3ZlcnNp",
+            "b24YDCABKAkSKQohd2hhdHNhcHBfYml6X29wYXF1ZV9jYWxsYmFja19kYXRh",
+            "GAQgASgJEhEKCXJvb21fbmFtZRgFIAEoCRIqCgZhZ2VudHMYBiADKAsyGi5s",
+            "aXZla2l0LlJvb21BZ2VudERpc3BhdGNoEhwKFHBhcnRpY2lwYW50X2lkZW50",
+            "aXR5GAcgASgJEhgKEHBhcnRpY2lwYW50X25hbWUYCCABKAkSHAoUcGFydGlj",
+            "aXBhbnRfbWV0YWRhdGEYCSABKAkSWwoWcGFydGljaXBhbnRfYXR0cmlidXRl",
+            "cxgKIAMoCzI7LmxpdmVraXQuRGlhbFdoYXRzQXBwQ2FsbFJlcXVlc3QuUGFy",
+            "dGljaXBhbnRBdHRyaWJ1dGVzRW50cnkSGwoTZGVzdGluYXRpb25fY291bnRy",
+            "eRgLIAEoCRo8ChpQYXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRyeRILCgNrZXkY",
+            "ASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIkcKGERpYWxXaGF0c0FwcENhbGxS",
+            "ZXNwb25zZRIYChB3aGF0c2FwcF9jYWxsX2lkGAEgASgJEhEKCXJvb21fbmFt",
+            "ZRgCIAEoCSJZCh1EaXNjb25uZWN0V2hhdHNBcHBDYWxsUmVxdWVzdBIYChB3",
+            "aGF0c2FwcF9jYWxsX2lkGAEgASgJEh4KEHdoYXRzYXBwX2FwaV9rZXkYAiAB",
+            "KAlCBIi1GAEiIAoeRGlzY29ubmVjdFdoYXRzQXBwQ2FsbFJlc3BvbnNlImAK",
+            "GkNvbm5lY3RXaGF0c0FwcENhbGxSZXF1ZXN0EhgKEHdoYXRzYXBwX2NhbGxf",
+            "aWQYASABKAkSKAoDc2RwGAIgASgLMhsubGl2ZWtpdC5TZXNzaW9uRGVzY3Jp",
+            "cHRpb24iHQobQ29ubmVjdFdoYXRzQXBwQ2FsbFJlc3BvbnNlIr8EChlBY2Nl",
+            "cHRXaGF0c0FwcENhbGxSZXF1ZXN0EiAKGHdoYXRzYXBwX3Bob25lX251bWJl",
+            "cl9pZBgBIAEoCRIeChB3aGF0c2FwcF9hcGlfa2V5GAIgASgJQgSItRgBEiIK",
+            "GndoYXRzYXBwX2Nsb3VkX2FwaV92ZXJzaW9uGA0gASgJEhgKEHdoYXRzYXBw",
+            "X2NhbGxfaWQYAyABKAkSKQohd2hhdHNhcHBfYml6X29wYXF1ZV9jYWxsYmFj",
+            "a19kYXRhGAQgASgJEigKA3NkcBgFIAEoCzIbLmxpdmVraXQuU2Vzc2lvbkRl",
+            "c2NyaXB0aW9uEhEKCXJvb21fbmFtZRgGIAEoCRIqCgZhZ2VudHMYByADKAsy",
+            "Gi5saXZla2l0LlJvb21BZ2VudERpc3BhdGNoEhwKFHBhcnRpY2lwYW50X2lk",
+            "ZW50aXR5GAggASgJEhgKEHBhcnRpY2lwYW50X25hbWUYCSABKAkSHAoUcGFy",
+            "dGljaXBhbnRfbWV0YWRhdGEYCiABKAkSXQoWcGFydGljaXBhbnRfYXR0cmli",
+            "dXRlcxgLIAMoCzI9LmxpdmVraXQuQWNjZXB0V2hhdHNBcHBDYWxsUmVxdWVz",
+            "dC5QYXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRyeRIbChNkZXN0aW5hdGlvbl9j",
+            "b3VudHJ5GAwgASgJGjwKGlBhcnRpY2lwYW50QXR0cmlidXRlc0VudHJ5EgsK",
+            "A2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiLwoaQWNjZXB0V2hhdHNB",
+            "cHBDYWxsUmVzcG9uc2USEQoJcm9vbV9uYW1lGAEgASgJIlsKDFdoYXRzQXBw",
+            "Q2FsbBIYChB3aGF0c2FwcF9jYWxsX2lkGAEgASgJEjEKCWRpcmVjdGlvbhgC",
+            "IAEoDjIeLmxpdmVraXQuV2hhdHNBcHBDYWxsRGlyZWN0aW9uKmIKFVdoYXRz",
+            "QXBwQ2FsbERpcmVjdGlvbhIjCh9XSEFUU0FQUF9DQUxMX0RJUkVDVElPTl9J",
+            "TkJPVU5EEAASJAogV0hBVFNBUFBfQ0FMTF9ESVJFQ1RJT05fT1VUQk9VTkQQ",
+            "AkJGWiNnaXRodWIuY29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdKoCDUxp",
+            "dmVLaXQuUHJvdG/qAg5MaXZlS2l0OjpQcm90b2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, global::Logger.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.WhatsAppCallDirection), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DialWhatsAppCallRequest), global::LiveKit.Proto.DialWhatsAppCallRequest.Parser, new[]{ "WhatsappPhoneNumberId", "WhatsappToPhoneNumber", "WhatsappApiKey", "WhatsappBizOpaqueCallbackData", "RoomName", "Agents", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "ParticipantAttributes", "DestinationCountry" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DialWhatsAppCallResponse), global::LiveKit.Proto.DialWhatsAppCallResponse.Parser, new[]{ "WhatsappCallId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DialWhatsAppCallRequest), global::LiveKit.Proto.DialWhatsAppCallRequest.Parser, new[]{ "WhatsappPhoneNumberId", "WhatsappToPhoneNumber", "WhatsappApiKey", "WhatsappCloudApiVersion", "WhatsappBizOpaqueCallbackData", "RoomName", "Agents", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "ParticipantAttributes", "DestinationCountry" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DialWhatsAppCallResponse), global::LiveKit.Proto.DialWhatsAppCallResponse.Parser, new[]{ "WhatsappCallId", "RoomName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DisconnectWhatsAppCallRequest), global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Parser, new[]{ "WhatsappCallId", "WhatsappApiKey" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DisconnectWhatsAppCallResponse), global::LiveKit.Proto.DisconnectWhatsAppCallResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectWhatsAppCallRequest), global::LiveKit.Proto.ConnectWhatsAppCallRequest.Parser, new[]{ "WhatsappPhoneNumberId", "WhatsappApiKey", "WhatsappCallId", "Sdp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectWhatsAppCallRequest), global::LiveKit.Proto.ConnectWhatsAppCallRequest.Parser, new[]{ "WhatsappCallId", "Sdp" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectWhatsAppCallResponse), global::LiveKit.Proto.ConnectWhatsAppCallResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AcceptWhatsAppCallRequest), global::LiveKit.Proto.AcceptWhatsAppCallRequest.Parser, new[]{ "WhatsappPhoneNumberId", "WhatsappApiKey", "WhatsappCallId", "WhatsappBizOpaqueCallbackData", "Sdp", "RoomName", "Agents", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "ParticipantAttributes", "DestinationCountry" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AcceptWhatsAppCallResponse), global::LiveKit.Proto.AcceptWhatsAppCallResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AcceptWhatsAppCallRequest), global::LiveKit.Proto.AcceptWhatsAppCallRequest.Parser, new[]{ "WhatsappPhoneNumberId", "WhatsappApiKey", "WhatsappCloudApiVersion", "WhatsappCallId", "WhatsappBizOpaqueCallbackData", "Sdp", "RoomName", "Agents", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "ParticipantAttributes", "DestinationCountry" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AcceptWhatsAppCallResponse), global::LiveKit.Proto.AcceptWhatsAppCallResponse.Parser, new[]{ "RoomName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.WhatsAppCall), global::LiveKit.Proto.WhatsAppCall.Parser, new[]{ "WhatsappCallId", "Direction" }, null, null, null, null)
           }));
     }
@@ -128,6 +130,7 @@ namespace LiveKit.Proto {
       whatsappPhoneNumberId_ = other.whatsappPhoneNumberId_;
       whatsappToPhoneNumber_ = other.whatsappToPhoneNumber_;
       whatsappApiKey_ = other.whatsappApiKey_;
+      whatsappCloudApiVersion_ = other.whatsappCloudApiVersion_;
       whatsappBizOpaqueCallbackData_ = other.whatsappBizOpaqueCallbackData_;
       roomName_ = other.roomName_;
       agents_ = other.agents_.Clone();
@@ -149,7 +152,7 @@ namespace LiveKit.Proto {
     public const int WhatsappPhoneNumberIdFieldNumber = 1;
     private string whatsappPhoneNumberId_ = "";
     /// <summary>
-    /// The number of the business that is initiating the call
+    /// Required - The number of the business that is initiating the call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -164,7 +167,7 @@ namespace LiveKit.Proto {
     public const int WhatsappToPhoneNumberFieldNumber = 2;
     private string whatsappToPhoneNumber_ = "";
     /// <summary>
-    /// The number of the user that is supossed to receive the call
+    /// Required - The number of the user that is supossed to receive the call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -179,7 +182,7 @@ namespace LiveKit.Proto {
     public const int WhatsappApiKeyFieldNumber = 3;
     private string whatsappApiKey_ = "";
     /// <summary>
-    /// The API key of the business that is initiating the call
+    /// Required - The API key of the business that is initiating the call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -190,11 +193,26 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "whatsapp_cloud_api_version" field.</summary>
+    public const int WhatsappCloudApiVersionFieldNumber = 12;
+    private string whatsappCloudApiVersion_ = "";
+    /// <summary>
+    /// Required - WhatsApp Cloud API version, eg: 23.0, 24.0, etc.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string WhatsappCloudApiVersion {
+      get { return whatsappCloudApiVersion_; }
+      set {
+        whatsappCloudApiVersion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "whatsapp_biz_opaque_callback_data" field.</summary>
     public const int WhatsappBizOpaqueCallbackDataFieldNumber = 4;
     private string whatsappBizOpaqueCallbackData_ = "";
     /// <summary>
-    /// An arbitrary string you can pass in that is useful for tracking and logging purposes.
+    /// Optional - An arbitrary string you can pass in that is useful for tracking and logging purposes.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -209,7 +227,7 @@ namespace LiveKit.Proto {
     public const int RoomNameFieldNumber = 5;
     private string roomName_ = "";
     /// <summary>
-    /// What LiveKit room should this participant be connected too
+    /// Optional - What LiveKit room should this participant be connected too
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -226,7 +244,7 @@ namespace LiveKit.Proto {
         = pb::FieldCodec.ForMessage(50, global::LiveKit.Proto.RoomAgentDispatch.Parser);
     private readonly pbc::RepeatedField<global::LiveKit.Proto.RoomAgentDispatch> agents_ = new pbc::RepeatedField<global::LiveKit.Proto.RoomAgentDispatch>();
     /// <summary>
-    /// Optional agents to dispatch the call to
+    /// Optional - Agents to dispatch the call to
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -238,7 +256,7 @@ namespace LiveKit.Proto {
     public const int ParticipantIdentityFieldNumber = 7;
     private string participantIdentity_ = "";
     /// <summary>
-    /// Optional identity of the participant in LiveKit room
+    /// Optional - Identity of the participant in LiveKit room
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -253,7 +271,7 @@ namespace LiveKit.Proto {
     public const int ParticipantNameFieldNumber = 8;
     private string participantName_ = "";
     /// <summary>
-    /// Optional name of the participant in LiveKit room
+    /// Optional - Name of the participant in LiveKit room
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -268,7 +286,7 @@ namespace LiveKit.Proto {
     public const int ParticipantMetadataFieldNumber = 9;
     private string participantMetadata_ = "";
     /// <summary>
-    /// Optional user-defined metadata. Will be attached to a created Participant in the room.
+    /// Optional - User-defined metadata. Will be attached to a created Participant in the room.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -285,7 +303,7 @@ namespace LiveKit.Proto {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 82);
     private readonly pbc::MapField<string, string> participantAttributes_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// Optional user-defined attributes. Will be attached to a created Participant in the room.
+    /// Optional - User-defined attributes. Will be attached to a created Participant in the room.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -297,7 +315,7 @@ namespace LiveKit.Proto {
     public const int DestinationCountryFieldNumber = 11;
     private string destinationCountry_ = "";
     /// <summary>
-    /// Country where the call terminates as ISO 3166-1 alpha-2 (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). This will be used by the livekit infrastructure to route calls.
+    /// Optional - Country where the call terminates as ISO 3166-1 alpha-2 (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). This will be used by the livekit infrastructure to route calls.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -326,6 +344,7 @@ namespace LiveKit.Proto {
       if (WhatsappPhoneNumberId != other.WhatsappPhoneNumberId) return false;
       if (WhatsappToPhoneNumber != other.WhatsappToPhoneNumber) return false;
       if (WhatsappApiKey != other.WhatsappApiKey) return false;
+      if (WhatsappCloudApiVersion != other.WhatsappCloudApiVersion) return false;
       if (WhatsappBizOpaqueCallbackData != other.WhatsappBizOpaqueCallbackData) return false;
       if (RoomName != other.RoomName) return false;
       if(!agents_.Equals(other.agents_)) return false;
@@ -344,6 +363,7 @@ namespace LiveKit.Proto {
       if (WhatsappPhoneNumberId.Length != 0) hash ^= WhatsappPhoneNumberId.GetHashCode();
       if (WhatsappToPhoneNumber.Length != 0) hash ^= WhatsappToPhoneNumber.GetHashCode();
       if (WhatsappApiKey.Length != 0) hash ^= WhatsappApiKey.GetHashCode();
+      if (WhatsappCloudApiVersion.Length != 0) hash ^= WhatsappCloudApiVersion.GetHashCode();
       if (WhatsappBizOpaqueCallbackData.Length != 0) hash ^= WhatsappBizOpaqueCallbackData.GetHashCode();
       if (RoomName.Length != 0) hash ^= RoomName.GetHashCode();
       hash ^= agents_.GetHashCode();
@@ -408,6 +428,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(90);
         output.WriteString(DestinationCountry);
       }
+      if (WhatsappCloudApiVersion.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(WhatsappCloudApiVersion);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -456,6 +480,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(90);
         output.WriteString(DestinationCountry);
       }
+      if (WhatsappCloudApiVersion.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(WhatsappCloudApiVersion);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -474,6 +502,9 @@ namespace LiveKit.Proto {
       }
       if (WhatsappApiKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappApiKey);
+      }
+      if (WhatsappCloudApiVersion.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappCloudApiVersion);
       }
       if (WhatsappBizOpaqueCallbackData.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappBizOpaqueCallbackData);
@@ -515,6 +546,9 @@ namespace LiveKit.Proto {
       }
       if (other.WhatsappApiKey.Length != 0) {
         WhatsappApiKey = other.WhatsappApiKey;
+      }
+      if (other.WhatsappCloudApiVersion.Length != 0) {
+        WhatsappCloudApiVersion = other.WhatsappCloudApiVersion;
       }
       if (other.WhatsappBizOpaqueCallbackData.Length != 0) {
         WhatsappBizOpaqueCallbackData = other.WhatsappBizOpaqueCallbackData;
@@ -599,6 +633,10 @@ namespace LiveKit.Proto {
             DestinationCountry = input.ReadString();
             break;
           }
+          case 98: {
+            WhatsappCloudApiVersion = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -662,6 +700,10 @@ namespace LiveKit.Proto {
             DestinationCountry = input.ReadString();
             break;
           }
+          case 98: {
+            WhatsappCloudApiVersion = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -705,6 +747,7 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DialWhatsAppCallResponse(DialWhatsAppCallResponse other) : this() {
       whatsappCallId_ = other.whatsappCallId_;
+      roomName_ = other.roomName_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -729,6 +772,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "room_name" field.</summary>
+    public const int RoomNameFieldNumber = 2;
+    private string roomName_ = "";
+    /// <summary>
+    /// The name of the LiveKit room that the call is connected to
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string RoomName {
+      get { return roomName_; }
+      set {
+        roomName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -745,6 +803,7 @@ namespace LiveKit.Proto {
         return true;
       }
       if (WhatsappCallId != other.WhatsappCallId) return false;
+      if (RoomName != other.RoomName) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -753,6 +812,7 @@ namespace LiveKit.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (WhatsappCallId.Length != 0) hash ^= WhatsappCallId.GetHashCode();
+      if (RoomName.Length != 0) hash ^= RoomName.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -775,6 +835,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(10);
         output.WriteString(WhatsappCallId);
       }
+      if (RoomName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(RoomName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -789,6 +853,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(10);
         output.WriteString(WhatsappCallId);
       }
+      if (RoomName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(RoomName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -801,6 +869,9 @@ namespace LiveKit.Proto {
       int size = 0;
       if (WhatsappCallId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappCallId);
+      }
+      if (RoomName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RoomName);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -816,6 +887,9 @@ namespace LiveKit.Proto {
       }
       if (other.WhatsappCallId.Length != 0) {
         WhatsappCallId = other.WhatsappCallId;
+      }
+      if (other.RoomName.Length != 0) {
+        RoomName = other.RoomName;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -840,6 +914,10 @@ namespace LiveKit.Proto {
             WhatsappCallId = input.ReadString();
             break;
           }
+          case 18: {
+            RoomName = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -861,6 +939,10 @@ namespace LiveKit.Proto {
             break;
           case 10: {
             WhatsappCallId = input.ReadString();
+            break;
+          }
+          case 18: {
+            RoomName = input.ReadString();
             break;
           }
         }
@@ -920,7 +1002,7 @@ namespace LiveKit.Proto {
     public const int WhatsappCallIdFieldNumber = 1;
     private string whatsappCallId_ = "";
     /// <summary>
-    /// Call ID sent by Meta
+    /// Required - Call ID sent by Meta
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -934,6 +1016,9 @@ namespace LiveKit.Proto {
     /// <summary>Field number for the "whatsapp_api_key" field.</summary>
     public const int WhatsappApiKeyFieldNumber = 2;
     private string whatsappApiKey_ = "";
+    /// <summary>
+    /// Required - The API key of the business that is disconnecting the call
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string WhatsappApiKey {
@@ -1304,8 +1389,6 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ConnectWhatsAppCallRequest(ConnectWhatsAppCallRequest other) : this() {
-      whatsappPhoneNumberId_ = other.whatsappPhoneNumberId_;
-      whatsappApiKey_ = other.whatsappApiKey_;
       whatsappCallId_ = other.whatsappCallId_;
       sdp_ = other.sdp_ != null ? other.sdp_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -1317,41 +1400,11 @@ namespace LiveKit.Proto {
       return new ConnectWhatsAppCallRequest(this);
     }
 
-    /// <summary>Field number for the "whatsapp_phone_number_id" field.</summary>
-    public const int WhatsappPhoneNumberIdFieldNumber = 1;
-    private string whatsappPhoneNumberId_ = "";
-    /// <summary>
-    /// The number of the business that is conencting the call
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string WhatsappPhoneNumberId {
-      get { return whatsappPhoneNumberId_; }
-      set {
-        whatsappPhoneNumberId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "whatsapp_api_key" field.</summary>
-    public const int WhatsappApiKeyFieldNumber = 2;
-    private string whatsappApiKey_ = "";
-    /// <summary>
-    /// The API key of the business that is connecting the call
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string WhatsappApiKey {
-      get { return whatsappApiKey_; }
-      set {
-        whatsappApiKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "whatsapp_call_id" field.</summary>
-    public const int WhatsappCallIdFieldNumber = 3;
+    public const int WhatsappCallIdFieldNumber = 1;
     private string whatsappCallId_ = "";
     /// <summary>
-    /// Call ID sent by Meta
+    /// Required - Call ID sent by Meta
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1363,10 +1416,10 @@ namespace LiveKit.Proto {
     }
 
     /// <summary>Field number for the "sdp" field.</summary>
-    public const int SdpFieldNumber = 4;
+    public const int SdpFieldNumber = 2;
     private global::LiveKit.Proto.SessionDescription sdp_;
     /// <summary>
-    /// The call connect webhook comes with SDP from Meta
+    /// Required - The call connect webhook comes with SDP from Meta
     /// It is the answer SDP for a business initiated call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1393,8 +1446,6 @@ namespace LiveKit.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (WhatsappPhoneNumberId != other.WhatsappPhoneNumberId) return false;
-      if (WhatsappApiKey != other.WhatsappApiKey) return false;
       if (WhatsappCallId != other.WhatsappCallId) return false;
       if (!object.Equals(Sdp, other.Sdp)) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -1404,8 +1455,6 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (WhatsappPhoneNumberId.Length != 0) hash ^= WhatsappPhoneNumberId.GetHashCode();
-      if (WhatsappApiKey.Length != 0) hash ^= WhatsappApiKey.GetHashCode();
       if (WhatsappCallId.Length != 0) hash ^= WhatsappCallId.GetHashCode();
       if (sdp_ != null) hash ^= Sdp.GetHashCode();
       if (_unknownFields != null) {
@@ -1426,20 +1475,12 @@ namespace LiveKit.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (WhatsappPhoneNumberId.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(WhatsappPhoneNumberId);
-      }
-      if (WhatsappApiKey.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(WhatsappApiKey);
-      }
       if (WhatsappCallId.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(10);
         output.WriteString(WhatsappCallId);
       }
       if (sdp_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(18);
         output.WriteMessage(Sdp);
       }
       if (_unknownFields != null) {
@@ -1452,20 +1493,12 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (WhatsappPhoneNumberId.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(WhatsappPhoneNumberId);
-      }
-      if (WhatsappApiKey.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(WhatsappApiKey);
-      }
       if (WhatsappCallId.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(10);
         output.WriteString(WhatsappCallId);
       }
       if (sdp_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(18);
         output.WriteMessage(Sdp);
       }
       if (_unknownFields != null) {
@@ -1478,12 +1511,6 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (WhatsappPhoneNumberId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappPhoneNumberId);
-      }
-      if (WhatsappApiKey.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappApiKey);
-      }
       if (WhatsappCallId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappCallId);
       }
@@ -1501,12 +1528,6 @@ namespace LiveKit.Proto {
     public void MergeFrom(ConnectWhatsAppCallRequest other) {
       if (other == null) {
         return;
-      }
-      if (other.WhatsappPhoneNumberId.Length != 0) {
-        WhatsappPhoneNumberId = other.WhatsappPhoneNumberId;
-      }
-      if (other.WhatsappApiKey.Length != 0) {
-        WhatsappApiKey = other.WhatsappApiKey;
       }
       if (other.WhatsappCallId.Length != 0) {
         WhatsappCallId = other.WhatsappCallId;
@@ -1537,18 +1558,10 @@ namespace LiveKit.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            WhatsappPhoneNumberId = input.ReadString();
-            break;
-          }
-          case 18: {
-            WhatsappApiKey = input.ReadString();
-            break;
-          }
-          case 26: {
             WhatsappCallId = input.ReadString();
             break;
           }
-          case 34: {
+          case 18: {
             if (sdp_ == null) {
               Sdp = new global::LiveKit.Proto.SessionDescription();
             }
@@ -1575,18 +1588,10 @@ namespace LiveKit.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            WhatsappPhoneNumberId = input.ReadString();
-            break;
-          }
-          case 18: {
-            WhatsappApiKey = input.ReadString();
-            break;
-          }
-          case 26: {
             WhatsappCallId = input.ReadString();
             break;
           }
-          case 34: {
+          case 18: {
             if (sdp_ == null) {
               Sdp = new global::LiveKit.Proto.SessionDescription();
             }
@@ -1798,6 +1803,7 @@ namespace LiveKit.Proto {
     public AcceptWhatsAppCallRequest(AcceptWhatsAppCallRequest other) : this() {
       whatsappPhoneNumberId_ = other.whatsappPhoneNumberId_;
       whatsappApiKey_ = other.whatsappApiKey_;
+      whatsappCloudApiVersion_ = other.whatsappCloudApiVersion_;
       whatsappCallId_ = other.whatsappCallId_;
       whatsappBizOpaqueCallbackData_ = other.whatsappBizOpaqueCallbackData_;
       sdp_ = other.sdp_ != null ? other.sdp_.Clone() : null;
@@ -1821,7 +1827,7 @@ namespace LiveKit.Proto {
     public const int WhatsappPhoneNumberIdFieldNumber = 1;
     private string whatsappPhoneNumberId_ = "";
     /// <summary>
-    /// The number of the business that is conencting the call
+    /// Required - The number of the business that is conencting the call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1836,7 +1842,7 @@ namespace LiveKit.Proto {
     public const int WhatsappApiKeyFieldNumber = 2;
     private string whatsappApiKey_ = "";
     /// <summary>
-    /// The API key of the business that is connecting the call
+    /// Required - The API key of the business that is connecting the call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1847,11 +1853,26 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "whatsapp_cloud_api_version" field.</summary>
+    public const int WhatsappCloudApiVersionFieldNumber = 13;
+    private string whatsappCloudApiVersion_ = "";
+    /// <summary>
+    /// Required - WhatsApp Cloud API version, eg: 23.0, 24.0, etc.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string WhatsappCloudApiVersion {
+      get { return whatsappCloudApiVersion_; }
+      set {
+        whatsappCloudApiVersion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "whatsapp_call_id" field.</summary>
     public const int WhatsappCallIdFieldNumber = 3;
     private string whatsappCallId_ = "";
     /// <summary>
-    /// Call ID sent by Meta
+    /// Required - Call ID sent by Meta
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1866,7 +1887,7 @@ namespace LiveKit.Proto {
     public const int WhatsappBizOpaqueCallbackDataFieldNumber = 4;
     private string whatsappBizOpaqueCallbackData_ = "";
     /// <summary>
-    /// An arbitrary string you can pass in that is useful for tracking and logging purposes.
+    /// Optional - An arbitrary string you can pass in that is useful for tracking and logging purposes.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1881,7 +1902,7 @@ namespace LiveKit.Proto {
     public const int SdpFieldNumber = 5;
     private global::LiveKit.Proto.SessionDescription sdp_;
     /// <summary>
-    /// The call accept webhook comes with SDP from Meta
+    /// Required - The call accept webhook comes with SDP from Meta
     /// It is the for a user initiated call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1897,7 +1918,7 @@ namespace LiveKit.Proto {
     public const int RoomNameFieldNumber = 6;
     private string roomName_ = "";
     /// <summary>
-    /// What LiveKit room should this participant be connected too
+    /// Optional - What LiveKit room should this participant be connected too
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1914,7 +1935,7 @@ namespace LiveKit.Proto {
         = pb::FieldCodec.ForMessage(58, global::LiveKit.Proto.RoomAgentDispatch.Parser);
     private readonly pbc::RepeatedField<global::LiveKit.Proto.RoomAgentDispatch> agents_ = new pbc::RepeatedField<global::LiveKit.Proto.RoomAgentDispatch>();
     /// <summary>
-    /// Optional agents to dispatch the call to
+    /// Optional - Agents to dispatch the call to
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1926,7 +1947,7 @@ namespace LiveKit.Proto {
     public const int ParticipantIdentityFieldNumber = 8;
     private string participantIdentity_ = "";
     /// <summary>
-    /// Optional identity of the participant in LiveKit room
+    /// Optional - Identity of the participant in LiveKit room
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1941,7 +1962,7 @@ namespace LiveKit.Proto {
     public const int ParticipantNameFieldNumber = 9;
     private string participantName_ = "";
     /// <summary>
-    /// Optional name of the participant in LiveKit room
+    /// Optional - Name of the participant in LiveKit room
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1956,7 +1977,7 @@ namespace LiveKit.Proto {
     public const int ParticipantMetadataFieldNumber = 10;
     private string participantMetadata_ = "";
     /// <summary>
-    /// Optional user-defined metadata. Will be attached to a created Participant in the room.
+    /// Optional - User-defined metadata. Will be attached to a created Participant in the room.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1973,7 +1994,7 @@ namespace LiveKit.Proto {
         = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 90);
     private readonly pbc::MapField<string, string> participantAttributes_ = new pbc::MapField<string, string>();
     /// <summary>
-    /// Optional user-defined attributes. Will be attached to a created Participant in the room.
+    /// Optional - User-defined attributes. Will be attached to a created Participant in the room.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1985,7 +2006,7 @@ namespace LiveKit.Proto {
     public const int DestinationCountryFieldNumber = 12;
     private string destinationCountry_ = "";
     /// <summary>
-    /// Country where the call terminates as ISO 3166-1 alpha-2 (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). This will be used by the livekit infrastructure to route calls.
+    /// Optional - Country where the call terminates as ISO 3166-1 alpha-2 (https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). This will be used by the livekit infrastructure to route calls.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2013,6 +2034,7 @@ namespace LiveKit.Proto {
       }
       if (WhatsappPhoneNumberId != other.WhatsappPhoneNumberId) return false;
       if (WhatsappApiKey != other.WhatsappApiKey) return false;
+      if (WhatsappCloudApiVersion != other.WhatsappCloudApiVersion) return false;
       if (WhatsappCallId != other.WhatsappCallId) return false;
       if (WhatsappBizOpaqueCallbackData != other.WhatsappBizOpaqueCallbackData) return false;
       if (!object.Equals(Sdp, other.Sdp)) return false;
@@ -2032,6 +2054,7 @@ namespace LiveKit.Proto {
       int hash = 1;
       if (WhatsappPhoneNumberId.Length != 0) hash ^= WhatsappPhoneNumberId.GetHashCode();
       if (WhatsappApiKey.Length != 0) hash ^= WhatsappApiKey.GetHashCode();
+      if (WhatsappCloudApiVersion.Length != 0) hash ^= WhatsappCloudApiVersion.GetHashCode();
       if (WhatsappCallId.Length != 0) hash ^= WhatsappCallId.GetHashCode();
       if (WhatsappBizOpaqueCallbackData.Length != 0) hash ^= WhatsappBizOpaqueCallbackData.GetHashCode();
       if (sdp_ != null) hash ^= Sdp.GetHashCode();
@@ -2102,6 +2125,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(98);
         output.WriteString(DestinationCountry);
       }
+      if (WhatsappCloudApiVersion.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(WhatsappCloudApiVersion);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2154,6 +2181,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(98);
         output.WriteString(DestinationCountry);
       }
+      if (WhatsappCloudApiVersion.Length != 0) {
+        output.WriteRawTag(106);
+        output.WriteString(WhatsappCloudApiVersion);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2169,6 +2200,9 @@ namespace LiveKit.Proto {
       }
       if (WhatsappApiKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappApiKey);
+      }
+      if (WhatsappCloudApiVersion.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappCloudApiVersion);
       }
       if (WhatsappCallId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappCallId);
@@ -2213,6 +2247,9 @@ namespace LiveKit.Proto {
       }
       if (other.WhatsappApiKey.Length != 0) {
         WhatsappApiKey = other.WhatsappApiKey;
+      }
+      if (other.WhatsappCloudApiVersion.Length != 0) {
+        WhatsappCloudApiVersion = other.WhatsappCloudApiVersion;
       }
       if (other.WhatsappCallId.Length != 0) {
         WhatsappCallId = other.WhatsappCallId;
@@ -2313,6 +2350,10 @@ namespace LiveKit.Proto {
             DestinationCountry = input.ReadString();
             break;
           }
+          case 106: {
+            WhatsappCloudApiVersion = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2383,6 +2424,10 @@ namespace LiveKit.Proto {
             DestinationCountry = input.ReadString();
             break;
           }
+          case 106: {
+            WhatsappCloudApiVersion = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -2425,6 +2470,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AcceptWhatsAppCallResponse(AcceptWhatsAppCallResponse other) : this() {
+      roomName_ = other.roomName_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2432,6 +2478,21 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public AcceptWhatsAppCallResponse Clone() {
       return new AcceptWhatsAppCallResponse(this);
+    }
+
+    /// <summary>Field number for the "room_name" field.</summary>
+    public const int RoomNameFieldNumber = 1;
+    private string roomName_ = "";
+    /// <summary>
+    /// The name of the LiveKit room that the call is connected to
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string RoomName {
+      get { return roomName_; }
+      set {
+        roomName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2449,6 +2510,7 @@ namespace LiveKit.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (RoomName != other.RoomName) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2456,6 +2518,7 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (RoomName.Length != 0) hash ^= RoomName.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2474,6 +2537,10 @@ namespace LiveKit.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      if (RoomName.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RoomName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2484,6 +2551,10 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (RoomName.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(RoomName);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2494,6 +2565,9 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (RoomName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RoomName);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2505,6 +2579,9 @@ namespace LiveKit.Proto {
     public void MergeFrom(AcceptWhatsAppCallResponse other) {
       if (other == null) {
         return;
+      }
+      if (other.RoomName.Length != 0) {
+        RoomName = other.RoomName;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2525,6 +2602,10 @@ namespace LiveKit.Proto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 10: {
+            RoomName = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2544,6 +2625,10 @@ namespace LiveKit.Proto {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 10: {
+            RoomName = input.ReadString();
+            break;
+          }
         }
       }
     }

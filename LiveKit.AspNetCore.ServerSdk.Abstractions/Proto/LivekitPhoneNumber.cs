@@ -26,75 +26,80 @@ namespace LiveKit.Proto {
           string.Concat(
             "ChpsaXZla2l0X3Bob25lX251bWJlci5wcm90bxIHbGl2ZWtpdBofZ29vZ2xl",
             "L3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90bxoUbGl2ZWtpdF9tb2RlbHMucHJv",
-            "dG8igQEKGVNlYXJjaFBob25lTnVtYmVyc1JlcXVlc3QSFAoMY291bnRyeV9j",
-            "b2RlGAEgASgJEhEKCWFyZWFfY29kZRgCIAEoCRINCgVsaW1pdBgDIAEoBRIs",
-            "CgpwYWdlX3Rva2VuGAQgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2luYXRpb24i",
-            "dAoaU2VhcmNoUGhvbmVOdW1iZXJzUmVzcG9uc2USIwoFaXRlbXMYASADKAsy",
-            "FC5saXZla2l0LlBob25lTnVtYmVyEjEKD25leHRfcGFnZV90b2tlbhgCIAEo",
-            "CzIYLmxpdmVraXQuVG9rZW5QYWdpbmF0aW9uIlEKGlB1cmNoYXNlUGhvbmVO",
-            "dW1iZXJSZXF1ZXN0EhUKDXBob25lX251bWJlcnMYASADKAkSHAoUc2lwX2Rp",
-            "c3BhdGNoX3J1bGVfaWQYAiABKAkiSgobUHVyY2hhc2VQaG9uZU51bWJlclJl",
-            "c3BvbnNlEisKDXBob25lX251bWJlcnMYASADKAsyFC5saXZla2l0LlBob25l",
-            "TnVtYmVyIqABChdMaXN0UGhvbmVOdW1iZXJzUmVxdWVzdBINCgVsaW1pdBgB",
-            "IAEoBRIqCgZzdGF0dXMYAiABKA4yGi5saXZla2l0LlBob25lTnVtYmVyU3Rh",
-            "dHVzEiwKCnBhZ2VfdG9rZW4YAyABKAsyGC5saXZla2l0LlRva2VuUGFnaW5h",
-            "dGlvbhIcChRzaXBfZGlzcGF0Y2hfcnVsZV9pZBgEIAEoCSKHAQoYTGlzdFBo",
-            "b25lTnVtYmVyc1Jlc3BvbnNlEiMKBWl0ZW1zGAEgAygLMhQubGl2ZWtpdC5Q",
-            "aG9uZU51bWJlchIxCg9uZXh0X3BhZ2VfdG9rZW4YAiABKAsyGC5saXZla2l0",
-            "LlRva2VuUGFnaW5hdGlvbhITCgt0b3RhbF9jb3VudBgDIAEoBSI5ChVHZXRQ",
-            "aG9uZU51bWJlclJlcXVlc3QSCgoCaWQYASABKAkSFAoMcGhvbmVfbnVtYmVy",
-            "GAIgASgJIkQKFkdldFBob25lTnVtYmVyUmVzcG9uc2USKgoMcGhvbmVfbnVt",
-            "YmVyGAEgASgLMhQubGl2ZWtpdC5QaG9uZU51bWJlciJaChhVcGRhdGVQaG9u",
-            "ZU51bWJlclJlcXVlc3QSCgoCaWQYASABKAkSFAoMcGhvbmVfbnVtYmVyGAIg",
-            "ASgJEhwKFHNpcF9kaXNwYXRjaF9ydWxlX2lkGAMgASgJIkcKGVVwZGF0ZVBo",
-            "b25lTnVtYmVyUmVzcG9uc2USKgoMcGhvbmVfbnVtYmVyGAEgASgLMhQubGl2",
-            "ZWtpdC5QaG9uZU51bWJlciJAChpSZWxlYXNlUGhvbmVOdW1iZXJzUmVxdWVz",
-            "dBILCgNpZHMYASADKAkSFQoNcGhvbmVfbnVtYmVycxgCIAMoCSIdChtSZWxl",
-            "YXNlUGhvbmVOdW1iZXJzUmVzcG9uc2Ui3gMKC1Bob25lTnVtYmVyEgoKAmlk",
-            "GAEgASgJEhMKC2UxNjRfZm9ybWF0GAIgASgJEhQKDGNvdW50cnlfY29kZRgD",
-            "IAEoCRIRCglhcmVhX2NvZGUYBCABKAkSLQoLbnVtYmVyX3R5cGUYBSABKA4y",
-            "GC5saXZla2l0LlBob25lTnVtYmVyVHlwZRIQCghsb2NhbGl0eRgGIAEoCRIO",
-            "CgZyZWdpb24YByABKAkSEgoKc3BhbV9zY29yZRgIIAEoARIuCgpjcmVhdGVk",
-            "X2F0GAkgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIuCgp1cGRh",
-            "dGVkX2F0GAogASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIUCgxj",
-            "YXBhYmlsaXRpZXMYCyADKAkSKgoGc3RhdHVzGAwgASgOMhoubGl2ZWtpdC5Q",
-            "aG9uZU51bWJlclN0YXR1cxIvCgthc3NpZ25lZF9hdBgNIAEoCzIaLmdvb2ds",
-            "ZS5wcm90b2J1Zi5UaW1lc3RhbXASLwoLcmVsZWFzZWRfYXQYDiABKAsyGi5n",
-            "b29nbGUucHJvdG9idWYuVGltZXN0YW1wEhwKFHNpcF9kaXNwYXRjaF9ydWxl",
-            "X2lkGA8gASgJKpsBChFQaG9uZU51bWJlclN0YXR1cxIjCh9QSE9ORV9OVU1C",
-            "RVJfU1RBVFVTX1VOU1BFQ0lGSUVEEAASHgoaUEhPTkVfTlVNQkVSX1NUQVRV",
-            "U19BQ1RJVkUQARIfChtQSE9ORV9OVU1CRVJfU1RBVFVTX1BFTkRJTkcQAhIg",
-            "ChxQSE9ORV9OVU1CRVJfU1RBVFVTX1JFTEVBU0VEEAMqjAEKD1Bob25lTnVt",
-            "YmVyVHlwZRIdChlQSE9ORV9OVU1CRVJfVFlQRV9VTktOT1dOEAASHAoYUEhP",
-            "TkVfTlVNQkVSX1RZUEVfTU9CSUxFEAESGwoXUEhPTkVfTlVNQkVSX1RZUEVf",
-            "TE9DQUwQAhIfChtQSE9ORV9OVU1CRVJfVFlQRV9UT0xMX0ZSRUUQAzLLBAoS",
-            "UGhvbmVOdW1iZXJTZXJ2aWNlEl8KElNlYXJjaFBob25lTnVtYmVycxIiLmxp",
-            "dmVraXQuU2VhcmNoUGhvbmVOdW1iZXJzUmVxdWVzdBojLmxpdmVraXQuU2Vh",
-            "cmNoUGhvbmVOdW1iZXJzUmVzcG9uc2UiABJiChNQdXJjaGFzZVBob25lTnVt",
-            "YmVyEiMubGl2ZWtpdC5QdXJjaGFzZVBob25lTnVtYmVyUmVxdWVzdBokLmxp",
-            "dmVraXQuUHVyY2hhc2VQaG9uZU51bWJlclJlc3BvbnNlIgASWQoQTGlzdFBo",
-            "b25lTnVtYmVycxIgLmxpdmVraXQuTGlzdFBob25lTnVtYmVyc1JlcXVlc3Qa",
-            "IS5saXZla2l0Lkxpc3RQaG9uZU51bWJlcnNSZXNwb25zZSIAElMKDkdldFBo",
-            "b25lTnVtYmVyEh4ubGl2ZWtpdC5HZXRQaG9uZU51bWJlclJlcXVlc3QaHy5s",
-            "aXZla2l0LkdldFBob25lTnVtYmVyUmVzcG9uc2UiABJcChFVcGRhdGVQaG9u",
-            "ZU51bWJlchIhLmxpdmVraXQuVXBkYXRlUGhvbmVOdW1iZXJSZXF1ZXN0GiIu",
-            "bGl2ZWtpdC5VcGRhdGVQaG9uZU51bWJlclJlc3BvbnNlIgASYgoTUmVsZWFz",
-            "ZVBob25lTnVtYmVycxIjLmxpdmVraXQuUmVsZWFzZVBob25lTnVtYmVyc1Jl",
-            "cXVlc3QaJC5saXZla2l0LlJlbGVhc2VQaG9uZU51bWJlcnNSZXNwb25zZSIA",
-            "QiVaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0YgZwcm90",
-            "bzM="));
+            "dG8itwEKGVNlYXJjaFBob25lTnVtYmVyc1JlcXVlc3QSFAoMY291bnRyeV9j",
+            "b2RlGAEgASgJEhYKCWFyZWFfY29kZRgCIAEoCUgAiAEBEhIKBWxpbWl0GAMg",
+            "ASgFSAGIAQESMQoKcGFnZV90b2tlbhgEIAEoCzIYLmxpdmVraXQuVG9rZW5Q",
+            "YWdpbmF0aW9uSAKIAQFCDAoKX2FyZWFfY29kZUIICgZfbGltaXRCDQoLX3Bh",
+            "Z2VfdG9rZW4idAoaU2VhcmNoUGhvbmVOdW1iZXJzUmVzcG9uc2USIwoFaXRl",
+            "bXMYASADKAsyFC5saXZla2l0LlBob25lTnVtYmVyEjEKD25leHRfcGFnZV90",
+            "b2tlbhgCIAEoCzIYLmxpdmVraXQuVG9rZW5QYWdpbmF0aW9uIm8KGlB1cmNo",
+            "YXNlUGhvbmVOdW1iZXJSZXF1ZXN0EhUKDXBob25lX251bWJlcnMYASADKAkS",
+            "IQoUc2lwX2Rpc3BhdGNoX3J1bGVfaWQYAiABKAlIAIgBAUIXChVfc2lwX2Rp",
+            "c3BhdGNoX3J1bGVfaWQiSgobUHVyY2hhc2VQaG9uZU51bWJlclJlc3BvbnNl",
+            "EisKDXBob25lX251bWJlcnMYASADKAsyFC5saXZla2l0LlBob25lTnVtYmVy",
+            "IuMBChdMaXN0UGhvbmVOdW1iZXJzUmVxdWVzdBISCgVsaW1pdBgBIAEoBUgA",
+            "iAEBEiwKCHN0YXR1c2VzGAIgAygOMhoubGl2ZWtpdC5QaG9uZU51bWJlclN0",
+            "YXR1cxIxCgpwYWdlX3Rva2VuGAMgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2lu",
+            "YXRpb25IAYgBARIhChRzaXBfZGlzcGF0Y2hfcnVsZV9pZBgEIAEoCUgCiAEB",
+            "QggKBl9saW1pdEINCgtfcGFnZV90b2tlbkIXChVfc2lwX2Rpc3BhdGNoX3J1",
+            "bGVfaWQihwEKGExpc3RQaG9uZU51bWJlcnNSZXNwb25zZRIjCgVpdGVtcxgB",
+            "IAMoCzIULmxpdmVraXQuUGhvbmVOdW1iZXISMQoPbmV4dF9wYWdlX3Rva2Vu",
+            "GAIgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2luYXRpb24SEwoLdG90YWxfY291",
+            "bnQYAyABKAUiWwoVR2V0UGhvbmVOdW1iZXJSZXF1ZXN0Eg8KAmlkGAEgASgJ",
+            "SACIAQESGQoMcGhvbmVfbnVtYmVyGAIgASgJSAGIAQFCBQoDX2lkQg8KDV9w",
+            "aG9uZV9udW1iZXIiRAoWR2V0UGhvbmVOdW1iZXJSZXNwb25zZRIqCgxwaG9u",
+            "ZV9udW1iZXIYASABKAsyFC5saXZla2l0LlBob25lTnVtYmVyIpoBChhVcGRh",
+            "dGVQaG9uZU51bWJlclJlcXVlc3QSDwoCaWQYASABKAlIAIgBARIZCgxwaG9u",
+            "ZV9udW1iZXIYAiABKAlIAYgBARIhChRzaXBfZGlzcGF0Y2hfcnVsZV9pZBgD",
+            "IAEoCUgCiAEBQgUKA19pZEIPCg1fcGhvbmVfbnVtYmVyQhcKFV9zaXBfZGlz",
+            "cGF0Y2hfcnVsZV9pZCJHChlVcGRhdGVQaG9uZU51bWJlclJlc3BvbnNlEioK",
+            "DHBob25lX251bWJlchgBIAEoCzIULmxpdmVraXQuUGhvbmVOdW1iZXIiQAoa",
+            "UmVsZWFzZVBob25lTnVtYmVyc1JlcXVlc3QSCwoDaWRzGAEgAygJEhUKDXBo",
+            "b25lX251bWJlcnMYAiADKAkiHQobUmVsZWFzZVBob25lTnVtYmVyc1Jlc3Bv",
+            "bnNlIt4DCgtQaG9uZU51bWJlchIKCgJpZBgBIAEoCRITCgtlMTY0X2Zvcm1h",
+            "dBgCIAEoCRIUCgxjb3VudHJ5X2NvZGUYAyABKAkSEQoJYXJlYV9jb2RlGAQg",
+            "ASgJEi0KC251bWJlcl90eXBlGAUgASgOMhgubGl2ZWtpdC5QaG9uZU51bWJl",
+            "clR5cGUSEAoIbG9jYWxpdHkYBiABKAkSDgoGcmVnaW9uGAcgASgJEhIKCnNw",
+            "YW1fc2NvcmUYCCABKAESLgoKY3JlYXRlZF9hdBgJIAEoCzIaLmdvb2dsZS5w",
+            "cm90b2J1Zi5UaW1lc3RhbXASLgoKdXBkYXRlZF9hdBgKIAEoCzIaLmdvb2ds",
+            "ZS5wcm90b2J1Zi5UaW1lc3RhbXASFAoMY2FwYWJpbGl0aWVzGAsgAygJEioK",
+            "BnN0YXR1cxgMIAEoDjIaLmxpdmVraXQuUGhvbmVOdW1iZXJTdGF0dXMSLwoL",
+            "YXNzaWduZWRfYXQYDSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1w",
+            "Ei8KC3JlbGVhc2VkX2F0GA4gASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
+            "dGFtcBIcChRzaXBfZGlzcGF0Y2hfcnVsZV9pZBgPIAEoCSqbAQoRUGhvbmVO",
+            "dW1iZXJTdGF0dXMSIwofUEhPTkVfTlVNQkVSX1NUQVRVU19VTlNQRUNJRklF",
+            "RBAAEh4KGlBIT05FX05VTUJFUl9TVEFUVVNfQUNUSVZFEAESHwobUEhPTkVf",
+            "TlVNQkVSX1NUQVRVU19QRU5ESU5HEAISIAocUEhPTkVfTlVNQkVSX1NUQVRV",
+            "U19SRUxFQVNFRBADKowBCg9QaG9uZU51bWJlclR5cGUSHQoZUEhPTkVfTlVN",
+            "QkVSX1RZUEVfVU5LTk9XThAAEhwKGFBIT05FX05VTUJFUl9UWVBFX01PQklM",
+            "RRABEhsKF1BIT05FX05VTUJFUl9UWVBFX0xPQ0FMEAISHwobUEhPTkVfTlVN",
+            "QkVSX1RZUEVfVE9MTF9GUkVFEAMyywQKElBob25lTnVtYmVyU2VydmljZRJf",
+            "ChJTZWFyY2hQaG9uZU51bWJlcnMSIi5saXZla2l0LlNlYXJjaFBob25lTnVt",
+            "YmVyc1JlcXVlc3QaIy5saXZla2l0LlNlYXJjaFBob25lTnVtYmVyc1Jlc3Bv",
+            "bnNlIgASYgoTUHVyY2hhc2VQaG9uZU51bWJlchIjLmxpdmVraXQuUHVyY2hh",
+            "c2VQaG9uZU51bWJlclJlcXVlc3QaJC5saXZla2l0LlB1cmNoYXNlUGhvbmVO",
+            "dW1iZXJSZXNwb25zZSIAElkKEExpc3RQaG9uZU51bWJlcnMSIC5saXZla2l0",
+            "Lkxpc3RQaG9uZU51bWJlcnNSZXF1ZXN0GiEubGl2ZWtpdC5MaXN0UGhvbmVO",
+            "dW1iZXJzUmVzcG9uc2UiABJTCg5HZXRQaG9uZU51bWJlchIeLmxpdmVraXQu",
+            "R2V0UGhvbmVOdW1iZXJSZXF1ZXN0Gh8ubGl2ZWtpdC5HZXRQaG9uZU51bWJl",
+            "clJlc3BvbnNlIgASXAoRVXBkYXRlUGhvbmVOdW1iZXISIS5saXZla2l0LlVw",
+            "ZGF0ZVBob25lTnVtYmVyUmVxdWVzdBoiLmxpdmVraXQuVXBkYXRlUGhvbmVO",
+            "dW1iZXJSZXNwb25zZSIAEmIKE1JlbGVhc2VQaG9uZU51bWJlcnMSIy5saXZl",
+            "a2l0LlJlbGVhc2VQaG9uZU51bWJlcnNSZXF1ZXN0GiQubGl2ZWtpdC5SZWxl",
+            "YXNlUGhvbmVOdW1iZXJzUmVzcG9uc2UiAEI1WiNnaXRodWIuY29tL2xpdmVr",
+            "aXQvcHJvdG9jb2wvbGl2ZWtpdKoCDUxpdmVLaXQuUHJvdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.PhoneNumberStatus), typeof(global::LiveKit.Proto.PhoneNumberType), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SearchPhoneNumbersRequest), global::LiveKit.Proto.SearchPhoneNumbersRequest.Parser, new[]{ "CountryCode", "AreaCode", "Limit", "PageToken" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SearchPhoneNumbersRequest), global::LiveKit.Proto.SearchPhoneNumbersRequest.Parser, new[]{ "CountryCode", "AreaCode", "Limit", "PageToken" }, new[]{ "AreaCode", "Limit", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SearchPhoneNumbersResponse), global::LiveKit.Proto.SearchPhoneNumbersResponse.Parser, new[]{ "Items", "NextPageToken" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PurchasePhoneNumberRequest), global::LiveKit.Proto.PurchasePhoneNumberRequest.Parser, new[]{ "PhoneNumbers", "SipDispatchRuleId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PurchasePhoneNumberRequest), global::LiveKit.Proto.PurchasePhoneNumberRequest.Parser, new[]{ "PhoneNumbers", "SipDispatchRuleId" }, new[]{ "SipDispatchRuleId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PurchasePhoneNumberResponse), global::LiveKit.Proto.PurchasePhoneNumberResponse.Parser, new[]{ "PhoneNumbers" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListPhoneNumbersRequest), global::LiveKit.Proto.ListPhoneNumbersRequest.Parser, new[]{ "Limit", "Status", "PageToken", "SipDispatchRuleId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListPhoneNumbersRequest), global::LiveKit.Proto.ListPhoneNumbersRequest.Parser, new[]{ "Limit", "Statuses", "PageToken", "SipDispatchRuleId" }, new[]{ "Limit", "PageToken", "SipDispatchRuleId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListPhoneNumbersResponse), global::LiveKit.Proto.ListPhoneNumbersResponse.Parser, new[]{ "Items", "NextPageToken", "TotalCount" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetPhoneNumberRequest), global::LiveKit.Proto.GetPhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetPhoneNumberRequest), global::LiveKit.Proto.GetPhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber" }, new[]{ "Id", "PhoneNumber" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetPhoneNumberResponse), global::LiveKit.Proto.GetPhoneNumberResponse.Parser, new[]{ "PhoneNumber" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdatePhoneNumberRequest), global::LiveKit.Proto.UpdatePhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdatePhoneNumberRequest), global::LiveKit.Proto.UpdatePhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId" }, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdatePhoneNumberResponse), global::LiveKit.Proto.UpdatePhoneNumberResponse.Parser, new[]{ "PhoneNumber" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ReleasePhoneNumbersRequest), global::LiveKit.Proto.ReleasePhoneNumbersRequest.Parser, new[]{ "Ids", "PhoneNumbers" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ReleasePhoneNumbersResponse), global::LiveKit.Proto.ReleasePhoneNumbersResponse.Parser, null, null, null, null, null),
@@ -163,6 +168,7 @@ namespace LiveKit.Proto {
   {
     private static readonly pb::MessageParser<SearchPhoneNumbersRequest> _parser = new pb::MessageParser<SearchPhoneNumbersRequest>(() => new SearchPhoneNumbersRequest());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<SearchPhoneNumbersRequest> Parser { get { return _parser; } }
@@ -190,6 +196,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public SearchPhoneNumbersRequest(SearchPhoneNumbersRequest other) : this() {
+      _hasBits0 = other._hasBits0;
       countryCode_ = other.countryCode_;
       areaCode_ = other.areaCode_;
       limit_ = other.limit_;
@@ -207,7 +214,7 @@ namespace LiveKit.Proto {
     public const int CountryCodeFieldNumber = 1;
     private string countryCode_ = "";
     /// <summary>
-    /// Optional: Filter by country code (e.g., "US", "CA")
+    /// Filter by country code (e.g., "US", "CA")
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -220,39 +227,68 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "area_code" field.</summary>
     public const int AreaCodeFieldNumber = 2;
-    private string areaCode_ = "";
+    private readonly static string AreaCodeDefaultValue = "";
+
+    private string areaCode_;
     /// <summary>
-    /// Optional: Filter by area code (e.g., "415")
+    /// Filter by area code (e.g., "415")
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string AreaCode {
-      get { return areaCode_; }
+      get { return areaCode_ ?? AreaCodeDefaultValue; }
       set {
         areaCode_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
+    /// <summary>Gets whether the "area_code" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasAreaCode {
+      get { return areaCode_ != null; }
+    }
+    /// <summary>Clears the value of the "area_code" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAreaCode() {
+      areaCode_ = null;
+    }
 
     /// <summary>Field number for the "limit" field.</summary>
     public const int LimitFieldNumber = 3;
+    private readonly static int LimitDefaultValue = 0;
+
     private int limit_;
     /// <summary>
-    /// Optional: Maximum number of results (default: 50)
+    /// Maximum number of results (default: 50)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Limit {
-      get { return limit_; }
+      get { if ((_hasBits0 & 1) != 0) { return limit_; } else { return LimitDefaultValue; } }
       set {
+        _hasBits0 |= 1;
         limit_ = value;
       }
+    }
+    /// <summary>Gets whether the "limit" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasLimit {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "limit" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearLimit() {
+      _hasBits0 &= ~1;
     }
 
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 4;
     private global::LiveKit.Proto.TokenPagination pageToken_;
     /// <summary>
-    /// Optional: Token for pagination (empty for first page)
+    /// Token for pagination (empty for first page)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -290,8 +326,8 @@ namespace LiveKit.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (CountryCode.Length != 0) hash ^= CountryCode.GetHashCode();
-      if (AreaCode.Length != 0) hash ^= AreaCode.GetHashCode();
-      if (Limit != 0) hash ^= Limit.GetHashCode();
+      if (HasAreaCode) hash ^= AreaCode.GetHashCode();
+      if (HasLimit) hash ^= Limit.GetHashCode();
       if (pageToken_ != null) hash ^= PageToken.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -315,11 +351,11 @@ namespace LiveKit.Proto {
         output.WriteRawTag(10);
         output.WriteString(CountryCode);
       }
-      if (AreaCode.Length != 0) {
+      if (HasAreaCode) {
         output.WriteRawTag(18);
         output.WriteString(AreaCode);
       }
-      if (Limit != 0) {
+      if (HasLimit) {
         output.WriteRawTag(24);
         output.WriteInt32(Limit);
       }
@@ -341,11 +377,11 @@ namespace LiveKit.Proto {
         output.WriteRawTag(10);
         output.WriteString(CountryCode);
       }
-      if (AreaCode.Length != 0) {
+      if (HasAreaCode) {
         output.WriteRawTag(18);
         output.WriteString(AreaCode);
       }
-      if (Limit != 0) {
+      if (HasLimit) {
         output.WriteRawTag(24);
         output.WriteInt32(Limit);
       }
@@ -366,10 +402,10 @@ namespace LiveKit.Proto {
       if (CountryCode.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(CountryCode);
       }
-      if (AreaCode.Length != 0) {
+      if (HasAreaCode) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AreaCode);
       }
-      if (Limit != 0) {
+      if (HasLimit) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Limit);
       }
       if (pageToken_ != null) {
@@ -390,10 +426,10 @@ namespace LiveKit.Proto {
       if (other.CountryCode.Length != 0) {
         CountryCode = other.CountryCode;
       }
-      if (other.AreaCode.Length != 0) {
+      if (other.HasAreaCode) {
         AreaCode = other.AreaCode;
       }
-      if (other.Limit != 0) {
+      if (other.HasLimit) {
         Limit = other.Limit;
       }
       if (other.pageToken_ != null) {
@@ -792,17 +828,31 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "sip_dispatch_rule_id" field.</summary>
     public const int SipDispatchRuleIdFieldNumber = 2;
-    private string sipDispatchRuleId_ = "";
+    private readonly static string SipDispatchRuleIdDefaultValue = "";
+
+    private string sipDispatchRuleId_;
     /// <summary>
-    /// Optional: SIP dispatch rule ID to apply to all purchased numbers
+    /// SIP dispatch rule ID to apply to all purchased numbers
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SipDispatchRuleId {
-      get { return sipDispatchRuleId_; }
+      get { return sipDispatchRuleId_ ?? SipDispatchRuleIdDefaultValue; }
       set {
         sipDispatchRuleId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+    /// <summary>Gets whether the "sip_dispatch_rule_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSipDispatchRuleId {
+      get { return sipDispatchRuleId_ != null; }
+    }
+    /// <summary>Clears the value of the "sip_dispatch_rule_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSipDispatchRuleId() {
+      sipDispatchRuleId_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -830,7 +880,7 @@ namespace LiveKit.Proto {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= phoneNumbers_.GetHashCode();
-      if (SipDispatchRuleId.Length != 0) hash ^= SipDispatchRuleId.GetHashCode();
+      if (HasSipDispatchRuleId) hash ^= SipDispatchRuleId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -850,7 +900,7 @@ namespace LiveKit.Proto {
       output.WriteRawMessage(this);
     #else
       phoneNumbers_.WriteTo(output, _repeated_phoneNumbers_codec);
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         output.WriteRawTag(18);
         output.WriteString(SipDispatchRuleId);
       }
@@ -865,7 +915,7 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       phoneNumbers_.WriteTo(ref output, _repeated_phoneNumbers_codec);
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         output.WriteRawTag(18);
         output.WriteString(SipDispatchRuleId);
       }
@@ -880,7 +930,7 @@ namespace LiveKit.Proto {
     public int CalculateSize() {
       int size = 0;
       size += phoneNumbers_.CalculateSize(_repeated_phoneNumbers_codec);
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SipDispatchRuleId);
       }
       if (_unknownFields != null) {
@@ -896,7 +946,7 @@ namespace LiveKit.Proto {
         return;
       }
       phoneNumbers_.Add(other.phoneNumbers_);
-      if (other.SipDispatchRuleId.Length != 0) {
+      if (other.HasSipDispatchRuleId) {
         SipDispatchRuleId = other.SipDispatchRuleId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1164,6 +1214,7 @@ namespace LiveKit.Proto {
   {
     private static readonly pb::MessageParser<ListPhoneNumbersRequest> _parser = new pb::MessageParser<ListPhoneNumbersRequest>(() => new ListPhoneNumbersRequest());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<ListPhoneNumbersRequest> Parser { get { return _parser; } }
@@ -1191,8 +1242,9 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListPhoneNumbersRequest(ListPhoneNumbersRequest other) : this() {
+      _hasBits0 = other._hasBits0;
       limit_ = other.limit_;
-      status_ = other.status_;
+      statuses_ = other.statuses_.Clone();
       pageToken_ = other.pageToken_ != null ? other.pageToken_.Clone() : null;
       sipDispatchRuleId_ = other.sipDispatchRuleId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -1206,39 +1258,53 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "limit" field.</summary>
     public const int LimitFieldNumber = 1;
+    private readonly static int LimitDefaultValue = 0;
+
     private int limit_;
     /// <summary>
-    /// Optional: Maximum number of results (default: 50)
+    /// Maximum number of results (default: 50)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int Limit {
-      get { return limit_; }
+      get { if ((_hasBits0 & 1) != 0) { return limit_; } else { return LimitDefaultValue; } }
       set {
+        _hasBits0 |= 1;
         limit_ = value;
       }
     }
+    /// <summary>Gets whether the "limit" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasLimit {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "limit" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearLimit() {
+      _hasBits0 &= ~1;
+    }
 
-    /// <summary>Field number for the "status" field.</summary>
-    public const int StatusFieldNumber = 2;
-    private global::LiveKit.Proto.PhoneNumberStatus status_ = global::LiveKit.Proto.PhoneNumberStatus.Unspecified;
+    /// <summary>Field number for the "statuses" field.</summary>
+    public const int StatusesFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::LiveKit.Proto.PhoneNumberStatus> _repeated_statuses_codec
+        = pb::FieldCodec.ForEnum(18, x => (int) x, x => (global::LiveKit.Proto.PhoneNumberStatus) x);
+    private readonly pbc::RepeatedField<global::LiveKit.Proto.PhoneNumberStatus> statuses_ = new pbc::RepeatedField<global::LiveKit.Proto.PhoneNumberStatus>();
     /// <summary>
-    /// Optional: Filter by status (active, pending, released)
+    /// Filter by statuses (active, pending, released)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::LiveKit.Proto.PhoneNumberStatus Status {
-      get { return status_; }
-      set {
-        status_ = value;
-      }
+    public pbc::RepeatedField<global::LiveKit.Proto.PhoneNumberStatus> Statuses {
+      get { return statuses_; }
     }
 
     /// <summary>Field number for the "page_token" field.</summary>
     public const int PageTokenFieldNumber = 3;
     private global::LiveKit.Proto.TokenPagination pageToken_;
     /// <summary>
-    /// Optional: Token for pagination (empty for first page)
+    /// Token for pagination (empty for first page)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1251,17 +1317,31 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "sip_dispatch_rule_id" field.</summary>
     public const int SipDispatchRuleIdFieldNumber = 4;
-    private string sipDispatchRuleId_ = "";
+    private readonly static string SipDispatchRuleIdDefaultValue = "";
+
+    private string sipDispatchRuleId_;
     /// <summary>
-    /// Optional: Filter by SIP dispatch rule ID
+    /// Filter by SIP dispatch rule ID
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SipDispatchRuleId {
-      get { return sipDispatchRuleId_; }
+      get { return sipDispatchRuleId_ ?? SipDispatchRuleIdDefaultValue; }
       set {
         sipDispatchRuleId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+    /// <summary>Gets whether the "sip_dispatch_rule_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSipDispatchRuleId {
+      get { return sipDispatchRuleId_ != null; }
+    }
+    /// <summary>Clears the value of the "sip_dispatch_rule_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSipDispatchRuleId() {
+      sipDispatchRuleId_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1280,7 +1360,7 @@ namespace LiveKit.Proto {
         return true;
       }
       if (Limit != other.Limit) return false;
-      if (Status != other.Status) return false;
+      if(!statuses_.Equals(other.statuses_)) return false;
       if (!object.Equals(PageToken, other.PageToken)) return false;
       if (SipDispatchRuleId != other.SipDispatchRuleId) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -1290,10 +1370,10 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Limit != 0) hash ^= Limit.GetHashCode();
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) hash ^= Status.GetHashCode();
+      if (HasLimit) hash ^= Limit.GetHashCode();
+      hash ^= statuses_.GetHashCode();
       if (pageToken_ != null) hash ^= PageToken.GetHashCode();
-      if (SipDispatchRuleId.Length != 0) hash ^= SipDispatchRuleId.GetHashCode();
+      if (HasSipDispatchRuleId) hash ^= SipDispatchRuleId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1312,19 +1392,16 @@ namespace LiveKit.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Limit != 0) {
+      if (HasLimit) {
         output.WriteRawTag(8);
         output.WriteInt32(Limit);
       }
-      if (Status != global::Livekit.PhoneNumberStatus.Unspecified) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) Status);
-      }
+      statuses_.WriteTo(output, _repeated_statuses_codec);
       if (pageToken_ != null) {
         output.WriteRawTag(26);
         output.WriteMessage(PageToken);
       }
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         output.WriteRawTag(34);
         output.WriteString(SipDispatchRuleId);
       }
@@ -1338,19 +1415,16 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Limit != 0) {
+      if (HasLimit) {
         output.WriteRawTag(8);
         output.WriteInt32(Limit);
       }
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
-        output.WriteRawTag(16);
-        output.WriteEnum((int) Status);
-      }
+      statuses_.WriteTo(ref output, _repeated_statuses_codec);
       if (pageToken_ != null) {
         output.WriteRawTag(26);
         output.WriteMessage(PageToken);
       }
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         output.WriteRawTag(34);
         output.WriteString(SipDispatchRuleId);
       }
@@ -1364,16 +1438,14 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Limit != 0) {
+      if (HasLimit) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Limit);
       }
-      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
-      }
+      size += statuses_.CalculateSize(_repeated_statuses_codec);
       if (pageToken_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PageToken);
       }
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SipDispatchRuleId);
       }
       if (_unknownFields != null) {
@@ -1388,19 +1460,17 @@ namespace LiveKit.Proto {
       if (other == null) {
         return;
       }
-      if (other.Limit != 0) {
+      if (other.HasLimit) {
         Limit = other.Limit;
       }
-      if (other.Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
-        Status = other.Status;
-      }
+      statuses_.Add(other.statuses_);
       if (other.pageToken_ != null) {
         if (pageToken_ == null) {
           PageToken = new global::LiveKit.Proto.TokenPagination();
         }
         PageToken.MergeFrom(other.PageToken);
       }
-      if (other.SipDispatchRuleId.Length != 0) {
+      if (other.HasSipDispatchRuleId) {
         SipDispatchRuleId = other.SipDispatchRuleId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1426,8 +1496,9 @@ namespace LiveKit.Proto {
             Limit = input.ReadInt32();
             break;
           }
+          case 18:
           case 16: {
-            Status = (global::Livekit.PhoneNumberStatus) input.ReadEnum();
+            statuses_.AddEntriesFrom(input, _repeated_statuses_codec);
             break;
           }
           case 26: {
@@ -1464,8 +1535,9 @@ namespace LiveKit.Proto {
             Limit = input.ReadInt32();
             break;
           }
+          case 18:
           case 16: {
-            Status = (global::LiveKit.Proto.PhoneNumberStatus) input.ReadEnum();
+            statuses_.AddEntriesFrom(ref input, _repeated_statuses_codec);
             break;
           }
           case 26: {
@@ -1819,32 +1891,60 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
-    private string id_ = "";
+    private readonly static string IdDefaultValue = "";
+
+    private string id_;
     /// <summary>
-    /// Optional: Use phone number ID for direct lookup
+    /// Use phone number ID for direct lookup
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
-      get { return id_; }
+      get { return id_ ?? IdDefaultValue; }
       set {
         id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
+    /// <summary>Gets whether the "id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasId {
+      get { return id_ != null; }
+    }
+    /// <summary>Clears the value of the "id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearId() {
+      id_ = null;
+    }
 
     /// <summary>Field number for the "phone_number" field.</summary>
     public const int PhoneNumberFieldNumber = 2;
-    private string phoneNumber_ = "";
+    private readonly static string PhoneNumberDefaultValue = "";
+
+    private string phoneNumber_;
     /// <summary>
-    /// Optional: Use phone number string for lookup
+    /// Use phone number string for lookup
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PhoneNumber {
-      get { return phoneNumber_; }
+      get { return phoneNumber_ ?? PhoneNumberDefaultValue; }
       set {
         phoneNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+    /// <summary>Gets whether the "phone_number" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPhoneNumber {
+      get { return phoneNumber_ != null; }
+    }
+    /// <summary>Clears the value of the "phone_number" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPhoneNumber() {
+      phoneNumber_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1871,8 +1971,8 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id.Length != 0) hash ^= Id.GetHashCode();
-      if (PhoneNumber.Length != 0) hash ^= PhoneNumber.GetHashCode();
+      if (HasId) hash ^= Id.GetHashCode();
+      if (HasPhoneNumber) hash ^= PhoneNumber.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1891,11 +1991,11 @@ namespace LiveKit.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id.Length != 0) {
+      if (HasId) {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      if (PhoneNumber.Length != 0) {
+      if (HasPhoneNumber) {
         output.WriteRawTag(18);
         output.WriteString(PhoneNumber);
       }
@@ -1909,11 +2009,11 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id.Length != 0) {
+      if (HasId) {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      if (PhoneNumber.Length != 0) {
+      if (HasPhoneNumber) {
         output.WriteRawTag(18);
         output.WriteString(PhoneNumber);
       }
@@ -1927,10 +2027,10 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Id.Length != 0) {
+      if (HasId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
-      if (PhoneNumber.Length != 0) {
+      if (HasPhoneNumber) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(PhoneNumber);
       }
       if (_unknownFields != null) {
@@ -1945,10 +2045,10 @@ namespace LiveKit.Proto {
       if (other == null) {
         return;
       }
-      if (other.Id.Length != 0) {
+      if (other.HasId) {
         Id = other.Id;
       }
-      if (other.PhoneNumber.Length != 0) {
+      if (other.HasPhoneNumber) {
         PhoneNumber = other.PhoneNumber;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -2187,7 +2287,7 @@ namespace LiveKit.Proto {
             break;
           case 10: {
             if (phoneNumber_ == null) {
-              PhoneNumber = new global::Livekit.PhoneNumber();
+              PhoneNumber = new global::LiveKit.Proto.PhoneNumber();
             }
             input.ReadMessage(PhoneNumber);
             break;
@@ -2277,47 +2377,89 @@ namespace LiveKit.Proto {
 
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
-    private string id_ = "";
+    private readonly static string IdDefaultValue = "";
+
+    private string id_;
     /// <summary>
-    /// Optional: Use phone number ID for direct lookup
+    /// Use phone number ID for direct lookup
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Id {
-      get { return id_; }
+      get { return id_ ?? IdDefaultValue; }
       set {
         id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
+    /// <summary>Gets whether the "id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasId {
+      get { return id_ != null; }
+    }
+    /// <summary>Clears the value of the "id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearId() {
+      id_ = null;
+    }
 
     /// <summary>Field number for the "phone_number" field.</summary>
     public const int PhoneNumberFieldNumber = 2;
-    private string phoneNumber_ = "";
+    private readonly static string PhoneNumberDefaultValue = "";
+
+    private string phoneNumber_;
     /// <summary>
-    /// Optional: Use phone number string for lookup
+    /// Use phone number string for lookup
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PhoneNumber {
-      get { return phoneNumber_; }
+      get { return phoneNumber_ ?? PhoneNumberDefaultValue; }
       set {
         phoneNumber_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
+    /// <summary>Gets whether the "phone_number" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPhoneNumber {
+      get { return phoneNumber_ != null; }
+    }
+    /// <summary>Clears the value of the "phone_number" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPhoneNumber() {
+      phoneNumber_ = null;
+    }
 
     /// <summary>Field number for the "sip_dispatch_rule_id" field.</summary>
     public const int SipDispatchRuleIdFieldNumber = 3;
-    private string sipDispatchRuleId_ = "";
+    private readonly static string SipDispatchRuleIdDefaultValue = "";
+
+    private string sipDispatchRuleId_;
     /// <summary>
-    /// Optional: SIP dispatch rule ID to assign to the phone number
+    /// SIP dispatch rule ID to assign to the phone number
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string SipDispatchRuleId {
-      get { return sipDispatchRuleId_; }
+      get { return sipDispatchRuleId_ ?? SipDispatchRuleIdDefaultValue; }
       set {
         sipDispatchRuleId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+    /// <summary>Gets whether the "sip_dispatch_rule_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasSipDispatchRuleId {
+      get { return sipDispatchRuleId_ != null; }
+    }
+    /// <summary>Clears the value of the "sip_dispatch_rule_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearSipDispatchRuleId() {
+      sipDispatchRuleId_ = null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2345,9 +2487,9 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id.Length != 0) hash ^= Id.GetHashCode();
-      if (PhoneNumber.Length != 0) hash ^= PhoneNumber.GetHashCode();
-      if (SipDispatchRuleId.Length != 0) hash ^= SipDispatchRuleId.GetHashCode();
+      if (HasId) hash ^= Id.GetHashCode();
+      if (HasPhoneNumber) hash ^= PhoneNumber.GetHashCode();
+      if (HasSipDispatchRuleId) hash ^= SipDispatchRuleId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2366,15 +2508,15 @@ namespace LiveKit.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id.Length != 0) {
+      if (HasId) {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      if (PhoneNumber.Length != 0) {
+      if (HasPhoneNumber) {
         output.WriteRawTag(18);
         output.WriteString(PhoneNumber);
       }
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         output.WriteRawTag(26);
         output.WriteString(SipDispatchRuleId);
       }
@@ -2388,15 +2530,15 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id.Length != 0) {
+      if (HasId) {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      if (PhoneNumber.Length != 0) {
+      if (HasPhoneNumber) {
         output.WriteRawTag(18);
         output.WriteString(PhoneNumber);
       }
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         output.WriteRawTag(26);
         output.WriteString(SipDispatchRuleId);
       }
@@ -2410,13 +2552,13 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Id.Length != 0) {
+      if (HasId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
-      if (PhoneNumber.Length != 0) {
+      if (HasPhoneNumber) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(PhoneNumber);
       }
-      if (SipDispatchRuleId.Length != 0) {
+      if (HasSipDispatchRuleId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SipDispatchRuleId);
       }
       if (_unknownFields != null) {
@@ -2431,13 +2573,13 @@ namespace LiveKit.Proto {
       if (other == null) {
         return;
       }
-      if (other.Id.Length != 0) {
+      if (other.HasId) {
         Id = other.Id;
       }
-      if (other.PhoneNumber.Length != 0) {
+      if (other.HasPhoneNumber) {
         PhoneNumber = other.PhoneNumber;
       }
-      if (other.SipDispatchRuleId.Length != 0) {
+      if (other.HasSipDispatchRuleId) {
         SipDispatchRuleId = other.SipDispatchRuleId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -2684,7 +2826,7 @@ namespace LiveKit.Proto {
             break;
           case 10: {
             if (phoneNumber_ == null) {
-              PhoneNumber = new global::Livekit.PhoneNumber();
+              PhoneNumber = new global::LiveKit.Proto.PhoneNumber();
             }
             input.ReadMessage(PhoneNumber);
             break;
@@ -2777,7 +2919,7 @@ namespace LiveKit.Proto {
         = pb::FieldCodec.ForString(10);
     private readonly pbc::RepeatedField<string> ids_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// Optional: Use phone number IDs for direct lookup
+    /// Use phone number IDs for direct lookup
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2791,7 +2933,7 @@ namespace LiveKit.Proto {
         = pb::FieldCodec.ForString(18);
     private readonly pbc::RepeatedField<string> phoneNumbers_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// Optional: Use phone number strings for lookup
+    /// Use phone number strings for lookup
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -3480,7 +3622,7 @@ namespace LiveKit.Proto {
         output.WriteRawTag(34);
         output.WriteString(AreaCode);
       }
-      if (NumberType != global::Livekit.PhoneNumberType.Unknown) {
+      if (NumberType != global::LiveKit.Proto.PhoneNumberType.Unknown) {
         output.WriteRawTag(40);
         output.WriteEnum((int) NumberType);
       }
@@ -3505,7 +3647,7 @@ namespace LiveKit.Proto {
         output.WriteMessage(UpdatedAt);
       }
       capabilities_.WriteTo(output, _repeated_capabilities_codec);
-      if (Status != global::Livekit.PhoneNumberStatus.Unspecified) {
+      if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
         output.WriteRawTag(96);
         output.WriteEnum((int) Status);
       }
@@ -3744,7 +3886,7 @@ namespace LiveKit.Proto {
             break;
           }
           case 40: {
-            NumberType = (global::Livekit.PhoneNumberType) input.ReadEnum();
+            NumberType = (global::LiveKit.Proto.PhoneNumberType) input.ReadEnum();
             break;
           }
           case 50: {
@@ -3778,7 +3920,7 @@ namespace LiveKit.Proto {
             break;
           }
           case 96: {
-            Status = (global::Livekit.PhoneNumberStatus) input.ReadEnum();
+            Status = (global::LiveKit.Proto.PhoneNumberStatus) input.ReadEnum();
             break;
           }
           case 106: {

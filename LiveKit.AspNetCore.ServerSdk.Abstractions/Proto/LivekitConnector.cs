@@ -26,26 +26,37 @@ namespace LiveKit.Proto {
           string.Concat(
             "ChdsaXZla2l0X2Nvbm5lY3Rvci5wcm90bxIHbGl2ZWtpdBogbGl2ZWtpdF9j",
             "b25uZWN0b3Jfd2hhdHNhcHAucHJvdG8aHmxpdmVraXRfY29ubmVjdG9yX3R3",
-            "aWxpby5wcm90bzLsAwoJQ29ubmVjdG9yElcKEERpYWxXaGF0c0FwcENhbGwS",
-            "IC5saXZla2l0LkRpYWxXaGF0c0FwcENhbGxSZXF1ZXN0GiEubGl2ZWtpdC5E",
-            "aWFsV2hhdHNBcHBDYWxsUmVzcG9uc2USaQoWRGlzY29ubmVjdFdoYXRzQXBw",
-            "Q2FsbBImLmxpdmVraXQuRGlzY29ubmVjdFdoYXRzQXBwQ2FsbFJlcXVlc3Qa",
-            "Jy5saXZla2l0LkRpc2Nvbm5lY3RXaGF0c0FwcENhbGxSZXNwb25zZRJgChND",
-            "b25uZWN0V2hhdHNBcHBDYWxsEiMubGl2ZWtpdC5Db25uZWN0V2hhdHNBcHBD",
-            "YWxsUmVxdWVzdBokLmxpdmVraXQuQ29ubmVjdFdoYXRzQXBwQ2FsbFJlc3Bv",
-            "bnNlEl0KEkFjY2VwdFdoYXRzQXBwQ2FsbBIiLmxpdmVraXQuQWNjZXB0V2hh",
-            "dHNBcHBDYWxsUmVxdWVzdBojLmxpdmVraXQuQWNjZXB0V2hhdHNBcHBDYWxs",
-            "UmVzcG9uc2USWgoRQ29ubmVjdFR3aWxpb0NhbGwSIS5saXZla2l0LkNvbm5l",
-            "Y3RUd2lsaW9DYWxsUmVxdWVzdBoiLmxpdmVraXQuQ29ubmVjdFR3aWxpb0Nh",
-            "bGxSZXNwb25zZUJGWiNnaXRodWIuY29tL2xpdmVraXQvcHJvdG9jb2wvbGl2",
-            "ZWtpdKoCDUxpdmVLaXQuUHJvdG/qAg5MaXZlS2l0OjpQcm90b2IGcHJvdG8z"));
+            "aWxpby5wcm90byo6Cg1Db25uZWN0b3JUeXBlEg8KC1Vuc3BlY2lmaWVkEAAS",
+            "DAoIV2hhdHNBcHAQARIKCgZUd2lsaW8QAjLsAwoJQ29ubmVjdG9yElcKEERp",
+            "YWxXaGF0c0FwcENhbGwSIC5saXZla2l0LkRpYWxXaGF0c0FwcENhbGxSZXF1",
+            "ZXN0GiEubGl2ZWtpdC5EaWFsV2hhdHNBcHBDYWxsUmVzcG9uc2USaQoWRGlz",
+            "Y29ubmVjdFdoYXRzQXBwQ2FsbBImLmxpdmVraXQuRGlzY29ubmVjdFdoYXRz",
+            "QXBwQ2FsbFJlcXVlc3QaJy5saXZla2l0LkRpc2Nvbm5lY3RXaGF0c0FwcENh",
+            "bGxSZXNwb25zZRJgChNDb25uZWN0V2hhdHNBcHBDYWxsEiMubGl2ZWtpdC5D",
+            "b25uZWN0V2hhdHNBcHBDYWxsUmVxdWVzdBokLmxpdmVraXQuQ29ubmVjdFdo",
+            "YXRzQXBwQ2FsbFJlc3BvbnNlEl0KEkFjY2VwdFdoYXRzQXBwQ2FsbBIiLmxp",
+            "dmVraXQuQWNjZXB0V2hhdHNBcHBDYWxsUmVxdWVzdBojLmxpdmVraXQuQWNj",
+            "ZXB0V2hhdHNBcHBDYWxsUmVzcG9uc2USWgoRQ29ubmVjdFR3aWxpb0NhbGwS",
+            "IS5saXZla2l0LkNvbm5lY3RUd2lsaW9DYWxsUmVxdWVzdBoiLmxpdmVraXQu",
+            "Q29ubmVjdFR3aWxpb0NhbGxSZXNwb25zZUJGWiNnaXRodWIuY29tL2xpdmVr",
+            "aXQvcHJvdG9jb2wvbGl2ZWtpdKoCDUxpdmVLaXQuUHJvdG/qAg5MaXZlS2l0",
+            "OjpQcm90b2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitConnectorWhatsappReflection.Descriptor, global::LiveKit.Proto.LivekitConnectorTwilioReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, null, null));
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.ConnectorType), }, null, null));
     }
     #endregion
 
   }
+  #region Enums
+  public enum ConnectorType {
+    [pbr::OriginalName("Unspecified")] Unspecified = 0,
+    [pbr::OriginalName("WhatsApp")] WhatsApp = 1,
+    [pbr::OriginalName("Twilio")] Twilio = 2,
+  }
+
+  #endregion
+
 }
 
 #endregion Designer generated code

@@ -515,7 +515,13 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
       public enum TwilioCallDirection {
+        /// <summary>
+        /// Call is inbound to LiveKit from Twilio
+        /// </summary>
         [pbr::OriginalName("TWILIO_CALL_DIRECTION_INBOUND")] Inbound = 0,
+        /// <summary>
+        /// Call is outbound from LiveKit to Twilio
+        /// </summary>
         [pbr::OriginalName("TWILIO_CALL_DIRECTION_OUTBOUND")] Outbound = 1,
       }
 
