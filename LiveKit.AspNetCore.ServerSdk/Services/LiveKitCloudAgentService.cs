@@ -87,4 +87,28 @@ public sealed class LiveKitCloudAgentService : TwirpClient, ILiveKitCloudAgentSe
     {
         return await MakeRequestAsync<ClientSettingsResponse>("GetClientSettings", null, request, cancellationToken);
     }
+
+    /// <inheritdoc/>
+    public async Task<CreatePrivateLinkResponse> CreatePrivateLinkAsync(CreatePrivateLinkRequest request, CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<CreatePrivateLinkResponse>("CreatePrivateLink", null, request, cancellationToken);
+    }
+
+    /// <inheritdoc/>
+    public async Task<DestroyPrivateLinkResponse> DestroyPrivateLinkAsync(DestroyPrivateLinkRequest request, CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<DestroyPrivateLinkResponse>("DestroyPrivateLink", null, request, cancellationToken);
+    }
+
+    /// <inheritdoc/>
+    public async Task<ListPrivateLinksResponse> ListPrivateLinksAsync(ListPrivateLinksRequest request, CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<ListPrivateLinksResponse>("ListPrivateLinks", null, request, cancellationToken);
+    }
+
+    /// <inheritdoc/>
+    public async Task<GetPrivateLinkStatusResponse> GetPrivateLinkStatusAsync(GetPrivateLinkStatusRequest request, CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<GetPrivateLinkStatusResponse>("GetPrivateLinkStatus", null, request, cancellationToken);
+    }
 }

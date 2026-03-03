@@ -67,5 +67,25 @@ public interface ILiveKitCloudAgentService
     /// Gets client settings.
     /// </summary>
     Task<ClientSettingsResponse> GetClientSettingsAsync(ClientSettingsRequest request, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Creates a private link for an agent.
+    /// </summary>
+    Task<CreatePrivateLinkResponse> CreatePrivateLinkAsync(CreatePrivateLinkRequest request, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Destroys a private link.
+    /// </summary>
+    Task<DestroyPrivateLinkResponse> DestroyPrivateLinkAsync(DestroyPrivateLinkRequest request, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Lists private links.
+    /// </summary>
+    Task<ListPrivateLinksResponse> ListPrivateLinksAsync(ListPrivateLinksRequest request, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Gets the status of a private link.
+    /// </summary>
+    Task<GetPrivateLinkStatusResponse> GetPrivateLinkStatusAsync(GetPrivateLinkStatusRequest request, CancellationToken cancellationToken = default);
 }
 

@@ -48,6 +48,7 @@ public static class ServiceCollectionExtensions
         RegisterHttpClient<ILiveKitPhoneNumberService, LiveKitPhoneNumberService>(services);
         RegisterHttpClient<ILiveKitAgentDispatchService, LiveKitAgentDispatchService>(services);
         RegisterHttpClient<ILiveKitCloudAgentService, LiveKitCloudAgentService>(services);
+        RegisterHttpClient<ILiveKitConnectorService, LiveKitConnectorService>(services);
 
         return services;
     }
