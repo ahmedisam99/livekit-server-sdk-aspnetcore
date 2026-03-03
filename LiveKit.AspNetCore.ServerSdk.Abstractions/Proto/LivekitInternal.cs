@@ -31,91 +31,96 @@ namespace LiveKit.Proto {
             "EAoIbnVtX2NwdXMYAyABKA0SIQoFc3RhdHMYBCABKAsyEi5saXZla2l0Lk5v",
             "ZGVTdGF0cxIfCgR0eXBlGAUgASgOMhEubGl2ZWtpdC5Ob2RlVHlwZRIhCgVz",
             "dGF0ZRgGIAEoDjISLmxpdmVraXQuTm9kZVN0YXRlEg4KBnJlZ2lvbhgHIAEo",
-            "CSKNDAoJTm9kZVN0YXRzEhIKCnN0YXJ0ZWRfYXQYASABKAMSEgoKdXBkYXRl",
+            "CSL3DAoJTm9kZVN0YXRzEhIKCnN0YXJ0ZWRfYXQYASABKAMSEgoKdXBkYXRl",
             "ZF9hdBgCIAEoAxIRCgludW1fcm9vbXMYAyABKAUSEwoLbnVtX2NsaWVudHMY",
             "BCABKAUSFQoNbnVtX3RyYWNrc19pbhgFIAEoBRIWCg5udW1fdHJhY2tzX291",
             "dBgGIAEoBRIiChpudW1fdHJhY2tfcHVibGlzaF9hdHRlbXB0cxgkIAEoBRIq",
             "Ch50cmFja19wdWJsaXNoX2F0dGVtcHRzX3Blcl9zZWMYJSABKAJCAhgBEiEK",
             "GW51bV90cmFja19wdWJsaXNoX3N1Y2Nlc3MYJiABKAUSKQoddHJhY2tfcHVi",
-            "bGlzaF9zdWNjZXNzX3Blcl9zZWMYJyABKAJCAhgBEiQKHG51bV90cmFja19z",
-            "dWJzY3JpYmVfYXR0ZW1wdHMYKCABKAUSLAogdHJhY2tfc3Vic2NyaWJlX2F0",
-            "dGVtcHRzX3Blcl9zZWMYKSABKAJCAhgBEiMKG251bV90cmFja19zdWJzY3Jp",
-            "YmVfc3VjY2VzcxgqIAEoBRIrCh90cmFja19zdWJzY3JpYmVfc3VjY2Vzc19w",
-            "ZXJfc2VjGCsgASgCQgIYARIQCghieXRlc19pbhgHIAEoBBIRCglieXRlc19v",
-            "dXQYCCABKAQSEgoKcGFja2V0c19pbhgJIAEoBBITCgtwYWNrZXRzX291dBgK",
-            "IAEoBBISCgpuYWNrX3RvdGFsGAsgASgEEhwKEGJ5dGVzX2luX3Blcl9zZWMY",
-            "DCABKAJCAhgBEh0KEWJ5dGVzX291dF9wZXJfc2VjGA0gASgCQgIYARIaChJw",
-            "YWNrZXRzX2luX3Blcl9zZWMYDiABKAISHwoTcGFja2V0c19vdXRfcGVyX3Nl",
-            "YxgPIAEoAkICGAESGAoMbmFja19wZXJfc2VjGBAgASgCQgIYARIQCghudW1f",
-            "Y3B1cxgRIAEoDRIZChFsb2FkX2F2Z19sYXN0MW1pbhgSIAEoAhIZChFsb2Fk",
-            "X2F2Z19sYXN0NW1pbhgTIAEoAhIaChJsb2FkX2F2Z19sYXN0MTVtaW4YFCAB",
-            "KAISEAoIY3B1X2xvYWQYFSABKAISFwoLbWVtb3J5X2xvYWQYISABKAJCAhgB",
-            "EhQKDG1lbW9yeV90b3RhbBgiIAEoBBITCgttZW1vcnlfdXNlZBgjIAEoBBIX",
-            "Cg9zeXNfcGFja2V0c19vdXQYHCABKA0SGwoTc3lzX3BhY2tldHNfZHJvcHBl",
-            "ZBgdIAEoDRIjChdzeXNfcGFja2V0c19vdXRfcGVyX3NlYxgeIAEoAkICGAES",
-            "Jwobc3lzX3BhY2tldHNfZHJvcHBlZF9wZXJfc2VjGB8gASgCQgIYARIrCh9z",
-            "eXNfcGFja2V0c19kcm9wcGVkX3BjdF9wZXJfc2VjGCAgASgCQgIYARIcChRy",
-            "ZXRyYW5zbWl0X2J5dGVzX291dBgWIAEoBBIeChZyZXRyYW5zbWl0X3BhY2tl",
-            "dHNfb3V0GBcgASgEEigKHHJldHJhbnNtaXRfYnl0ZXNfb3V0X3Blcl9zZWMY",
-            "GCABKAJCAhgBEioKHnJldHJhbnNtaXRfcGFja2V0c19vdXRfcGVyX3NlYxgZ",
-            "IAEoAkICGAESJAoccGFydGljaXBhbnRfc2lnbmFsX2Nvbm5lY3RlZBgaIAEo",
-            "BBIwCiRwYXJ0aWNpcGFudF9zaWduYWxfY29ubmVjdGVkX3Blcl9zZWMYGyAB",
-            "KAJCAhgBEiEKGXBhcnRpY2lwYW50X3J0Y19jb25uZWN0ZWQYLCABKAQSLQoh",
-            "cGFydGljaXBhbnRfcnRjX2Nvbm5lY3RlZF9wZXJfc2VjGC0gASgCQgIYARIc",
-            "ChRwYXJ0aWNpcGFudF9ydGNfaW5pdBguIAEoBBIoChxwYXJ0aWNpcGFudF9y",
-            "dGNfaW5pdF9wZXJfc2VjGC8gASgCQgIYARIXCg9mb3J3YXJkX2xhdGVuY3kY",
-            "MCABKA0SFgoOZm9yd2FyZF9qaXR0ZXIYMSABKA0SJQoFcmF0ZXMYMiADKAsy",
-            "Fi5saXZla2l0Lk5vZGVTdGF0c1JhdGUi2AQKDU5vZGVTdGF0c1JhdGUSEgoK",
-            "c3RhcnRlZF9hdBgBIAEoAxIQCghlbmRlZF9hdBgCIAEoAxIQCghkdXJhdGlv",
-            "bhgDIAEoAxIeChZ0cmFja19wdWJsaXNoX2F0dGVtcHRzGAQgASgCEh0KFXRy",
-            "YWNrX3B1Ymxpc2hfc3VjY2VzcxgFIAEoAhIgChh0cmFja19zdWJzY3JpYmVf",
-            "YXR0ZW1wdHMYBiABKAISHwoXdHJhY2tfc3Vic2NyaWJlX3N1Y2Nlc3MYByAB",
-            "KAISEAoIYnl0ZXNfaW4YCCABKAISEQoJYnl0ZXNfb3V0GAkgASgCEhIKCnBh",
-            "Y2tldHNfaW4YCiABKAISEwoLcGFja2V0c19vdXQYCyABKAISEgoKbmFja190",
-            "b3RhbBgMIAEoAhIXCg9zeXNfcGFja2V0c19vdXQYDSABKAISGwoTc3lzX3Bh",
-            "Y2tldHNfZHJvcHBlZBgOIAEoAhIcChRyZXRyYW5zbWl0X2J5dGVzX291dBgP",
-            "IAEoAhIeChZyZXRyYW5zbWl0X3BhY2tldHNfb3V0GBAgASgCEiQKHHBhcnRp",
-            "Y2lwYW50X3NpZ25hbF9jb25uZWN0ZWQYESABKAISIQoZcGFydGljaXBhbnRf",
-            "cnRjX2Nvbm5lY3RlZBgSIAEoAhIcChRwYXJ0aWNpcGFudF9ydGNfaW5pdBgT",
-            "IAEoAhIQCghjcHVfbG9hZBgUIAEoAhITCgttZW1vcnlfbG9hZBgVIAEoAhIT",
-            "CgttZW1vcnlfdXNlZBgWIAEoAhIUCgxtZW1vcnlfdG90YWwYFyABKAIijwUK",
-            "DFN0YXJ0U2Vzc2lvbhIRCglyb29tX25hbWUYASABKAkSEAoIaWRlbnRpdHkY",
-            "AiABKAkSFQoNY29ubmVjdGlvbl9pZBgDIAEoCRIRCglyZWNvbm5lY3QYBCAB",
-            "KAgSFgoOYXV0b19zdWJzY3JpYmUYCSABKAgSEgoGaGlkZGVuGAogASgIQgIY",
-            "ARIjCgZjbGllbnQYCyABKAsyEy5saXZla2l0LkNsaWVudEluZm8SFAoIcmVj",
-            "b3JkZXIYDCABKAhCAhgBEgwKBG5hbWUYDSABKAkSEwoLZ3JhbnRzX2pzb24Y",
-            "DiABKAkSFwoPYWRhcHRpdmVfc3RyZWFtGA8gASgIEhYKDnBhcnRpY2lwYW50",
-            "X2lkGBAgASgJEjIKEHJlY29ubmVjdF9yZWFzb24YESABKA4yGC5saXZla2l0",
-            "LlJlY29ubmVjdFJlYXNvbhIjChZzdWJzY3JpYmVyX2FsbG93X3BhdXNlGBIg",
-            "ASgISACIAQESGAoQZGlzYWJsZV9pY2VfbGl0ZRgTIAEoCBIvCgtjcmVhdGVf",
-            "cm9vbRgUIAEoCzIaLmxpdmVraXQuQ3JlYXRlUm9vbVJlcXVlc3QSNAoSYWRk",
-            "X3RyYWNrX3JlcXVlc3RzGBUgAygLMhgubGl2ZWtpdC5BZGRUcmFja1JlcXVl",
-            "c3QSNAoPcHVibGlzaGVyX29mZmVyGBYgASgLMhsubGl2ZWtpdC5TZXNzaW9u",
-            "RGVzY3JpcHRpb24SJgoKc3luY19zdGF0ZRgXIAEoCzISLmxpdmVraXQuU3lu",
-            "Y1N0YXRlEiIKGnVzZV9zaW5nbGVfcGVlcl9jb25uZWN0aW9uGBggASgIQhkK",
-            "F19zdWJzY3JpYmVyX2FsbG93X3BhdXNlIowCCgxSb29tSW50ZXJuYWwSLgoM",
-            "dHJhY2tfZWdyZXNzGAEgASgLMhgubGl2ZWtpdC5BdXRvVHJhY2tFZ3Jlc3MS",
-            "OgoScGFydGljaXBhbnRfZWdyZXNzGAIgASgLMh4ubGl2ZWtpdC5BdXRvUGFy",
-            "dGljaXBhbnRFZ3Jlc3MSLAoNcGxheW91dF9kZWxheRgDIAEoCzIVLmxpdmVr",
-            "aXQuUGxheW91dERlbGF5EjQKEGFnZW50X2Rpc3BhdGNoZXMYBSADKAsyGi5s",
-            "aXZla2l0LlJvb21BZ2VudERpc3BhdGNoEhQKDHN5bmNfc3RyZWFtcxgEIAEo",
-            "CBIWCg5yZXBsYXlfZW5hYmxlZBgGIAEoCCJ+CglJQ0VDb25maWcSOAoVcHJl",
-            "ZmVyZW5jZV9zdWJzY3JpYmVyGAEgASgOMhkubGl2ZWtpdC5JQ0VDYW5kaWRh",
-            "dGVUeXBlEjcKFHByZWZlcmVuY2VfcHVibGlzaGVyGAIgASgOMhkubGl2ZWtp",
-            "dC5JQ0VDYW5kaWRhdGVUeXBlKnYKCE5vZGVUeXBlEgoKBlNFUlZFUhAAEg4K",
-            "CkNPTlRST0xMRVIQARIJCgVNRURJQRACEggKBFRVUk4QBBILCgdTV0VFUEVS",
-            "EAUSDAoIRElSRUNUT1IQBhIQCgxIT1NURURfQUdFTlQQBxIMCghTRVRUSU5H",
-            "UxAIKjwKCU5vZGVTdGF0ZRIPCgtTVEFSVElOR19VUBAAEgsKB1NFUlZJTkcQ",
-            "ARIRCg1TSFVUVElOR19ET1dOEAIqOgoQSUNFQ2FuZGlkYXRlVHlwZRIMCghJ",
-            "Q1RfTk9ORRAAEgsKB0lDVF9UQ1AQARILCgdJQ1RfVExTEAJCRlojZ2l0aHVi",
-            "LmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0LlByb3Rv",
-            "6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
+            "bGlzaF9zdWNjZXNzX3Blcl9zZWMYJyABKAJCAhgBEiEKGW51bV90cmFja19w",
+            "dWJsaXNoX2NhbmNlbHMYMyABKAUSJAocbnVtX3RyYWNrX3N1YnNjcmliZV9h",
+            "dHRlbXB0cxgoIAEoBRIsCiB0cmFja19zdWJzY3JpYmVfYXR0ZW1wdHNfcGVy",
+            "X3NlYxgpIAEoAkICGAESIwobbnVtX3RyYWNrX3N1YnNjcmliZV9zdWNjZXNz",
+            "GCogASgFEisKH3RyYWNrX3N1YnNjcmliZV9zdWNjZXNzX3Blcl9zZWMYKyAB",
+            "KAJCAhgBEiMKG251bV90cmFja19zdWJzY3JpYmVfY2FuY2Vscxg0IAEoBRIQ",
+            "CghieXRlc19pbhgHIAEoBBIRCglieXRlc19vdXQYCCABKAQSEgoKcGFja2V0",
+            "c19pbhgJIAEoBBITCgtwYWNrZXRzX291dBgKIAEoBBISCgpuYWNrX3RvdGFs",
+            "GAsgASgEEhwKEGJ5dGVzX2luX3Blcl9zZWMYDCABKAJCAhgBEh0KEWJ5dGVz",
+            "X291dF9wZXJfc2VjGA0gASgCQgIYARIaChJwYWNrZXRzX2luX3Blcl9zZWMY",
+            "DiABKAISHwoTcGFja2V0c19vdXRfcGVyX3NlYxgPIAEoAkICGAESGAoMbmFj",
+            "a19wZXJfc2VjGBAgASgCQgIYARIQCghudW1fY3B1cxgRIAEoDRIZChFsb2Fk",
+            "X2F2Z19sYXN0MW1pbhgSIAEoAhIZChFsb2FkX2F2Z19sYXN0NW1pbhgTIAEo",
+            "AhIaChJsb2FkX2F2Z19sYXN0MTVtaW4YFCABKAISEAoIY3B1X2xvYWQYFSAB",
+            "KAISFwoLbWVtb3J5X2xvYWQYISABKAJCAhgBEhQKDG1lbW9yeV90b3RhbBgi",
+            "IAEoBBITCgttZW1vcnlfdXNlZBgjIAEoBBIXCg9zeXNfcGFja2V0c19vdXQY",
+            "HCABKA0SGwoTc3lzX3BhY2tldHNfZHJvcHBlZBgdIAEoDRIjChdzeXNfcGFj",
+            "a2V0c19vdXRfcGVyX3NlYxgeIAEoAkICGAESJwobc3lzX3BhY2tldHNfZHJv",
+            "cHBlZF9wZXJfc2VjGB8gASgCQgIYARIrCh9zeXNfcGFja2V0c19kcm9wcGVk",
+            "X3BjdF9wZXJfc2VjGCAgASgCQgIYARIcChRyZXRyYW5zbWl0X2J5dGVzX291",
+            "dBgWIAEoBBIeChZyZXRyYW5zbWl0X3BhY2tldHNfb3V0GBcgASgEEigKHHJl",
+            "dHJhbnNtaXRfYnl0ZXNfb3V0X3Blcl9zZWMYGCABKAJCAhgBEioKHnJldHJh",
+            "bnNtaXRfcGFja2V0c19vdXRfcGVyX3NlYxgZIAEoAkICGAESJAoccGFydGlj",
+            "aXBhbnRfc2lnbmFsX2Nvbm5lY3RlZBgaIAEoBBIwCiRwYXJ0aWNpcGFudF9z",
+            "aWduYWxfY29ubmVjdGVkX3Blcl9zZWMYGyABKAJCAhgBEiEKGXBhcnRpY2lw",
+            "YW50X3J0Y19jb25uZWN0ZWQYLCABKAQSLQohcGFydGljaXBhbnRfcnRjX2Nv",
+            "bm5lY3RlZF9wZXJfc2VjGC0gASgCQgIYARIcChRwYXJ0aWNpcGFudF9ydGNf",
+            "aW5pdBguIAEoBBIoChxwYXJ0aWNpcGFudF9ydGNfaW5pdF9wZXJfc2VjGC8g",
+            "ASgCQgIYARIgChhwYXJ0aWNpcGFudF9ydGNfY2FuY2VsZWQYNSABKAQSFwoP",
+            "Zm9yd2FyZF9sYXRlbmN5GDAgASgNEhYKDmZvcndhcmRfaml0dGVyGDEgASgN",
+            "EiUKBXJhdGVzGDIgAygLMhYubGl2ZWtpdC5Ob2RlU3RhdHNSYXRlIroFCg1O",
+            "b2RlU3RhdHNSYXRlEhIKCnN0YXJ0ZWRfYXQYASABKAMSEAoIZW5kZWRfYXQY",
+            "AiABKAMSEAoIZHVyYXRpb24YAyABKAMSHgoWdHJhY2tfcHVibGlzaF9hdHRl",
+            "bXB0cxgEIAEoAhIdChV0cmFja19wdWJsaXNoX3N1Y2Nlc3MYBSABKAISHQoV",
+            "dHJhY2tfcHVibGlzaF9jYW5jZWxzGBggASgCEiAKGHRyYWNrX3N1YnNjcmli",
+            "ZV9hdHRlbXB0cxgGIAEoAhIfChd0cmFja19zdWJzY3JpYmVfc3VjY2VzcxgH",
+            "IAEoAhIfChd0cmFja19zdWJzY3JpYmVfY2FuY2VscxgZIAEoAhIQCghieXRl",
+            "c19pbhgIIAEoAhIRCglieXRlc19vdXQYCSABKAISEgoKcGFja2V0c19pbhgK",
+            "IAEoAhITCgtwYWNrZXRzX291dBgLIAEoAhISCgpuYWNrX3RvdGFsGAwgASgC",
+            "EhcKD3N5c19wYWNrZXRzX291dBgNIAEoAhIbChNzeXNfcGFja2V0c19kcm9w",
+            "cGVkGA4gASgCEhwKFHJldHJhbnNtaXRfYnl0ZXNfb3V0GA8gASgCEh4KFnJl",
+            "dHJhbnNtaXRfcGFja2V0c19vdXQYECABKAISJAoccGFydGljaXBhbnRfc2ln",
+            "bmFsX2Nvbm5lY3RlZBgRIAEoAhIhChlwYXJ0aWNpcGFudF9ydGNfY29ubmVj",
+            "dGVkGBIgASgCEhwKFHBhcnRpY2lwYW50X3J0Y19pbml0GBMgASgCEiAKGHBh",
+            "cnRpY2lwYW50X3J0Y19jYW5jZWxlZBgaIAEoAhIQCghjcHVfbG9hZBgUIAEo",
+            "AhITCgttZW1vcnlfbG9hZBgVIAEoAhITCgttZW1vcnlfdXNlZBgWIAEoAhIU",
+            "CgxtZW1vcnlfdG90YWwYFyABKAIijwUKDFN0YXJ0U2Vzc2lvbhIRCglyb29t",
+            "X25hbWUYASABKAkSEAoIaWRlbnRpdHkYAiABKAkSFQoNY29ubmVjdGlvbl9p",
+            "ZBgDIAEoCRIRCglyZWNvbm5lY3QYBCABKAgSFgoOYXV0b19zdWJzY3JpYmUY",
+            "CSABKAgSEgoGaGlkZGVuGAogASgIQgIYARIjCgZjbGllbnQYCyABKAsyEy5s",
+            "aXZla2l0LkNsaWVudEluZm8SFAoIcmVjb3JkZXIYDCABKAhCAhgBEgwKBG5h",
+            "bWUYDSABKAkSEwoLZ3JhbnRzX2pzb24YDiABKAkSFwoPYWRhcHRpdmVfc3Ry",
+            "ZWFtGA8gASgIEhYKDnBhcnRpY2lwYW50X2lkGBAgASgJEjIKEHJlY29ubmVj",
+            "dF9yZWFzb24YESABKA4yGC5saXZla2l0LlJlY29ubmVjdFJlYXNvbhIjChZz",
+            "dWJzY3JpYmVyX2FsbG93X3BhdXNlGBIgASgISACIAQESGAoQZGlzYWJsZV9p",
+            "Y2VfbGl0ZRgTIAEoCBIvCgtjcmVhdGVfcm9vbRgUIAEoCzIaLmxpdmVraXQu",
+            "Q3JlYXRlUm9vbVJlcXVlc3QSNAoSYWRkX3RyYWNrX3JlcXVlc3RzGBUgAygL",
+            "MhgubGl2ZWtpdC5BZGRUcmFja1JlcXVlc3QSNAoPcHVibGlzaGVyX29mZmVy",
+            "GBYgASgLMhsubGl2ZWtpdC5TZXNzaW9uRGVzY3JpcHRpb24SJgoKc3luY19z",
+            "dGF0ZRgXIAEoCzISLmxpdmVraXQuU3luY1N0YXRlEiIKGnVzZV9zaW5nbGVf",
+            "cGVlcl9jb25uZWN0aW9uGBggASgIQhkKF19zdWJzY3JpYmVyX2FsbG93X3Bh",
+            "dXNlIowCCgxSb29tSW50ZXJuYWwSLgoMdHJhY2tfZWdyZXNzGAEgASgLMhgu",
+            "bGl2ZWtpdC5BdXRvVHJhY2tFZ3Jlc3MSOgoScGFydGljaXBhbnRfZWdyZXNz",
+            "GAIgASgLMh4ubGl2ZWtpdC5BdXRvUGFydGljaXBhbnRFZ3Jlc3MSLAoNcGxh",
+            "eW91dF9kZWxheRgDIAEoCzIVLmxpdmVraXQuUGxheW91dERlbGF5EjQKEGFn",
+            "ZW50X2Rpc3BhdGNoZXMYBSADKAsyGi5saXZla2l0LlJvb21BZ2VudERpc3Bh",
+            "dGNoEhQKDHN5bmNfc3RyZWFtcxgEIAEoCBIWCg5yZXBsYXlfZW5hYmxlZBgG",
+            "IAEoCCJ+CglJQ0VDb25maWcSOAoVcHJlZmVyZW5jZV9zdWJzY3JpYmVyGAEg",
+            "ASgOMhkubGl2ZWtpdC5JQ0VDYW5kaWRhdGVUeXBlEjcKFHByZWZlcmVuY2Vf",
+            "cHVibGlzaGVyGAIgASgOMhkubGl2ZWtpdC5JQ0VDYW5kaWRhdGVUeXBlKnYK",
+            "CE5vZGVUeXBlEgoKBlNFUlZFUhAAEg4KCkNPTlRST0xMRVIQARIJCgVNRURJ",
+            "QRACEggKBFRVUk4QBBILCgdTV0VFUEVSEAUSDAoIRElSRUNUT1IQBhIQCgxI",
+            "T1NURURfQUdFTlQQBxIMCghTRVRUSU5HUxAIKjwKCU5vZGVTdGF0ZRIPCgtT",
+            "VEFSVElOR19VUBAAEgsKB1NFUlZJTkcQARIRCg1TSFVUVElOR19ET1dOEAIq",
+            "OgoQSUNFQ2FuZGlkYXRlVHlwZRIMCghJQ1RfTk9ORRAAEgsKB0lDVF9UQ1AQ",
+            "ARILCgdJQ1RfVExTEAJCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29s",
+            "L2xpdmVraXSqAg1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.LivekitEgressReflection.Descriptor, global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitRoomReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.NodeType), typeof(global::LiveKit.Proto.NodeState), typeof(global::LiveKit.Proto.ICECandidateType), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Node), global::LiveKit.Proto.Node.Parser, new[]{ "Id", "Ip", "NumCpus", "Stats", "Type", "State", "Region" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStats), global::LiveKit.Proto.NodeStats.Parser, new[]{ "StartedAt", "UpdatedAt", "NumRooms", "NumClients", "NumTracksIn", "NumTracksOut", "NumTrackPublishAttempts", "TrackPublishAttemptsPerSec", "NumTrackPublishSuccess", "TrackPublishSuccessPerSec", "NumTrackSubscribeAttempts", "TrackSubscribeAttemptsPerSec", "NumTrackSubscribeSuccess", "TrackSubscribeSuccessPerSec", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "BytesInPerSec", "BytesOutPerSec", "PacketsInPerSec", "PacketsOutPerSec", "NackPerSec", "NumCpus", "LoadAvgLast1Min", "LoadAvgLast5Min", "LoadAvgLast15Min", "CpuLoad", "MemoryLoad", "MemoryTotal", "MemoryUsed", "SysPacketsOut", "SysPacketsDropped", "SysPacketsOutPerSec", "SysPacketsDroppedPerSec", "SysPacketsDroppedPctPerSec", "RetransmitBytesOut", "RetransmitPacketsOut", "RetransmitBytesOutPerSec", "RetransmitPacketsOutPerSec", "ParticipantSignalConnected", "ParticipantSignalConnectedPerSec", "ParticipantRtcConnected", "ParticipantRtcConnectedPerSec", "ParticipantRtcInit", "ParticipantRtcInitPerSec", "ForwardLatency", "ForwardJitter", "Rates" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStatsRate), global::LiveKit.Proto.NodeStatsRate.Parser, new[]{ "StartedAt", "EndedAt", "Duration", "TrackPublishAttempts", "TrackPublishSuccess", "TrackSubscribeAttempts", "TrackSubscribeSuccess", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "SysPacketsOut", "SysPacketsDropped", "RetransmitBytesOut", "RetransmitPacketsOut", "ParticipantSignalConnected", "ParticipantRtcConnected", "ParticipantRtcInit", "CpuLoad", "MemoryLoad", "MemoryUsed", "MemoryTotal" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStats), global::LiveKit.Proto.NodeStats.Parser, new[]{ "StartedAt", "UpdatedAt", "NumRooms", "NumClients", "NumTracksIn", "NumTracksOut", "NumTrackPublishAttempts", "TrackPublishAttemptsPerSec", "NumTrackPublishSuccess", "TrackPublishSuccessPerSec", "NumTrackPublishCancels", "NumTrackSubscribeAttempts", "TrackSubscribeAttemptsPerSec", "NumTrackSubscribeSuccess", "TrackSubscribeSuccessPerSec", "NumTrackSubscribeCancels", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "BytesInPerSec", "BytesOutPerSec", "PacketsInPerSec", "PacketsOutPerSec", "NackPerSec", "NumCpus", "LoadAvgLast1Min", "LoadAvgLast5Min", "LoadAvgLast15Min", "CpuLoad", "MemoryLoad", "MemoryTotal", "MemoryUsed", "SysPacketsOut", "SysPacketsDropped", "SysPacketsOutPerSec", "SysPacketsDroppedPerSec", "SysPacketsDroppedPctPerSec", "RetransmitBytesOut", "RetransmitPacketsOut", "RetransmitBytesOutPerSec", "RetransmitPacketsOutPerSec", "ParticipantSignalConnected", "ParticipantSignalConnectedPerSec", "ParticipantRtcConnected", "ParticipantRtcConnectedPerSec", "ParticipantRtcInit", "ParticipantRtcInitPerSec", "ParticipantRtcCanceled", "ForwardLatency", "ForwardJitter", "Rates" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStatsRate), global::LiveKit.Proto.NodeStatsRate.Parser, new[]{ "StartedAt", "EndedAt", "Duration", "TrackPublishAttempts", "TrackPublishSuccess", "TrackPublishCancels", "TrackSubscribeAttempts", "TrackSubscribeSuccess", "TrackSubscribeCancels", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "SysPacketsOut", "SysPacketsDropped", "RetransmitBytesOut", "RetransmitPacketsOut", "ParticipantSignalConnected", "ParticipantRtcConnected", "ParticipantRtcInit", "ParticipantRtcCanceled", "CpuLoad", "MemoryLoad", "MemoryUsed", "MemoryTotal" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StartSession), global::LiveKit.Proto.StartSession.Parser, new[]{ "RoomName", "Identity", "ConnectionId", "Reconnect", "AutoSubscribe", "Hidden", "Client", "Recorder", "Name", "GrantsJson", "AdaptiveStream", "ParticipantId", "ReconnectReason", "SubscriberAllowPause", "DisableIceLite", "CreateRoom", "AddTrackRequests", "PublisherOffer", "SyncState", "UseSinglePeerConnection" }, new[]{ "SubscriberAllowPause" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RoomInternal), global::LiveKit.Proto.RoomInternal.Parser, new[]{ "TrackEgress", "ParticipantEgress", "PlayoutDelay", "AgentDispatches", "SyncStreams", "ReplayEnabled" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ICEConfig), global::LiveKit.Proto.ICEConfig.Parser, new[]{ "PreferenceSubscriber", "PreferencePublisher" }, null, null, null, null)
@@ -625,10 +630,12 @@ namespace LiveKit.Proto {
       trackPublishAttemptsPerSec_ = other.trackPublishAttemptsPerSec_;
       numTrackPublishSuccess_ = other.numTrackPublishSuccess_;
       trackPublishSuccessPerSec_ = other.trackPublishSuccessPerSec_;
+      numTrackPublishCancels_ = other.numTrackPublishCancels_;
       numTrackSubscribeAttempts_ = other.numTrackSubscribeAttempts_;
       trackSubscribeAttemptsPerSec_ = other.trackSubscribeAttemptsPerSec_;
       numTrackSubscribeSuccess_ = other.numTrackSubscribeSuccess_;
       trackSubscribeSuccessPerSec_ = other.trackSubscribeSuccessPerSec_;
+      numTrackSubscribeCancels_ = other.numTrackSubscribeCancels_;
       bytesIn_ = other.bytesIn_;
       bytesOut_ = other.bytesOut_;
       packetsIn_ = other.packetsIn_;
@@ -662,6 +669,7 @@ namespace LiveKit.Proto {
       participantRtcConnectedPerSec_ = other.participantRtcConnectedPerSec_;
       participantRtcInit_ = other.participantRtcInit_;
       participantRtcInitPerSec_ = other.participantRtcInitPerSec_;
+      participantRtcCanceled_ = other.participantRtcCanceled_;
       forwardLatency_ = other.forwardLatency_;
       forwardJitter_ = other.forwardJitter_;
       rates_ = other.rates_.Clone();
@@ -805,6 +813,18 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "num_track_publish_cancels" field.</summary>
+    public const int NumTrackPublishCancelsFieldNumber = 51;
+    private int numTrackPublishCancels_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int NumTrackPublishCancels {
+      get { return numTrackPublishCancels_; }
+      set {
+        numTrackPublishCancels_ = value;
+      }
+    }
+
     /// <summary>Field number for the "num_track_subscribe_attempts" field.</summary>
     public const int NumTrackSubscribeAttemptsFieldNumber = 40;
     private int numTrackSubscribeAttempts_;
@@ -852,6 +872,18 @@ namespace LiveKit.Proto {
       get { return trackSubscribeSuccessPerSec_; }
       set {
         trackSubscribeSuccessPerSec_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "num_track_subscribe_cancels" field.</summary>
+    public const int NumTrackSubscribeCancelsFieldNumber = 52;
+    private int numTrackSubscribeCancels_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int NumTrackSubscribeCancels {
+      get { return numTrackSubscribeCancels_; }
+      set {
+        numTrackSubscribeCancels_ = value;
       }
     }
 
@@ -1276,6 +1308,18 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "participant_rtc_canceled" field.</summary>
+    public const int ParticipantRtcCanceledFieldNumber = 53;
+    private ulong participantRtcCanceled_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong ParticipantRtcCanceled {
+      get { return participantRtcCanceled_; }
+      set {
+        participantRtcCanceled_ = value;
+      }
+    }
+
     /// <summary>Field number for the "forward_latency" field.</summary>
     public const int ForwardLatencyFieldNumber = 48;
     private uint forwardLatency_;
@@ -1339,10 +1383,12 @@ namespace LiveKit.Proto {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackPublishAttemptsPerSec, other.TrackPublishAttemptsPerSec)) return false;
       if (NumTrackPublishSuccess != other.NumTrackPublishSuccess) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackPublishSuccessPerSec, other.TrackPublishSuccessPerSec)) return false;
+      if (NumTrackPublishCancels != other.NumTrackPublishCancels) return false;
       if (NumTrackSubscribeAttempts != other.NumTrackSubscribeAttempts) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackSubscribeAttemptsPerSec, other.TrackSubscribeAttemptsPerSec)) return false;
       if (NumTrackSubscribeSuccess != other.NumTrackSubscribeSuccess) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackSubscribeSuccessPerSec, other.TrackSubscribeSuccessPerSec)) return false;
+      if (NumTrackSubscribeCancels != other.NumTrackSubscribeCancels) return false;
       if (BytesIn != other.BytesIn) return false;
       if (BytesOut != other.BytesOut) return false;
       if (PacketsIn != other.PacketsIn) return false;
@@ -1376,6 +1422,7 @@ namespace LiveKit.Proto {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ParticipantRtcConnectedPerSec, other.ParticipantRtcConnectedPerSec)) return false;
       if (ParticipantRtcInit != other.ParticipantRtcInit) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ParticipantRtcInitPerSec, other.ParticipantRtcInitPerSec)) return false;
+      if (ParticipantRtcCanceled != other.ParticipantRtcCanceled) return false;
       if (ForwardLatency != other.ForwardLatency) return false;
       if (ForwardJitter != other.ForwardJitter) return false;
       if(!rates_.Equals(other.rates_)) return false;
@@ -1396,10 +1443,12 @@ namespace LiveKit.Proto {
       if (TrackPublishAttemptsPerSec != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackPublishAttemptsPerSec);
       if (NumTrackPublishSuccess != 0) hash ^= NumTrackPublishSuccess.GetHashCode();
       if (TrackPublishSuccessPerSec != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackPublishSuccessPerSec);
+      if (NumTrackPublishCancels != 0) hash ^= NumTrackPublishCancels.GetHashCode();
       if (NumTrackSubscribeAttempts != 0) hash ^= NumTrackSubscribeAttempts.GetHashCode();
       if (TrackSubscribeAttemptsPerSec != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackSubscribeAttemptsPerSec);
       if (NumTrackSubscribeSuccess != 0) hash ^= NumTrackSubscribeSuccess.GetHashCode();
       if (TrackSubscribeSuccessPerSec != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackSubscribeSuccessPerSec);
+      if (NumTrackSubscribeCancels != 0) hash ^= NumTrackSubscribeCancels.GetHashCode();
       if (BytesIn != 0UL) hash ^= BytesIn.GetHashCode();
       if (BytesOut != 0UL) hash ^= BytesOut.GetHashCode();
       if (PacketsIn != 0UL) hash ^= PacketsIn.GetHashCode();
@@ -1433,6 +1482,7 @@ namespace LiveKit.Proto {
       if (ParticipantRtcConnectedPerSec != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ParticipantRtcConnectedPerSec);
       if (ParticipantRtcInit != 0UL) hash ^= ParticipantRtcInit.GetHashCode();
       if (ParticipantRtcInitPerSec != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ParticipantRtcInitPerSec);
+      if (ParticipantRtcCanceled != 0UL) hash ^= ParticipantRtcCanceled.GetHashCode();
       if (ForwardLatency != 0) hash ^= ForwardLatency.GetHashCode();
       if (ForwardJitter != 0) hash ^= ForwardJitter.GetHashCode();
       hash ^= rates_.GetHashCode();
@@ -1651,6 +1701,18 @@ namespace LiveKit.Proto {
         output.WriteUInt32(ForwardJitter);
       }
       rates_.WriteTo(output, _repeated_rates_codec);
+      if (NumTrackPublishCancels != 0) {
+        output.WriteRawTag(152, 3);
+        output.WriteInt32(NumTrackPublishCancels);
+      }
+      if (NumTrackSubscribeCancels != 0) {
+        output.WriteRawTag(160, 3);
+        output.WriteInt32(NumTrackSubscribeCancels);
+      }
+      if (ParticipantRtcCanceled != 0UL) {
+        output.WriteRawTag(168, 3);
+        output.WriteUInt64(ParticipantRtcCanceled);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1858,6 +1920,18 @@ namespace LiveKit.Proto {
         output.WriteUInt32(ForwardJitter);
       }
       rates_.WriteTo(ref output, _repeated_rates_codec);
+      if (NumTrackPublishCancels != 0) {
+        output.WriteRawTag(152, 3);
+        output.WriteInt32(NumTrackPublishCancels);
+      }
+      if (NumTrackSubscribeCancels != 0) {
+        output.WriteRawTag(160, 3);
+        output.WriteInt32(NumTrackSubscribeCancels);
+      }
+      if (ParticipantRtcCanceled != 0UL) {
+        output.WriteRawTag(168, 3);
+        output.WriteUInt64(ParticipantRtcCanceled);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1898,6 +1972,9 @@ namespace LiveKit.Proto {
       if (TrackPublishSuccessPerSec != 0F) {
         size += 2 + 4;
       }
+      if (NumTrackPublishCancels != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(NumTrackPublishCancels);
+      }
       if (NumTrackSubscribeAttempts != 0) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(NumTrackSubscribeAttempts);
       }
@@ -1909,6 +1986,9 @@ namespace LiveKit.Proto {
       }
       if (TrackSubscribeSuccessPerSec != 0F) {
         size += 2 + 4;
+      }
+      if (NumTrackSubscribeCancels != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(NumTrackSubscribeCancels);
       }
       if (BytesIn != 0UL) {
         size += 1 + pb::CodedOutputStream.ComputeUInt64Size(BytesIn);
@@ -2009,6 +2089,9 @@ namespace LiveKit.Proto {
       if (ParticipantRtcInitPerSec != 0F) {
         size += 2 + 4;
       }
+      if (ParticipantRtcCanceled != 0UL) {
+        size += 2 + pb::CodedOutputStream.ComputeUInt64Size(ParticipantRtcCanceled);
+      }
       if (ForwardLatency != 0) {
         size += 2 + pb::CodedOutputStream.ComputeUInt32Size(ForwardLatency);
       }
@@ -2058,6 +2141,9 @@ namespace LiveKit.Proto {
       if (other.TrackPublishSuccessPerSec != 0F) {
         TrackPublishSuccessPerSec = other.TrackPublishSuccessPerSec;
       }
+      if (other.NumTrackPublishCancels != 0) {
+        NumTrackPublishCancels = other.NumTrackPublishCancels;
+      }
       if (other.NumTrackSubscribeAttempts != 0) {
         NumTrackSubscribeAttempts = other.NumTrackSubscribeAttempts;
       }
@@ -2069,6 +2155,9 @@ namespace LiveKit.Proto {
       }
       if (other.TrackSubscribeSuccessPerSec != 0F) {
         TrackSubscribeSuccessPerSec = other.TrackSubscribeSuccessPerSec;
+      }
+      if (other.NumTrackSubscribeCancels != 0) {
+        NumTrackSubscribeCancels = other.NumTrackSubscribeCancels;
       }
       if (other.BytesIn != 0UL) {
         BytesIn = other.BytesIn;
@@ -2168,6 +2257,9 @@ namespace LiveKit.Proto {
       }
       if (other.ParticipantRtcInitPerSec != 0F) {
         ParticipantRtcInitPerSec = other.ParticipantRtcInitPerSec;
+      }
+      if (other.ParticipantRtcCanceled != 0UL) {
+        ParticipantRtcCanceled = other.ParticipantRtcCanceled;
       }
       if (other.ForwardLatency != 0) {
         ForwardLatency = other.ForwardLatency;
@@ -2395,6 +2487,18 @@ namespace LiveKit.Proto {
             rates_.AddEntriesFrom(input, _repeated_rates_codec);
             break;
           }
+          case 408: {
+            NumTrackPublishCancels = input.ReadInt32();
+            break;
+          }
+          case 416: {
+            NumTrackSubscribeCancels = input.ReadInt32();
+            break;
+          }
+          case 424: {
+            ParticipantRtcCanceled = input.ReadUInt64();
+            break;
+          }
         }
       }
     #endif
@@ -2614,6 +2718,18 @@ namespace LiveKit.Proto {
             rates_.AddEntriesFrom(ref input, _repeated_rates_codec);
             break;
           }
+          case 408: {
+            NumTrackPublishCancels = input.ReadInt32();
+            break;
+          }
+          case 416: {
+            NumTrackSubscribeCancels = input.ReadInt32();
+            break;
+          }
+          case 424: {
+            ParticipantRtcCanceled = input.ReadUInt64();
+            break;
+          }
         }
       }
     }
@@ -2664,8 +2780,10 @@ namespace LiveKit.Proto {
       duration_ = other.duration_;
       trackPublishAttempts_ = other.trackPublishAttempts_;
       trackPublishSuccess_ = other.trackPublishSuccess_;
+      trackPublishCancels_ = other.trackPublishCancels_;
       trackSubscribeAttempts_ = other.trackSubscribeAttempts_;
       trackSubscribeSuccess_ = other.trackSubscribeSuccess_;
+      trackSubscribeCancels_ = other.trackSubscribeCancels_;
       bytesIn_ = other.bytesIn_;
       bytesOut_ = other.bytesOut_;
       packetsIn_ = other.packetsIn_;
@@ -2678,6 +2796,7 @@ namespace LiveKit.Proto {
       participantSignalConnected_ = other.participantSignalConnected_;
       participantRtcConnected_ = other.participantRtcConnected_;
       participantRtcInit_ = other.participantRtcInit_;
+      participantRtcCanceled_ = other.participantRtcCanceled_;
       cpuLoad_ = other.cpuLoad_;
       memoryLoad_ = other.memoryLoad_;
       memoryUsed_ = other.memoryUsed_;
@@ -2751,6 +2870,18 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "track_publish_cancels" field.</summary>
+    public const int TrackPublishCancelsFieldNumber = 24;
+    private float trackPublishCancels_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float TrackPublishCancels {
+      get { return trackPublishCancels_; }
+      set {
+        trackPublishCancels_ = value;
+      }
+    }
+
     /// <summary>Field number for the "track_subscribe_attempts" field.</summary>
     public const int TrackSubscribeAttemptsFieldNumber = 6;
     private float trackSubscribeAttempts_;
@@ -2772,6 +2903,18 @@ namespace LiveKit.Proto {
       get { return trackSubscribeSuccess_; }
       set {
         trackSubscribeSuccess_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "track_subscribe_cancels" field.</summary>
+    public const int TrackSubscribeCancelsFieldNumber = 25;
+    private float trackSubscribeCancels_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float TrackSubscribeCancels {
+      get { return trackSubscribeCancels_; }
+      set {
+        trackSubscribeCancels_ = value;
       }
     }
 
@@ -2919,6 +3062,18 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "participant_rtc_canceled" field.</summary>
+    public const int ParticipantRtcCanceledFieldNumber = 26;
+    private float participantRtcCanceled_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public float ParticipantRtcCanceled {
+      get { return participantRtcCanceled_; }
+      set {
+        participantRtcCanceled_ = value;
+      }
+    }
+
     /// <summary>Field number for the "cpu_load" field.</summary>
     public const int CpuLoadFieldNumber = 20;
     private float cpuLoad_;
@@ -2990,8 +3145,10 @@ namespace LiveKit.Proto {
       if (Duration != other.Duration) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackPublishAttempts, other.TrackPublishAttempts)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackPublishSuccess, other.TrackPublishSuccess)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackPublishCancels, other.TrackPublishCancels)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackSubscribeAttempts, other.TrackSubscribeAttempts)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackSubscribeSuccess, other.TrackSubscribeSuccess)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TrackSubscribeCancels, other.TrackSubscribeCancels)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(BytesIn, other.BytesIn)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(BytesOut, other.BytesOut)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(PacketsIn, other.PacketsIn)) return false;
@@ -3004,6 +3161,7 @@ namespace LiveKit.Proto {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ParticipantSignalConnected, other.ParticipantSignalConnected)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ParticipantRtcConnected, other.ParticipantRtcConnected)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ParticipantRtcInit, other.ParticipantRtcInit)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ParticipantRtcCanceled, other.ParticipantRtcCanceled)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(CpuLoad, other.CpuLoad)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(MemoryLoad, other.MemoryLoad)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(MemoryUsed, other.MemoryUsed)) return false;
@@ -3020,8 +3178,10 @@ namespace LiveKit.Proto {
       if (Duration != 0L) hash ^= Duration.GetHashCode();
       if (TrackPublishAttempts != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackPublishAttempts);
       if (TrackPublishSuccess != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackPublishSuccess);
+      if (TrackPublishCancels != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackPublishCancels);
       if (TrackSubscribeAttempts != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackSubscribeAttempts);
       if (TrackSubscribeSuccess != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackSubscribeSuccess);
+      if (TrackSubscribeCancels != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TrackSubscribeCancels);
       if (BytesIn != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(BytesIn);
       if (BytesOut != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(BytesOut);
       if (PacketsIn != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(PacketsIn);
@@ -3034,6 +3194,7 @@ namespace LiveKit.Proto {
       if (ParticipantSignalConnected != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ParticipantSignalConnected);
       if (ParticipantRtcConnected != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ParticipantRtcConnected);
       if (ParticipantRtcInit != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ParticipantRtcInit);
+      if (ParticipantRtcCanceled != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ParticipantRtcCanceled);
       if (CpuLoad != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(CpuLoad);
       if (MemoryLoad != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(MemoryLoad);
       if (MemoryUsed != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(MemoryUsed);
@@ -3148,6 +3309,18 @@ namespace LiveKit.Proto {
         output.WriteRawTag(189, 1);
         output.WriteFloat(MemoryTotal);
       }
+      if (TrackPublishCancels != 0F) {
+        output.WriteRawTag(197, 1);
+        output.WriteFloat(TrackPublishCancels);
+      }
+      if (TrackSubscribeCancels != 0F) {
+        output.WriteRawTag(205, 1);
+        output.WriteFloat(TrackSubscribeCancels);
+      }
+      if (ParticipantRtcCanceled != 0F) {
+        output.WriteRawTag(213, 1);
+        output.WriteFloat(ParticipantRtcCanceled);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3250,6 +3423,18 @@ namespace LiveKit.Proto {
         output.WriteRawTag(189, 1);
         output.WriteFloat(MemoryTotal);
       }
+      if (TrackPublishCancels != 0F) {
+        output.WriteRawTag(197, 1);
+        output.WriteFloat(TrackPublishCancels);
+      }
+      if (TrackSubscribeCancels != 0F) {
+        output.WriteRawTag(205, 1);
+        output.WriteFloat(TrackSubscribeCancels);
+      }
+      if (ParticipantRtcCanceled != 0F) {
+        output.WriteRawTag(213, 1);
+        output.WriteFloat(ParticipantRtcCanceled);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3275,11 +3460,17 @@ namespace LiveKit.Proto {
       if (TrackPublishSuccess != 0F) {
         size += 1 + 4;
       }
+      if (TrackPublishCancels != 0F) {
+        size += 2 + 4;
+      }
       if (TrackSubscribeAttempts != 0F) {
         size += 1 + 4;
       }
       if (TrackSubscribeSuccess != 0F) {
         size += 1 + 4;
+      }
+      if (TrackSubscribeCancels != 0F) {
+        size += 2 + 4;
       }
       if (BytesIn != 0F) {
         size += 1 + 4;
@@ -3315,6 +3506,9 @@ namespace LiveKit.Proto {
         size += 2 + 4;
       }
       if (ParticipantRtcInit != 0F) {
+        size += 2 + 4;
+      }
+      if (ParticipantRtcCanceled != 0F) {
         size += 2 + 4;
       }
       if (CpuLoad != 0F) {
@@ -3356,11 +3550,17 @@ namespace LiveKit.Proto {
       if (other.TrackPublishSuccess != 0F) {
         TrackPublishSuccess = other.TrackPublishSuccess;
       }
+      if (other.TrackPublishCancels != 0F) {
+        TrackPublishCancels = other.TrackPublishCancels;
+      }
       if (other.TrackSubscribeAttempts != 0F) {
         TrackSubscribeAttempts = other.TrackSubscribeAttempts;
       }
       if (other.TrackSubscribeSuccess != 0F) {
         TrackSubscribeSuccess = other.TrackSubscribeSuccess;
+      }
+      if (other.TrackSubscribeCancels != 0F) {
+        TrackSubscribeCancels = other.TrackSubscribeCancels;
       }
       if (other.BytesIn != 0F) {
         BytesIn = other.BytesIn;
@@ -3397,6 +3597,9 @@ namespace LiveKit.Proto {
       }
       if (other.ParticipantRtcInit != 0F) {
         ParticipantRtcInit = other.ParticipantRtcInit;
+      }
+      if (other.ParticipantRtcCanceled != 0F) {
+        ParticipantRtcCanceled = other.ParticipantRtcCanceled;
       }
       if (other.CpuLoad != 0F) {
         CpuLoad = other.CpuLoad;
@@ -3521,6 +3724,18 @@ namespace LiveKit.Proto {
             MemoryTotal = input.ReadFloat();
             break;
           }
+          case 197: {
+            TrackPublishCancels = input.ReadFloat();
+            break;
+          }
+          case 205: {
+            TrackSubscribeCancels = input.ReadFloat();
+            break;
+          }
+          case 213: {
+            ParticipantRtcCanceled = input.ReadFloat();
+            break;
+          }
         }
       }
     #endif
@@ -3630,6 +3845,18 @@ namespace LiveKit.Proto {
           }
           case 189: {
             MemoryTotal = input.ReadFloat();
+            break;
+          }
+          case 197: {
+            TrackPublishCancels = input.ReadFloat();
+            break;
+          }
+          case 205: {
+            TrackSubscribeCancels = input.ReadFloat();
+            break;
+          }
+          case 213: {
+            ParticipantRtcCanceled = input.ReadFloat();
             break;
           }
         }
