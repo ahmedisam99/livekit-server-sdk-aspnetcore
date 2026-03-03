@@ -116,7 +116,7 @@ namespace LiveKit.Proto {
             "aXZla2l0qgINTGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90",
             "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.LivekitEgressReflection.Descriptor, global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::Logger.OptionsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.LivekitEgressReflection.Descriptor, global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateRoomRequest), global::LiveKit.Proto.CreateRoomRequest.Parser, new[]{ "Name", "RoomPreset", "EmptyTimeout", "DepartureTimeout", "MaxParticipants", "NodeId", "Metadata", "Egress", "MinPlayoutDelay", "MaxPlayoutDelay", "SyncStreams", "ReplayEnabled", "Agents" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RoomEgress), global::LiveKit.Proto.RoomEgress.Parser, new[]{ "Room", "Participant", "Tracks" }, null, null, null, null),

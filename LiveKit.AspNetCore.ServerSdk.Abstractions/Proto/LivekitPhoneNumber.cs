@@ -88,8 +88,9 @@ namespace LiveKit.Proto {
             "cGRhdGVQaG9uZU51bWJlclJlcXVlc3QaIi5saXZla2l0LlVwZGF0ZVBob25l",
             "TnVtYmVyUmVzcG9uc2UiABJiChNSZWxlYXNlUGhvbmVOdW1iZXJzEiMubGl2",
             "ZWtpdC5SZWxlYXNlUGhvbmVOdW1iZXJzUmVxdWVzdBokLmxpdmVraXQuUmVs",
-            "ZWFzZVBob25lTnVtYmVyc1Jlc3BvbnNlIgBCNVojZ2l0aHViLmNvbS9saXZl",
-            "a2l0L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0LlByb3RvYgZwcm90bzM="));
+            "ZWFzZVBob25lTnVtYmVyc1Jlc3BvbnNlIgBCRlojZ2l0aHViLmNvbS9saXZl",
+            "a2l0L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtp",
+            "dDo6UHJvdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.PhoneNumberStatus), typeof(global::LiveKit.Proto.PhoneNumberType), }, null, new pbr::GeneratedClrTypeInfo[] {

@@ -48,7 +48,7 @@ namespace LiveKit.Proto {
             "Y29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdKoCDUxpdmVLaXQuUHJvdG/q",
             "Ag5MaXZlS2l0OjpQcm90b2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentReflection.Descriptor, global::Logger.OptionsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateAgentDispatchRequest), global::LiveKit.Proto.CreateAgentDispatchRequest.Parser, new[]{ "AgentName", "Room", "Metadata" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RoomAgentDispatch), global::LiveKit.Proto.RoomAgentDispatch.Parser, new[]{ "AgentName", "Metadata" }, null, null, null, null),

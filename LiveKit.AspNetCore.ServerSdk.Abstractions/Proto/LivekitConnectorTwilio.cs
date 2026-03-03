@@ -45,7 +45,7 @@ namespace LiveKit.Proto {
             "I2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgINTGl2ZUtp",
             "dC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::Logger.OptionsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectTwilioCallRequest), global::LiveKit.Proto.ConnectTwilioCallRequest.Parser, new[]{ "TwilioCallDirection", "RoomName", "Agents", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "ParticipantAttributes", "DestinationCountry" }, null, new[]{ typeof(global::LiveKit.Proto.ConnectTwilioCallRequest.Types.TwilioCallDirection) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectTwilioCallResponse), global::LiveKit.Proto.ConnectTwilioCallResponse.Parser, new[]{ "ConnectUrl" }, null, null, null, null)

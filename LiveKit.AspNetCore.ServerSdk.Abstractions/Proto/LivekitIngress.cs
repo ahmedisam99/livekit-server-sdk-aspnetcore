@@ -87,32 +87,34 @@ namespace LiveKit.Proto {
             "QXVkaW9PcHRpb25zEisKBXZpZGVvGAcgASgLMhwubGl2ZWtpdC5JbmdyZXNz",
             "VmlkZW9PcHRpb25zEhQKB2VuYWJsZWQYCyABKAhIAogBAUIVChNfYnlwYXNz",
             "X3RyYW5zY29kaW5nQhUKE19lbmFibGVfdHJhbnNjb2RpbmdCCgoIX2VuYWJs",
-            "ZWQiOwoSTGlzdEluZ3Jlc3NSZXF1ZXN0EhEKCXJvb21fbmFtZRgBIAEoCRIS",
-            "CgppbmdyZXNzX2lkGAIgASgJIjoKE0xpc3RJbmdyZXNzUmVzcG9uc2USIwoF",
-            "aXRlbXMYASADKAsyFC5saXZla2l0LkluZ3Jlc3NJbmZvIioKFERlbGV0ZUlu",
-            "Z3Jlc3NSZXF1ZXN0EhIKCmluZ3Jlc3NfaWQYASABKAkqPQoMSW5ncmVzc0lu",
-            "cHV0Eg4KClJUTVBfSU5QVVQQABIOCgpXSElQX0lOUFVUEAESDQoJVVJMX0lO",
-            "UFVUEAIqSQoaSW5ncmVzc0F1ZGlvRW5jb2RpbmdQcmVzZXQSFgoST1BVU19T",
-            "VEVSRU9fOTZLQlBTEAASEwoPT1BVU19NT05PXzY0S0JTEAEqhAMKGkluZ3Jl",
-            "c3NWaWRlb0VuY29kaW5nUHJlc2V0EhwKGEgyNjRfNzIwUF8zMEZQU18zX0xB",
-            "WUVSUxAAEh0KGUgyNjRfMTA4MFBfMzBGUFNfM19MQVlFUlMQARIcChhIMjY0",
-            "XzU0MFBfMjVGUFNfMl9MQVlFUlMQAhIbChdIMjY0XzcyMFBfMzBGUFNfMV9M",
-            "QVlFUhADEhwKGEgyNjRfMTA4MFBfMzBGUFNfMV9MQVlFUhAEEigKJEgyNjRf",
-            "NzIwUF8zMEZQU18zX0xBWUVSU19ISUdIX01PVElPThAFEikKJUgyNjRfMTA4",
-            "MFBfMzBGUFNfM19MQVlFUlNfSElHSF9NT1RJT04QBhIoCiRIMjY0XzU0MFBf",
-            "MjVGUFNfMl9MQVlFUlNfSElHSF9NT1RJT04QBxInCiNIMjY0XzcyMFBfMzBG",
-            "UFNfMV9MQVlFUl9ISUdIX01PVElPThAIEigKJEgyNjRfMTA4MFBfMzBGUFNf",
-            "MV9MQVlFUl9ISUdIX01PVElPThAJMqUCCgdJbmdyZXNzEkQKDUNyZWF0ZUlu",
-            "Z3Jlc3MSHS5saXZla2l0LkNyZWF0ZUluZ3Jlc3NSZXF1ZXN0GhQubGl2ZWtp",
-            "dC5JbmdyZXNzSW5mbxJECg1VcGRhdGVJbmdyZXNzEh0ubGl2ZWtpdC5VcGRh",
-            "dGVJbmdyZXNzUmVxdWVzdBoULmxpdmVraXQuSW5ncmVzc0luZm8SSAoLTGlz",
-            "dEluZ3Jlc3MSGy5saXZla2l0Lkxpc3RJbmdyZXNzUmVxdWVzdBocLmxpdmVr",
-            "aXQuTGlzdEluZ3Jlc3NSZXNwb25zZRJECg1EZWxldGVJbmdyZXNzEh0ubGl2",
-            "ZWtpdC5EZWxldGVJbmdyZXNzUmVxdWVzdBoULmxpdmVraXQuSW5ncmVzc0lu",
-            "Zm9CRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1M",
-            "aXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
+            "ZWQiaQoSTGlzdEluZ3Jlc3NSZXF1ZXN0EiwKCnBhZ2VfdG9rZW4YAyABKAsy",
+            "GC5saXZla2l0LlRva2VuUGFnaW5hdGlvbhIRCglyb29tX25hbWUYASABKAkS",
+            "EgoKaW5ncmVzc19pZBgCIAEoCSJtChNMaXN0SW5ncmVzc1Jlc3BvbnNlEjEK",
+            "D25leHRfcGFnZV90b2tlbhgCIAEoCzIYLmxpdmVraXQuVG9rZW5QYWdpbmF0",
+            "aW9uEiMKBWl0ZW1zGAEgAygLMhQubGl2ZWtpdC5JbmdyZXNzSW5mbyIqChRE",
+            "ZWxldGVJbmdyZXNzUmVxdWVzdBISCgppbmdyZXNzX2lkGAEgASgJKj0KDElu",
+            "Z3Jlc3NJbnB1dBIOCgpSVE1QX0lOUFVUEAASDgoKV0hJUF9JTlBVVBABEg0K",
+            "CVVSTF9JTlBVVBACKkkKGkluZ3Jlc3NBdWRpb0VuY29kaW5nUHJlc2V0EhYK",
+            "Ek9QVVNfU1RFUkVPXzk2S0JQUxAAEhMKD09QVVNfTU9OT182NEtCUxABKoQD",
+            "ChpJbmdyZXNzVmlkZW9FbmNvZGluZ1ByZXNldBIcChhIMjY0XzcyMFBfMzBG",
+            "UFNfM19MQVlFUlMQABIdChlIMjY0XzEwODBQXzMwRlBTXzNfTEFZRVJTEAES",
+            "HAoYSDI2NF81NDBQXzI1RlBTXzJfTEFZRVJTEAISGwoXSDI2NF83MjBQXzMw",
+            "RlBTXzFfTEFZRVIQAxIcChhIMjY0XzEwODBQXzMwRlBTXzFfTEFZRVIQBBIo",
+            "CiRIMjY0XzcyMFBfMzBGUFNfM19MQVlFUlNfSElHSF9NT1RJT04QBRIpCiVI",
+            "MjY0XzEwODBQXzMwRlBTXzNfTEFZRVJTX0hJR0hfTU9USU9OEAYSKAokSDI2",
+            "NF81NDBQXzI1RlBTXzJfTEFZRVJTX0hJR0hfTU9USU9OEAcSJwojSDI2NF83",
+            "MjBQXzMwRlBTXzFfTEFZRVJfSElHSF9NT1RJT04QCBIoCiRIMjY0XzEwODBQ",
+            "XzMwRlBTXzFfTEFZRVJfSElHSF9NT1RJT04QCTKlAgoHSW5ncmVzcxJECg1D",
+            "cmVhdGVJbmdyZXNzEh0ubGl2ZWtpdC5DcmVhdGVJbmdyZXNzUmVxdWVzdBoU",
+            "LmxpdmVraXQuSW5ncmVzc0luZm8SRAoNVXBkYXRlSW5ncmVzcxIdLmxpdmVr",
+            "aXQuVXBkYXRlSW5ncmVzc1JlcXVlc3QaFC5saXZla2l0LkluZ3Jlc3NJbmZv",
+            "EkgKC0xpc3RJbmdyZXNzEhsubGl2ZWtpdC5MaXN0SW5ncmVzc1JlcXVlc3Qa",
+            "HC5saXZla2l0Lkxpc3RJbmdyZXNzUmVzcG9uc2USRAoNRGVsZXRlSW5ncmVz",
+            "cxIdLmxpdmVraXQuRGVsZXRlSW5ncmVzc1JlcXVlc3QaFC5saXZla2l0Lklu",
+            "Z3Jlc3NJbmZvQkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZl",
+            "a2l0qgINTGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::Logger.OptionsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.IngressInput), typeof(global::LiveKit.Proto.IngressAudioEncodingPreset), typeof(global::LiveKit.Proto.IngressVideoEncodingPreset), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateIngressRequest), global::LiveKit.Proto.CreateIngressRequest.Parser, new[]{ "InputType", "Url", "Name", "RoomName", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "BypassTranscoding", "EnableTranscoding", "Audio", "Video", "Enabled" }, new[]{ "EnableTranscoding", "Enabled" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.IngressAudioOptions), global::LiveKit.Proto.IngressAudioOptions.Parser, new[]{ "Name", "Source", "Preset", "Options" }, new[]{ "EncodingOptions" }, null, null, null),
@@ -124,8 +126,8 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.InputVideoState), global::LiveKit.Proto.InputVideoState.Parser, new[]{ "MimeType", "AverageBitrate", "Width", "Height", "Framerate" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.InputAudioState), global::LiveKit.Proto.InputAudioState.Parser, new[]{ "MimeType", "AverageBitrate", "Channels", "SampleRate" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdateIngressRequest), global::LiveKit.Proto.UpdateIngressRequest.Parser, new[]{ "IngressId", "Name", "RoomName", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "BypassTranscoding", "EnableTranscoding", "Audio", "Video", "Enabled" }, new[]{ "BypassTranscoding", "EnableTranscoding", "Enabled" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListIngressRequest), global::LiveKit.Proto.ListIngressRequest.Parser, new[]{ "RoomName", "IngressId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListIngressResponse), global::LiveKit.Proto.ListIngressResponse.Parser, new[]{ "Items" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListIngressRequest), global::LiveKit.Proto.ListIngressRequest.Parser, new[]{ "PageToken", "RoomName", "IngressId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListIngressResponse), global::LiveKit.Proto.ListIngressResponse.Parser, new[]{ "NextPageToken", "Items" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DeleteIngressRequest), global::LiveKit.Proto.DeleteIngressRequest.Parser, new[]{ "IngressId" }, null, null, null, null)
           }));
     }
@@ -4919,6 +4921,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListIngressRequest(ListIngressRequest other) : this() {
+      pageToken_ = other.pageToken_ != null ? other.pageToken_.Clone() : null;
       roomName_ = other.roomName_;
       ingressId_ = other.ingressId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -4928,6 +4931,18 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListIngressRequest Clone() {
       return new ListIngressRequest(this);
+    }
+
+    /// <summary>Field number for the "page_token" field.</summary>
+    public const int PageTokenFieldNumber = 3;
+    private global::LiveKit.Proto.TokenPagination pageToken_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.TokenPagination PageToken {
+      get { return pageToken_; }
+      set {
+        pageToken_ = value;
+      }
     }
 
     /// <summary>Field number for the "room_name" field.</summary>
@@ -4975,6 +4990,7 @@ namespace LiveKit.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(PageToken, other.PageToken)) return false;
       if (RoomName != other.RoomName) return false;
       if (IngressId != other.IngressId) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -4984,6 +5000,7 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (pageToken_ != null) hash ^= PageToken.GetHashCode();
       if (RoomName.Length != 0) hash ^= RoomName.GetHashCode();
       if (IngressId.Length != 0) hash ^= IngressId.GetHashCode();
       if (_unknownFields != null) {
@@ -5012,6 +5029,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteString(IngressId);
       }
+      if (pageToken_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PageToken);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5030,6 +5051,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteString(IngressId);
       }
+      if (pageToken_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(PageToken);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5040,6 +5065,9 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (pageToken_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PageToken);
+      }
       if (RoomName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(RoomName);
       }
@@ -5057,6 +5085,12 @@ namespace LiveKit.Proto {
     public void MergeFrom(ListIngressRequest other) {
       if (other == null) {
         return;
+      }
+      if (other.pageToken_ != null) {
+        if (pageToken_ == null) {
+          PageToken = new global::LiveKit.Proto.TokenPagination();
+        }
+        PageToken.MergeFrom(other.PageToken);
       }
       if (other.RoomName.Length != 0) {
         RoomName = other.RoomName;
@@ -5091,6 +5125,13 @@ namespace LiveKit.Proto {
             IngressId = input.ReadString();
             break;
           }
+          case 26: {
+            if (pageToken_ == null) {
+              PageToken = new global::LiveKit.Proto.TokenPagination();
+            }
+            input.ReadMessage(PageToken);
+            break;
+          }
         }
       }
     #endif
@@ -5116,6 +5157,13 @@ namespace LiveKit.Proto {
           }
           case 18: {
             IngressId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (pageToken_ == null) {
+              PageToken = new global::LiveKit.Proto.TokenPagination();
+            }
+            input.ReadMessage(PageToken);
             break;
           }
         }
@@ -5160,6 +5208,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ListIngressResponse(ListIngressResponse other) : this() {
+      nextPageToken_ = other.nextPageToken_ != null ? other.nextPageToken_.Clone() : null;
       items_ = other.items_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -5170,11 +5219,26 @@ namespace LiveKit.Proto {
       return new ListIngressResponse(this);
     }
 
+    /// <summary>Field number for the "next_page_token" field.</summary>
+    public const int NextPageTokenFieldNumber = 2;
+    private global::LiveKit.Proto.TokenPagination nextPageToken_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.TokenPagination NextPageToken {
+      get { return nextPageToken_; }
+      set {
+        nextPageToken_ = value;
+      }
+    }
+
     /// <summary>Field number for the "items" field.</summary>
     public const int ItemsFieldNumber = 1;
     private static readonly pb::FieldCodec<global::LiveKit.Proto.IngressInfo> _repeated_items_codec
         = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.IngressInfo.Parser);
     private readonly pbc::RepeatedField<global::LiveKit.Proto.IngressInfo> items_ = new pbc::RepeatedField<global::LiveKit.Proto.IngressInfo>();
+    /// <summary>
+    /// next field id: 3
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::LiveKit.Proto.IngressInfo> Items {
@@ -5196,6 +5260,7 @@ namespace LiveKit.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(NextPageToken, other.NextPageToken)) return false;
       if(!items_.Equals(other.items_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -5204,6 +5269,7 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (nextPageToken_ != null) hash ^= NextPageToken.GetHashCode();
       hash ^= items_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -5224,6 +5290,10 @@ namespace LiveKit.Proto {
       output.WriteRawMessage(this);
     #else
       items_.WriteTo(output, _repeated_items_codec);
+      if (nextPageToken_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(NextPageToken);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5235,6 +5305,10 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       items_.WriteTo(ref output, _repeated_items_codec);
+      if (nextPageToken_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(NextPageToken);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5245,6 +5319,9 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (nextPageToken_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(NextPageToken);
+      }
       size += items_.CalculateSize(_repeated_items_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5257,6 +5334,12 @@ namespace LiveKit.Proto {
     public void MergeFrom(ListIngressResponse other) {
       if (other == null) {
         return;
+      }
+      if (other.nextPageToken_ != null) {
+        if (nextPageToken_ == null) {
+          NextPageToken = new global::LiveKit.Proto.TokenPagination();
+        }
+        NextPageToken.MergeFrom(other.NextPageToken);
       }
       items_.Add(other.items_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -5282,6 +5365,13 @@ namespace LiveKit.Proto {
             items_.AddEntriesFrom(input, _repeated_items_codec);
             break;
           }
+          case 18: {
+            if (nextPageToken_ == null) {
+              NextPageToken = new global::LiveKit.Proto.TokenPagination();
+            }
+            input.ReadMessage(NextPageToken);
+            break;
+          }
         }
       }
     #endif
@@ -5303,6 +5393,13 @@ namespace LiveKit.Proto {
             break;
           case 10: {
             items_.AddEntriesFrom(ref input, _repeated_items_codec);
+            break;
+          }
+          case 18: {
+            if (nextPageToken_ == null) {
+              NextPageToken = new global::LiveKit.Proto.TokenPagination();
+            }
+            input.ReadMessage(NextPageToken);
             break;
           }
         }
