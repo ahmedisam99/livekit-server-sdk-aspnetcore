@@ -4,7 +4,7 @@ _layout: landing
 
 # LiveKit ASP.NET Core Server SDK
 
-[API Reference](/api/LiveKit.html)
+[API Reference](/livekit-server-sdk-aspnetcore/api/LiveKit.html)
 [LiveKit Protocol v1.44.1](https://github.com/livekit/protocol/tree/v1.44.1)
 
 ASP.NET Core SDK for LiveKit Server API. Provides HTTP clients and services for managing rooms, participants, recordings, ingress, SIP, and more.
@@ -170,27 +170,27 @@ public class WebhookController : ControllerBase
 ## Available Services
 
 ### Room Service
-[`ILiveKitRoomService`](/api/LiveKit.Services.ILiveKitRoomService.html) - Manage rooms and participants
+[`ILiveKitRoomService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitRoomService.html) - Manage rooms and participants
 
 ### Egress Service
-[`ILiveKitEgressService`](/api/LiveKit.Services.ILiveKitEgressService.html) - Record and stream content
+[`ILiveKitEgressService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitEgressService.html) - Record and stream content
 
 ### Ingress Service
-[`ILiveKitIngressService`](/api/LiveKit.Services.ILiveKitIngressService.html) - Create ingress endpoints for external media
+[`ILiveKitIngressService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitIngressService.html) - Create ingress endpoints for external media
 
 ### SIP Service
-[`ILiveKitSipService`](/api/LiveKit.Services.ILiveKitSipService.html) - Manage SIP trunks and dispatch rules
+[`ILiveKitSipService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitSipService.html) - Manage SIP trunks and dispatch rules
 
 ### Token Service
-[`ILiveKitTokenService`](/api/LiveKit.Services.ILiveKitTokenService.html) - Generate JWT tokens for client authentication
+[`ILiveKitTokenService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitTokenService.html) - Generate JWT tokens for client authentication
 
 ### Webhook Receiver
-[`ILiveKitWebhookReceiver`](/api/LiveKit.Services.ILiveKitWebhookReceiver.html) - Validate and parse webhook events
+[`ILiveKitWebhookReceiver`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitWebhookReceiver.html) - Validate and parse webhook events
 
 ### Additional Services
-- [`ILiveKitAgentDispatchService`](/api/LiveKit.Services.ILiveKitAgentDispatchService.html) - Deploy agents to rooms
-- [`ILiveKitPhoneNumberService`](/api/LiveKit.Services.ILiveKitPhoneNumberService.html) - Manage phone numbers
-- [`ILiveKitCloudAgentService`](/api/LiveKit.Services.ILiveKitCloudAgentService.html) - Manage LiveKit Cloud agents
+- [`ILiveKitAgentDispatchService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitAgentDispatchService.html) - Deploy agents to rooms
+- [`ILiveKitPhoneNumberService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitPhoneNumberService.html) - Manage phone numbers
+- [`ILiveKitCloudAgentService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitCloudAgentService.html) - Manage LiveKit Cloud agents
 
 ## Documentation
 
