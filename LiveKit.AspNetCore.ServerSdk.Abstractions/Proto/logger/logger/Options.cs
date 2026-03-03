@@ -26,8 +26,8 @@ namespace Logger {
           string.Concat(
             "ChRsb2dnZXIvb3B0aW9ucy5wcm90bxIGbG9nZ2VyGiBnb29nbGUvcHJvdG9i",
             "dWYvZGVzY3JpcHRvci5wcm90bzovCgZyZWRhY3QSHS5nb29nbGUucHJvdG9i",
-            "dWYuRmllbGRPcHRpb25zGNGGAyABKAg6NgoNcmVkYWN0X2Zvcm1hdBIdLmdv",
-            "b2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMY0oYDIAEoCUIsWipnaXRodWIu",
+            "dWYuRmllbGRPcHRpb25zGMHNBSABKAg6NgoNcmVkYWN0X2Zvcm1hdBIdLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMYws0FIAEoCUIsWipnaXRodWIu",
             "Y29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdC9sb2dnZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.Reflection.DescriptorReflection.Descriptor, },
@@ -39,9 +39,9 @@ namespace Logger {
   /// <summary>Holder for extension identifiers generated from the top level of logger/options.proto</summary>
   public static partial class OptionsExtensions {
     public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool> Redact =
-      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool>(50001, pb::FieldCodec.ForBool(400008, false));
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool>(91841, pb::FieldCodec.ForBool(734728, false));
     public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string> RedactFormat =
-      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(50002, pb::FieldCodec.ForString(400018, ""));
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(91842, pb::FieldCodec.ForString(734738, ""));
   }
 
 }

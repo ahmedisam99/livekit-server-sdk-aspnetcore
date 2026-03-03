@@ -24,9 +24,9 @@ namespace LiveKit.Proto {
     static LivekitInternalReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChZsaXZla2l0X2ludGVybmFsLnByb3RvEgdsaXZla2l0GhRsaXZla2l0X21v",
-            "ZGVscy5wcm90bxoUbGl2ZWtpdF9lZ3Jlc3MucHJvdG8aHGxpdmVraXRfYWdl",
-            "bnRfZGlzcGF0Y2gucHJvdG8aEmxpdmVraXRfcm9vbS5wcm90bxoRbGl2ZWtp",
+            "ChZsaXZla2l0X2ludGVybmFsLnByb3RvEgdsaXZla2l0GhxsaXZla2l0X2Fn",
+            "ZW50X2Rpc3BhdGNoLnByb3RvGhRsaXZla2l0X2VncmVzcy5wcm90bxoUbGl2",
+            "ZWtpdF9tb2RlbHMucHJvdG8aEmxpdmVraXRfcm9vbS5wcm90bxoRbGl2ZWtp",
             "dF9ydGMucHJvdG8ipwEKBE5vZGUSCgoCaWQYASABKAkSCgoCaXAYAiABKAkS",
             "EAoIbnVtX2NwdXMYAyABKA0SIQoFc3RhdHMYBCABKAsyEi5saXZla2l0Lk5v",
             "ZGVTdGF0cxIfCgR0eXBlGAUgASgOMhEubGl2ZWtpdC5Ob2RlVHlwZRIhCgVz",
@@ -83,45 +83,46 @@ namespace LiveKit.Proto {
             "dGVkGBIgASgCEhwKFHBhcnRpY2lwYW50X3J0Y19pbml0GBMgASgCEiAKGHBh",
             "cnRpY2lwYW50X3J0Y19jYW5jZWxlZBgaIAEoAhIQCghjcHVfbG9hZBgUIAEo",
             "AhITCgttZW1vcnlfbG9hZBgVIAEoAhITCgttZW1vcnlfdXNlZBgWIAEoAhIU",
-            "CgxtZW1vcnlfdG90YWwYFyABKAIijwUKDFN0YXJ0U2Vzc2lvbhIRCglyb29t",
+            "CgxtZW1vcnlfdG90YWwYFyABKAIi1QUKDFN0YXJ0U2Vzc2lvbhIRCglyb29t",
             "X25hbWUYASABKAkSEAoIaWRlbnRpdHkYAiABKAkSFQoNY29ubmVjdGlvbl9p",
             "ZBgDIAEoCRIRCglyZWNvbm5lY3QYBCABKAgSFgoOYXV0b19zdWJzY3JpYmUY",
-            "CSABKAgSEgoGaGlkZGVuGAogASgIQgIYARIjCgZjbGllbnQYCyABKAsyEy5s",
-            "aXZla2l0LkNsaWVudEluZm8SFAoIcmVjb3JkZXIYDCABKAhCAhgBEgwKBG5h",
-            "bWUYDSABKAkSEwoLZ3JhbnRzX2pzb24YDiABKAkSFwoPYWRhcHRpdmVfc3Ry",
-            "ZWFtGA8gASgIEhYKDnBhcnRpY2lwYW50X2lkGBAgASgJEjIKEHJlY29ubmVj",
-            "dF9yZWFzb24YESABKA4yGC5saXZla2l0LlJlY29ubmVjdFJlYXNvbhIjChZz",
-            "dWJzY3JpYmVyX2FsbG93X3BhdXNlGBIgASgISACIAQESGAoQZGlzYWJsZV9p",
-            "Y2VfbGl0ZRgTIAEoCBIvCgtjcmVhdGVfcm9vbRgUIAEoCzIaLmxpdmVraXQu",
-            "Q3JlYXRlUm9vbVJlcXVlc3QSNAoSYWRkX3RyYWNrX3JlcXVlc3RzGBUgAygL",
-            "MhgubGl2ZWtpdC5BZGRUcmFja1JlcXVlc3QSNAoPcHVibGlzaGVyX29mZmVy",
-            "GBYgASgLMhsubGl2ZWtpdC5TZXNzaW9uRGVzY3JpcHRpb24SJgoKc3luY19z",
-            "dGF0ZRgXIAEoCzISLmxpdmVraXQuU3luY1N0YXRlEiIKGnVzZV9zaW5nbGVf",
-            "cGVlcl9jb25uZWN0aW9uGBggASgIQhkKF19zdWJzY3JpYmVyX2FsbG93X3Bh",
-            "dXNlIowCCgxSb29tSW50ZXJuYWwSLgoMdHJhY2tfZWdyZXNzGAEgASgLMhgu",
-            "bGl2ZWtpdC5BdXRvVHJhY2tFZ3Jlc3MSOgoScGFydGljaXBhbnRfZWdyZXNz",
-            "GAIgASgLMh4ubGl2ZWtpdC5BdXRvUGFydGljaXBhbnRFZ3Jlc3MSLAoNcGxh",
-            "eW91dF9kZWxheRgDIAEoCzIVLmxpdmVraXQuUGxheW91dERlbGF5EjQKEGFn",
-            "ZW50X2Rpc3BhdGNoZXMYBSADKAsyGi5saXZla2l0LlJvb21BZ2VudERpc3Bh",
-            "dGNoEhQKDHN5bmNfc3RyZWFtcxgEIAEoCBIWCg5yZXBsYXlfZW5hYmxlZBgG",
-            "IAEoCCJ+CglJQ0VDb25maWcSOAoVcHJlZmVyZW5jZV9zdWJzY3JpYmVyGAEg",
-            "ASgOMhkubGl2ZWtpdC5JQ0VDYW5kaWRhdGVUeXBlEjcKFHByZWZlcmVuY2Vf",
-            "cHVibGlzaGVyGAIgASgOMhkubGl2ZWtpdC5JQ0VDYW5kaWRhdGVUeXBlKnYK",
-            "CE5vZGVUeXBlEgoKBlNFUlZFUhAAEg4KCkNPTlRST0xMRVIQARIJCgVNRURJ",
-            "QRACEggKBFRVUk4QBBILCgdTV0VFUEVSEAUSDAoIRElSRUNUT1IQBhIQCgxI",
-            "T1NURURfQUdFTlQQBxIMCghTRVRUSU5HUxAIKjwKCU5vZGVTdGF0ZRIPCgtT",
-            "VEFSVElOR19VUBAAEgsKB1NFUlZJTkcQARIRCg1TSFVUVElOR19ET1dOEAIq",
-            "OgoQSUNFQ2FuZGlkYXRlVHlwZRIMCghJQ1RfTk9ORRAAEgsKB0lDVF9UQ1AQ",
-            "ARILCgdJQ1RfVExTEAJCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29s",
-            "L2xpdmVraXSqAg1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnBy",
-            "b3RvMw=="));
+            "CSABKAgSJgoZYXV0b19zdWJzY3JpYmVfZGF0YV90cmFjaxgZIAEoCEgAiAEB",
+            "EhIKBmhpZGRlbhgKIAEoCEICGAESIwoGY2xpZW50GAsgASgLMhMubGl2ZWtp",
+            "dC5DbGllbnRJbmZvEhQKCHJlY29yZGVyGAwgASgIQgIYARIMCgRuYW1lGA0g",
+            "ASgJEhMKC2dyYW50c19qc29uGA4gASgJEhcKD2FkYXB0aXZlX3N0cmVhbRgP",
+            "IAEoCBIWCg5wYXJ0aWNpcGFudF9pZBgQIAEoCRIyChByZWNvbm5lY3RfcmVh",
+            "c29uGBEgASgOMhgubGl2ZWtpdC5SZWNvbm5lY3RSZWFzb24SIwoWc3Vic2Ny",
+            "aWJlcl9hbGxvd19wYXVzZRgSIAEoCEgBiAEBEhgKEGRpc2FibGVfaWNlX2xp",
+            "dGUYEyABKAgSLwoLY3JlYXRlX3Jvb20YFCABKAsyGi5saXZla2l0LkNyZWF0",
+            "ZVJvb21SZXF1ZXN0EjQKEmFkZF90cmFja19yZXF1ZXN0cxgVIAMoCzIYLmxp",
+            "dmVraXQuQWRkVHJhY2tSZXF1ZXN0EjQKD3B1Ymxpc2hlcl9vZmZlchgWIAEo",
+            "CzIbLmxpdmVraXQuU2Vzc2lvbkRlc2NyaXB0aW9uEiYKCnN5bmNfc3RhdGUY",
+            "FyABKAsyEi5saXZla2l0LlN5bmNTdGF0ZRIiChp1c2Vfc2luZ2xlX3BlZXJf",
+            "Y29ubmVjdGlvbhgYIAEoCEIcChpfYXV0b19zdWJzY3JpYmVfZGF0YV90cmFj",
+            "a0IZChdfc3Vic2NyaWJlcl9hbGxvd19wYXVzZSKMAgoMUm9vbUludGVybmFs",
+            "Ei4KDHRyYWNrX2VncmVzcxgBIAEoCzIYLmxpdmVraXQuQXV0b1RyYWNrRWdy",
+            "ZXNzEjoKEnBhcnRpY2lwYW50X2VncmVzcxgCIAEoCzIeLmxpdmVraXQuQXV0",
+            "b1BhcnRpY2lwYW50RWdyZXNzEiwKDXBsYXlvdXRfZGVsYXkYAyABKAsyFS5s",
+            "aXZla2l0LlBsYXlvdXREZWxheRI0ChBhZ2VudF9kaXNwYXRjaGVzGAUgAygL",
+            "MhoubGl2ZWtpdC5Sb29tQWdlbnREaXNwYXRjaBIUCgxzeW5jX3N0cmVhbXMY",
+            "BCABKAgSFgoOcmVwbGF5X2VuYWJsZWQYBiABKAgifgoJSUNFQ29uZmlnEjgK",
+            "FXByZWZlcmVuY2Vfc3Vic2NyaWJlchgBIAEoDjIZLmxpdmVraXQuSUNFQ2Fu",
+            "ZGlkYXRlVHlwZRI3ChRwcmVmZXJlbmNlX3B1Ymxpc2hlchgCIAEoDjIZLmxp",
+            "dmVraXQuSUNFQ2FuZGlkYXRlVHlwZSp2CghOb2RlVHlwZRIKCgZTRVJWRVIQ",
+            "ABIOCgpDT05UUk9MTEVSEAESCQoFTUVESUEQAhIICgRUVVJOEAQSCwoHU1dF",
+            "RVBFUhAFEgwKCERJUkVDVE9SEAYSEAoMSE9TVEVEX0FHRU5UEAcSDAoIU0VU",
+            "VElOR1MQCCo8CglOb2RlU3RhdGUSDwoLU1RBUlRJTkdfVVAQABILCgdTRVJW",
+            "SU5HEAESEQoNU0hVVFRJTkdfRE9XThACKjoKEElDRUNhbmRpZGF0ZVR5cGUS",
+            "DAoISUNUX05PTkUQABILCgdJQ1RfVENQEAESCwoHSUNUX1RMUxACQkZaI2dp",
+            "dGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgINTGl2ZUtpdC5Q",
+            "cm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.LivekitEgressReflection.Descriptor, global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitRoomReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitEgressReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.LivekitRoomReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.NodeType), typeof(global::LiveKit.Proto.NodeState), typeof(global::LiveKit.Proto.ICECandidateType), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Node), global::LiveKit.Proto.Node.Parser, new[]{ "Id", "Ip", "NumCpus", "Stats", "Type", "State", "Region" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStats), global::LiveKit.Proto.NodeStats.Parser, new[]{ "StartedAt", "UpdatedAt", "NumRooms", "NumClients", "NumTracksIn", "NumTracksOut", "NumTrackPublishAttempts", "TrackPublishAttemptsPerSec", "NumTrackPublishSuccess", "TrackPublishSuccessPerSec", "NumTrackPublishCancels", "NumTrackSubscribeAttempts", "TrackSubscribeAttemptsPerSec", "NumTrackSubscribeSuccess", "TrackSubscribeSuccessPerSec", "NumTrackSubscribeCancels", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "BytesInPerSec", "BytesOutPerSec", "PacketsInPerSec", "PacketsOutPerSec", "NackPerSec", "NumCpus", "LoadAvgLast1Min", "LoadAvgLast5Min", "LoadAvgLast15Min", "CpuLoad", "MemoryLoad", "MemoryTotal", "MemoryUsed", "SysPacketsOut", "SysPacketsDropped", "SysPacketsOutPerSec", "SysPacketsDroppedPerSec", "SysPacketsDroppedPctPerSec", "RetransmitBytesOut", "RetransmitPacketsOut", "RetransmitBytesOutPerSec", "RetransmitPacketsOutPerSec", "ParticipantSignalConnected", "ParticipantSignalConnectedPerSec", "ParticipantRtcConnected", "ParticipantRtcConnectedPerSec", "ParticipantRtcInit", "ParticipantRtcInitPerSec", "ParticipantRtcCanceled", "ForwardLatency", "ForwardJitter", "Rates" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStatsRate), global::LiveKit.Proto.NodeStatsRate.Parser, new[]{ "StartedAt", "EndedAt", "Duration", "TrackPublishAttempts", "TrackPublishSuccess", "TrackPublishCancels", "TrackSubscribeAttempts", "TrackSubscribeSuccess", "TrackSubscribeCancels", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "SysPacketsOut", "SysPacketsDropped", "RetransmitBytesOut", "RetransmitPacketsOut", "ParticipantSignalConnected", "ParticipantRtcConnected", "ParticipantRtcInit", "ParticipantRtcCanceled", "CpuLoad", "MemoryLoad", "MemoryUsed", "MemoryTotal" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StartSession), global::LiveKit.Proto.StartSession.Parser, new[]{ "RoomName", "Identity", "ConnectionId", "Reconnect", "AutoSubscribe", "Hidden", "Client", "Recorder", "Name", "GrantsJson", "AdaptiveStream", "ParticipantId", "ReconnectReason", "SubscriberAllowPause", "DisableIceLite", "CreateRoom", "AddTrackRequests", "PublisherOffer", "SyncState", "UseSinglePeerConnection" }, new[]{ "SubscriberAllowPause" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StartSession), global::LiveKit.Proto.StartSession.Parser, new[]{ "RoomName", "Identity", "ConnectionId", "Reconnect", "AutoSubscribe", "AutoSubscribeDataTrack", "Hidden", "Client", "Recorder", "Name", "GrantsJson", "AdaptiveStream", "ParticipantId", "ReconnectReason", "SubscriberAllowPause", "DisableIceLite", "CreateRoom", "AddTrackRequests", "PublisherOffer", "SyncState", "UseSinglePeerConnection" }, new[]{ "AutoSubscribeDataTrack", "SubscriberAllowPause" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RoomInternal), global::LiveKit.Proto.RoomInternal.Parser, new[]{ "TrackEgress", "ParticipantEgress", "PlayoutDelay", "AgentDispatches", "SyncStreams", "ReplayEnabled" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ICEConfig), global::LiveKit.Proto.ICEConfig.Parser, new[]{ "PreferenceSubscriber", "PreferencePublisher" }, null, null, null, null)
           }));
@@ -3908,6 +3909,7 @@ namespace LiveKit.Proto {
       connectionId_ = other.connectionId_;
       reconnect_ = other.reconnect_;
       autoSubscribe_ = other.autoSubscribe_;
+      autoSubscribeDataTrack_ = other.autoSubscribeDataTrack_;
       hidden_ = other.hidden_;
       client_ = other.client_ != null ? other.client_.Clone() : null;
       recorder_ = other.recorder_;
@@ -3993,6 +3995,33 @@ namespace LiveKit.Proto {
       set {
         autoSubscribe_ = value;
       }
+    }
+
+    /// <summary>Field number for the "auto_subscribe_data_track" field.</summary>
+    public const int AutoSubscribeDataTrackFieldNumber = 25;
+    private readonly static bool AutoSubscribeDataTrackDefaultValue = false;
+
+    private bool autoSubscribeDataTrack_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool AutoSubscribeDataTrack {
+      get { if ((_hasBits0 & 2) != 0) { return autoSubscribeDataTrack_; } else { return AutoSubscribeDataTrackDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        autoSubscribeDataTrack_ = value;
+      }
+    }
+    /// <summary>Gets whether the "auto_subscribe_data_track" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasAutoSubscribeDataTrack {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "auto_subscribe_data_track" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAutoSubscribeDataTrack() {
+      _hasBits0 &= ~2;
     }
 
     /// <summary>Field number for the "hidden" field.</summary>
@@ -4217,6 +4246,7 @@ namespace LiveKit.Proto {
       if (ConnectionId != other.ConnectionId) return false;
       if (Reconnect != other.Reconnect) return false;
       if (AutoSubscribe != other.AutoSubscribe) return false;
+      if (AutoSubscribeDataTrack != other.AutoSubscribeDataTrack) return false;
       if (Hidden != other.Hidden) return false;
       if (!object.Equals(Client, other.Client)) return false;
       if (Recorder != other.Recorder) return false;
@@ -4244,6 +4274,7 @@ namespace LiveKit.Proto {
       if (ConnectionId.Length != 0) hash ^= ConnectionId.GetHashCode();
       if (Reconnect != false) hash ^= Reconnect.GetHashCode();
       if (AutoSubscribe != false) hash ^= AutoSubscribe.GetHashCode();
+      if (HasAutoSubscribeDataTrack) hash ^= AutoSubscribeDataTrack.GetHashCode();
       if (Hidden != false) hash ^= Hidden.GetHashCode();
       if (client_ != null) hash ^= Client.GetHashCode();
       if (Recorder != false) hash ^= Recorder.GetHashCode();
@@ -4354,6 +4385,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(192, 1);
         output.WriteBool(UseSinglePeerConnection);
       }
+      if (HasAutoSubscribeDataTrack) {
+        output.WriteRawTag(200, 1);
+        output.WriteBool(AutoSubscribeDataTrack);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4441,6 +4476,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(192, 1);
         output.WriteBool(UseSinglePeerConnection);
       }
+      if (HasAutoSubscribeDataTrack) {
+        output.WriteRawTag(200, 1);
+        output.WriteBool(AutoSubscribeDataTrack);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4465,6 +4504,9 @@ namespace LiveKit.Proto {
       }
       if (AutoSubscribe != false) {
         size += 1 + 1;
+      }
+      if (HasAutoSubscribeDataTrack) {
+        size += 2 + 1;
       }
       if (Hidden != false) {
         size += 1 + 1;
@@ -4535,6 +4577,9 @@ namespace LiveKit.Proto {
       }
       if (other.AutoSubscribe != false) {
         AutoSubscribe = other.AutoSubscribe;
+      }
+      if (other.HasAutoSubscribeDataTrack) {
+        AutoSubscribeDataTrack = other.AutoSubscribeDataTrack;
       }
       if (other.Hidden != false) {
         Hidden = other.Hidden;
@@ -4702,6 +4747,10 @@ namespace LiveKit.Proto {
             UseSinglePeerConnection = input.ReadBool();
             break;
           }
+          case 200: {
+            AutoSubscribeDataTrack = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -4811,6 +4860,10 @@ namespace LiveKit.Proto {
           }
           case 192: {
             UseSinglePeerConnection = input.ReadBool();
+            break;
+          }
+          case 200: {
+            AutoSubscribeDataTrack = input.ReadBool();
             break;
           }
         }

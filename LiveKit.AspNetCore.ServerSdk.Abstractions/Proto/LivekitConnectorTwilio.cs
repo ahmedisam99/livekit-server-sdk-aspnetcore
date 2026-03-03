@@ -31,12 +31,12 @@ namespace LiveKit.Proto {
             "bFJlcXVlc3QuVHdpbGlvQ2FsbERpcmVjdGlvbhIRCglyb29tX25hbWUYAiAB",
             "KAkSKgoGYWdlbnRzGAMgAygLMhoubGl2ZWtpdC5Sb29tQWdlbnREaXNwYXRj",
             "aBIcChRwYXJ0aWNpcGFudF9pZGVudGl0eRgEIAEoCRJAChBwYXJ0aWNpcGFu",
-            "dF9uYW1lGAUgASgJQiaItRgBkrUYHjxyZWRhY3RlZCAoe3sgLlNpemUgfX0g",
-            "Ynl0ZXMpPhJEChRwYXJ0aWNpcGFudF9tZXRhZGF0YRgGIAEoCUImiLUYAZK1",
-            "GB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVzKT4ShAEKFnBhcnRpY2lw",
+            "dF9uYW1lGAUgASgJQiaI7CwBkuwsHjxyZWRhY3RlZCAoe3sgLlNpemUgfX0g",
+            "Ynl0ZXMpPhJEChRwYXJ0aWNpcGFudF9tZXRhZGF0YRgGIAEoCUImiOwsAZLs",
+            "LB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVzKT4ShAEKFnBhcnRpY2lw",
             "YW50X2F0dHJpYnV0ZXMYByADKAsyPC5saXZla2l0LkNvbm5lY3RUd2lsaW9D",
-            "YWxsUmVxdWVzdC5QYXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRyeUImiLUYAZK1",
-            "GB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVzKT4SGwoTZGVzdGluYXRp",
+            "YWxsUmVxdWVzdC5QYXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRyeUImiOwsAZLs",
+            "LB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVzKT4SGwoTZGVzdGluYXRp",
             "b25fY291bnRyeRgIIAEoCRo8ChpQYXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRy",
             "eRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBIlwKE1R3aWxpb0Nh",
             "bGxEaXJlY3Rpb24SIQodVFdJTElPX0NBTExfRElSRUNUSU9OX0lOQk9VTkQQ",
@@ -156,6 +156,7 @@ namespace LiveKit.Proto {
     private string participantIdentity_ = "";
     /// <summary>
     /// Optional identity of the participant in LiveKit room
+    /// This is used for logging purposes, so it is advised to not put PII in this field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

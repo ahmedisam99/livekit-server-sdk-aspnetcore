@@ -97,79 +97,81 @@ namespace LiveKit.Proto {
             "cnRJbmZvEjIKDWZlYXR1cmVfdXNhZ2UYASABKAsyGS5saXZla2l0LkZlYXR1",
             "cmVVc2FnZUluZm9IAEIJCgdtZXNzYWdlImkKCVRpbWVSYW5nZRIuCgpzdGFy",
             "dGVkX2F0GAEgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIsCghl",
-            "bmRlZF9hdBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAi3AIK",
+            "bmRlZF9hdBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAi0gMK",
             "EEZlYXR1cmVVc2FnZUluZm8SMgoHZmVhdHVyZRgBIAEoDjIhLmxpdmVraXQu",
             "RmVhdHVyZVVzYWdlSW5mby5GZWF0dXJlEhIKCnByb2plY3RfaWQYAiABKAkS",
             "EQoJcm9vbV9uYW1lGAMgASgJEg8KB3Jvb21faWQYBCABKAkSHAoUcGFydGlj",
             "aXBhbnRfaWRlbnRpdHkYBSABKAkSFgoOcGFydGljaXBhbnRfaWQYBiABKAkS",
             "EAoIdHJhY2tfaWQYByABKAkSJwoLdGltZV9yYW5nZXMYCCADKAsyEi5saXZl",
-            "a2l0LlRpbWVSYW5nZSJrCgdGZWF0dXJlEhwKGEtSSVNQX05PSVNFX0NBTkNF",
-            "TExBVElPThAAEicKI0tSSVNQX0JBQ0tHUk9VTkRfVk9JQ0VfQ0FOQ0VMTEFU",
-            "SU9OEAESGQoVQUlDX0FVRElPX0VOSEFOQ0VNRU5UEAIiswUKDkFQSUNhbGxS",
-            "ZXF1ZXN0EjkKE2NyZWF0ZV9yb29tX3JlcXVlc3QYASABKAsyGi5saXZla2l0",
-            "LkNyZWF0ZVJvb21SZXF1ZXN0SAASNwoSbGlzdF9yb29tc19yZXF1ZXN0GAIg",
-            "ASgLMhkubGl2ZWtpdC5MaXN0Um9vbXNSZXF1ZXN0SAASOQoTZGVsZXRlX3Jv",
-            "b21fcmVxdWVzdBgDIAEoCzIaLmxpdmVraXQuRGVsZXRlUm9vbVJlcXVlc3RI",
-            "ABJFChlsaXN0X3BhcnRpY2lwYW50c19yZXF1ZXN0GAQgASgLMiAubGl2ZWtp",
-            "dC5MaXN0UGFydGljaXBhbnRzUmVxdWVzdEgAEkUKGXJvb21fcGFydGljaXBh",
-            "bnRfaWRlbnRpdHkYBSABKAsyIC5saXZla2l0LlJvb21QYXJ0aWNpcGFudElk",
-            "ZW50aXR5SAASQAoXbXV0ZV9yb29tX3RyYWNrX3JlcXVlc3QYBiABKAsyHS5s",
-            "aXZla2l0Lk11dGVSb29tVHJhY2tSZXF1ZXN0SAASRwoadXBkYXRlX3BhcnRp",
-            "Y2lwYW50X3JlcXVlc3QYByABKAsyIS5saXZla2l0LlVwZGF0ZVBhcnRpY2lw",
-            "YW50UmVxdWVzdEgAEksKHHVwZGF0ZV9zdWJzY3JpcHRpb25zX3JlcXVlc3QY",
-            "CCABKAsyIy5saXZla2l0LlVwZGF0ZVN1YnNjcmlwdGlvbnNSZXF1ZXN0SAAS",
-            "NQoRc2VuZF9kYXRhX3JlcXVlc3QYCSABKAsyGC5saXZla2l0LlNlbmREYXRh",
-            "UmVxdWVzdEgAEkoKHHVwZGF0ZV9yb29tX21ldGFkYXRhX3JlcXVlc3QYCiAB",
-            "KAsyIi5saXZla2l0LlVwZGF0ZVJvb21NZXRhZGF0YVJlcXVlc3RIAEIJCgdt",
-            "ZXNzYWdlIvUCCgtBUElDYWxsSW5mbxISCgpwcm9qZWN0X2lkGAEgASgJEigK",
-            "B3JlcXVlc3QYAiABKAsyFy5saXZla2l0LkFQSUNhbGxSZXF1ZXN0Eg8KB3Nl",
-            "cnZpY2UYAyABKAkSDgoGbWV0aG9kGAQgASgJEg8KB25vZGVfaWQYBSABKAkS",
-            "DgoGc3RhdHVzGAYgASgFEhgKEHR3aXJwX2Vycm9yX2NvZGUYByABKAkSGwoT",
-            "dHdpcnBfZXJyb3JfbWVzc2FnZRgIIAEoCRIRCglyb29tX25hbWUYCSABKAkS",
-            "DwoHcm9vbV9pZBgKIAEoCRIcChRwYXJ0aWNpcGFudF9pZGVudGl0eRgLIAEo",
-            "CRIWCg5wYXJ0aWNpcGFudF9pZBgMIAEoCRIQCgh0cmFja19pZBgNIAEoCRIu",
-            "CgpzdGFydGVkX2F0GA4gASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
-            "cBITCgtkdXJhdGlvbl9ucxgPIAEoAyKrBAoLV2ViaG9va0luZm8SEAoIZXZl",
-            "bnRfaWQYASABKAkSDQoFZXZlbnQYAiABKAkSEgoKcHJvamVjdF9pZBgDIAEo",
-            "CRIRCglyb29tX25hbWUYBCABKAkSDwoHcm9vbV9pZBgFIAEoCRIcChRwYXJ0",
-            "aWNpcGFudF9pZGVudGl0eRgGIAEoCRIWCg5wYXJ0aWNpcGFudF9pZBgHIAEo",
-            "CRIQCgh0cmFja19pZBgIIAEoCRIRCgllZ3Jlc3NfaWQYCSABKAkSEgoKaW5n",
-            "cmVzc19pZBgKIAEoCRIuCgpjcmVhdGVkX2F0GAsgASgLMhouZ29vZ2xlLnBy",
-            "b3RvYnVmLlRpbWVzdGFtcBItCglxdWV1ZWRfYXQYDCABKAsyGi5nb29nbGUu",
-            "cHJvdG9idWYuVGltZXN0YW1wEhkKEXF1ZXVlX2R1cmF0aW9uX25zGA0gASgD",
-            "EisKB3NlbnRfYXQYDiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1w",
-            "EhgKEHNlbmRfZHVyYXRpb25fbnMYDyABKAMSCwoDdXJsGBAgASgJEhMKC251",
-            "bV9kcm9wcGVkGBEgASgFEhIKCmlzX2Ryb3BwZWQYEiABKAgSFgoOc2Vydmlj",
-            "ZV9zdGF0dXMYEyABKAkSGgoSc2VydmljZV9lcnJvcl9jb2RlGBQgASgFEhUK",
-            "DXNlcnZpY2VfZXJyb3IYFSABKAkSEgoKc2VuZF9lcnJvchgWIAEoCSoqCgpT",
-            "dHJlYW1UeXBlEgwKCFVQU1RSRUFNEAASDgoKRE9XTlNUUkVBTRABKsYIChJB",
-            "bmFseXRpY3NFdmVudFR5cGUSEAoMUk9PTV9DUkVBVEVEEAASDgoKUk9PTV9F",
-            "TkRFRBABEhYKElBBUlRJQ0lQQU5UX0pPSU5FRBACEhQKEFBBUlRJQ0lQQU5U",
-            "X0xFRlQQAxIiCh5QQVJUSUNJUEFOVF9DT05ORUNUSU9OX0FCT1JURUQQLRIT",
-            "Cg9UUkFDS19QVUJMSVNIRUQQBBIbChdUUkFDS19QVUJMSVNIX1JFUVVFU1RF",
-            "RBAUEhUKEVRSQUNLX1VOUFVCTElTSEVEEAUSFAoQVFJBQ0tfU1VCU0NSSUJF",
-            "RBAGEh0KGVRSQUNLX1NVQlNDUklCRV9SRVFVRVNURUQQFRIaChZUUkFDS19T",
-            "VUJTQ1JJQkVfRkFJTEVEEBkSFgoSVFJBQ0tfVU5TVUJTQ1JJQkVEEAcSGgoW",
-            "VFJBQ0tfUFVCTElTSEVEX1VQREFURRAKEg8KC1RSQUNLX01VVEVEEBcSEQoN",
-            "VFJBQ0tfVU5NVVRFRBAYEhcKE1RSQUNLX1BVQkxJU0hfU1RBVFMQGhIZChVU",
-            "UkFDS19TVUJTQ1JJQkVfU1RBVFMQGxIWChJQQVJUSUNJUEFOVF9BQ1RJVkUQ",
-            "CxIXChNQQVJUSUNJUEFOVF9SRVNVTUVEEBYSEgoORUdSRVNTX1NUQVJURUQQ",
-            "DBIQCgxFR1JFU1NfRU5ERUQQDRISCg5FR1JFU1NfVVBEQVRFRBAcEiYKIlRS",
-            "QUNLX01BWF9TVUJTQ1JJQkVEX1ZJREVPX1FVQUxJVFkQDhIPCgtSRUNPTk5F",
-            "Q1RFRBAPEhMKD0lOR1JFU1NfQ1JFQVRFRBASEhMKD0lOR1JFU1NfREVMRVRF",
-            "RBATEhMKD0lOR1JFU1NfU1RBUlRFRBAQEhEKDUlOR1JFU1NfRU5ERUQQERIT",
-            "Cg9JTkdSRVNTX1VQREFURUQQHRIdChlTSVBfSU5CT1VORF9UUlVOS19DUkVB",
-            "VEVEEB4SHQoZU0lQX0lOQk9VTkRfVFJVTktfREVMRVRFRBAfEh4KGlNJUF9P",
-            "VVRCT1VORF9UUlVOS19DUkVBVEVEECASHgoaU0lQX09VVEJPVU5EX1RSVU5L",
-            "X0RFTEVURUQQIRIdChlTSVBfRElTUEFUQ0hfUlVMRV9DUkVBVEVEECISHQoZ",
-            "U0lQX0RJU1BBVENIX1JVTEVfREVMRVRFRBAjEhsKF1NJUF9QQVJUSUNJUEFO",
-            "VF9DUkVBVEVEECQSFQoRU0lQX0NBTExfSU5DT01JTkcQJRIUChBTSVBfQ0FM",
-            "TF9TVEFSVEVEECYSEgoOU0lQX0NBTExfRU5ERUQQJxIaChZTSVBfVFJBTlNG",
-            "RVJfUkVRVUVTVEVEECsSGQoVU0lQX1RSQU5TRkVSX0NPTVBMRVRFECwSEwoP",
-            "U0lQX0NBTExfVVBEQVRFEC4SCgoGUkVQT1JUECgSDAoIQVBJX0NBTEwQKRIL",
-            "CgdXRUJIT09LECpCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xp",
-            "dmVraXSqAg1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3Rv",
-            "Mw=="));
+            "a2l0LlRpbWVSYW5nZRJACgxmZWF0dXJlX2luZm8YCSADKAsyKi5saXZla2l0",
+            "LkZlYXR1cmVVc2FnZUluZm8uRmVhdHVyZUluZm9FbnRyeRoyChBGZWF0dXJl",
+            "SW5mb0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiawoH",
+            "RmVhdHVyZRIcChhLUklTUF9OT0lTRV9DQU5DRUxMQVRJT04QABInCiNLUklT",
+            "UF9CQUNLR1JPVU5EX1ZPSUNFX0NBTkNFTExBVElPThABEhkKFUFJQ19BVURJ",
+            "T19FTkhBTkNFTUVOVBACIrMFCg5BUElDYWxsUmVxdWVzdBI5ChNjcmVhdGVf",
+            "cm9vbV9yZXF1ZXN0GAEgASgLMhoubGl2ZWtpdC5DcmVhdGVSb29tUmVxdWVz",
+            "dEgAEjcKEmxpc3Rfcm9vbXNfcmVxdWVzdBgCIAEoCzIZLmxpdmVraXQuTGlz",
+            "dFJvb21zUmVxdWVzdEgAEjkKE2RlbGV0ZV9yb29tX3JlcXVlc3QYAyABKAsy",
+            "Gi5saXZla2l0LkRlbGV0ZVJvb21SZXF1ZXN0SAASRQoZbGlzdF9wYXJ0aWNp",
+            "cGFudHNfcmVxdWVzdBgEIAEoCzIgLmxpdmVraXQuTGlzdFBhcnRpY2lwYW50",
+            "c1JlcXVlc3RIABJFChlyb29tX3BhcnRpY2lwYW50X2lkZW50aXR5GAUgASgL",
+            "MiAubGl2ZWtpdC5Sb29tUGFydGljaXBhbnRJZGVudGl0eUgAEkAKF211dGVf",
+            "cm9vbV90cmFja19yZXF1ZXN0GAYgASgLMh0ubGl2ZWtpdC5NdXRlUm9vbVRy",
+            "YWNrUmVxdWVzdEgAEkcKGnVwZGF0ZV9wYXJ0aWNpcGFudF9yZXF1ZXN0GAcg",
+            "ASgLMiEubGl2ZWtpdC5VcGRhdGVQYXJ0aWNpcGFudFJlcXVlc3RIABJLChx1",
+            "cGRhdGVfc3Vic2NyaXB0aW9uc19yZXF1ZXN0GAggASgLMiMubGl2ZWtpdC5V",
+            "cGRhdGVTdWJzY3JpcHRpb25zUmVxdWVzdEgAEjUKEXNlbmRfZGF0YV9yZXF1",
+            "ZXN0GAkgASgLMhgubGl2ZWtpdC5TZW5kRGF0YVJlcXVlc3RIABJKChx1cGRh",
+            "dGVfcm9vbV9tZXRhZGF0YV9yZXF1ZXN0GAogASgLMiIubGl2ZWtpdC5VcGRh",
+            "dGVSb29tTWV0YWRhdGFSZXF1ZXN0SABCCQoHbWVzc2FnZSL1AgoLQVBJQ2Fs",
+            "bEluZm8SEgoKcHJvamVjdF9pZBgBIAEoCRIoCgdyZXF1ZXN0GAIgASgLMhcu",
+            "bGl2ZWtpdC5BUElDYWxsUmVxdWVzdBIPCgdzZXJ2aWNlGAMgASgJEg4KBm1l",
+            "dGhvZBgEIAEoCRIPCgdub2RlX2lkGAUgASgJEg4KBnN0YXR1cxgGIAEoBRIY",
+            "ChB0d2lycF9lcnJvcl9jb2RlGAcgASgJEhsKE3R3aXJwX2Vycm9yX21lc3Nh",
+            "Z2UYCCABKAkSEQoJcm9vbV9uYW1lGAkgASgJEg8KB3Jvb21faWQYCiABKAkS",
+            "HAoUcGFydGljaXBhbnRfaWRlbnRpdHkYCyABKAkSFgoOcGFydGljaXBhbnRf",
+            "aWQYDCABKAkSEAoIdHJhY2tfaWQYDSABKAkSLgoKc3RhcnRlZF9hdBgOIAEo",
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASEwoLZHVyYXRpb25fbnMY",
+            "DyABKAMiqwQKC1dlYmhvb2tJbmZvEhAKCGV2ZW50X2lkGAEgASgJEg0KBWV2",
+            "ZW50GAIgASgJEhIKCnByb2plY3RfaWQYAyABKAkSEQoJcm9vbV9uYW1lGAQg",
+            "ASgJEg8KB3Jvb21faWQYBSABKAkSHAoUcGFydGljaXBhbnRfaWRlbnRpdHkY",
+            "BiABKAkSFgoOcGFydGljaXBhbnRfaWQYByABKAkSEAoIdHJhY2tfaWQYCCAB",
+            "KAkSEQoJZWdyZXNzX2lkGAkgASgJEhIKCmluZ3Jlc3NfaWQYCiABKAkSLgoK",
+            "Y3JlYXRlZF9hdBgLIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
+            "LQoJcXVldWVkX2F0GAwgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
+            "cBIZChFxdWV1ZV9kdXJhdGlvbl9ucxgNIAEoAxIrCgdzZW50X2F0GA4gASgL",
+            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIYChBzZW5kX2R1cmF0aW9u",
+            "X25zGA8gASgDEgsKA3VybBgQIAEoCRITCgtudW1fZHJvcHBlZBgRIAEoBRIS",
+            "Cgppc19kcm9wcGVkGBIgASgIEhYKDnNlcnZpY2Vfc3RhdHVzGBMgASgJEhoK",
+            "EnNlcnZpY2VfZXJyb3JfY29kZRgUIAEoBRIVCg1zZXJ2aWNlX2Vycm9yGBUg",
+            "ASgJEhIKCnNlbmRfZXJyb3IYFiABKAkqKgoKU3RyZWFtVHlwZRIMCghVUFNU",
+            "UkVBTRAAEg4KCkRPV05TVFJFQU0QASrGCAoSQW5hbHl0aWNzRXZlbnRUeXBl",
+            "EhAKDFJPT01fQ1JFQVRFRBAAEg4KClJPT01fRU5ERUQQARIWChJQQVJUSUNJ",
+            "UEFOVF9KT0lORUQQAhIUChBQQVJUSUNJUEFOVF9MRUZUEAMSIgoeUEFSVElD",
+            "SVBBTlRfQ09OTkVDVElPTl9BQk9SVEVEEC0SEwoPVFJBQ0tfUFVCTElTSEVE",
+            "EAQSGwoXVFJBQ0tfUFVCTElTSF9SRVFVRVNURUQQFBIVChFUUkFDS19VTlBV",
+            "QkxJU0hFRBAFEhQKEFRSQUNLX1NVQlNDUklCRUQQBhIdChlUUkFDS19TVUJT",
+            "Q1JJQkVfUkVRVUVTVEVEEBUSGgoWVFJBQ0tfU1VCU0NSSUJFX0ZBSUxFRBAZ",
+            "EhYKElRSQUNLX1VOU1VCU0NSSUJFRBAHEhoKFlRSQUNLX1BVQkxJU0hFRF9V",
+            "UERBVEUQChIPCgtUUkFDS19NVVRFRBAXEhEKDVRSQUNLX1VOTVVURUQQGBIX",
+            "ChNUUkFDS19QVUJMSVNIX1NUQVRTEBoSGQoVVFJBQ0tfU1VCU0NSSUJFX1NU",
+            "QVRTEBsSFgoSUEFSVElDSVBBTlRfQUNUSVZFEAsSFwoTUEFSVElDSVBBTlRf",
+            "UkVTVU1FRBAWEhIKDkVHUkVTU19TVEFSVEVEEAwSEAoMRUdSRVNTX0VOREVE",
+            "EA0SEgoORUdSRVNTX1VQREFURUQQHBImCiJUUkFDS19NQVhfU1VCU0NSSUJF",
+            "RF9WSURFT19RVUFMSVRZEA4SDwoLUkVDT05ORUNURUQQDxITCg9JTkdSRVNT",
+            "X0NSRUFURUQQEhITCg9JTkdSRVNTX0RFTEVURUQQExITCg9JTkdSRVNTX1NU",
+            "QVJURUQQEBIRCg1JTkdSRVNTX0VOREVEEBESEwoPSU5HUkVTU19VUERBVEVE",
+            "EB0SHQoZU0lQX0lOQk9VTkRfVFJVTktfQ1JFQVRFRBAeEh0KGVNJUF9JTkJP",
+            "VU5EX1RSVU5LX0RFTEVURUQQHxIeChpTSVBfT1VUQk9VTkRfVFJVTktfQ1JF",
+            "QVRFRBAgEh4KGlNJUF9PVVRCT1VORF9UUlVOS19ERUxFVEVEECESHQoZU0lQ",
+            "X0RJU1BBVENIX1JVTEVfQ1JFQVRFRBAiEh0KGVNJUF9ESVNQQVRDSF9SVUxF",
+            "X0RFTEVURUQQIxIbChdTSVBfUEFSVElDSVBBTlRfQ1JFQVRFRBAkEhUKEVNJ",
+            "UF9DQUxMX0lOQ09NSU5HECUSFAoQU0lQX0NBTExfU1RBUlRFRBAmEhIKDlNJ",
+            "UF9DQUxMX0VOREVEECcSGgoWU0lQX1RSQU5TRkVSX1JFUVVFU1RFRBArEhkK",
+            "FVNJUF9UUkFOU0ZFUl9DT01QTEVURRAsEhMKD1NJUF9DQUxMX1VQREFURRAu",
+            "EgoKBlJFUE9SVBAoEgwKCEFQSV9DQUxMECkSCwoHV0VCSE9PSxAqQkZaI2dp",
+            "dGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgINTGl2ZUtpdC5Q",
+            "cm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.LivekitEgressReflection.Descriptor, global::LiveKit.Proto.LivekitIngressReflection.Descriptor, global::LiveKit.Proto.LivekitSipReflection.Descriptor, global::LiveKit.Proto.LivekitRoomReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.StreamType), typeof(global::LiveKit.Proto.AnalyticsEventType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -185,7 +187,7 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AnalyticsNodeRooms), global::LiveKit.Proto.AnalyticsNodeRooms.Parser, new[]{ "NodeId", "SequenceNumber", "Timestamp", "Rooms" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ReportInfo), global::LiveKit.Proto.ReportInfo.Parser, new[]{ "FeatureUsage" }, new[]{ "Message" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TimeRange), global::LiveKit.Proto.TimeRange.Parser, new[]{ "StartedAt", "EndedAt" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.FeatureUsageInfo), global::LiveKit.Proto.FeatureUsageInfo.Parser, new[]{ "Feature", "ProjectId", "RoomName", "RoomId", "ParticipantIdentity", "ParticipantId", "TrackId", "TimeRanges" }, null, new[]{ typeof(global::LiveKit.Proto.FeatureUsageInfo.Types.Feature) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.FeatureUsageInfo), global::LiveKit.Proto.FeatureUsageInfo.Parser, new[]{ "Feature", "ProjectId", "RoomName", "RoomId", "ParticipantIdentity", "ParticipantId", "TrackId", "TimeRanges", "FeatureInfo" }, null, new[]{ typeof(global::LiveKit.Proto.FeatureUsageInfo.Types.Feature) }, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.APICallRequest), global::LiveKit.Proto.APICallRequest.Parser, new[]{ "CreateRoomRequest", "ListRoomsRequest", "DeleteRoomRequest", "ListParticipantsRequest", "RoomParticipantIdentity", "MuteRoomTrackRequest", "UpdateParticipantRequest", "UpdateSubscriptionsRequest", "SendDataRequest", "UpdateRoomMetadataRequest" }, new[]{ "Message" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.APICallInfo), global::LiveKit.Proto.APICallInfo.Parser, new[]{ "ProjectId", "Request", "Service", "Method", "NodeId", "Status", "TwirpErrorCode", "TwirpErrorMessage", "RoomName", "RoomId", "ParticipantIdentity", "ParticipantId", "TrackId", "StartedAt", "DurationNs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.WebhookInfo), global::LiveKit.Proto.WebhookInfo.Parser, new[]{ "EventId", "Event", "ProjectId", "RoomName", "RoomId", "ParticipantIdentity", "ParticipantId", "TrackId", "EgressId", "IngressId", "CreatedAt", "QueuedAt", "QueueDurationNs", "SentAt", "SendDurationNs", "Url", "NumDropped", "IsDropped", "ServiceStatus", "ServiceErrorCode", "ServiceError", "SendError" }, null, null, null, null)
@@ -6120,6 +6122,7 @@ namespace LiveKit.Proto {
       participantId_ = other.participantId_;
       trackId_ = other.trackId_;
       timeRanges_ = other.timeRanges_.Clone();
+      featureInfo_ = other.featureInfo_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6221,12 +6224,26 @@ namespace LiveKit.Proto {
     /// <summary>
     /// time ranges during which the feature was enabled.
     /// for e. g., noise cancellation may not be applied when a media track is paused/muted,
-    /// this allows reporting only periods during which a feature is avtive.
+    /// this allows reporting only periods during which a feature is active.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::LiveKit.Proto.TimeRange> TimeRanges {
       get { return timeRanges_; }
+    }
+
+    /// <summary>Field number for the "feature_info" field.</summary>
+    public const int FeatureInfoFieldNumber = 9;
+    private static readonly pbc::MapField<string, string>.Codec _map_featureInfo_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 74);
+    private readonly pbc::MapField<string, string> featureInfo_ = new pbc::MapField<string, string>();
+    /// <summary>
+    /// Feature specific metadata included in the report
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::MapField<string, string> FeatureInfo {
+      get { return featureInfo_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6252,6 +6269,7 @@ namespace LiveKit.Proto {
       if (ParticipantId != other.ParticipantId) return false;
       if (TrackId != other.TrackId) return false;
       if(!timeRanges_.Equals(other.timeRanges_)) return false;
+      if (!FeatureInfo.Equals(other.FeatureInfo)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6267,6 +6285,7 @@ namespace LiveKit.Proto {
       if (ParticipantId.Length != 0) hash ^= ParticipantId.GetHashCode();
       if (TrackId.Length != 0) hash ^= TrackId.GetHashCode();
       hash ^= timeRanges_.GetHashCode();
+      hash ^= FeatureInfo.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6314,6 +6333,7 @@ namespace LiveKit.Proto {
         output.WriteString(TrackId);
       }
       timeRanges_.WriteTo(output, _repeated_timeRanges_codec);
+      featureInfo_.WriteTo(output, _map_featureInfo_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6353,6 +6373,7 @@ namespace LiveKit.Proto {
         output.WriteString(TrackId);
       }
       timeRanges_.WriteTo(ref output, _repeated_timeRanges_codec);
+      featureInfo_.WriteTo(ref output, _map_featureInfo_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -6385,6 +6406,7 @@ namespace LiveKit.Proto {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(TrackId);
       }
       size += timeRanges_.CalculateSize(_repeated_timeRanges_codec);
+      size += featureInfo_.CalculateSize(_map_featureInfo_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -6419,6 +6441,7 @@ namespace LiveKit.Proto {
         TrackId = other.TrackId;
       }
       timeRanges_.Add(other.timeRanges_);
+      featureInfo_.MergeFrom(other.featureInfo_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -6470,6 +6493,10 @@ namespace LiveKit.Proto {
             timeRanges_.AddEntriesFrom(input, _repeated_timeRanges_codec);
             break;
           }
+          case 74: {
+            featureInfo_.AddEntriesFrom(input, _map_featureInfo_codec);
+            break;
+          }
         }
       }
     #endif
@@ -6519,6 +6546,10 @@ namespace LiveKit.Proto {
           }
           case 66: {
             timeRanges_.AddEntriesFrom(ref input, _repeated_timeRanges_codec);
+            break;
+          }
+          case 74: {
+            featureInfo_.AddEntriesFrom(ref input, _map_featureInfo_codec);
             break;
           }
         }

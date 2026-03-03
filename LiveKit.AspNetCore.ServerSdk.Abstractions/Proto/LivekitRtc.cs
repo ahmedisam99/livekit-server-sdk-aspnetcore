@@ -161,10 +161,10 @@ namespace LiveKit.Proto {
             "Q1QQAiJPChFVcGRhdGVWaWRlb0xheWVycxIRCgl0cmFja19zaWQYASABKAkS",
             "IwoGbGF5ZXJzGAIgAygLMhMubGl2ZWtpdC5WaWRlb0xheWVyOgIYASLCAgoZ",
             "VXBkYXRlUGFydGljaXBhbnRNZXRhZGF0YRI4CghtZXRhZGF0YRgBIAEoCUIm",
-            "iLUYAZK1GB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVzKT4SNAoEbmFt",
-            "ZRgCIAEoCUImiLUYAZK1GB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVz",
+            "iOwsAZLsLB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVzKT4SNAoEbmFt",
+            "ZRgCIAEoCUImiOwsAZLsLB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVz",
             "KT4SbgoKYXR0cmlidXRlcxgDIAMoCzIyLmxpdmVraXQuVXBkYXRlUGFydGlj",
-            "aXBhbnRNZXRhZGF0YS5BdHRyaWJ1dGVzRW50cnlCJoi1GAGStRgePHJlZGFj",
+            "aXBhbnRNZXRhZGF0YS5BdHRyaWJ1dGVzRW50cnlCJojsLAGS7CwePHJlZGFj",
             "dGVkICh7eyAuU2l6ZSB9fSBieXRlcyk+EhIKCnJlcXVlc3RfaWQYBCABKA0a",
             "MQoPQXR0cmlidXRlc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEo",
             "CToCOAEiPwoJSUNFU2VydmVyEgwKBHVybHMYASADKAkSEAoIdXNlcm5hbWUY",
@@ -244,33 +244,35 @@ namespace LiveKit.Proto {
             "RRAFEhYKElVOQ0xBU1NJRklFRF9FUlJPUhAGEhIKDklOVkFMSURfSEFORExF",
             "EAcSEAoMSU5WQUxJRF9OQU1FEAgSFAoQRFVQTElDQVRFX0hBTkRMRRAJEhIK",
             "DkRVUExJQ0FURV9OQU1FEApCCQoHcmVxdWVzdCIkCg9UcmFja1N1YnNjcmli",
-            "ZWQSEQoJdHJhY2tfc2lkGAEgASgJIp8BChJDb25uZWN0aW9uU2V0dGluZ3MS",
+            "ZWQSEQoJdHJhY2tfc2lkGAEgASgJIuUBChJDb25uZWN0aW9uU2V0dGluZ3MS",
             "FgoOYXV0b19zdWJzY3JpYmUYASABKAgSFwoPYWRhcHRpdmVfc3RyZWFtGAIg",
             "ASgIEiMKFnN1YnNjcmliZXJfYWxsb3dfcGF1c2UYAyABKAhIAIgBARIYChBk",
-            "aXNhYmxlX2ljZV9saXRlGAQgASgIQhkKF19zdWJzY3JpYmVyX2FsbG93X3Bh",
-            "dXNlItYECgtKb2luUmVxdWVzdBIoCgtjbGllbnRfaW5mbxgBIAEoCzITLmxp",
-            "dmVraXQuQ2xpZW50SW5mbxI4ChNjb25uZWN0aW9uX3NldHRpbmdzGAIgASgL",
-            "MhsubGl2ZWtpdC5Db25uZWN0aW9uU2V0dGluZ3MSOAoIbWV0YWRhdGEYAyAB",
-            "KAlCJoi1GAGStRgePHJlZGFjdGVkICh7eyAuU2l6ZSB9fSBieXRlcyk+EncK",
-            "FnBhcnRpY2lwYW50X2F0dHJpYnV0ZXMYBCADKAsyLy5saXZla2l0LkpvaW5S",
-            "ZXF1ZXN0LlBhcnRpY2lwYW50QXR0cmlidXRlc0VudHJ5QiaItRgBkrUYHjxy",
-            "ZWRhY3RlZCAoe3sgLlNpemUgfX0gYnl0ZXMpPhI0ChJhZGRfdHJhY2tfcmVx",
-            "dWVzdHMYBSADKAsyGC5saXZla2l0LkFkZFRyYWNrUmVxdWVzdBI0Cg9wdWJs",
-            "aXNoZXJfb2ZmZXIYBiABKAsyGy5saXZla2l0LlNlc3Npb25EZXNjcmlwdGlv",
-            "bhIRCglyZWNvbm5lY3QYByABKAgSMgoQcmVjb25uZWN0X3JlYXNvbhgIIAEo",
-            "DjIYLmxpdmVraXQuUmVjb25uZWN0UmVhc29uEhcKD3BhcnRpY2lwYW50X3Np",
-            "ZBgJIAEoCRImCgpzeW5jX3N0YXRlGAogASgLMhIubGl2ZWtpdC5TeW5jU3Rh",
-            "dGUaPAoaUGFydGljaXBhbnRBdHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJ",
-            "Eg0KBXZhbHVlGAIgASgJOgI4ASKLAQoSV3JhcHBlZEpvaW5SZXF1ZXN0EjwK",
-            "C2NvbXByZXNzaW9uGAEgASgOMicubGl2ZWtpdC5XcmFwcGVkSm9pblJlcXVl",
-            "c3QuQ29tcHJlc3Npb24SFAoMam9pbl9yZXF1ZXN0GAIgASgMIiEKC0NvbXBy",
-            "ZXNzaW9uEggKBE5PTkUQABIICgRHWklQEAEiQgoYTWVkaWFTZWN0aW9uc1Jl",
-            "cXVpcmVtZW50EhIKCm51bV9hdWRpb3MYASABKA0SEgoKbnVtX3ZpZGVvcxgC",
-            "IAEoDSotCgxTaWduYWxUYXJnZXQSDQoJUFVCTElTSEVSEAASDgoKU1VCU0NS",
-            "SUJFUhABKiUKC1N0cmVhbVN0YXRlEgoKBkFDVElWRRAAEgoKBlBBVVNFRBAB",
-            "Ki4KEUNhbmRpZGF0ZVByb3RvY29sEgcKA1VEUBAAEgcKA1RDUBABEgcKA1RM",
-            "UxACQkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgIN",
-            "TGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
+            "aXNhYmxlX2ljZV9saXRlGAQgASgIEiYKGWF1dG9fc3Vic2NyaWJlX2RhdGFf",
+            "dHJhY2sYBSABKAhIAYgBAUIZChdfc3Vic2NyaWJlcl9hbGxvd19wYXVzZUIc",
+            "ChpfYXV0b19zdWJzY3JpYmVfZGF0YV90cmFjayLWBAoLSm9pblJlcXVlc3QS",
+            "KAoLY2xpZW50X2luZm8YASABKAsyEy5saXZla2l0LkNsaWVudEluZm8SOAoT",
+            "Y29ubmVjdGlvbl9zZXR0aW5ncxgCIAEoCzIbLmxpdmVraXQuQ29ubmVjdGlv",
+            "blNldHRpbmdzEjgKCG1ldGFkYXRhGAMgASgJQiaI7CwBkuwsHjxyZWRhY3Rl",
+            "ZCAoe3sgLlNpemUgfX0gYnl0ZXMpPhJ3ChZwYXJ0aWNpcGFudF9hdHRyaWJ1",
+            "dGVzGAQgAygLMi8ubGl2ZWtpdC5Kb2luUmVxdWVzdC5QYXJ0aWNpcGFudEF0",
+            "dHJpYnV0ZXNFbnRyeUImiOwsAZLsLB48cmVkYWN0ZWQgKHt7IC5TaXplIH19",
+            "IGJ5dGVzKT4SNAoSYWRkX3RyYWNrX3JlcXVlc3RzGAUgAygLMhgubGl2ZWtp",
+            "dC5BZGRUcmFja1JlcXVlc3QSNAoPcHVibGlzaGVyX29mZmVyGAYgASgLMhsu",
+            "bGl2ZWtpdC5TZXNzaW9uRGVzY3JpcHRpb24SEQoJcmVjb25uZWN0GAcgASgI",
+            "EjIKEHJlY29ubmVjdF9yZWFzb24YCCABKA4yGC5saXZla2l0LlJlY29ubmVj",
+            "dFJlYXNvbhIXCg9wYXJ0aWNpcGFudF9zaWQYCSABKAkSJgoKc3luY19zdGF0",
+            "ZRgKIAEoCzISLmxpdmVraXQuU3luY1N0YXRlGjwKGlBhcnRpY2lwYW50QXR0",
+            "cmlidXRlc0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEi",
+            "iwEKEldyYXBwZWRKb2luUmVxdWVzdBI8Cgtjb21wcmVzc2lvbhgBIAEoDjIn",
+            "LmxpdmVraXQuV3JhcHBlZEpvaW5SZXF1ZXN0LkNvbXByZXNzaW9uEhQKDGpv",
+            "aW5fcmVxdWVzdBgCIAEoDCIhCgtDb21wcmVzc2lvbhIICgROT05FEAASCAoE",
+            "R1pJUBABIkIKGE1lZGlhU2VjdGlvbnNSZXF1aXJlbWVudBISCgpudW1fYXVk",
+            "aW9zGAEgASgNEhIKCm51bV92aWRlb3MYAiABKA0qLQoMU2lnbmFsVGFyZ2V0",
+            "Eg0KCVBVQkxJU0hFUhAAEg4KClNVQlNDUklCRVIQASolCgtTdHJlYW1TdGF0",
+            "ZRIKCgZBQ1RJVkUQABIKCgZQQVVTRUQQASouChFDYW5kaWRhdGVQcm90b2Nv",
+            "bBIHCgNVRFAQABIHCgNUQ1AQARIHCgNUTFMQAkJGWiNnaXRodWIuY29tL2xp",
+            "dmVraXQvcHJvdG9jb2wvbGl2ZWtpdKoCDUxpdmVLaXQuUHJvdG/qAg5MaXZl",
+            "S2l0OjpQcm90b2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::Logger.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.SignalTarget), typeof(global::LiveKit.Proto.StreamState), typeof(global::LiveKit.Proto.CandidateProtocol), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -326,7 +328,7 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SubscriptionResponse), global::LiveKit.Proto.SubscriptionResponse.Parser, new[]{ "TrackSid", "Err" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RequestResponse), global::LiveKit.Proto.RequestResponse.Parser, new[]{ "RequestId", "Reason", "Message", "Trickle", "AddTrack", "Mute", "UpdateMetadata", "UpdateAudioTrack", "UpdateVideoTrack", "PublishDataTrack", "UnpublishDataTrack" }, new[]{ "Request" }, new[]{ typeof(global::LiveKit.Proto.RequestResponse.Types.Reason) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TrackSubscribed), global::LiveKit.Proto.TrackSubscribed.Parser, new[]{ "TrackSid" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectionSettings), global::LiveKit.Proto.ConnectionSettings.Parser, new[]{ "AutoSubscribe", "AdaptiveStream", "SubscriberAllowPause", "DisableIceLite" }, new[]{ "SubscriberAllowPause" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectionSettings), global::LiveKit.Proto.ConnectionSettings.Parser, new[]{ "AutoSubscribe", "AdaptiveStream", "SubscriberAllowPause", "DisableIceLite", "AutoSubscribeDataTrack" }, new[]{ "SubscriberAllowPause", "AutoSubscribeDataTrack" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.JoinRequest), global::LiveKit.Proto.JoinRequest.Parser, new[]{ "ClientInfo", "ConnectionSettings", "Metadata", "ParticipantAttributes", "AddTrackRequests", "PublisherOffer", "Reconnect", "ReconnectReason", "ParticipantSid", "SyncState" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.WrappedJoinRequest), global::LiveKit.Proto.WrappedJoinRequest.Parser, new[]{ "Compression", "JoinRequest" }, null, new[]{ typeof(global::LiveKit.Proto.WrappedJoinRequest.Types.Compression) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.MediaSectionsRequirement), global::LiveKit.Proto.MediaSectionsRequirement.Parser, new[]{ "NumAudios", "NumVideos" }, null, null, null, null)
@@ -18332,6 +18334,7 @@ namespace LiveKit.Proto {
       adaptiveStream_ = other.adaptiveStream_;
       subscriberAllowPause_ = other.subscriberAllowPause_;
       disableIceLite_ = other.disableIceLite_;
+      autoSubscribeDataTrack_ = other.autoSubscribeDataTrack_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -18404,6 +18407,33 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "auto_subscribe_data_track" field.</summary>
+    public const int AutoSubscribeDataTrackFieldNumber = 5;
+    private readonly static bool AutoSubscribeDataTrackDefaultValue = false;
+
+    private bool autoSubscribeDataTrack_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool AutoSubscribeDataTrack {
+      get { if ((_hasBits0 & 2) != 0) { return autoSubscribeDataTrack_; } else { return AutoSubscribeDataTrackDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        autoSubscribeDataTrack_ = value;
+      }
+    }
+    /// <summary>Gets whether the "auto_subscribe_data_track" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasAutoSubscribeDataTrack {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "auto_subscribe_data_track" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearAutoSubscribeDataTrack() {
+      _hasBits0 &= ~2;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -18423,6 +18453,7 @@ namespace LiveKit.Proto {
       if (AdaptiveStream != other.AdaptiveStream) return false;
       if (SubscriberAllowPause != other.SubscriberAllowPause) return false;
       if (DisableIceLite != other.DisableIceLite) return false;
+      if (AutoSubscribeDataTrack != other.AutoSubscribeDataTrack) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -18434,6 +18465,7 @@ namespace LiveKit.Proto {
       if (AdaptiveStream != false) hash ^= AdaptiveStream.GetHashCode();
       if (HasSubscriberAllowPause) hash ^= SubscriberAllowPause.GetHashCode();
       if (DisableIceLite != false) hash ^= DisableIceLite.GetHashCode();
+      if (HasAutoSubscribeDataTrack) hash ^= AutoSubscribeDataTrack.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -18468,6 +18500,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(32);
         output.WriteBool(DisableIceLite);
       }
+      if (HasAutoSubscribeDataTrack) {
+        output.WriteRawTag(40);
+        output.WriteBool(AutoSubscribeDataTrack);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -18494,6 +18530,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(32);
         output.WriteBool(DisableIceLite);
       }
+      if (HasAutoSubscribeDataTrack) {
+        output.WriteRawTag(40);
+        output.WriteBool(AutoSubscribeDataTrack);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -18514,6 +18554,9 @@ namespace LiveKit.Proto {
         size += 1 + 1;
       }
       if (DisableIceLite != false) {
+        size += 1 + 1;
+      }
+      if (HasAutoSubscribeDataTrack) {
         size += 1 + 1;
       }
       if (_unknownFields != null) {
@@ -18539,6 +18582,9 @@ namespace LiveKit.Proto {
       }
       if (other.DisableIceLite != false) {
         DisableIceLite = other.DisableIceLite;
+      }
+      if (other.HasAutoSubscribeDataTrack) {
+        AutoSubscribeDataTrack = other.AutoSubscribeDataTrack;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -18575,6 +18621,10 @@ namespace LiveKit.Proto {
             DisableIceLite = input.ReadBool();
             break;
           }
+          case 40: {
+            AutoSubscribeDataTrack = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -18608,6 +18658,10 @@ namespace LiveKit.Proto {
           }
           case 32: {
             DisableIceLite = input.ReadBool();
+            break;
+          }
+          case 40: {
+            AutoSubscribeDataTrack = input.ReadBool();
             break;
           }
         }

@@ -26,58 +26,61 @@ namespace LiveKit.Proto {
           string.Concat(
             "CiBsaXZla2l0X2Nvbm5lY3Rvcl93aGF0c2FwcC5wcm90bxIHbGl2ZWtpdBoc",
             "bGl2ZWtpdF9hZ2VudF9kaXNwYXRjaC5wcm90bxoRbGl2ZWtpdF9ydGMucHJv",
-            "dG8aFGxvZ2dlci9vcHRpb25zLnByb3RvIpIFChdEaWFsV2hhdHNBcHBDYWxs",
-            "UmVxdWVzdBIgChh3aGF0c2FwcF9waG9uZV9udW1iZXJfaWQYASABKAkSIAoY",
-            "d2hhdHNhcHBfdG9fcGhvbmVfbnVtYmVyGAIgASgJEh4KEHdoYXRzYXBwX2Fw",
-            "aV9rZXkYAyABKAlCBIi1GAESIgoad2hhdHNhcHBfY2xvdWRfYXBpX3ZlcnNp",
-            "b24YDCABKAkSKQohd2hhdHNhcHBfYml6X29wYXF1ZV9jYWxsYmFja19kYXRh",
-            "GAQgASgJEhEKCXJvb21fbmFtZRgFIAEoCRIqCgZhZ2VudHMYBiADKAsyGi5s",
-            "aXZla2l0LlJvb21BZ2VudERpc3BhdGNoEhwKFHBhcnRpY2lwYW50X2lkZW50",
-            "aXR5GAcgASgJEkAKEHBhcnRpY2lwYW50X25hbWUYCCABKAlCJoi1GAGStRge",
-            "PHJlZGFjdGVkICh7eyAuU2l6ZSB9fSBieXRlcyk+EkQKFHBhcnRpY2lwYW50",
-            "X21ldGFkYXRhGAkgASgJQiaItRgBkrUYHjxyZWRhY3RlZCAoe3sgLlNpemUg",
-            "fX0gYnl0ZXMpPhKDAQoWcGFydGljaXBhbnRfYXR0cmlidXRlcxgKIAMoCzI7",
-            "LmxpdmVraXQuRGlhbFdoYXRzQXBwQ2FsbFJlcXVlc3QuUGFydGljaXBhbnRB",
-            "dHRyaWJ1dGVzRW50cnlCJoi1GAGStRgePHJlZGFjdGVkICh7eyAuU2l6ZSB9",
-            "fSBieXRlcyk+EhsKE2Rlc3RpbmF0aW9uX2NvdW50cnkYCyABKAkaPAoaUGFy",
-            "dGljaXBhbnRBdHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVl",
-            "GAIgASgJOgI4ASJHChhEaWFsV2hhdHNBcHBDYWxsUmVzcG9uc2USGAoQd2hh",
-            "dHNhcHBfY2FsbF9pZBgBIAEoCRIRCglyb29tX25hbWUYAiABKAkiWQodRGlz",
-            "Y29ubmVjdFdoYXRzQXBwQ2FsbFJlcXVlc3QSGAoQd2hhdHNhcHBfY2FsbF9p",
-            "ZBgBIAEoCRIeChB3aGF0c2FwcF9hcGlfa2V5GAIgASgJQgSItRgBIiAKHkRp",
-            "c2Nvbm5lY3RXaGF0c0FwcENhbGxSZXNwb25zZSJgChpDb25uZWN0V2hhdHNB",
-            "cHBDYWxsUmVxdWVzdBIYChB3aGF0c2FwcF9jYWxsX2lkGAEgASgJEigKA3Nk",
-            "cBgCIAEoCzIbLmxpdmVraXQuU2Vzc2lvbkRlc2NyaXB0aW9uIh0KG0Nvbm5l",
-            "Y3RXaGF0c0FwcENhbGxSZXNwb25zZSK4BQoZQWNjZXB0V2hhdHNBcHBDYWxs",
-            "UmVxdWVzdBIgChh3aGF0c2FwcF9waG9uZV9udW1iZXJfaWQYASABKAkSHgoQ",
-            "d2hhdHNhcHBfYXBpX2tleRgCIAEoCUIEiLUYARIiChp3aGF0c2FwcF9jbG91",
-            "ZF9hcGlfdmVyc2lvbhgNIAEoCRIYChB3aGF0c2FwcF9jYWxsX2lkGAMgASgJ",
-            "EikKIXdoYXRzYXBwX2Jpel9vcGFxdWVfY2FsbGJhY2tfZGF0YRgEIAEoCRIo",
-            "CgNzZHAYBSABKAsyGy5saXZla2l0LlNlc3Npb25EZXNjcmlwdGlvbhIRCgly",
-            "b29tX25hbWUYBiABKAkSKgoGYWdlbnRzGAcgAygLMhoubGl2ZWtpdC5Sb29t",
-            "QWdlbnREaXNwYXRjaBIcChRwYXJ0aWNpcGFudF9pZGVudGl0eRgIIAEoCRJA",
-            "ChBwYXJ0aWNpcGFudF9uYW1lGAkgASgJQiaItRgBkrUYHjxyZWRhY3RlZCAo",
-            "e3sgLlNpemUgfX0gYnl0ZXMpPhJEChRwYXJ0aWNpcGFudF9tZXRhZGF0YRgK",
-            "IAEoCUImiLUYAZK1GB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVzKT4S",
-            "hQEKFnBhcnRpY2lwYW50X2F0dHJpYnV0ZXMYCyADKAsyPS5saXZla2l0LkFj",
-            "Y2VwdFdoYXRzQXBwQ2FsbFJlcXVlc3QuUGFydGljaXBhbnRBdHRyaWJ1dGVz",
-            "RW50cnlCJoi1GAGStRgePHJlZGFjdGVkICh7eyAuU2l6ZSB9fSBieXRlcyk+",
-            "EhsKE2Rlc3RpbmF0aW9uX2NvdW50cnkYDCABKAkaPAoaUGFydGljaXBhbnRB",
-            "dHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4",
-            "ASIvChpBY2NlcHRXaGF0c0FwcENhbGxSZXNwb25zZRIRCglyb29tX25hbWUY",
-            "ASABKAkiWwoMV2hhdHNBcHBDYWxsEhgKEHdoYXRzYXBwX2NhbGxfaWQYASAB",
-            "KAkSMQoJZGlyZWN0aW9uGAIgASgOMh4ubGl2ZWtpdC5XaGF0c0FwcENhbGxE",
-            "aXJlY3Rpb24qYgoVV2hhdHNBcHBDYWxsRGlyZWN0aW9uEiMKH1dIQVRTQVBQ",
-            "X0NBTExfRElSRUNUSU9OX0lOQk9VTkQQABIkCiBXSEFUU0FQUF9DQUxMX0RJ",
-            "UkVDVElPTl9PVVRCT1VORBACQkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90",
-            "b2NvbC9saXZla2l0qgINTGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3Rv",
-            "YgZwcm90bzM="));
+            "dG8aFGxvZ2dlci9vcHRpb25zLnByb3RvIpgFChdEaWFsV2hhdHNBcHBDYWxs",
+            "UmVxdWVzdBIgChh3aGF0c2FwcF9waG9uZV9udW1iZXJfaWQYASABKAkSJgoY",
+            "d2hhdHNhcHBfdG9fcGhvbmVfbnVtYmVyGAIgASgJQgSI7CwBEh4KEHdoYXRz",
+            "YXBwX2FwaV9rZXkYAyABKAlCBIjsLAESIgoad2hhdHNhcHBfY2xvdWRfYXBp",
+            "X3ZlcnNpb24YDCABKAkSKQohd2hhdHNhcHBfYml6X29wYXF1ZV9jYWxsYmFj",
+            "a19kYXRhGAQgASgJEhEKCXJvb21fbmFtZRgFIAEoCRIqCgZhZ2VudHMYBiAD",
+            "KAsyGi5saXZla2l0LlJvb21BZ2VudERpc3BhdGNoEhwKFHBhcnRpY2lwYW50",
+            "X2lkZW50aXR5GAcgASgJEkAKEHBhcnRpY2lwYW50X25hbWUYCCABKAlCJojs",
+            "LAGS7CwePHJlZGFjdGVkICh7eyAuU2l6ZSB9fSBieXRlcyk+EkQKFHBhcnRp",
+            "Y2lwYW50X21ldGFkYXRhGAkgASgJQiaI7CwBkuwsHjxyZWRhY3RlZCAoe3sg",
+            "LlNpemUgfX0gYnl0ZXMpPhKDAQoWcGFydGljaXBhbnRfYXR0cmlidXRlcxgK",
+            "IAMoCzI7LmxpdmVraXQuRGlhbFdoYXRzQXBwQ2FsbFJlcXVlc3QuUGFydGlj",
+            "aXBhbnRBdHRyaWJ1dGVzRW50cnlCJojsLAGS7CwePHJlZGFjdGVkICh7eyAu",
+            "U2l6ZSB9fSBieXRlcyk+EhsKE2Rlc3RpbmF0aW9uX2NvdW50cnkYCyABKAka",
+            "PAoaUGFydGljaXBhbnRBdHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJEg0K",
+            "BXZhbHVlGAIgASgJOgI4ASJHChhEaWFsV2hhdHNBcHBDYWxsUmVzcG9uc2US",
+            "GAoQd2hhdHNhcHBfY2FsbF9pZBgBIAEoCRIRCglyb29tX25hbWUYAiABKAki",
+            "7QEKHURpc2Nvbm5lY3RXaGF0c0FwcENhbGxSZXF1ZXN0EhgKEHdoYXRzYXBw",
+            "X2NhbGxfaWQYASABKAkSHgoQd2hhdHNhcHBfYXBpX2tleRgCIAEoCUIEiOws",
+            "ARJSChFkaXNjb25uZWN0X3JlYXNvbhgDIAEoDjI3LmxpdmVraXQuRGlzY29u",
+            "bmVjdFdoYXRzQXBwQ2FsbFJlcXVlc3QuRGlzY29ubmVjdFJlYXNvbiI+ChBE",
+            "aXNjb25uZWN0UmVhc29uEhYKEkJVU0lORVNTX0lOSVRJQVRFRBAAEhIKDlVT",
+            "RVJfSU5JVElBVEVEEAEiIAoeRGlzY29ubmVjdFdoYXRzQXBwQ2FsbFJlc3Bv",
+            "bnNlImAKGkNvbm5lY3RXaGF0c0FwcENhbGxSZXF1ZXN0EhgKEHdoYXRzYXBw",
+            "X2NhbGxfaWQYASABKAkSKAoDc2RwGAIgASgLMhsubGl2ZWtpdC5TZXNzaW9u",
+            "RGVzY3JpcHRpb24iHQobQ29ubmVjdFdoYXRzQXBwQ2FsbFJlc3BvbnNlIrgF",
+            "ChlBY2NlcHRXaGF0c0FwcENhbGxSZXF1ZXN0EiAKGHdoYXRzYXBwX3Bob25l",
+            "X251bWJlcl9pZBgBIAEoCRIeChB3aGF0c2FwcF9hcGlfa2V5GAIgASgJQgSI",
+            "7CwBEiIKGndoYXRzYXBwX2Nsb3VkX2FwaV92ZXJzaW9uGA0gASgJEhgKEHdo",
+            "YXRzYXBwX2NhbGxfaWQYAyABKAkSKQohd2hhdHNhcHBfYml6X29wYXF1ZV9j",
+            "YWxsYmFja19kYXRhGAQgASgJEigKA3NkcBgFIAEoCzIbLmxpdmVraXQuU2Vz",
+            "c2lvbkRlc2NyaXB0aW9uEhEKCXJvb21fbmFtZRgGIAEoCRIqCgZhZ2VudHMY",
+            "ByADKAsyGi5saXZla2l0LlJvb21BZ2VudERpc3BhdGNoEhwKFHBhcnRpY2lw",
+            "YW50X2lkZW50aXR5GAggASgJEkAKEHBhcnRpY2lwYW50X25hbWUYCSABKAlC",
+            "JojsLAGS7CwePHJlZGFjdGVkICh7eyAuU2l6ZSB9fSBieXRlcyk+EkQKFHBh",
+            "cnRpY2lwYW50X21ldGFkYXRhGAogASgJQiaI7CwBkuwsHjxyZWRhY3RlZCAo",
+            "e3sgLlNpemUgfX0gYnl0ZXMpPhKFAQoWcGFydGljaXBhbnRfYXR0cmlidXRl",
+            "cxgLIAMoCzI9LmxpdmVraXQuQWNjZXB0V2hhdHNBcHBDYWxsUmVxdWVzdC5Q",
+            "YXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRyeUImiOwsAZLsLB48cmVkYWN0ZWQg",
+            "KHt7IC5TaXplIH19IGJ5dGVzKT4SGwoTZGVzdGluYXRpb25fY291bnRyeRgM",
+            "IAEoCRo8ChpQYXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRyeRILCgNrZXkYASAB",
+            "KAkSDQoFdmFsdWUYAiABKAk6AjgBIi8KGkFjY2VwdFdoYXRzQXBwQ2FsbFJl",
+            "c3BvbnNlEhEKCXJvb21fbmFtZRgBIAEoCSJbCgxXaGF0c0FwcENhbGwSGAoQ",
+            "d2hhdHNhcHBfY2FsbF9pZBgBIAEoCRIxCglkaXJlY3Rpb24YAiABKA4yHi5s",
+            "aXZla2l0LldoYXRzQXBwQ2FsbERpcmVjdGlvbipiChVXaGF0c0FwcENhbGxE",
+            "aXJlY3Rpb24SIwofV0hBVFNBUFBfQ0FMTF9ESVJFQ1RJT05fSU5CT1VORBAA",
+            "EiQKIFdIQVRTQVBQX0NBTExfRElSRUNUSU9OX09VVEJPVU5EEAJCRlojZ2l0",
+            "aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0LlBy",
+            "b3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, global::Logger.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.WhatsAppCallDirection), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DialWhatsAppCallRequest), global::LiveKit.Proto.DialWhatsAppCallRequest.Parser, new[]{ "WhatsappPhoneNumberId", "WhatsappToPhoneNumber", "WhatsappApiKey", "WhatsappCloudApiVersion", "WhatsappBizOpaqueCallbackData", "RoomName", "Agents", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "ParticipantAttributes", "DestinationCountry" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DialWhatsAppCallResponse), global::LiveKit.Proto.DialWhatsAppCallResponse.Parser, new[]{ "WhatsappCallId", "RoomName" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DisconnectWhatsAppCallRequest), global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Parser, new[]{ "WhatsappCallId", "WhatsappApiKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DisconnectWhatsAppCallRequest), global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Parser, new[]{ "WhatsappCallId", "WhatsappApiKey", "DisconnectReason" }, null, new[]{ typeof(global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DisconnectWhatsAppCallResponse), global::LiveKit.Proto.DisconnectWhatsAppCallResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectWhatsAppCallRequest), global::LiveKit.Proto.ConnectWhatsAppCallRequest.Parser, new[]{ "WhatsappCallId", "Sdp" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectWhatsAppCallResponse), global::LiveKit.Proto.ConnectWhatsAppCallResponse.Parser, null, null, null, null, null),
@@ -158,7 +161,7 @@ namespace LiveKit.Proto {
     public const int WhatsappPhoneNumberIdFieldNumber = 1;
     private string whatsappPhoneNumberId_ = "";
     /// <summary>
-    /// Required - The number of the business that is initiating the call
+    /// Required - The phone number id of the business that is initiating the call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -263,6 +266,7 @@ namespace LiveKit.Proto {
     private string participantIdentity_ = "";
     /// <summary>
     /// Optional - Identity of the participant in LiveKit room
+    /// This is used for logging purposes, so it is advised to not put PII in this field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -995,6 +999,7 @@ namespace LiveKit.Proto {
     public DisconnectWhatsAppCallRequest(DisconnectWhatsAppCallRequest other) : this() {
       whatsappCallId_ = other.whatsappCallId_;
       whatsappApiKey_ = other.whatsappApiKey_;
+      disconnectReason_ = other.disconnectReason_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1023,7 +1028,9 @@ namespace LiveKit.Proto {
     public const int WhatsappApiKeyFieldNumber = 2;
     private string whatsappApiKey_ = "";
     /// <summary>
-    /// Required - The API key of the business that is disconnecting the call
+    /// The API key of the whatsapp business.
+    /// Required if the DisconnectReason is BUSINESS_INITIATED.
+    /// Optional for  USER_INITIATED as no API call to WhatsApp is needed.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1031,6 +1038,21 @@ namespace LiveKit.Proto {
       get { return whatsappApiKey_; }
       set {
         whatsappApiKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "disconnect_reason" field.</summary>
+    public const int DisconnectReasonFieldNumber = 3;
+    private global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason disconnectReason_ = global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason.BusinessInitiated;
+    /// <summary>
+    /// The reason for disconnecting the call
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason DisconnectReason {
+      get { return disconnectReason_; }
+      set {
+        disconnectReason_ = value;
       }
     }
 
@@ -1051,6 +1073,7 @@ namespace LiveKit.Proto {
       }
       if (WhatsappCallId != other.WhatsappCallId) return false;
       if (WhatsappApiKey != other.WhatsappApiKey) return false;
+      if (DisconnectReason != other.DisconnectReason) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1060,6 +1083,7 @@ namespace LiveKit.Proto {
       int hash = 1;
       if (WhatsappCallId.Length != 0) hash ^= WhatsappCallId.GetHashCode();
       if (WhatsappApiKey.Length != 0) hash ^= WhatsappApiKey.GetHashCode();
+      if (DisconnectReason != global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason.BusinessInitiated) hash ^= DisconnectReason.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1086,6 +1110,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteString(WhatsappApiKey);
       }
+      if (DisconnectReason != global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason.BusinessInitiated) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) DisconnectReason);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1104,6 +1132,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteString(WhatsappApiKey);
       }
+      if (DisconnectReason != global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason.BusinessInitiated) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) DisconnectReason);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1119,6 +1151,9 @@ namespace LiveKit.Proto {
       }
       if (WhatsappApiKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(WhatsappApiKey);
+      }
+      if (DisconnectReason != global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason.BusinessInitiated) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DisconnectReason);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1137,6 +1172,9 @@ namespace LiveKit.Proto {
       }
       if (other.WhatsappApiKey.Length != 0) {
         WhatsappApiKey = other.WhatsappApiKey;
+      }
+      if (other.DisconnectReason != global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason.BusinessInitiated) {
+        DisconnectReason = other.DisconnectReason;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1163,6 +1201,10 @@ namespace LiveKit.Proto {
           }
           case 18: {
             WhatsappApiKey = input.ReadString();
+            break;
+          }
+          case 24: {
+            DisconnectReason = (global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason) input.ReadEnum();
             break;
           }
         }
@@ -1192,10 +1234,37 @@ namespace LiveKit.Proto {
             WhatsappApiKey = input.ReadString();
             break;
           }
+          case 24: {
+            DisconnectReason = (global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason) input.ReadEnum();
+            break;
+          }
         }
       }
     }
     #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the DisconnectWhatsAppCallRequest message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static partial class Types {
+      public enum DisconnectReason {
+        /// <summary>
+        /// The call is being disconnected by the business
+        /// </summary>
+        [pbr::OriginalName("BUSINESS_INITIATED")] BusinessInitiated = 0,
+        /// <summary>
+        /// The call is disconnected by the user.
+        /// This can be tracked as part of call terminate webhook
+        /// https://developers.facebook.com/documentation/business-messaging/whatsapp/calling/user-initiated-calls#call-terminate-webhook
+        /// Note that this webhook will also be sent when the call is disconnected by the business.
+        /// Calling the API twice in such cases will result in an error.
+        /// </summary>
+        [pbr::OriginalName("USER_INITIATED")] UserInitiated = 1,
+      }
+
+    }
+    #endregion
 
   }
 
@@ -1833,7 +1902,7 @@ namespace LiveKit.Proto {
     public const int WhatsappPhoneNumberIdFieldNumber = 1;
     private string whatsappPhoneNumberId_ = "";
     /// <summary>
-    /// Required - The number of the business that is conencting the call
+    /// Required - The phone number id of the business that is conencting the call
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1954,6 +2023,7 @@ namespace LiveKit.Proto {
     private string participantIdentity_ = "";
     /// <summary>
     /// Optional - Identity of the participant in LiveKit room
+    /// This is used for logging purposes, so it is advised to not put PII in this field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
