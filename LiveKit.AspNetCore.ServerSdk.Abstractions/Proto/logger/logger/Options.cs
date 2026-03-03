@@ -26,11 +26,12 @@ namespace Logger {
           string.Concat(
             "ChRsb2dnZXIvb3B0aW9ucy5wcm90bxIGbG9nZ2VyGiBnb29nbGUvcHJvdG9i",
             "dWYvZGVzY3JpcHRvci5wcm90bzovCgZyZWRhY3QSHS5nb29nbGUucHJvdG9i",
-            "dWYuRmllbGRPcHRpb25zGNGGAyABKAhCJFoiZ2l0aHViLmNvbS9saXZla2l0",
-            "L3Byb3RvY29sL2xvZ2dlcmIGcHJvdG8z"));
+            "dWYuRmllbGRPcHRpb25zGNGGAyABKAg6NgoNcmVkYWN0X2Zvcm1hdBIdLmdv",
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMY0oYDIAEoCUIsWipnaXRodWIu",
+            "Y29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdC9sb2dnZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.Reflection.DescriptorReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pb::Extension[] { OptionsExtensions.Redact }, null));
+          new pbr::GeneratedClrTypeInfo(null, new pb::Extension[] { OptionsExtensions.Redact, OptionsExtensions.RedactFormat }, null));
     }
     #endregion
 
@@ -39,6 +40,8 @@ namespace Logger {
   public static partial class OptionsExtensions {
     public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool> Redact =
       new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool>(50001, pb::FieldCodec.ForBool(400008, false));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string> RedactFormat =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(50002, pb::FieldCodec.ForString(400018, ""));
   }
 
 }

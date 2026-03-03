@@ -5,7 +5,7 @@ _layout: landing
 # LiveKit ASP.NET Core Server SDK
 
 [API Reference](/api/LiveKit.html)
-[LiveKit Protocol v1.43.0](https://github.com/livekit/protocol/tree/v1.43.0)
+[LiveKit Protocol v1.43.1](https://github.com/livekit/protocol/tree/v1.43.1)
 
 ASP.NET Core SDK for LiveKit Server API. Provides HTTP clients and services for managing rooms, participants, recordings, ingress, SIP, and more.
 
