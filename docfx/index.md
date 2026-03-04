@@ -5,7 +5,7 @@ _layout: landing
 # LiveKit ASP.NET Core Server SDK
 
 [API Reference](/livekit-server-sdk-aspnetcore/api/LiveKit.html)
-[LiveKit Protocol v1.44.1](https://github.com/livekit/protocol/tree/v1.44.1)
+[LiveKit Protocol v1.45.0](https://github.com/livekit/protocol/tree/v1.45.0)
 
 ASP.NET Core SDK for LiveKit Server API. Provides HTTP clients and services for managing rooms, participants, recordings, ingress, SIP, and more.
 
@@ -142,7 +142,7 @@ public class WebhookController : ControllerBase
         var body = await new StreamReader(Request.Body).ReadToEndAsync();
         var authHeader = Request.Headers["Authorization"].ToString();
 
-        var webhookEvent = _webhookReceiver.Receive(body, authHeader);
+        var webhookEvent = await _webhookReceiver.ReceiveAsync(body, authHeader);
 
         // Handle webhook event
         switch (webhookEvent.Event)
