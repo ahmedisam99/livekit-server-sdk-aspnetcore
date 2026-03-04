@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.JsonWebTokens;
 using System.Linq;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
@@ -35,7 +37,8 @@ public sealed class LiveKitTokenVerifier : ILiveKitTokenVerifier
     }
 
     /// <inheritdoc/>
-    public IDictionary<string, string> Verify(string token, TimeSpan? clockTolerance = null)
+    public async Task<IDictionary<string, string>> VerifyAsync(string token, TimeSpan? clockTolerance = null,
+        CancellationToken cancellationToken = default)
     {
         if (string.IsNullOrWhiteSpace(token))
         {
@@ -55,16 +58,15 @@ public sealed class LiveKitTokenVerifier : ILiveKitTokenVerifier
             ClockSkew = tolerance
         };
 
-        var tokenHandler = new JwtSecurityTokenHandler();
+        var tokenHandler = new JsonWebTokenHandler();
 
-        try
+        var result = await tokenHandler.ValidateTokenAsync(token, validationParameters).ConfigureAwait(false);
+
+        if (!result.IsValid)
         {
-            var principal = tokenHandler.ValidateToken(token, validationParameters, out _);
-            return principal.Claims.ToDictionary(c => c.Type, c => c.Value);
+            throw result.Exception ?? new SecurityTokenValidationException("Token validation failed.");
         }
-        catch (Exception ex)
-        {
-            throw new ArgumentException($"Token verification failed: {ex.Message}", nameof(token), ex);
-        }
+
+        return result.ClaimsIdentity.Claims.ToDictionary(c => c.Type, c => c.Value);
     }
 }

@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace LiveKit.Authentication;
 
@@ -22,9 +24,11 @@ public interface ILiveKitTokenVerifier
     /// </para>
     /// </summary>
     /// <param name="token">The JWT token to verify.</param>
-    /// <param name="clockTolerance">Optional clock tolerance for expiration validation. If not specified, uses the configured default (10 seconds).</param>
+    /// <param name="clockTolerance">Optional clock tolerance for expiration validation. If not specified, uses the configured webhook clock tolerance.</param>
+    /// <param name="cancellationToken">Cancellation token.</param>
     /// <returns>A dictionary of claims extracted from the token, with claim names as keys.</returns>
-    /// <exception cref="ArgumentException">Thrown when the token is invalid or verification fails.</exception>
-    IDictionary<string, string> Verify(string token, TimeSpan? clockTolerance = null);
+    /// <exception cref="ArgumentException">Thrown when the token is null or empty.</exception>
+    /// <exception cref="Exception">Thrown when token validation fails (e.g. SecurityTokenExpiredException, SecurityTokenInvalidSignatureException).</exception>
+    Task<IDictionary<string, string>> VerifyAsync(string token, TimeSpan? clockTolerance = null, CancellationToken cancellationToken = default);
 }
 

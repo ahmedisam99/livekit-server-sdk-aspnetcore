@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using Google.Protobuf;
 using LiveKit.Authentication;
 using LiveKit.Proto;
@@ -24,7 +26,7 @@ public sealed class LiveKitWebhookReceiver : ILiveKitWebhookReceiver
     }
 
     /// <inheritdoc/>
-    public WebhookEvent Receive(string body, string? authorizationHeader = null, bool skipAuth = false)
+    public async Task<WebhookEvent> ReceiveAsync(string body, string? authorizationHeader = null, bool skipAuth = false, CancellationToken cancellationToken = default)
     {
         if (string.IsNullOrWhiteSpace(body))
         {
@@ -41,7 +43,7 @@ public sealed class LiveKitWebhookReceiver : ILiveKitWebhookReceiver
             IDictionary<string, string> claims;
             try
             {
-                claims = _tokenVerifier.Verify(authorizationHeader!);
+                claims = await _tokenVerifier.VerifyAsync(authorizationHeader!, cancellationToken: cancellationToken).ConfigureAwait(false);
             }
             catch (Exception ex)
             {

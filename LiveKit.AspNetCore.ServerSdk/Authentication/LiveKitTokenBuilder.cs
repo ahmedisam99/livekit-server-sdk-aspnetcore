@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.JsonWebTokens;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
@@ -228,6 +228,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
 
         if (RoomConfiguration is not null)
         {
+            // RoomConfiguration is a protobuf type, so we use protobuf's JSON formatter
             var roomConfigJson = JsonFormatter.Default.Format(RoomConfiguration);
             claims.Add(new Claim(LiveKitClaims.RoomConfig, roomConfigJson, JsonClaimValueTypes.Json));
         }
@@ -235,18 +236,18 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         var secret = Encoding.UTF8.GetBytes(_apiSecret);
         var signingCredentials = new SigningCredentials(new SymmetricSecurityKey(secret), SecurityAlgorithms.HmacSha256);
 
-        var header = new JwtHeader(signingCredentials);
-        var payload = new JwtPayload(
-            issuer: _apiKey,
-            audience: null,
-            claims: claims,
-            notBefore: now,
-            expires: now.Add(Ttl),
-            issuedAt: now);
+        var descriptor = new SecurityTokenDescriptor
+        {
+            Issuer = _apiKey,
+            NotBefore = now,
+            Expires = now.Add(Ttl),
+            IssuedAt = now,
+            SigningCredentials = signingCredentials,
+            Subject = new ClaimsIdentity(claims)
+        };
 
-        var tokenHandler = new JwtSecurityTokenHandler();
-        var token = new JwtSecurityToken(header, payload);
+        var tokenHandler = new JsonWebTokenHandler();
 
-        return tokenHandler.WriteToken(token);
+        return tokenHandler.CreateToken(descriptor);
     }
 }

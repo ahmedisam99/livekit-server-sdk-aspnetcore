@@ -1,4 +1,4 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿using Microsoft.IdentityModel.JsonWebTokens;
 
 namespace LiveKit.Authentication;
 

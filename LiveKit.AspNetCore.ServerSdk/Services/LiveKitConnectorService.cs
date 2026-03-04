@@ -24,34 +24,34 @@ public sealed class LiveKitConnectorService : TwirpClient, ILiveKitConnectorServ
     public async Task<DialWhatsAppCallResponse> DialWhatsAppCallAsync(DialWhatsAppCallRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<DialWhatsAppCallResponse>("DialWhatsAppCall", request.RoomName, request, cancellationToken);
+        return await MakeRequestAsync<DialWhatsAppCallResponse>("DialWhatsAppCall", request.RoomName, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<DisconnectWhatsAppCallResponse> DisconnectWhatsAppCallAsync(DisconnectWhatsAppCallRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<DisconnectWhatsAppCallResponse>("DisconnectWhatsAppCall", null, request, cancellationToken);
+        return await MakeRequestAsync<DisconnectWhatsAppCallResponse>("DisconnectWhatsAppCall", null, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<ConnectWhatsAppCallResponse> ConnectWhatsAppCallAsync(ConnectWhatsAppCallRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ConnectWhatsAppCallResponse>("ConnectWhatsAppCall", null, request, cancellationToken);
+        return await MakeRequestAsync<ConnectWhatsAppCallResponse>("ConnectWhatsAppCall", null, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<AcceptWhatsAppCallResponse> AcceptWhatsAppCallAsync(AcceptWhatsAppCallRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<AcceptWhatsAppCallResponse>("AcceptWhatsAppCall", request.RoomName, request, cancellationToken);
+        return await MakeRequestAsync<AcceptWhatsAppCallResponse>("AcceptWhatsAppCall", request.RoomName, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<ConnectTwilioCallResponse> ConnectTwilioCallAsync(ConnectTwilioCallRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ConnectTwilioCallResponse>("ConnectTwilioCall", request.RoomName, request, cancellationToken);
+        return await MakeRequestAsync<ConnectTwilioCallResponse>("ConnectTwilioCall", request.RoomName, request, cancellationToken).ConfigureAwait(false);
     }
 }

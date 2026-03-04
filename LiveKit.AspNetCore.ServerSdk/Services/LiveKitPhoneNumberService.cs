@@ -24,39 +24,39 @@ public sealed class LiveKitPhoneNumberService : TwirpClient, ILiveKitPhoneNumber
     public async Task<SearchPhoneNumbersResponse> SearchPhoneNumbersAsync(SearchPhoneNumbersRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<SearchPhoneNumbersResponse>("SearchPhoneNumbers", null, request, cancellationToken);
+        return await MakeRequestAsync<SearchPhoneNumbersResponse>("SearchPhoneNumbers", null, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<PurchasePhoneNumberResponse> PurchasePhoneNumberAsync(PurchasePhoneNumberRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<PurchasePhoneNumberResponse>("PurchasePhoneNumber", null, request, cancellationToken);
+        return await MakeRequestAsync<PurchasePhoneNumberResponse>("PurchasePhoneNumber", null, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<ListPhoneNumbersResponse> ListPhoneNumbersAsync(ListPhoneNumbersRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ListPhoneNumbersResponse>("ListPhoneNumbers", null, request, cancellationToken);
+        return await MakeRequestAsync<ListPhoneNumbersResponse>("ListPhoneNumbers", null, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<GetPhoneNumberResponse> GetPhoneNumberAsync(GetPhoneNumberRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<GetPhoneNumberResponse>("GetPhoneNumber", null, request, cancellationToken);
+        return await MakeRequestAsync<GetPhoneNumberResponse>("GetPhoneNumber", null, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<UpdatePhoneNumberResponse> UpdatePhoneNumberAsync(UpdatePhoneNumberRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<UpdatePhoneNumberResponse>("UpdatePhoneNumber", null, request, cancellationToken);
+        return await MakeRequestAsync<UpdatePhoneNumberResponse>("UpdatePhoneNumber", null, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<ReleasePhoneNumbersResponse> ReleasePhoneNumbersAsync(ReleasePhoneNumbersRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ReleasePhoneNumbersResponse>("ReleasePhoneNumbers", null, request, cancellationToken);
+        return await MakeRequestAsync<ReleasePhoneNumbersResponse>("ReleasePhoneNumbers", null, request, cancellationToken).ConfigureAwait(false);
     }
 }

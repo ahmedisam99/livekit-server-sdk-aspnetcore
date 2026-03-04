@@ -78,8 +78,8 @@ public abstract class TwirpClient
 
         _logger.LogDebug("Making request to {Url}", url);
 
-        var response = await _httpClient.SendAsync(request, cancellationToken);
-        var responseContent = await response.Content.ReadAsStringAsync();
+        var response = await _httpClient.SendAsync(request, cancellationToken).ConfigureAwait(false);
+        var responseContent = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
 
         if (!response.IsSuccessStatusCode)
         {
