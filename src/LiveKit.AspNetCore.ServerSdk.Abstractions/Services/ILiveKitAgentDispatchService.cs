@@ -16,16 +16,18 @@ public interface ILiveKitAgentDispatchService
     /// <summary>
     /// Creates a new agent dispatch for a room.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<AgentDispatch> CreateDispatchAsync(CreateAgentDispatchRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Deletes an agent dispatch.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<AgentDispatch> DeleteDispatchAsync(DeleteAgentDispatchRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Lists agent dispatches for a room.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<ListAgentDispatchResponse> ListDispatchAsync(ListAgentDispatchRequest request, CancellationToken cancellationToken = default);
 }
-

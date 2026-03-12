@@ -2,6 +2,7 @@ using Google.Protobuf;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
+using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using LiveKit.Authentication;
@@ -53,6 +54,10 @@ public abstract class TwirpClient
     /// <param name="requestBody">The request body as a protobuf message.</param>
     /// <param name="cancellationToken">Cancellation token.</param>
     /// <returns>The response as a protobuf message.</returns>
+    /// <exception cref="LiveKitApiException">
+    /// Thrown when the server returns a non-success HTTP status code.
+    /// Contains the parsed Twirp error code, message, and HTTP status code.
+    /// </exception>
     protected async Task<TResponse> MakeRequestAsync<TResponse>(
         string methodName,
         string? roomName,
@@ -85,7 +90,10 @@ public abstract class TwirpClient
         {
             _logger.LogWarning("Request to '{Url}' failed with status {StatusCode}: {Content}", url, response.StatusCode, responseContent);
 
-            throw new HttpRequestException($"Request to '{url}' failed with status {response.StatusCode}: {responseContent}");
+            var (twirpCode, twirpMessage) = ParseTwirpError(responseContent);
+            var msg = $"Request to '{url}' failed with status {response.StatusCode}: {twirpMessage}";
+
+            throw new LiveKitApiException(msg, twirpCode, twirpMessage, response.StatusCode);
         }
 
         _logger.LogDebug("Response received: {Content}", responseContent);
@@ -97,4 +105,48 @@ public abstract class TwirpClient
 
         return _jsonParser.Parse<TResponse>(responseContent);
     }
+
+    private static (TwirpErrorCode code, string message) ParseTwirpError(string responseContent)
+    {
+        try
+        {
+            using var doc = JsonDocument.Parse(responseContent);
+            var root = doc.RootElement;
+
+            if (root.TryGetProperty("code", out var codeElement) && root.TryGetProperty("msg", out var msgElement))
+            {
+                var code = ParseTwirpErrorCode(codeElement.GetString());
+                var msg = msgElement.GetString() ?? string.Empty;
+                return (code, msg);
+            }
+        }
+        catch (JsonException)
+        {
+        }
+
+        return (TwirpErrorCode.Unknown, responseContent);
+    }
+
+    private static TwirpErrorCode ParseTwirpErrorCode(string? code) => code switch
+    {
+        "canceled" => TwirpErrorCode.Canceled,
+        "unknown" => TwirpErrorCode.Unknown,
+        "invalid_argument" => TwirpErrorCode.InvalidArgument,
+        "malformed" => TwirpErrorCode.Malformed,
+        "deadline_exceeded" => TwirpErrorCode.DeadlineExceeded,
+        "not_found" => TwirpErrorCode.NotFound,
+        "bad_route" => TwirpErrorCode.BadRoute,
+        "already_exists" => TwirpErrorCode.AlreadyExists,
+        "permission_denied" => TwirpErrorCode.PermissionDenied,
+        "unauthenticated" => TwirpErrorCode.Unauthenticated,
+        "resource_exhausted" => TwirpErrorCode.ResourceExhausted,
+        "failed_precondition" => TwirpErrorCode.FailedPrecondition,
+        "aborted" => TwirpErrorCode.Aborted,
+        "out_of_range" => TwirpErrorCode.OutOfRange,
+        "unimplemented" => TwirpErrorCode.Unimplemented,
+        "internal" => TwirpErrorCode.Internal,
+        "unavailable" => TwirpErrorCode.Unavailable,
+        "dataloss" => TwirpErrorCode.DataLoss,
+        _ => TwirpErrorCode.Unknown
+    };
 }

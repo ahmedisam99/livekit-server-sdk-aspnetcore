@@ -17,52 +17,62 @@ public interface ILiveKitSipService
     /// <summary>
     /// Lists SIP trunks (deprecated, use ListSIPInboundTrunk or ListSIPOutboundTrunk).
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     [Obsolete("Use ListSIPInboundTrunk or ListSIPOutboundTrunk instead")]
     Task<ListSIPTrunkResponse> ListSIPTrunkAsync(ListSIPTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Creates a new SIP inbound trunk.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SIPInboundTrunkInfo> CreateSIPInboundTrunkAsync(CreateSIPInboundTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Creates a new SIP outbound trunk.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SIPOutboundTrunkInfo> CreateSIPOutboundTrunkAsync(CreateSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Updates an existing SIP inbound trunk.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SIPInboundTrunkInfo> UpdateSIPInboundTrunkAsync(UpdateSIPInboundTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Updates an existing SIP outbound trunk.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SIPOutboundTrunkInfo> UpdateSIPOutboundTrunkAsync(UpdateSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Gets a SIP inbound trunk by ID.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<GetSIPInboundTrunkResponse> GetSIPInboundTrunkAsync(GetSIPInboundTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Gets a SIP outbound trunk by ID.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<GetSIPOutboundTrunkResponse> GetSIPOutboundTrunkAsync(GetSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Lists SIP inbound trunks.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<ListSIPInboundTrunkResponse> ListSIPInboundTrunkAsync(ListSIPInboundTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Lists SIP outbound trunks.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<ListSIPOutboundTrunkResponse> ListSIPOutboundTrunkAsync(ListSIPOutboundTrunkRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Deletes a SIP trunk by ID.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
 #pragma warning disable CS0612 // Type or member is obsolete
     Task<SIPTrunkInfo> DeleteSIPTrunkAsync(DeleteSIPTrunkRequest request, CancellationToken cancellationToken = default);
 #pragma warning restore CS0612 // Type or member is obsolete
@@ -70,30 +80,36 @@ public interface ILiveKitSipService
     /// <summary>
     /// Creates a new SIP dispatch rule.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SIPDispatchRuleInfo> CreateSIPDispatchRuleAsync(CreateSIPDispatchRuleRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Updates an existing SIP dispatch rule.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SIPDispatchRuleInfo> UpdateSIPDispatchRuleAsync(UpdateSIPDispatchRuleRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Lists SIP dispatch rules.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<ListSIPDispatchRuleResponse> ListSIPDispatchRuleAsync(ListSIPDispatchRuleRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Deletes a SIP dispatch rule by ID.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SIPDispatchRuleInfo> DeleteSIPDispatchRuleAsync(DeleteSIPDispatchRuleRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Creates a SIP participant to make an outbound call.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SIPParticipantInfo> CreateSIPParticipantAsync(CreateSIPParticipantRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Transfers an active SIP participant to another number.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task TransferSIPParticipantAsync(TransferSIPParticipantRequest request, CancellationToken cancellationToken = default);
 }

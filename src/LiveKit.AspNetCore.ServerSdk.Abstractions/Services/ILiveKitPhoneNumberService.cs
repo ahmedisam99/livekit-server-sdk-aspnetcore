@@ -16,30 +16,36 @@ public interface ILiveKitPhoneNumberService
     /// <summary>
     /// Searches available phone numbers in inventory.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<SearchPhoneNumbersResponse> SearchPhoneNumbersAsync(SearchPhoneNumbersRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Purchases phone numbers from inventory.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<PurchasePhoneNumberResponse> PurchasePhoneNumberAsync(PurchasePhoneNumberRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Lists phone numbers for the project.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<ListPhoneNumbersResponse> ListPhoneNumbersAsync(ListPhoneNumbersRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Gets a specific phone number.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<GetPhoneNumberResponse> GetPhoneNumberAsync(GetPhoneNumberRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Updates a phone number configuration.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<UpdatePhoneNumberResponse> UpdatePhoneNumberAsync(UpdatePhoneNumberRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Releases phone numbers back to inventory.
     /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<ReleasePhoneNumbersResponse> ReleasePhoneNumbersAsync(ReleasePhoneNumbersRequest request, CancellationToken cancellationToken = default);
 }

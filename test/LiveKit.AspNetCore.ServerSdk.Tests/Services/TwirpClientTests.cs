@@ -138,4 +138,62 @@ public class TwirpClientTests
         ex.Which.Message.Should().Contain("/twirp/livekit.RoomService/CreateRoom");
         ex.Which.Message.Should().Contain("NotFound");
     }
+
+    [Fact]
+    public async Task MakeRequest_WithTwirpErrorResponse_ThrowsLiveKitApiException()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse(
+            """{"code": "not_found", "msg": "room not found"}""",
+            HttpStatusCode.NotFound);
+        var service = CreateRoomService(handler);
+
+        var act = () => service.CreateRoomAsync(new CreateRoomRequest { Name = "test-room" });
+
+        await act.Should().ThrowAsync<LiveKitApiException>();
+    }
+
+    [Fact]
+    public async Task MakeRequest_WithTwirpErrorResponse_ParsesErrorCodeAndMessage()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse(
+            """{"code": "not_found", "msg": "room not found"}""",
+            HttpStatusCode.NotFound);
+        var service = CreateRoomService(handler);
+
+        var act = () => service.CreateRoomAsync(new CreateRoomRequest { Name = "test-room" });
+
+        var ex = await act.Should().ThrowAsync<LiveKitApiException>();
+        ex.Which.Code.Should().Be(TwirpErrorCode.NotFound);
+        ex.Which.TwirpMessage.Should().Be("room not found");
+        ex.Which.StatusCode.Should().Be(HttpStatusCode.NotFound);
+    }
+
+    [Fact]
+    public async Task MakeRequest_WithNonJsonErrorResponse_FallsBackToUnknownCode()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse(
+            "Internal Server Error",
+            HttpStatusCode.InternalServerError);
+        var service = CreateRoomService(handler);
+
+        var act = () => service.CreateRoomAsync(new CreateRoomRequest { Name = "test-room" });
+
+        var ex = await act.Should().ThrowAsync<LiveKitApiException>();
+        ex.Which.Code.Should().Be(TwirpErrorCode.Unknown);
+        ex.Which.TwirpMessage.Should().Contain("Internal Server Error");
+    }
+
+    [Fact]
+    public async Task MakeRequest_WithPartialTwirpJson_FallsBackToUnknownCode()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse(
+            """{"error": "something went wrong"}""",
+            HttpStatusCode.InternalServerError);
+        var service = CreateRoomService(handler);
+
+        var act = () => service.CreateRoomAsync(new CreateRoomRequest { Name = "test-room" });
+
+        var ex = await act.Should().ThrowAsync<LiveKitApiException>();
+        ex.Which.Code.Should().Be(TwirpErrorCode.Unknown);
+    }
 }
