@@ -49,6 +49,7 @@ public static class ServiceCollectionExtensions
         RegisterHttpClient<ILiveKitAgentDispatchService, LiveKitAgentDispatchService>(services);
         RegisterHttpClient<ILiveKitCloudAgentService, LiveKitCloudAgentService>(services);
         RegisterHttpClient<ILiveKitConnectorService, LiveKitConnectorService>(services);
+        RegisterHttpClient<ILiveKitAgentSimulationService, LiveKitAgentSimulationService>(services);
 
         return services;
     }

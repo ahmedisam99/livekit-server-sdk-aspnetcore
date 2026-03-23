@@ -27,12 +27,13 @@ namespace LiveKit.Proto {
             "ChRsb2dnZXIvb3B0aW9ucy5wcm90bxIGbG9nZ2VyGiBnb29nbGUvcHJvdG9i",
             "dWYvZGVzY3JpcHRvci5wcm90bzovCgZyZWRhY3QSHS5nb29nbGUucHJvdG9i",
             "dWYuRmllbGRPcHRpb25zGMHNBSABKAg6NgoNcmVkYWN0X2Zvcm1hdBIdLmdv",
-            "b2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMYws0FIAEoCUJNWipnaXRodWIu",
-            "Y29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdC9sb2dnZXKqAg1MaXZlS2l0",
-            "LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
+            "b2dsZS5wcm90b2J1Zi5GaWVsZE9wdGlvbnMYws0FIAEoCTotCgRuYW1lEh0u",
+            "Z29vZ2xlLnByb3RvYnVmLkZpZWxkT3B0aW9ucxjDzQUgASgJQk1aKmdpdGh1",
+            "Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0L2xvZ2dlcqoCDUxpdmVL",
+            "aXQuUHJvdG/qAg5MaXZlS2l0OjpQcm90b2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.Reflection.DescriptorReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pb::Extension[] { OptionsExtensions.Redact, OptionsExtensions.RedactFormat }, null));
+          new pbr::GeneratedClrTypeInfo(null, new pb::Extension[] { OptionsExtensions.Redact, OptionsExtensions.RedactFormat, OptionsExtensions.Name }, null));
     }
     #endregion
 
@@ -43,6 +44,8 @@ namespace LiveKit.Proto {
       new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, bool>(91841, pb::FieldCodec.ForBool(734728, false));
     public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string> RedactFormat =
       new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(91842, pb::FieldCodec.ForString(734738, ""));
+    public static readonly pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string> Name =
+      new pb::Extension<global::Google.Protobuf.Reflection.FieldOptions, string>(91843, pb::FieldCodec.ForString(734746, ""));
   }
 
 }

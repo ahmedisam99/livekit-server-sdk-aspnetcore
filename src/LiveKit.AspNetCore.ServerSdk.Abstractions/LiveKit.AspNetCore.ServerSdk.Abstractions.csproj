@@ -53,6 +53,12 @@
               GrpcServices="None"
               CompileOutputs="false"
               OutputDir="Proto\logger" />
+
+    <Protobuf ProtoRoot="..\..\livekit-protocol\protobufs"
+              Include="..\..\livekit-protocol\protobufs\agent\livekit_*.proto"
+              GrpcServices="None"
+              CompileOutputs="false"
+              OutputDir="Proto\agent" />
   </ItemGroup>
 </Project>
 
