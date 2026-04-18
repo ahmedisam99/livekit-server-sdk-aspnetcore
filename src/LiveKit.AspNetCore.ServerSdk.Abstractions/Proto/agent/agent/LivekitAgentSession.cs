@@ -127,7 +127,7 @@ namespace Livekit.Agent {
             "dGVjdGlvbl9kZWxheRgDIAEoARIvCgtkZXRlY3RlZF9hdBgEIAEoCzIaLmdv",
             "b2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBCFQoTX292ZXJsYXBfc3RhcnRlZF9h",
             "dBpGChNTZXNzaW9uVXNhZ2VVcGRhdGVkEi8KBXVzYWdlGAEgASgLMiAubGl2",
-            "ZWtpdC5hZ2VudC5BZ2VudFNlc3Npb25Vc2FnZUIHCgVldmVudCKFBQoOU2Vz",
+            "ZWtpdC5hZ2VudC5BZ2VudFNlc3Npb25Vc2FnZUIHCgVldmVudCLnBQoOU2Vz",
             "c2lvblJlcXVlc3QSEgoKcmVxdWVzdF9pZBgBIAEoCRIyCgRwaW5nGAIgASgL",
             "MiIubGl2ZWtpdC5hZ2VudC5TZXNzaW9uUmVxdWVzdC5QaW5nSAASSAoQZ2V0",
             "X2NoYXRfaGlzdG9yeRgEIAEoCzIsLmxpdmVraXQuYWdlbnQuU2Vzc2lvblJl",
@@ -139,67 +139,73 @@ namespace Livekit.Agent {
             "dGVIABJCCg1nZXRfcnRjX3N0YXRzGAggASgLMikubGl2ZWtpdC5hZ2VudC5T",
             "ZXNzaW9uUmVxdWVzdC5HZXRSVENTdGF0c0gAEkoKEWdldF9zZXNzaW9uX3Vz",
             "YWdlGAkgASgLMi0ubGl2ZWtpdC5hZ2VudC5TZXNzaW9uUmVxdWVzdC5HZXRT",
-            "ZXNzaW9uVXNhZ2VIABoGCgRQaW5nGhAKDkdldENoYXRIaXN0b3J5GhgKCFJ1",
-            "bklucHV0EgwKBHRleHQYASABKAkaDgoMR2V0QWdlbnRJbmZvGhEKD0dldFNl",
-            "c3Npb25TdGF0ZRoNCgtHZXRSVENTdGF0cxoRCg9HZXRTZXNzaW9uVXNhZ2VC",
-            "CQoHcmVxdWVzdCLSCwoPU2Vzc2lvblJlc3BvbnNlEhIKCnJlcXVlc3RfaWQY",
-            "ASABKAkSEgoFZXJyb3IYAiABKAlIAYgBARIzCgRwb25nGAMgASgLMiMubGl2",
-            "ZWtpdC5hZ2VudC5TZXNzaW9uUmVzcG9uc2UuUG9uZ0gAElEKEGdldF9jaGF0",
-            "X2hpc3RvcnkYBSABKAsyNS5saXZla2l0LmFnZW50LlNlc3Npb25SZXNwb25z",
-            "ZS5HZXRDaGF0SGlzdG9yeVJlc3BvbnNlSAASRAoJcnVuX2lucHV0GAYgASgL",
-            "Mi8ubGl2ZWtpdC5hZ2VudC5TZXNzaW9uUmVzcG9uc2UuUnVuSW5wdXRSZXNw",
-            "b25zZUgAEk0KDmdldF9hZ2VudF9pbmZvGAcgASgLMjMubGl2ZWtpdC5hZ2Vu",
-            "dC5TZXNzaW9uUmVzcG9uc2UuR2V0QWdlbnRJbmZvUmVzcG9uc2VIABJTChFn",
-            "ZXRfc2Vzc2lvbl9zdGF0ZRgIIAEoCzI2LmxpdmVraXQuYWdlbnQuU2Vzc2lv",
-            "blJlc3BvbnNlLkdldFNlc3Npb25TdGF0ZVJlc3BvbnNlSAASSwoNZ2V0X3J0",
-            "Y19zdGF0cxgJIAEoCzIyLmxpdmVraXQuYWdlbnQuU2Vzc2lvblJlc3BvbnNl",
-            "LkdldFJUQ1N0YXRzUmVzcG9uc2VIABJTChFnZXRfc2Vzc2lvbl91c2FnZRgK",
-            "IAEoCzI2LmxpdmVraXQuYWdlbnQuU2Vzc2lvblJlc3BvbnNlLkdldFNlc3Np",
-            "b25Vc2FnZVJlc3BvbnNlSAAaBgoEUG9uZxpMChZHZXRDaGF0SGlzdG9yeVJl",
-            "c3BvbnNlEjIKBWl0ZW1zGAEgAygLMiMubGl2ZWtpdC5hZ2VudC5DaGF0Q29u",
-            "dGV4dC5DaGF0SXRlbRqUAQoUR2V0QWdlbnRJbmZvUmVzcG9uc2USCgoCaWQY",
-            "ASABKAkSGQoMaW5zdHJ1Y3Rpb25zGAIgASgJSACIAQESDQoFdG9vbHMYAyAD",
-            "KAkSNQoIY2hhdF9jdHgYBCADKAsyIy5saXZla2l0LmFnZW50LkNoYXRDb250",
-            "ZXh0LkNoYXRJdGVtQg8KDV9pbnN0cnVjdGlvbnMaRgoQUnVuSW5wdXRSZXNw",
-            "b25zZRIyCgVpdGVtcxgBIAMoCzIjLmxpdmVraXQuYWdlbnQuQ2hhdENvbnRl",
-            "eHQuQ2hhdEl0ZW0avwIKF0dldFNlc3Npb25TdGF0ZVJlc3BvbnNlEi4KC2Fn",
-            "ZW50X3N0YXRlGAEgASgOMhkubGl2ZWtpdC5hZ2VudC5BZ2VudFN0YXRlEiwK",
-            "CnVzZXJfc3RhdGUYAiABKA4yGC5saXZla2l0LmFnZW50LlVzZXJTdGF0ZRIQ",
-            "CghhZ2VudF9pZBgDIAEoCRJUCgdvcHRpb25zGAQgAygLMkMubGl2ZWtpdC5h",
-            "Z2VudC5TZXNzaW9uUmVzcG9uc2UuR2V0U2Vzc2lvblN0YXRlUmVzcG9uc2Uu",
-            "T3B0aW9uc0VudHJ5Ei4KCmNyZWF0ZWRfYXQYBSABKAsyGi5nb29nbGUucHJv",
-            "dG9idWYuVGltZXN0YW1wGi4KDE9wdGlvbnNFbnRyeRILCgNrZXkYASABKAkS",
-            "DQoFdmFsdWUYAiABKAk6AjgBGnoKE0dldFJUQ1N0YXRzUmVzcG9uc2USMAoP",
-            "cHVibGlzaGVyX3N0YXRzGAEgAygLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVj",
-            "dBIxChBzdWJzY3JpYmVyX3N0YXRzGAIgAygLMhcuZ29vZ2xlLnByb3RvYnVm",
-            "LlN0cnVjdBp6ChdHZXRTZXNzaW9uVXNhZ2VSZXNwb25zZRIvCgV1c2FnZRgB",
-            "IAEoCzIgLmxpdmVraXQuYWdlbnQuQWdlbnRTZXNzaW9uVXNhZ2USLgoKY3Jl",
-            "YXRlZF9hdBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBCCgoI",
-            "cmVzcG9uc2VCCAoGX2Vycm9yIroGChNBZ2VudFNlc3Npb25NZXNzYWdlEk4K",
-            "C2F1ZGlvX2lucHV0GAEgASgLMjcubGl2ZWtpdC5hZ2VudC5BZ2VudFNlc3Np",
-            "b25NZXNzYWdlLkNvbnNvbGVJTy5BdWRpb0ZyYW1lSAASTwoMYXVkaW9fb3V0",
-            "cHV0GAIgASgLMjcubGl2ZWtpdC5hZ2VudC5BZ2VudFNlc3Npb25NZXNzYWdl",
-            "LkNvbnNvbGVJTy5BdWRpb0ZyYW1lSAASMQoFZXZlbnQYAyABKAsyIC5saXZl",
-            "a2l0LmFnZW50LkFnZW50U2Vzc2lvbkV2ZW50SAASMAoHcmVxdWVzdBgEIAEo",
-            "CzIdLmxpdmVraXQuYWdlbnQuU2Vzc2lvblJlcXVlc3RIABIyCghyZXNwb25z",
-            "ZRgFIAEoCzIeLmxpdmVraXQuYWdlbnQuU2Vzc2lvblJlc3BvbnNlSAASXwoU",
-            "YXVkaW9fcGxheWJhY2tfZmx1c2gYBiABKAsyPy5saXZla2l0LmFnZW50LkFn",
-            "ZW50U2Vzc2lvbk1lc3NhZ2UuQ29uc29sZUlPLkF1ZGlvUGxheWJhY2tGbHVz",
-            "aEgAEl8KFGF1ZGlvX3BsYXliYWNrX2NsZWFyGAcgASgLMj8ubGl2ZWtpdC5h",
-            "Z2VudC5BZ2VudFNlc3Npb25NZXNzYWdlLkNvbnNvbGVJTy5BdWRpb1BsYXli",
-            "YWNrQ2xlYXJIABJlChdhdWRpb19wbGF5YmFja19maW5pc2hlZBgIIAEoCzJC",
-            "LmxpdmVraXQuYWdlbnQuQWdlbnRTZXNzaW9uTWVzc2FnZS5Db25zb2xlSU8u",
-            "QXVkaW9QbGF5YmFja0ZpbmlzaGVkSAAatAEKCUNvbnNvbGVJTxpiCgpBdWRp",
-            "b0ZyYW1lEgwKBGRhdGEYASABKAwSEwoLc2FtcGxlX3JhdGUYAiABKA0SFAoM",
-            "bnVtX2NoYW5uZWxzGAMgASgNEhsKE3NhbXBsZXNfcGVyX2NoYW5uZWwYBCAB",
-            "KA0aFAoSQXVkaW9QbGF5YmFja0ZsdXNoGhQKEkF1ZGlvUGxheWJhY2tDbGVh",
-            "choXChVBdWRpb1BsYXliYWNrRmluaXNoZWRCCQoHbWVzc2FnZSo+CghDaGF0",
-            "Um9sZRINCglERVZFTE9QRVIQABIKCgZTWVNURU0QARIICgRVU0VSEAISDQoJ",
-            "QVNTSVNUQU5UEAMqYgoKQWdlbnRTdGF0ZRITCg9BU19JTklUSUFMSVpJTkcQ",
-            "ABILCgdBU19JRExFEAESEAoMQVNfTElTVEVOSU5HEAISDwoLQVNfVEhJTktJ",
-            "TkcQAxIPCgtBU19TUEVBS0lORxAEKjsKCVVzZXJTdGF0ZRIPCgtVU19TUEVB",
-            "S0lORxAAEhAKDFVTX0xJU1RFTklORxABEgsKB1VTX0FXQVkQAkIrWilnaXRo",
-            "dWIuY29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdC9hZ2VudGIGcHJvdG8z"));
+            "ZXNzaW9uVXNhZ2VIABJMChJnZXRfZnJhbWV3b3JrX2luZm8YCiABKAsyLi5s",
+            "aXZla2l0LmFnZW50LlNlc3Npb25SZXF1ZXN0LkdldEZyYW1ld29ya0luZm9I",
+            "ABoGCgRQaW5nGhAKDkdldENoYXRIaXN0b3J5GhgKCFJ1bklucHV0EgwKBHRl",
+            "eHQYASABKAkaDgoMR2V0QWdlbnRJbmZvGhEKD0dldFNlc3Npb25TdGF0ZRoN",
+            "CgtHZXRSVENTdGF0cxoRCg9HZXRTZXNzaW9uVXNhZ2UaEgoQR2V0RnJhbWV3",
+            "b3JrSW5mb0IJCgdyZXF1ZXN0IucMCg9TZXNzaW9uUmVzcG9uc2USEgoKcmVx",
+            "dWVzdF9pZBgBIAEoCRISCgVlcnJvchgCIAEoCUgBiAEBEjMKBHBvbmcYAyAB",
+            "KAsyIy5saXZla2l0LmFnZW50LlNlc3Npb25SZXNwb25zZS5Qb25nSAASUQoQ",
+            "Z2V0X2NoYXRfaGlzdG9yeRgFIAEoCzI1LmxpdmVraXQuYWdlbnQuU2Vzc2lv",
+            "blJlc3BvbnNlLkdldENoYXRIaXN0b3J5UmVzcG9uc2VIABJECglydW5faW5w",
+            "dXQYBiABKAsyLy5saXZla2l0LmFnZW50LlNlc3Npb25SZXNwb25zZS5SdW5J",
+            "bnB1dFJlc3BvbnNlSAASTQoOZ2V0X2FnZW50X2luZm8YByABKAsyMy5saXZl",
+            "a2l0LmFnZW50LlNlc3Npb25SZXNwb25zZS5HZXRBZ2VudEluZm9SZXNwb25z",
+            "ZUgAElMKEWdldF9zZXNzaW9uX3N0YXRlGAggASgLMjYubGl2ZWtpdC5hZ2Vu",
+            "dC5TZXNzaW9uUmVzcG9uc2UuR2V0U2Vzc2lvblN0YXRlUmVzcG9uc2VIABJL",
+            "Cg1nZXRfcnRjX3N0YXRzGAkgASgLMjIubGl2ZWtpdC5hZ2VudC5TZXNzaW9u",
+            "UmVzcG9uc2UuR2V0UlRDU3RhdHNSZXNwb25zZUgAElMKEWdldF9zZXNzaW9u",
+            "X3VzYWdlGAogASgLMjYubGl2ZWtpdC5hZ2VudC5TZXNzaW9uUmVzcG9uc2Uu",
+            "R2V0U2Vzc2lvblVzYWdlUmVzcG9uc2VIABJVChJnZXRfZnJhbWV3b3JrX2lu",
+            "Zm8YCyABKAsyNy5saXZla2l0LmFnZW50LlNlc3Npb25SZXNwb25zZS5HZXRG",
+            "cmFtZXdvcmtJbmZvUmVzcG9uc2VIABoGCgRQb25nGkwKFkdldENoYXRIaXN0",
+            "b3J5UmVzcG9uc2USMgoFaXRlbXMYASADKAsyIy5saXZla2l0LmFnZW50LkNo",
+            "YXRDb250ZXh0LkNoYXRJdGVtGpQBChRHZXRBZ2VudEluZm9SZXNwb25zZRIK",
+            "CgJpZBgBIAEoCRIZCgxpbnN0cnVjdGlvbnMYAiABKAlIAIgBARINCgV0b29s",
+            "cxgDIAMoCRI1CghjaGF0X2N0eBgEIAMoCzIjLmxpdmVraXQuYWdlbnQuQ2hh",
+            "dENvbnRleHQuQ2hhdEl0ZW1CDwoNX2luc3RydWN0aW9ucxpGChBSdW5JbnB1",
+            "dFJlc3BvbnNlEjIKBWl0ZW1zGAEgAygLMiMubGl2ZWtpdC5hZ2VudC5DaGF0",
+            "Q29udGV4dC5DaGF0SXRlbRq/AgoXR2V0U2Vzc2lvblN0YXRlUmVzcG9uc2US",
+            "LgoLYWdlbnRfc3RhdGUYASABKA4yGS5saXZla2l0LmFnZW50LkFnZW50U3Rh",
+            "dGUSLAoKdXNlcl9zdGF0ZRgCIAEoDjIYLmxpdmVraXQuYWdlbnQuVXNlclN0",
+            "YXRlEhAKCGFnZW50X2lkGAMgASgJElQKB29wdGlvbnMYBCADKAsyQy5saXZl",
+            "a2l0LmFnZW50LlNlc3Npb25SZXNwb25zZS5HZXRTZXNzaW9uU3RhdGVSZXNw",
+            "b25zZS5PcHRpb25zRW50cnkSLgoKY3JlYXRlZF9hdBgFIAEoCzIaLmdvb2ds",
+            "ZS5wcm90b2J1Zi5UaW1lc3RhbXAaLgoMT3B0aW9uc0VudHJ5EgsKA2tleRgB",
+            "IAEoCRINCgV2YWx1ZRgCIAEoCToCOAEaegoTR2V0UlRDU3RhdHNSZXNwb25z",
+            "ZRIwCg9wdWJsaXNoZXJfc3RhdHMYASADKAsyFy5nb29nbGUucHJvdG9idWYu",
+            "U3RydWN0EjEKEHN1YnNjcmliZXJfc3RhdHMYAiADKAsyFy5nb29nbGUucHJv",
+            "dG9idWYuU3RydWN0GnoKF0dldFNlc3Npb25Vc2FnZVJlc3BvbnNlEi8KBXVz",
+            "YWdlGAEgASgLMiAubGl2ZWtpdC5hZ2VudC5BZ2VudFNlc3Npb25Vc2FnZRIu",
+            "CgpjcmVhdGVkX2F0GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFt",
+            "cBo8ChhHZXRGcmFtZXdvcmtJbmZvUmVzcG9uc2USCwoDc2RrGAEgASgJEhMK",
+            "C3Nka192ZXJzaW9uGAIgASgJQgoKCHJlc3BvbnNlQggKBl9lcnJvciK6BgoT",
+            "QWdlbnRTZXNzaW9uTWVzc2FnZRJOCgthdWRpb19pbnB1dBgBIAEoCzI3Lmxp",
+            "dmVraXQuYWdlbnQuQWdlbnRTZXNzaW9uTWVzc2FnZS5Db25zb2xlSU8uQXVk",
+            "aW9GcmFtZUgAEk8KDGF1ZGlvX291dHB1dBgCIAEoCzI3LmxpdmVraXQuYWdl",
+            "bnQuQWdlbnRTZXNzaW9uTWVzc2FnZS5Db25zb2xlSU8uQXVkaW9GcmFtZUgA",
+            "EjEKBWV2ZW50GAMgASgLMiAubGl2ZWtpdC5hZ2VudC5BZ2VudFNlc3Npb25F",
+            "dmVudEgAEjAKB3JlcXVlc3QYBCABKAsyHS5saXZla2l0LmFnZW50LlNlc3Np",
+            "b25SZXF1ZXN0SAASMgoIcmVzcG9uc2UYBSABKAsyHi5saXZla2l0LmFnZW50",
+            "LlNlc3Npb25SZXNwb25zZUgAEl8KFGF1ZGlvX3BsYXliYWNrX2ZsdXNoGAYg",
+            "ASgLMj8ubGl2ZWtpdC5hZ2VudC5BZ2VudFNlc3Npb25NZXNzYWdlLkNvbnNv",
+            "bGVJTy5BdWRpb1BsYXliYWNrRmx1c2hIABJfChRhdWRpb19wbGF5YmFja19j",
+            "bGVhchgHIAEoCzI/LmxpdmVraXQuYWdlbnQuQWdlbnRTZXNzaW9uTWVzc2Fn",
+            "ZS5Db25zb2xlSU8uQXVkaW9QbGF5YmFja0NsZWFySAASZQoXYXVkaW9fcGxh",
+            "eWJhY2tfZmluaXNoZWQYCCABKAsyQi5saXZla2l0LmFnZW50LkFnZW50U2Vz",
+            "c2lvbk1lc3NhZ2UuQ29uc29sZUlPLkF1ZGlvUGxheWJhY2tGaW5pc2hlZEgA",
+            "GrQBCglDb25zb2xlSU8aYgoKQXVkaW9GcmFtZRIMCgRkYXRhGAEgASgMEhMK",
+            "C3NhbXBsZV9yYXRlGAIgASgNEhQKDG51bV9jaGFubmVscxgDIAEoDRIbChNz",
+            "YW1wbGVzX3Blcl9jaGFubmVsGAQgASgNGhQKEkF1ZGlvUGxheWJhY2tGbHVz",
+            "aBoUChJBdWRpb1BsYXliYWNrQ2xlYXIaFwoVQXVkaW9QbGF5YmFja0Zpbmlz",
+            "aGVkQgkKB21lc3NhZ2UqPgoIQ2hhdFJvbGUSDQoJREVWRUxPUEVSEAASCgoG",
+            "U1lTVEVNEAESCAoEVVNFUhACEg0KCUFTU0lTVEFOVBADKmIKCkFnZW50U3Rh",
+            "dGUSEwoPQVNfSU5JVElBTElaSU5HEAASCwoHQVNfSURMRRABEhAKDEFTX0xJ",
+            "U1RFTklORxACEg8KC0FTX1RISU5LSU5HEAMSDwoLQVNfU1BFQUtJTkcQBCo7",
+            "CglVc2VyU3RhdGUSDwoLVVNfU1BFQUtJTkcQABIQCgxVU19MSVNURU5JTkcQ",
+            "ARILCgdVU19BV0FZEAJCK1opZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29s",
+            "L2xpdmVraXQvYWdlbnRiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Livekit.Agent.ChatRole), typeof(global::Livekit.Agent.AgentState), typeof(global::Livekit.Agent.UserState), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -225,20 +231,22 @@ namespace Livekit.Agent {
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentSessionEvent.Types.Error), global::Livekit.Agent.AgentSessionEvent.Types.Error.Parser, new[]{ "Message" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentSessionEvent.Types.OverlappingSpeech), global::Livekit.Agent.AgentSessionEvent.Types.OverlappingSpeech.Parser, new[]{ "IsInterruption", "OverlapStartedAt", "DetectionDelay", "DetectedAt" }, new[]{ "OverlapStartedAt" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentSessionEvent.Types.SessionUsageUpdated), global::Livekit.Agent.AgentSessionEvent.Types.SessionUsageUpdated.Parser, new[]{ "Usage" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest), global::Livekit.Agent.SessionRequest.Parser, new[]{ "RequestId", "Ping", "GetChatHistory", "RunInput", "GetAgentInfo", "GetSessionState", "GetRtcStats", "GetSessionUsage" }, new[]{ "Request" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.Ping), global::Livekit.Agent.SessionRequest.Types.Ping.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest), global::Livekit.Agent.SessionRequest.Parser, new[]{ "RequestId", "Ping", "GetChatHistory", "RunInput", "GetAgentInfo", "GetSessionState", "GetRtcStats", "GetSessionUsage", "GetFrameworkInfo" }, new[]{ "Request" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.Ping), global::Livekit.Agent.SessionRequest.Types.Ping.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.GetChatHistory), global::Livekit.Agent.SessionRequest.Types.GetChatHistory.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.RunInput), global::Livekit.Agent.SessionRequest.Types.RunInput.Parser, new[]{ "Text" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.GetAgentInfo), global::Livekit.Agent.SessionRequest.Types.GetAgentInfo.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.GetSessionState), global::Livekit.Agent.SessionRequest.Types.GetSessionState.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.GetRTCStats), global::Livekit.Agent.SessionRequest.Types.GetRTCStats.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.GetSessionUsage), global::Livekit.Agent.SessionRequest.Types.GetSessionUsage.Parser, null, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse), global::Livekit.Agent.SessionResponse.Parser, new[]{ "RequestId", "Error", "Pong", "GetChatHistory", "RunInput", "GetAgentInfo", "GetSessionState", "GetRtcStats", "GetSessionUsage" }, new[]{ "Response", "Error" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.Pong), global::Livekit.Agent.SessionResponse.Types.Pong.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.GetSessionUsage), global::Livekit.Agent.SessionRequest.Types.GetSessionUsage.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo), global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo.Parser, null, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse), global::Livekit.Agent.SessionResponse.Parser, new[]{ "RequestId", "Error", "Pong", "GetChatHistory", "RunInput", "GetAgentInfo", "GetSessionState", "GetRtcStats", "GetSessionUsage", "GetFrameworkInfo" }, new[]{ "Response", "Error" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.Pong), global::Livekit.Agent.SessionResponse.Types.Pong.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.GetChatHistoryResponse), global::Livekit.Agent.SessionResponse.Types.GetChatHistoryResponse.Parser, new[]{ "Items" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.GetAgentInfoResponse), global::Livekit.Agent.SessionResponse.Types.GetAgentInfoResponse.Parser, new[]{ "Id", "Instructions", "Tools", "ChatCtx" }, new[]{ "Instructions" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.RunInputResponse), global::Livekit.Agent.SessionResponse.Types.RunInputResponse.Parser, new[]{ "Items" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.GetSessionStateResponse), global::Livekit.Agent.SessionResponse.Types.GetSessionStateResponse.Parser, new[]{ "AgentState", "UserState", "AgentId", "Options", "CreatedAt" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.GetRTCStatsResponse), global::Livekit.Agent.SessionResponse.Types.GetRTCStatsResponse.Parser, new[]{ "PublisherStats", "SubscriberStats" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.GetSessionUsageResponse), global::Livekit.Agent.SessionResponse.Types.GetSessionUsageResponse.Parser, new[]{ "Usage", "CreatedAt" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.GetSessionUsageResponse), global::Livekit.Agent.SessionResponse.Types.GetSessionUsageResponse.Parser, new[]{ "Usage", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse), global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse.Parser, new[]{ "Sdk", "SdkVersion" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentSessionMessage), global::Livekit.Agent.AgentSessionMessage.Parser, new[]{ "AudioInput", "AudioOutput", "Event", "Request", "Response", "AudioPlaybackFlush", "AudioPlaybackClear", "AudioPlaybackFinished" }, new[]{ "Message" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentSessionMessage.Types.ConsoleIO), global::Livekit.Agent.AgentSessionMessage.Types.ConsoleIO.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentSessionMessage.Types.ConsoleIO.Types.AudioFrame), global::Livekit.Agent.AgentSessionMessage.Types.ConsoleIO.Types.AudioFrame.Parser, new[]{ "Data", "SampleRate", "NumChannels", "SamplesPerChannel" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentSessionMessage.Types.ConsoleIO.Types.AudioPlaybackFlush), global::Livekit.Agent.AgentSessionMessage.Types.ConsoleIO.Types.AudioPlaybackFlush.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentSessionMessage.Types.ConsoleIO.Types.AudioPlaybackClear), global::Livekit.Agent.AgentSessionMessage.Types.ConsoleIO.Types.AudioPlaybackClear.Parser, null, null, null, null, null),
@@ -8533,6 +8541,9 @@ namespace Livekit.Agent {
         case RequestOneofCase.GetSessionUsage:
           GetSessionUsage = other.GetSessionUsage.Clone();
           break;
+        case RequestOneofCase.GetFrameworkInfo:
+          GetFrameworkInfo = other.GetFrameworkInfo.Clone();
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -8640,6 +8651,18 @@ namespace Livekit.Agent {
       }
     }
 
+    /// <summary>Field number for the "get_framework_info" field.</summary>
+    public const int GetFrameworkInfoFieldNumber = 10;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo GetFrameworkInfo {
+      get { return requestCase_ == RequestOneofCase.GetFrameworkInfo ? (global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo) request_ : null; }
+      set {
+        request_ = value;
+        requestCase_ = value == null ? RequestOneofCase.None : RequestOneofCase.GetFrameworkInfo;
+      }
+    }
+
     private object request_;
     /// <summary>Enum of possible cases for the "request" oneof.</summary>
     public enum RequestOneofCase {
@@ -8651,6 +8674,7 @@ namespace Livekit.Agent {
       GetSessionState = 7,
       GetRtcStats = 8,
       GetSessionUsage = 9,
+      GetFrameworkInfo = 10,
     }
     private RequestOneofCase requestCase_ = RequestOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8689,6 +8713,7 @@ namespace Livekit.Agent {
       if (!object.Equals(GetSessionState, other.GetSessionState)) return false;
       if (!object.Equals(GetRtcStats, other.GetRtcStats)) return false;
       if (!object.Equals(GetSessionUsage, other.GetSessionUsage)) return false;
+      if (!object.Equals(GetFrameworkInfo, other.GetFrameworkInfo)) return false;
       if (RequestCase != other.RequestCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -8705,6 +8730,7 @@ namespace Livekit.Agent {
       if (requestCase_ == RequestOneofCase.GetSessionState) hash ^= GetSessionState.GetHashCode();
       if (requestCase_ == RequestOneofCase.GetRtcStats) hash ^= GetRtcStats.GetHashCode();
       if (requestCase_ == RequestOneofCase.GetSessionUsage) hash ^= GetSessionUsage.GetHashCode();
+      if (requestCase_ == RequestOneofCase.GetFrameworkInfo) hash ^= GetFrameworkInfo.GetHashCode();
       hash ^= (int) requestCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -8756,6 +8782,10 @@ namespace Livekit.Agent {
         output.WriteRawTag(74);
         output.WriteMessage(GetSessionUsage);
       }
+      if (requestCase_ == RequestOneofCase.GetFrameworkInfo) {
+        output.WriteRawTag(82);
+        output.WriteMessage(GetFrameworkInfo);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -8798,6 +8828,10 @@ namespace Livekit.Agent {
         output.WriteRawTag(74);
         output.WriteMessage(GetSessionUsage);
       }
+      if (requestCase_ == RequestOneofCase.GetFrameworkInfo) {
+        output.WriteRawTag(82);
+        output.WriteMessage(GetFrameworkInfo);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -8831,6 +8865,9 @@ namespace Livekit.Agent {
       }
       if (requestCase_ == RequestOneofCase.GetSessionUsage) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetSessionUsage);
+      }
+      if (requestCase_ == RequestOneofCase.GetFrameworkInfo) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetFrameworkInfo);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -8889,6 +8926,12 @@ namespace Livekit.Agent {
             GetSessionUsage = new global::Livekit.Agent.SessionRequest.Types.GetSessionUsage();
           }
           GetSessionUsage.MergeFrom(other.GetSessionUsage);
+          break;
+        case RequestOneofCase.GetFrameworkInfo:
+          if (GetFrameworkInfo == null) {
+            GetFrameworkInfo = new global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo();
+          }
+          GetFrameworkInfo.MergeFrom(other.GetFrameworkInfo);
           break;
       }
 
@@ -8978,6 +9021,15 @@ namespace Livekit.Agent {
             GetSessionUsage = subBuilder;
             break;
           }
+          case 82: {
+            global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo subBuilder = new global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo();
+            if (requestCase_ == RequestOneofCase.GetFrameworkInfo) {
+              subBuilder.MergeFrom(GetFrameworkInfo);
+            }
+            input.ReadMessage(subBuilder);
+            GetFrameworkInfo = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -9062,6 +9114,15 @@ namespace Livekit.Agent {
             }
             input.ReadMessage(subBuilder);
             GetSessionUsage = subBuilder;
+            break;
+          }
+          case 82: {
+            global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo subBuilder = new global::Livekit.Agent.SessionRequest.Types.GetFrameworkInfo();
+            if (requestCase_ == RequestOneofCase.GetFrameworkInfo) {
+              subBuilder.MergeFrom(GetFrameworkInfo);
+            }
+            input.ReadMessage(subBuilder);
+            GetFrameworkInfo = subBuilder;
             break;
           }
         }
@@ -10238,6 +10299,167 @@ namespace Livekit.Agent {
 
       }
 
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class GetFrameworkInfo : pb::IMessage<GetFrameworkInfo>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<GetFrameworkInfo> _parser = new pb::MessageParser<GetFrameworkInfo>(() => new GetFrameworkInfo());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<GetFrameworkInfo> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Livekit.Agent.SessionRequest.Descriptor.NestedTypes[7]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GetFrameworkInfo() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GetFrameworkInfo(GetFrameworkInfo other) : this() {
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GetFrameworkInfo Clone() {
+          return new GetFrameworkInfo(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as GetFrameworkInfo);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(GetFrameworkInfo other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(GetFrameworkInfo other) {
+          if (other == null) {
+            return;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+            }
+          }
+        }
+        #endif
+
+      }
+
     }
     #endregion
 
@@ -10301,6 +10523,9 @@ namespace Livekit.Agent {
           break;
         case ResponseOneofCase.GetSessionUsage:
           GetSessionUsage = other.GetSessionUsage.Clone();
+          break;
+        case ResponseOneofCase.GetFrameworkInfo:
+          GetFrameworkInfo = other.GetFrameworkInfo.Clone();
           break;
       }
 
@@ -10435,6 +10660,18 @@ namespace Livekit.Agent {
       }
     }
 
+    /// <summary>Field number for the "get_framework_info" field.</summary>
+    public const int GetFrameworkInfoFieldNumber = 11;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse GetFrameworkInfo {
+      get { return responseCase_ == ResponseOneofCase.GetFrameworkInfo ? (global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse) response_ : null; }
+      set {
+        response_ = value;
+        responseCase_ = value == null ? ResponseOneofCase.None : ResponseOneofCase.GetFrameworkInfo;
+      }
+    }
+
     private object response_;
     /// <summary>Enum of possible cases for the "response" oneof.</summary>
     public enum ResponseOneofCase {
@@ -10446,6 +10683,7 @@ namespace Livekit.Agent {
       GetSessionState = 8,
       GetRtcStats = 9,
       GetSessionUsage = 10,
+      GetFrameworkInfo = 11,
     }
     private ResponseOneofCase responseCase_ = ResponseOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10485,6 +10723,7 @@ namespace Livekit.Agent {
       if (!object.Equals(GetSessionState, other.GetSessionState)) return false;
       if (!object.Equals(GetRtcStats, other.GetRtcStats)) return false;
       if (!object.Equals(GetSessionUsage, other.GetSessionUsage)) return false;
+      if (!object.Equals(GetFrameworkInfo, other.GetFrameworkInfo)) return false;
       if (ResponseCase != other.ResponseCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -10502,6 +10741,7 @@ namespace Livekit.Agent {
       if (responseCase_ == ResponseOneofCase.GetSessionState) hash ^= GetSessionState.GetHashCode();
       if (responseCase_ == ResponseOneofCase.GetRtcStats) hash ^= GetRtcStats.GetHashCode();
       if (responseCase_ == ResponseOneofCase.GetSessionUsage) hash ^= GetSessionUsage.GetHashCode();
+      if (responseCase_ == ResponseOneofCase.GetFrameworkInfo) hash ^= GetFrameworkInfo.GetHashCode();
       hash ^= (int) responseCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -10557,6 +10797,10 @@ namespace Livekit.Agent {
         output.WriteRawTag(82);
         output.WriteMessage(GetSessionUsage);
       }
+      if (responseCase_ == ResponseOneofCase.GetFrameworkInfo) {
+        output.WriteRawTag(90);
+        output.WriteMessage(GetFrameworkInfo);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10603,6 +10847,10 @@ namespace Livekit.Agent {
         output.WriteRawTag(82);
         output.WriteMessage(GetSessionUsage);
       }
+      if (responseCase_ == ResponseOneofCase.GetFrameworkInfo) {
+        output.WriteRawTag(90);
+        output.WriteMessage(GetFrameworkInfo);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10639,6 +10887,9 @@ namespace Livekit.Agent {
       }
       if (responseCase_ == ResponseOneofCase.GetSessionUsage) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetSessionUsage);
+      }
+      if (responseCase_ == ResponseOneofCase.GetFrameworkInfo) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetFrameworkInfo);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -10700,6 +10951,12 @@ namespace Livekit.Agent {
             GetSessionUsage = new global::Livekit.Agent.SessionResponse.Types.GetSessionUsageResponse();
           }
           GetSessionUsage.MergeFrom(other.GetSessionUsage);
+          break;
+        case ResponseOneofCase.GetFrameworkInfo:
+          if (GetFrameworkInfo == null) {
+            GetFrameworkInfo = new global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse();
+          }
+          GetFrameworkInfo.MergeFrom(other.GetFrameworkInfo);
           break;
       }
 
@@ -10793,6 +11050,15 @@ namespace Livekit.Agent {
             GetSessionUsage = subBuilder;
             break;
           }
+          case 90: {
+            global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse subBuilder = new global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse();
+            if (responseCase_ == ResponseOneofCase.GetFrameworkInfo) {
+              subBuilder.MergeFrom(GetFrameworkInfo);
+            }
+            input.ReadMessage(subBuilder);
+            GetFrameworkInfo = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -10881,6 +11147,15 @@ namespace Livekit.Agent {
             }
             input.ReadMessage(subBuilder);
             GetSessionUsage = subBuilder;
+            break;
+          }
+          case 90: {
+            global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse subBuilder = new global::Livekit.Agent.SessionResponse.Types.GetFrameworkInfoResponse();
+            if (responseCase_ == ResponseOneofCase.GetFrameworkInfo) {
+              subBuilder.MergeFrom(GetFrameworkInfo);
+            }
+            input.ReadMessage(subBuilder);
+            GetFrameworkInfo = subBuilder;
             break;
           }
         }
@@ -12530,6 +12805,241 @@ namespace Livekit.Agent {
                   CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
                 }
                 input.ReadMessage(CreatedAt);
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class GetFrameworkInfoResponse : pb::IMessage<GetFrameworkInfoResponse>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<GetFrameworkInfoResponse> _parser = new pb::MessageParser<GetFrameworkInfoResponse>(() => new GetFrameworkInfoResponse());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<GetFrameworkInfoResponse> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::Livekit.Agent.SessionResponse.Descriptor.NestedTypes[7]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GetFrameworkInfoResponse() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GetFrameworkInfoResponse(GetFrameworkInfoResponse other) : this() {
+          sdk_ = other.sdk_;
+          sdkVersion_ = other.sdkVersion_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GetFrameworkInfoResponse Clone() {
+          return new GetFrameworkInfoResponse(this);
+        }
+
+        /// <summary>Field number for the "sdk" field.</summary>
+        public const int SdkFieldNumber = 1;
+        private string sdk_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Sdk {
+          get { return sdk_; }
+          set {
+            sdk_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "sdk_version" field.</summary>
+        public const int SdkVersionFieldNumber = 2;
+        private string sdkVersion_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string SdkVersion {
+          get { return sdkVersion_; }
+          set {
+            sdkVersion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as GetFrameworkInfoResponse);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(GetFrameworkInfoResponse other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Sdk != other.Sdk) return false;
+          if (SdkVersion != other.SdkVersion) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Sdk.Length != 0) hash ^= Sdk.GetHashCode();
+          if (SdkVersion.Length != 0) hash ^= SdkVersion.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Sdk.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Sdk);
+          }
+          if (SdkVersion.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(SdkVersion);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Sdk.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Sdk);
+          }
+          if (SdkVersion.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(SdkVersion);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Sdk.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Sdk);
+          }
+          if (SdkVersion.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(SdkVersion);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(GetFrameworkInfoResponse other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Sdk.Length != 0) {
+            Sdk = other.Sdk;
+          }
+          if (other.SdkVersion.Length != 0) {
+            SdkVersion = other.SdkVersion;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Sdk = input.ReadString();
+                break;
+              }
+              case 18: {
+                SdkVersion = input.ReadString();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                Sdk = input.ReadString();
+                break;
+              }
+              case 18: {
+                SdkVersion = input.ReadString();
                 break;
               }
             }

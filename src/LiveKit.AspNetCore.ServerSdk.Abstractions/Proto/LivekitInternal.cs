@@ -112,11 +112,12 @@ namespace LiveKit.Proto {
             "aGVyGAIgASgOMhkubGl2ZWtpdC5JQ0VDYW5kaWRhdGVUeXBlKnYKCE5vZGVU",
             "eXBlEgoKBlNFUlZFUhAAEg4KCkNPTlRST0xMRVIQARIJCgVNRURJQRACEggK",
             "BFRVUk4QBBILCgdTV0VFUEVSEAUSDAoIRElSRUNUT1IQBhIQCgxIT1NURURf",
-            "QUdFTlQQBxIMCghTRVRUSU5HUxAIKjwKCU5vZGVTdGF0ZRIPCgtTVEFSVElO",
-            "R19VUBAAEgsKB1NFUlZJTkcQARIRCg1TSFVUVElOR19ET1dOEAIqOgoQSUNF",
-            "Q2FuZGlkYXRlVHlwZRIMCghJQ1RfTk9ORRAAEgsKB0lDVF9UQ1AQARILCgdJ",
-            "Q1RfVExTEAJCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVr",
-            "aXSqAg1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
+            "QUdFTlQQBxIMCghTRVRUSU5HUxAIKksKCU5vZGVTdGF0ZRIPCgtTVEFSVElO",
+            "R19VUBAAEgsKB1NFUlZJTkcQARIRCg1TSFVUVElOR19ET1dOEAISDQoJU1VT",
+            "UEVOREVEEAMqOgoQSUNFQ2FuZGlkYXRlVHlwZRIMCghJQ1RfTk9ORRAAEgsK",
+            "B0lDVF9UQ1AQARILCgdJQ1RfVExTEAJCRlojZ2l0aHViLmNvbS9saXZla2l0",
+            "L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6",
+            "UHJvdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitEgressReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.LivekitRoomReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.NodeType), typeof(global::LiveKit.Proto.NodeState), typeof(global::LiveKit.Proto.ICECandidateType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -147,6 +148,7 @@ namespace LiveKit.Proto {
     [pbr::OriginalName("STARTING_UP")] StartingUp = 0,
     [pbr::OriginalName("SERVING")] Serving = 1,
     [pbr::OriginalName("SHUTTING_DOWN")] ShuttingDown = 2,
+    [pbr::OriginalName("SUSPENDED")] Suspended = 3,
   }
 
   public enum ICECandidateType {
