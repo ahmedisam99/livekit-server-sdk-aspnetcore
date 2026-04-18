@@ -304,10 +304,10 @@ namespace LiveKit.Proto {
             "ABINCglURl9OT19EVFgQARIYChRURl9BVVRPX0dBSU5fQ09OVFJPTBACEhgK",
             "FFRGX0VDSE9fQ0FOQ0VMTEFUSU9OEAMSGAoUVEZfTk9JU0VfU1VQUFJFU1NJ",
             "T04QBBIiCh5URl9FTkhBTkNFRF9OT0lTRV9DQU5DRUxMQVRJT04QBRIYChRU",
-            "Rl9QUkVDT05ORUNUX0JVRkZFUhAGKi4KFFBhY2tldFRyYWlsZXJGZWF0dXJl",
-            "EhYKElBURl9VU0VSX1RJTUVTVEFNUBAAQkZaI2dpdGh1Yi5jb20vbGl2ZWtp",
-            "dC9wcm90b2NvbC9saXZla2l0qgINTGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6",
-            "OlByb3RvYgZwcm90bzM="));
+            "Rl9QUkVDT05ORUNUX0JVRkZFUhAGKkAKFFBhY2tldFRyYWlsZXJGZWF0dXJl",
+            "EhYKElBURl9VU0VSX1RJTUVTVEFNUBAAEhAKDFBURl9GUkFNRV9JRBABQkZa",
+            "I2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgINTGl2ZUtp",
+            "dC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.LivekitMetricsReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.AudioCodec), typeof(global::LiveKit.Proto.VideoCodec), typeof(global::LiveKit.Proto.ImageCodec), typeof(global::LiveKit.Proto.BackupCodecPolicy), typeof(global::LiveKit.Proto.TrackType), typeof(global::LiveKit.Proto.TrackSource), typeof(global::LiveKit.Proto.DataTrackExtensionID), typeof(global::LiveKit.Proto.VideoQuality), typeof(global::LiveKit.Proto.ConnectionQuality), typeof(global::LiveKit.Proto.ClientConfigSetting), typeof(global::LiveKit.Proto.DisconnectReason), typeof(global::LiveKit.Proto.ReconnectReason), typeof(global::LiveKit.Proto.SubscriptionError), typeof(global::LiveKit.Proto.AudioTrackFeature), typeof(global::LiveKit.Proto.PacketTrailerFeature), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -542,6 +542,7 @@ namespace LiveKit.Proto {
 
   public enum PacketTrailerFeature {
     [pbr::OriginalName("PTF_USER_TIMESTAMP")] PtfUserTimestamp = 0,
+    [pbr::OriginalName("PTF_FRAME_ID")] PtfFrameId = 1,
   }
 
   #endregion

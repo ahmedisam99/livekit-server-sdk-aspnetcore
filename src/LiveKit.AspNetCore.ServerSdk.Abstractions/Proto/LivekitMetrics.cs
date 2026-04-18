@@ -43,34 +43,36 @@ namespace LiveKit.Proto {
             "ZS5wcm90b2J1Zi5UaW1lc3RhbXASQQoYbm9ybWFsaXplZF9lbmRfdGltZXN0",
             "YW1wGAcgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcEgBiAEBEhAK",
             "CG1ldGFkYXRhGAggASgJEgsKA3JpZBgJIAEoDUITChFfZW5kX3RpbWVzdGFt",
-            "cF9tc0IbChlfbm9ybWFsaXplZF9lbmRfdGltZXN0YW1wIuoBChZNZXRyaWNz",
+            "cF9tc0IbChlfbm9ybWFsaXplZF9lbmRfdGltZXN0YW1wIrICChZNZXRyaWNz",
             "UmVjb3JkaW5nSGVhZGVyEhsKB3Jvb21faWQYASABKAlCCprsLAZyb29tSUQS",
             "EAoIZHVyYXRpb24YAyABKAQSLgoKc3RhcnRfdGltZRgEIAEoCzIaLmdvb2ds",
             "ZS5wcm90b2J1Zi5UaW1lc3RhbXASQAoJcm9vbV90YWdzGAUgAygLMi0ubGl2",
-            "ZWtpdC5NZXRyaWNzUmVjb3JkaW5nSGVhZGVyLlJvb21UYWdzRW50cnkaLwoN",
-            "Um9vbVRhZ3NFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgB",
-            "KoEHCgtNZXRyaWNMYWJlbBITCg9BR0VOVFNfTExNX1RURlQQABITCg9BR0VO",
-            "VFNfU1RUX1RURlQQARITCg9BR0VOVFNfVFRTX1RURkIQAhIoCiRDTElFTlRf",
-            "VklERU9fU1VCU0NSSUJFUl9GUkVFWkVfQ09VTlQQAxIxCi1DTElFTlRfVklE",
-            "RU9fU1VCU0NSSUJFUl9UT1RBTF9GUkVFWkVfRFVSQVRJT04QBBInCiNDTElF",
-            "TlRfVklERU9fU1VCU0NSSUJFUl9QQVVTRV9DT1VOVBAFEjEKLUNMSUVOVF9W",
-            "SURFT19TVUJTQ1JJQkVSX1RPVEFMX1BBVVNFU19EVVJBVElPThAGEi0KKUNM",
-            "SUVOVF9BVURJT19TVUJTQ1JJQkVSX0NPTkNFQUxFRF9TQU1QTEVTEAcSNAow",
-            "Q0xJRU5UX0FVRElPX1NVQlNDUklCRVJfU0lMRU5UX0NPTkNFQUxFRF9TQU1Q",
-            "TEVTEAgSLgoqQ0xJRU5UX0FVRElPX1NVQlNDUklCRVJfQ09OQ0VBTE1FTlRf",
-            "RVZFTlRTEAkSLgoqQ0xJRU5UX0FVRElPX1NVQlNDUklCRVJfSU5URVJSVVBU",
-            "SU9OX0NPVU5UEAoSNwozQ0xJRU5UX0FVRElPX1NVQlNDUklCRVJfVE9UQUxf",
-            "SU5URVJSVVBUSU9OX0RVUkFUSU9OEAsSKQolQ0xJRU5UX1NVQlNDUklCRVJf",
-            "SklUVEVSX0JVRkZFUl9ERUxBWRAMEjEKLUNMSUVOVF9TVUJTQ1JJQkVSX0pJ",
-            "VFRFUl9CVUZGRVJfRU1JVFRFRF9DT1VOVBANEkAKPENMSUVOVF9WSURFT19Q",
-            "VUJMSVNIRVJfUVVBTElUWV9MSU1JVEFUSU9OX0RVUkFUSU9OX0JBTkRXSURU",
-            "SBAOEjoKNkNMSUVOVF9WSURFT19QVUJMSVNIRVJfUVVBTElUWV9MSU1JVEFU",
-            "SU9OX0RVUkFUSU9OX0NQVRAPEjwKOENMSUVOVF9WSURFT19QVUJMSVNIRVJf",
-            "UVVBTElUWV9MSU1JVEFUSU9OX0RVUkFUSU9OX09USEVSEBASEQoNUFVCTElT",
-            "SEVSX1JUVBAREhMKD1NFUlZFUl9NRVNIX1JUVBASEhIKDlNVQlNDUklCRVJf",
-            "UlRUEBMSJgohTUVUUklDX0xBQkVMX1BSRURFRklORURfTUFYX1ZBTFVFEIAg",
-            "QkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgINTGl2",
-            "ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
+            "ZWtpdC5NZXRyaWNzUmVjb3JkaW5nSGVhZGVyLlJvb21UYWdzRW50cnkSEQoJ",
+            "cm9vbV9uYW1lGAYgASgJEjMKD3Jvb21fc3RhcnRfdGltZRgHIAEoCzIaLmdv",
+            "b2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAaLwoNUm9vbVRhZ3NFbnRyeRILCgNr",
+            "ZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBKoEHCgtNZXRyaWNMYWJlbBIT",
+            "Cg9BR0VOVFNfTExNX1RURlQQABITCg9BR0VOVFNfU1RUX1RURlQQARITCg9B",
+            "R0VOVFNfVFRTX1RURkIQAhIoCiRDTElFTlRfVklERU9fU1VCU0NSSUJFUl9G",
+            "UkVFWkVfQ09VTlQQAxIxCi1DTElFTlRfVklERU9fU1VCU0NSSUJFUl9UT1RB",
+            "TF9GUkVFWkVfRFVSQVRJT04QBBInCiNDTElFTlRfVklERU9fU1VCU0NSSUJF",
+            "Ul9QQVVTRV9DT1VOVBAFEjEKLUNMSUVOVF9WSURFT19TVUJTQ1JJQkVSX1RP",
+            "VEFMX1BBVVNFU19EVVJBVElPThAGEi0KKUNMSUVOVF9BVURJT19TVUJTQ1JJ",
+            "QkVSX0NPTkNFQUxFRF9TQU1QTEVTEAcSNAowQ0xJRU5UX0FVRElPX1NVQlND",
+            "UklCRVJfU0lMRU5UX0NPTkNFQUxFRF9TQU1QTEVTEAgSLgoqQ0xJRU5UX0FV",
+            "RElPX1NVQlNDUklCRVJfQ09OQ0VBTE1FTlRfRVZFTlRTEAkSLgoqQ0xJRU5U",
+            "X0FVRElPX1NVQlNDUklCRVJfSU5URVJSVVBUSU9OX0NPVU5UEAoSNwozQ0xJ",
+            "RU5UX0FVRElPX1NVQlNDUklCRVJfVE9UQUxfSU5URVJSVVBUSU9OX0RVUkFU",
+            "SU9OEAsSKQolQ0xJRU5UX1NVQlNDUklCRVJfSklUVEVSX0JVRkZFUl9ERUxB",
+            "WRAMEjEKLUNMSUVOVF9TVUJTQ1JJQkVSX0pJVFRFUl9CVUZGRVJfRU1JVFRF",
+            "RF9DT1VOVBANEkAKPENMSUVOVF9WSURFT19QVUJMSVNIRVJfUVVBTElUWV9M",
+            "SU1JVEFUSU9OX0RVUkFUSU9OX0JBTkRXSURUSBAOEjoKNkNMSUVOVF9WSURF",
+            "T19QVUJMSVNIRVJfUVVBTElUWV9MSU1JVEFUSU9OX0RVUkFUSU9OX0NQVRAP",
+            "EjwKOENMSUVOVF9WSURFT19QVUJMSVNIRVJfUVVBTElUWV9MSU1JVEFUSU9O",
+            "X0RVUkFUSU9OX09USEVSEBASEQoNUFVCTElTSEVSX1JUVBAREhMKD1NFUlZF",
+            "Ul9NRVNIX1JUVBASEhIKDlNVQlNDUklCRVJfUlRUEBMSJgohTUVUUklDX0xB",
+            "QkVMX1BSRURFRklORURfTUFYX1ZBTFVFEIAgQkZaI2dpdGh1Yi5jb20vbGl2",
+            "ZWtpdC9wcm90b2NvbC9saXZla2l0qgINTGl2ZUtpdC5Qcm90b+oCDkxpdmVL",
+            "aXQ6OlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.MetricLabel), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -78,7 +80,7 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TimeSeriesMetric), global::LiveKit.Proto.TimeSeriesMetric.Parser, new[]{ "Label", "ParticipantIdentity", "TrackSid", "Samples", "Rid" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.MetricSample), global::LiveKit.Proto.MetricSample.Parser, new[]{ "TimestampMs", "NormalizedTimestamp", "Value" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.EventMetric), global::LiveKit.Proto.EventMetric.Parser, new[]{ "Label", "ParticipantIdentity", "TrackSid", "StartTimestampMs", "EndTimestampMs", "NormalizedStartTimestamp", "NormalizedEndTimestamp", "Metadata", "Rid" }, new[]{ "EndTimestampMs", "NormalizedEndTimestamp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.MetricsRecordingHeader), global::LiveKit.Proto.MetricsRecordingHeader.Parser, new[]{ "RoomId", "Duration", "StartTime", "RoomTags" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.MetricsRecordingHeader), global::LiveKit.Proto.MetricsRecordingHeader.Parser, new[]{ "RoomId", "Duration", "StartTime", "RoomTags", "RoomName", "RoomStartTime" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -1723,6 +1725,8 @@ namespace LiveKit.Proto {
       duration_ = other.duration_;
       startTime_ = other.startTime_ != null ? other.startTime_.Clone() : null;
       roomTags_ = other.roomTags_.Clone();
+      roomName_ = other.roomName_;
+      roomStartTime_ = other.roomStartTime_ != null ? other.roomStartTime_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1782,6 +1786,30 @@ namespace LiveKit.Proto {
       get { return roomTags_; }
     }
 
+    /// <summary>Field number for the "room_name" field.</summary>
+    public const int RoomNameFieldNumber = 6;
+    private string roomName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string RoomName {
+      get { return roomName_; }
+      set {
+        roomName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "room_start_time" field.</summary>
+    public const int RoomStartTimeFieldNumber = 7;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp roomStartTime_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp RoomStartTime {
+      get { return roomStartTime_; }
+      set {
+        roomStartTime_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1801,6 +1829,8 @@ namespace LiveKit.Proto {
       if (Duration != other.Duration) return false;
       if (!object.Equals(StartTime, other.StartTime)) return false;
       if (!RoomTags.Equals(other.RoomTags)) return false;
+      if (RoomName != other.RoomName) return false;
+      if (!object.Equals(RoomStartTime, other.RoomStartTime)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1812,6 +1842,8 @@ namespace LiveKit.Proto {
       if (Duration != 0UL) hash ^= Duration.GetHashCode();
       if (startTime_ != null) hash ^= StartTime.GetHashCode();
       hash ^= RoomTags.GetHashCode();
+      if (RoomName.Length != 0) hash ^= RoomName.GetHashCode();
+      if (roomStartTime_ != null) hash ^= RoomStartTime.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1843,6 +1875,14 @@ namespace LiveKit.Proto {
         output.WriteMessage(StartTime);
       }
       roomTags_.WriteTo(output, _map_roomTags_codec);
+      if (RoomName.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(RoomName);
+      }
+      if (roomStartTime_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(RoomStartTime);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1866,6 +1906,14 @@ namespace LiveKit.Proto {
         output.WriteMessage(StartTime);
       }
       roomTags_.WriteTo(ref output, _map_roomTags_codec);
+      if (RoomName.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(RoomName);
+      }
+      if (roomStartTime_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(RoomStartTime);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1886,6 +1934,12 @@ namespace LiveKit.Proto {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(StartTime);
       }
       size += roomTags_.CalculateSize(_map_roomTags_codec);
+      if (RoomName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(RoomName);
+      }
+      if (roomStartTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RoomStartTime);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1911,6 +1965,15 @@ namespace LiveKit.Proto {
         StartTime.MergeFrom(other.StartTime);
       }
       roomTags_.MergeFrom(other.roomTags_);
+      if (other.RoomName.Length != 0) {
+        RoomName = other.RoomName;
+      }
+      if (other.roomStartTime_ != null) {
+        if (roomStartTime_ == null) {
+          RoomStartTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        RoomStartTime.MergeFrom(other.RoomStartTime);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1949,6 +2012,17 @@ namespace LiveKit.Proto {
             roomTags_.AddEntriesFrom(input, _map_roomTags_codec);
             break;
           }
+          case 50: {
+            RoomName = input.ReadString();
+            break;
+          }
+          case 58: {
+            if (roomStartTime_ == null) {
+              RoomStartTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(RoomStartTime);
+            break;
+          }
         }
       }
     #endif
@@ -1985,6 +2059,17 @@ namespace LiveKit.Proto {
           }
           case 42: {
             roomTags_.AddEntriesFrom(ref input, _map_roomTags_codec);
+            break;
+          }
+          case 50: {
+            RoomName = input.ReadString();
+            break;
+          }
+          case 58: {
+            if (roomStartTime_ == null) {
+              RoomStartTime = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(RoomStartTime);
             break;
           }
         }

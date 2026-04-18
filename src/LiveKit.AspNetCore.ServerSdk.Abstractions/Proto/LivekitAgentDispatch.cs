@@ -25,44 +25,62 @@ namespace LiveKit.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChxsaXZla2l0X2FnZW50X2Rpc3BhdGNoLnByb3RvEgdsaXZla2l0GhNsaXZl",
-            "a2l0X2FnZW50LnByb3RvGhRsb2dnZXIvb3B0aW9ucy5wcm90byJWChpDcmVh",
-            "dGVBZ2VudERpc3BhdGNoUmVxdWVzdBISCgphZ2VudF9uYW1lGAEgASgJEgwK",
-            "BHJvb20YAiABKAkSFgoIbWV0YWRhdGEYAyABKAlCBIjsLAEiPwoRUm9vbUFn",
-            "ZW50RGlzcGF0Y2gSEgoKYWdlbnRfbmFtZRgBIAEoCRIWCghtZXRhZGF0YRgC",
-            "IAEoCUIEiOwsASJPChpEZWxldGVBZ2VudERpc3BhdGNoUmVxdWVzdBIjCgtk",
-            "aXNwYXRjaF9pZBgBIAEoCUIOmuwsCmRpc3BhdGNoSUQSDAoEcm9vbRgCIAEo",
-            "CSJNChhMaXN0QWdlbnREaXNwYXRjaFJlcXVlc3QSIwoLZGlzcGF0Y2hfaWQY",
-            "ASABKAlCDprsLApkaXNwYXRjaElEEgwKBHJvb20YAiABKAkiTQoZTGlzdEFn",
-            "ZW50RGlzcGF0Y2hSZXNwb25zZRIwChBhZ2VudF9kaXNwYXRjaGVzGAEgAygL",
-            "MhYubGl2ZWtpdC5BZ2VudERpc3BhdGNoIoEBCg1BZ2VudERpc3BhdGNoEgoK",
-            "AmlkGAEgASgJEhIKCmFnZW50X25hbWUYAiABKAkSDAoEcm9vbRgDIAEoCRIW",
-            "CghtZXRhZGF0YRgEIAEoCUIEiOwsARIqCgVzdGF0ZRgFIAEoCzIbLmxpdmVr",
-            "aXQuQWdlbnREaXNwYXRjaFN0YXRlIlgKEkFnZW50RGlzcGF0Y2hTdGF0ZRIa",
-            "CgRqb2JzGAEgAygLMgwubGl2ZWtpdC5Kb2ISEgoKY3JlYXRlZF9hdBgCIAEo",
-            "AxISCgpkZWxldGVkX2F0GAMgASgDMosCChRBZ2VudERpc3BhdGNoU2Vydmlj",
-            "ZRJNCg5DcmVhdGVEaXNwYXRjaBIjLmxpdmVraXQuQ3JlYXRlQWdlbnREaXNw",
-            "YXRjaFJlcXVlc3QaFi5saXZla2l0LkFnZW50RGlzcGF0Y2gSTQoORGVsZXRl",
-            "RGlzcGF0Y2gSIy5saXZla2l0LkRlbGV0ZUFnZW50RGlzcGF0Y2hSZXF1ZXN0",
-            "GhYubGl2ZWtpdC5BZ2VudERpc3BhdGNoElUKDExpc3REaXNwYXRjaBIhLmxp",
-            "dmVraXQuTGlzdEFnZW50RGlzcGF0Y2hSZXF1ZXN0GiIubGl2ZWtpdC5MaXN0",
-            "QWdlbnREaXNwYXRjaFJlc3BvbnNlQkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9w",
-            "cm90b2NvbC9saXZla2l0qgINTGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlBy",
-            "b3RvYgZwcm90bzM="));
+            "a2l0X2FnZW50LnByb3RvGhRsb2dnZXIvb3B0aW9ucy5wcm90byKJAQoaQ3Jl",
+            "YXRlQWdlbnREaXNwYXRjaFJlcXVlc3QSEgoKYWdlbnRfbmFtZRgBIAEoCRIM",
+            "CgRyb29tGAIgASgJEhYKCG1ldGFkYXRhGAMgASgJQgSI7CwBEjEKDnJlc3Rh",
+            "cnRfcG9saWN5GAQgASgOMhkubGl2ZWtpdC5Kb2JSZXN0YXJ0UG9saWN5InIK",
+            "EVJvb21BZ2VudERpc3BhdGNoEhIKCmFnZW50X25hbWUYASABKAkSFgoIbWV0",
+            "YWRhdGEYAiABKAlCBIjsLAESMQoOcmVzdGFydF9wb2xpY3kYAyABKA4yGS5s",
+            "aXZla2l0LkpvYlJlc3RhcnRQb2xpY3kiTwoaRGVsZXRlQWdlbnREaXNwYXRj",
+            "aFJlcXVlc3QSIwoLZGlzcGF0Y2hfaWQYASABKAlCDprsLApkaXNwYXRjaElE",
+            "EgwKBHJvb20YAiABKAkiTQoYTGlzdEFnZW50RGlzcGF0Y2hSZXF1ZXN0EiMK",
+            "C2Rpc3BhdGNoX2lkGAEgASgJQg6a7CwKZGlzcGF0Y2hJRBIMCgRyb29tGAIg",
+            "ASgJIk0KGUxpc3RBZ2VudERpc3BhdGNoUmVzcG9uc2USMAoQYWdlbnRfZGlz",
+            "cGF0Y2hlcxgBIAMoCzIWLmxpdmVraXQuQWdlbnREaXNwYXRjaCK0AQoNQWdl",
+            "bnREaXNwYXRjaBIKCgJpZBgBIAEoCRISCgphZ2VudF9uYW1lGAIgASgJEgwK",
+            "BHJvb20YAyABKAkSFgoIbWV0YWRhdGEYBCABKAlCBIjsLAESKgoFc3RhdGUY",
+            "BSABKAsyGy5saXZla2l0LkFnZW50RGlzcGF0Y2hTdGF0ZRIxCg5yZXN0YXJ0",
+            "X3BvbGljeRgGIAEoDjIZLmxpdmVraXQuSm9iUmVzdGFydFBvbGljeSJYChJB",
+            "Z2VudERpc3BhdGNoU3RhdGUSGgoEam9icxgBIAMoCzIMLmxpdmVraXQuSm9i",
+            "EhIKCmNyZWF0ZWRfYXQYAiABKAMSEgoKZGVsZXRlZF9hdBgDIAEoAyo1ChBK",
+            "b2JSZXN0YXJ0UG9saWN5EhIKDkpSUF9PTl9GQUlMVVJFEAASDQoJSlJQX05F",
+            "VkVSEAEyiwIKFEFnZW50RGlzcGF0Y2hTZXJ2aWNlEk0KDkNyZWF0ZURpc3Bh",
+            "dGNoEiMubGl2ZWtpdC5DcmVhdGVBZ2VudERpc3BhdGNoUmVxdWVzdBoWLmxp",
+            "dmVraXQuQWdlbnREaXNwYXRjaBJNCg5EZWxldGVEaXNwYXRjaBIjLmxpdmVr",
+            "aXQuRGVsZXRlQWdlbnREaXNwYXRjaFJlcXVlc3QaFi5saXZla2l0LkFnZW50",
+            "RGlzcGF0Y2gSVQoMTGlzdERpc3BhdGNoEiEubGl2ZWtpdC5MaXN0QWdlbnRE",
+            "aXNwYXRjaFJlcXVlc3QaIi5saXZla2l0Lkxpc3RBZ2VudERpc3BhdGNoUmVz",
+            "cG9uc2VCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSq",
+            "Ag1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateAgentDispatchRequest), global::LiveKit.Proto.CreateAgentDispatchRequest.Parser, new[]{ "AgentName", "Room", "Metadata" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RoomAgentDispatch), global::LiveKit.Proto.RoomAgentDispatch.Parser, new[]{ "AgentName", "Metadata" }, null, null, null, null),
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.JobRestartPolicy), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateAgentDispatchRequest), global::LiveKit.Proto.CreateAgentDispatchRequest.Parser, new[]{ "AgentName", "Room", "Metadata", "RestartPolicy" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RoomAgentDispatch), global::LiveKit.Proto.RoomAgentDispatch.Parser, new[]{ "AgentName", "Metadata", "RestartPolicy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DeleteAgentDispatchRequest), global::LiveKit.Proto.DeleteAgentDispatchRequest.Parser, new[]{ "DispatchId", "Room" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListAgentDispatchRequest), global::LiveKit.Proto.ListAgentDispatchRequest.Parser, new[]{ "DispatchId", "Room" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListAgentDispatchResponse), global::LiveKit.Proto.ListAgentDispatchResponse.Parser, new[]{ "AgentDispatches" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDispatch), global::LiveKit.Proto.AgentDispatch.Parser, new[]{ "Id", "AgentName", "Room", "Metadata", "State" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDispatch), global::LiveKit.Proto.AgentDispatch.Parser, new[]{ "Id", "AgentName", "Room", "Metadata", "State", "RestartPolicy" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDispatchState), global::LiveKit.Proto.AgentDispatchState.Parser, new[]{ "Jobs", "CreatedAt", "DeletedAt" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
+  #region Enums
+  public enum JobRestartPolicy {
+    /// <summary>
+    /// restart when the job fails (default)
+    /// </summary>
+    [pbr::OriginalName("JRP_ON_FAILURE")] JrpOnFailure = 0,
+    /// <summary>
+    /// never restart
+    /// </summary>
+    [pbr::OriginalName("JRP_NEVER")] JrpNever = 1,
+  }
+
+  #endregion
+
   #region Messages
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CreateAgentDispatchRequest : pb::IMessage<CreateAgentDispatchRequest>
@@ -102,6 +120,7 @@ namespace LiveKit.Proto {
       agentName_ = other.agentName_;
       room_ = other.room_;
       metadata_ = other.metadata_;
+      restartPolicy_ = other.restartPolicy_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -147,6 +166,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "restart_policy" field.</summary>
+    public const int RestartPolicyFieldNumber = 4;
+    private global::LiveKit.Proto.JobRestartPolicy restartPolicy_ = global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure;
+    /// <summary>
+    /// cloud only
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.JobRestartPolicy RestartPolicy {
+      get { return restartPolicy_; }
+      set {
+        restartPolicy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -165,6 +199,7 @@ namespace LiveKit.Proto {
       if (AgentName != other.AgentName) return false;
       if (Room != other.Room) return false;
       if (Metadata != other.Metadata) return false;
+      if (RestartPolicy != other.RestartPolicy) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -175,6 +210,7 @@ namespace LiveKit.Proto {
       if (AgentName.Length != 0) hash ^= AgentName.GetHashCode();
       if (Room.Length != 0) hash ^= Room.GetHashCode();
       if (Metadata.Length != 0) hash ^= Metadata.GetHashCode();
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) hash ^= RestartPolicy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -205,6 +241,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(26);
         output.WriteString(Metadata);
       }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) RestartPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -227,6 +267,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(26);
         output.WriteString(Metadata);
       }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) RestartPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -245,6 +289,9 @@ namespace LiveKit.Proto {
       }
       if (Metadata.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Metadata);
+      }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RestartPolicy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -266,6 +313,9 @@ namespace LiveKit.Proto {
       }
       if (other.Metadata.Length != 0) {
         Metadata = other.Metadata;
+      }
+      if (other.RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        RestartPolicy = other.RestartPolicy;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -298,6 +348,10 @@ namespace LiveKit.Proto {
             Metadata = input.ReadString();
             break;
           }
+          case 32: {
+            RestartPolicy = (global::LiveKit.Proto.JobRestartPolicy) input.ReadEnum();
+            break;
+          }
         }
       }
     #endif
@@ -327,6 +381,10 @@ namespace LiveKit.Proto {
           }
           case 26: {
             Metadata = input.ReadString();
+            break;
+          }
+          case 32: {
+            RestartPolicy = (global::LiveKit.Proto.JobRestartPolicy) input.ReadEnum();
             break;
           }
         }
@@ -373,6 +431,7 @@ namespace LiveKit.Proto {
     public RoomAgentDispatch(RoomAgentDispatch other) : this() {
       agentName_ = other.agentName_;
       metadata_ = other.metadata_;
+      restartPolicy_ = other.restartPolicy_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -406,6 +465,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "restart_policy" field.</summary>
+    public const int RestartPolicyFieldNumber = 3;
+    private global::LiveKit.Proto.JobRestartPolicy restartPolicy_ = global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure;
+    /// <summary>
+    /// cloud only
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.JobRestartPolicy RestartPolicy {
+      get { return restartPolicy_; }
+      set {
+        restartPolicy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -423,6 +497,7 @@ namespace LiveKit.Proto {
       }
       if (AgentName != other.AgentName) return false;
       if (Metadata != other.Metadata) return false;
+      if (RestartPolicy != other.RestartPolicy) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -432,6 +507,7 @@ namespace LiveKit.Proto {
       int hash = 1;
       if (AgentName.Length != 0) hash ^= AgentName.GetHashCode();
       if (Metadata.Length != 0) hash ^= Metadata.GetHashCode();
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) hash ^= RestartPolicy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -458,6 +534,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteString(Metadata);
       }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) RestartPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -476,6 +556,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteString(Metadata);
       }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) RestartPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -491,6 +575,9 @@ namespace LiveKit.Proto {
       }
       if (Metadata.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Metadata);
+      }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RestartPolicy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -509,6 +596,9 @@ namespace LiveKit.Proto {
       }
       if (other.Metadata.Length != 0) {
         Metadata = other.Metadata;
+      }
+      if (other.RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        RestartPolicy = other.RestartPolicy;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -537,6 +627,10 @@ namespace LiveKit.Proto {
             Metadata = input.ReadString();
             break;
           }
+          case 24: {
+            RestartPolicy = (global::LiveKit.Proto.JobRestartPolicy) input.ReadEnum();
+            break;
+          }
         }
       }
     #endif
@@ -562,6 +656,10 @@ namespace LiveKit.Proto {
           }
           case 18: {
             Metadata = input.ReadString();
+            break;
+          }
+          case 24: {
+            RestartPolicy = (global::LiveKit.Proto.JobRestartPolicy) input.ReadEnum();
             break;
           }
         }
@@ -1274,6 +1372,7 @@ namespace LiveKit.Proto {
       room_ = other.room_;
       metadata_ = other.metadata_;
       state_ = other.state_ != null ? other.state_.Clone() : null;
+      restartPolicy_ = other.restartPolicy_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1343,6 +1442,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "restart_policy" field.</summary>
+    public const int RestartPolicyFieldNumber = 6;
+    private global::LiveKit.Proto.JobRestartPolicy restartPolicy_ = global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure;
+    /// <summary>
+    /// cloud only
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.JobRestartPolicy RestartPolicy {
+      get { return restartPolicy_; }
+      set {
+        restartPolicy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1363,6 +1477,7 @@ namespace LiveKit.Proto {
       if (Room != other.Room) return false;
       if (Metadata != other.Metadata) return false;
       if (!object.Equals(State, other.State)) return false;
+      if (RestartPolicy != other.RestartPolicy) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1375,6 +1490,7 @@ namespace LiveKit.Proto {
       if (Room.Length != 0) hash ^= Room.GetHashCode();
       if (Metadata.Length != 0) hash ^= Metadata.GetHashCode();
       if (state_ != null) hash ^= State.GetHashCode();
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) hash ^= RestartPolicy.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1413,6 +1529,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(42);
         output.WriteMessage(State);
       }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) RestartPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1443,6 +1563,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(42);
         output.WriteMessage(State);
       }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) RestartPolicy);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1467,6 +1591,9 @@ namespace LiveKit.Proto {
       }
       if (state_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(State);
+      }
+      if (RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RestartPolicy);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1497,6 +1624,9 @@ namespace LiveKit.Proto {
           State = new global::LiveKit.Proto.AgentDispatchState();
         }
         State.MergeFrom(other.State);
+      }
+      if (other.RestartPolicy != global::LiveKit.Proto.JobRestartPolicy.JrpOnFailure) {
+        RestartPolicy = other.RestartPolicy;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1540,6 +1670,10 @@ namespace LiveKit.Proto {
             input.ReadMessage(State);
             break;
           }
+          case 48: {
+            RestartPolicy = (global::LiveKit.Proto.JobRestartPolicy) input.ReadEnum();
+            break;
+          }
         }
       }
     #endif
@@ -1580,6 +1714,10 @@ namespace LiveKit.Proto {
               State = new global::LiveKit.Proto.AgentDispatchState();
             }
             input.ReadMessage(State);
+            break;
+          }
+          case 48: {
+            RestartPolicy = (global::LiveKit.Proto.JobRestartPolicy) input.ReadEnum();
             break;
           }
         }
