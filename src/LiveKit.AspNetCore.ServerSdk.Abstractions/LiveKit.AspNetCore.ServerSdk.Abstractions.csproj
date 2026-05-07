@@ -63,9 +63,9 @@
   </ItemGroup>
   <!--
     livekit_agent_inference.proto (added in livekit-protocol v1.45.6) is excluded because it
-    declares `option csharp_namespace = "LiveKit.Proto"` and defines ClientMessage / ServerMessage,
-    which collide with the same types in livekit_agent.proto. Re-include once upstream isolates
-    this proto into its own csharp_namespace.
+    declares `option csharp_namespace = "LiveKit.Proto"` and defines a `ServerMessage` type that
+    collides with `ServerMessage` in livekit_agent.proto under the same C# namespace. Re-include
+    once upstream isolates this proto into its own csharp_namespace.
   -->
 </Project>
 
