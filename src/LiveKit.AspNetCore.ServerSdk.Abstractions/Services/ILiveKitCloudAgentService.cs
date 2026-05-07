@@ -20,6 +20,12 @@ public interface ILiveKitCloudAgentService
     Task<CreateAgentResponse> CreateAgentAsync(CreateAgentRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
+    /// Creates a new agent deployment (V2 API).
+    /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
+    Task<CreateAgentV2Response> CreateAgentV2Async(CreateAgentV2Request request, CancellationToken cancellationToken = default);
+
+    /// <summary>
     /// Lists agents in the project.
     /// </summary>
     /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
@@ -54,6 +60,12 @@ public interface ILiveKitCloudAgentService
     /// </summary>
     /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
     Task<DeployAgentResponse> DeployAgentAsync(DeployAgentRequest request, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Deploys a new version of an agent (V2 API).
+    /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
+    Task<DeployAgentV2Response> DeployAgentV2Async(DeployAgentV2Request request, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Updates secrets for an agent.

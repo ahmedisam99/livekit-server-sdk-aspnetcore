@@ -27,6 +27,12 @@ public sealed class LiveKitCloudAgentService : TwirpClient, ILiveKitCloudAgentSe
     }
 
     /// <inheritdoc/>
+    public async Task<CreateAgentV2Response> CreateAgentV2Async(CreateAgentV2Request request, CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<CreateAgentV2Response>("CreateAgentV2", null, request, cancellationToken).ConfigureAwait(false);
+    }
+
+    /// <inheritdoc/>
     public async Task<ListAgentsResponse> ListAgentsAsync(ListAgentsRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<ListAgentsResponse>("ListAgents", null, request, cancellationToken).ConfigureAwait(false);
@@ -61,6 +67,12 @@ public sealed class LiveKitCloudAgentService : TwirpClient, ILiveKitCloudAgentSe
     public async Task<DeployAgentResponse> DeployAgentAsync(DeployAgentRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<DeployAgentResponse>("DeployAgent", null, request, cancellationToken).ConfigureAwait(false);
+    }
+
+    /// <inheritdoc/>
+    public async Task<DeployAgentV2Response> DeployAgentV2Async(DeployAgentV2Request request, CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<DeployAgentV2Response>("DeployAgentV2", null, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
