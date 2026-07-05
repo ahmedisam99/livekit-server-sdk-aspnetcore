@@ -56,58 +56,9 @@ public sealed class LiveKitAgentSimulationService : TwirpClient, ILiveKitAgentSi
     }
 
     /// <inheritdoc/>
-    public async Task<Scenario.Types.Create.Types.Response> CreateScenarioAsync(Scenario.Types.Create.Types.Request request,
-        CancellationToken cancellationToken = default)
-    {
-        return await MakeRequestAsync<Scenario.Types.Create.Types.Response>("CreateScenario", null, request, cancellationToken).ConfigureAwait(false);
-    }
-
-    /// <inheritdoc/>
     public async Task<Scenario.Types.CreateFromSession.Types.Response> CreateScenarioFromSessionAsync(
         Scenario.Types.CreateFromSession.Types.Request request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<Scenario.Types.CreateFromSession.Types.Response>("CreateScenarioFromSession", null, request, cancellationToken).ConfigureAwait(false);
-    }
-
-    /// <inheritdoc/>
-    public async Task<Scenario.Types.Delete.Types.Response> DeleteScenarioAsync(Scenario.Types.Delete.Types.Request request,
-        CancellationToken cancellationToken = default)
-    {
-        return await MakeRequestAsync<Scenario.Types.Delete.Types.Response>("DeleteScenario", null, request, cancellationToken).ConfigureAwait(false);
-    }
-
-    /// <inheritdoc/>
-    public async Task<Scenario.Types.Update.Types.Response> UpdateScenarioAsync(Scenario.Types.Update.Types.Request request,
-        CancellationToken cancellationToken = default)
-    {
-        return await MakeRequestAsync<Scenario.Types.Update.Types.Response>("UpdateScenario", null, request, cancellationToken).ConfigureAwait(false);
-    }
-
-    /// <inheritdoc/>
-    public async Task<ScenarioGroup.Types.Create.Types.Response> CreateScenarioGroupAsync(ScenarioGroup.Types.Create.Types.Request request,
-        CancellationToken cancellationToken = default)
-    {
-        return await MakeRequestAsync<ScenarioGroup.Types.Create.Types.Response>("CreateScenarioGroup", null, request, cancellationToken).ConfigureAwait(false);
-    }
-
-    /// <inheritdoc/>
-    public async Task<ScenarioGroup.Types.Delete.Types.Response> DeleteScenarioGroupAsync(ScenarioGroup.Types.Delete.Types.Request request,
-        CancellationToken cancellationToken = default)
-    {
-        return await MakeRequestAsync<ScenarioGroup.Types.Delete.Types.Response>("DeleteScenarioGroup", null, request, cancellationToken).ConfigureAwait(false);
-    }
-
-    /// <inheritdoc/>
-    public async Task<ScenarioGroup.Types.List.Types.Response> ListScenarioGroupsAsync(ScenarioGroup.Types.List.Types.Request request,
-        CancellationToken cancellationToken = default)
-    {
-        return await MakeRequestAsync<ScenarioGroup.Types.List.Types.Response>("ListScenarioGroups", null, request, cancellationToken).ConfigureAwait(false);
-    }
-
-    /// <inheritdoc/>
-    public async Task<Scenario.Types.List.Types.Response> ListScenariosAsync(Scenario.Types.List.Types.Request request,
-        CancellationToken cancellationToken = default)
-    {
-        return await MakeRequestAsync<Scenario.Types.List.Types.Response>("ListScenarios", null, request, cancellationToken).ConfigureAwait(false);
     }
 }

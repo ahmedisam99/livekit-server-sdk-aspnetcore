@@ -25,22 +25,25 @@ namespace Livekit.Agent {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch1hZ2VudC9saXZla2l0X2FnZW50X2Rldi5wcm90bxINbGl2ZWtpdC5hZ2Vu",
-            "dCK8AQoPQWdlbnREZXZNZXNzYWdlEk0KGGdldF9ydW5uaW5nX2pvYnNfcmVx",
+            "dCLuAQoPQWdlbnREZXZNZXNzYWdlEk0KGGdldF9ydW5uaW5nX2pvYnNfcmVx",
             "dWVzdBgBIAEoCzIpLmxpdmVraXQuYWdlbnQuR2V0UnVubmluZ0FnZW50Sm9i",
             "c1JlcXVlc3RIABJPChlnZXRfcnVubmluZ19qb2JzX3Jlc3BvbnNlGAIgASgL",
             "MioubGl2ZWtpdC5hZ2VudC5HZXRSdW5uaW5nQWdlbnRKb2JzUmVzcG9uc2VI",
-            "AEIJCgdtZXNzYWdlIhwKGkdldFJ1bm5pbmdBZ2VudEpvYnNSZXF1ZXN0Ik8K",
-            "G0dldFJ1bm5pbmdBZ2VudEpvYnNSZXNwb25zZRIwCgRqb2JzGAEgAygLMiIu",
-            "bGl2ZWtpdC5hZ2VudC5SdW5uaW5nQWdlbnRKb2JJbmZvIqoBChNSdW5uaW5n",
-            "QWdlbnRKb2JJbmZvEgsKA2pvYhgBIAEoDBITCgthY2NlcHRfbmFtZRgCIAEo",
-            "CRIXCg9hY2NlcHRfaWRlbnRpdHkYAyABKAkSFwoPYWNjZXB0X21ldGFkYXRh",
-            "GAQgASgJEgsKA3VybBgFIAEoCRINCgV0b2tlbhgGIAEoCRIRCgl3b3JrZXJf",
-            "aWQYByABKAkSEAoIbW9ja19qb2IYCCABKAhCK1opZ2l0aHViLmNvbS9saXZl",
-            "a2l0L3Byb3RvY29sL2xpdmVraXQvYWdlbnRiBnByb3RvMw=="));
+            "ABIwCgtzZXJ2ZXJfaW5mbxgDIAEoCzIZLmxpdmVraXQuYWdlbnQuU2VydmVy",
+            "SW5mb0gAQgkKB21lc3NhZ2UiLQoKU2VydmVySW5mbxISCgphZ2VudF9uYW1l",
+            "GAEgASgJEgsKA3VybBgCIAEoCSIcChpHZXRSdW5uaW5nQWdlbnRKb2JzUmVx",
+            "dWVzdCJPChtHZXRSdW5uaW5nQWdlbnRKb2JzUmVzcG9uc2USMAoEam9icxgB",
+            "IAMoCzIiLmxpdmVraXQuYWdlbnQuUnVubmluZ0FnZW50Sm9iSW5mbyKqAQoT",
+            "UnVubmluZ0FnZW50Sm9iSW5mbxILCgNqb2IYASABKAwSEwoLYWNjZXB0X25h",
+            "bWUYAiABKAkSFwoPYWNjZXB0X2lkZW50aXR5GAMgASgJEhcKD2FjY2VwdF9t",
+            "ZXRhZGF0YRgEIAEoCRILCgN1cmwYBSABKAkSDQoFdG9rZW4YBiABKAkSEQoJ",
+            "d29ya2VyX2lkGAcgASgJEhAKCG1vY2tfam9iGAggASgIQitaKWdpdGh1Yi5j",
+            "b20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0L2FnZW50YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentDevMessage), global::Livekit.Agent.AgentDevMessage.Parser, new[]{ "GetRunningJobsRequest", "GetRunningJobsResponse" }, new[]{ "Message" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.AgentDevMessage), global::Livekit.Agent.AgentDevMessage.Parser, new[]{ "GetRunningJobsRequest", "GetRunningJobsResponse", "ServerInfo" }, new[]{ "Message" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.ServerInfo), global::Livekit.Agent.ServerInfo.Parser, new[]{ "AgentName", "Url" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.GetRunningAgentJobsRequest), global::Livekit.Agent.GetRunningAgentJobsRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.GetRunningAgentJobsResponse), global::Livekit.Agent.GetRunningAgentJobsResponse.Parser, new[]{ "Jobs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Livekit.Agent.RunningAgentJobInfo), global::Livekit.Agent.RunningAgentJobInfo.Parser, new[]{ "Job", "AcceptName", "AcceptIdentity", "AcceptMetadata", "Url", "Token", "WorkerId", "MockJob" }, null, null, null, null)
@@ -96,6 +99,9 @@ namespace Livekit.Agent {
         case MessageOneofCase.GetRunningJobsResponse:
           GetRunningJobsResponse = other.GetRunningJobsResponse.Clone();
           break;
+        case MessageOneofCase.ServerInfo:
+          ServerInfo = other.ServerInfo.Clone();
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -131,12 +137,25 @@ namespace Livekit.Agent {
       }
     }
 
+    /// <summary>Field number for the "server_info" field.</summary>
+    public const int ServerInfoFieldNumber = 3;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Livekit.Agent.ServerInfo ServerInfo {
+      get { return messageCase_ == MessageOneofCase.ServerInfo ? (global::Livekit.Agent.ServerInfo) message_ : null; }
+      set {
+        message_ = value;
+        messageCase_ = value == null ? MessageOneofCase.None : MessageOneofCase.ServerInfo;
+      }
+    }
+
     private object message_;
     /// <summary>Enum of possible cases for the "message" oneof.</summary>
     public enum MessageOneofCase {
       None = 0,
       GetRunningJobsRequest = 1,
       GetRunningJobsResponse = 2,
+      ServerInfo = 3,
     }
     private MessageOneofCase messageCase_ = MessageOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -169,6 +188,7 @@ namespace Livekit.Agent {
       }
       if (!object.Equals(GetRunningJobsRequest, other.GetRunningJobsRequest)) return false;
       if (!object.Equals(GetRunningJobsResponse, other.GetRunningJobsResponse)) return false;
+      if (!object.Equals(ServerInfo, other.ServerInfo)) return false;
       if (MessageCase != other.MessageCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -179,6 +199,7 @@ namespace Livekit.Agent {
       int hash = 1;
       if (messageCase_ == MessageOneofCase.GetRunningJobsRequest) hash ^= GetRunningJobsRequest.GetHashCode();
       if (messageCase_ == MessageOneofCase.GetRunningJobsResponse) hash ^= GetRunningJobsResponse.GetHashCode();
+      if (messageCase_ == MessageOneofCase.ServerInfo) hash ^= ServerInfo.GetHashCode();
       hash ^= (int) messageCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -206,6 +227,10 @@ namespace Livekit.Agent {
         output.WriteRawTag(18);
         output.WriteMessage(GetRunningJobsResponse);
       }
+      if (messageCase_ == MessageOneofCase.ServerInfo) {
+        output.WriteRawTag(26);
+        output.WriteMessage(ServerInfo);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -224,6 +249,10 @@ namespace Livekit.Agent {
         output.WriteRawTag(18);
         output.WriteMessage(GetRunningJobsResponse);
       }
+      if (messageCase_ == MessageOneofCase.ServerInfo) {
+        output.WriteRawTag(26);
+        output.WriteMessage(ServerInfo);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -239,6 +268,9 @@ namespace Livekit.Agent {
       }
       if (messageCase_ == MessageOneofCase.GetRunningJobsResponse) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(GetRunningJobsResponse);
+      }
+      if (messageCase_ == MessageOneofCase.ServerInfo) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ServerInfo);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -264,6 +296,12 @@ namespace Livekit.Agent {
             GetRunningJobsResponse = new global::Livekit.Agent.GetRunningAgentJobsResponse();
           }
           GetRunningJobsResponse.MergeFrom(other.GetRunningJobsResponse);
+          break;
+        case MessageOneofCase.ServerInfo:
+          if (ServerInfo == null) {
+            ServerInfo = new global::Livekit.Agent.ServerInfo();
+          }
+          ServerInfo.MergeFrom(other.ServerInfo);
           break;
       }
 
@@ -304,6 +342,15 @@ namespace Livekit.Agent {
             GetRunningJobsResponse = subBuilder;
             break;
           }
+          case 26: {
+            global::Livekit.Agent.ServerInfo subBuilder = new global::Livekit.Agent.ServerInfo();
+            if (messageCase_ == MessageOneofCase.ServerInfo) {
+              subBuilder.MergeFrom(ServerInfo);
+            }
+            input.ReadMessage(subBuilder);
+            ServerInfo = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -341,6 +388,253 @@ namespace Livekit.Agent {
             GetRunningJobsResponse = subBuilder;
             break;
           }
+          case 26: {
+            global::Livekit.Agent.ServerInfo subBuilder = new global::Livekit.Agent.ServerInfo();
+            if (messageCase_ == MessageOneofCase.ServerInfo) {
+              subBuilder.MergeFrom(ServerInfo);
+            }
+            input.ReadMessage(subBuilder);
+            ServerInfo = subBuilder;
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// ServerInfo is sent by the agent to the CLI when the dev-reload channel opens,
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class ServerInfo : pb::IMessage<ServerInfo>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ServerInfo> _parser = new pb::MessageParser<ServerInfo>(() => new ServerInfo());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ServerInfo> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Livekit.Agent.LivekitAgentDevReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ServerInfo() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ServerInfo(ServerInfo other) : this() {
+      agentName_ = other.agentName_;
+      url_ = other.url_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ServerInfo Clone() {
+      return new ServerInfo(this);
+    }
+
+    /// <summary>Field number for the "agent_name" field.</summary>
+    public const int AgentNameFieldNumber = 1;
+    private string agentName_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string AgentName {
+      get { return agentName_; }
+      set {
+        agentName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "url" field.</summary>
+    public const int UrlFieldNumber = 2;
+    private string url_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Url {
+      get { return url_; }
+      set {
+        url_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ServerInfo);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ServerInfo other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AgentName != other.AgentName) return false;
+      if (Url != other.Url) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AgentName.Length != 0) hash ^= AgentName.GetHashCode();
+      if (Url.Length != 0) hash ^= Url.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (AgentName.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AgentName);
+      }
+      if (Url.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Url);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (AgentName.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AgentName);
+      }
+      if (Url.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Url);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (AgentName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentName);
+      }
+      if (Url.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Url);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ServerInfo other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AgentName.Length != 0) {
+        AgentName = other.AgentName;
+      }
+      if (other.Url.Length != 0) {
+        Url = other.Url;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AgentName = input.ReadString();
+            break;
+          }
+          case 18: {
+            Url = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            AgentName = input.ReadString();
+            break;
+          }
+          case 18: {
+            Url = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -363,7 +657,7 @@ namespace Livekit.Agent {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Livekit.Agent.LivekitAgentDevReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Livekit.Agent.LivekitAgentDevReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -524,7 +818,7 @@ namespace Livekit.Agent {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Livekit.Agent.LivekitAgentDevReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Livekit.Agent.LivekitAgentDevReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -711,7 +1005,7 @@ namespace Livekit.Agent {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Livekit.Agent.LivekitAgentDevReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Livekit.Agent.LivekitAgentDevReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

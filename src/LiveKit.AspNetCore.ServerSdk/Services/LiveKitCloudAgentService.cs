@@ -64,6 +64,12 @@ public sealed class LiveKitCloudAgentService : TwirpClient, ILiveKitCloudAgentSe
     }
 
     /// <inheritdoc/>
+    public async Task<PromoteAgentResponse> PromoteAgentAsync(PromoteAgentRequest request, CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<PromoteAgentResponse>("PromoteAgent", null, request, cancellationToken).ConfigureAwait(false);
+    }
+
+    /// <inheritdoc/>
     public async Task<DeployAgentResponse> DeployAgentAsync(DeployAgentRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<DeployAgentResponse>("DeployAgent", null, request, cancellationToken).ConfigureAwait(false);

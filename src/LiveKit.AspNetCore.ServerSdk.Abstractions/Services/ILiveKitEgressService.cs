@@ -14,6 +14,12 @@ namespace LiveKit.Services;
 public interface ILiveKitEgressService
 {
     /// <summary>
+    /// Starts an egress using the unified start request.
+    /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
+    Task<EgressInfo> StartEgressAsync(StartEgressRequest request, CancellationToken cancellationToken = default);
+
+    /// <summary>
     /// Starts a room composite egress (recording or streaming).
     /// </summary>
     /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>

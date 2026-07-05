@@ -24,15 +24,14 @@ namespace LiveKit.Proto {
     static LivekitAgentWorkerReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChpsaXZla2l0X2FnZW50X3dvcmtlci5wcm90bxIHbGl2ZWtpdBoUbG9nZ2Vy",
-            "L29wdGlvbnMucHJvdG8ijgEKCldvcmtlckluZm8SEwoLd29ya2VyX3R5cGUY",
-            "ASABKAkSEgoKYWdlbnRfbmFtZRgCIAEoCRITCgthY3RpdmVfam9icxgDIAEo",
-            "AhITCgtzZGtfdmVyc2lvbhgEIAEoCRITCgt3b3JrZXJfbG9hZBgFIAEoAhIY",
-            "ChBwcm90b2NvbF92ZXJzaW9uGAYgASgFQkZaI2dpdGh1Yi5jb20vbGl2ZWtp",
-            "dC9wcm90b2NvbC9saXZla2l0qgINTGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6",
-            "OlByb3RvYgZwcm90bzM="));
+            "ChpsaXZla2l0X2FnZW50X3dvcmtlci5wcm90bxIHbGl2ZWtpdCKOAQoKV29y",
+            "a2VySW5mbxITCgt3b3JrZXJfdHlwZRgBIAEoCRISCgphZ2VudF9uYW1lGAIg",
+            "ASgJEhMKC2FjdGl2ZV9qb2JzGAMgASgCEhMKC3Nka192ZXJzaW9uGAQgASgJ",
+            "EhMKC3dvcmtlcl9sb2FkGAUgASgCEhgKEHByb3RvY29sX3ZlcnNpb24YBiAB",
+            "KAVCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1M",
+            "aXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::LiveKit.Proto.OptionsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.WorkerInfo), global::LiveKit.Proto.WorkerInfo.Parser, new[]{ "WorkerType", "AgentName", "ActiveJobs", "SdkVersion", "WorkerLoad", "ProtocolVersion" }, null, null, null, null)
           }));

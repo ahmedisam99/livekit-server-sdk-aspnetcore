@@ -56,6 +56,12 @@ public interface ILiveKitCloudAgentService
     Task<RestartAgentResponse> RestartAgentAsync(RestartAgentRequest request, CancellationToken cancellationToken = default);
 
     /// <summary>
+    /// Promotes an agent from one deployment to another.
+    /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
+    Task<PromoteAgentResponse> PromoteAgentAsync(PromoteAgentRequest request, CancellationToken cancellationToken = default);
+
+    /// <summary>
     /// Deploys a new version of an agent.
     /// </summary>
     /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>

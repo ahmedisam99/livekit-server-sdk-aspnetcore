@@ -21,6 +21,12 @@ public sealed class LiveKitEgressService : TwirpClient, ILiveKitEgressService
     }
 
     /// <inheritdoc/>
+    public async Task<EgressInfo> StartEgressAsync(StartEgressRequest request, CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<EgressInfo>("StartEgress", request.RoomName, request, cancellationToken).ConfigureAwait(false);
+    }
+
+    /// <inheritdoc/>
     public async Task<EgressInfo> StartRoomCompositeEgressAsync(RoomCompositeEgressRequest request, CancellationToken cancellationToken = default)
     {
         return await MakeRequestAsync<EgressInfo>("StartRoomCompositeEgress", request.RoomName, request, cancellationToken).ConfigureAwait(false);

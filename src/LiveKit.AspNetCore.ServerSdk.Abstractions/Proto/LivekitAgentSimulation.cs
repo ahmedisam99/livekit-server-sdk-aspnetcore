@@ -35,7 +35,7 @@ namespace LiveKit.Proto {
             "eS5DaGF0SGlzdG9yeUVudHJ5Gk4KEENoYXRIaXN0b3J5RW50cnkSCwoDa2V5",
             "GAEgASgJEikKBXZhbHVlGAIgASgLMhoubGl2ZWtpdC5hZ2VudC5DaGF0Q29u",
             "dGV4dDoCOAEaPwoFSXNzdWUSEwoLZGVzY3JpcHRpb24YASABKAkSEgoKc3Vn",
-            "Z2VzdGlvbhgCIAEoCRINCgVsYWJlbBgDIAEoCSKmEwoNU2ltdWxhdGlvblJ1",
+            "Z2VzdGlvbhgCIAEoCRINCgVsYWJlbBgDIAEoCSL/EQoNU2ltdWxhdGlvblJ1",
             "bhIKCgJpZBgBIAEoCRISCgpwcm9qZWN0X2lkGAIgASgJEi0KBnN0YXR1cxgD",
             "IAEoDjIdLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5TdGF0dXMSGQoRYWdlbnRf",
             "ZGVzY3JpcHRpb24YBCABKAkSDQoFZXJyb3IYBSABKAkSLgoKY3JlYXRlZF9h",
@@ -47,130 +47,83 @@ namespace LiveKit.Proto {
             "b2J1Zi5UaW1lc3RhbXASEQoJam9iX2NvdW50GAwgASgFEhQKDHBhc3NlZF9j",
             "b3VudBgNIAEoBRIUCgxmYWlsZWRfY291bnQYDiABKAUSFwoPbnVtX3NpbXVs",
             "YXRpb25zGA8gASgFEisKBXVzYWdlGBAgASgLMhwubGl2ZWtpdC5TaW11bGF0",
-            "aW9uUnVuLlVzYWdlGpkECgNKb2ISCgoCaWQYASABKAkSMQoGc3RhdHVzGAIg",
-            "ASgOMiEubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkpvYi5TdGF0dXMSFAoMaW5z",
-            "dHJ1Y3Rpb25zGAMgASgJEg0KBWVycm9yGAQgASgJEhoKEmFnZW50X2V4cGVj",
-            "dGF0aW9ucxgFIAEoCRINCgVsYWJlbBgGIAEoCRIMCgR0YWdzGAcgAygJEhEK",
-            "CXJvb21fbmFtZRgIIAEoCRITCgtzY2VuYXJpb19pZBgJIAEoCRIuCgpzdGFy",
-            "dGVkX2F0GAogASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIsCghl",
-            "bmRlZF9hdBgLIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDwoH",
-            "cm9vbV9pZBgMIAEoCRIvCgV1c2FnZRgNIAEoCzIgLmxpdmVraXQuU2ltdWxh",
-            "dGlvblJ1bi5Kb2IuVXNhZ2UaPAoFVXNhZ2USGAoQdGV4dF90dXJuc19jb3Vu",
-            "dBgBIAEoBRIZChFhdWRpb190dXJuc19jb3VudBgCIAEoBSJvCgZTdGF0dXMS",
-            "EgoOU1RBVFVTX1BFTkRJTkcQABISCg5TVEFUVVNfUlVOTklORxABEhQKEFNU",
-            "QVRVU19DT01QTEVURUQQAhIRCg1TVEFUVVNfRkFJTEVEEAMSFAoQU1RBVFVT",
-            "X0NBTkNFTExFRBAEGtEECgZDcmVhdGUaxAEKCFNjZW5hcmlvEhQKDGluc3Ry",
-            "dWN0aW9ucxgBIAEoCRIaChJhZ2VudF9leHBlY3RhdGlvbnMYAiABKAkSRgoI",
-            "bWV0YWRhdGEYAyADKAsyNC5saXZla2l0LlNpbXVsYXRpb25SdW4uQ3JlYXRl",
-            "LlNjZW5hcmlvLk1ldGFkYXRhRW50cnkSDQoFbGFiZWwYBCABKAkaLwoNTWV0",
-            "YWRhdGFFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGkYK",
-            "CVNjZW5hcmlvcxI5CglzY2VuYXJpb3MYASADKAsyJi5saXZla2l0LlNpbXVs",
-            "YXRpb25SdW4uQ3JlYXRlLlNjZW5hcmlvGtEBCgdSZXF1ZXN0EhIKCnByb2pl",
-            "Y3RfaWQYASABKAkSEgoKYWdlbnRfbmFtZRgCIAEoCRIZChFhZ2VudF9kZXNj",
-            "cmlwdGlvbhgDIAEoCRIXCg9udW1fc2ltdWxhdGlvbnMYBCABKAUSDgoGcmVn",
-            "aW9uGAYgASgJEjwKCXNjZW5hcmlvcxgHIAEoCzInLmxpdmVraXQuU2ltdWxh",
-            "dGlvblJ1bi5DcmVhdGUuU2NlbmFyaW9zSAASEgoIZ3JvdXBfaWQYBSABKAlI",
-            "AEIICgZzb3VyY2UaZAoIUmVzcG9uc2USGQoRc2ltdWxhdGlvbl9ydW5faWQY",
-            "ASABKAkSPQoWcHJlc2lnbmVkX3Bvc3RfcmVxdWVzdBgCIAEoCzIdLmxpdmVr",
-            "aXQuUHJlc2lnbmVkUG9zdFJlcXVlc3QadAoTQ29uZmlybVNvdXJjZVVwbG9h",
-            "ZBpRCgdSZXF1ZXN0EhIKCnByb2plY3RfaWQYASABKAkSGQoRc2ltdWxhdGlv",
-            "bl9ydW5faWQYAiABKAkSFwoPY29kZV9lbnRyeXBvaW50GAMgASgJGgoKCFJl",
-            "c3BvbnNlGnAKA0dldBo4CgdSZXF1ZXN0EhIKCnByb2plY3RfaWQYASABKAkS",
-            "GQoRc2ltdWxhdGlvbl9ydW5faWQYAiABKAkaLwoIUmVzcG9uc2USIwoDcnVu",
-            "GAEgASgLMhYubGl2ZWtpdC5TaW11bGF0aW9uUnVuGowCCgRMaXN0Gp4BCgdS",
-            "ZXF1ZXN0EhIKCnByb2plY3RfaWQYASABKAkSMgoGc3RhdHVzGAIgASgOMh0u",
-            "bGl2ZWtpdC5TaW11bGF0aW9uUnVuLlN0YXR1c0gAiAEBEjEKCnBhZ2VfdG9r",
-            "ZW4YAyABKAsyGC5saXZla2l0LlRva2VuUGFnaW5hdGlvbkgBiAEBQgkKB19z",
-            "dGF0dXNCDQoLX3BhZ2VfdG9rZW4aYwoIUmVzcG9uc2USJAoEcnVucxgBIAMo",
-            "CzIWLmxpdmVraXQuU2ltdWxhdGlvblJ1bhIxCg9uZXh0X3BhZ2VfdG9rZW4Y",
-            "AiABKAsyGC5saXZla2l0LlRva2VuUGFnaW5hdGlvbhpOCgZDYW5jZWwaOAoH",
-            "UmVxdWVzdBISCgpwcm9qZWN0X2lkGAEgASgJEhkKEXNpbXVsYXRpb25fcnVu",
-            "X2lkGAIgASgJGgoKCFJlc3BvbnNlGjwKBVVzYWdlEhgKEHRleHRfdHVybnNf",
-            "Y291bnQYASABKAUSGQoRYXVkaW9fdHVybnNfY291bnQYAiABKAUipQEKBlN0",
-            "YXR1cxIZChVTVEFUVVNfUEVORElOR19VUExPQUQQABIVChFTVEFUVVNfR0VO",
-            "RVJBVElORxABEhIKDlNUQVRVU19SVU5OSU5HEAISFgoSU1RBVFVTX1NVTU1B",
-            "UklaSU5HEAMSFAoQU1RBVFVTX0NPTVBMRVRFRBAEEhEKDVNUQVRVU19GQUlM",
-            "RUQQBRIUChBTVEFUVVNfQ0FOQ0VMTEVEEAYi3goKCFNjZW5hcmlvEgoKAmlk",
-            "GAEgASgJEhIKCnByb2plY3RfaWQYAiABKAkSDQoFbGFiZWwYAyABKAkSFAoM",
-            "aW5zdHJ1Y3Rpb25zGAQgASgJEhoKEmFnZW50X2V4cGVjdGF0aW9ucxgFIAEo",
-            "CRIWCg5zb3VyY2Vfcm9vbV9pZBgGIAEoCRIuCgpjcmVhdGVkX2F0GAcgASgL",
-            "MhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIoCgZzdGF0dXMYCCABKA4y",
-            "GC5saXZla2l0LlNjZW5hcmlvLlN0YXR1cxINCgVlcnJvchgJIAEoCRIQCghn",
-            "cm91cF9pZBgKIAEoCRIxCghtZXRhZGF0YRgLIAMoCzIfLmxpdmVraXQuU2Nl",
-            "bmFyaW8uTWV0YWRhdGFFbnRyeRqfAgoGQ3JlYXRlGuMBCgdSZXF1ZXN0EhIK",
-            "CnByb2plY3RfaWQYASABKAkSDQoFbGFiZWwYAiABKAkSFAoMaW5zdHJ1Y3Rp",
-            "b25zGAMgASgJEhoKEmFnZW50X2V4cGVjdGF0aW9ucxgEIAEoCRIQCghncm91",
-            "cF9pZBgFIAEoCRJACghtZXRhZGF0YRgGIAMoCzIuLmxpdmVraXQuU2NlbmFy",
-            "aW8uQ3JlYXRlLlJlcXVlc3QuTWV0YWRhdGFFbnRyeRovCg1NZXRhZGF0YUVu",
-            "dHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEaLwoIUmVzcG9u",
-            "c2USIwoIc2NlbmFyaW8YASABKAsyES5saXZla2l0LlNjZW5hcmlvGqUBChFD",
-            "cmVhdGVGcm9tU2Vzc2lvbhpfCgdSZXF1ZXN0EhIKCnByb2plY3RfaWQYASAB",
-            "KAkSDwoHcm9vbV9pZBgCIAEoCRIQCghncm91cF9pZBgDIAEoCRINCgVsYWJl",
-            "bBgEIAEoCRIOCgZyZWdpb24YBSABKAkaLwoIUmVzcG9uc2USIwoIc2NlbmFy",
-            "aW8YASABKAsyES5saXZla2l0LlNjZW5hcmlvGkgKBkRlbGV0ZRoyCgdSZXF1",
-            "ZXN0EhIKCnByb2plY3RfaWQYASABKAkSEwoLc2NlbmFyaW9faWQYAiABKAka",
-            "CgoIUmVzcG9uc2UatAIKBlVwZGF0ZRr4AQoHUmVxdWVzdBISCgpwcm9qZWN0",
-            "X2lkGAEgASgJEhMKC3NjZW5hcmlvX2lkGAIgASgJEg0KBWxhYmVsGAMgASgJ",
-            "EhQKDGluc3RydWN0aW9ucxgEIAEoCRIaChJhZ2VudF9leHBlY3RhdGlvbnMY",
-            "BSABKAkSEAoIZ3JvdXBfaWQYBiABKAkSQAoIbWV0YWRhdGEYByADKAsyLi5s",
-            "aXZla2l0LlNjZW5hcmlvLlVwZGF0ZS5SZXF1ZXN0Lk1ldGFkYXRhRW50cnka",
-            "LwoNTWV0YWRhdGFFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6",
-            "AjgBGi8KCFJlc3BvbnNlEiMKCHNjZW5hcmlvGAEgASgLMhEubGl2ZWtpdC5T",
-            "Y2VuYXJpbxppCgRMaXN0Gi8KB1JlcXVlc3QSEgoKcHJvamVjdF9pZBgBIAEo",
-            "CRIQCghncm91cF9pZBgCIAEoCRowCghSZXNwb25zZRIkCglzY2VuYXJpb3MY",
-            "ASADKAsyES5saXZla2l0LlNjZW5hcmlvGi8KDU1ldGFkYXRhRW50cnkSCwoD",
-            "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJECgZTdGF0dXMSFQoRU1RB",
-            "VFVTX0dFTkVSQVRJTkcQABIQCgxTVEFUVVNfUkVBRFkQARIRCg1TVEFUVVNf",
-            "RkFJTEVEEAIiywMKDVNjZW5hcmlvR3JvdXASCgoCaWQYASABKAkSEgoKcHJv",
-            "amVjdF9pZBgCIAEoCRINCgVsYWJlbBgDIAEoCRIuCgpjcmVhdGVkX2F0GAQg",
-            "ASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIkCglzY2VuYXJpb3MY",
-            "BSADKAsyES5saXZla2l0LlNjZW5hcmlvEhYKDnNjZW5hcmlvX2NvdW50GAYg",
-            "ASgFGnIKBkNyZWF0ZRosCgdSZXF1ZXN0EhIKCnByb2plY3RfaWQYASABKAkS",
-            "DQoFbGFiZWwYAiABKAkaOgoIUmVzcG9uc2USLgoOc2NlbmFyaW9fZ3JvdXAY",
-            "ASABKAsyFi5saXZla2l0LlNjZW5hcmlvR3JvdXAaRQoGRGVsZXRlGi8KB1Jl",
-            "cXVlc3QSEgoKcHJvamVjdF9pZBgBIAEoCRIQCghncm91cF9pZBgCIAEoCRoK",
-            "CghSZXNwb25zZRpiCgRMaXN0Gh0KB1JlcXVlc3QSEgoKcHJvamVjdF9pZBgB",
-            "IAEoCRo7CghSZXNwb25zZRIvCg9zY2VuYXJpb19ncm91cHMYASADKAsyFi5s",
-            "aXZla2l0LlNjZW5hcmlvR3JvdXAyogoKD0FnZW50U2ltdWxhdGlvbhJkChND",
-            "cmVhdGVTaW11bGF0aW9uUnVuEiUubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkNy",
-            "ZWF0ZS5SZXF1ZXN0GiYubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkNyZWF0ZS5S",
-            "ZXNwb25zZRKIAQodQ29uZmlybVNpbXVsYXRpb25Tb3VyY2VVcGxvYWQSMi5s",
-            "aXZla2l0LlNpbXVsYXRpb25SdW4uQ29uZmlybVNvdXJjZVVwbG9hZC5SZXF1",
-            "ZXN0GjMubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkNvbmZpcm1Tb3VyY2VVcGxv",
-            "YWQuUmVzcG9uc2USWwoQR2V0U2ltdWxhdGlvblJ1bhIiLmxpdmVraXQuU2lt",
-            "dWxhdGlvblJ1bi5HZXQuUmVxdWVzdBojLmxpdmVraXQuU2ltdWxhdGlvblJ1",
-            "bi5HZXQuUmVzcG9uc2USXwoSTGlzdFNpbXVsYXRpb25SdW5zEiMubGl2ZWtp",
-            "dC5TaW11bGF0aW9uUnVuLkxpc3QuUmVxdWVzdBokLmxpdmVraXQuU2ltdWxh",
-            "dGlvblJ1bi5MaXN0LlJlc3BvbnNlEmQKE0NhbmNlbFNpbXVsYXRpb25SdW4S",
-            "JS5saXZla2l0LlNpbXVsYXRpb25SdW4uQ2FuY2VsLlJlcXVlc3QaJi5saXZl",
-            "a2l0LlNpbXVsYXRpb25SdW4uQ2FuY2VsLlJlc3BvbnNlElUKDkNyZWF0ZVNj",
-            "ZW5hcmlvEiAubGl2ZWtpdC5TY2VuYXJpby5DcmVhdGUuUmVxdWVzdBohLmxp",
-            "dmVraXQuU2NlbmFyaW8uQ3JlYXRlLlJlc3BvbnNlEnYKGUNyZWF0ZVNjZW5h",
-            "cmlvRnJvbVNlc3Npb24SKy5saXZla2l0LlNjZW5hcmlvLkNyZWF0ZUZyb21T",
-            "ZXNzaW9uLlJlcXVlc3QaLC5saXZla2l0LlNjZW5hcmlvLkNyZWF0ZUZyb21T",
-            "ZXNzaW9uLlJlc3BvbnNlElUKDkRlbGV0ZVNjZW5hcmlvEiAubGl2ZWtpdC5T",
-            "Y2VuYXJpby5EZWxldGUuUmVxdWVzdBohLmxpdmVraXQuU2NlbmFyaW8uRGVs",
-            "ZXRlLlJlc3BvbnNlElUKDlVwZGF0ZVNjZW5hcmlvEiAubGl2ZWtpdC5TY2Vu",
-            "YXJpby5VcGRhdGUuUmVxdWVzdBohLmxpdmVraXQuU2NlbmFyaW8uVXBkYXRl",
-            "LlJlc3BvbnNlEmQKE0NyZWF0ZVNjZW5hcmlvR3JvdXASJS5saXZla2l0LlNj",
-            "ZW5hcmlvR3JvdXAuQ3JlYXRlLlJlcXVlc3QaJi5saXZla2l0LlNjZW5hcmlv",
-            "R3JvdXAuQ3JlYXRlLlJlc3BvbnNlEmQKE0RlbGV0ZVNjZW5hcmlvR3JvdXAS",
-            "JS5saXZla2l0LlNjZW5hcmlvR3JvdXAuRGVsZXRlLlJlcXVlc3QaJi5saXZl",
-            "a2l0LlNjZW5hcmlvR3JvdXAuRGVsZXRlLlJlc3BvbnNlEl8KEkxpc3RTY2Vu",
-            "YXJpb0dyb3VwcxIjLmxpdmVraXQuU2NlbmFyaW9Hcm91cC5MaXN0LlJlcXVl",
-            "c3QaJC5saXZla2l0LlNjZW5hcmlvR3JvdXAuTGlzdC5SZXNwb25zZRJQCg1M",
-            "aXN0U2NlbmFyaW9zEh4ubGl2ZWtpdC5TY2VuYXJpby5MaXN0LlJlcXVlc3Qa",
-            "Hy5saXZla2l0LlNjZW5hcmlvLkxpc3QuUmVzcG9uc2VCRlojZ2l0aHViLmNv",
-            "bS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0LlByb3Rv6gIO",
-            "TGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
+            "aW9uUnVuLlVzYWdlEhMKC2NvbmN1cnJlbmN5GBEgASgFEiUKBG1vZGUYEiAB",
+            "KA4yFy5saXZla2l0LlNpbXVsYXRpb25Nb2RlGooECgNKb2ISCgoCaWQYASAB",
+            "KAkSMQoGc3RhdHVzGAIgASgOMiEubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkpv",
+            "Yi5TdGF0dXMSFAoMaW5zdHJ1Y3Rpb25zGAMgASgJEg0KBWVycm9yGAQgASgJ",
+            "EhoKEmFnZW50X2V4cGVjdGF0aW9ucxgFIAEoCRINCgVsYWJlbBgGIAEoCRIM",
+            "CgR0YWdzGAcgAygJEhEKCXJvb21fbmFtZRgIIAEoCRIuCgpzdGFydGVkX2F0",
+            "GAogASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIsCghlbmRlZF9h",
+            "dBgLIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDwoHcm9vbV9p",
+            "ZBgMIAEoCRIvCgV1c2FnZRgNIAEoCzIgLmxpdmVraXQuU2ltdWxhdGlvblJ1",
+            "bi5Kb2IuVXNhZ2UaPAoFVXNhZ2USGAoQdGV4dF90dXJuc19jb3VudBgBIAEo",
+            "BRIZChFhdWRpb190dXJuc19jb3VudBgCIAEoBSJvCgZTdGF0dXMSEgoOU1RB",
+            "VFVTX1BFTkRJTkcQABISCg5TVEFUVVNfUlVOTklORxABEhQKEFNUQVRVU19D",
+            "T01QTEVURUQQAhIRCg1TVEFUVVNfRkFJTEVEEAMSFAoQU1RBVFVTX0NBTkNF",
+            "TExFRBAESgQICRAKGv0CCgZDcmVhdGUajAIKB1JlcXVlc3QSEgoKcHJvamVj",
+            "dF9pZBgBIAEoCRISCgphZ2VudF9uYW1lGAIgASgJEhcKD251bV9zaW11bGF0",
+            "aW9ucxgEIAEoBRIOCgZyZWdpb24YBiABKAkSMwoOc2NlbmFyaW9fZ3JvdXAY",
+            "ByABKAsyFi5saXZla2l0LlNjZW5hcmlvR3JvdXBIAIgBARIYCgtjb25jdXJy",
+            "ZW5jeRgIIAEoBUgBiAEBEiUKBG1vZGUYCSABKA4yFy5saXZla2l0LlNpbXVs",
+            "YXRpb25Nb2RlQhEKD19zY2VuYXJpb19ncm91cEIOCgxfY29uY3VycmVuY3lK",
+            "BAgDEARSEWFnZW50X2Rlc2NyaXB0aW9uGmQKCFJlc3BvbnNlEhkKEXNpbXVs",
+            "YXRpb25fcnVuX2lkGAEgASgJEj0KFnByZXNpZ25lZF9wb3N0X3JlcXVlc3QY",
+            "AiABKAsyHS5saXZla2l0LlByZXNpZ25lZFBvc3RSZXF1ZXN0GnQKE0NvbmZp",
+            "cm1Tb3VyY2VVcGxvYWQaUQoHUmVxdWVzdBISCgpwcm9qZWN0X2lkGAEgASgJ",
+            "EhkKEXNpbXVsYXRpb25fcnVuX2lkGAIgASgJEhcKD2NvZGVfZW50cnlwb2lu",
+            "dBgDIAEoCRoKCghSZXNwb25zZRpwCgNHZXQaOAoHUmVxdWVzdBISCgpwcm9q",
+            "ZWN0X2lkGAEgASgJEhkKEXNpbXVsYXRpb25fcnVuX2lkGAIgASgJGi8KCFJl",
+            "c3BvbnNlEiMKA3J1bhgBIAEoCzIWLmxpdmVraXQuU2ltdWxhdGlvblJ1bhqM",
+            "AgoETGlzdBqeAQoHUmVxdWVzdBISCgpwcm9qZWN0X2lkGAEgASgJEjIKBnN0",
+            "YXR1cxgCIAEoDjIdLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5TdGF0dXNIAIgB",
+            "ARIxCgpwYWdlX3Rva2VuGAMgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2luYXRp",
+            "b25IAYgBAUIJCgdfc3RhdHVzQg0KC19wYWdlX3Rva2VuGmMKCFJlc3BvbnNl",
+            "EiQKBHJ1bnMYASADKAsyFi5saXZla2l0LlNpbXVsYXRpb25SdW4SMQoPbmV4",
+            "dF9wYWdlX3Rva2VuGAIgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2luYXRpb24a",
+            "TgoGQ2FuY2VsGjgKB1JlcXVlc3QSEgoKcHJvamVjdF9pZBgBIAEoCRIZChFz",
+            "aW11bGF0aW9uX3J1bl9pZBgCIAEoCRoKCghSZXNwb25zZRo8CgVVc2FnZRIY",
+            "ChB0ZXh0X3R1cm5zX2NvdW50GAEgASgFEhkKEWF1ZGlvX3R1cm5zX2NvdW50",
+            "GAIgASgFIqUBCgZTdGF0dXMSGQoVU1RBVFVTX1BFTkRJTkdfVVBMT0FEEAAS",
+            "FQoRU1RBVFVTX0dFTkVSQVRJTkcQARISCg5TVEFUVVNfUlVOTklORxACEhYK",
+            "ElNUQVRVU19TVU1NQVJJWklORxADEhQKEFNUQVRVU19DT01QTEVURUQQBBIR",
+            "Cg1TVEFUVVNfRkFJTEVEEAUSFAoQU1RBVFVTX0NBTkNFTExFRBAGIrwCCghT",
+            "Y2VuYXJpbxINCgVsYWJlbBgBIAEoCRIUCgxpbnN0cnVjdGlvbnMYAiABKAkS",
+            "GgoSYWdlbnRfZXhwZWN0YXRpb25zGAMgASgJEikKBHRhZ3MYBCADKAsyGy5s",
+            "aXZla2l0LlNjZW5hcmlvLlRhZ3NFbnRyeRIQCgh1c2VyZGF0YRgFIAEoCRqE",
+            "AQoRQ3JlYXRlRnJvbVNlc3Npb24aPgoHUmVxdWVzdBISCgpwcm9qZWN0X2lk",
+            "GAEgASgJEg8KB3Jvb21faWQYAiABKAkSDgoGcmVnaW9uGAMgASgJGi8KCFJl",
+            "c3BvbnNlEiMKCHNjZW5hcmlvGAEgASgLMhEubGl2ZWtpdC5TY2VuYXJpbxor",
+            "CglUYWdzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJD",
+            "Cg1TY2VuYXJpb0dyb3VwEgwKBG5hbWUYASABKAkSJAoJc2NlbmFyaW9zGAIg",
+            "AygLMhEubGl2ZWtpdC5TY2VuYXJpbyKLAQoSU2ltdWxhdGlvbkRpc3BhdGNo",
+            "EhkKEXNpbXVsYXRpb25fcnVuX2lkGAEgASgJEg4KBmpvYl9pZBgCIAEoCRIj",
+            "CghzY2VuYXJpbxgDIAEoCzIRLmxpdmVraXQuU2NlbmFyaW8SJQoEbW9kZRgE",
+            "IAEoDjIXLmxpdmVraXQuU2ltdWxhdGlvbk1vZGUqZgoOU2ltdWxhdGlvbk1v",
+            "ZGUSHwobU0lNVUxBVElPTl9NT0RFX1VOU1BFQ0lGSUVEEAASGAoUU0lNVUxB",
+            "VElPTl9NT0RFX1RFWFQQARIZChVTSU1VTEFUSU9OX01PREVfQVVESU8QAjKe",
+            "BQoPQWdlbnRTaW11bGF0aW9uEmQKE0NyZWF0ZVNpbXVsYXRpb25SdW4SJS5s",
+            "aXZla2l0LlNpbXVsYXRpb25SdW4uQ3JlYXRlLlJlcXVlc3QaJi5saXZla2l0",
+            "LlNpbXVsYXRpb25SdW4uQ3JlYXRlLlJlc3BvbnNlEogBCh1Db25maXJtU2lt",
+            "dWxhdGlvblNvdXJjZVVwbG9hZBIyLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5D",
+            "b25maXJtU291cmNlVXBsb2FkLlJlcXVlc3QaMy5saXZla2l0LlNpbXVsYXRp",
+            "b25SdW4uQ29uZmlybVNvdXJjZVVwbG9hZC5SZXNwb25zZRJbChBHZXRTaW11",
+            "bGF0aW9uUnVuEiIubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkdldC5SZXF1ZXN0",
+            "GiMubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkdldC5SZXNwb25zZRJfChJMaXN0",
+            "U2ltdWxhdGlvblJ1bnMSIy5saXZla2l0LlNpbXVsYXRpb25SdW4uTGlzdC5S",
+            "ZXF1ZXN0GiQubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkxpc3QuUmVzcG9uc2US",
+            "ZAoTQ2FuY2VsU2ltdWxhdGlvblJ1bhIlLmxpdmVraXQuU2ltdWxhdGlvblJ1",
+            "bi5DYW5jZWwuUmVxdWVzdBomLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5DYW5j",
+            "ZWwuUmVzcG9uc2USdgoZQ3JlYXRlU2NlbmFyaW9Gcm9tU2Vzc2lvbhIrLmxp",
+            "dmVraXQuU2NlbmFyaW8uQ3JlYXRlRnJvbVNlc3Npb24uUmVxdWVzdBosLmxp",
+            "dmVraXQuU2NlbmFyaW8uQ3JlYXRlRnJvbVNlc3Npb24uUmVzcG9uc2VCRloj",
+            "Z2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0",
+            "LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Livekit.Agent.LivekitAgentSessionReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.LivekitCloudAgentReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.SimulationMode), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRunSummary), global::LiveKit.Proto.SimulationRunSummary.Parser, new[]{ "Passed", "Failed", "GoingWell", "ToImprove", "Issues", "ChatHistory" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRunSummary.Types.Issue), global::LiveKit.Proto.SimulationRunSummary.Types.Issue.Parser, new[]{ "Description", "Suggestion", "Label" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun), global::LiveKit.Proto.SimulationRun.Parser, new[]{ "Id", "ProjectId", "Status", "AgentDescription", "Error", "CreatedAt", "Jobs", "Summary", "AgentName", "ScenarioGroup", "EndedAt", "JobCount", "PassedCount", "FailedCount", "NumSimulations", "Usage" }, null, new[]{ typeof(global::LiveKit.Proto.SimulationRun.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Job), global::LiveKit.Proto.SimulationRun.Types.Job.Parser, new[]{ "Id", "Status", "Instructions", "Error", "AgentExpectations", "Label", "Tags", "RoomName", "ScenarioId", "StartedAt", "EndedAt", "RoomId", "Usage" }, null, new[]{ typeof(global::LiveKit.Proto.SimulationRun.Types.Job.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage), global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage.Parser, new[]{ "TextTurnsCount", "AudioTurnsCount" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create), global::LiveKit.Proto.SimulationRun.Types.Create.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenario), global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenario.Parser, new[]{ "Instructions", "AgentExpectations", "Metadata", "Label" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios), global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios.Parser, new[]{ "Scenarios_" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create.Types.Request), global::LiveKit.Proto.SimulationRun.Types.Create.Types.Request.Parser, new[]{ "ProjectId", "AgentName", "AgentDescription", "NumSimulations", "Region", "Scenarios", "GroupId" }, new[]{ "Source" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun), global::LiveKit.Proto.SimulationRun.Parser, new[]{ "Id", "ProjectId", "Status", "AgentDescription", "Error", "CreatedAt", "Jobs", "Summary", "AgentName", "ScenarioGroup", "EndedAt", "JobCount", "PassedCount", "FailedCount", "NumSimulations", "Usage", "Concurrency", "Mode" }, null, new[]{ typeof(global::LiveKit.Proto.SimulationRun.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Job), global::LiveKit.Proto.SimulationRun.Types.Job.Parser, new[]{ "Id", "Status", "Instructions", "Error", "AgentExpectations", "Label", "Tags", "RoomName", "StartedAt", "EndedAt", "RoomId", "Usage" }, null, new[]{ typeof(global::LiveKit.Proto.SimulationRun.Types.Job.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage), global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage.Parser, new[]{ "TextTurnsCount", "AudioTurnsCount" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create), global::LiveKit.Proto.SimulationRun.Types.Create.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create.Types.Request), global::LiveKit.Proto.SimulationRun.Types.Create.Types.Request.Parser, new[]{ "ProjectId", "AgentName", "NumSimulations", "Region", "ScenarioGroup", "Concurrency", "Mode" }, new[]{ "ScenarioGroup", "Concurrency" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create.Types.Response), global::LiveKit.Proto.SimulationRun.Types.Create.Types.Response.Parser, new[]{ "SimulationRunId", "PresignedPostRequest" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload), global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload.Types.Request), global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload.Types.Request.Parser, new[]{ "ProjectId", "SimulationRunId", "CodeEntrypoint" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload.Types.Response), global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload.Types.Response.Parser, null, null, null, null, null)}),
@@ -181,28 +134,34 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Cancel), global::LiveKit.Proto.SimulationRun.Types.Cancel.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Cancel.Types.Request), global::LiveKit.Proto.SimulationRun.Types.Cancel.Types.Request.Parser, new[]{ "ProjectId", "SimulationRunId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Cancel.Types.Response), global::LiveKit.Proto.SimulationRun.Types.Cancel.Types.Response.Parser, null, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Usage), global::LiveKit.Proto.SimulationRun.Types.Usage.Parser, new[]{ "TextTurnsCount", "AudioTurnsCount" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario), global::LiveKit.Proto.Scenario.Parser, new[]{ "Id", "ProjectId", "Label", "Instructions", "AgentExpectations", "SourceRoomId", "CreatedAt", "Status", "Error", "GroupId", "Metadata" }, null, new[]{ typeof(global::LiveKit.Proto.Scenario.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Create), global::LiveKit.Proto.Scenario.Types.Create.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Create.Types.Request), global::LiveKit.Proto.Scenario.Types.Create.Types.Request.Parser, new[]{ "ProjectId", "Label", "Instructions", "AgentExpectations", "GroupId", "Metadata" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Create.Types.Response), global::LiveKit.Proto.Scenario.Types.Create.Types.Response.Parser, new[]{ "Scenario" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.CreateFromSession), global::LiveKit.Proto.Scenario.Types.CreateFromSession.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.CreateFromSession.Types.Request), global::LiveKit.Proto.Scenario.Types.CreateFromSession.Types.Request.Parser, new[]{ "ProjectId", "RoomId", "GroupId", "Label", "Region" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario), global::LiveKit.Proto.Scenario.Parser, new[]{ "Label", "Instructions", "AgentExpectations", "Tags", "Userdata" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.CreateFromSession), global::LiveKit.Proto.Scenario.Types.CreateFromSession.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.CreateFromSession.Types.Request), global::LiveKit.Proto.Scenario.Types.CreateFromSession.Types.Request.Parser, new[]{ "ProjectId", "RoomId", "Region" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.CreateFromSession.Types.Response), global::LiveKit.Proto.Scenario.Types.CreateFromSession.Types.Response.Parser, new[]{ "Scenario" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Delete), global::LiveKit.Proto.Scenario.Types.Delete.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Delete.Types.Request), global::LiveKit.Proto.Scenario.Types.Delete.Types.Request.Parser, new[]{ "ProjectId", "ScenarioId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Delete.Types.Response), global::LiveKit.Proto.Scenario.Types.Delete.Types.Response.Parser, null, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Update), global::LiveKit.Proto.Scenario.Types.Update.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Update.Types.Request), global::LiveKit.Proto.Scenario.Types.Update.Types.Request.Parser, new[]{ "ProjectId", "ScenarioId", "Label", "Instructions", "AgentExpectations", "GroupId", "Metadata" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.Update.Types.Response), global::LiveKit.Proto.Scenario.Types.Update.Types.Response.Parser, new[]{ "Scenario" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.List), global::LiveKit.Proto.Scenario.Types.List.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.List.Types.Request), global::LiveKit.Proto.Scenario.Types.List.Types.Request.Parser, new[]{ "ProjectId", "GroupId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Scenario.Types.List.Types.Response), global::LiveKit.Proto.Scenario.Types.List.Types.Response.Parser, new[]{ "Scenarios" }, null, null, null, null)}),
             null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup), global::LiveKit.Proto.ScenarioGroup.Parser, new[]{ "Id", "ProjectId", "Label", "CreatedAt", "Scenarios", "ScenarioCount" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.Create), global::LiveKit.Proto.ScenarioGroup.Types.Create.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.Create.Types.Request), global::LiveKit.Proto.ScenarioGroup.Types.Create.Types.Request.Parser, new[]{ "ProjectId", "Label" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.Create.Types.Response), global::LiveKit.Proto.ScenarioGroup.Types.Create.Types.Response.Parser, new[]{ "ScenarioGroup" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.Delete), global::LiveKit.Proto.ScenarioGroup.Types.Delete.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.Delete.Types.Request), global::LiveKit.Proto.ScenarioGroup.Types.Delete.Types.Request.Parser, new[]{ "ProjectId", "GroupId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.Delete.Types.Response), global::LiveKit.Proto.ScenarioGroup.Types.Delete.Types.Response.Parser, null, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.List), global::LiveKit.Proto.ScenarioGroup.Types.List.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.List.Types.Request), global::LiveKit.Proto.ScenarioGroup.Types.List.Types.Request.Parser, new[]{ "ProjectId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup.Types.List.Types.Response), global::LiveKit.Proto.ScenarioGroup.Types.List.Types.Response.Parser, new[]{ "ScenarioGroups" }, null, null, null, null)})})
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ScenarioGroup), global::LiveKit.Proto.ScenarioGroup.Parser, new[]{ "Name", "Scenarios" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationDispatch), global::LiveKit.Proto.SimulationDispatch.Parser, new[]{ "SimulationRunId", "JobId", "Scenario", "Mode" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
+  #region Enums
+  /// <summary>
+  /// How the simulated user interacts with the agent under test.
+  /// </summary>
+  public enum SimulationMode {
+    [pbr::OriginalName("SIMULATION_MODE_UNSPECIFIED")] Unspecified = 0,
+    /// <summary>
+    /// The simulator chats over text streams (no audio).
+    /// </summary>
+    [pbr::OriginalName("SIMULATION_MODE_TEXT")] Text = 1,
+    /// <summary>
+    /// The simulator publishes/subscribes audio in the room.
+    /// </summary>
+    [pbr::OriginalName("SIMULATION_MODE_AUDIO")] Audio = 2,
+  }
+
+  #endregion
+
   #region Messages
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SimulationRunSummary : pb::IMessage<SimulationRunSummary>
@@ -896,6 +855,8 @@ namespace LiveKit.Proto {
       failedCount_ = other.failedCount_;
       numSimulations_ = other.numSimulations_;
       usage_ = other.usage_ != null ? other.usage_.Clone() : null;
+      concurrency_ = other.concurrency_;
+      mode_ = other.mode_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1099,6 +1060,36 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "concurrency" field.</summary>
+    public const int ConcurrencyFieldNumber = 17;
+    private int concurrency_;
+    /// <summary>
+    /// Maximum simulate jobs running in parallel for this run (0 = server default).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Concurrency {
+      get { return concurrency_; }
+      set {
+        concurrency_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mode" field.</summary>
+    public const int ModeFieldNumber = 18;
+    private global::LiveKit.Proto.SimulationMode mode_ = global::LiveKit.Proto.SimulationMode.Unspecified;
+    /// <summary>
+    /// Conversation mode for every job in this run; unspecified = TEXT.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.SimulationMode Mode {
+      get { return mode_; }
+      set {
+        mode_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1130,6 +1121,8 @@ namespace LiveKit.Proto {
       if (FailedCount != other.FailedCount) return false;
       if (NumSimulations != other.NumSimulations) return false;
       if (!object.Equals(Usage, other.Usage)) return false;
+      if (Concurrency != other.Concurrency) return false;
+      if (Mode != other.Mode) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1153,6 +1146,8 @@ namespace LiveKit.Proto {
       if (FailedCount != 0) hash ^= FailedCount.GetHashCode();
       if (NumSimulations != 0) hash ^= NumSimulations.GetHashCode();
       if (usage_ != null) hash ^= Usage.GetHashCode();
+      if (Concurrency != 0) hash ^= Concurrency.GetHashCode();
+      if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) hash ^= Mode.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1232,6 +1227,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(130, 1);
         output.WriteMessage(Usage);
       }
+      if (Concurrency != 0) {
+        output.WriteRawTag(136, 1);
+        output.WriteInt32(Concurrency);
+      }
+      if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+        output.WriteRawTag(144, 1);
+        output.WriteEnum((int) Mode);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1303,6 +1306,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(130, 1);
         output.WriteMessage(Usage);
       }
+      if (Concurrency != 0) {
+        output.WriteRawTag(136, 1);
+        output.WriteInt32(Concurrency);
+      }
+      if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+        output.WriteRawTag(144, 1);
+        output.WriteEnum((int) Mode);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1358,6 +1369,12 @@ namespace LiveKit.Proto {
       }
       if (usage_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(Usage);
+      }
+      if (Concurrency != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeInt32Size(Concurrency);
+      }
+      if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1431,6 +1448,12 @@ namespace LiveKit.Proto {
           Usage = new global::LiveKit.Proto.SimulationRun.Types.Usage();
         }
         Usage.MergeFrom(other.Usage);
+      }
+      if (other.Concurrency != 0) {
+        Concurrency = other.Concurrency;
+      }
+      if (other.Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+        Mode = other.Mode;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1528,6 +1551,14 @@ namespace LiveKit.Proto {
               Usage = new global::LiveKit.Proto.SimulationRun.Types.Usage();
             }
             input.ReadMessage(Usage);
+            break;
+          }
+          case 136: {
+            Concurrency = input.ReadInt32();
+            break;
+          }
+          case 144: {
+            Mode = (global::LiveKit.Proto.SimulationMode) input.ReadEnum();
             break;
           }
         }
@@ -1628,6 +1659,14 @@ namespace LiveKit.Proto {
             input.ReadMessage(Usage);
             break;
           }
+          case 136: {
+            Concurrency = input.ReadInt32();
+            break;
+          }
+          case 144: {
+            Mode = (global::LiveKit.Proto.SimulationMode) input.ReadEnum();
+            break;
+          }
         }
       }
     }
@@ -1691,7 +1730,6 @@ namespace LiveKit.Proto {
           label_ = other.label_;
           tags_ = other.tags_.Clone();
           roomName_ = other.roomName_;
-          scenarioId_ = other.scenarioId_;
           startedAt_ = other.startedAt_ != null ? other.startedAt_.Clone() : null;
           endedAt_ = other.endedAt_ != null ? other.endedAt_.Clone() : null;
           roomId_ = other.roomId_;
@@ -1800,18 +1838,6 @@ namespace LiveKit.Proto {
           }
         }
 
-        /// <summary>Field number for the "scenario_id" field.</summary>
-        public const int ScenarioIdFieldNumber = 9;
-        private string scenarioId_ = "";
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public string ScenarioId {
-          get { return scenarioId_; }
-          set {
-            scenarioId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
         /// <summary>Field number for the "started_at" field.</summary>
         public const int StartedAtFieldNumber = 10;
         private global::Google.Protobuf.WellKnownTypes.Timestamp startedAt_;
@@ -1883,7 +1909,6 @@ namespace LiveKit.Proto {
           if (Label != other.Label) return false;
           if(!tags_.Equals(other.tags_)) return false;
           if (RoomName != other.RoomName) return false;
-          if (ScenarioId != other.ScenarioId) return false;
           if (!object.Equals(StartedAt, other.StartedAt)) return false;
           if (!object.Equals(EndedAt, other.EndedAt)) return false;
           if (RoomId != other.RoomId) return false;
@@ -1903,7 +1928,6 @@ namespace LiveKit.Proto {
           if (Label.Length != 0) hash ^= Label.GetHashCode();
           hash ^= tags_.GetHashCode();
           if (RoomName.Length != 0) hash ^= RoomName.GetHashCode();
-          if (ScenarioId.Length != 0) hash ^= ScenarioId.GetHashCode();
           if (startedAt_ != null) hash ^= StartedAt.GetHashCode();
           if (endedAt_ != null) hash ^= EndedAt.GetHashCode();
           if (RoomId.Length != 0) hash ^= RoomId.GetHashCode();
@@ -1954,10 +1978,6 @@ namespace LiveKit.Proto {
           if (RoomName.Length != 0) {
             output.WriteRawTag(66);
             output.WriteString(RoomName);
-          }
-          if (ScenarioId.Length != 0) {
-            output.WriteRawTag(74);
-            output.WriteString(ScenarioId);
           }
           if (startedAt_ != null) {
             output.WriteRawTag(82);
@@ -2014,10 +2034,6 @@ namespace LiveKit.Proto {
             output.WriteRawTag(66);
             output.WriteString(RoomName);
           }
-          if (ScenarioId.Length != 0) {
-            output.WriteRawTag(74);
-            output.WriteString(ScenarioId);
-          }
           if (startedAt_ != null) {
             output.WriteRawTag(82);
             output.WriteMessage(StartedAt);
@@ -2066,9 +2082,6 @@ namespace LiveKit.Proto {
           if (RoomName.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(RoomName);
           }
-          if (ScenarioId.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(ScenarioId);
-          }
           if (startedAt_ != null) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(StartedAt);
           }
@@ -2114,9 +2127,6 @@ namespace LiveKit.Proto {
           tags_.Add(other.tags_);
           if (other.RoomName.Length != 0) {
             RoomName = other.RoomName;
-          }
-          if (other.ScenarioId.Length != 0) {
-            ScenarioId = other.ScenarioId;
           }
           if (other.startedAt_ != null) {
             if (startedAt_ == null) {
@@ -2188,10 +2198,6 @@ namespace LiveKit.Proto {
               }
               case 66: {
                 RoomName = input.ReadString();
-                break;
-              }
-              case 74: {
-                ScenarioId = input.ReadString();
                 break;
               }
               case 82: {
@@ -2268,10 +2274,6 @@ namespace LiveKit.Proto {
               }
               case 66: {
                 RoomName = input.ReadString();
-                break;
-              }
-              case 74: {
-                ScenarioId = input.ReadString();
                 break;
               }
               case 82: {
@@ -2722,491 +2724,6 @@ namespace LiveKit.Proto {
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static partial class Types {
           [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Scenario : pb::IMessage<Scenario>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Scenario> _parser = new pb::MessageParser<Scenario>(() => new Scenario());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Scenario> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.SimulationRun.Types.Create.Descriptor.NestedTypes[0]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Scenario() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Scenario(Scenario other) : this() {
-              instructions_ = other.instructions_;
-              agentExpectations_ = other.agentExpectations_;
-              metadata_ = other.metadata_.Clone();
-              label_ = other.label_;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Scenario Clone() {
-              return new Scenario(this);
-            }
-
-            /// <summary>Field number for the "instructions" field.</summary>
-            public const int InstructionsFieldNumber = 1;
-            private string instructions_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string Instructions {
-              get { return instructions_; }
-              set {
-                instructions_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "agent_expectations" field.</summary>
-            public const int AgentExpectationsFieldNumber = 2;
-            private string agentExpectations_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string AgentExpectations {
-              get { return agentExpectations_; }
-              set {
-                agentExpectations_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "metadata" field.</summary>
-            public const int MetadataFieldNumber = 3;
-            private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-                = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 26);
-            private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public pbc::MapField<string, string> Metadata {
-              get { return metadata_; }
-            }
-
-            /// <summary>Field number for the "label" field.</summary>
-            public const int LabelFieldNumber = 4;
-            private string label_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string Label {
-              get { return label_; }
-              set {
-                label_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Scenario);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Scenario other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (Instructions != other.Instructions) return false;
-              if (AgentExpectations != other.AgentExpectations) return false;
-              if (!Metadata.Equals(other.Metadata)) return false;
-              if (Label != other.Label) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (Instructions.Length != 0) hash ^= Instructions.GetHashCode();
-              if (AgentExpectations.Length != 0) hash ^= AgentExpectations.GetHashCode();
-              hash ^= Metadata.GetHashCode();
-              if (Label.Length != 0) hash ^= Label.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (Instructions.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(AgentExpectations);
-              }
-              metadata_.WriteTo(output, _map_metadata_codec);
-              if (Label.Length != 0) {
-                output.WriteRawTag(34);
-                output.WriteString(Label);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (Instructions.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(AgentExpectations);
-              }
-              metadata_.WriteTo(ref output, _map_metadata_codec);
-              if (Label.Length != 0) {
-                output.WriteRawTag(34);
-                output.WriteString(Label);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (Instructions.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentExpectations);
-              }
-              size += metadata_.CalculateSize(_map_metadata_codec);
-              if (Label.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(Label);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Scenario other) {
-              if (other == null) {
-                return;
-              }
-              if (other.Instructions.Length != 0) {
-                Instructions = other.Instructions;
-              }
-              if (other.AgentExpectations.Length != 0) {
-                AgentExpectations = other.AgentExpectations;
-              }
-              metadata_.MergeFrom(other.metadata_);
-              if (other.Label.Length != 0) {
-                Label = other.Label;
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    Instructions = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    AgentExpectations = input.ReadString();
-                    break;
-                  }
-                  case 26: {
-                    metadata_.AddEntriesFrom(input, _map_metadata_codec);
-                    break;
-                  }
-                  case 34: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    Instructions = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    AgentExpectations = input.ReadString();
-                    break;
-                  }
-                  case 26: {
-                    metadata_.AddEntriesFrom(ref input, _map_metadata_codec);
-                    break;
-                  }
-                  case 34: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Scenarios : pb::IMessage<Scenarios>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Scenarios> _parser = new pb::MessageParser<Scenarios>(() => new Scenarios());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Scenarios> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.SimulationRun.Types.Create.Descriptor.NestedTypes[1]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Scenarios() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Scenarios(Scenarios other) : this() {
-              scenarios_ = other.scenarios_.Clone();
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Scenarios Clone() {
-              return new Scenarios(this);
-            }
-
-            /// <summary>Field number for the "scenarios" field.</summary>
-            public const int Scenarios_FieldNumber = 1;
-            private static readonly pb::FieldCodec<global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenario> _repeated_scenarios_codec
-                = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenario.Parser);
-            private readonly pbc::RepeatedField<global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenario> scenarios_ = new pbc::RepeatedField<global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenario>();
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public pbc::RepeatedField<global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenario> Scenarios_ {
-              get { return scenarios_; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Scenarios);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Scenarios other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if(!scenarios_.Equals(other.scenarios_)) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              hash ^= scenarios_.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              scenarios_.WriteTo(output, _repeated_scenarios_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              scenarios_.WriteTo(ref output, _repeated_scenarios_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              size += scenarios_.CalculateSize(_repeated_scenarios_codec);
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Scenarios other) {
-              if (other == null) {
-                return;
-              }
-              scenarios_.Add(other.scenarios_);
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    scenarios_.AddEntriesFrom(input, _repeated_scenarios_codec);
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    scenarios_.AddEntriesFrom(ref input, _repeated_scenarios_codec);
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
           public sealed partial class Request : pb::IMessage<Request>
           #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
               , pb::IBufferMessage
@@ -3214,6 +2731,7 @@ namespace LiveKit.Proto {
           {
             private static readonly pb::MessageParser<Request> _parser = new pb::MessageParser<Request>(() => new Request());
             private pb::UnknownFieldSet _unknownFields;
+            private int _hasBits0;
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public static pb::MessageParser<Request> Parser { get { return _parser; } }
@@ -3221,7 +2739,7 @@ namespace LiveKit.Proto {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.SimulationRun.Types.Create.Descriptor.NestedTypes[2]; }
+              get { return global::LiveKit.Proto.SimulationRun.Types.Create.Descriptor.NestedTypes[0]; }
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3241,20 +2759,14 @@ namespace LiveKit.Proto {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public Request(Request other) : this() {
+              _hasBits0 = other._hasBits0;
               projectId_ = other.projectId_;
               agentName_ = other.agentName_;
-              agentDescription_ = other.agentDescription_;
               numSimulations_ = other.numSimulations_;
               region_ = other.region_;
-              switch (other.SourceCase) {
-                case SourceOneofCase.Scenarios:
-                  Scenarios = other.Scenarios.Clone();
-                  break;
-                case SourceOneofCase.GroupId:
-                  GroupId = other.GroupId;
-                  break;
-              }
-
+              scenarioGroup_ = other.scenarioGroup_ != null ? other.scenarioGroup_.Clone() : null;
+              concurrency_ = other.concurrency_;
+              mode_ = other.mode_;
               _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
             }
 
@@ -3288,18 +2800,6 @@ namespace LiveKit.Proto {
               }
             }
 
-            /// <summary>Field number for the "agent_description" field.</summary>
-            public const int AgentDescriptionFieldNumber = 3;
-            private string agentDescription_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string AgentDescription {
-              get { return agentDescription_; }
-              set {
-                agentDescription_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
             /// <summary>Field number for the "num_simulations" field.</summary>
             public const int NumSimulationsFieldNumber = 4;
             private int numSimulations_;
@@ -3324,63 +2824,66 @@ namespace LiveKit.Proto {
               }
             }
 
-            /// <summary>Field number for the "scenarios" field.</summary>
-            public const int ScenariosFieldNumber = 7;
+            /// <summary>Field number for the "scenario_group" field.</summary>
+            public const int ScenarioGroupFieldNumber = 7;
+            private global::LiveKit.Proto.ScenarioGroup scenarioGroup_;
+            /// <summary>
+            /// When set, run these scenarios (loaded from a scenarios.yaml).
+            /// When unset, generate num_simulations scenarios from the uploaded agent source.
+            /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios Scenarios {
-              get { return sourceCase_ == SourceOneofCase.Scenarios ? (global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios) source_ : null; }
+            public global::LiveKit.Proto.ScenarioGroup ScenarioGroup {
+              get { return scenarioGroup_; }
               set {
-                source_ = value;
-                sourceCase_ = value == null ? SourceOneofCase.None : SourceOneofCase.Scenarios;
+                scenarioGroup_ = value;
               }
             }
 
-            /// <summary>Field number for the "group_id" field.</summary>
-            public const int GroupIdFieldNumber = 5;
+            /// <summary>Field number for the "concurrency" field.</summary>
+            public const int ConcurrencyFieldNumber = 8;
+            private readonly static int ConcurrencyDefaultValue = 0;
+
+            private int concurrency_;
+            /// <summary>
+            /// Maximum simulate jobs running in parallel for this run. Clamped to the
+            /// project's concurrency quota; 0/unset uses the server default.
+            /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string GroupId {
-              get { return HasGroupId ? (string) source_ : ""; }
+            public int Concurrency {
+              get { if ((_hasBits0 & 1) != 0) { return concurrency_; } else { return ConcurrencyDefaultValue; } }
               set {
-                source_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-                sourceCase_ = SourceOneofCase.GroupId;
+                _hasBits0 |= 1;
+                concurrency_ = value;
               }
             }
-            /// <summary>Gets whether the "group_id" field is set</summary>
+            /// <summary>Gets whether the "concurrency" field is set</summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool HasGroupId {
-              get { return sourceCase_ == SourceOneofCase.GroupId; }
+            public bool HasConcurrency {
+              get { return (_hasBits0 & 1) != 0; }
             }
-            /// <summary> Clears the value of the oneof if it's currently set to "group_id" </summary>
+            /// <summary>Clears the value of the "concurrency" field</summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void ClearGroupId() {
-              if (HasGroupId) {
-                ClearSource();
+            public void ClearConcurrency() {
+              _hasBits0 &= ~1;
+            }
+
+            /// <summary>Field number for the "mode" field.</summary>
+            public const int ModeFieldNumber = 9;
+            private global::LiveKit.Proto.SimulationMode mode_ = global::LiveKit.Proto.SimulationMode.Unspecified;
+            /// <summary>
+            /// Conversation mode for every job in this run; unspecified = TEXT.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public global::LiveKit.Proto.SimulationMode Mode {
+              get { return mode_; }
+              set {
+                mode_ = value;
               }
-            }
-
-            private object source_;
-            /// <summary>Enum of possible cases for the "source" oneof.</summary>
-            public enum SourceOneofCase {
-              None = 0,
-              Scenarios = 7,
-              GroupId = 5,
-            }
-            private SourceOneofCase sourceCase_ = SourceOneofCase.None;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public SourceOneofCase SourceCase {
-              get { return sourceCase_; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void ClearSource() {
-              sourceCase_ = SourceOneofCase.None;
-              source_ = null;
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3400,12 +2903,11 @@ namespace LiveKit.Proto {
               }
               if (ProjectId != other.ProjectId) return false;
               if (AgentName != other.AgentName) return false;
-              if (AgentDescription != other.AgentDescription) return false;
               if (NumSimulations != other.NumSimulations) return false;
               if (Region != other.Region) return false;
-              if (!object.Equals(Scenarios, other.Scenarios)) return false;
-              if (GroupId != other.GroupId) return false;
-              if (SourceCase != other.SourceCase) return false;
+              if (!object.Equals(ScenarioGroup, other.ScenarioGroup)) return false;
+              if (Concurrency != other.Concurrency) return false;
+              if (Mode != other.Mode) return false;
               return Equals(_unknownFields, other._unknownFields);
             }
 
@@ -3415,12 +2917,11 @@ namespace LiveKit.Proto {
               int hash = 1;
               if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
               if (AgentName.Length != 0) hash ^= AgentName.GetHashCode();
-              if (AgentDescription.Length != 0) hash ^= AgentDescription.GetHashCode();
               if (NumSimulations != 0) hash ^= NumSimulations.GetHashCode();
               if (Region.Length != 0) hash ^= Region.GetHashCode();
-              if (sourceCase_ == SourceOneofCase.Scenarios) hash ^= Scenarios.GetHashCode();
-              if (HasGroupId) hash ^= GroupId.GetHashCode();
-              hash ^= (int) sourceCase_;
+              if (scenarioGroup_ != null) hash ^= ScenarioGroup.GetHashCode();
+              if (HasConcurrency) hash ^= Concurrency.GetHashCode();
+              if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) hash ^= Mode.GetHashCode();
               if (_unknownFields != null) {
                 hash ^= _unknownFields.GetHashCode();
               }
@@ -3447,25 +2948,25 @@ namespace LiveKit.Proto {
                 output.WriteRawTag(18);
                 output.WriteString(AgentName);
               }
-              if (AgentDescription.Length != 0) {
-                output.WriteRawTag(26);
-                output.WriteString(AgentDescription);
-              }
               if (NumSimulations != 0) {
                 output.WriteRawTag(32);
                 output.WriteInt32(NumSimulations);
-              }
-              if (HasGroupId) {
-                output.WriteRawTag(42);
-                output.WriteString(GroupId);
               }
               if (Region.Length != 0) {
                 output.WriteRawTag(50);
                 output.WriteString(Region);
               }
-              if (sourceCase_ == SourceOneofCase.Scenarios) {
+              if (scenarioGroup_ != null) {
                 output.WriteRawTag(58);
-                output.WriteMessage(Scenarios);
+                output.WriteMessage(ScenarioGroup);
+              }
+              if (HasConcurrency) {
+                output.WriteRawTag(64);
+                output.WriteInt32(Concurrency);
+              }
+              if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+                output.WriteRawTag(72);
+                output.WriteEnum((int) Mode);
               }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(output);
@@ -3485,25 +2986,25 @@ namespace LiveKit.Proto {
                 output.WriteRawTag(18);
                 output.WriteString(AgentName);
               }
-              if (AgentDescription.Length != 0) {
-                output.WriteRawTag(26);
-                output.WriteString(AgentDescription);
-              }
               if (NumSimulations != 0) {
                 output.WriteRawTag(32);
                 output.WriteInt32(NumSimulations);
-              }
-              if (HasGroupId) {
-                output.WriteRawTag(42);
-                output.WriteString(GroupId);
               }
               if (Region.Length != 0) {
                 output.WriteRawTag(50);
                 output.WriteString(Region);
               }
-              if (sourceCase_ == SourceOneofCase.Scenarios) {
+              if (scenarioGroup_ != null) {
                 output.WriteRawTag(58);
-                output.WriteMessage(Scenarios);
+                output.WriteMessage(ScenarioGroup);
+              }
+              if (HasConcurrency) {
+                output.WriteRawTag(64);
+                output.WriteInt32(Concurrency);
+              }
+              if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+                output.WriteRawTag(72);
+                output.WriteEnum((int) Mode);
               }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(ref output);
@@ -3521,20 +3022,20 @@ namespace LiveKit.Proto {
               if (AgentName.Length != 0) {
                 size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentName);
               }
-              if (AgentDescription.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentDescription);
-              }
               if (NumSimulations != 0) {
                 size += 1 + pb::CodedOutputStream.ComputeInt32Size(NumSimulations);
               }
               if (Region.Length != 0) {
                 size += 1 + pb::CodedOutputStream.ComputeStringSize(Region);
               }
-              if (sourceCase_ == SourceOneofCase.Scenarios) {
-                size += 1 + pb::CodedOutputStream.ComputeMessageSize(Scenarios);
+              if (scenarioGroup_ != null) {
+                size += 1 + pb::CodedOutputStream.ComputeMessageSize(ScenarioGroup);
               }
-              if (HasGroupId) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupId);
+              if (HasConcurrency) {
+                size += 1 + pb::CodedOutputStream.ComputeInt32Size(Concurrency);
+              }
+              if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+                size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
               }
               if (_unknownFields != null) {
                 size += _unknownFields.CalculateSize();
@@ -3554,27 +3055,24 @@ namespace LiveKit.Proto {
               if (other.AgentName.Length != 0) {
                 AgentName = other.AgentName;
               }
-              if (other.AgentDescription.Length != 0) {
-                AgentDescription = other.AgentDescription;
-              }
               if (other.NumSimulations != 0) {
                 NumSimulations = other.NumSimulations;
               }
               if (other.Region.Length != 0) {
                 Region = other.Region;
               }
-              switch (other.SourceCase) {
-                case SourceOneofCase.Scenarios:
-                  if (Scenarios == null) {
-                    Scenarios = new global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios();
-                  }
-                  Scenarios.MergeFrom(other.Scenarios);
-                  break;
-                case SourceOneofCase.GroupId:
-                  GroupId = other.GroupId;
-                  break;
+              if (other.scenarioGroup_ != null) {
+                if (scenarioGroup_ == null) {
+                  ScenarioGroup = new global::LiveKit.Proto.ScenarioGroup();
+                }
+                ScenarioGroup.MergeFrom(other.ScenarioGroup);
               }
-
+              if (other.HasConcurrency) {
+                Concurrency = other.Concurrency;
+              }
+              if (other.Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+                Mode = other.Mode;
+              }
               _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
             }
 
@@ -3602,16 +3100,8 @@ namespace LiveKit.Proto {
                     AgentName = input.ReadString();
                     break;
                   }
-                  case 26: {
-                    AgentDescription = input.ReadString();
-                    break;
-                  }
                   case 32: {
                     NumSimulations = input.ReadInt32();
-                    break;
-                  }
-                  case 42: {
-                    GroupId = input.ReadString();
                     break;
                   }
                   case 50: {
@@ -3619,12 +3109,18 @@ namespace LiveKit.Proto {
                     break;
                   }
                   case 58: {
-                    global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios subBuilder = new global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios();
-                    if (sourceCase_ == SourceOneofCase.Scenarios) {
-                      subBuilder.MergeFrom(Scenarios);
+                    if (scenarioGroup_ == null) {
+                      ScenarioGroup = new global::LiveKit.Proto.ScenarioGroup();
                     }
-                    input.ReadMessage(subBuilder);
-                    Scenarios = subBuilder;
+                    input.ReadMessage(ScenarioGroup);
+                    break;
+                  }
+                  case 64: {
+                    Concurrency = input.ReadInt32();
+                    break;
+                  }
+                  case 72: {
+                    Mode = (global::LiveKit.Proto.SimulationMode) input.ReadEnum();
                     break;
                   }
                 }
@@ -3654,16 +3150,8 @@ namespace LiveKit.Proto {
                     AgentName = input.ReadString();
                     break;
                   }
-                  case 26: {
-                    AgentDescription = input.ReadString();
-                    break;
-                  }
                   case 32: {
                     NumSimulations = input.ReadInt32();
-                    break;
-                  }
-                  case 42: {
-                    GroupId = input.ReadString();
                     break;
                   }
                   case 50: {
@@ -3671,12 +3159,18 @@ namespace LiveKit.Proto {
                     break;
                   }
                   case 58: {
-                    global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios subBuilder = new global::LiveKit.Proto.SimulationRun.Types.Create.Types.Scenarios();
-                    if (sourceCase_ == SourceOneofCase.Scenarios) {
-                      subBuilder.MergeFrom(Scenarios);
+                    if (scenarioGroup_ == null) {
+                      ScenarioGroup = new global::LiveKit.Proto.ScenarioGroup();
                     }
-                    input.ReadMessage(subBuilder);
-                    Scenarios = subBuilder;
+                    input.ReadMessage(ScenarioGroup);
+                    break;
+                  }
+                  case 64: {
+                    Concurrency = input.ReadInt32();
+                    break;
+                  }
+                  case 72: {
+                    Mode = (global::LiveKit.Proto.SimulationMode) input.ReadEnum();
                     break;
                   }
                 }
@@ -3701,7 +3195,7 @@ namespace LiveKit.Proto {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.SimulationRun.Types.Create.Descriptor.NestedTypes[3]; }
+              get { return global::LiveKit.Proto.SimulationRun.Types.Create.Descriptor.NestedTypes[1]; }
             }
 
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6653,6 +6147,10 @@ namespace LiveKit.Proto {
 
   }
 
+  /// <summary>
+  /// A single scenario, mirroring one entry in a scenarios.yaml file. Scenarios
+  /// are no longer stored server-side; the yaml file is the source of truth.
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Scenario : pb::IMessage<Scenario>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -6688,17 +6186,11 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public Scenario(Scenario other) : this() {
-      id_ = other.id_;
-      projectId_ = other.projectId_;
       label_ = other.label_;
       instructions_ = other.instructions_;
       agentExpectations_ = other.agentExpectations_;
-      sourceRoomId_ = other.sourceRoomId_;
-      createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
-      status_ = other.status_;
-      error_ = other.error_;
-      groupId_ = other.groupId_;
-      metadata_ = other.metadata_.Clone();
+      tags_ = other.tags_.Clone();
+      userdata_ = other.userdata_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -6708,32 +6200,8 @@ namespace LiveKit.Proto {
       return new Scenario(this);
     }
 
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private string id_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Id {
-      get { return id_; }
-      set {
-        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "project_id" field.</summary>
-    public const int ProjectIdFieldNumber = 2;
-    private string projectId_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ProjectId {
-      get { return projectId_; }
-      set {
-        projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "label" field.</summary>
-    public const int LabelFieldNumber = 3;
+    public const int LabelFieldNumber = 1;
     private string label_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -6745,7 +6213,7 @@ namespace LiveKit.Proto {
     }
 
     /// <summary>Field number for the "instructions" field.</summary>
-    public const int InstructionsFieldNumber = 4;
+    public const int InstructionsFieldNumber = 2;
     private string instructions_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -6757,7 +6225,7 @@ namespace LiveKit.Proto {
     }
 
     /// <summary>Field number for the "agent_expectations" field.</summary>
-    public const int AgentExpectationsFieldNumber = 5;
+    public const int AgentExpectationsFieldNumber = 3;
     private string agentExpectations_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -6768,78 +6236,34 @@ namespace LiveKit.Proto {
       }
     }
 
-    /// <summary>Field number for the "source_room_id" field.</summary>
-    public const int SourceRoomIdFieldNumber = 6;
-    private string sourceRoomId_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string SourceRoomId {
-      get { return sourceRoomId_; }
-      set {
-        sourceRoomId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "created_at" field.</summary>
-    public const int CreatedAtFieldNumber = 7;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
-      get { return createdAt_; }
-      set {
-        createdAt_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "status" field.</summary>
-    public const int StatusFieldNumber = 8;
-    private global::LiveKit.Proto.Scenario.Types.Status status_ = global::LiveKit.Proto.Scenario.Types.Status.Generating;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::LiveKit.Proto.Scenario.Types.Status Status {
-      get { return status_; }
-      set {
-        status_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "error" field.</summary>
-    public const int ErrorFieldNumber = 9;
-    private string error_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Error {
-      get { return error_; }
-      set {
-        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "group_id" field.</summary>
-    public const int GroupIdFieldNumber = 10;
-    private string groupId_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string GroupId {
-      get { return groupId_; }
-      set {
-        groupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "metadata" field.</summary>
-    public const int MetadataFieldNumber = 11;
-    private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 90);
-    private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
+    /// <summary>Field number for the "tags" field.</summary>
+    public const int TagsFieldNumber = 4;
+    private static readonly pbc::MapField<string, string>.Codec _map_tags_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 34);
+    private readonly pbc::MapField<string, string> tags_ = new pbc::MapField<string, string>();
     /// <summary>
     /// Set as participant attributes on the simulation participant's access token.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::MapField<string, string> Metadata {
-      get { return metadata_; }
+    public pbc::MapField<string, string> Tags {
+      get { return tags_; }
+    }
+
+    /// <summary>Field number for the "userdata" field.</summary>
+    public const int UserdataFieldNumber = 5;
+    private string userdata_ = "";
+    /// <summary>
+    /// Arbitrary JSON-encoded object, surfaced to the agent under test as
+    /// SimulationContext userdata (e.g. inputs and benchmark target state).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Userdata {
+      get { return userdata_; }
+      set {
+        userdata_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6857,17 +6281,11 @@ namespace LiveKit.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
-      if (ProjectId != other.ProjectId) return false;
       if (Label != other.Label) return false;
       if (Instructions != other.Instructions) return false;
       if (AgentExpectations != other.AgentExpectations) return false;
-      if (SourceRoomId != other.SourceRoomId) return false;
-      if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
-      if (Status != other.Status) return false;
-      if (Error != other.Error) return false;
-      if (GroupId != other.GroupId) return false;
-      if (!Metadata.Equals(other.Metadata)) return false;
+      if (!Tags.Equals(other.Tags)) return false;
+      if (Userdata != other.Userdata) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -6875,17 +6293,11 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id.Length != 0) hash ^= Id.GetHashCode();
-      if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
       if (Label.Length != 0) hash ^= Label.GetHashCode();
       if (Instructions.Length != 0) hash ^= Instructions.GetHashCode();
       if (AgentExpectations.Length != 0) hash ^= AgentExpectations.GetHashCode();
-      if (SourceRoomId.Length != 0) hash ^= SourceRoomId.GetHashCode();
-      if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
-      if (Status != global::LiveKit.Proto.Scenario.Types.Status.Generating) hash ^= Status.GetHashCode();
-      if (Error.Length != 0) hash ^= Error.GetHashCode();
-      if (GroupId.Length != 0) hash ^= GroupId.GetHashCode();
-      hash ^= Metadata.GetHashCode();
+      hash ^= Tags.GetHashCode();
+      if (Userdata.Length != 0) hash ^= Userdata.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6904,47 +6316,23 @@ namespace LiveKit.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
-      if (ProjectId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(ProjectId);
-      }
       if (Label.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(10);
         output.WriteString(Label);
       }
       if (Instructions.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(18);
         output.WriteString(Instructions);
       }
       if (AgentExpectations.Length != 0) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(26);
         output.WriteString(AgentExpectations);
       }
-      if (SourceRoomId.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(SourceRoomId);
+      tags_.WriteTo(output, _map_tags_codec);
+      if (Userdata.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Userdata);
       }
-      if (createdAt_ != null) {
-        output.WriteRawTag(58);
-        output.WriteMessage(CreatedAt);
-      }
-      if (Status != global::LiveKit.Proto.Scenario.Types.Status.Generating) {
-        output.WriteRawTag(64);
-        output.WriteEnum((int) Status);
-      }
-      if (Error.Length != 0) {
-        output.WriteRawTag(74);
-        output.WriteString(Error);
-      }
-      if (GroupId.Length != 0) {
-        output.WriteRawTag(82);
-        output.WriteString(GroupId);
-      }
-      metadata_.WriteTo(output, _map_metadata_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -6955,47 +6343,23 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
-      if (ProjectId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(ProjectId);
-      }
       if (Label.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(10);
         output.WriteString(Label);
       }
       if (Instructions.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(18);
         output.WriteString(Instructions);
       }
       if (AgentExpectations.Length != 0) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(26);
         output.WriteString(AgentExpectations);
       }
-      if (SourceRoomId.Length != 0) {
-        output.WriteRawTag(50);
-        output.WriteString(SourceRoomId);
+      tags_.WriteTo(ref output, _map_tags_codec);
+      if (Userdata.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Userdata);
       }
-      if (createdAt_ != null) {
-        output.WriteRawTag(58);
-        output.WriteMessage(CreatedAt);
-      }
-      if (Status != global::LiveKit.Proto.Scenario.Types.Status.Generating) {
-        output.WriteRawTag(64);
-        output.WriteEnum((int) Status);
-      }
-      if (Error.Length != 0) {
-        output.WriteRawTag(74);
-        output.WriteString(Error);
-      }
-      if (GroupId.Length != 0) {
-        output.WriteRawTag(82);
-        output.WriteString(GroupId);
-      }
-      metadata_.WriteTo(ref output, _map_metadata_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -7006,12 +6370,6 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Id.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
-      }
-      if (ProjectId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-      }
       if (Label.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Label);
       }
@@ -7021,22 +6379,10 @@ namespace LiveKit.Proto {
       if (AgentExpectations.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentExpectations);
       }
-      if (SourceRoomId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SourceRoomId);
+      size += tags_.CalculateSize(_map_tags_codec);
+      if (Userdata.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Userdata);
       }
-      if (createdAt_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
-      }
-      if (Status != global::LiveKit.Proto.Scenario.Types.Status.Generating) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
-      }
-      if (Error.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
-      }
-      if (GroupId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupId);
-      }
-      size += metadata_.CalculateSize(_map_metadata_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -7049,12 +6395,6 @@ namespace LiveKit.Proto {
       if (other == null) {
         return;
       }
-      if (other.Id.Length != 0) {
-        Id = other.Id;
-      }
-      if (other.ProjectId.Length != 0) {
-        ProjectId = other.ProjectId;
-      }
       if (other.Label.Length != 0) {
         Label = other.Label;
       }
@@ -7064,25 +6404,10 @@ namespace LiveKit.Proto {
       if (other.AgentExpectations.Length != 0) {
         AgentExpectations = other.AgentExpectations;
       }
-      if (other.SourceRoomId.Length != 0) {
-        SourceRoomId = other.SourceRoomId;
+      tags_.MergeFrom(other.tags_);
+      if (other.Userdata.Length != 0) {
+        Userdata = other.Userdata;
       }
-      if (other.createdAt_ != null) {
-        if (createdAt_ == null) {
-          CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        CreatedAt.MergeFrom(other.CreatedAt);
-      }
-      if (other.Status != global::LiveKit.Proto.Scenario.Types.Status.Generating) {
-        Status = other.Status;
-      }
-      if (other.Error.Length != 0) {
-        Error = other.Error;
-      }
-      if (other.GroupId.Length != 0) {
-        GroupId = other.GroupId;
-      }
-      metadata_.MergeFrom(other.metadata_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -7103,50 +6428,23 @@ namespace LiveKit.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            Id = input.ReadString();
-            break;
-          }
-          case 18: {
-            ProjectId = input.ReadString();
-            break;
-          }
-          case 26: {
             Label = input.ReadString();
             break;
           }
-          case 34: {
+          case 18: {
             Instructions = input.ReadString();
             break;
           }
-          case 42: {
+          case 26: {
             AgentExpectations = input.ReadString();
             break;
           }
-          case 50: {
-            SourceRoomId = input.ReadString();
+          case 34: {
+            tags_.AddEntriesFrom(input, _map_tags_codec);
             break;
           }
-          case 58: {
-            if (createdAt_ == null) {
-              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(CreatedAt);
-            break;
-          }
-          case 64: {
-            Status = (global::LiveKit.Proto.Scenario.Types.Status) input.ReadEnum();
-            break;
-          }
-          case 74: {
-            Error = input.ReadString();
-            break;
-          }
-          case 82: {
-            GroupId = input.ReadString();
-            break;
-          }
-          case 90: {
-            metadata_.AddEntriesFrom(input, _map_metadata_codec);
+          case 42: {
+            Userdata = input.ReadString();
             break;
           }
         }
@@ -7169,50 +6467,23 @@ namespace LiveKit.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            Id = input.ReadString();
-            break;
-          }
-          case 18: {
-            ProjectId = input.ReadString();
-            break;
-          }
-          case 26: {
             Label = input.ReadString();
             break;
           }
-          case 34: {
+          case 18: {
             Instructions = input.ReadString();
             break;
           }
-          case 42: {
+          case 26: {
             AgentExpectations = input.ReadString();
             break;
           }
-          case 50: {
-            SourceRoomId = input.ReadString();
+          case 34: {
+            tags_.AddEntriesFrom(ref input, _map_tags_codec);
             break;
           }
-          case 58: {
-            if (createdAt_ == null) {
-              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(CreatedAt);
-            break;
-          }
-          case 64: {
-            Status = (global::LiveKit.Proto.Scenario.Types.Status) input.ReadEnum();
-            break;
-          }
-          case 74: {
-            Error = input.ReadString();
-            break;
-          }
-          case 82: {
-            GroupId = input.ReadString();
-            break;
-          }
-          case 90: {
-            metadata_.AddEntriesFrom(ref input, _map_metadata_codec);
+          case 42: {
+            Userdata = input.ReadString();
             break;
           }
         }
@@ -7225,764 +6496,6 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static partial class Types {
-      public enum Status {
-        /// <summary>
-        /// Scenario is being generated from a session by an LLM.
-        /// instructions and agent_expectations are not yet available.
-        /// </summary>
-        [pbr::OriginalName("STATUS_GENERATING")] Generating = 0,
-        [pbr::OriginalName("STATUS_READY")] Ready = 1,
-        [pbr::OriginalName("STATUS_FAILED")] Failed = 2,
-      }
-
-      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class Create : pb::IMessage<Create>
-      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          , pb::IBufferMessage
-      #endif
-      {
-        private static readonly pb::MessageParser<Create> _parser = new pb::MessageParser<Create>(() => new Create());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<Create> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.Scenario.Descriptor.NestedTypes[0]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Create() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Create(Create other) : this() {
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Create Clone() {
-          return new Create(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override bool Equals(object other) {
-          return Equals(other as Create);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(Create other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void WriteTo(pb::CodedOutputStream output) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          output.WriteRawMessage(this);
-        #else
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(ref output);
-          }
-        }
-        #endif
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public int CalculateSize() {
-          int size = 0;
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(Create other) {
-          if (other == null) {
-            return;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(pb::CodedInputStream input) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          input.ReadRawMessage(this);
-        #else
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-            }
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                break;
-            }
-          }
-        }
-        #endif
-
-        #region Nested types
-        /// <summary>Container for nested types declared in the Create message type.</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static partial class Types {
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Request : pb::IMessage<Request>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Request> _parser = new pb::MessageParser<Request>(() => new Request());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Request> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.Scenario.Types.Create.Descriptor.NestedTypes[0]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request(Request other) : this() {
-              projectId_ = other.projectId_;
-              label_ = other.label_;
-              instructions_ = other.instructions_;
-              agentExpectations_ = other.agentExpectations_;
-              groupId_ = other.groupId_;
-              metadata_ = other.metadata_.Clone();
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request Clone() {
-              return new Request(this);
-            }
-
-            /// <summary>Field number for the "project_id" field.</summary>
-            public const int ProjectIdFieldNumber = 1;
-            private string projectId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ProjectId {
-              get { return projectId_; }
-              set {
-                projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "label" field.</summary>
-            public const int LabelFieldNumber = 2;
-            private string label_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string Label {
-              get { return label_; }
-              set {
-                label_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "instructions" field.</summary>
-            public const int InstructionsFieldNumber = 3;
-            private string instructions_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string Instructions {
-              get { return instructions_; }
-              set {
-                instructions_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "agent_expectations" field.</summary>
-            public const int AgentExpectationsFieldNumber = 4;
-            private string agentExpectations_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string AgentExpectations {
-              get { return agentExpectations_; }
-              set {
-                agentExpectations_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "group_id" field.</summary>
-            public const int GroupIdFieldNumber = 5;
-            private string groupId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string GroupId {
-              get { return groupId_; }
-              set {
-                groupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "metadata" field.</summary>
-            public const int MetadataFieldNumber = 6;
-            private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-                = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 50);
-            private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public pbc::MapField<string, string> Metadata {
-              get { return metadata_; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Request);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Request other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (ProjectId != other.ProjectId) return false;
-              if (Label != other.Label) return false;
-              if (Instructions != other.Instructions) return false;
-              if (AgentExpectations != other.AgentExpectations) return false;
-              if (GroupId != other.GroupId) return false;
-              if (!Metadata.Equals(other.Metadata)) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
-              if (Label.Length != 0) hash ^= Label.GetHashCode();
-              if (Instructions.Length != 0) hash ^= Instructions.GetHashCode();
-              if (AgentExpectations.Length != 0) hash ^= AgentExpectations.GetHashCode();
-              if (GroupId.Length != 0) hash ^= GroupId.GetHashCode();
-              hash ^= Metadata.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (Label.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(Label);
-              }
-              if (Instructions.Length != 0) {
-                output.WriteRawTag(26);
-                output.WriteString(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                output.WriteRawTag(34);
-                output.WriteString(AgentExpectations);
-              }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(42);
-                output.WriteString(GroupId);
-              }
-              metadata_.WriteTo(output, _map_metadata_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (Label.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(Label);
-              }
-              if (Instructions.Length != 0) {
-                output.WriteRawTag(26);
-                output.WriteString(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                output.WriteRawTag(34);
-                output.WriteString(AgentExpectations);
-              }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(42);
-                output.WriteString(GroupId);
-              }
-              metadata_.WriteTo(ref output, _map_metadata_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (ProjectId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-              }
-              if (Label.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(Label);
-              }
-              if (Instructions.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentExpectations);
-              }
-              if (GroupId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupId);
-              }
-              size += metadata_.CalculateSize(_map_metadata_codec);
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Request other) {
-              if (other == null) {
-                return;
-              }
-              if (other.ProjectId.Length != 0) {
-                ProjectId = other.ProjectId;
-              }
-              if (other.Label.Length != 0) {
-                Label = other.Label;
-              }
-              if (other.Instructions.Length != 0) {
-                Instructions = other.Instructions;
-              }
-              if (other.AgentExpectations.Length != 0) {
-                AgentExpectations = other.AgentExpectations;
-              }
-              if (other.GroupId.Length != 0) {
-                GroupId = other.GroupId;
-              }
-              metadata_.MergeFrom(other.metadata_);
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                  case 26: {
-                    Instructions = input.ReadString();
-                    break;
-                  }
-                  case 34: {
-                    AgentExpectations = input.ReadString();
-                    break;
-                  }
-                  case 42: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                  case 50: {
-                    metadata_.AddEntriesFrom(input, _map_metadata_codec);
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                  case 26: {
-                    Instructions = input.ReadString();
-                    break;
-                  }
-                  case 34: {
-                    AgentExpectations = input.ReadString();
-                    break;
-                  }
-                  case 42: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                  case 50: {
-                    metadata_.AddEntriesFrom(ref input, _map_metadata_codec);
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Response : pb::IMessage<Response>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Response> _parser = new pb::MessageParser<Response>(() => new Response());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Response> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.Scenario.Types.Create.Descriptor.NestedTypes[1]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response(Response other) : this() {
-              scenario_ = other.scenario_ != null ? other.scenario_.Clone() : null;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response Clone() {
-              return new Response(this);
-            }
-
-            /// <summary>Field number for the "scenario" field.</summary>
-            public const int ScenarioFieldNumber = 1;
-            private global::LiveKit.Proto.Scenario scenario_;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public global::LiveKit.Proto.Scenario Scenario {
-              get { return scenario_; }
-              set {
-                scenario_ = value;
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Response);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Response other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (!object.Equals(Scenario, other.Scenario)) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (scenario_ != null) hash ^= Scenario.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (scenario_ != null) {
-                output.WriteRawTag(10);
-                output.WriteMessage(Scenario);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (scenario_ != null) {
-                output.WriteRawTag(10);
-                output.WriteMessage(Scenario);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (scenario_ != null) {
-                size += 1 + pb::CodedOutputStream.ComputeMessageSize(Scenario);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Response other) {
-              if (other == null) {
-                return;
-              }
-              if (other.scenario_ != null) {
-                if (scenario_ == null) {
-                  Scenario = new global::LiveKit.Proto.Scenario();
-                }
-                Scenario.MergeFrom(other.Scenario);
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    if (scenario_ == null) {
-                      Scenario = new global::LiveKit.Proto.Scenario();
-                    }
-                    input.ReadMessage(Scenario);
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    if (scenario_ == null) {
-                      Scenario = new global::LiveKit.Proto.Scenario();
-                    }
-                    input.ReadMessage(Scenario);
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-        }
-        #endregion
-
-      }
-
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class CreateFromSession : pb::IMessage<CreateFromSession>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -7998,7 +6511,7 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.Scenario.Descriptor.NestedTypes[1]; }
+          get { return global::LiveKit.Proto.Scenario.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8184,8 +6697,6 @@ namespace LiveKit.Proto {
             public Request(Request other) : this() {
               projectId_ = other.projectId_;
               roomId_ = other.roomId_;
-              groupId_ = other.groupId_;
-              label_ = other.label_;
               region_ = other.region_;
               _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
             }
@@ -8220,32 +6731,8 @@ namespace LiveKit.Proto {
               }
             }
 
-            /// <summary>Field number for the "group_id" field.</summary>
-            public const int GroupIdFieldNumber = 3;
-            private string groupId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string GroupId {
-              get { return groupId_; }
-              set {
-                groupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "label" field.</summary>
-            public const int LabelFieldNumber = 4;
-            private string label_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string Label {
-              get { return label_; }
-              set {
-                label_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
             /// <summary>Field number for the "region" field.</summary>
-            public const int RegionFieldNumber = 5;
+            public const int RegionFieldNumber = 3;
             private string region_ = "";
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -8273,8 +6760,6 @@ namespace LiveKit.Proto {
               }
               if (ProjectId != other.ProjectId) return false;
               if (RoomId != other.RoomId) return false;
-              if (GroupId != other.GroupId) return false;
-              if (Label != other.Label) return false;
               if (Region != other.Region) return false;
               return Equals(_unknownFields, other._unknownFields);
             }
@@ -8285,8 +6770,6 @@ namespace LiveKit.Proto {
               int hash = 1;
               if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
               if (RoomId.Length != 0) hash ^= RoomId.GetHashCode();
-              if (GroupId.Length != 0) hash ^= GroupId.GetHashCode();
-              if (Label.Length != 0) hash ^= Label.GetHashCode();
               if (Region.Length != 0) hash ^= Region.GetHashCode();
               if (_unknownFields != null) {
                 hash ^= _unknownFields.GetHashCode();
@@ -8314,16 +6797,8 @@ namespace LiveKit.Proto {
                 output.WriteRawTag(18);
                 output.WriteString(RoomId);
               }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(26);
-                output.WriteString(GroupId);
-              }
-              if (Label.Length != 0) {
-                output.WriteRawTag(34);
-                output.WriteString(Label);
-              }
               if (Region.Length != 0) {
-                output.WriteRawTag(42);
+                output.WriteRawTag(26);
                 output.WriteString(Region);
               }
               if (_unknownFields != null) {
@@ -8344,16 +6819,8 @@ namespace LiveKit.Proto {
                 output.WriteRawTag(18);
                 output.WriteString(RoomId);
               }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(26);
-                output.WriteString(GroupId);
-              }
-              if (Label.Length != 0) {
-                output.WriteRawTag(34);
-                output.WriteString(Label);
-              }
               if (Region.Length != 0) {
-                output.WriteRawTag(42);
+                output.WriteRawTag(26);
                 output.WriteString(Region);
               }
               if (_unknownFields != null) {
@@ -8371,12 +6838,6 @@ namespace LiveKit.Proto {
               }
               if (RoomId.Length != 0) {
                 size += 1 + pb::CodedOutputStream.ComputeStringSize(RoomId);
-              }
-              if (GroupId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupId);
-              }
-              if (Label.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(Label);
               }
               if (Region.Length != 0) {
                 size += 1 + pb::CodedOutputStream.ComputeStringSize(Region);
@@ -8398,12 +6859,6 @@ namespace LiveKit.Proto {
               }
               if (other.RoomId.Length != 0) {
                 RoomId = other.RoomId;
-              }
-              if (other.GroupId.Length != 0) {
-                GroupId = other.GroupId;
-              }
-              if (other.Label.Length != 0) {
-                Label = other.Label;
               }
               if (other.Region.Length != 0) {
                 Region = other.Region;
@@ -8436,14 +6891,6 @@ namespace LiveKit.Proto {
                     break;
                   }
                   case 26: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                  case 34: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                  case 42: {
                     Region = input.ReadString();
                     break;
                   }
@@ -8475,14 +6922,6 @@ namespace LiveKit.Proto {
                     break;
                   }
                   case 26: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                  case 34: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                  case 42: {
                     Region = input.ReadString();
                     break;
                   }
@@ -8705,1952 +7144,14 @@ namespace LiveKit.Proto {
 
       }
 
-      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class Delete : pb::IMessage<Delete>
-      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          , pb::IBufferMessage
-      #endif
-      {
-        private static readonly pb::MessageParser<Delete> _parser = new pb::MessageParser<Delete>(() => new Delete());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<Delete> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.Scenario.Descriptor.NestedTypes[2]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Delete() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Delete(Delete other) : this() {
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Delete Clone() {
-          return new Delete(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override bool Equals(object other) {
-          return Equals(other as Delete);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(Delete other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void WriteTo(pb::CodedOutputStream output) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          output.WriteRawMessage(this);
-        #else
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(ref output);
-          }
-        }
-        #endif
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public int CalculateSize() {
-          int size = 0;
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(Delete other) {
-          if (other == null) {
-            return;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(pb::CodedInputStream input) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          input.ReadRawMessage(this);
-        #else
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-            }
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                break;
-            }
-          }
-        }
-        #endif
-
-        #region Nested types
-        /// <summary>Container for nested types declared in the Delete message type.</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static partial class Types {
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Request : pb::IMessage<Request>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Request> _parser = new pb::MessageParser<Request>(() => new Request());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Request> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.Scenario.Types.Delete.Descriptor.NestedTypes[0]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request(Request other) : this() {
-              projectId_ = other.projectId_;
-              scenarioId_ = other.scenarioId_;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request Clone() {
-              return new Request(this);
-            }
-
-            /// <summary>Field number for the "project_id" field.</summary>
-            public const int ProjectIdFieldNumber = 1;
-            private string projectId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ProjectId {
-              get { return projectId_; }
-              set {
-                projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "scenario_id" field.</summary>
-            public const int ScenarioIdFieldNumber = 2;
-            private string scenarioId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ScenarioId {
-              get { return scenarioId_; }
-              set {
-                scenarioId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Request);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Request other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (ProjectId != other.ProjectId) return false;
-              if (ScenarioId != other.ScenarioId) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
-              if (ScenarioId.Length != 0) hash ^= ScenarioId.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (ScenarioId.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(ScenarioId);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (ScenarioId.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(ScenarioId);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (ProjectId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-              }
-              if (ScenarioId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ScenarioId);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Request other) {
-              if (other == null) {
-                return;
-              }
-              if (other.ProjectId.Length != 0) {
-                ProjectId = other.ProjectId;
-              }
-              if (other.ScenarioId.Length != 0) {
-                ScenarioId = other.ScenarioId;
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    ScenarioId = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    ScenarioId = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Response : pb::IMessage<Response>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Response> _parser = new pb::MessageParser<Response>(() => new Response());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Response> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.Scenario.Types.Delete.Descriptor.NestedTypes[1]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response(Response other) : this() {
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response Clone() {
-              return new Response(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Response);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Response other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Response other) {
-              if (other == null) {
-                return;
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                }
-              }
-            }
-            #endif
-
-          }
-
-        }
-        #endregion
-
-      }
-
-      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class Update : pb::IMessage<Update>
-      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          , pb::IBufferMessage
-      #endif
-      {
-        private static readonly pb::MessageParser<Update> _parser = new pb::MessageParser<Update>(() => new Update());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<Update> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.Scenario.Descriptor.NestedTypes[3]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Update() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Update(Update other) : this() {
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Update Clone() {
-          return new Update(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override bool Equals(object other) {
-          return Equals(other as Update);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(Update other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void WriteTo(pb::CodedOutputStream output) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          output.WriteRawMessage(this);
-        #else
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(ref output);
-          }
-        }
-        #endif
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public int CalculateSize() {
-          int size = 0;
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(Update other) {
-          if (other == null) {
-            return;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(pb::CodedInputStream input) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          input.ReadRawMessage(this);
-        #else
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-            }
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                break;
-            }
-          }
-        }
-        #endif
-
-        #region Nested types
-        /// <summary>Container for nested types declared in the Update message type.</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static partial class Types {
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Request : pb::IMessage<Request>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Request> _parser = new pb::MessageParser<Request>(() => new Request());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Request> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.Scenario.Types.Update.Descriptor.NestedTypes[0]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request(Request other) : this() {
-              projectId_ = other.projectId_;
-              scenarioId_ = other.scenarioId_;
-              label_ = other.label_;
-              instructions_ = other.instructions_;
-              agentExpectations_ = other.agentExpectations_;
-              groupId_ = other.groupId_;
-              metadata_ = other.metadata_.Clone();
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request Clone() {
-              return new Request(this);
-            }
-
-            /// <summary>Field number for the "project_id" field.</summary>
-            public const int ProjectIdFieldNumber = 1;
-            private string projectId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ProjectId {
-              get { return projectId_; }
-              set {
-                projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "scenario_id" field.</summary>
-            public const int ScenarioIdFieldNumber = 2;
-            private string scenarioId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ScenarioId {
-              get { return scenarioId_; }
-              set {
-                scenarioId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "label" field.</summary>
-            public const int LabelFieldNumber = 3;
-            private string label_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string Label {
-              get { return label_; }
-              set {
-                label_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "instructions" field.</summary>
-            public const int InstructionsFieldNumber = 4;
-            private string instructions_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string Instructions {
-              get { return instructions_; }
-              set {
-                instructions_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "agent_expectations" field.</summary>
-            public const int AgentExpectationsFieldNumber = 5;
-            private string agentExpectations_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string AgentExpectations {
-              get { return agentExpectations_; }
-              set {
-                agentExpectations_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "group_id" field.</summary>
-            public const int GroupIdFieldNumber = 6;
-            private string groupId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string GroupId {
-              get { return groupId_; }
-              set {
-                groupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "metadata" field.</summary>
-            public const int MetadataFieldNumber = 7;
-            private static readonly pbc::MapField<string, string>.Codec _map_metadata_codec
-                = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10, ""), pb::FieldCodec.ForString(18, ""), 58);
-            private readonly pbc::MapField<string, string> metadata_ = new pbc::MapField<string, string>();
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public pbc::MapField<string, string> Metadata {
-              get { return metadata_; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Request);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Request other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (ProjectId != other.ProjectId) return false;
-              if (ScenarioId != other.ScenarioId) return false;
-              if (Label != other.Label) return false;
-              if (Instructions != other.Instructions) return false;
-              if (AgentExpectations != other.AgentExpectations) return false;
-              if (GroupId != other.GroupId) return false;
-              if (!Metadata.Equals(other.Metadata)) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
-              if (ScenarioId.Length != 0) hash ^= ScenarioId.GetHashCode();
-              if (Label.Length != 0) hash ^= Label.GetHashCode();
-              if (Instructions.Length != 0) hash ^= Instructions.GetHashCode();
-              if (AgentExpectations.Length != 0) hash ^= AgentExpectations.GetHashCode();
-              if (GroupId.Length != 0) hash ^= GroupId.GetHashCode();
-              hash ^= Metadata.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (ScenarioId.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(ScenarioId);
-              }
-              if (Label.Length != 0) {
-                output.WriteRawTag(26);
-                output.WriteString(Label);
-              }
-              if (Instructions.Length != 0) {
-                output.WriteRawTag(34);
-                output.WriteString(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                output.WriteRawTag(42);
-                output.WriteString(AgentExpectations);
-              }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(50);
-                output.WriteString(GroupId);
-              }
-              metadata_.WriteTo(output, _map_metadata_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (ScenarioId.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(ScenarioId);
-              }
-              if (Label.Length != 0) {
-                output.WriteRawTag(26);
-                output.WriteString(Label);
-              }
-              if (Instructions.Length != 0) {
-                output.WriteRawTag(34);
-                output.WriteString(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                output.WriteRawTag(42);
-                output.WriteString(AgentExpectations);
-              }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(50);
-                output.WriteString(GroupId);
-              }
-              metadata_.WriteTo(ref output, _map_metadata_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (ProjectId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-              }
-              if (ScenarioId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ScenarioId);
-              }
-              if (Label.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(Label);
-              }
-              if (Instructions.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(Instructions);
-              }
-              if (AgentExpectations.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentExpectations);
-              }
-              if (GroupId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupId);
-              }
-              size += metadata_.CalculateSize(_map_metadata_codec);
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Request other) {
-              if (other == null) {
-                return;
-              }
-              if (other.ProjectId.Length != 0) {
-                ProjectId = other.ProjectId;
-              }
-              if (other.ScenarioId.Length != 0) {
-                ScenarioId = other.ScenarioId;
-              }
-              if (other.Label.Length != 0) {
-                Label = other.Label;
-              }
-              if (other.Instructions.Length != 0) {
-                Instructions = other.Instructions;
-              }
-              if (other.AgentExpectations.Length != 0) {
-                AgentExpectations = other.AgentExpectations;
-              }
-              if (other.GroupId.Length != 0) {
-                GroupId = other.GroupId;
-              }
-              metadata_.MergeFrom(other.metadata_);
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    ScenarioId = input.ReadString();
-                    break;
-                  }
-                  case 26: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                  case 34: {
-                    Instructions = input.ReadString();
-                    break;
-                  }
-                  case 42: {
-                    AgentExpectations = input.ReadString();
-                    break;
-                  }
-                  case 50: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                  case 58: {
-                    metadata_.AddEntriesFrom(input, _map_metadata_codec);
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    ScenarioId = input.ReadString();
-                    break;
-                  }
-                  case 26: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                  case 34: {
-                    Instructions = input.ReadString();
-                    break;
-                  }
-                  case 42: {
-                    AgentExpectations = input.ReadString();
-                    break;
-                  }
-                  case 50: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                  case 58: {
-                    metadata_.AddEntriesFrom(ref input, _map_metadata_codec);
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Response : pb::IMessage<Response>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Response> _parser = new pb::MessageParser<Response>(() => new Response());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Response> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.Scenario.Types.Update.Descriptor.NestedTypes[1]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response(Response other) : this() {
-              scenario_ = other.scenario_ != null ? other.scenario_.Clone() : null;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response Clone() {
-              return new Response(this);
-            }
-
-            /// <summary>Field number for the "scenario" field.</summary>
-            public const int ScenarioFieldNumber = 1;
-            private global::LiveKit.Proto.Scenario scenario_;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public global::LiveKit.Proto.Scenario Scenario {
-              get { return scenario_; }
-              set {
-                scenario_ = value;
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Response);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Response other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (!object.Equals(Scenario, other.Scenario)) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (scenario_ != null) hash ^= Scenario.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (scenario_ != null) {
-                output.WriteRawTag(10);
-                output.WriteMessage(Scenario);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (scenario_ != null) {
-                output.WriteRawTag(10);
-                output.WriteMessage(Scenario);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (scenario_ != null) {
-                size += 1 + pb::CodedOutputStream.ComputeMessageSize(Scenario);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Response other) {
-              if (other == null) {
-                return;
-              }
-              if (other.scenario_ != null) {
-                if (scenario_ == null) {
-                  Scenario = new global::LiveKit.Proto.Scenario();
-                }
-                Scenario.MergeFrom(other.Scenario);
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    if (scenario_ == null) {
-                      Scenario = new global::LiveKit.Proto.Scenario();
-                    }
-                    input.ReadMessage(Scenario);
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    if (scenario_ == null) {
-                      Scenario = new global::LiveKit.Proto.Scenario();
-                    }
-                    input.ReadMessage(Scenario);
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-        }
-        #endregion
-
-      }
-
-      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class List : pb::IMessage<List>
-      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          , pb::IBufferMessage
-      #endif
-      {
-        private static readonly pb::MessageParser<List> _parser = new pb::MessageParser<List>(() => new List());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<List> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.Scenario.Descriptor.NestedTypes[4]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public List() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public List(List other) : this() {
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public List Clone() {
-          return new List(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override bool Equals(object other) {
-          return Equals(other as List);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(List other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void WriteTo(pb::CodedOutputStream output) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          output.WriteRawMessage(this);
-        #else
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(ref output);
-          }
-        }
-        #endif
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public int CalculateSize() {
-          int size = 0;
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(List other) {
-          if (other == null) {
-            return;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(pb::CodedInputStream input) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          input.ReadRawMessage(this);
-        #else
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-            }
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                break;
-            }
-          }
-        }
-        #endif
-
-        #region Nested types
-        /// <summary>Container for nested types declared in the List message type.</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static partial class Types {
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Request : pb::IMessage<Request>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Request> _parser = new pb::MessageParser<Request>(() => new Request());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Request> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.Scenario.Types.List.Descriptor.NestedTypes[0]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request(Request other) : this() {
-              projectId_ = other.projectId_;
-              groupId_ = other.groupId_;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request Clone() {
-              return new Request(this);
-            }
-
-            /// <summary>Field number for the "project_id" field.</summary>
-            public const int ProjectIdFieldNumber = 1;
-            private string projectId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ProjectId {
-              get { return projectId_; }
-              set {
-                projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "group_id" field.</summary>
-            public const int GroupIdFieldNumber = 2;
-            private string groupId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string GroupId {
-              get { return groupId_; }
-              set {
-                groupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Request);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Request other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (ProjectId != other.ProjectId) return false;
-              if (GroupId != other.GroupId) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
-              if (GroupId.Length != 0) hash ^= GroupId.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(GroupId);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(GroupId);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (ProjectId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-              }
-              if (GroupId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupId);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Request other) {
-              if (other == null) {
-                return;
-              }
-              if (other.ProjectId.Length != 0) {
-                ProjectId = other.ProjectId;
-              }
-              if (other.GroupId.Length != 0) {
-                GroupId = other.GroupId;
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Response : pb::IMessage<Response>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Response> _parser = new pb::MessageParser<Response>(() => new Response());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Response> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.Scenario.Types.List.Descriptor.NestedTypes[1]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response(Response other) : this() {
-              scenarios_ = other.scenarios_.Clone();
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response Clone() {
-              return new Response(this);
-            }
-
-            /// <summary>Field number for the "scenarios" field.</summary>
-            public const int ScenariosFieldNumber = 1;
-            private static readonly pb::FieldCodec<global::LiveKit.Proto.Scenario> _repeated_scenarios_codec
-                = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.Scenario.Parser);
-            private readonly pbc::RepeatedField<global::LiveKit.Proto.Scenario> scenarios_ = new pbc::RepeatedField<global::LiveKit.Proto.Scenario>();
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public pbc::RepeatedField<global::LiveKit.Proto.Scenario> Scenarios {
-              get { return scenarios_; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Response);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Response other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if(!scenarios_.Equals(other.scenarios_)) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              hash ^= scenarios_.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              scenarios_.WriteTo(output, _repeated_scenarios_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              scenarios_.WriteTo(ref output, _repeated_scenarios_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              size += scenarios_.CalculateSize(_repeated_scenarios_codec);
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Response other) {
-              if (other == null) {
-                return;
-              }
-              scenarios_.Add(other.scenarios_);
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    scenarios_.AddEntriesFrom(input, _repeated_scenarios_codec);
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    scenarios_.AddEntriesFrom(ref input, _repeated_scenarios_codec);
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-        }
-        #endregion
-
-      }
-
     }
     #endregion
 
   }
 
+  /// <summary>
+  /// A named group of scenarios, mirroring a whole scenarios.yaml file.
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ScenarioGroup : pb::IMessage<ScenarioGroup>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -10686,12 +7187,8 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public ScenarioGroup(ScenarioGroup other) : this() {
-      id_ = other.id_;
-      projectId_ = other.projectId_;
-      label_ = other.label_;
-      createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+      name_ = other.name_;
       scenarios_ = other.scenarios_.Clone();
-      scenarioCount_ = other.scenarioCount_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -10701,75 +7198,27 @@ namespace LiveKit.Proto {
       return new ScenarioGroup(this);
     }
 
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private string id_ = "";
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Id {
-      get { return id_; }
+    public string Name {
+      get { return name_; }
       set {
-        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "project_id" field.</summary>
-    public const int ProjectIdFieldNumber = 2;
-    private string projectId_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string ProjectId {
-      get { return projectId_; }
-      set {
-        projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "label" field.</summary>
-    public const int LabelFieldNumber = 3;
-    private string label_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Label {
-      get { return label_; }
-      set {
-        label_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "created_at" field.</summary>
-    public const int CreatedAtFieldNumber = 4;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
-      get { return createdAt_; }
-      set {
-        createdAt_ = value;
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
     /// <summary>Field number for the "scenarios" field.</summary>
-    public const int ScenariosFieldNumber = 5;
+    public const int ScenariosFieldNumber = 2;
     private static readonly pb::FieldCodec<global::LiveKit.Proto.Scenario> _repeated_scenarios_codec
-        = pb::FieldCodec.ForMessage(42, global::LiveKit.Proto.Scenario.Parser);
+        = pb::FieldCodec.ForMessage(18, global::LiveKit.Proto.Scenario.Parser);
     private readonly pbc::RepeatedField<global::LiveKit.Proto.Scenario> scenarios_ = new pbc::RepeatedField<global::LiveKit.Proto.Scenario>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::LiveKit.Proto.Scenario> Scenarios {
       get { return scenarios_; }
-    }
-
-    /// <summary>Field number for the "scenario_count" field.</summary>
-    public const int ScenarioCountFieldNumber = 6;
-    private int scenarioCount_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int ScenarioCount {
-      get { return scenarioCount_; }
-      set {
-        scenarioCount_ = value;
-      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10787,12 +7236,8 @@ namespace LiveKit.Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Id != other.Id) return false;
-      if (ProjectId != other.ProjectId) return false;
-      if (Label != other.Label) return false;
-      if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+      if (Name != other.Name) return false;
       if(!scenarios_.Equals(other.scenarios_)) return false;
-      if (ScenarioCount != other.ScenarioCount) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -10800,12 +7245,8 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Id.Length != 0) hash ^= Id.GetHashCode();
-      if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
-      if (Label.Length != 0) hash ^= Label.GetHashCode();
-      if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       hash ^= scenarios_.GetHashCode();
-      if (ScenarioCount != 0) hash ^= ScenarioCount.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10824,27 +7265,11 @@ namespace LiveKit.Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Id.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
-      if (ProjectId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(ProjectId);
-      }
-      if (Label.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Label);
-      }
-      if (createdAt_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(CreatedAt);
+        output.WriteString(Name);
       }
       scenarios_.WriteTo(output, _repeated_scenarios_codec);
-      if (ScenarioCount != 0) {
-        output.WriteRawTag(48);
-        output.WriteInt32(ScenarioCount);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10855,27 +7280,11 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id.Length != 0) {
+      if (Name.Length != 0) {
         output.WriteRawTag(10);
-        output.WriteString(Id);
-      }
-      if (ProjectId.Length != 0) {
-        output.WriteRawTag(18);
-        output.WriteString(ProjectId);
-      }
-      if (Label.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Label);
-      }
-      if (createdAt_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(CreatedAt);
+        output.WriteString(Name);
       }
       scenarios_.WriteTo(ref output, _repeated_scenarios_codec);
-      if (ScenarioCount != 0) {
-        output.WriteRawTag(48);
-        output.WriteInt32(ScenarioCount);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10886,22 +7295,10 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Id.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
-      }
-      if (ProjectId.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-      }
-      if (Label.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Label);
-      }
-      if (createdAt_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       size += scenarios_.CalculateSize(_repeated_scenarios_codec);
-      if (ScenarioCount != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ScenarioCount);
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -10914,25 +7311,10 @@ namespace LiveKit.Proto {
       if (other == null) {
         return;
       }
-      if (other.Id.Length != 0) {
-        Id = other.Id;
-      }
-      if (other.ProjectId.Length != 0) {
-        ProjectId = other.ProjectId;
-      }
-      if (other.Label.Length != 0) {
-        Label = other.Label;
-      }
-      if (other.createdAt_ != null) {
-        if (createdAt_ == null) {
-          CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        CreatedAt.MergeFrom(other.CreatedAt);
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       scenarios_.Add(other.scenarios_);
-      if (other.ScenarioCount != 0) {
-        ScenarioCount = other.ScenarioCount;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -10953,30 +7335,11 @@ namespace LiveKit.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            Id = input.ReadString();
+            Name = input.ReadString();
             break;
           }
           case 18: {
-            ProjectId = input.ReadString();
-            break;
-          }
-          case 26: {
-            Label = input.ReadString();
-            break;
-          }
-          case 34: {
-            if (createdAt_ == null) {
-              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(CreatedAt);
-            break;
-          }
-          case 42: {
             scenarios_.AddEntriesFrom(input, _repeated_scenarios_codec);
-            break;
-          }
-          case 48: {
-            ScenarioCount = input.ReadInt32();
             break;
           }
         }
@@ -10999,30 +7362,11 @@ namespace LiveKit.Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            Id = input.ReadString();
+            Name = input.ReadString();
             break;
           }
           case 18: {
-            ProjectId = input.ReadString();
-            break;
-          }
-          case 26: {
-            Label = input.ReadString();
-            break;
-          }
-          case 34: {
-            if (createdAt_ == null) {
-              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(CreatedAt);
-            break;
-          }
-          case 42: {
             scenarios_.AddEntriesFrom(ref input, _repeated_scenarios_codec);
-            break;
-          }
-          case 48: {
-            ScenarioCount = input.ReadInt32();
             break;
           }
         }
@@ -11030,1743 +7374,327 @@ namespace LiveKit.Proto {
     }
     #endif
 
-    #region Nested types
-    /// <summary>Container for nested types declared in the ScenarioGroup message type.</summary>
+  }
+
+  /// <summary>
+  /// Carried (protojson-encoded) in the simulation room's metadata so the agent
+  /// under test can read the scenario + run identity synchronously at connect.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class SimulationDispatch : pb::IMessage<SimulationDispatch>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SimulationDispatch> _parser = new pb::MessageParser<SimulationDispatch>(() => new SimulationDispatch());
+    private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static partial class Types {
-      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class Create : pb::IMessage<Create>
-      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          , pb::IBufferMessage
-      #endif
-      {
-        private static readonly pb::MessageParser<Create> _parser = new pb::MessageParser<Create>(() => new Create());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<Create> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.ScenarioGroup.Descriptor.NestedTypes[0]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Create() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Create(Create other) : this() {
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Create Clone() {
-          return new Create(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override bool Equals(object other) {
-          return Equals(other as Create);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(Create other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void WriteTo(pb::CodedOutputStream output) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          output.WriteRawMessage(this);
-        #else
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(ref output);
-          }
-        }
-        #endif
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public int CalculateSize() {
-          int size = 0;
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(Create other) {
-          if (other == null) {
-            return;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(pb::CodedInputStream input) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          input.ReadRawMessage(this);
-        #else
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-            }
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                break;
-            }
-          }
-        }
-        #endif
-
-        #region Nested types
-        /// <summary>Container for nested types declared in the Create message type.</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static partial class Types {
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Request : pb::IMessage<Request>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Request> _parser = new pb::MessageParser<Request>(() => new Request());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Request> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.ScenarioGroup.Types.Create.Descriptor.NestedTypes[0]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request(Request other) : this() {
-              projectId_ = other.projectId_;
-              label_ = other.label_;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request Clone() {
-              return new Request(this);
-            }
-
-            /// <summary>Field number for the "project_id" field.</summary>
-            public const int ProjectIdFieldNumber = 1;
-            private string projectId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ProjectId {
-              get { return projectId_; }
-              set {
-                projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "label" field.</summary>
-            public const int LabelFieldNumber = 2;
-            private string label_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string Label {
-              get { return label_; }
-              set {
-                label_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Request);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Request other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (ProjectId != other.ProjectId) return false;
-              if (Label != other.Label) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
-              if (Label.Length != 0) hash ^= Label.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (Label.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(Label);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (Label.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(Label);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (ProjectId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-              }
-              if (Label.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(Label);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Request other) {
-              if (other == null) {
-                return;
-              }
-              if (other.ProjectId.Length != 0) {
-                ProjectId = other.ProjectId;
-              }
-              if (other.Label.Length != 0) {
-                Label = other.Label;
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    Label = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Response : pb::IMessage<Response>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Response> _parser = new pb::MessageParser<Response>(() => new Response());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Response> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.ScenarioGroup.Types.Create.Descriptor.NestedTypes[1]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response(Response other) : this() {
-              scenarioGroup_ = other.scenarioGroup_ != null ? other.scenarioGroup_.Clone() : null;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response Clone() {
-              return new Response(this);
-            }
-
-            /// <summary>Field number for the "scenario_group" field.</summary>
-            public const int ScenarioGroupFieldNumber = 1;
-            private global::LiveKit.Proto.ScenarioGroup scenarioGroup_;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public global::LiveKit.Proto.ScenarioGroup ScenarioGroup {
-              get { return scenarioGroup_; }
-              set {
-                scenarioGroup_ = value;
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Response);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Response other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (!object.Equals(ScenarioGroup, other.ScenarioGroup)) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (scenarioGroup_ != null) hash ^= ScenarioGroup.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (scenarioGroup_ != null) {
-                output.WriteRawTag(10);
-                output.WriteMessage(ScenarioGroup);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (scenarioGroup_ != null) {
-                output.WriteRawTag(10);
-                output.WriteMessage(ScenarioGroup);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (scenarioGroup_ != null) {
-                size += 1 + pb::CodedOutputStream.ComputeMessageSize(ScenarioGroup);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Response other) {
-              if (other == null) {
-                return;
-              }
-              if (other.scenarioGroup_ != null) {
-                if (scenarioGroup_ == null) {
-                  ScenarioGroup = new global::LiveKit.Proto.ScenarioGroup();
-                }
-                ScenarioGroup.MergeFrom(other.ScenarioGroup);
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    if (scenarioGroup_ == null) {
-                      ScenarioGroup = new global::LiveKit.Proto.ScenarioGroup();
-                    }
-                    input.ReadMessage(ScenarioGroup);
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    if (scenarioGroup_ == null) {
-                      ScenarioGroup = new global::LiveKit.Proto.ScenarioGroup();
-                    }
-                    input.ReadMessage(ScenarioGroup);
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-        }
-        #endregion
-
-      }
-
-      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class Delete : pb::IMessage<Delete>
-      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          , pb::IBufferMessage
-      #endif
-      {
-        private static readonly pb::MessageParser<Delete> _parser = new pb::MessageParser<Delete>(() => new Delete());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<Delete> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.ScenarioGroup.Descriptor.NestedTypes[1]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Delete() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Delete(Delete other) : this() {
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public Delete Clone() {
-          return new Delete(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override bool Equals(object other) {
-          return Equals(other as Delete);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(Delete other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void WriteTo(pb::CodedOutputStream output) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          output.WriteRawMessage(this);
-        #else
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(ref output);
-          }
-        }
-        #endif
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public int CalculateSize() {
-          int size = 0;
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(Delete other) {
-          if (other == null) {
-            return;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(pb::CodedInputStream input) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          input.ReadRawMessage(this);
-        #else
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-            }
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                break;
-            }
-          }
-        }
-        #endif
-
-        #region Nested types
-        /// <summary>Container for nested types declared in the Delete message type.</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static partial class Types {
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Request : pb::IMessage<Request>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Request> _parser = new pb::MessageParser<Request>(() => new Request());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Request> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.ScenarioGroup.Types.Delete.Descriptor.NestedTypes[0]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request(Request other) : this() {
-              projectId_ = other.projectId_;
-              groupId_ = other.groupId_;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request Clone() {
-              return new Request(this);
-            }
-
-            /// <summary>Field number for the "project_id" field.</summary>
-            public const int ProjectIdFieldNumber = 1;
-            private string projectId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ProjectId {
-              get { return projectId_; }
-              set {
-                projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            /// <summary>Field number for the "group_id" field.</summary>
-            public const int GroupIdFieldNumber = 2;
-            private string groupId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string GroupId {
-              get { return groupId_; }
-              set {
-                groupId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Request);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Request other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (ProjectId != other.ProjectId) return false;
-              if (GroupId != other.GroupId) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
-              if (GroupId.Length != 0) hash ^= GroupId.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(GroupId);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (GroupId.Length != 0) {
-                output.WriteRawTag(18);
-                output.WriteString(GroupId);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (ProjectId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-              }
-              if (GroupId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(GroupId);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Request other) {
-              if (other == null) {
-                return;
-              }
-              if (other.ProjectId.Length != 0) {
-                ProjectId = other.ProjectId;
-              }
-              if (other.GroupId.Length != 0) {
-                GroupId = other.GroupId;
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                  case 18: {
-                    GroupId = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Response : pb::IMessage<Response>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Response> _parser = new pb::MessageParser<Response>(() => new Response());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Response> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.ScenarioGroup.Types.Delete.Descriptor.NestedTypes[1]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response(Response other) : this() {
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response Clone() {
-              return new Response(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Response);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Response other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Response other) {
-              if (other == null) {
-                return;
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                }
-              }
-            }
-            #endif
-
-          }
-
-        }
-        #endregion
-
-      }
-
-      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class List : pb::IMessage<List>
-      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          , pb::IBufferMessage
-      #endif
-      {
-        private static readonly pb::MessageParser<List> _parser = new pb::MessageParser<List>(() => new List());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<List> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.ScenarioGroup.Descriptor.NestedTypes[2]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public List() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public List(List other) : this() {
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public List Clone() {
-          return new List(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override bool Equals(object other) {
-          return Equals(other as List);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(List other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void WriteTo(pb::CodedOutputStream output) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          output.WriteRawMessage(this);
-        #else
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(ref output);
-          }
-        }
-        #endif
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public int CalculateSize() {
-          int size = 0;
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(List other) {
-          if (other == null) {
-            return;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(pb::CodedInputStream input) {
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-          input.ReadRawMessage(this);
-        #else
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-            }
-          }
-        #endif
-        }
-
-        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                break;
-            }
-          }
-        }
-        #endif
-
-        #region Nested types
-        /// <summary>Container for nested types declared in the List message type.</summary>
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static partial class Types {
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Request : pb::IMessage<Request>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Request> _parser = new pb::MessageParser<Request>(() => new Request());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Request> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.ScenarioGroup.Types.List.Descriptor.NestedTypes[0]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request(Request other) : this() {
-              projectId_ = other.projectId_;
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Request Clone() {
-              return new Request(this);
-            }
-
-            /// <summary>Field number for the "project_id" field.</summary>
-            public const int ProjectIdFieldNumber = 1;
-            private string projectId_ = "";
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public string ProjectId {
-              get { return projectId_; }
-              set {
-                projectId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-              }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Request);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Request other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if (ProjectId != other.ProjectId) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              if (ProjectId.Length != 0) hash ^= ProjectId.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              if (ProjectId.Length != 0) {
-                output.WriteRawTag(10);
-                output.WriteString(ProjectId);
-              }
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              if (ProjectId.Length != 0) {
-                size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectId);
-              }
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Request other) {
-              if (other == null) {
-                return;
-              }
-              if (other.ProjectId.Length != 0) {
-                ProjectId = other.ProjectId;
-              }
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    ProjectId = input.ReadString();
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-          public sealed partial class Response : pb::IMessage<Response>
-          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              , pb::IBufferMessage
-          #endif
-          {
-            private static readonly pb::MessageParser<Response> _parser = new pb::MessageParser<Response>(() => new Response());
-            private pb::UnknownFieldSet _unknownFields;
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pb::MessageParser<Response> Parser { get { return _parser; } }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public static pbr::MessageDescriptor Descriptor {
-              get { return global::LiveKit.Proto.ScenarioGroup.Types.List.Descriptor.NestedTypes[1]; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            pbr::MessageDescriptor pb::IMessage.Descriptor {
-              get { return Descriptor; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response() {
-              OnConstruction();
-            }
-
-            partial void OnConstruction();
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response(Response other) : this() {
-              scenarioGroups_ = other.scenarioGroups_.Clone();
-              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public Response Clone() {
-              return new Response(this);
-            }
-
-            /// <summary>Field number for the "scenario_groups" field.</summary>
-            public const int ScenarioGroupsFieldNumber = 1;
-            private static readonly pb::FieldCodec<global::LiveKit.Proto.ScenarioGroup> _repeated_scenarioGroups_codec
-                = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.ScenarioGroup.Parser);
-            private readonly pbc::RepeatedField<global::LiveKit.Proto.ScenarioGroup> scenarioGroups_ = new pbc::RepeatedField<global::LiveKit.Proto.ScenarioGroup>();
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public pbc::RepeatedField<global::LiveKit.Proto.ScenarioGroup> ScenarioGroups {
-              get { return scenarioGroups_; }
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override bool Equals(object other) {
-              return Equals(other as Response);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public bool Equals(Response other) {
-              if (ReferenceEquals(other, null)) {
-                return false;
-              }
-              if (ReferenceEquals(other, this)) {
-                return true;
-              }
-              if(!scenarioGroups_.Equals(other.scenarioGroups_)) return false;
-              return Equals(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override int GetHashCode() {
-              int hash = 1;
-              hash ^= scenarioGroups_.GetHashCode();
-              if (_unknownFields != null) {
-                hash ^= _unknownFields.GetHashCode();
-              }
-              return hash;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public override string ToString() {
-              return pb::JsonFormatter.ToDiagnosticString(this);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void WriteTo(pb::CodedOutputStream output) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              output.WriteRawMessage(this);
-            #else
-              scenarioGroups_.WriteTo(output, _repeated_scenarioGroups_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(output);
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-              scenarioGroups_.WriteTo(ref output, _repeated_scenarioGroups_codec);
-              if (_unknownFields != null) {
-                _unknownFields.WriteTo(ref output);
-              }
-            }
-            #endif
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public int CalculateSize() {
-              int size = 0;
-              size += scenarioGroups_.CalculateSize(_repeated_scenarioGroups_codec);
-              if (_unknownFields != null) {
-                size += _unknownFields.CalculateSize();
-              }
-              return size;
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(Response other) {
-              if (other == null) {
-                return;
-              }
-              scenarioGroups_.Add(other.scenarioGroups_);
-              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-            }
-
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            public void MergeFrom(pb::CodedInputStream input) {
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-              input.ReadRawMessage(this);
-            #else
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                    break;
-                  case 10: {
-                    scenarioGroups_.AddEntriesFrom(input, _repeated_scenarioGroups_codec);
-                    break;
-                  }
-                }
-              }
-            #endif
-            }
-
-            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-              uint tag;
-              while ((tag = input.ReadTag()) != 0) {
-              if ((tag & 7) == 4) {
-                // Abort on any end group tag.
-                return;
-              }
-              switch(tag) {
-                  default:
-                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-                    break;
-                  case 10: {
-                    scenarioGroups_.AddEntriesFrom(ref input, _repeated_scenarioGroups_codec);
-                    break;
-                  }
-                }
-              }
-            }
-            #endif
-
-          }
-
-        }
-        #endregion
-
-      }
-
+    public static pb::MessageParser<SimulationDispatch> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.LivekitAgentSimulationReflection.Descriptor.MessageTypes[4]; }
     }
-    #endregion
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SimulationDispatch() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SimulationDispatch(SimulationDispatch other) : this() {
+      simulationRunId_ = other.simulationRunId_;
+      jobId_ = other.jobId_;
+      scenario_ = other.scenario_ != null ? other.scenario_.Clone() : null;
+      mode_ = other.mode_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SimulationDispatch Clone() {
+      return new SimulationDispatch(this);
+    }
+
+    /// <summary>Field number for the "simulation_run_id" field.</summary>
+    public const int SimulationRunIdFieldNumber = 1;
+    private string simulationRunId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string SimulationRunId {
+      get { return simulationRunId_; }
+      set {
+        simulationRunId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "job_id" field.</summary>
+    public const int JobIdFieldNumber = 2;
+    private string jobId_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string JobId {
+      get { return jobId_; }
+      set {
+        jobId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "scenario" field.</summary>
+    public const int ScenarioFieldNumber = 3;
+    private global::LiveKit.Proto.Scenario scenario_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.Scenario Scenario {
+      get { return scenario_; }
+      set {
+        scenario_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "mode" field.</summary>
+    public const int ModeFieldNumber = 4;
+    private global::LiveKit.Proto.SimulationMode mode_ = global::LiveKit.Proto.SimulationMode.Unspecified;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.SimulationMode Mode {
+      get { return mode_; }
+      set {
+        mode_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SimulationDispatch);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SimulationDispatch other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (SimulationRunId != other.SimulationRunId) return false;
+      if (JobId != other.JobId) return false;
+      if (!object.Equals(Scenario, other.Scenario)) return false;
+      if (Mode != other.Mode) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (SimulationRunId.Length != 0) hash ^= SimulationRunId.GetHashCode();
+      if (JobId.Length != 0) hash ^= JobId.GetHashCode();
+      if (scenario_ != null) hash ^= Scenario.GetHashCode();
+      if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) hash ^= Mode.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (SimulationRunId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(SimulationRunId);
+      }
+      if (JobId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(JobId);
+      }
+      if (scenario_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Scenario);
+      }
+      if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Mode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (SimulationRunId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(SimulationRunId);
+      }
+      if (JobId.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(JobId);
+      }
+      if (scenario_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Scenario);
+      }
+      if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Mode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (SimulationRunId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SimulationRunId);
+      }
+      if (JobId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(JobId);
+      }
+      if (scenario_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Scenario);
+      }
+      if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SimulationDispatch other) {
+      if (other == null) {
+        return;
+      }
+      if (other.SimulationRunId.Length != 0) {
+        SimulationRunId = other.SimulationRunId;
+      }
+      if (other.JobId.Length != 0) {
+        JobId = other.JobId;
+      }
+      if (other.scenario_ != null) {
+        if (scenario_ == null) {
+          Scenario = new global::LiveKit.Proto.Scenario();
+        }
+        Scenario.MergeFrom(other.Scenario);
+      }
+      if (other.Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
+        Mode = other.Mode;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            SimulationRunId = input.ReadString();
+            break;
+          }
+          case 18: {
+            JobId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (scenario_ == null) {
+              Scenario = new global::LiveKit.Proto.Scenario();
+            }
+            input.ReadMessage(Scenario);
+            break;
+          }
+          case 32: {
+            Mode = (global::LiveKit.Proto.SimulationMode) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            SimulationRunId = input.ReadString();
+            break;
+          }
+          case 18: {
+            JobId = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (scenario_ == null) {
+              Scenario = new global::LiveKit.Proto.Scenario();
+            }
+            input.ReadMessage(Scenario);
+            break;
+          }
+          case 32: {
+            Mode = (global::LiveKit.Proto.SimulationMode) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+    #endif
 
   }
 
