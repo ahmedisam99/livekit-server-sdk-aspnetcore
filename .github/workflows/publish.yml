@@ -23,7 +23,7 @@ jobs:
         run: dotnet pack -c Release --output nupkg
 
       - name: Install validator
-        run: dotnet tool update Meziantou.Framework.NuGetPackageValidation.Tool --global
+        run: dotnet tool update Meziantou.Framework.NuGetPackageValidation.Tool --global --version 1.0.59
 
       - name: Validate package
         run: meziantou.validate-nuget-package --excluded-rules IconMustBeSet nupkg/*.nupkg
