@@ -52,36 +52,36 @@ namespace LiveKit.Proto {
             "c2Nvbm5lY3RXaGF0c0FwcENhbGxSZXF1ZXN0LkRpc2Nvbm5lY3RSZWFzb24i",
             "PgoQRGlzY29ubmVjdFJlYXNvbhIWChJCVVNJTkVTU19JTklUSUFURUQQABIS",
             "Cg5VU0VSX0lOSVRJQVRFRBABIiAKHkRpc2Nvbm5lY3RXaGF0c0FwcENhbGxS",
-            "ZXNwb25zZSJzChpDb25uZWN0V2hhdHNBcHBDYWxsUmVxdWVzdBIrChB3aGF0",
-            "c2FwcF9jYWxsX2lkGAEgASgJQhG6UA53aGF0c2FwcENhbGxJRBIoCgNzZHAY",
-            "AiABKAsyGy5saXZla2l0LlNlc3Npb25EZXNjcmlwdGlvbiIdChtDb25uZWN0",
-            "V2hhdHNBcHBDYWxsUmVzcG9uc2UirwYKGUFjY2VwdFdoYXRzQXBwQ2FsbFJl",
-            "cXVlc3QSOgoYd2hhdHNhcHBfcGhvbmVfbnVtYmVyX2lkGAEgASgJQhi6UBV3",
-            "aGF0c2FwcFBob25lTnVtYmVySUQSHQoQd2hhdHNhcHBfYXBpX2tleRgCIAEo",
-            "CUIDwFACEiIKGndoYXRzYXBwX2Nsb3VkX2FwaV92ZXJzaW9uGA0gASgJEisK",
-            "EHdoYXRzYXBwX2NhbGxfaWQYAyABKAlCEbpQDndoYXRzYXBwQ2FsbElEEikK",
-            "IXdoYXRzYXBwX2Jpel9vcGFxdWVfY2FsbGJhY2tfZGF0YRgEIAEoCRIoCgNz",
-            "ZHAYBSABKAsyGy5saXZla2l0LlNlc3Npb25EZXNjcmlwdGlvbhIRCglyb29t",
-            "X25hbWUYBiABKAkSKgoGYWdlbnRzGAcgAygLMhoubGl2ZWtpdC5Sb29tQWdl",
-            "bnREaXNwYXRjaBIcChRwYXJ0aWNpcGFudF9pZGVudGl0eRgIIAEoCRI+ChBw",
-            "YXJ0aWNpcGFudF9uYW1lGAkgASgJQiSyUB48cmVkYWN0ZWQgKHt7IC5TaXpl",
-            "IH19IGJ5dGVzKT7AUAESQgoUcGFydGljaXBhbnRfbWV0YWRhdGEYCiABKAlC",
-            "JLJQHjxyZWRhY3RlZCAoe3sgLlNpemUgfX0gYnl0ZXMpPsBQARKDAQoWcGFy",
-            "dGljaXBhbnRfYXR0cmlidXRlcxgLIAMoCzI9LmxpdmVraXQuQWNjZXB0V2hh",
-            "dHNBcHBDYWxsUmVxdWVzdC5QYXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRyeUIk",
-            "slAePHJlZGFjdGVkICh7eyAuU2l6ZSB9fSBieXRlcyk+wFABEhsKE2Rlc3Rp",
-            "bmF0aW9uX2NvdW50cnkYDCABKAkSMgoPcmluZ2luZ190aW1lb3V0GA4gASgL",
-            "MhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uEhsKE3dhaXRfdW50aWxfYW5z",
-            "d2VyZWQYDyABKAgaPAoaUGFydGljaXBhbnRBdHRyaWJ1dGVzRW50cnkSCwoD",
-            "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASIvChpBY2NlcHRXaGF0c0Fw",
-            "cENhbGxSZXNwb25zZRIRCglyb29tX25hbWUYASABKAkibgoMV2hhdHNBcHBD",
-            "YWxsEisKEHdoYXRzYXBwX2NhbGxfaWQYASABKAlCEbpQDndoYXRzYXBwQ2Fs",
-            "bElEEjEKCWRpcmVjdGlvbhgCIAEoDjIeLmxpdmVraXQuV2hhdHNBcHBDYWxs",
-            "RGlyZWN0aW9uKmIKFVdoYXRzQXBwQ2FsbERpcmVjdGlvbhIjCh9XSEFUU0FQ",
-            "UF9DQUxMX0RJUkVDVElPTl9JTkJPVU5EEAASJAogV0hBVFNBUFBfQ0FMTF9E",
-            "SVJFQ1RJT05fT1VUQk9VTkQQAkJGWiNnaXRodWIuY29tL2xpdmVraXQvcHJv",
-            "dG9jb2wvbGl2ZWtpdKoCDUxpdmVLaXQuUHJvdG/qAg5MaXZlS2l0OjpQcm90",
-            "b2IGcHJvdG8z"));
+            "ZXNwb25zZSKQAQoaQ29ubmVjdFdoYXRzQXBwQ2FsbFJlcXVlc3QSKwoQd2hh",
+            "dHNhcHBfY2FsbF9pZBgBIAEoCUIRulAOd2hhdHNhcHBDYWxsSUQSKAoDc2Rw",
+            "GAIgASgLMhsubGl2ZWtpdC5TZXNzaW9uRGVzY3JpcHRpb24SGwoTd2FpdF91",
+            "bnRpbF9hbnN3ZXJlZBgDIAEoCCIdChtDb25uZWN0V2hhdHNBcHBDYWxsUmVz",
+            "cG9uc2UirwYKGUFjY2VwdFdoYXRzQXBwQ2FsbFJlcXVlc3QSOgoYd2hhdHNh",
+            "cHBfcGhvbmVfbnVtYmVyX2lkGAEgASgJQhi6UBV3aGF0c2FwcFBob25lTnVt",
+            "YmVySUQSHQoQd2hhdHNhcHBfYXBpX2tleRgCIAEoCUIDwFACEiIKGndoYXRz",
+            "YXBwX2Nsb3VkX2FwaV92ZXJzaW9uGA0gASgJEisKEHdoYXRzYXBwX2NhbGxf",
+            "aWQYAyABKAlCEbpQDndoYXRzYXBwQ2FsbElEEikKIXdoYXRzYXBwX2Jpel9v",
+            "cGFxdWVfY2FsbGJhY2tfZGF0YRgEIAEoCRIoCgNzZHAYBSABKAsyGy5saXZl",
+            "a2l0LlNlc3Npb25EZXNjcmlwdGlvbhIRCglyb29tX25hbWUYBiABKAkSKgoG",
+            "YWdlbnRzGAcgAygLMhoubGl2ZWtpdC5Sb29tQWdlbnREaXNwYXRjaBIcChRw",
+            "YXJ0aWNpcGFudF9pZGVudGl0eRgIIAEoCRI+ChBwYXJ0aWNpcGFudF9uYW1l",
+            "GAkgASgJQiSyUB48cmVkYWN0ZWQgKHt7IC5TaXplIH19IGJ5dGVzKT7AUAES",
+            "QgoUcGFydGljaXBhbnRfbWV0YWRhdGEYCiABKAlCJLJQHjxyZWRhY3RlZCAo",
+            "e3sgLlNpemUgfX0gYnl0ZXMpPsBQARKDAQoWcGFydGljaXBhbnRfYXR0cmli",
+            "dXRlcxgLIAMoCzI9LmxpdmVraXQuQWNjZXB0V2hhdHNBcHBDYWxsUmVxdWVz",
+            "dC5QYXJ0aWNpcGFudEF0dHJpYnV0ZXNFbnRyeUIkslAePHJlZGFjdGVkICh7",
+            "eyAuU2l6ZSB9fSBieXRlcyk+wFABEhsKE2Rlc3RpbmF0aW9uX2NvdW50cnkY",
+            "DCABKAkSMgoPcmluZ2luZ190aW1lb3V0GA4gASgLMhkuZ29vZ2xlLnByb3Rv",
+            "YnVmLkR1cmF0aW9uEhsKE3dhaXRfdW50aWxfYW5zd2VyZWQYDyABKAgaPAoa",
+            "UGFydGljaXBhbnRBdHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZh",
+            "bHVlGAIgASgJOgI4ASIvChpBY2NlcHRXaGF0c0FwcENhbGxSZXNwb25zZRIR",
+            "Cglyb29tX25hbWUYASABKAkibgoMV2hhdHNBcHBDYWxsEisKEHdoYXRzYXBw",
+            "X2NhbGxfaWQYASABKAlCEbpQDndoYXRzYXBwQ2FsbElEEjEKCWRpcmVjdGlv",
+            "bhgCIAEoDjIeLmxpdmVraXQuV2hhdHNBcHBDYWxsRGlyZWN0aW9uKmIKFVdo",
+            "YXRzQXBwQ2FsbERpcmVjdGlvbhIjCh9XSEFUU0FQUF9DQUxMX0RJUkVDVElP",
+            "Tl9JTkJPVU5EEAASJAogV0hBVFNBUFBfQ0FMTF9ESVJFQ1RJT05fT1VUQk9V",
+            "TkQQAkJGWiNnaXRodWIuY29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdKoC",
+            "DUxpdmVLaXQuUHJvdG/qAg5MaXZlS2l0OjpQcm90b2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.WhatsAppCallDirection), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -89,7 +89,7 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DialWhatsAppCallResponse), global::LiveKit.Proto.DialWhatsAppCallResponse.Parser, new[]{ "WhatsappCallId", "RoomName" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DisconnectWhatsAppCallRequest), global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Parser, new[]{ "WhatsappCallId", "WhatsappApiKey", "DisconnectReason" }, null, new[]{ typeof(global::LiveKit.Proto.DisconnectWhatsAppCallRequest.Types.DisconnectReason) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.DisconnectWhatsAppCallResponse), global::LiveKit.Proto.DisconnectWhatsAppCallResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectWhatsAppCallRequest), global::LiveKit.Proto.ConnectWhatsAppCallRequest.Parser, new[]{ "WhatsappCallId", "Sdp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectWhatsAppCallRequest), global::LiveKit.Proto.ConnectWhatsAppCallRequest.Parser, new[]{ "WhatsappCallId", "Sdp", "WaitUntilAnswered" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ConnectWhatsAppCallResponse), global::LiveKit.Proto.ConnectWhatsAppCallResponse.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AcceptWhatsAppCallRequest), global::LiveKit.Proto.AcceptWhatsAppCallRequest.Parser, new[]{ "WhatsappPhoneNumberId", "WhatsappApiKey", "WhatsappCloudApiVersion", "WhatsappCallId", "WhatsappBizOpaqueCallbackData", "Sdp", "RoomName", "Agents", "ParticipantIdentity", "ParticipantName", "ParticipantMetadata", "ParticipantAttributes", "DestinationCountry", "RingingTimeout", "WaitUntilAnswered" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AcceptWhatsAppCallResponse), global::LiveKit.Proto.AcceptWhatsAppCallResponse.Parser, new[]{ "RoomName" }, null, null, null, null),
@@ -1522,6 +1522,7 @@ namespace LiveKit.Proto {
     public ConnectWhatsAppCallRequest(ConnectWhatsAppCallRequest other) : this() {
       whatsappCallId_ = other.whatsappCallId_;
       sdp_ = other.sdp_ != null ? other.sdp_.Clone() : null;
+      waitUntilAnswered_ = other.waitUntilAnswered_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1562,6 +1563,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "wait_until_answered" field.</summary>
+    public const int WaitUntilAnsweredFieldNumber = 3;
+    private bool waitUntilAnswered_;
+    /// <summary>
+    /// Wait for the answer for the call before returning.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool WaitUntilAnswered {
+      get { return waitUntilAnswered_; }
+      set {
+        waitUntilAnswered_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1579,6 +1595,7 @@ namespace LiveKit.Proto {
       }
       if (WhatsappCallId != other.WhatsappCallId) return false;
       if (!object.Equals(Sdp, other.Sdp)) return false;
+      if (WaitUntilAnswered != other.WaitUntilAnswered) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1588,6 +1605,7 @@ namespace LiveKit.Proto {
       int hash = 1;
       if (WhatsappCallId.Length != 0) hash ^= WhatsappCallId.GetHashCode();
       if (sdp_ != null) hash ^= Sdp.GetHashCode();
+      if (WaitUntilAnswered != false) hash ^= WaitUntilAnswered.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1614,6 +1632,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteMessage(Sdp);
       }
+      if (WaitUntilAnswered != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(WaitUntilAnswered);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1632,6 +1654,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteMessage(Sdp);
       }
+      if (WaitUntilAnswered != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(WaitUntilAnswered);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1647,6 +1673,9 @@ namespace LiveKit.Proto {
       }
       if (sdp_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Sdp);
+      }
+      if (WaitUntilAnswered != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1668,6 +1697,9 @@ namespace LiveKit.Proto {
           Sdp = new global::LiveKit.Proto.SessionDescription();
         }
         Sdp.MergeFrom(other.Sdp);
+      }
+      if (other.WaitUntilAnswered != false) {
+        WaitUntilAnswered = other.WaitUntilAnswered;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1699,6 +1731,10 @@ namespace LiveKit.Proto {
             input.ReadMessage(Sdp);
             break;
           }
+          case 24: {
+            WaitUntilAnswered = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -1727,6 +1763,10 @@ namespace LiveKit.Proto {
               Sdp = new global::LiveKit.Proto.SessionDescription();
             }
             input.ReadMessage(Sdp);
+            break;
+          }
+          case 24: {
+            WaitUntilAnswered = input.ReadBool();
             break;
           }
         }

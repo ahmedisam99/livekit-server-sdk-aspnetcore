@@ -35,94 +35,185 @@ namespace LiveKit.Proto {
             "eS5DaGF0SGlzdG9yeUVudHJ5Gk4KEENoYXRIaXN0b3J5RW50cnkSCwoDa2V5",
             "GAEgASgJEikKBXZhbHVlGAIgASgLMhoubGl2ZWtpdC5hZ2VudC5DaGF0Q29u",
             "dGV4dDoCOAEaPwoFSXNzdWUSEwoLZGVzY3JpcHRpb24YASABKAkSEgoKc3Vn",
-            "Z2VzdGlvbhgCIAEoCRINCgVsYWJlbBgDIAEoCSL/EQoNU2ltdWxhdGlvblJ1",
+            "Z2VzdGlvbhgCIAEoCRINCgVsYWJlbBgDIAEoCSKoLwoNU2ltdWxhdGlvblJ1",
             "bhIKCgJpZBgBIAEoCRISCgpwcm9qZWN0X2lkGAIgASgJEi0KBnN0YXR1cxgD",
             "IAEoDjIdLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5TdGF0dXMSGQoRYWdlbnRf",
             "ZGVzY3JpcHRpb24YBCABKAkSDQoFZXJyb3IYBSABKAkSLgoKY3JlYXRlZF9h",
             "dBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASKAoEam9icxgH",
-            "IAMoCzIaLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5Kb2ISLgoHc3VtbWFyeRgI",
-            "IAEoCzIdLmxpdmVraXQuU2ltdWxhdGlvblJ1blN1bW1hcnkSEgoKYWdlbnRf",
-            "bmFtZRgJIAEoCRIuCg5zY2VuYXJpb19ncm91cBgKIAEoCzIWLmxpdmVraXQu",
-            "U2NlbmFyaW9Hcm91cBIsCghlbmRlZF9hdBgLIAEoCzIaLmdvb2dsZS5wcm90",
-            "b2J1Zi5UaW1lc3RhbXASEQoJam9iX2NvdW50GAwgASgFEhQKDHBhc3NlZF9j",
-            "b3VudBgNIAEoBRIUCgxmYWlsZWRfY291bnQYDiABKAUSFwoPbnVtX3NpbXVs",
-            "YXRpb25zGA8gASgFEisKBXVzYWdlGBAgASgLMhwubGl2ZWtpdC5TaW11bGF0",
-            "aW9uUnVuLlVzYWdlEhMKC2NvbmN1cnJlbmN5GBEgASgFEiUKBG1vZGUYEiAB",
-            "KA4yFy5saXZla2l0LlNpbXVsYXRpb25Nb2RlGooECgNKb2ISCgoCaWQYASAB",
-            "KAkSMQoGc3RhdHVzGAIgASgOMiEubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkpv",
-            "Yi5TdGF0dXMSFAoMaW5zdHJ1Y3Rpb25zGAMgASgJEg0KBWVycm9yGAQgASgJ",
-            "EhoKEmFnZW50X2V4cGVjdGF0aW9ucxgFIAEoCRINCgVsYWJlbBgGIAEoCRIM",
-            "CgR0YWdzGAcgAygJEhEKCXJvb21fbmFtZRgIIAEoCRIuCgpzdGFydGVkX2F0",
-            "GAogASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIsCghlbmRlZF9h",
-            "dBgLIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASDwoHcm9vbV9p",
-            "ZBgMIAEoCRIvCgV1c2FnZRgNIAEoCzIgLmxpdmVraXQuU2ltdWxhdGlvblJ1",
-            "bi5Kb2IuVXNhZ2UaPAoFVXNhZ2USGAoQdGV4dF90dXJuc19jb3VudBgBIAEo",
-            "BRIZChFhdWRpb190dXJuc19jb3VudBgCIAEoBSJvCgZTdGF0dXMSEgoOU1RB",
-            "VFVTX1BFTkRJTkcQABISCg5TVEFUVVNfUlVOTklORxABEhQKEFNUQVRVU19D",
-            "T01QTEVURUQQAhIRCg1TVEFUVVNfRkFJTEVEEAMSFAoQU1RBVFVTX0NBTkNF",
-            "TExFRBAESgQICRAKGv0CCgZDcmVhdGUajAIKB1JlcXVlc3QSEgoKcHJvamVj",
-            "dF9pZBgBIAEoCRISCgphZ2VudF9uYW1lGAIgASgJEhcKD251bV9zaW11bGF0",
-            "aW9ucxgEIAEoBRIOCgZyZWdpb24YBiABKAkSMwoOc2NlbmFyaW9fZ3JvdXAY",
-            "ByABKAsyFi5saXZla2l0LlNjZW5hcmlvR3JvdXBIAIgBARIYCgtjb25jdXJy",
-            "ZW5jeRgIIAEoBUgBiAEBEiUKBG1vZGUYCSABKA4yFy5saXZla2l0LlNpbXVs",
-            "YXRpb25Nb2RlQhEKD19zY2VuYXJpb19ncm91cEIOCgxfY29uY3VycmVuY3lK",
-            "BAgDEARSEWFnZW50X2Rlc2NyaXB0aW9uGmQKCFJlc3BvbnNlEhkKEXNpbXVs",
-            "YXRpb25fcnVuX2lkGAEgASgJEj0KFnByZXNpZ25lZF9wb3N0X3JlcXVlc3QY",
-            "AiABKAsyHS5saXZla2l0LlByZXNpZ25lZFBvc3RSZXF1ZXN0GnQKE0NvbmZp",
-            "cm1Tb3VyY2VVcGxvYWQaUQoHUmVxdWVzdBISCgpwcm9qZWN0X2lkGAEgASgJ",
-            "EhkKEXNpbXVsYXRpb25fcnVuX2lkGAIgASgJEhcKD2NvZGVfZW50cnlwb2lu",
-            "dBgDIAEoCRoKCghSZXNwb25zZRpwCgNHZXQaOAoHUmVxdWVzdBISCgpwcm9q",
-            "ZWN0X2lkGAEgASgJEhkKEXNpbXVsYXRpb25fcnVuX2lkGAIgASgJGi8KCFJl",
-            "c3BvbnNlEiMKA3J1bhgBIAEoCzIWLmxpdmVraXQuU2ltdWxhdGlvblJ1bhqM",
-            "AgoETGlzdBqeAQoHUmVxdWVzdBISCgpwcm9qZWN0X2lkGAEgASgJEjIKBnN0",
-            "YXR1cxgCIAEoDjIdLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5TdGF0dXNIAIgB",
-            "ARIxCgpwYWdlX3Rva2VuGAMgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2luYXRp",
-            "b25IAYgBAUIJCgdfc3RhdHVzQg0KC19wYWdlX3Rva2VuGmMKCFJlc3BvbnNl",
-            "EiQKBHJ1bnMYASADKAsyFi5saXZla2l0LlNpbXVsYXRpb25SdW4SMQoPbmV4",
-            "dF9wYWdlX3Rva2VuGAIgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2luYXRpb24a",
-            "TgoGQ2FuY2VsGjgKB1JlcXVlc3QSEgoKcHJvamVjdF9pZBgBIAEoCRIZChFz",
-            "aW11bGF0aW9uX3J1bl9pZBgCIAEoCRoKCghSZXNwb25zZRo8CgVVc2FnZRIY",
-            "ChB0ZXh0X3R1cm5zX2NvdW50GAEgASgFEhkKEWF1ZGlvX3R1cm5zX2NvdW50",
-            "GAIgASgFIqUBCgZTdGF0dXMSGQoVU1RBVFVTX1BFTkRJTkdfVVBMT0FEEAAS",
-            "FQoRU1RBVFVTX0dFTkVSQVRJTkcQARISCg5TVEFUVVNfUlVOTklORxACEhYK",
-            "ElNUQVRVU19TVU1NQVJJWklORxADEhQKEFNUQVRVU19DT01QTEVURUQQBBIR",
-            "Cg1TVEFUVVNfRkFJTEVEEAUSFAoQU1RBVFVTX0NBTkNFTExFRBAGIrwCCghT",
-            "Y2VuYXJpbxINCgVsYWJlbBgBIAEoCRIUCgxpbnN0cnVjdGlvbnMYAiABKAkS",
-            "GgoSYWdlbnRfZXhwZWN0YXRpb25zGAMgASgJEikKBHRhZ3MYBCADKAsyGy5s",
-            "aXZla2l0LlNjZW5hcmlvLlRhZ3NFbnRyeRIQCgh1c2VyZGF0YRgFIAEoCRqE",
-            "AQoRQ3JlYXRlRnJvbVNlc3Npb24aPgoHUmVxdWVzdBISCgpwcm9qZWN0X2lk",
-            "GAEgASgJEg8KB3Jvb21faWQYAiABKAkSDgoGcmVnaW9uGAMgASgJGi8KCFJl",
-            "c3BvbnNlEiMKCHNjZW5hcmlvGAEgASgLMhEubGl2ZWtpdC5TY2VuYXJpbxor",
-            "CglUYWdzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJD",
-            "Cg1TY2VuYXJpb0dyb3VwEgwKBG5hbWUYASABKAkSJAoJc2NlbmFyaW9zGAIg",
-            "AygLMhEubGl2ZWtpdC5TY2VuYXJpbyKLAQoSU2ltdWxhdGlvbkRpc3BhdGNo",
-            "EhkKEXNpbXVsYXRpb25fcnVuX2lkGAEgASgJEg4KBmpvYl9pZBgCIAEoCRIj",
-            "CghzY2VuYXJpbxgDIAEoCzIRLmxpdmVraXQuU2NlbmFyaW8SJQoEbW9kZRgE",
-            "IAEoDjIXLmxpdmVraXQuU2ltdWxhdGlvbk1vZGUqZgoOU2ltdWxhdGlvbk1v",
-            "ZGUSHwobU0lNVUxBVElPTl9NT0RFX1VOU1BFQ0lGSUVEEAASGAoUU0lNVUxB",
-            "VElPTl9NT0RFX1RFWFQQARIZChVTSU1VTEFUSU9OX01PREVfQVVESU8QAjKe",
-            "BQoPQWdlbnRTaW11bGF0aW9uEmQKE0NyZWF0ZVNpbXVsYXRpb25SdW4SJS5s",
-            "aXZla2l0LlNpbXVsYXRpb25SdW4uQ3JlYXRlLlJlcXVlc3QaJi5saXZla2l0",
-            "LlNpbXVsYXRpb25SdW4uQ3JlYXRlLlJlc3BvbnNlEogBCh1Db25maXJtU2lt",
-            "dWxhdGlvblNvdXJjZVVwbG9hZBIyLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5D",
-            "b25maXJtU291cmNlVXBsb2FkLlJlcXVlc3QaMy5saXZla2l0LlNpbXVsYXRp",
-            "b25SdW4uQ29uZmlybVNvdXJjZVVwbG9hZC5SZXNwb25zZRJbChBHZXRTaW11",
-            "bGF0aW9uUnVuEiIubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkdldC5SZXF1ZXN0",
-            "GiMubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkdldC5SZXNwb25zZRJfChJMaXN0",
-            "U2ltdWxhdGlvblJ1bnMSIy5saXZla2l0LlNpbXVsYXRpb25SdW4uTGlzdC5S",
-            "ZXF1ZXN0GiQubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkxpc3QuUmVzcG9uc2US",
-            "ZAoTQ2FuY2VsU2ltdWxhdGlvblJ1bhIlLmxpdmVraXQuU2ltdWxhdGlvblJ1",
-            "bi5DYW5jZWwuUmVxdWVzdBomLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5DYW5j",
-            "ZWwuUmVzcG9uc2USdgoZQ3JlYXRlU2NlbmFyaW9Gcm9tU2Vzc2lvbhIrLmxp",
-            "dmVraXQuU2NlbmFyaW8uQ3JlYXRlRnJvbVNlc3Npb24uUmVxdWVzdBosLmxp",
-            "dmVraXQuU2NlbmFyaW8uQ3JlYXRlRnJvbVNlc3Npb24uUmVzcG9uc2VCRloj",
-            "Z2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0",
-            "LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
+            "IAMoCzIaLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5Kb2ISEgoKYWdlbnRfbmFt",
+            "ZRgJIAEoCRIuCg5zY2VuYXJpb19ncm91cBgKIAEoCzIWLmxpdmVraXQuU2Nl",
+            "bmFyaW9Hcm91cBIsCghlbmRlZF9hdBgLIAEoCzIaLmdvb2dsZS5wcm90b2J1",
+            "Zi5UaW1lc3RhbXASEQoJam9iX2NvdW50GAwgASgFEhQKDHBhc3NlZF9jb3Vu",
+            "dBgNIAEoBRIUCgxmYWlsZWRfY291bnQYDiABKAUSFwoPbnVtX3NpbXVsYXRp",
+            "b25zGA8gASgFEisKBXVzYWdlGBAgASgLMhwubGl2ZWtpdC5TaW11bGF0aW9u",
+            "UnVuLlVzYWdlEhMKC2NvbmN1cnJlbmN5GBEgASgFEiUKBG1vZGUYEiABKA4y",
+            "Fy5saXZla2l0LlNpbXVsYXRpb25Nb2RlEjIKB21ldHJpY3MYEyABKAsyIS5s",
+            "aXZla2l0LlNpbXVsYXRpb25SdW4uUnVuTWV0cmljcxIUCgxzdW1tYXJ5X3pz",
+            "dGQYFCABKAwavgQKA0pvYhIKCgJpZBgBIAEoCRIxCgZzdGF0dXMYAiABKA4y",
+            "IS5saXZla2l0LlNpbXVsYXRpb25SdW4uSm9iLlN0YXR1cxIUCgxpbnN0cnVj",
+            "dGlvbnMYAyABKAkSDQoFZXJyb3IYBCABKAkSGgoSYWdlbnRfZXhwZWN0YXRp",
+            "b25zGAUgASgJEg0KBWxhYmVsGAYgASgJEgwKBHRhZ3MYByADKAkSEQoJcm9v",
+            "bV9uYW1lGAggASgJEi4KCnN0YXJ0ZWRfYXQYCiABKAsyGi5nb29nbGUucHJv",
+            "dG9idWYuVGltZXN0YW1wEiwKCGVuZGVkX2F0GAsgASgLMhouZ29vZ2xlLnBy",
+            "b3RvYnVmLlRpbWVzdGFtcBIPCgdyb29tX2lkGAwgASgJEi8KBXVzYWdlGA0g",
+            "ASgLMiAubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkpvYi5Vc2FnZRIyCgdtZXRy",
+            "aWNzGA4gASgLMiEubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkpvYk1ldHJpY3Ma",
+            "PAoFVXNhZ2USGAoQdGV4dF90dXJuc19jb3VudBgBIAEoBRIZChFhdWRpb190",
+            "dXJuc19jb3VudBgCIAEoBSJvCgZTdGF0dXMSEgoOU1RBVFVTX1BFTkRJTkcQ",
+            "ABISCg5TVEFUVVNfUlVOTklORxABEhQKEFNUQVRVU19DT01QTEVURUQQAhIR",
+            "Cg1TVEFUVVNfRkFJTEVEEAMSFAoQU1RBVFVTX0NBTkNFTExFRBAESgQICRAK",
+            "GvUYCgpKb2JNZXRyaWNzEhsKDmFjY3VyYWN5X3Njb3JlGAEgASgCSACIAQES",
+            "HQoQZXhwZXJpZW5jZV9zY29yZRgCIAEoAkgBiAEBEhwKD3Rhc2tfY29tcGxl",
+            "dGlvbhgDIAEoAkgCiAEBEjIKA3N0dBgEIAEoCzIlLmxpdmVraXQuU2ltdWxh",
+            "dGlvblJ1bi5Kb2JNZXRyaWNzLlNUVBIyCgNsbG0YBSABKAsyJS5saXZla2l0",
+            "LlNpbXVsYXRpb25SdW4uSm9iTWV0cmljcy5MTE0SMgoDdHRzGAYgASgLMiUu",
+            "bGl2ZWtpdC5TaW11bGF0aW9uUnVuLkpvYk1ldHJpY3MuVFRTEkQKDGNvbnZl",
+            "cnNhdGlvbhgHIAEoCzIuLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5Kb2JNZXRy",
+            "aWNzLkNvbnZlcnNhdGlvbhI+CglzaW11bGF0b3IYCCABKAsyKy5saXZla2l0",
+            "LlNpbXVsYXRpb25SdW4uSm9iTWV0cmljcy5TaW11bGF0b3ISNQoFdHVybnMY",
+            "CSADKAsyJi5saXZla2l0LlNpbXVsYXRpb25SdW4uSm9iTWV0cmljcy5UdXJu",
+            "EhMKC2p1ZGdlX21vZGVsGAogASgJEhkKEWF1ZGlvX2p1ZGdlX21vZGVsGAsg",
+            "ASgJEhoKEmhhc19yZW1vdGVfc2Vzc2lvbhgMIAEoCBImCgJ0MBgNIAEoCzIa",
+            "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAa4wIKA1NUVBIQCgN3ZXIYASAB",
+            "KAJIAIgBARISCgV3b3JkcxgCIAEoDUgBiAEBEhgKC3dvcmRfZXJyb3JzGAMg",
+            "ASgNSAKIAQESEAoDY2VyGAQgASgCSAOIAQESGwoOa2V5dGVybV9yZWNhbGwY",
+            "BSABKAJIBIgBARIdChBrZXl0ZXJtc191dHRlcmVkGAYgASgNSAWIAQESIAoT",
+            "a2V5dGVybXNfcmVjb2duaXplZBgHIAEoDUgGiAEBEiUKGHRyYW5zY3JpcHRp",
+            "b25fbGF0ZW5jeV9tcxgIIAEoDUgHiAEBQgYKBF93ZXJCCAoGX3dvcmRzQg4K",
+            "DF93b3JkX2Vycm9yc0IGCgRfY2VyQhEKD19rZXl0ZXJtX3JlY2FsbEITChFf",
+            "a2V5dGVybXNfdXR0ZXJlZEIWChRfa2V5dGVybXNfcmVjb2duaXplZEIbChlf",
+            "dHJhbnNjcmlwdGlvbl9sYXRlbmN5X21zGrUBCgNMTE0SFAoHdHRmdF9tcxgB",
+            "IAEoDUgAiAEBEhQKB3R0ZnNfbXMYAiABKA1IAYgBARIeChF0b2tlbnNfcGVy",
+            "X3NlY29uZBgDIAEoAkgCiAEBEh4KEWNvbmNpc2VuZXNzX3Njb3JlGAQgASgC",
+            "SAOIAQFCCgoIX3R0ZnRfbXNCCgoIX3R0ZnNfbXNCFAoSX3Rva2Vuc19wZXJf",
+            "c2Vjb25kQhQKEl9jb25jaXNlbmVzc19zY29yZRqBAgoDVFRTEhQKB3R0ZmFf",
+            "bXMYASABKA1IAIgBARIUCgd0dGZiX21zGAIgASgNSAGIAQESEAoDd2VyGAMg",
+            "ASgCSAKIAQESHAoPc3BlZWNoX3JhdGVfd3BtGAQgASgCSAOIAQESHgoRbmF0",
+            "dXJhbG5lc3Nfc2NvcmUYBSABKAJIBIgBARIeChFlbnVuY2lhdGlvbl9zY29y",
+            "ZRgGIAEoAkgFiAEBQgoKCF90dGZhX21zQgoKCF90dGZiX21zQgYKBF93ZXJC",
+            "EgoQX3NwZWVjaF9yYXRlX3dwbUIUChJfbmF0dXJhbG5lc3Nfc2NvcmVCFAoS",
+            "X2VudW5jaWF0aW9uX3Njb3JlGsYHCgxDb252ZXJzYXRpb24SHgoRdHVybl90",
+            "YWtpbmdfc2NvcmUYASABKAJIAIgBARIkChdyZXNwb25zZV9sYXRlbmN5X3A1",
+            "MF9tcxgCIAEoBUgBiAEBEiQKF3Jlc3BvbnNlX2xhdGVuY3lfcDk1X21zGAMg",
+            "ASgFSAKIAQESJAoXcmVzcG9uc2VfbGF0ZW5jeV9wOTlfbXMYBCABKAVIA4gB",
+            "ARIjChZhZ2VudF95aWVsZF9sYXRlbmN5X21zGAUgASgNSASIAQESJAoXZW90",
+            "X21pc3ByZWRpY3Rpb25fY291bnQYBiABKA1IBYgBARIaCg1vdmVybGFwX3Jh",
+            "dGlvGAcgASgCSAaIAQESHgoRb3ZlcmxhcF9zcGVlY2hfbXMYCCABKA1IB4gB",
+            "ARIcCg90b3RhbF9zcGVlY2hfbXMYCSABKA1ICIgBARIdChBzaWxlbmNlX3Rv",
+            "dGFsX21zGAogASgNSAmIAQESIgoVYXdrd2FyZF9zaWxlbmNlX2NvdW50GAsg",
+            "ASgNSAqIAQESJQoYdW5hbnN3ZXJlZF9wZXJzb25hX3R1cm5zGAwgASgNSAuI",
+            "AQESJQoYZmFsc2VfaW50ZXJydXB0aW9uX2NvdW50GA0gASgNSAyIAQESMQok",
+            "ZmFsc2VfaW50ZXJydXB0aW9uX3VucmVjb3ZlcmVkX2NvdW50GA4gASgNSA2I",
+            "AQESKgodYWdlbnRfcmVwb3J0ZWRfZTJlX2xhdGVuY3lfbXMYDyABKA1IDogB",
+            "AUIUChJfdHVybl90YWtpbmdfc2NvcmVCGgoYX3Jlc3BvbnNlX2xhdGVuY3lf",
+            "cDUwX21zQhoKGF9yZXNwb25zZV9sYXRlbmN5X3A5NV9tc0IaChhfcmVzcG9u",
+            "c2VfbGF0ZW5jeV9wOTlfbXNCGQoXX2FnZW50X3lpZWxkX2xhdGVuY3lfbXNC",
+            "GgoYX2VvdF9taXNwcmVkaWN0aW9uX2NvdW50QhAKDl9vdmVybGFwX3JhdGlv",
+            "QhQKEl9vdmVybGFwX3NwZWVjaF9tc0ISChBfdG90YWxfc3BlZWNoX21zQhMK",
+            "EV9zaWxlbmNlX3RvdGFsX21zQhgKFl9hd2t3YXJkX3NpbGVuY2VfY291bnRC",
+            "GwoZX3VuYW5zd2VyZWRfcGVyc29uYV90dXJuc0IbChlfZmFsc2VfaW50ZXJy",
+            "dXB0aW9uX2NvdW50QicKJV9mYWxzZV9pbnRlcnJ1cHRpb25fdW5yZWNvdmVy",
+            "ZWRfY291bnRCIAoeX2FnZW50X3JlcG9ydGVkX2UyZV9sYXRlbmN5X21zGnUK",
+            "CVNpbXVsYXRvchIeChFlYXJseV90ZXJtaW5hdGlvbhgBIAEoCEgAiAEBEh0K",
+            "EGxhdGVfdGVybWluYXRpb24YAiABKAhIAYgBAUIUChJfZWFybHlfdGVybWlu",
+            "YXRpb25CEwoRX2xhdGVfdGVybWluYXRpb24aoQUKBFR1cm4SDQoFaW5kZXgY",
+            "ASABKA0SJQoEcm9sZRgCIAEoDjIXLmxpdmVraXQuYWdlbnQuQ2hhdFJvbGUS",
+            "FQoIc3RhcnRfbXMYAyABKA1IAIgBARITCgZlbmRfbXMYBCABKA1IAYgBARIg",
+            "ChNyZXNwb25zZV9sYXRlbmN5X21zGAUgASgFSAKIAQESIwoWdHJhbnNjcmlw",
+            "dGlvbl9kZWxheV9tcxgGIAEoDUgDiAEBEhgKC2xsbV90dGZ0X21zGAcgASgN",
+            "SASIAQESGAoLbGxtX3R0ZnNfbXMYCCABKA1IBYgBARIYCgt0dHNfdHRmYV9t",
+            "cxgJIAEoDUgGiAEBEhgKC3R0c190dGZiX21zGAogASgNSAeIAQESKgodYWdl",
+            "bnRfcmVwb3J0ZWRfZTJlX2xhdGVuY3lfbXMYCyABKA1ICIgBARIeChFjb25j",
+            "aXNlbmVzc19zY29yZRgMIAEoAkgJiAEBEh4KEW5hdHVyYWxuZXNzX3Njb3Jl",
+            "GA0gASgCSAqIAQESHgoRZW51bmNpYXRpb25fc2NvcmUYDiABKAJIC4gBARIN",
+            "CgVmbGFncxgPIAMoCUILCglfc3RhcnRfbXNCCQoHX2VuZF9tc0IWChRfcmVz",
+            "cG9uc2VfbGF0ZW5jeV9tc0IZChdfdHJhbnNjcmlwdGlvbl9kZWxheV9tc0IO",
+            "CgxfbGxtX3R0ZnRfbXNCDgoMX2xsbV90dGZzX21zQg4KDF90dHNfdHRmYV9t",
+            "c0IOCgxfdHRzX3R0ZmJfbXNCIAoeX2FnZW50X3JlcG9ydGVkX2UyZV9sYXRl",
+            "bmN5X21zQhQKEl9jb25jaXNlbmVzc19zY29yZUIUChJfbmF0dXJhbG5lc3Nf",
+            "c2NvcmVCFAoSX2VudW5jaWF0aW9uX3Njb3JlQhEKD19hY2N1cmFjeV9zY29y",
+            "ZUITChFfZXhwZXJpZW5jZV9zY29yZUISChBfdGFza19jb21wbGV0aW9uGtED",
+            "CgpSdW5NZXRyaWNzEhsKDmFjY3VyYWN5X3Njb3JlGAEgASgCSACIAQESHQoQ",
+            "ZXhwZXJpZW5jZV9zY29yZRgCIAEoAkgBiAEBEh8KEnNjZW5hcmlvX3Bhc3Nf",
+            "cmF0ZRgDIAEoAkgCiAEBEjIKA3N0dBgEIAEoCzIlLmxpdmVraXQuU2ltdWxh",
+            "dGlvblJ1bi5Kb2JNZXRyaWNzLlNUVBIyCgNsbG0YBSABKAsyJS5saXZla2l0",
+            "LlNpbXVsYXRpb25SdW4uSm9iTWV0cmljcy5MTE0SMgoDdHRzGAYgASgLMiUu",
+            "bGl2ZWtpdC5TaW11bGF0aW9uUnVuLkpvYk1ldHJpY3MuVFRTEkQKDGNvbnZl",
+            "cnNhdGlvbhgHIAEoCzIuLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5Kb2JNZXRy",
+            "aWNzLkNvbnZlcnNhdGlvbhISCgpqb2JzX3RvdGFsGAkgASgNEhMKC2pvYnNf",
+            "ZmFpbGVkGAogASgNEhwKFGpvYnNfc2ltdWxhdG9yX2ZhdWx0GAsgASgNQhEK",
+            "D19hY2N1cmFjeV9zY29yZUITChFfZXhwZXJpZW5jZV9zY29yZUIVChNfc2Nl",
+            "bmFyaW9fcGFzc19yYXRlGv0CCgZDcmVhdGUajAIKB1JlcXVlc3QSEgoKcHJv",
+            "amVjdF9pZBgBIAEoCRISCgphZ2VudF9uYW1lGAIgASgJEhcKD251bV9zaW11",
+            "bGF0aW9ucxgEIAEoBRIOCgZyZWdpb24YBiABKAkSMwoOc2NlbmFyaW9fZ3Jv",
+            "dXAYByABKAsyFi5saXZla2l0LlNjZW5hcmlvR3JvdXBIAIgBARIYCgtjb25j",
+            "dXJyZW5jeRgIIAEoBUgBiAEBEiUKBG1vZGUYCSABKA4yFy5saXZla2l0LlNp",
+            "bXVsYXRpb25Nb2RlQhEKD19zY2VuYXJpb19ncm91cEIOCgxfY29uY3VycmVu",
+            "Y3lKBAgDEARSEWFnZW50X2Rlc2NyaXB0aW9uGmQKCFJlc3BvbnNlEhkKEXNp",
+            "bXVsYXRpb25fcnVuX2lkGAEgASgJEj0KFnByZXNpZ25lZF9wb3N0X3JlcXVl",
+            "c3QYAiABKAsyHS5saXZla2l0LlByZXNpZ25lZFBvc3RSZXF1ZXN0GnQKE0Nv",
+            "bmZpcm1Tb3VyY2VVcGxvYWQaUQoHUmVxdWVzdBISCgpwcm9qZWN0X2lkGAEg",
+            "ASgJEhkKEXNpbXVsYXRpb25fcnVuX2lkGAIgASgJEhcKD2NvZGVfZW50cnlw",
+            "b2ludBgDIAEoCRoKCghSZXNwb25zZRpwCgNHZXQaOAoHUmVxdWVzdBISCgpw",
+            "cm9qZWN0X2lkGAEgASgJEhkKEXNpbXVsYXRpb25fcnVuX2lkGAIgASgJGi8K",
+            "CFJlc3BvbnNlEiMKA3J1bhgBIAEoCzIWLmxpdmVraXQuU2ltdWxhdGlvblJ1",
+            "bhqMAgoETGlzdBqeAQoHUmVxdWVzdBISCgpwcm9qZWN0X2lkGAEgASgJEjIK",
+            "BnN0YXR1cxgCIAEoDjIdLmxpdmVraXQuU2ltdWxhdGlvblJ1bi5TdGF0dXNI",
+            "AIgBARIxCgpwYWdlX3Rva2VuGAMgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2lu",
+            "YXRpb25IAYgBAUIJCgdfc3RhdHVzQg0KC19wYWdlX3Rva2VuGmMKCFJlc3Bv",
+            "bnNlEiQKBHJ1bnMYASADKAsyFi5saXZla2l0LlNpbXVsYXRpb25SdW4SMQoP",
+            "bmV4dF9wYWdlX3Rva2VuGAIgASgLMhgubGl2ZWtpdC5Ub2tlblBhZ2luYXRp",
+            "b24aTgoGQ2FuY2VsGjgKB1JlcXVlc3QSEgoKcHJvamVjdF9pZBgBIAEoCRIZ",
+            "ChFzaW11bGF0aW9uX3J1bl9pZBgCIAEoCRoKCghSZXNwb25zZRo8CgVVc2Fn",
+            "ZRIYChB0ZXh0X3R1cm5zX2NvdW50GAEgASgFEhkKEWF1ZGlvX3R1cm5zX2Nv",
+            "dW50GAIgASgFIqUBCgZTdGF0dXMSGQoVU1RBVFVTX1BFTkRJTkdfVVBMT0FE",
+            "EAASFQoRU1RBVFVTX0dFTkVSQVRJTkcQARISCg5TVEFUVVNfUlVOTklORxAC",
+            "EhYKElNUQVRVU19TVU1NQVJJWklORxADEhQKEFNUQVRVU19DT01QTEVURUQQ",
+            "BBIRCg1TVEFUVVNfRkFJTEVEEAUSFAoQU1RBVFVTX0NBTkNFTExFRBAGSgQI",
+            "CBAJUgdzdW1tYXJ5IrwCCghTY2VuYXJpbxINCgVsYWJlbBgBIAEoCRIUCgxp",
+            "bnN0cnVjdGlvbnMYAiABKAkSGgoSYWdlbnRfZXhwZWN0YXRpb25zGAMgASgJ",
+            "EikKBHRhZ3MYBCADKAsyGy5saXZla2l0LlNjZW5hcmlvLlRhZ3NFbnRyeRIQ",
+            "Cgh1c2VyZGF0YRgFIAEoCRqEAQoRQ3JlYXRlRnJvbVNlc3Npb24aPgoHUmVx",
+            "dWVzdBISCgpwcm9qZWN0X2lkGAEgASgJEg8KB3Jvb21faWQYAiABKAkSDgoG",
+            "cmVnaW9uGAMgASgJGi8KCFJlc3BvbnNlEiMKCHNjZW5hcmlvGAEgASgLMhEu",
+            "bGl2ZWtpdC5TY2VuYXJpbxorCglUYWdzRW50cnkSCwoDa2V5GAEgASgJEg0K",
+            "BXZhbHVlGAIgASgJOgI4ASJDCg1TY2VuYXJpb0dyb3VwEgwKBG5hbWUYASAB",
+            "KAkSJAoJc2NlbmFyaW9zGAIgAygLMhEubGl2ZWtpdC5TY2VuYXJpbyKLAQoS",
+            "U2ltdWxhdGlvbkRpc3BhdGNoEhkKEXNpbXVsYXRpb25fcnVuX2lkGAEgASgJ",
+            "Eg4KBmpvYl9pZBgCIAEoCRIjCghzY2VuYXJpbxgDIAEoCzIRLmxpdmVraXQu",
+            "U2NlbmFyaW8SJQoEbW9kZRgEIAEoDjIXLmxpdmVraXQuU2ltdWxhdGlvbk1v",
+            "ZGUqZgoOU2ltdWxhdGlvbk1vZGUSHwobU0lNVUxBVElPTl9NT0RFX1VOU1BF",
+            "Q0lGSUVEEAASGAoUU0lNVUxBVElPTl9NT0RFX1RFWFQQARIZChVTSU1VTEFU",
+            "SU9OX01PREVfQVVESU8QAjKeBQoPQWdlbnRTaW11bGF0aW9uEmQKE0NyZWF0",
+            "ZVNpbXVsYXRpb25SdW4SJS5saXZla2l0LlNpbXVsYXRpb25SdW4uQ3JlYXRl",
+            "LlJlcXVlc3QaJi5saXZla2l0LlNpbXVsYXRpb25SdW4uQ3JlYXRlLlJlc3Bv",
+            "bnNlEogBCh1Db25maXJtU2ltdWxhdGlvblNvdXJjZVVwbG9hZBIyLmxpdmVr",
+            "aXQuU2ltdWxhdGlvblJ1bi5Db25maXJtU291cmNlVXBsb2FkLlJlcXVlc3Qa",
+            "My5saXZla2l0LlNpbXVsYXRpb25SdW4uQ29uZmlybVNvdXJjZVVwbG9hZC5S",
+            "ZXNwb25zZRJbChBHZXRTaW11bGF0aW9uUnVuEiIubGl2ZWtpdC5TaW11bGF0",
+            "aW9uUnVuLkdldC5SZXF1ZXN0GiMubGl2ZWtpdC5TaW11bGF0aW9uUnVuLkdl",
+            "dC5SZXNwb25zZRJfChJMaXN0U2ltdWxhdGlvblJ1bnMSIy5saXZla2l0LlNp",
+            "bXVsYXRpb25SdW4uTGlzdC5SZXF1ZXN0GiQubGl2ZWtpdC5TaW11bGF0aW9u",
+            "UnVuLkxpc3QuUmVzcG9uc2USZAoTQ2FuY2VsU2ltdWxhdGlvblJ1bhIlLmxp",
+            "dmVraXQuU2ltdWxhdGlvblJ1bi5DYW5jZWwuUmVxdWVzdBomLmxpdmVraXQu",
+            "U2ltdWxhdGlvblJ1bi5DYW5jZWwuUmVzcG9uc2USdgoZQ3JlYXRlU2NlbmFy",
+            "aW9Gcm9tU2Vzc2lvbhIrLmxpdmVraXQuU2NlbmFyaW8uQ3JlYXRlRnJvbVNl",
+            "c3Npb24uUmVxdWVzdBosLmxpdmVraXQuU2NlbmFyaW8uQ3JlYXRlRnJvbVNl",
+            "c3Npb24uUmVzcG9uc2VCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29s",
+            "L2xpdmVraXSqAg1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Livekit.Agent.LivekitAgentSessionReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.LivekitCloudAgentReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.SimulationMode), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRunSummary), global::LiveKit.Proto.SimulationRunSummary.Parser, new[]{ "Passed", "Failed", "GoingWell", "ToImprove", "Issues", "ChatHistory" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRunSummary.Types.Issue), global::LiveKit.Proto.SimulationRunSummary.Types.Issue.Parser, new[]{ "Description", "Suggestion", "Label" }, null, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun), global::LiveKit.Proto.SimulationRun.Parser, new[]{ "Id", "ProjectId", "Status", "AgentDescription", "Error", "CreatedAt", "Jobs", "Summary", "AgentName", "ScenarioGroup", "EndedAt", "JobCount", "PassedCount", "FailedCount", "NumSimulations", "Usage", "Concurrency", "Mode" }, null, new[]{ typeof(global::LiveKit.Proto.SimulationRun.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Job), global::LiveKit.Proto.SimulationRun.Types.Job.Parser, new[]{ "Id", "Status", "Instructions", "Error", "AgentExpectations", "Label", "Tags", "RoomName", "StartedAt", "EndedAt", "RoomId", "Usage" }, null, new[]{ typeof(global::LiveKit.Proto.SimulationRun.Types.Job.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage), global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage.Parser, new[]{ "TextTurnsCount", "AudioTurnsCount" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun), global::LiveKit.Proto.SimulationRun.Parser, new[]{ "Id", "ProjectId", "Status", "AgentDescription", "Error", "CreatedAt", "Jobs", "AgentName", "ScenarioGroup", "EndedAt", "JobCount", "PassedCount", "FailedCount", "NumSimulations", "Usage", "Concurrency", "Mode", "Metrics", "SummaryZstd" }, null, new[]{ typeof(global::LiveKit.Proto.SimulationRun.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Job), global::LiveKit.Proto.SimulationRun.Types.Job.Parser, new[]{ "Id", "Status", "Instructions", "Error", "AgentExpectations", "Label", "Tags", "RoomName", "StartedAt", "EndedAt", "RoomId", "Usage", "Metrics" }, null, new[]{ typeof(global::LiveKit.Proto.SimulationRun.Types.Job.Types.Status) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage), global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage.Parser, new[]{ "TextTurnsCount", "AudioTurnsCount" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.JobMetrics), global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Parser, new[]{ "AccuracyScore", "ExperienceScore", "TaskCompletion", "Stt", "Llm", "Tts", "Conversation", "Simulator", "Turns", "JudgeModel", "AudioJudgeModel", "HasRemoteSession", "T0" }, new[]{ "AccuracyScore", "ExperienceScore", "TaskCompletion" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT), global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT.Parser, new[]{ "Wer", "Words", "WordErrors", "Cer", "KeytermRecall", "KeytermsUttered", "KeytermsRecognized", "TranscriptionLatencyMs" }, new[]{ "Wer", "Words", "WordErrors", "Cer", "KeytermRecall", "KeytermsUttered", "KeytermsRecognized", "TranscriptionLatencyMs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM), global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM.Parser, new[]{ "TtftMs", "TtfsMs", "TokensPerSecond", "ConcisenessScore" }, new[]{ "TtftMs", "TtfsMs", "TokensPerSecond", "ConcisenessScore" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS), global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS.Parser, new[]{ "TtfaMs", "TtfbMs", "Wer", "SpeechRateWpm", "NaturalnessScore", "EnunciationScore" }, new[]{ "TtfaMs", "TtfbMs", "Wer", "SpeechRateWpm", "NaturalnessScore", "EnunciationScore" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation), global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation.Parser, new[]{ "TurnTakingScore", "ResponseLatencyP50Ms", "ResponseLatencyP95Ms", "ResponseLatencyP99Ms", "AgentYieldLatencyMs", "EotMispredictionCount", "OverlapRatio", "OverlapSpeechMs", "TotalSpeechMs", "SilenceTotalMs", "AwkwardSilenceCount", "UnansweredPersonaTurns", "FalseInterruptionCount", "FalseInterruptionUnrecoveredCount", "AgentReportedE2ELatencyMs" }, new[]{ "TurnTakingScore", "ResponseLatencyP50Ms", "ResponseLatencyP95Ms", "ResponseLatencyP99Ms", "AgentYieldLatencyMs", "EotMispredictionCount", "OverlapRatio", "OverlapSpeechMs", "TotalSpeechMs", "SilenceTotalMs", "AwkwardSilenceCount", "UnansweredPersonaTurns", "FalseInterruptionCount", "FalseInterruptionUnrecoveredCount", "AgentReportedE2ELatencyMs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Simulator), global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Simulator.Parser, new[]{ "EarlyTermination", "LateTermination" }, new[]{ "EarlyTermination", "LateTermination" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Turn), global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Turn.Parser, new[]{ "Index", "Role", "StartMs", "EndMs", "ResponseLatencyMs", "TranscriptionDelayMs", "LlmTtftMs", "LlmTtfsMs", "TtsTtfaMs", "TtsTtfbMs", "AgentReportedE2ELatencyMs", "ConcisenessScore", "NaturalnessScore", "EnunciationScore", "Flags" }, new[]{ "StartMs", "EndMs", "ResponseLatencyMs", "TranscriptionDelayMs", "LlmTtftMs", "LlmTtfsMs", "TtsTtfaMs", "TtsTtfbMs", "AgentReportedE2ELatencyMs", "ConcisenessScore", "NaturalnessScore", "EnunciationScore" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.RunMetrics), global::LiveKit.Proto.SimulationRun.Types.RunMetrics.Parser, new[]{ "AccuracyScore", "ExperienceScore", "ScenarioPassRate", "Stt", "Llm", "Tts", "Conversation", "JobsTotal", "JobsFailed", "JobsSimulatorFault" }, new[]{ "AccuracyScore", "ExperienceScore", "ScenarioPassRate" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create), global::LiveKit.Proto.SimulationRun.Types.Create.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create.Types.Request), global::LiveKit.Proto.SimulationRun.Types.Create.Types.Request.Parser, new[]{ "ProjectId", "AgentName", "NumSimulations", "Region", "ScenarioGroup", "Concurrency", "Mode" }, new[]{ "ScenarioGroup", "Concurrency" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.Create.Types.Response), global::LiveKit.Proto.SimulationRun.Types.Create.Types.Response.Parser, new[]{ "SimulationRunId", "PresignedPostRequest" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload), global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload.Types.Request), global::LiveKit.Proto.SimulationRun.Types.ConfirmSourceUpload.Types.Request.Parser, new[]{ "ProjectId", "SimulationRunId", "CodeEntrypoint" }, null, null, null, null),
@@ -846,7 +937,6 @@ namespace LiveKit.Proto {
       error_ = other.error_;
       createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
       jobs_ = other.jobs_.Clone();
-      summary_ = other.summary_ != null ? other.summary_.Clone() : null;
       agentName_ = other.agentName_;
       scenarioGroup_ = other.scenarioGroup_ != null ? other.scenarioGroup_.Clone() : null;
       endedAt_ = other.endedAt_ != null ? other.endedAt_.Clone() : null;
@@ -857,6 +947,8 @@ namespace LiveKit.Proto {
       usage_ = other.usage_ != null ? other.usage_.Clone() : null;
       concurrency_ = other.concurrency_;
       mode_ = other.mode_;
+      metrics_ = other.metrics_ != null ? other.metrics_.Clone() : null;
+      summaryZstd_ = other.summaryZstd_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -947,18 +1039,6 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::LiveKit.Proto.SimulationRun.Types.Job> Jobs {
       get { return jobs_; }
-    }
-
-    /// <summary>Field number for the "summary" field.</summary>
-    public const int SummaryFieldNumber = 8;
-    private global::LiveKit.Proto.SimulationRunSummary summary_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::LiveKit.Proto.SimulationRunSummary Summary {
-      get { return summary_; }
-      set {
-        summary_ = value;
-      }
     }
 
     /// <summary>Field number for the "agent_name" field.</summary>
@@ -1090,6 +1170,37 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "metrics" field.</summary>
+    public const int MetricsFieldNumber = 19;
+    private global::LiveKit.Proto.SimulationRun.Types.RunMetrics metrics_;
+    /// <summary>
+    /// Run-level metric aggregates.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.SimulationRun.Types.RunMetrics Metrics {
+      get { return metrics_; }
+      set {
+        metrics_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "summary_zstd" field.</summary>
+    public const int SummaryZstdFieldNumber = 20;
+    private pb::ByteString summaryZstd_ = pb::ByteString.Empty;
+    /// <summary>
+    /// zstd-compressed SimulationRunSummary: decompress, then proto.Unmarshal.
+    /// Compressed by default so the blob ships as-is on every hop.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString SummaryZstd {
+      get { return summaryZstd_; }
+      set {
+        summaryZstd_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1112,7 +1223,6 @@ namespace LiveKit.Proto {
       if (Error != other.Error) return false;
       if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
       if(!jobs_.Equals(other.jobs_)) return false;
-      if (!object.Equals(Summary, other.Summary)) return false;
       if (AgentName != other.AgentName) return false;
       if (!object.Equals(ScenarioGroup, other.ScenarioGroup)) return false;
       if (!object.Equals(EndedAt, other.EndedAt)) return false;
@@ -1123,6 +1233,8 @@ namespace LiveKit.Proto {
       if (!object.Equals(Usage, other.Usage)) return false;
       if (Concurrency != other.Concurrency) return false;
       if (Mode != other.Mode) return false;
+      if (!object.Equals(Metrics, other.Metrics)) return false;
+      if (SummaryZstd != other.SummaryZstd) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1137,7 +1249,6 @@ namespace LiveKit.Proto {
       if (Error.Length != 0) hash ^= Error.GetHashCode();
       if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
       hash ^= jobs_.GetHashCode();
-      if (summary_ != null) hash ^= Summary.GetHashCode();
       if (AgentName.Length != 0) hash ^= AgentName.GetHashCode();
       if (scenarioGroup_ != null) hash ^= ScenarioGroup.GetHashCode();
       if (endedAt_ != null) hash ^= EndedAt.GetHashCode();
@@ -1148,6 +1259,8 @@ namespace LiveKit.Proto {
       if (usage_ != null) hash ^= Usage.GetHashCode();
       if (Concurrency != 0) hash ^= Concurrency.GetHashCode();
       if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) hash ^= Mode.GetHashCode();
+      if (metrics_ != null) hash ^= Metrics.GetHashCode();
+      if (SummaryZstd.Length != 0) hash ^= SummaryZstd.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1191,10 +1304,6 @@ namespace LiveKit.Proto {
         output.WriteMessage(CreatedAt);
       }
       jobs_.WriteTo(output, _repeated_jobs_codec);
-      if (summary_ != null) {
-        output.WriteRawTag(66);
-        output.WriteMessage(Summary);
-      }
       if (AgentName.Length != 0) {
         output.WriteRawTag(74);
         output.WriteString(AgentName);
@@ -1234,6 +1343,14 @@ namespace LiveKit.Proto {
       if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
         output.WriteRawTag(144, 1);
         output.WriteEnum((int) Mode);
+      }
+      if (metrics_ != null) {
+        output.WriteRawTag(154, 1);
+        output.WriteMessage(Metrics);
+      }
+      if (SummaryZstd.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteBytes(SummaryZstd);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1270,10 +1387,6 @@ namespace LiveKit.Proto {
         output.WriteMessage(CreatedAt);
       }
       jobs_.WriteTo(ref output, _repeated_jobs_codec);
-      if (summary_ != null) {
-        output.WriteRawTag(66);
-        output.WriteMessage(Summary);
-      }
       if (AgentName.Length != 0) {
         output.WriteRawTag(74);
         output.WriteString(AgentName);
@@ -1314,6 +1427,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(144, 1);
         output.WriteEnum((int) Mode);
       }
+      if (metrics_ != null) {
+        output.WriteRawTag(154, 1);
+        output.WriteMessage(Metrics);
+      }
+      if (SummaryZstd.Length != 0) {
+        output.WriteRawTag(162, 1);
+        output.WriteBytes(SummaryZstd);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1343,9 +1464,6 @@ namespace LiveKit.Proto {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
       }
       size += jobs_.CalculateSize(_repeated_jobs_codec);
-      if (summary_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Summary);
-      }
       if (AgentName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentName);
       }
@@ -1375,6 +1493,12 @@ namespace LiveKit.Proto {
       }
       if (Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
         size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) Mode);
+      }
+      if (metrics_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Metrics);
+      }
+      if (SummaryZstd.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeBytesSize(SummaryZstd);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1410,12 +1534,6 @@ namespace LiveKit.Proto {
         CreatedAt.MergeFrom(other.CreatedAt);
       }
       jobs_.Add(other.jobs_);
-      if (other.summary_ != null) {
-        if (summary_ == null) {
-          Summary = new global::LiveKit.Proto.SimulationRunSummary();
-        }
-        Summary.MergeFrom(other.Summary);
-      }
       if (other.AgentName.Length != 0) {
         AgentName = other.AgentName;
       }
@@ -1454,6 +1572,15 @@ namespace LiveKit.Proto {
       }
       if (other.Mode != global::LiveKit.Proto.SimulationMode.Unspecified) {
         Mode = other.Mode;
+      }
+      if (other.metrics_ != null) {
+        if (metrics_ == null) {
+          Metrics = new global::LiveKit.Proto.SimulationRun.Types.RunMetrics();
+        }
+        Metrics.MergeFrom(other.Metrics);
+      }
+      if (other.SummaryZstd.Length != 0) {
+        SummaryZstd = other.SummaryZstd;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1505,13 +1632,6 @@ namespace LiveKit.Proto {
             jobs_.AddEntriesFrom(input, _repeated_jobs_codec);
             break;
           }
-          case 66: {
-            if (summary_ == null) {
-              Summary = new global::LiveKit.Proto.SimulationRunSummary();
-            }
-            input.ReadMessage(Summary);
-            break;
-          }
           case 74: {
             AgentName = input.ReadString();
             break;
@@ -1559,6 +1679,17 @@ namespace LiveKit.Proto {
           }
           case 144: {
             Mode = (global::LiveKit.Proto.SimulationMode) input.ReadEnum();
+            break;
+          }
+          case 154: {
+            if (metrics_ == null) {
+              Metrics = new global::LiveKit.Proto.SimulationRun.Types.RunMetrics();
+            }
+            input.ReadMessage(Metrics);
+            break;
+          }
+          case 162: {
+            SummaryZstd = input.ReadBytes();
             break;
           }
         }
@@ -1611,13 +1742,6 @@ namespace LiveKit.Proto {
             jobs_.AddEntriesFrom(ref input, _repeated_jobs_codec);
             break;
           }
-          case 66: {
-            if (summary_ == null) {
-              Summary = new global::LiveKit.Proto.SimulationRunSummary();
-            }
-            input.ReadMessage(Summary);
-            break;
-          }
           case 74: {
             AgentName = input.ReadString();
             break;
@@ -1665,6 +1789,17 @@ namespace LiveKit.Proto {
           }
           case 144: {
             Mode = (global::LiveKit.Proto.SimulationMode) input.ReadEnum();
+            break;
+          }
+          case 154: {
+            if (metrics_ == null) {
+              Metrics = new global::LiveKit.Proto.SimulationRun.Types.RunMetrics();
+            }
+            input.ReadMessage(Metrics);
+            break;
+          }
+          case 162: {
+            SummaryZstd = input.ReadBytes();
             break;
           }
         }
@@ -1734,6 +1869,7 @@ namespace LiveKit.Proto {
           endedAt_ = other.endedAt_ != null ? other.endedAt_.Clone() : null;
           roomId_ = other.roomId_;
           usage_ = other.usage_ != null ? other.usage_.Clone() : null;
+          metrics_ = other.metrics_ != null ? other.metrics_.Clone() : null;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -1886,6 +2022,21 @@ namespace LiveKit.Proto {
           }
         }
 
+        /// <summary>Field number for the "metrics" field.</summary>
+        public const int MetricsFieldNumber = 14;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics metrics_;
+        /// <summary>
+        /// Quality metrics for this job's call. Unset when the job produced none.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics Metrics {
+          get { return metrics_; }
+          set {
+            metrics_ = value;
+          }
+        }
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -1913,6 +2064,7 @@ namespace LiveKit.Proto {
           if (!object.Equals(EndedAt, other.EndedAt)) return false;
           if (RoomId != other.RoomId) return false;
           if (!object.Equals(Usage, other.Usage)) return false;
+          if (!object.Equals(Metrics, other.Metrics)) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -1932,6 +2084,7 @@ namespace LiveKit.Proto {
           if (endedAt_ != null) hash ^= EndedAt.GetHashCode();
           if (RoomId.Length != 0) hash ^= RoomId.GetHashCode();
           if (usage_ != null) hash ^= Usage.GetHashCode();
+          if (metrics_ != null) hash ^= Metrics.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -1995,6 +2148,10 @@ namespace LiveKit.Proto {
             output.WriteRawTag(106);
             output.WriteMessage(Usage);
           }
+          if (metrics_ != null) {
+            output.WriteRawTag(114);
+            output.WriteMessage(Metrics);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -2050,6 +2207,10 @@ namespace LiveKit.Proto {
             output.WriteRawTag(106);
             output.WriteMessage(Usage);
           }
+          if (metrics_ != null) {
+            output.WriteRawTag(114);
+            output.WriteMessage(Metrics);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -2093,6 +2254,9 @@ namespace LiveKit.Proto {
           }
           if (usage_ != null) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(Usage);
+          }
+          if (metrics_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Metrics);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -2148,6 +2312,12 @@ namespace LiveKit.Proto {
               Usage = new global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage();
             }
             Usage.MergeFrom(other.Usage);
+          }
+          if (other.metrics_ != null) {
+            if (metrics_ == null) {
+              Metrics = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics();
+            }
+            Metrics.MergeFrom(other.Metrics);
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -2225,6 +2395,13 @@ namespace LiveKit.Proto {
                 input.ReadMessage(Usage);
                 break;
               }
+              case 114: {
+                if (metrics_ == null) {
+                  Metrics = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics();
+                }
+                input.ReadMessage(Metrics);
+                break;
+              }
             }
           }
         #endif
@@ -2299,6 +2476,13 @@ namespace LiveKit.Proto {
                   Usage = new global::LiveKit.Proto.SimulationRun.Types.Job.Types.Usage();
                 }
                 input.ReadMessage(Usage);
+                break;
+              }
+              case 114: {
+                if (metrics_ == null) {
+                  Metrics = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics();
+                }
+                input.ReadMessage(Metrics);
                 break;
               }
             }
@@ -2560,6 +2744,5044 @@ namespace LiveKit.Proto {
       }
 
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class JobMetrics : pb::IMessage<JobMetrics>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<JobMetrics> _parser = new pb::MessageParser<JobMetrics>(() => new JobMetrics());
+        private pb::UnknownFieldSet _unknownFields;
+        private int _hasBits0;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<JobMetrics> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public JobMetrics() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public JobMetrics(JobMetrics other) : this() {
+          _hasBits0 = other._hasBits0;
+          accuracyScore_ = other.accuracyScore_;
+          experienceScore_ = other.experienceScore_;
+          taskCompletion_ = other.taskCompletion_;
+          stt_ = other.stt_ != null ? other.stt_.Clone() : null;
+          llm_ = other.llm_ != null ? other.llm_.Clone() : null;
+          tts_ = other.tts_ != null ? other.tts_.Clone() : null;
+          conversation_ = other.conversation_ != null ? other.conversation_.Clone() : null;
+          simulator_ = other.simulator_ != null ? other.simulator_.Clone() : null;
+          turns_ = other.turns_.Clone();
+          judgeModel_ = other.judgeModel_;
+          audioJudgeModel_ = other.audioJudgeModel_;
+          hasRemoteSession_ = other.hasRemoteSession_;
+          t0_ = other.t0_ != null ? other.t0_.Clone() : null;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public JobMetrics Clone() {
+          return new JobMetrics(this);
+        }
+
+        /// <summary>Field number for the "accuracy_score" field.</summary>
+        public const int AccuracyScoreFieldNumber = 1;
+        private readonly static float AccuracyScoreDefaultValue = 0F;
+
+        private float accuracyScore_;
+        /// <summary>
+        /// Headline scores, 0-1, computed by the worker as weighted means over the
+        /// members that ran (a missing member renormalizes the rest):
+        ///   accuracy   = task_completion x3 + stt.keyterm_recall + (1 - stt.wer) + tts.enunciation_score
+        ///   experience = conversation.turn_taking_score x2 + tts.naturalness_score + llm.conciseness_score
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public float AccuracyScore {
+          get { if ((_hasBits0 & 1) != 0) { return accuracyScore_; } else { return AccuracyScoreDefaultValue; } }
+          set {
+            _hasBits0 |= 1;
+            accuracyScore_ = value;
+          }
+        }
+        /// <summary>Gets whether the "accuracy_score" field is set</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasAccuracyScore {
+          get { return (_hasBits0 & 1) != 0; }
+        }
+        /// <summary>Clears the value of the "accuracy_score" field</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearAccuracyScore() {
+          _hasBits0 &= ~1;
+        }
+
+        /// <summary>Field number for the "experience_score" field.</summary>
+        public const int ExperienceScoreFieldNumber = 2;
+        private readonly static float ExperienceScoreDefaultValue = 0F;
+
+        private float experienceScore_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public float ExperienceScore {
+          get { if ((_hasBits0 & 2) != 0) { return experienceScore_; } else { return ExperienceScoreDefaultValue; } }
+          set {
+            _hasBits0 |= 2;
+            experienceScore_ = value;
+          }
+        }
+        /// <summary>Gets whether the "experience_score" field is set</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasExperienceScore {
+          get { return (_hasBits0 & 2) != 0; }
+        }
+        /// <summary>Clears the value of the "experience_score" field</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearExperienceScore() {
+          _hasBits0 &= ~2;
+        }
+
+        /// <summary>Field number for the "task_completion" field.</summary>
+        public const int TaskCompletionFieldNumber = 3;
+        private readonly static float TaskCompletionDefaultValue = 0F;
+
+        private float taskCompletion_;
+        /// <summary>
+        /// The accuracy anchor: the scenario verdict as 1/0, or the fraction of the declared target state the call reached.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public float TaskCompletion {
+          get { if ((_hasBits0 & 4) != 0) { return taskCompletion_; } else { return TaskCompletionDefaultValue; } }
+          set {
+            _hasBits0 |= 4;
+            taskCompletion_ = value;
+          }
+        }
+        /// <summary>Gets whether the "task_completion" field is set</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasTaskCompletion {
+          get { return (_hasBits0 & 4) != 0; }
+        }
+        /// <summary>Clears the value of the "task_completion" field</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearTaskCompletion() {
+          _hasBits0 &= ~4;
+        }
+
+        /// <summary>Field number for the "stt" field.</summary>
+        public const int SttFieldNumber = 4;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT stt_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT Stt {
+          get { return stt_; }
+          set {
+            stt_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "llm" field.</summary>
+        public const int LlmFieldNumber = 5;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM llm_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM Llm {
+          get { return llm_; }
+          set {
+            llm_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "tts" field.</summary>
+        public const int TtsFieldNumber = 6;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS tts_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS Tts {
+          get { return tts_; }
+          set {
+            tts_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "conversation" field.</summary>
+        public const int ConversationFieldNumber = 7;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation conversation_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation Conversation {
+          get { return conversation_; }
+          set {
+            conversation_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "simulator" field.</summary>
+        public const int SimulatorFieldNumber = 8;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Simulator simulator_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Simulator Simulator {
+          get { return simulator_; }
+          set {
+            simulator_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "turns" field.</summary>
+        public const int TurnsFieldNumber = 9;
+        private static readonly pb::FieldCodec<global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Turn> _repeated_turns_codec
+            = pb::FieldCodec.ForMessage(74, global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Turn.Parser);
+        private readonly pbc::RepeatedField<global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Turn> turns_ = new pbc::RepeatedField<global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Turn>();
+        /// <summary>
+        /// Conversation timeline: one entry per transcript turn, both speakers.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public pbc::RepeatedField<global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Turn> Turns {
+          get { return turns_; }
+        }
+
+        /// <summary>Field number for the "judge_model" field.</summary>
+        public const int JudgeModelFieldNumber = 10;
+        private string judgeModel_ = "";
+        /// <summary>
+        /// text judge for judged scores; "" if none ran
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string JudgeModel {
+          get { return judgeModel_; }
+          set {
+            judgeModel_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "audio_judge_model" field.</summary>
+        public const int AudioJudgeModelFieldNumber = 11;
+        private string audioJudgeModel_ = "";
+        /// <summary>
+        /// audio (LALM) judge; "" if none ran
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string AudioJudgeModel {
+          get { return audioJudgeModel_; }
+          set {
+            audioJudgeModel_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "has_remote_session" field.</summary>
+        public const int HasRemoteSessionFieldNumber = 12;
+        private bool hasRemoteSession_;
+        /// <summary>
+        /// false = waveform-only capture (e.g. SIP)
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasRemoteSession {
+          get { return hasRemoteSession_; }
+          set {
+            hasRemoteSession_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "t0" field.</summary>
+        public const int T0FieldNumber = 13;
+        private global::Google.Protobuf.WellKnownTypes.Timestamp t0_;
+        /// <summary>
+        /// call start (first speech edge); turn times relative to it
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::Google.Protobuf.WellKnownTypes.Timestamp T0 {
+          get { return t0_; }
+          set {
+            t0_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as JobMetrics);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(JobMetrics other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(AccuracyScore, other.AccuracyScore)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ExperienceScore, other.ExperienceScore)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TaskCompletion, other.TaskCompletion)) return false;
+          if (!object.Equals(Stt, other.Stt)) return false;
+          if (!object.Equals(Llm, other.Llm)) return false;
+          if (!object.Equals(Tts, other.Tts)) return false;
+          if (!object.Equals(Conversation, other.Conversation)) return false;
+          if (!object.Equals(Simulator, other.Simulator)) return false;
+          if(!turns_.Equals(other.turns_)) return false;
+          if (JudgeModel != other.JudgeModel) return false;
+          if (AudioJudgeModel != other.AudioJudgeModel) return false;
+          if (HasRemoteSession != other.HasRemoteSession) return false;
+          if (!object.Equals(T0, other.T0)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (HasAccuracyScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(AccuracyScore);
+          if (HasExperienceScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ExperienceScore);
+          if (HasTaskCompletion) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TaskCompletion);
+          if (stt_ != null) hash ^= Stt.GetHashCode();
+          if (llm_ != null) hash ^= Llm.GetHashCode();
+          if (tts_ != null) hash ^= Tts.GetHashCode();
+          if (conversation_ != null) hash ^= Conversation.GetHashCode();
+          if (simulator_ != null) hash ^= Simulator.GetHashCode();
+          hash ^= turns_.GetHashCode();
+          if (JudgeModel.Length != 0) hash ^= JudgeModel.GetHashCode();
+          if (AudioJudgeModel.Length != 0) hash ^= AudioJudgeModel.GetHashCode();
+          if (HasRemoteSession != false) hash ^= HasRemoteSession.GetHashCode();
+          if (t0_ != null) hash ^= T0.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (HasAccuracyScore) {
+            output.WriteRawTag(13);
+            output.WriteFloat(AccuracyScore);
+          }
+          if (HasExperienceScore) {
+            output.WriteRawTag(21);
+            output.WriteFloat(ExperienceScore);
+          }
+          if (HasTaskCompletion) {
+            output.WriteRawTag(29);
+            output.WriteFloat(TaskCompletion);
+          }
+          if (stt_ != null) {
+            output.WriteRawTag(34);
+            output.WriteMessage(Stt);
+          }
+          if (llm_ != null) {
+            output.WriteRawTag(42);
+            output.WriteMessage(Llm);
+          }
+          if (tts_ != null) {
+            output.WriteRawTag(50);
+            output.WriteMessage(Tts);
+          }
+          if (conversation_ != null) {
+            output.WriteRawTag(58);
+            output.WriteMessage(Conversation);
+          }
+          if (simulator_ != null) {
+            output.WriteRawTag(66);
+            output.WriteMessage(Simulator);
+          }
+          turns_.WriteTo(output, _repeated_turns_codec);
+          if (JudgeModel.Length != 0) {
+            output.WriteRawTag(82);
+            output.WriteString(JudgeModel);
+          }
+          if (AudioJudgeModel.Length != 0) {
+            output.WriteRawTag(90);
+            output.WriteString(AudioJudgeModel);
+          }
+          if (HasRemoteSession != false) {
+            output.WriteRawTag(96);
+            output.WriteBool(HasRemoteSession);
+          }
+          if (t0_ != null) {
+            output.WriteRawTag(106);
+            output.WriteMessage(T0);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (HasAccuracyScore) {
+            output.WriteRawTag(13);
+            output.WriteFloat(AccuracyScore);
+          }
+          if (HasExperienceScore) {
+            output.WriteRawTag(21);
+            output.WriteFloat(ExperienceScore);
+          }
+          if (HasTaskCompletion) {
+            output.WriteRawTag(29);
+            output.WriteFloat(TaskCompletion);
+          }
+          if (stt_ != null) {
+            output.WriteRawTag(34);
+            output.WriteMessage(Stt);
+          }
+          if (llm_ != null) {
+            output.WriteRawTag(42);
+            output.WriteMessage(Llm);
+          }
+          if (tts_ != null) {
+            output.WriteRawTag(50);
+            output.WriteMessage(Tts);
+          }
+          if (conversation_ != null) {
+            output.WriteRawTag(58);
+            output.WriteMessage(Conversation);
+          }
+          if (simulator_ != null) {
+            output.WriteRawTag(66);
+            output.WriteMessage(Simulator);
+          }
+          turns_.WriteTo(ref output, _repeated_turns_codec);
+          if (JudgeModel.Length != 0) {
+            output.WriteRawTag(82);
+            output.WriteString(JudgeModel);
+          }
+          if (AudioJudgeModel.Length != 0) {
+            output.WriteRawTag(90);
+            output.WriteString(AudioJudgeModel);
+          }
+          if (HasRemoteSession != false) {
+            output.WriteRawTag(96);
+            output.WriteBool(HasRemoteSession);
+          }
+          if (t0_ != null) {
+            output.WriteRawTag(106);
+            output.WriteMessage(T0);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (HasAccuracyScore) {
+            size += 1 + 4;
+          }
+          if (HasExperienceScore) {
+            size += 1 + 4;
+          }
+          if (HasTaskCompletion) {
+            size += 1 + 4;
+          }
+          if (stt_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Stt);
+          }
+          if (llm_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Llm);
+          }
+          if (tts_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Tts);
+          }
+          if (conversation_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Conversation);
+          }
+          if (simulator_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Simulator);
+          }
+          size += turns_.CalculateSize(_repeated_turns_codec);
+          if (JudgeModel.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(JudgeModel);
+          }
+          if (AudioJudgeModel.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(AudioJudgeModel);
+          }
+          if (HasRemoteSession != false) {
+            size += 1 + 1;
+          }
+          if (t0_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(T0);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(JobMetrics other) {
+          if (other == null) {
+            return;
+          }
+          if (other.HasAccuracyScore) {
+            AccuracyScore = other.AccuracyScore;
+          }
+          if (other.HasExperienceScore) {
+            ExperienceScore = other.ExperienceScore;
+          }
+          if (other.HasTaskCompletion) {
+            TaskCompletion = other.TaskCompletion;
+          }
+          if (other.stt_ != null) {
+            if (stt_ == null) {
+              Stt = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT();
+            }
+            Stt.MergeFrom(other.Stt);
+          }
+          if (other.llm_ != null) {
+            if (llm_ == null) {
+              Llm = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM();
+            }
+            Llm.MergeFrom(other.Llm);
+          }
+          if (other.tts_ != null) {
+            if (tts_ == null) {
+              Tts = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS();
+            }
+            Tts.MergeFrom(other.Tts);
+          }
+          if (other.conversation_ != null) {
+            if (conversation_ == null) {
+              Conversation = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation();
+            }
+            Conversation.MergeFrom(other.Conversation);
+          }
+          if (other.simulator_ != null) {
+            if (simulator_ == null) {
+              Simulator = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Simulator();
+            }
+            Simulator.MergeFrom(other.Simulator);
+          }
+          turns_.Add(other.turns_);
+          if (other.JudgeModel.Length != 0) {
+            JudgeModel = other.JudgeModel;
+          }
+          if (other.AudioJudgeModel.Length != 0) {
+            AudioJudgeModel = other.AudioJudgeModel;
+          }
+          if (other.HasRemoteSession != false) {
+            HasRemoteSession = other.HasRemoteSession;
+          }
+          if (other.t0_ != null) {
+            if (t0_ == null) {
+              T0 = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            T0.MergeFrom(other.T0);
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 13: {
+                AccuracyScore = input.ReadFloat();
+                break;
+              }
+              case 21: {
+                ExperienceScore = input.ReadFloat();
+                break;
+              }
+              case 29: {
+                TaskCompletion = input.ReadFloat();
+                break;
+              }
+              case 34: {
+                if (stt_ == null) {
+                  Stt = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT();
+                }
+                input.ReadMessage(Stt);
+                break;
+              }
+              case 42: {
+                if (llm_ == null) {
+                  Llm = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM();
+                }
+                input.ReadMessage(Llm);
+                break;
+              }
+              case 50: {
+                if (tts_ == null) {
+                  Tts = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS();
+                }
+                input.ReadMessage(Tts);
+                break;
+              }
+              case 58: {
+                if (conversation_ == null) {
+                  Conversation = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation();
+                }
+                input.ReadMessage(Conversation);
+                break;
+              }
+              case 66: {
+                if (simulator_ == null) {
+                  Simulator = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Simulator();
+                }
+                input.ReadMessage(Simulator);
+                break;
+              }
+              case 74: {
+                turns_.AddEntriesFrom(input, _repeated_turns_codec);
+                break;
+              }
+              case 82: {
+                JudgeModel = input.ReadString();
+                break;
+              }
+              case 90: {
+                AudioJudgeModel = input.ReadString();
+                break;
+              }
+              case 96: {
+                HasRemoteSession = input.ReadBool();
+                break;
+              }
+              case 106: {
+                if (t0_ == null) {
+                  T0 = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(T0);
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 13: {
+                AccuracyScore = input.ReadFloat();
+                break;
+              }
+              case 21: {
+                ExperienceScore = input.ReadFloat();
+                break;
+              }
+              case 29: {
+                TaskCompletion = input.ReadFloat();
+                break;
+              }
+              case 34: {
+                if (stt_ == null) {
+                  Stt = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT();
+                }
+                input.ReadMessage(Stt);
+                break;
+              }
+              case 42: {
+                if (llm_ == null) {
+                  Llm = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM();
+                }
+                input.ReadMessage(Llm);
+                break;
+              }
+              case 50: {
+                if (tts_ == null) {
+                  Tts = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS();
+                }
+                input.ReadMessage(Tts);
+                break;
+              }
+              case 58: {
+                if (conversation_ == null) {
+                  Conversation = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation();
+                }
+                input.ReadMessage(Conversation);
+                break;
+              }
+              case 66: {
+                if (simulator_ == null) {
+                  Simulator = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Simulator();
+                }
+                input.ReadMessage(Simulator);
+                break;
+              }
+              case 74: {
+                turns_.AddEntriesFrom(ref input, _repeated_turns_codec);
+                break;
+              }
+              case 82: {
+                JudgeModel = input.ReadString();
+                break;
+              }
+              case 90: {
+                AudioJudgeModel = input.ReadString();
+                break;
+              }
+              case 96: {
+                HasRemoteSession = input.ReadBool();
+                break;
+              }
+              case 106: {
+                if (t0_ == null) {
+                  T0 = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(T0);
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+        #region Nested types
+        /// <summary>Container for nested types declared in the JobMetrics message type.</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static partial class Types {
+          /// <summary>
+          /// The agent's perception of the caller.
+          /// </summary>
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+          public sealed partial class STT : pb::IMessage<STT>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<STT> _parser = new pb::MessageParser<STT>(() => new STT());
+            private pb::UnknownFieldSet _unknownFields;
+            private int _hasBits0;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pb::MessageParser<STT> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Descriptor.NestedTypes[0]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public STT() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public STT(STT other) : this() {
+              _hasBits0 = other._hasBits0;
+              wer_ = other.wer_;
+              words_ = other.words_;
+              wordErrors_ = other.wordErrors_;
+              cer_ = other.cer_;
+              keytermRecall_ = other.keytermRecall_;
+              keytermsUttered_ = other.keytermsUttered_;
+              keytermsRecognized_ = other.keytermsRecognized_;
+              transcriptionLatencyMs_ = other.transcriptionLatencyMs_;
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public STT Clone() {
+              return new STT(this);
+            }
+
+            /// <summary>Field number for the "wer" field.</summary>
+            public const int WerFieldNumber = 1;
+            private readonly static float WerDefaultValue = 0F;
+
+            private float wer_;
+            /// <summary>
+            /// word error rate, pooled: word_errors / words
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float Wer {
+              get { if ((_hasBits0 & 1) != 0) { return wer_; } else { return WerDefaultValue; } }
+              set {
+                _hasBits0 |= 1;
+                wer_ = value;
+              }
+            }
+            /// <summary>Gets whether the "wer" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasWer {
+              get { return (_hasBits0 & 1) != 0; }
+            }
+            /// <summary>Clears the value of the "wer" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearWer() {
+              _hasBits0 &= ~1;
+            }
+
+            /// <summary>Field number for the "words" field.</summary>
+            public const int WordsFieldNumber = 2;
+            private readonly static uint WordsDefaultValue = 0;
+
+            private uint words_;
+            /// <summary>
+            /// pooling stats: run WER = sum errors / sum words
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint Words {
+              get { if ((_hasBits0 & 2) != 0) { return words_; } else { return WordsDefaultValue; } }
+              set {
+                _hasBits0 |= 2;
+                words_ = value;
+              }
+            }
+            /// <summary>Gets whether the "words" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasWords {
+              get { return (_hasBits0 & 2) != 0; }
+            }
+            /// <summary>Clears the value of the "words" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearWords() {
+              _hasBits0 &= ~2;
+            }
+
+            /// <summary>Field number for the "word_errors" field.</summary>
+            public const int WordErrorsFieldNumber = 3;
+            private readonly static uint WordErrorsDefaultValue = 0;
+
+            private uint wordErrors_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint WordErrors {
+              get { if ((_hasBits0 & 4) != 0) { return wordErrors_; } else { return WordErrorsDefaultValue; } }
+              set {
+                _hasBits0 |= 4;
+                wordErrors_ = value;
+              }
+            }
+            /// <summary>Gets whether the "word_errors" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasWordErrors {
+              get { return (_hasBits0 & 4) != 0; }
+            }
+            /// <summary>Clears the value of the "word_errors" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearWordErrors() {
+              _hasBits0 &= ~4;
+            }
+
+            /// <summary>Field number for the "cer" field.</summary>
+            public const int CerFieldNumber = 4;
+            private readonly static float CerDefaultValue = 0F;
+
+            private float cer_;
+            /// <summary>
+            /// character error rate, pooled
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float Cer {
+              get { if ((_hasBits0 & 8) != 0) { return cer_; } else { return CerDefaultValue; } }
+              set {
+                _hasBits0 |= 8;
+                cer_ = value;
+              }
+            }
+            /// <summary>Gets whether the "cer" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasCer {
+              get { return (_hasBits0 & 8) != 0; }
+            }
+            /// <summary>Clears the value of the "cer" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearCer() {
+              _hasBits0 &= ~8;
+            }
+
+            /// <summary>Field number for the "keyterm_recall" field.</summary>
+            public const int KeytermRecallFieldNumber = 5;
+            private readonly static float KeytermRecallDefaultValue = 0F;
+
+            private float keytermRecall_;
+            /// <summary>
+            /// recall of uttered key entities (names, IDs, amounts)
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float KeytermRecall {
+              get { if ((_hasBits0 & 16) != 0) { return keytermRecall_; } else { return KeytermRecallDefaultValue; } }
+              set {
+                _hasBits0 |= 16;
+                keytermRecall_ = value;
+              }
+            }
+            /// <summary>Gets whether the "keyterm_recall" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasKeytermRecall {
+              get { return (_hasBits0 & 16) != 0; }
+            }
+            /// <summary>Clears the value of the "keyterm_recall" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearKeytermRecall() {
+              _hasBits0 &= ~16;
+            }
+
+            /// <summary>Field number for the "keyterms_uttered" field.</summary>
+            public const int KeytermsUtteredFieldNumber = 6;
+            private readonly static uint KeytermsUtteredDefaultValue = 0;
+
+            private uint keytermsUttered_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint KeytermsUttered {
+              get { if ((_hasBits0 & 32) != 0) { return keytermsUttered_; } else { return KeytermsUtteredDefaultValue; } }
+              set {
+                _hasBits0 |= 32;
+                keytermsUttered_ = value;
+              }
+            }
+            /// <summary>Gets whether the "keyterms_uttered" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasKeytermsUttered {
+              get { return (_hasBits0 & 32) != 0; }
+            }
+            /// <summary>Clears the value of the "keyterms_uttered" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearKeytermsUttered() {
+              _hasBits0 &= ~32;
+            }
+
+            /// <summary>Field number for the "keyterms_recognized" field.</summary>
+            public const int KeytermsRecognizedFieldNumber = 7;
+            private readonly static uint KeytermsRecognizedDefaultValue = 0;
+
+            private uint keytermsRecognized_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint KeytermsRecognized {
+              get { if ((_hasBits0 & 64) != 0) { return keytermsRecognized_; } else { return KeytermsRecognizedDefaultValue; } }
+              set {
+                _hasBits0 |= 64;
+                keytermsRecognized_ = value;
+              }
+            }
+            /// <summary>Gets whether the "keyterms_recognized" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasKeytermsRecognized {
+              get { return (_hasBits0 & 64) != 0; }
+            }
+            /// <summary>Clears the value of the "keyterms_recognized" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearKeytermsRecognized() {
+              _hasBits0 &= ~64;
+            }
+
+            /// <summary>Field number for the "transcription_latency_ms" field.</summary>
+            public const int TranscriptionLatencyMsFieldNumber = 8;
+            private readonly static uint TranscriptionLatencyMsDefaultValue = 0;
+
+            private uint transcriptionLatencyMs_;
+            /// <summary>
+            /// agent-reported STT/endpointing delay, mean
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TranscriptionLatencyMs {
+              get { if ((_hasBits0 & 128) != 0) { return transcriptionLatencyMs_; } else { return TranscriptionLatencyMsDefaultValue; } }
+              set {
+                _hasBits0 |= 128;
+                transcriptionLatencyMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "transcription_latency_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTranscriptionLatencyMs {
+              get { return (_hasBits0 & 128) != 0; }
+            }
+            /// <summary>Clears the value of the "transcription_latency_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTranscriptionLatencyMs() {
+              _hasBits0 &= ~128;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override bool Equals(object other) {
+              return Equals(other as STT);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool Equals(STT other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Wer, other.Wer)) return false;
+              if (Words != other.Words) return false;
+              if (WordErrors != other.WordErrors) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Cer, other.Cer)) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(KeytermRecall, other.KeytermRecall)) return false;
+              if (KeytermsUttered != other.KeytermsUttered) return false;
+              if (KeytermsRecognized != other.KeytermsRecognized) return false;
+              if (TranscriptionLatencyMs != other.TranscriptionLatencyMs) return false;
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (HasWer) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Wer);
+              if (HasWords) hash ^= Words.GetHashCode();
+              if (HasWordErrors) hash ^= WordErrors.GetHashCode();
+              if (HasCer) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Cer);
+              if (HasKeytermRecall) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(KeytermRecall);
+              if (HasKeytermsUttered) hash ^= KeytermsUttered.GetHashCode();
+              if (HasKeytermsRecognized) hash ^= KeytermsRecognized.GetHashCode();
+              if (HasTranscriptionLatencyMs) hash ^= TranscriptionLatencyMs.GetHashCode();
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (HasWer) {
+                output.WriteRawTag(13);
+                output.WriteFloat(Wer);
+              }
+              if (HasWords) {
+                output.WriteRawTag(16);
+                output.WriteUInt32(Words);
+              }
+              if (HasWordErrors) {
+                output.WriteRawTag(24);
+                output.WriteUInt32(WordErrors);
+              }
+              if (HasCer) {
+                output.WriteRawTag(37);
+                output.WriteFloat(Cer);
+              }
+              if (HasKeytermRecall) {
+                output.WriteRawTag(45);
+                output.WriteFloat(KeytermRecall);
+              }
+              if (HasKeytermsUttered) {
+                output.WriteRawTag(48);
+                output.WriteUInt32(KeytermsUttered);
+              }
+              if (HasKeytermsRecognized) {
+                output.WriteRawTag(56);
+                output.WriteUInt32(KeytermsRecognized);
+              }
+              if (HasTranscriptionLatencyMs) {
+                output.WriteRawTag(64);
+                output.WriteUInt32(TranscriptionLatencyMs);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (HasWer) {
+                output.WriteRawTag(13);
+                output.WriteFloat(Wer);
+              }
+              if (HasWords) {
+                output.WriteRawTag(16);
+                output.WriteUInt32(Words);
+              }
+              if (HasWordErrors) {
+                output.WriteRawTag(24);
+                output.WriteUInt32(WordErrors);
+              }
+              if (HasCer) {
+                output.WriteRawTag(37);
+                output.WriteFloat(Cer);
+              }
+              if (HasKeytermRecall) {
+                output.WriteRawTag(45);
+                output.WriteFloat(KeytermRecall);
+              }
+              if (HasKeytermsUttered) {
+                output.WriteRawTag(48);
+                output.WriteUInt32(KeytermsUttered);
+              }
+              if (HasKeytermsRecognized) {
+                output.WriteRawTag(56);
+                output.WriteUInt32(KeytermsRecognized);
+              }
+              if (HasTranscriptionLatencyMs) {
+                output.WriteRawTag(64);
+                output.WriteUInt32(TranscriptionLatencyMs);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int CalculateSize() {
+              int size = 0;
+              if (HasWer) {
+                size += 1 + 4;
+              }
+              if (HasWords) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Words);
+              }
+              if (HasWordErrors) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(WordErrors);
+              }
+              if (HasCer) {
+                size += 1 + 4;
+              }
+              if (HasKeytermRecall) {
+                size += 1 + 4;
+              }
+              if (HasKeytermsUttered) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(KeytermsUttered);
+              }
+              if (HasKeytermsRecognized) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(KeytermsRecognized);
+              }
+              if (HasTranscriptionLatencyMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TranscriptionLatencyMs);
+              }
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(STT other) {
+              if (other == null) {
+                return;
+              }
+              if (other.HasWer) {
+                Wer = other.Wer;
+              }
+              if (other.HasWords) {
+                Words = other.Words;
+              }
+              if (other.HasWordErrors) {
+                WordErrors = other.WordErrors;
+              }
+              if (other.HasCer) {
+                Cer = other.Cer;
+              }
+              if (other.HasKeytermRecall) {
+                KeytermRecall = other.KeytermRecall;
+              }
+              if (other.HasKeytermsUttered) {
+                KeytermsUttered = other.KeytermsUttered;
+              }
+              if (other.HasKeytermsRecognized) {
+                KeytermsRecognized = other.KeytermsRecognized;
+              }
+              if (other.HasTranscriptionLatencyMs) {
+                TranscriptionLatencyMs = other.TranscriptionLatencyMs;
+              }
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                  case 13: {
+                    Wer = input.ReadFloat();
+                    break;
+                  }
+                  case 16: {
+                    Words = input.ReadUInt32();
+                    break;
+                  }
+                  case 24: {
+                    WordErrors = input.ReadUInt32();
+                    break;
+                  }
+                  case 37: {
+                    Cer = input.ReadFloat();
+                    break;
+                  }
+                  case 45: {
+                    KeytermRecall = input.ReadFloat();
+                    break;
+                  }
+                  case 48: {
+                    KeytermsUttered = input.ReadUInt32();
+                    break;
+                  }
+                  case 56: {
+                    KeytermsRecognized = input.ReadUInt32();
+                    break;
+                  }
+                  case 64: {
+                    TranscriptionLatencyMs = input.ReadUInt32();
+                    break;
+                  }
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                  case 13: {
+                    Wer = input.ReadFloat();
+                    break;
+                  }
+                  case 16: {
+                    Words = input.ReadUInt32();
+                    break;
+                  }
+                  case 24: {
+                    WordErrors = input.ReadUInt32();
+                    break;
+                  }
+                  case 37: {
+                    Cer = input.ReadFloat();
+                    break;
+                  }
+                  case 45: {
+                    KeytermRecall = input.ReadFloat();
+                    break;
+                  }
+                  case 48: {
+                    KeytermsUttered = input.ReadUInt32();
+                    break;
+                  }
+                  case 56: {
+                    KeytermsRecognized = input.ReadUInt32();
+                    break;
+                  }
+                  case 64: {
+                    TranscriptionLatencyMs = input.ReadUInt32();
+                    break;
+                  }
+                }
+              }
+            }
+            #endif
+
+          }
+
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+          public sealed partial class LLM : pb::IMessage<LLM>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<LLM> _parser = new pb::MessageParser<LLM>(() => new LLM());
+            private pb::UnknownFieldSet _unknownFields;
+            private int _hasBits0;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pb::MessageParser<LLM> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Descriptor.NestedTypes[1]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public LLM() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public LLM(LLM other) : this() {
+              _hasBits0 = other._hasBits0;
+              ttftMs_ = other.ttftMs_;
+              ttfsMs_ = other.ttfsMs_;
+              tokensPerSecond_ = other.tokensPerSecond_;
+              concisenessScore_ = other.concisenessScore_;
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public LLM Clone() {
+              return new LLM(this);
+            }
+
+            /// <summary>Field number for the "ttft_ms" field.</summary>
+            public const int TtftMsFieldNumber = 1;
+            private readonly static uint TtftMsDefaultValue = 0;
+
+            private uint ttftMs_;
+            /// <summary>
+            /// time to first token, mean (per-turn in turns)
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TtftMs {
+              get { if ((_hasBits0 & 1) != 0) { return ttftMs_; } else { return TtftMsDefaultValue; } }
+              set {
+                _hasBits0 |= 1;
+                ttftMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "ttft_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTtftMs {
+              get { return (_hasBits0 & 1) != 0; }
+            }
+            /// <summary>Clears the value of the "ttft_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTtftMs() {
+              _hasBits0 &= ~1;
+            }
+
+            /// <summary>Field number for the "ttfs_ms" field.</summary>
+            public const int TtfsMsFieldNumber = 2;
+            private readonly static uint TtfsMsDefaultValue = 0;
+
+            private uint ttfsMs_;
+            /// <summary>
+            /// time to first sentence — the smallest speakable unit
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TtfsMs {
+              get { if ((_hasBits0 & 2) != 0) { return ttfsMs_; } else { return TtfsMsDefaultValue; } }
+              set {
+                _hasBits0 |= 2;
+                ttfsMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "ttfs_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTtfsMs {
+              get { return (_hasBits0 & 2) != 0; }
+            }
+            /// <summary>Clears the value of the "ttfs_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTtfsMs() {
+              _hasBits0 &= ~2;
+            }
+
+            /// <summary>Field number for the "tokens_per_second" field.</summary>
+            public const int TokensPerSecondFieldNumber = 3;
+            private readonly static float TokensPerSecondDefaultValue = 0F;
+
+            private float tokensPerSecond_;
+            /// <summary>
+            /// decode rate, mean
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float TokensPerSecond {
+              get { if ((_hasBits0 & 4) != 0) { return tokensPerSecond_; } else { return TokensPerSecondDefaultValue; } }
+              set {
+                _hasBits0 |= 4;
+                tokensPerSecond_ = value;
+              }
+            }
+            /// <summary>Gets whether the "tokens_per_second" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTokensPerSecond {
+              get { return (_hasBits0 & 4) != 0; }
+            }
+            /// <summary>Clears the value of the "tokens_per_second" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTokensPerSecond() {
+              _hasBits0 &= ~4;
+            }
+
+            /// <summary>Field number for the "conciseness_score" field.</summary>
+            public const int ConcisenessScoreFieldNumber = 4;
+            private readonly static float ConcisenessScoreDefaultValue = 0F;
+
+            private float concisenessScore_;
+            /// <summary>
+            /// judged 0-1: brief enough for voice
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float ConcisenessScore {
+              get { if ((_hasBits0 & 8) != 0) { return concisenessScore_; } else { return ConcisenessScoreDefaultValue; } }
+              set {
+                _hasBits0 |= 8;
+                concisenessScore_ = value;
+              }
+            }
+            /// <summary>Gets whether the "conciseness_score" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasConcisenessScore {
+              get { return (_hasBits0 & 8) != 0; }
+            }
+            /// <summary>Clears the value of the "conciseness_score" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearConcisenessScore() {
+              _hasBits0 &= ~8;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override bool Equals(object other) {
+              return Equals(other as LLM);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool Equals(LLM other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              if (TtftMs != other.TtftMs) return false;
+              if (TtfsMs != other.TtfsMs) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TokensPerSecond, other.TokensPerSecond)) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ConcisenessScore, other.ConcisenessScore)) return false;
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (HasTtftMs) hash ^= TtftMs.GetHashCode();
+              if (HasTtfsMs) hash ^= TtfsMs.GetHashCode();
+              if (HasTokensPerSecond) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TokensPerSecond);
+              if (HasConcisenessScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ConcisenessScore);
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (HasTtftMs) {
+                output.WriteRawTag(8);
+                output.WriteUInt32(TtftMs);
+              }
+              if (HasTtfsMs) {
+                output.WriteRawTag(16);
+                output.WriteUInt32(TtfsMs);
+              }
+              if (HasTokensPerSecond) {
+                output.WriteRawTag(29);
+                output.WriteFloat(TokensPerSecond);
+              }
+              if (HasConcisenessScore) {
+                output.WriteRawTag(37);
+                output.WriteFloat(ConcisenessScore);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (HasTtftMs) {
+                output.WriteRawTag(8);
+                output.WriteUInt32(TtftMs);
+              }
+              if (HasTtfsMs) {
+                output.WriteRawTag(16);
+                output.WriteUInt32(TtfsMs);
+              }
+              if (HasTokensPerSecond) {
+                output.WriteRawTag(29);
+                output.WriteFloat(TokensPerSecond);
+              }
+              if (HasConcisenessScore) {
+                output.WriteRawTag(37);
+                output.WriteFloat(ConcisenessScore);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int CalculateSize() {
+              int size = 0;
+              if (HasTtftMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TtftMs);
+              }
+              if (HasTtfsMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TtfsMs);
+              }
+              if (HasTokensPerSecond) {
+                size += 1 + 4;
+              }
+              if (HasConcisenessScore) {
+                size += 1 + 4;
+              }
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(LLM other) {
+              if (other == null) {
+                return;
+              }
+              if (other.HasTtftMs) {
+                TtftMs = other.TtftMs;
+              }
+              if (other.HasTtfsMs) {
+                TtfsMs = other.TtfsMs;
+              }
+              if (other.HasTokensPerSecond) {
+                TokensPerSecond = other.TokensPerSecond;
+              }
+              if (other.HasConcisenessScore) {
+                ConcisenessScore = other.ConcisenessScore;
+              }
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                  case 8: {
+                    TtftMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 16: {
+                    TtfsMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 29: {
+                    TokensPerSecond = input.ReadFloat();
+                    break;
+                  }
+                  case 37: {
+                    ConcisenessScore = input.ReadFloat();
+                    break;
+                  }
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                  case 8: {
+                    TtftMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 16: {
+                    TtfsMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 29: {
+                    TokensPerSecond = input.ReadFloat();
+                    break;
+                  }
+                  case 37: {
+                    ConcisenessScore = input.ReadFloat();
+                    break;
+                  }
+                }
+              }
+            }
+            #endif
+
+          }
+
+          /// <summary>
+          /// The agent's voice.
+          /// </summary>
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+          public sealed partial class TTS : pb::IMessage<TTS>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<TTS> _parser = new pb::MessageParser<TTS>(() => new TTS());
+            private pb::UnknownFieldSet _unknownFields;
+            private int _hasBits0;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pb::MessageParser<TTS> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Descriptor.NestedTypes[2]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public TTS() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public TTS(TTS other) : this() {
+              _hasBits0 = other._hasBits0;
+              ttfaMs_ = other.ttfaMs_;
+              ttfbMs_ = other.ttfbMs_;
+              wer_ = other.wer_;
+              speechRateWpm_ = other.speechRateWpm_;
+              naturalnessScore_ = other.naturalnessScore_;
+              enunciationScore_ = other.enunciationScore_;
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public TTS Clone() {
+              return new TTS(this);
+            }
+
+            /// <summary>Field number for the "ttfa_ms" field.</summary>
+            public const int TtfaMsFieldNumber = 1;
+            private readonly static uint TtfaMsDefaultValue = 0;
+
+            private uint ttfaMs_;
+            /// <summary>
+            /// Time to first AUDIO — the user-relevant signal. Some providers stream
+            /// bytes before actual speech, so byte-level TTFB alone over-promises;
+            /// it is kept below for disambiguation.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TtfaMs {
+              get { if ((_hasBits0 & 1) != 0) { return ttfaMs_; } else { return TtfaMsDefaultValue; } }
+              set {
+                _hasBits0 |= 1;
+                ttfaMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "ttfa_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTtfaMs {
+              get { return (_hasBits0 & 1) != 0; }
+            }
+            /// <summary>Clears the value of the "ttfa_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTtfaMs() {
+              _hasBits0 &= ~1;
+            }
+
+            /// <summary>Field number for the "ttfb_ms" field.</summary>
+            public const int TtfbMsFieldNumber = 2;
+            private readonly static uint TtfbMsDefaultValue = 0;
+
+            private uint ttfbMs_;
+            /// <summary>
+            /// provider byte-level TTFB, agent-reported
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TtfbMs {
+              get { if ((_hasBits0 & 2) != 0) { return ttfbMs_; } else { return TtfbMsDefaultValue; } }
+              set {
+                _hasBits0 |= 2;
+                ttfbMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "ttfb_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTtfbMs {
+              get { return (_hasBits0 & 2) != 0; }
+            }
+            /// <summary>Clears the value of the "ttfb_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTtfbMs() {
+              _hasBits0 &= ~2;
+            }
+
+            /// <summary>Field number for the "wer" field.</summary>
+            public const int WerFieldNumber = 3;
+            private readonly static float WerDefaultValue = 0F;
+
+            private float wer_;
+            /// <summary>
+            /// intelligibility: intended text vs a transcription of the output audio
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float Wer {
+              get { if ((_hasBits0 & 4) != 0) { return wer_; } else { return WerDefaultValue; } }
+              set {
+                _hasBits0 |= 4;
+                wer_ = value;
+              }
+            }
+            /// <summary>Gets whether the "wer" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasWer {
+              get { return (_hasBits0 & 4) != 0; }
+            }
+            /// <summary>Clears the value of the "wer" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearWer() {
+              _hasBits0 &= ~4;
+            }
+
+            /// <summary>Field number for the "speech_rate_wpm" field.</summary>
+            public const int SpeechRateWpmFieldNumber = 4;
+            private readonly static float SpeechRateWpmDefaultValue = 0F;
+
+            private float speechRateWpm_;
+            /// <summary>
+            /// speaking rate; conversational English ~110-150
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float SpeechRateWpm {
+              get { if ((_hasBits0 & 8) != 0) { return speechRateWpm_; } else { return SpeechRateWpmDefaultValue; } }
+              set {
+                _hasBits0 |= 8;
+                speechRateWpm_ = value;
+              }
+            }
+            /// <summary>Gets whether the "speech_rate_wpm" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasSpeechRateWpm {
+              get { return (_hasBits0 & 8) != 0; }
+            }
+            /// <summary>Clears the value of the "speech_rate_wpm" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearSpeechRateWpm() {
+              _hasBits0 &= ~8;
+            }
+
+            /// <summary>Field number for the "naturalness_score" field.</summary>
+            public const int NaturalnessScoreFieldNumber = 5;
+            private readonly static float NaturalnessScoreDefaultValue = 0F;
+
+            private float naturalnessScore_;
+            /// <summary>
+            /// judged 0-1: prosody / expressiveness
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float NaturalnessScore {
+              get { if ((_hasBits0 & 16) != 0) { return naturalnessScore_; } else { return NaturalnessScoreDefaultValue; } }
+              set {
+                _hasBits0 |= 16;
+                naturalnessScore_ = value;
+              }
+            }
+            /// <summary>Gets whether the "naturalness_score" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasNaturalnessScore {
+              get { return (_hasBits0 & 16) != 0; }
+            }
+            /// <summary>Clears the value of the "naturalness_score" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearNaturalnessScore() {
+              _hasBits0 &= ~16;
+            }
+
+            /// <summary>Field number for the "enunciation_score" field.</summary>
+            public const int EnunciationScoreFieldNumber = 6;
+            private readonly static float EnunciationScoreDefaultValue = 0F;
+
+            private float enunciationScore_;
+            /// <summary>
+            /// judged 0-1: key entities audibly intact
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float EnunciationScore {
+              get { if ((_hasBits0 & 32) != 0) { return enunciationScore_; } else { return EnunciationScoreDefaultValue; } }
+              set {
+                _hasBits0 |= 32;
+                enunciationScore_ = value;
+              }
+            }
+            /// <summary>Gets whether the "enunciation_score" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasEnunciationScore {
+              get { return (_hasBits0 & 32) != 0; }
+            }
+            /// <summary>Clears the value of the "enunciation_score" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearEnunciationScore() {
+              _hasBits0 &= ~32;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override bool Equals(object other) {
+              return Equals(other as TTS);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool Equals(TTS other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              if (TtfaMs != other.TtfaMs) return false;
+              if (TtfbMs != other.TtfbMs) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Wer, other.Wer)) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(SpeechRateWpm, other.SpeechRateWpm)) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(NaturalnessScore, other.NaturalnessScore)) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EnunciationScore, other.EnunciationScore)) return false;
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (HasTtfaMs) hash ^= TtfaMs.GetHashCode();
+              if (HasTtfbMs) hash ^= TtfbMs.GetHashCode();
+              if (HasWer) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Wer);
+              if (HasSpeechRateWpm) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(SpeechRateWpm);
+              if (HasNaturalnessScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(NaturalnessScore);
+              if (HasEnunciationScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EnunciationScore);
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (HasTtfaMs) {
+                output.WriteRawTag(8);
+                output.WriteUInt32(TtfaMs);
+              }
+              if (HasTtfbMs) {
+                output.WriteRawTag(16);
+                output.WriteUInt32(TtfbMs);
+              }
+              if (HasWer) {
+                output.WriteRawTag(29);
+                output.WriteFloat(Wer);
+              }
+              if (HasSpeechRateWpm) {
+                output.WriteRawTag(37);
+                output.WriteFloat(SpeechRateWpm);
+              }
+              if (HasNaturalnessScore) {
+                output.WriteRawTag(45);
+                output.WriteFloat(NaturalnessScore);
+              }
+              if (HasEnunciationScore) {
+                output.WriteRawTag(53);
+                output.WriteFloat(EnunciationScore);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (HasTtfaMs) {
+                output.WriteRawTag(8);
+                output.WriteUInt32(TtfaMs);
+              }
+              if (HasTtfbMs) {
+                output.WriteRawTag(16);
+                output.WriteUInt32(TtfbMs);
+              }
+              if (HasWer) {
+                output.WriteRawTag(29);
+                output.WriteFloat(Wer);
+              }
+              if (HasSpeechRateWpm) {
+                output.WriteRawTag(37);
+                output.WriteFloat(SpeechRateWpm);
+              }
+              if (HasNaturalnessScore) {
+                output.WriteRawTag(45);
+                output.WriteFloat(NaturalnessScore);
+              }
+              if (HasEnunciationScore) {
+                output.WriteRawTag(53);
+                output.WriteFloat(EnunciationScore);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int CalculateSize() {
+              int size = 0;
+              if (HasTtfaMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TtfaMs);
+              }
+              if (HasTtfbMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TtfbMs);
+              }
+              if (HasWer) {
+                size += 1 + 4;
+              }
+              if (HasSpeechRateWpm) {
+                size += 1 + 4;
+              }
+              if (HasNaturalnessScore) {
+                size += 1 + 4;
+              }
+              if (HasEnunciationScore) {
+                size += 1 + 4;
+              }
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(TTS other) {
+              if (other == null) {
+                return;
+              }
+              if (other.HasTtfaMs) {
+                TtfaMs = other.TtfaMs;
+              }
+              if (other.HasTtfbMs) {
+                TtfbMs = other.TtfbMs;
+              }
+              if (other.HasWer) {
+                Wer = other.Wer;
+              }
+              if (other.HasSpeechRateWpm) {
+                SpeechRateWpm = other.SpeechRateWpm;
+              }
+              if (other.HasNaturalnessScore) {
+                NaturalnessScore = other.NaturalnessScore;
+              }
+              if (other.HasEnunciationScore) {
+                EnunciationScore = other.EnunciationScore;
+              }
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                  case 8: {
+                    TtfaMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 16: {
+                    TtfbMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 29: {
+                    Wer = input.ReadFloat();
+                    break;
+                  }
+                  case 37: {
+                    SpeechRateWpm = input.ReadFloat();
+                    break;
+                  }
+                  case 45: {
+                    NaturalnessScore = input.ReadFloat();
+                    break;
+                  }
+                  case 53: {
+                    EnunciationScore = input.ReadFloat();
+                    break;
+                  }
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                  case 8: {
+                    TtfaMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 16: {
+                    TtfbMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 29: {
+                    Wer = input.ReadFloat();
+                    break;
+                  }
+                  case 37: {
+                    SpeechRateWpm = input.ReadFloat();
+                    break;
+                  }
+                  case 45: {
+                    NaturalnessScore = input.ReadFloat();
+                    break;
+                  }
+                  case 53: {
+                    EnunciationScore = input.ReadFloat();
+                    break;
+                  }
+                }
+              }
+            }
+            #endif
+
+          }
+
+          /// <summary>
+          /// End-to-end floor dynamics, measured off the audio timeline — the ground
+          /// truth of what the caller hears, independent of agent self-reports.
+          /// </summary>
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+          public sealed partial class Conversation : pb::IMessage<Conversation>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<Conversation> _parser = new pb::MessageParser<Conversation>(() => new Conversation());
+            private pb::UnknownFieldSet _unknownFields;
+            private int _hasBits0;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pb::MessageParser<Conversation> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Descriptor.NestedTypes[3]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Conversation() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Conversation(Conversation other) : this() {
+              _hasBits0 = other._hasBits0;
+              turnTakingScore_ = other.turnTakingScore_;
+              responseLatencyP50Ms_ = other.responseLatencyP50Ms_;
+              responseLatencyP95Ms_ = other.responseLatencyP95Ms_;
+              responseLatencyP99Ms_ = other.responseLatencyP99Ms_;
+              agentYieldLatencyMs_ = other.agentYieldLatencyMs_;
+              eotMispredictionCount_ = other.eotMispredictionCount_;
+              overlapRatio_ = other.overlapRatio_;
+              overlapSpeechMs_ = other.overlapSpeechMs_;
+              totalSpeechMs_ = other.totalSpeechMs_;
+              silenceTotalMs_ = other.silenceTotalMs_;
+              awkwardSilenceCount_ = other.awkwardSilenceCount_;
+              unansweredPersonaTurns_ = other.unansweredPersonaTurns_;
+              falseInterruptionCount_ = other.falseInterruptionCount_;
+              falseInterruptionUnrecoveredCount_ = other.falseInterruptionUnrecoveredCount_;
+              agentReportedE2ELatencyMs_ = other.agentReportedE2ELatencyMs_;
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Conversation Clone() {
+              return new Conversation(this);
+            }
+
+            /// <summary>Field number for the "turn_taking_score" field.</summary>
+            public const int TurnTakingScoreFieldNumber = 1;
+            private readonly static float TurnTakingScoreDefaultValue = 0F;
+
+            private float turnTakingScore_;
+            /// <summary>
+            /// 0-1: latency curve + cut-in/barge-in/missed-turn penalties
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float TurnTakingScore {
+              get { if ((_hasBits0 & 1) != 0) { return turnTakingScore_; } else { return TurnTakingScoreDefaultValue; } }
+              set {
+                _hasBits0 |= 1;
+                turnTakingScore_ = value;
+              }
+            }
+            /// <summary>Gets whether the "turn_taking_score" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTurnTakingScore {
+              get { return (_hasBits0 & 1) != 0; }
+            }
+            /// <summary>Clears the value of the "turn_taking_score" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTurnTakingScore() {
+              _hasBits0 &= ~1;
+            }
+
+            /// <summary>Field number for the "response_latency_p50_ms" field.</summary>
+            public const int ResponseLatencyP50MsFieldNumber = 2;
+            private readonly static int ResponseLatencyP50MsDefaultValue = 0;
+
+            private int responseLatencyP50Ms_;
+            /// <summary>
+            /// floor-transfer offset; a gap is > 0, an overlap &lt; 0
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int ResponseLatencyP50Ms {
+              get { if ((_hasBits0 & 2) != 0) { return responseLatencyP50Ms_; } else { return ResponseLatencyP50MsDefaultValue; } }
+              set {
+                _hasBits0 |= 2;
+                responseLatencyP50Ms_ = value;
+              }
+            }
+            /// <summary>Gets whether the "response_latency_p50_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasResponseLatencyP50Ms {
+              get { return (_hasBits0 & 2) != 0; }
+            }
+            /// <summary>Clears the value of the "response_latency_p50_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearResponseLatencyP50Ms() {
+              _hasBits0 &= ~2;
+            }
+
+            /// <summary>Field number for the "response_latency_p95_ms" field.</summary>
+            public const int ResponseLatencyP95MsFieldNumber = 3;
+            private readonly static int ResponseLatencyP95MsDefaultValue = 0;
+
+            private int responseLatencyP95Ms_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int ResponseLatencyP95Ms {
+              get { if ((_hasBits0 & 4) != 0) { return responseLatencyP95Ms_; } else { return ResponseLatencyP95MsDefaultValue; } }
+              set {
+                _hasBits0 |= 4;
+                responseLatencyP95Ms_ = value;
+              }
+            }
+            /// <summary>Gets whether the "response_latency_p95_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasResponseLatencyP95Ms {
+              get { return (_hasBits0 & 4) != 0; }
+            }
+            /// <summary>Clears the value of the "response_latency_p95_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearResponseLatencyP95Ms() {
+              _hasBits0 &= ~4;
+            }
+
+            /// <summary>Field number for the "response_latency_p99_ms" field.</summary>
+            public const int ResponseLatencyP99MsFieldNumber = 4;
+            private readonly static int ResponseLatencyP99MsDefaultValue = 0;
+
+            private int responseLatencyP99Ms_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int ResponseLatencyP99Ms {
+              get { if ((_hasBits0 & 8) != 0) { return responseLatencyP99Ms_; } else { return ResponseLatencyP99MsDefaultValue; } }
+              set {
+                _hasBits0 |= 8;
+                responseLatencyP99Ms_ = value;
+              }
+            }
+            /// <summary>Gets whether the "response_latency_p99_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasResponseLatencyP99Ms {
+              get { return (_hasBits0 & 8) != 0; }
+            }
+            /// <summary>Clears the value of the "response_latency_p99_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearResponseLatencyP99Ms() {
+              _hasBits0 &= ~8;
+            }
+
+            /// <summary>Field number for the "agent_yield_latency_ms" field.</summary>
+            public const int AgentYieldLatencyMsFieldNumber = 5;
+            private readonly static uint AgentYieldLatencyMsDefaultValue = 0;
+
+            private uint agentYieldLatencyMs_;
+            /// <summary>
+            /// how long the agent talks after a barge-in, mean
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint AgentYieldLatencyMs {
+              get { if ((_hasBits0 & 16) != 0) { return agentYieldLatencyMs_; } else { return AgentYieldLatencyMsDefaultValue; } }
+              set {
+                _hasBits0 |= 16;
+                agentYieldLatencyMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "agent_yield_latency_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasAgentYieldLatencyMs {
+              get { return (_hasBits0 & 16) != 0; }
+            }
+            /// <summary>Clears the value of the "agent_yield_latency_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearAgentYieldLatencyMs() {
+              _hasBits0 &= ~16;
+            }
+
+            /// <summary>Field number for the "eot_misprediction_count" field.</summary>
+            public const int EotMispredictionCountFieldNumber = 6;
+            private readonly static uint EotMispredictionCountDefaultValue = 0;
+
+            private uint eotMispredictionCount_;
+            /// <summary>
+            /// agent started before the caller's turn ended
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint EotMispredictionCount {
+              get { if ((_hasBits0 & 32) != 0) { return eotMispredictionCount_; } else { return EotMispredictionCountDefaultValue; } }
+              set {
+                _hasBits0 |= 32;
+                eotMispredictionCount_ = value;
+              }
+            }
+            /// <summary>Gets whether the "eot_misprediction_count" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasEotMispredictionCount {
+              get { return (_hasBits0 & 32) != 0; }
+            }
+            /// <summary>Clears the value of the "eot_misprediction_count" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearEotMispredictionCount() {
+              _hasBits0 &= ~32;
+            }
+
+            /// <summary>Field number for the "overlap_ratio" field.</summary>
+            public const int OverlapRatioFieldNumber = 7;
+            private readonly static float OverlapRatioDefaultValue = 0F;
+
+            private float overlapRatio_;
+            /// <summary>
+            /// overlapping speech / total speech
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float OverlapRatio {
+              get { if ((_hasBits0 & 64) != 0) { return overlapRatio_; } else { return OverlapRatioDefaultValue; } }
+              set {
+                _hasBits0 |= 64;
+                overlapRatio_ = value;
+              }
+            }
+            /// <summary>Gets whether the "overlap_ratio" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasOverlapRatio {
+              get { return (_hasBits0 & 64) != 0; }
+            }
+            /// <summary>Clears the value of the "overlap_ratio" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearOverlapRatio() {
+              _hasBits0 &= ~64;
+            }
+
+            /// <summary>Field number for the "overlap_speech_ms" field.</summary>
+            public const int OverlapSpeechMsFieldNumber = 8;
+            private readonly static uint OverlapSpeechMsDefaultValue = 0;
+
+            private uint overlapSpeechMs_;
+            /// <summary>
+            /// pooling stats for overlap_ratio
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint OverlapSpeechMs {
+              get { if ((_hasBits0 & 128) != 0) { return overlapSpeechMs_; } else { return OverlapSpeechMsDefaultValue; } }
+              set {
+                _hasBits0 |= 128;
+                overlapSpeechMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "overlap_speech_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasOverlapSpeechMs {
+              get { return (_hasBits0 & 128) != 0; }
+            }
+            /// <summary>Clears the value of the "overlap_speech_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearOverlapSpeechMs() {
+              _hasBits0 &= ~128;
+            }
+
+            /// <summary>Field number for the "total_speech_ms" field.</summary>
+            public const int TotalSpeechMsFieldNumber = 9;
+            private readonly static uint TotalSpeechMsDefaultValue = 0;
+
+            private uint totalSpeechMs_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TotalSpeechMs {
+              get { if ((_hasBits0 & 256) != 0) { return totalSpeechMs_; } else { return TotalSpeechMsDefaultValue; } }
+              set {
+                _hasBits0 |= 256;
+                totalSpeechMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "total_speech_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTotalSpeechMs {
+              get { return (_hasBits0 & 256) != 0; }
+            }
+            /// <summary>Clears the value of the "total_speech_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTotalSpeechMs() {
+              _hasBits0 &= ~256;
+            }
+
+            /// <summary>Field number for the "silence_total_ms" field.</summary>
+            public const int SilenceTotalMsFieldNumber = 10;
+            private readonly static uint SilenceTotalMsDefaultValue = 0;
+
+            private uint silenceTotalMs_;
+            /// <summary>
+            /// dead air within the conversation
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint SilenceTotalMs {
+              get { if ((_hasBits0 & 512) != 0) { return silenceTotalMs_; } else { return SilenceTotalMsDefaultValue; } }
+              set {
+                _hasBits0 |= 512;
+                silenceTotalMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "silence_total_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasSilenceTotalMs {
+              get { return (_hasBits0 & 512) != 0; }
+            }
+            /// <summary>Clears the value of the "silence_total_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearSilenceTotalMs() {
+              _hasBits0 &= ~512;
+            }
+
+            /// <summary>Field number for the "awkward_silence_count" field.</summary>
+            public const int AwkwardSilenceCountFieldNumber = 11;
+            private readonly static uint AwkwardSilenceCountDefaultValue = 0;
+
+            private uint awkwardSilenceCount_;
+            /// <summary>
+            /// gaps past the natural-pause threshold
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint AwkwardSilenceCount {
+              get { if ((_hasBits0 & 1024) != 0) { return awkwardSilenceCount_; } else { return AwkwardSilenceCountDefaultValue; } }
+              set {
+                _hasBits0 |= 1024;
+                awkwardSilenceCount_ = value;
+              }
+            }
+            /// <summary>Gets whether the "awkward_silence_count" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasAwkwardSilenceCount {
+              get { return (_hasBits0 & 1024) != 0; }
+            }
+            /// <summary>Clears the value of the "awkward_silence_count" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearAwkwardSilenceCount() {
+              _hasBits0 &= ~1024;
+            }
+
+            /// <summary>Field number for the "unanswered_persona_turns" field.</summary>
+            public const int UnansweredPersonaTurnsFieldNumber = 12;
+            private readonly static uint UnansweredPersonaTurnsDefaultValue = 0;
+
+            private uint unansweredPersonaTurns_;
+            /// <summary>
+            /// the simulated party spoke, the agent never responded
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint UnansweredPersonaTurns {
+              get { if ((_hasBits0 & 2048) != 0) { return unansweredPersonaTurns_; } else { return UnansweredPersonaTurnsDefaultValue; } }
+              set {
+                _hasBits0 |= 2048;
+                unansweredPersonaTurns_ = value;
+              }
+            }
+            /// <summary>Gets whether the "unanswered_persona_turns" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasUnansweredPersonaTurns {
+              get { return (_hasBits0 & 2048) != 0; }
+            }
+            /// <summary>Clears the value of the "unanswered_persona_turns" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearUnansweredPersonaTurns() {
+              _hasBits0 &= ~2048;
+            }
+
+            /// <summary>Field number for the "false_interruption_count" field.</summary>
+            public const int FalseInterruptionCountFieldNumber = 13;
+            private readonly static uint FalseInterruptionCountDefaultValue = 0;
+
+            private uint falseInterruptionCount_;
+            /// <summary>
+            /// agent paused for a non-interruption
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint FalseInterruptionCount {
+              get { if ((_hasBits0 & 4096) != 0) { return falseInterruptionCount_; } else { return FalseInterruptionCountDefaultValue; } }
+              set {
+                _hasBits0 |= 4096;
+                falseInterruptionCount_ = value;
+              }
+            }
+            /// <summary>Gets whether the "false_interruption_count" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasFalseInterruptionCount {
+              get { return (_hasBits0 & 4096) != 0; }
+            }
+            /// <summary>Clears the value of the "false_interruption_count" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearFalseInterruptionCount() {
+              _hasBits0 &= ~4096;
+            }
+
+            /// <summary>Field number for the "false_interruption_unrecovered_count" field.</summary>
+            public const int FalseInterruptionUnrecoveredCountFieldNumber = 14;
+            private readonly static uint FalseInterruptionUnrecoveredCountDefaultValue = 0;
+
+            private uint falseInterruptionUnrecoveredCount_;
+            /// <summary>
+            /// of those, never resumed
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint FalseInterruptionUnrecoveredCount {
+              get { if ((_hasBits0 & 8192) != 0) { return falseInterruptionUnrecoveredCount_; } else { return FalseInterruptionUnrecoveredCountDefaultValue; } }
+              set {
+                _hasBits0 |= 8192;
+                falseInterruptionUnrecoveredCount_ = value;
+              }
+            }
+            /// <summary>Gets whether the "false_interruption_unrecovered_count" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasFalseInterruptionUnrecoveredCount {
+              get { return (_hasBits0 & 8192) != 0; }
+            }
+            /// <summary>Clears the value of the "false_interruption_unrecovered_count" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearFalseInterruptionUnrecoveredCount() {
+              _hasBits0 &= ~8192;
+            }
+
+            /// <summary>Field number for the "agent_reported_e2e_latency_ms" field.</summary>
+            public const int AgentReportedE2ELatencyMsFieldNumber = 15;
+            private readonly static uint AgentReportedE2ELatencyMsDefaultValue = 0;
+
+            private uint agentReportedE2ELatencyMs_;
+            /// <summary>
+            /// the agent's own claim, mean
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint AgentReportedE2ELatencyMs {
+              get { if ((_hasBits0 & 16384) != 0) { return agentReportedE2ELatencyMs_; } else { return AgentReportedE2ELatencyMsDefaultValue; } }
+              set {
+                _hasBits0 |= 16384;
+                agentReportedE2ELatencyMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "agent_reported_e2e_latency_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasAgentReportedE2ELatencyMs {
+              get { return (_hasBits0 & 16384) != 0; }
+            }
+            /// <summary>Clears the value of the "agent_reported_e2e_latency_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearAgentReportedE2ELatencyMs() {
+              _hasBits0 &= ~16384;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override bool Equals(object other) {
+              return Equals(other as Conversation);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool Equals(Conversation other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TurnTakingScore, other.TurnTakingScore)) return false;
+              if (ResponseLatencyP50Ms != other.ResponseLatencyP50Ms) return false;
+              if (ResponseLatencyP95Ms != other.ResponseLatencyP95Ms) return false;
+              if (ResponseLatencyP99Ms != other.ResponseLatencyP99Ms) return false;
+              if (AgentYieldLatencyMs != other.AgentYieldLatencyMs) return false;
+              if (EotMispredictionCount != other.EotMispredictionCount) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(OverlapRatio, other.OverlapRatio)) return false;
+              if (OverlapSpeechMs != other.OverlapSpeechMs) return false;
+              if (TotalSpeechMs != other.TotalSpeechMs) return false;
+              if (SilenceTotalMs != other.SilenceTotalMs) return false;
+              if (AwkwardSilenceCount != other.AwkwardSilenceCount) return false;
+              if (UnansweredPersonaTurns != other.UnansweredPersonaTurns) return false;
+              if (FalseInterruptionCount != other.FalseInterruptionCount) return false;
+              if (FalseInterruptionUnrecoveredCount != other.FalseInterruptionUnrecoveredCount) return false;
+              if (AgentReportedE2ELatencyMs != other.AgentReportedE2ELatencyMs) return false;
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (HasTurnTakingScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TurnTakingScore);
+              if (HasResponseLatencyP50Ms) hash ^= ResponseLatencyP50Ms.GetHashCode();
+              if (HasResponseLatencyP95Ms) hash ^= ResponseLatencyP95Ms.GetHashCode();
+              if (HasResponseLatencyP99Ms) hash ^= ResponseLatencyP99Ms.GetHashCode();
+              if (HasAgentYieldLatencyMs) hash ^= AgentYieldLatencyMs.GetHashCode();
+              if (HasEotMispredictionCount) hash ^= EotMispredictionCount.GetHashCode();
+              if (HasOverlapRatio) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(OverlapRatio);
+              if (HasOverlapSpeechMs) hash ^= OverlapSpeechMs.GetHashCode();
+              if (HasTotalSpeechMs) hash ^= TotalSpeechMs.GetHashCode();
+              if (HasSilenceTotalMs) hash ^= SilenceTotalMs.GetHashCode();
+              if (HasAwkwardSilenceCount) hash ^= AwkwardSilenceCount.GetHashCode();
+              if (HasUnansweredPersonaTurns) hash ^= UnansweredPersonaTurns.GetHashCode();
+              if (HasFalseInterruptionCount) hash ^= FalseInterruptionCount.GetHashCode();
+              if (HasFalseInterruptionUnrecoveredCount) hash ^= FalseInterruptionUnrecoveredCount.GetHashCode();
+              if (HasAgentReportedE2ELatencyMs) hash ^= AgentReportedE2ELatencyMs.GetHashCode();
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (HasTurnTakingScore) {
+                output.WriteRawTag(13);
+                output.WriteFloat(TurnTakingScore);
+              }
+              if (HasResponseLatencyP50Ms) {
+                output.WriteRawTag(16);
+                output.WriteInt32(ResponseLatencyP50Ms);
+              }
+              if (HasResponseLatencyP95Ms) {
+                output.WriteRawTag(24);
+                output.WriteInt32(ResponseLatencyP95Ms);
+              }
+              if (HasResponseLatencyP99Ms) {
+                output.WriteRawTag(32);
+                output.WriteInt32(ResponseLatencyP99Ms);
+              }
+              if (HasAgentYieldLatencyMs) {
+                output.WriteRawTag(40);
+                output.WriteUInt32(AgentYieldLatencyMs);
+              }
+              if (HasEotMispredictionCount) {
+                output.WriteRawTag(48);
+                output.WriteUInt32(EotMispredictionCount);
+              }
+              if (HasOverlapRatio) {
+                output.WriteRawTag(61);
+                output.WriteFloat(OverlapRatio);
+              }
+              if (HasOverlapSpeechMs) {
+                output.WriteRawTag(64);
+                output.WriteUInt32(OverlapSpeechMs);
+              }
+              if (HasTotalSpeechMs) {
+                output.WriteRawTag(72);
+                output.WriteUInt32(TotalSpeechMs);
+              }
+              if (HasSilenceTotalMs) {
+                output.WriteRawTag(80);
+                output.WriteUInt32(SilenceTotalMs);
+              }
+              if (HasAwkwardSilenceCount) {
+                output.WriteRawTag(88);
+                output.WriteUInt32(AwkwardSilenceCount);
+              }
+              if (HasUnansweredPersonaTurns) {
+                output.WriteRawTag(96);
+                output.WriteUInt32(UnansweredPersonaTurns);
+              }
+              if (HasFalseInterruptionCount) {
+                output.WriteRawTag(104);
+                output.WriteUInt32(FalseInterruptionCount);
+              }
+              if (HasFalseInterruptionUnrecoveredCount) {
+                output.WriteRawTag(112);
+                output.WriteUInt32(FalseInterruptionUnrecoveredCount);
+              }
+              if (HasAgentReportedE2ELatencyMs) {
+                output.WriteRawTag(120);
+                output.WriteUInt32(AgentReportedE2ELatencyMs);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (HasTurnTakingScore) {
+                output.WriteRawTag(13);
+                output.WriteFloat(TurnTakingScore);
+              }
+              if (HasResponseLatencyP50Ms) {
+                output.WriteRawTag(16);
+                output.WriteInt32(ResponseLatencyP50Ms);
+              }
+              if (HasResponseLatencyP95Ms) {
+                output.WriteRawTag(24);
+                output.WriteInt32(ResponseLatencyP95Ms);
+              }
+              if (HasResponseLatencyP99Ms) {
+                output.WriteRawTag(32);
+                output.WriteInt32(ResponseLatencyP99Ms);
+              }
+              if (HasAgentYieldLatencyMs) {
+                output.WriteRawTag(40);
+                output.WriteUInt32(AgentYieldLatencyMs);
+              }
+              if (HasEotMispredictionCount) {
+                output.WriteRawTag(48);
+                output.WriteUInt32(EotMispredictionCount);
+              }
+              if (HasOverlapRatio) {
+                output.WriteRawTag(61);
+                output.WriteFloat(OverlapRatio);
+              }
+              if (HasOverlapSpeechMs) {
+                output.WriteRawTag(64);
+                output.WriteUInt32(OverlapSpeechMs);
+              }
+              if (HasTotalSpeechMs) {
+                output.WriteRawTag(72);
+                output.WriteUInt32(TotalSpeechMs);
+              }
+              if (HasSilenceTotalMs) {
+                output.WriteRawTag(80);
+                output.WriteUInt32(SilenceTotalMs);
+              }
+              if (HasAwkwardSilenceCount) {
+                output.WriteRawTag(88);
+                output.WriteUInt32(AwkwardSilenceCount);
+              }
+              if (HasUnansweredPersonaTurns) {
+                output.WriteRawTag(96);
+                output.WriteUInt32(UnansweredPersonaTurns);
+              }
+              if (HasFalseInterruptionCount) {
+                output.WriteRawTag(104);
+                output.WriteUInt32(FalseInterruptionCount);
+              }
+              if (HasFalseInterruptionUnrecoveredCount) {
+                output.WriteRawTag(112);
+                output.WriteUInt32(FalseInterruptionUnrecoveredCount);
+              }
+              if (HasAgentReportedE2ELatencyMs) {
+                output.WriteRawTag(120);
+                output.WriteUInt32(AgentReportedE2ELatencyMs);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int CalculateSize() {
+              int size = 0;
+              if (HasTurnTakingScore) {
+                size += 1 + 4;
+              }
+              if (HasResponseLatencyP50Ms) {
+                size += 1 + pb::CodedOutputStream.ComputeInt32Size(ResponseLatencyP50Ms);
+              }
+              if (HasResponseLatencyP95Ms) {
+                size += 1 + pb::CodedOutputStream.ComputeInt32Size(ResponseLatencyP95Ms);
+              }
+              if (HasResponseLatencyP99Ms) {
+                size += 1 + pb::CodedOutputStream.ComputeInt32Size(ResponseLatencyP99Ms);
+              }
+              if (HasAgentYieldLatencyMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(AgentYieldLatencyMs);
+              }
+              if (HasEotMispredictionCount) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(EotMispredictionCount);
+              }
+              if (HasOverlapRatio) {
+                size += 1 + 4;
+              }
+              if (HasOverlapSpeechMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(OverlapSpeechMs);
+              }
+              if (HasTotalSpeechMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TotalSpeechMs);
+              }
+              if (HasSilenceTotalMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(SilenceTotalMs);
+              }
+              if (HasAwkwardSilenceCount) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(AwkwardSilenceCount);
+              }
+              if (HasUnansweredPersonaTurns) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(UnansweredPersonaTurns);
+              }
+              if (HasFalseInterruptionCount) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(FalseInterruptionCount);
+              }
+              if (HasFalseInterruptionUnrecoveredCount) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(FalseInterruptionUnrecoveredCount);
+              }
+              if (HasAgentReportedE2ELatencyMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(AgentReportedE2ELatencyMs);
+              }
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(Conversation other) {
+              if (other == null) {
+                return;
+              }
+              if (other.HasTurnTakingScore) {
+                TurnTakingScore = other.TurnTakingScore;
+              }
+              if (other.HasResponseLatencyP50Ms) {
+                ResponseLatencyP50Ms = other.ResponseLatencyP50Ms;
+              }
+              if (other.HasResponseLatencyP95Ms) {
+                ResponseLatencyP95Ms = other.ResponseLatencyP95Ms;
+              }
+              if (other.HasResponseLatencyP99Ms) {
+                ResponseLatencyP99Ms = other.ResponseLatencyP99Ms;
+              }
+              if (other.HasAgentYieldLatencyMs) {
+                AgentYieldLatencyMs = other.AgentYieldLatencyMs;
+              }
+              if (other.HasEotMispredictionCount) {
+                EotMispredictionCount = other.EotMispredictionCount;
+              }
+              if (other.HasOverlapRatio) {
+                OverlapRatio = other.OverlapRatio;
+              }
+              if (other.HasOverlapSpeechMs) {
+                OverlapSpeechMs = other.OverlapSpeechMs;
+              }
+              if (other.HasTotalSpeechMs) {
+                TotalSpeechMs = other.TotalSpeechMs;
+              }
+              if (other.HasSilenceTotalMs) {
+                SilenceTotalMs = other.SilenceTotalMs;
+              }
+              if (other.HasAwkwardSilenceCount) {
+                AwkwardSilenceCount = other.AwkwardSilenceCount;
+              }
+              if (other.HasUnansweredPersonaTurns) {
+                UnansweredPersonaTurns = other.UnansweredPersonaTurns;
+              }
+              if (other.HasFalseInterruptionCount) {
+                FalseInterruptionCount = other.FalseInterruptionCount;
+              }
+              if (other.HasFalseInterruptionUnrecoveredCount) {
+                FalseInterruptionUnrecoveredCount = other.FalseInterruptionUnrecoveredCount;
+              }
+              if (other.HasAgentReportedE2ELatencyMs) {
+                AgentReportedE2ELatencyMs = other.AgentReportedE2ELatencyMs;
+              }
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                  case 13: {
+                    TurnTakingScore = input.ReadFloat();
+                    break;
+                  }
+                  case 16: {
+                    ResponseLatencyP50Ms = input.ReadInt32();
+                    break;
+                  }
+                  case 24: {
+                    ResponseLatencyP95Ms = input.ReadInt32();
+                    break;
+                  }
+                  case 32: {
+                    ResponseLatencyP99Ms = input.ReadInt32();
+                    break;
+                  }
+                  case 40: {
+                    AgentYieldLatencyMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 48: {
+                    EotMispredictionCount = input.ReadUInt32();
+                    break;
+                  }
+                  case 61: {
+                    OverlapRatio = input.ReadFloat();
+                    break;
+                  }
+                  case 64: {
+                    OverlapSpeechMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 72: {
+                    TotalSpeechMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 80: {
+                    SilenceTotalMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 88: {
+                    AwkwardSilenceCount = input.ReadUInt32();
+                    break;
+                  }
+                  case 96: {
+                    UnansweredPersonaTurns = input.ReadUInt32();
+                    break;
+                  }
+                  case 104: {
+                    FalseInterruptionCount = input.ReadUInt32();
+                    break;
+                  }
+                  case 112: {
+                    FalseInterruptionUnrecoveredCount = input.ReadUInt32();
+                    break;
+                  }
+                  case 120: {
+                    AgentReportedE2ELatencyMs = input.ReadUInt32();
+                    break;
+                  }
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                  case 13: {
+                    TurnTakingScore = input.ReadFloat();
+                    break;
+                  }
+                  case 16: {
+                    ResponseLatencyP50Ms = input.ReadInt32();
+                    break;
+                  }
+                  case 24: {
+                    ResponseLatencyP95Ms = input.ReadInt32();
+                    break;
+                  }
+                  case 32: {
+                    ResponseLatencyP99Ms = input.ReadInt32();
+                    break;
+                  }
+                  case 40: {
+                    AgentYieldLatencyMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 48: {
+                    EotMispredictionCount = input.ReadUInt32();
+                    break;
+                  }
+                  case 61: {
+                    OverlapRatio = input.ReadFloat();
+                    break;
+                  }
+                  case 64: {
+                    OverlapSpeechMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 72: {
+                    TotalSpeechMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 80: {
+                    SilenceTotalMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 88: {
+                    AwkwardSilenceCount = input.ReadUInt32();
+                    break;
+                  }
+                  case 96: {
+                    UnansweredPersonaTurns = input.ReadUInt32();
+                    break;
+                  }
+                  case 104: {
+                    FalseInterruptionCount = input.ReadUInt32();
+                    break;
+                  }
+                  case 112: {
+                    FalseInterruptionUnrecoveredCount = input.ReadUInt32();
+                    break;
+                  }
+                  case 120: {
+                    AgentReportedE2ELatencyMs = input.ReadUInt32();
+                    break;
+                  }
+                }
+              }
+            }
+            #endif
+
+          }
+
+          /// <summary>
+          /// Was the call spoiled by the simulator, not the agent? Diagnostic only —
+          /// never folded into the scores; run aggregation excludes flagged calls
+          /// from the two headline scores.
+          /// </summary>
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+          public sealed partial class Simulator : pb::IMessage<Simulator>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<Simulator> _parser = new pb::MessageParser<Simulator>(() => new Simulator());
+            private pb::UnknownFieldSet _unknownFields;
+            private int _hasBits0;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pb::MessageParser<Simulator> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Descriptor.NestedTypes[4]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Simulator() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Simulator(Simulator other) : this() {
+              _hasBits0 = other._hasBits0;
+              earlyTermination_ = other.earlyTermination_;
+              lateTermination_ = other.lateTermination_;
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Simulator Clone() {
+              return new Simulator(this);
+            }
+
+            /// <summary>Field number for the "early_termination" field.</summary>
+            public const int EarlyTerminationFieldNumber = 1;
+            private readonly static bool EarlyTerminationDefaultValue = false;
+
+            private bool earlyTermination_;
+            /// <summary>
+            /// simulator ended a still-progressing call
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool EarlyTermination {
+              get { if ((_hasBits0 & 1) != 0) { return earlyTermination_; } else { return EarlyTerminationDefaultValue; } }
+              set {
+                _hasBits0 |= 1;
+                earlyTermination_ = value;
+              }
+            }
+            /// <summary>Gets whether the "early_termination" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasEarlyTermination {
+              get { return (_hasBits0 & 1) != 0; }
+            }
+            /// <summary>Clears the value of the "early_termination" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearEarlyTermination() {
+              _hasBits0 &= ~1;
+            }
+
+            /// <summary>Field number for the "late_termination" field.</summary>
+            public const int LateTerminationFieldNumber = 2;
+            private readonly static bool LateTerminationDefaultValue = false;
+
+            private bool lateTermination_;
+            /// <summary>
+            /// simulator dragged on after the goal was met
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool LateTermination {
+              get { if ((_hasBits0 & 2) != 0) { return lateTermination_; } else { return LateTerminationDefaultValue; } }
+              set {
+                _hasBits0 |= 2;
+                lateTermination_ = value;
+              }
+            }
+            /// <summary>Gets whether the "late_termination" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasLateTermination {
+              get { return (_hasBits0 & 2) != 0; }
+            }
+            /// <summary>Clears the value of the "late_termination" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearLateTermination() {
+              _hasBits0 &= ~2;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override bool Equals(object other) {
+              return Equals(other as Simulator);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool Equals(Simulator other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              if (EarlyTermination != other.EarlyTermination) return false;
+              if (LateTermination != other.LateTermination) return false;
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (HasEarlyTermination) hash ^= EarlyTermination.GetHashCode();
+              if (HasLateTermination) hash ^= LateTermination.GetHashCode();
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (HasEarlyTermination) {
+                output.WriteRawTag(8);
+                output.WriteBool(EarlyTermination);
+              }
+              if (HasLateTermination) {
+                output.WriteRawTag(16);
+                output.WriteBool(LateTermination);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (HasEarlyTermination) {
+                output.WriteRawTag(8);
+                output.WriteBool(EarlyTermination);
+              }
+              if (HasLateTermination) {
+                output.WriteRawTag(16);
+                output.WriteBool(LateTermination);
+              }
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int CalculateSize() {
+              int size = 0;
+              if (HasEarlyTermination) {
+                size += 1 + 1;
+              }
+              if (HasLateTermination) {
+                size += 1 + 1;
+              }
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(Simulator other) {
+              if (other == null) {
+                return;
+              }
+              if (other.HasEarlyTermination) {
+                EarlyTermination = other.EarlyTermination;
+              }
+              if (other.HasLateTermination) {
+                LateTermination = other.LateTermination;
+              }
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                  case 8: {
+                    EarlyTermination = input.ReadBool();
+                    break;
+                  }
+                  case 16: {
+                    LateTermination = input.ReadBool();
+                    break;
+                  }
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                  case 8: {
+                    EarlyTermination = input.ReadBool();
+                    break;
+                  }
+                  case 16: {
+                    LateTermination = input.ReadBool();
+                    break;
+                  }
+                }
+              }
+            }
+            #endif
+
+          }
+
+          [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+          public sealed partial class Turn : pb::IMessage<Turn>
+          #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              , pb::IBufferMessage
+          #endif
+          {
+            private static readonly pb::MessageParser<Turn> _parser = new pb::MessageParser<Turn>(() => new Turn());
+            private pb::UnknownFieldSet _unknownFields;
+            private int _hasBits0;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pb::MessageParser<Turn> Parser { get { return _parser; } }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public static pbr::MessageDescriptor Descriptor {
+              get { return global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Descriptor.NestedTypes[5]; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            pbr::MessageDescriptor pb::IMessage.Descriptor {
+              get { return Descriptor; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Turn() {
+              OnConstruction();
+            }
+
+            partial void OnConstruction();
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Turn(Turn other) : this() {
+              _hasBits0 = other._hasBits0;
+              index_ = other.index_;
+              role_ = other.role_;
+              startMs_ = other.startMs_;
+              endMs_ = other.endMs_;
+              responseLatencyMs_ = other.responseLatencyMs_;
+              transcriptionDelayMs_ = other.transcriptionDelayMs_;
+              llmTtftMs_ = other.llmTtftMs_;
+              llmTtfsMs_ = other.llmTtfsMs_;
+              ttsTtfaMs_ = other.ttsTtfaMs_;
+              ttsTtfbMs_ = other.ttsTtfbMs_;
+              agentReportedE2ELatencyMs_ = other.agentReportedE2ELatencyMs_;
+              concisenessScore_ = other.concisenessScore_;
+              naturalnessScore_ = other.naturalnessScore_;
+              enunciationScore_ = other.enunciationScore_;
+              flags_ = other.flags_.Clone();
+              _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public Turn Clone() {
+              return new Turn(this);
+            }
+
+            /// <summary>Field number for the "index" field.</summary>
+            public const int IndexFieldNumber = 1;
+            private uint index_;
+            /// <summary>
+            /// 1-based, conversation order
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint Index {
+              get { return index_; }
+              set {
+                index_ = value;
+              }
+            }
+
+            /// <summary>Field number for the "role" field.</summary>
+            public const int RoleFieldNumber = 2;
+            private global::Livekit.Agent.ChatRole role_ = global::Livekit.Agent.ChatRole.Developer;
+            /// <summary>
+            /// ASSISTANT — the agent under test, USER — simulator persona.
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public global::Livekit.Agent.ChatRole Role {
+              get { return role_; }
+              set {
+                role_ = value;
+              }
+            }
+
+            /// <summary>Field number for the "start_ms" field.</summary>
+            public const int StartMsFieldNumber = 3;
+            private readonly static uint StartMsDefaultValue = 0;
+
+            private uint startMs_;
+            /// <summary>
+            /// relative to t0; unset if the turn could not be aligned to the audio
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint StartMs {
+              get { if ((_hasBits0 & 1) != 0) { return startMs_; } else { return StartMsDefaultValue; } }
+              set {
+                _hasBits0 |= 1;
+                startMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "start_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasStartMs {
+              get { return (_hasBits0 & 1) != 0; }
+            }
+            /// <summary>Clears the value of the "start_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearStartMs() {
+              _hasBits0 &= ~1;
+            }
+
+            /// <summary>Field number for the "end_ms" field.</summary>
+            public const int EndMsFieldNumber = 4;
+            private readonly static uint EndMsDefaultValue = 0;
+
+            private uint endMs_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint EndMs {
+              get { if ((_hasBits0 & 2) != 0) { return endMs_; } else { return EndMsDefaultValue; } }
+              set {
+                _hasBits0 |= 2;
+                endMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "end_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasEndMs {
+              get { return (_hasBits0 & 2) != 0; }
+            }
+            /// <summary>Clears the value of the "end_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearEndMs() {
+              _hasBits0 &= ~2;
+            }
+
+            /// <summary>Field number for the "response_latency_ms" field.</summary>
+            public const int ResponseLatencyMsFieldNumber = 5;
+            private readonly static int ResponseLatencyMsDefaultValue = 0;
+
+            private int responseLatencyMs_;
+            /// <summary>
+            /// Agent-turn measurements; a negative response latency is a cut-in (the
+            /// agent started before the caller's turn ended).
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int ResponseLatencyMs {
+              get { if ((_hasBits0 & 4) != 0) { return responseLatencyMs_; } else { return ResponseLatencyMsDefaultValue; } }
+              set {
+                _hasBits0 |= 4;
+                responseLatencyMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "response_latency_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasResponseLatencyMs {
+              get { return (_hasBits0 & 4) != 0; }
+            }
+            /// <summary>Clears the value of the "response_latency_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearResponseLatencyMs() {
+              _hasBits0 &= ~4;
+            }
+
+            /// <summary>Field number for the "transcription_delay_ms" field.</summary>
+            public const int TranscriptionDelayMsFieldNumber = 6;
+            private readonly static uint TranscriptionDelayMsDefaultValue = 0;
+
+            private uint transcriptionDelayMs_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TranscriptionDelayMs {
+              get { if ((_hasBits0 & 8) != 0) { return transcriptionDelayMs_; } else { return TranscriptionDelayMsDefaultValue; } }
+              set {
+                _hasBits0 |= 8;
+                transcriptionDelayMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "transcription_delay_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTranscriptionDelayMs {
+              get { return (_hasBits0 & 8) != 0; }
+            }
+            /// <summary>Clears the value of the "transcription_delay_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTranscriptionDelayMs() {
+              _hasBits0 &= ~8;
+            }
+
+            /// <summary>Field number for the "llm_ttft_ms" field.</summary>
+            public const int LlmTtftMsFieldNumber = 7;
+            private readonly static uint LlmTtftMsDefaultValue = 0;
+
+            private uint llmTtftMs_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint LlmTtftMs {
+              get { if ((_hasBits0 & 16) != 0) { return llmTtftMs_; } else { return LlmTtftMsDefaultValue; } }
+              set {
+                _hasBits0 |= 16;
+                llmTtftMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "llm_ttft_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasLlmTtftMs {
+              get { return (_hasBits0 & 16) != 0; }
+            }
+            /// <summary>Clears the value of the "llm_ttft_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearLlmTtftMs() {
+              _hasBits0 &= ~16;
+            }
+
+            /// <summary>Field number for the "llm_ttfs_ms" field.</summary>
+            public const int LlmTtfsMsFieldNumber = 8;
+            private readonly static uint LlmTtfsMsDefaultValue = 0;
+
+            private uint llmTtfsMs_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint LlmTtfsMs {
+              get { if ((_hasBits0 & 32) != 0) { return llmTtfsMs_; } else { return LlmTtfsMsDefaultValue; } }
+              set {
+                _hasBits0 |= 32;
+                llmTtfsMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "llm_ttfs_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasLlmTtfsMs {
+              get { return (_hasBits0 & 32) != 0; }
+            }
+            /// <summary>Clears the value of the "llm_ttfs_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearLlmTtfsMs() {
+              _hasBits0 &= ~32;
+            }
+
+            /// <summary>Field number for the "tts_ttfa_ms" field.</summary>
+            public const int TtsTtfaMsFieldNumber = 9;
+            private readonly static uint TtsTtfaMsDefaultValue = 0;
+
+            private uint ttsTtfaMs_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TtsTtfaMs {
+              get { if ((_hasBits0 & 64) != 0) { return ttsTtfaMs_; } else { return TtsTtfaMsDefaultValue; } }
+              set {
+                _hasBits0 |= 64;
+                ttsTtfaMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "tts_ttfa_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTtsTtfaMs {
+              get { return (_hasBits0 & 64) != 0; }
+            }
+            /// <summary>Clears the value of the "tts_ttfa_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTtsTtfaMs() {
+              _hasBits0 &= ~64;
+            }
+
+            /// <summary>Field number for the "tts_ttfb_ms" field.</summary>
+            public const int TtsTtfbMsFieldNumber = 10;
+            private readonly static uint TtsTtfbMsDefaultValue = 0;
+
+            private uint ttsTtfbMs_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint TtsTtfbMs {
+              get { if ((_hasBits0 & 128) != 0) { return ttsTtfbMs_; } else { return TtsTtfbMsDefaultValue; } }
+              set {
+                _hasBits0 |= 128;
+                ttsTtfbMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "tts_ttfb_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasTtsTtfbMs {
+              get { return (_hasBits0 & 128) != 0; }
+            }
+            /// <summary>Clears the value of the "tts_ttfb_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearTtsTtfbMs() {
+              _hasBits0 &= ~128;
+            }
+
+            /// <summary>Field number for the "agent_reported_e2e_latency_ms" field.</summary>
+            public const int AgentReportedE2ELatencyMsFieldNumber = 11;
+            private readonly static uint AgentReportedE2ELatencyMsDefaultValue = 0;
+
+            private uint agentReportedE2ELatencyMs_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint AgentReportedE2ELatencyMs {
+              get { if ((_hasBits0 & 256) != 0) { return agentReportedE2ELatencyMs_; } else { return AgentReportedE2ELatencyMsDefaultValue; } }
+              set {
+                _hasBits0 |= 256;
+                agentReportedE2ELatencyMs_ = value;
+              }
+            }
+            /// <summary>Gets whether the "agent_reported_e2e_latency_ms" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasAgentReportedE2ELatencyMs {
+              get { return (_hasBits0 & 256) != 0; }
+            }
+            /// <summary>Clears the value of the "agent_reported_e2e_latency_ms" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearAgentReportedE2ELatencyMs() {
+              _hasBits0 &= ~256;
+            }
+
+            /// <summary>Field number for the "conciseness_score" field.</summary>
+            public const int ConcisenessScoreFieldNumber = 12;
+            private readonly static float ConcisenessScoreDefaultValue = 0F;
+
+            private float concisenessScore_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float ConcisenessScore {
+              get { if ((_hasBits0 & 512) != 0) { return concisenessScore_; } else { return ConcisenessScoreDefaultValue; } }
+              set {
+                _hasBits0 |= 512;
+                concisenessScore_ = value;
+              }
+            }
+            /// <summary>Gets whether the "conciseness_score" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasConcisenessScore {
+              get { return (_hasBits0 & 512) != 0; }
+            }
+            /// <summary>Clears the value of the "conciseness_score" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearConcisenessScore() {
+              _hasBits0 &= ~512;
+            }
+
+            /// <summary>Field number for the "naturalness_score" field.</summary>
+            public const int NaturalnessScoreFieldNumber = 13;
+            private readonly static float NaturalnessScoreDefaultValue = 0F;
+
+            private float naturalnessScore_;
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float NaturalnessScore {
+              get { if ((_hasBits0 & 1024) != 0) { return naturalnessScore_; } else { return NaturalnessScoreDefaultValue; } }
+              set {
+                _hasBits0 |= 1024;
+                naturalnessScore_ = value;
+              }
+            }
+            /// <summary>Gets whether the "naturalness_score" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasNaturalnessScore {
+              get { return (_hasBits0 & 1024) != 0; }
+            }
+            /// <summary>Clears the value of the "naturalness_score" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearNaturalnessScore() {
+              _hasBits0 &= ~1024;
+            }
+
+            /// <summary>Field number for the "enunciation_score" field.</summary>
+            public const int EnunciationScoreFieldNumber = 14;
+            private readonly static float EnunciationScoreDefaultValue = 0F;
+
+            private float enunciationScore_;
+            /// <summary>
+            /// judged 0-1: this turn's key entities audibly intact
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public float EnunciationScore {
+              get { if ((_hasBits0 & 2048) != 0) { return enunciationScore_; } else { return EnunciationScoreDefaultValue; } }
+              set {
+                _hasBits0 |= 2048;
+                enunciationScore_ = value;
+              }
+            }
+            /// <summary>Gets whether the "enunciation_score" field is set</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool HasEnunciationScore {
+              get { return (_hasBits0 & 2048) != 0; }
+            }
+            /// <summary>Clears the value of the "enunciation_score" field</summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void ClearEnunciationScore() {
+              _hasBits0 &= ~2048;
+            }
+
+            /// <summary>Field number for the "flags" field.</summary>
+            public const int FlagsFieldNumber = 15;
+            private static readonly pb::FieldCodec<string> _repeated_flags_codec
+                = pb::FieldCodec.ForString(122);
+            private readonly pbc::RepeatedField<string> flags_ = new pbc::RepeatedField<string>();
+            /// <summary>
+            /// judge failure tags ("verbosity_or_filler", ...)
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public pbc::RepeatedField<string> Flags {
+              get { return flags_; }
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override bool Equals(object other) {
+              return Equals(other as Turn);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public bool Equals(Turn other) {
+              if (ReferenceEquals(other, null)) {
+                return false;
+              }
+              if (ReferenceEquals(other, this)) {
+                return true;
+              }
+              if (Index != other.Index) return false;
+              if (Role != other.Role) return false;
+              if (StartMs != other.StartMs) return false;
+              if (EndMs != other.EndMs) return false;
+              if (ResponseLatencyMs != other.ResponseLatencyMs) return false;
+              if (TranscriptionDelayMs != other.TranscriptionDelayMs) return false;
+              if (LlmTtftMs != other.LlmTtftMs) return false;
+              if (LlmTtfsMs != other.LlmTtfsMs) return false;
+              if (TtsTtfaMs != other.TtsTtfaMs) return false;
+              if (TtsTtfbMs != other.TtsTtfbMs) return false;
+              if (AgentReportedE2ELatencyMs != other.AgentReportedE2ELatencyMs) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ConcisenessScore, other.ConcisenessScore)) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(NaturalnessScore, other.NaturalnessScore)) return false;
+              if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(EnunciationScore, other.EnunciationScore)) return false;
+              if(!flags_.Equals(other.flags_)) return false;
+              return Equals(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override int GetHashCode() {
+              int hash = 1;
+              if (Index != 0) hash ^= Index.GetHashCode();
+              if (Role != global::Livekit.Agent.ChatRole.Developer) hash ^= Role.GetHashCode();
+              if (HasStartMs) hash ^= StartMs.GetHashCode();
+              if (HasEndMs) hash ^= EndMs.GetHashCode();
+              if (HasResponseLatencyMs) hash ^= ResponseLatencyMs.GetHashCode();
+              if (HasTranscriptionDelayMs) hash ^= TranscriptionDelayMs.GetHashCode();
+              if (HasLlmTtftMs) hash ^= LlmTtftMs.GetHashCode();
+              if (HasLlmTtfsMs) hash ^= LlmTtfsMs.GetHashCode();
+              if (HasTtsTtfaMs) hash ^= TtsTtfaMs.GetHashCode();
+              if (HasTtsTtfbMs) hash ^= TtsTtfbMs.GetHashCode();
+              if (HasAgentReportedE2ELatencyMs) hash ^= AgentReportedE2ELatencyMs.GetHashCode();
+              if (HasConcisenessScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ConcisenessScore);
+              if (HasNaturalnessScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(NaturalnessScore);
+              if (HasEnunciationScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(EnunciationScore);
+              hash ^= flags_.GetHashCode();
+              if (_unknownFields != null) {
+                hash ^= _unknownFields.GetHashCode();
+              }
+              return hash;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public override string ToString() {
+              return pb::JsonFormatter.ToDiagnosticString(this);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void WriteTo(pb::CodedOutputStream output) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              output.WriteRawMessage(this);
+            #else
+              if (Index != 0) {
+                output.WriteRawTag(8);
+                output.WriteUInt32(Index);
+              }
+              if (Role != global::Livekit.Agent.ChatRole.Developer) {
+                output.WriteRawTag(16);
+                output.WriteEnum((int) Role);
+              }
+              if (HasStartMs) {
+                output.WriteRawTag(24);
+                output.WriteUInt32(StartMs);
+              }
+              if (HasEndMs) {
+                output.WriteRawTag(32);
+                output.WriteUInt32(EndMs);
+              }
+              if (HasResponseLatencyMs) {
+                output.WriteRawTag(40);
+                output.WriteInt32(ResponseLatencyMs);
+              }
+              if (HasTranscriptionDelayMs) {
+                output.WriteRawTag(48);
+                output.WriteUInt32(TranscriptionDelayMs);
+              }
+              if (HasLlmTtftMs) {
+                output.WriteRawTag(56);
+                output.WriteUInt32(LlmTtftMs);
+              }
+              if (HasLlmTtfsMs) {
+                output.WriteRawTag(64);
+                output.WriteUInt32(LlmTtfsMs);
+              }
+              if (HasTtsTtfaMs) {
+                output.WriteRawTag(72);
+                output.WriteUInt32(TtsTtfaMs);
+              }
+              if (HasTtsTtfbMs) {
+                output.WriteRawTag(80);
+                output.WriteUInt32(TtsTtfbMs);
+              }
+              if (HasAgentReportedE2ELatencyMs) {
+                output.WriteRawTag(88);
+                output.WriteUInt32(AgentReportedE2ELatencyMs);
+              }
+              if (HasConcisenessScore) {
+                output.WriteRawTag(101);
+                output.WriteFloat(ConcisenessScore);
+              }
+              if (HasNaturalnessScore) {
+                output.WriteRawTag(109);
+                output.WriteFloat(NaturalnessScore);
+              }
+              if (HasEnunciationScore) {
+                output.WriteRawTag(117);
+                output.WriteFloat(EnunciationScore);
+              }
+              flags_.WriteTo(output, _repeated_flags_codec);
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(output);
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+              if (Index != 0) {
+                output.WriteRawTag(8);
+                output.WriteUInt32(Index);
+              }
+              if (Role != global::Livekit.Agent.ChatRole.Developer) {
+                output.WriteRawTag(16);
+                output.WriteEnum((int) Role);
+              }
+              if (HasStartMs) {
+                output.WriteRawTag(24);
+                output.WriteUInt32(StartMs);
+              }
+              if (HasEndMs) {
+                output.WriteRawTag(32);
+                output.WriteUInt32(EndMs);
+              }
+              if (HasResponseLatencyMs) {
+                output.WriteRawTag(40);
+                output.WriteInt32(ResponseLatencyMs);
+              }
+              if (HasTranscriptionDelayMs) {
+                output.WriteRawTag(48);
+                output.WriteUInt32(TranscriptionDelayMs);
+              }
+              if (HasLlmTtftMs) {
+                output.WriteRawTag(56);
+                output.WriteUInt32(LlmTtftMs);
+              }
+              if (HasLlmTtfsMs) {
+                output.WriteRawTag(64);
+                output.WriteUInt32(LlmTtfsMs);
+              }
+              if (HasTtsTtfaMs) {
+                output.WriteRawTag(72);
+                output.WriteUInt32(TtsTtfaMs);
+              }
+              if (HasTtsTtfbMs) {
+                output.WriteRawTag(80);
+                output.WriteUInt32(TtsTtfbMs);
+              }
+              if (HasAgentReportedE2ELatencyMs) {
+                output.WriteRawTag(88);
+                output.WriteUInt32(AgentReportedE2ELatencyMs);
+              }
+              if (HasConcisenessScore) {
+                output.WriteRawTag(101);
+                output.WriteFloat(ConcisenessScore);
+              }
+              if (HasNaturalnessScore) {
+                output.WriteRawTag(109);
+                output.WriteFloat(NaturalnessScore);
+              }
+              if (HasEnunciationScore) {
+                output.WriteRawTag(117);
+                output.WriteFloat(EnunciationScore);
+              }
+              flags_.WriteTo(ref output, _repeated_flags_codec);
+              if (_unknownFields != null) {
+                _unknownFields.WriteTo(ref output);
+              }
+            }
+            #endif
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public int CalculateSize() {
+              int size = 0;
+              if (Index != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Index);
+              }
+              if (Role != global::Livekit.Agent.ChatRole.Developer) {
+                size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Role);
+              }
+              if (HasStartMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(StartMs);
+              }
+              if (HasEndMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(EndMs);
+              }
+              if (HasResponseLatencyMs) {
+                size += 1 + pb::CodedOutputStream.ComputeInt32Size(ResponseLatencyMs);
+              }
+              if (HasTranscriptionDelayMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TranscriptionDelayMs);
+              }
+              if (HasLlmTtftMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(LlmTtftMs);
+              }
+              if (HasLlmTtfsMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(LlmTtfsMs);
+              }
+              if (HasTtsTtfaMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TtsTtfaMs);
+              }
+              if (HasTtsTtfbMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TtsTtfbMs);
+              }
+              if (HasAgentReportedE2ELatencyMs) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(AgentReportedE2ELatencyMs);
+              }
+              if (HasConcisenessScore) {
+                size += 1 + 4;
+              }
+              if (HasNaturalnessScore) {
+                size += 1 + 4;
+              }
+              if (HasEnunciationScore) {
+                size += 1 + 4;
+              }
+              size += flags_.CalculateSize(_repeated_flags_codec);
+              if (_unknownFields != null) {
+                size += _unknownFields.CalculateSize();
+              }
+              return size;
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(Turn other) {
+              if (other == null) {
+                return;
+              }
+              if (other.Index != 0) {
+                Index = other.Index;
+              }
+              if (other.Role != global::Livekit.Agent.ChatRole.Developer) {
+                Role = other.Role;
+              }
+              if (other.HasStartMs) {
+                StartMs = other.StartMs;
+              }
+              if (other.HasEndMs) {
+                EndMs = other.EndMs;
+              }
+              if (other.HasResponseLatencyMs) {
+                ResponseLatencyMs = other.ResponseLatencyMs;
+              }
+              if (other.HasTranscriptionDelayMs) {
+                TranscriptionDelayMs = other.TranscriptionDelayMs;
+              }
+              if (other.HasLlmTtftMs) {
+                LlmTtftMs = other.LlmTtftMs;
+              }
+              if (other.HasLlmTtfsMs) {
+                LlmTtfsMs = other.LlmTtfsMs;
+              }
+              if (other.HasTtsTtfaMs) {
+                TtsTtfaMs = other.TtsTtfaMs;
+              }
+              if (other.HasTtsTtfbMs) {
+                TtsTtfbMs = other.TtsTtfbMs;
+              }
+              if (other.HasAgentReportedE2ELatencyMs) {
+                AgentReportedE2ELatencyMs = other.AgentReportedE2ELatencyMs;
+              }
+              if (other.HasConcisenessScore) {
+                ConcisenessScore = other.ConcisenessScore;
+              }
+              if (other.HasNaturalnessScore) {
+                NaturalnessScore = other.NaturalnessScore;
+              }
+              if (other.HasEnunciationScore) {
+                EnunciationScore = other.EnunciationScore;
+              }
+              flags_.Add(other.flags_);
+              _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+            }
+
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public void MergeFrom(pb::CodedInputStream input) {
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+              input.ReadRawMessage(this);
+            #else
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                    break;
+                  case 8: {
+                    Index = input.ReadUInt32();
+                    break;
+                  }
+                  case 16: {
+                    Role = (global::Livekit.Agent.ChatRole) input.ReadEnum();
+                    break;
+                  }
+                  case 24: {
+                    StartMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 32: {
+                    EndMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 40: {
+                    ResponseLatencyMs = input.ReadInt32();
+                    break;
+                  }
+                  case 48: {
+                    TranscriptionDelayMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 56: {
+                    LlmTtftMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 64: {
+                    LlmTtfsMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 72: {
+                    TtsTtfaMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 80: {
+                    TtsTtfbMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 88: {
+                    AgentReportedE2ELatencyMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 101: {
+                    ConcisenessScore = input.ReadFloat();
+                    break;
+                  }
+                  case 109: {
+                    NaturalnessScore = input.ReadFloat();
+                    break;
+                  }
+                  case 117: {
+                    EnunciationScore = input.ReadFloat();
+                    break;
+                  }
+                  case 122: {
+                    flags_.AddEntriesFrom(input, _repeated_flags_codec);
+                    break;
+                  }
+                }
+              }
+            #endif
+            }
+
+            #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+              uint tag;
+              while ((tag = input.ReadTag()) != 0) {
+              if ((tag & 7) == 4) {
+                // Abort on any end group tag.
+                return;
+              }
+              switch(tag) {
+                  default:
+                    _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                    break;
+                  case 8: {
+                    Index = input.ReadUInt32();
+                    break;
+                  }
+                  case 16: {
+                    Role = (global::Livekit.Agent.ChatRole) input.ReadEnum();
+                    break;
+                  }
+                  case 24: {
+                    StartMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 32: {
+                    EndMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 40: {
+                    ResponseLatencyMs = input.ReadInt32();
+                    break;
+                  }
+                  case 48: {
+                    TranscriptionDelayMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 56: {
+                    LlmTtftMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 64: {
+                    LlmTtfsMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 72: {
+                    TtsTtfaMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 80: {
+                    TtsTtfbMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 88: {
+                    AgentReportedE2ELatencyMs = input.ReadUInt32();
+                    break;
+                  }
+                  case 101: {
+                    ConcisenessScore = input.ReadFloat();
+                    break;
+                  }
+                  case 109: {
+                    NaturalnessScore = input.ReadFloat();
+                    break;
+                  }
+                  case 117: {
+                    EnunciationScore = input.ReadFloat();
+                    break;
+                  }
+                  case 122: {
+                    flags_.AddEntriesFrom(ref input, _repeated_flags_codec);
+                    break;
+                  }
+                }
+              }
+            }
+            #endif
+
+          }
+
+        }
+        #endregion
+
+      }
+
+      /// <summary>
+      /// Aggregates over this run's jobs. Reuses the JobMetrics group shapes.
+      /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class RunMetrics : pb::IMessage<RunMetrics>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<RunMetrics> _parser = new pb::MessageParser<RunMetrics>(() => new RunMetrics());
+        private pb::UnknownFieldSet _unknownFields;
+        private int _hasBits0;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<RunMetrics> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[2]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public RunMetrics() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public RunMetrics(RunMetrics other) : this() {
+          _hasBits0 = other._hasBits0;
+          accuracyScore_ = other.accuracyScore_;
+          experienceScore_ = other.experienceScore_;
+          scenarioPassRate_ = other.scenarioPassRate_;
+          stt_ = other.stt_ != null ? other.stt_.Clone() : null;
+          llm_ = other.llm_ != null ? other.llm_.Clone() : null;
+          tts_ = other.tts_ != null ? other.tts_.Clone() : null;
+          conversation_ = other.conversation_ != null ? other.conversation_.Clone() : null;
+          jobsTotal_ = other.jobsTotal_;
+          jobsFailed_ = other.jobsFailed_;
+          jobsSimulatorFault_ = other.jobsSimulatorFault_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public RunMetrics Clone() {
+          return new RunMetrics(this);
+        }
+
+        /// <summary>Field number for the "accuracy_score" field.</summary>
+        public const int AccuracyScoreFieldNumber = 1;
+        private readonly static float AccuracyScoreDefaultValue = 0F;
+
+        private float accuracyScore_;
+        /// <summary>
+        /// mean over scored jobs
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public float AccuracyScore {
+          get { if ((_hasBits0 & 1) != 0) { return accuracyScore_; } else { return AccuracyScoreDefaultValue; } }
+          set {
+            _hasBits0 |= 1;
+            accuracyScore_ = value;
+          }
+        }
+        /// <summary>Gets whether the "accuracy_score" field is set</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasAccuracyScore {
+          get { return (_hasBits0 & 1) != 0; }
+        }
+        /// <summary>Clears the value of the "accuracy_score" field</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearAccuracyScore() {
+          _hasBits0 &= ~1;
+        }
+
+        /// <summary>Field number for the "experience_score" field.</summary>
+        public const int ExperienceScoreFieldNumber = 2;
+        private readonly static float ExperienceScoreDefaultValue = 0F;
+
+        private float experienceScore_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public float ExperienceScore {
+          get { if ((_hasBits0 & 2) != 0) { return experienceScore_; } else { return ExperienceScoreDefaultValue; } }
+          set {
+            _hasBits0 |= 2;
+            experienceScore_ = value;
+          }
+        }
+        /// <summary>Gets whether the "experience_score" field is set</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasExperienceScore {
+          get { return (_hasBits0 & 2) != 0; }
+        }
+        /// <summary>Clears the value of the "experience_score" field</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearExperienceScore() {
+          _hasBits0 &= ~2;
+        }
+
+        /// <summary>Field number for the "scenario_pass_rate" field.</summary>
+        public const int ScenarioPassRateFieldNumber = 3;
+        private readonly static float ScenarioPassRateDefaultValue = 0F;
+
+        private float scenarioPassRate_;
+        /// <summary>
+        /// share of jobs whose scenario verdict passed
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public float ScenarioPassRate {
+          get { if ((_hasBits0 & 4) != 0) { return scenarioPassRate_; } else { return ScenarioPassRateDefaultValue; } }
+          set {
+            _hasBits0 |= 4;
+            scenarioPassRate_ = value;
+          }
+        }
+        /// <summary>Gets whether the "scenario_pass_rate" field is set</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool HasScenarioPassRate {
+          get { return (_hasBits0 & 4) != 0; }
+        }
+        /// <summary>Clears the value of the "scenario_pass_rate" field</summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void ClearScenarioPassRate() {
+          _hasBits0 &= ~4;
+        }
+
+        /// <summary>Field number for the "stt" field.</summary>
+        public const int SttFieldNumber = 4;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT stt_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT Stt {
+          get { return stt_; }
+          set {
+            stt_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "llm" field.</summary>
+        public const int LlmFieldNumber = 5;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM llm_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM Llm {
+          get { return llm_; }
+          set {
+            llm_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "tts" field.</summary>
+        public const int TtsFieldNumber = 6;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS tts_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS Tts {
+          get { return tts_; }
+          set {
+            tts_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "conversation" field.</summary>
+        public const int ConversationFieldNumber = 7;
+        private global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation conversation_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation Conversation {
+          get { return conversation_; }
+          set {
+            conversation_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "jobs_total" field.</summary>
+        public const int JobsTotalFieldNumber = 9;
+        private uint jobsTotal_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public uint JobsTotal {
+          get { return jobsTotal_; }
+          set {
+            jobsTotal_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "jobs_failed" field.</summary>
+        public const int JobsFailedFieldNumber = 10;
+        private uint jobsFailed_;
+        /// <summary>
+        /// infra failures, excluded from aggregates
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public uint JobsFailed {
+          get { return jobsFailed_; }
+          set {
+            jobsFailed_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "jobs_simulator_fault" field.</summary>
+        public const int JobsSimulatorFaultFieldNumber = 11;
+        private uint jobsSimulatorFault_;
+        /// <summary>
+        /// spoiled by the simulator: flagged, not scored
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public uint JobsSimulatorFault {
+          get { return jobsSimulatorFault_; }
+          set {
+            jobsSimulatorFault_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as RunMetrics);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(RunMetrics other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(AccuracyScore, other.AccuracyScore)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ExperienceScore, other.ExperienceScore)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ScenarioPassRate, other.ScenarioPassRate)) return false;
+          if (!object.Equals(Stt, other.Stt)) return false;
+          if (!object.Equals(Llm, other.Llm)) return false;
+          if (!object.Equals(Tts, other.Tts)) return false;
+          if (!object.Equals(Conversation, other.Conversation)) return false;
+          if (JobsTotal != other.JobsTotal) return false;
+          if (JobsFailed != other.JobsFailed) return false;
+          if (JobsSimulatorFault != other.JobsSimulatorFault) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (HasAccuracyScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(AccuracyScore);
+          if (HasExperienceScore) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ExperienceScore);
+          if (HasScenarioPassRate) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ScenarioPassRate);
+          if (stt_ != null) hash ^= Stt.GetHashCode();
+          if (llm_ != null) hash ^= Llm.GetHashCode();
+          if (tts_ != null) hash ^= Tts.GetHashCode();
+          if (conversation_ != null) hash ^= Conversation.GetHashCode();
+          if (JobsTotal != 0) hash ^= JobsTotal.GetHashCode();
+          if (JobsFailed != 0) hash ^= JobsFailed.GetHashCode();
+          if (JobsSimulatorFault != 0) hash ^= JobsSimulatorFault.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (HasAccuracyScore) {
+            output.WriteRawTag(13);
+            output.WriteFloat(AccuracyScore);
+          }
+          if (HasExperienceScore) {
+            output.WriteRawTag(21);
+            output.WriteFloat(ExperienceScore);
+          }
+          if (HasScenarioPassRate) {
+            output.WriteRawTag(29);
+            output.WriteFloat(ScenarioPassRate);
+          }
+          if (stt_ != null) {
+            output.WriteRawTag(34);
+            output.WriteMessage(Stt);
+          }
+          if (llm_ != null) {
+            output.WriteRawTag(42);
+            output.WriteMessage(Llm);
+          }
+          if (tts_ != null) {
+            output.WriteRawTag(50);
+            output.WriteMessage(Tts);
+          }
+          if (conversation_ != null) {
+            output.WriteRawTag(58);
+            output.WriteMessage(Conversation);
+          }
+          if (JobsTotal != 0) {
+            output.WriteRawTag(72);
+            output.WriteUInt32(JobsTotal);
+          }
+          if (JobsFailed != 0) {
+            output.WriteRawTag(80);
+            output.WriteUInt32(JobsFailed);
+          }
+          if (JobsSimulatorFault != 0) {
+            output.WriteRawTag(88);
+            output.WriteUInt32(JobsSimulatorFault);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (HasAccuracyScore) {
+            output.WriteRawTag(13);
+            output.WriteFloat(AccuracyScore);
+          }
+          if (HasExperienceScore) {
+            output.WriteRawTag(21);
+            output.WriteFloat(ExperienceScore);
+          }
+          if (HasScenarioPassRate) {
+            output.WriteRawTag(29);
+            output.WriteFloat(ScenarioPassRate);
+          }
+          if (stt_ != null) {
+            output.WriteRawTag(34);
+            output.WriteMessage(Stt);
+          }
+          if (llm_ != null) {
+            output.WriteRawTag(42);
+            output.WriteMessage(Llm);
+          }
+          if (tts_ != null) {
+            output.WriteRawTag(50);
+            output.WriteMessage(Tts);
+          }
+          if (conversation_ != null) {
+            output.WriteRawTag(58);
+            output.WriteMessage(Conversation);
+          }
+          if (JobsTotal != 0) {
+            output.WriteRawTag(72);
+            output.WriteUInt32(JobsTotal);
+          }
+          if (JobsFailed != 0) {
+            output.WriteRawTag(80);
+            output.WriteUInt32(JobsFailed);
+          }
+          if (JobsSimulatorFault != 0) {
+            output.WriteRawTag(88);
+            output.WriteUInt32(JobsSimulatorFault);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (HasAccuracyScore) {
+            size += 1 + 4;
+          }
+          if (HasExperienceScore) {
+            size += 1 + 4;
+          }
+          if (HasScenarioPassRate) {
+            size += 1 + 4;
+          }
+          if (stt_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Stt);
+          }
+          if (llm_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Llm);
+          }
+          if (tts_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Tts);
+          }
+          if (conversation_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Conversation);
+          }
+          if (JobsTotal != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(JobsTotal);
+          }
+          if (JobsFailed != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(JobsFailed);
+          }
+          if (JobsSimulatorFault != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(JobsSimulatorFault);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(RunMetrics other) {
+          if (other == null) {
+            return;
+          }
+          if (other.HasAccuracyScore) {
+            AccuracyScore = other.AccuracyScore;
+          }
+          if (other.HasExperienceScore) {
+            ExperienceScore = other.ExperienceScore;
+          }
+          if (other.HasScenarioPassRate) {
+            ScenarioPassRate = other.ScenarioPassRate;
+          }
+          if (other.stt_ != null) {
+            if (stt_ == null) {
+              Stt = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT();
+            }
+            Stt.MergeFrom(other.Stt);
+          }
+          if (other.llm_ != null) {
+            if (llm_ == null) {
+              Llm = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM();
+            }
+            Llm.MergeFrom(other.Llm);
+          }
+          if (other.tts_ != null) {
+            if (tts_ == null) {
+              Tts = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS();
+            }
+            Tts.MergeFrom(other.Tts);
+          }
+          if (other.conversation_ != null) {
+            if (conversation_ == null) {
+              Conversation = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation();
+            }
+            Conversation.MergeFrom(other.Conversation);
+          }
+          if (other.JobsTotal != 0) {
+            JobsTotal = other.JobsTotal;
+          }
+          if (other.JobsFailed != 0) {
+            JobsFailed = other.JobsFailed;
+          }
+          if (other.JobsSimulatorFault != 0) {
+            JobsSimulatorFault = other.JobsSimulatorFault;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 13: {
+                AccuracyScore = input.ReadFloat();
+                break;
+              }
+              case 21: {
+                ExperienceScore = input.ReadFloat();
+                break;
+              }
+              case 29: {
+                ScenarioPassRate = input.ReadFloat();
+                break;
+              }
+              case 34: {
+                if (stt_ == null) {
+                  Stt = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT();
+                }
+                input.ReadMessage(Stt);
+                break;
+              }
+              case 42: {
+                if (llm_ == null) {
+                  Llm = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM();
+                }
+                input.ReadMessage(Llm);
+                break;
+              }
+              case 50: {
+                if (tts_ == null) {
+                  Tts = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS();
+                }
+                input.ReadMessage(Tts);
+                break;
+              }
+              case 58: {
+                if (conversation_ == null) {
+                  Conversation = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation();
+                }
+                input.ReadMessage(Conversation);
+                break;
+              }
+              case 72: {
+                JobsTotal = input.ReadUInt32();
+                break;
+              }
+              case 80: {
+                JobsFailed = input.ReadUInt32();
+                break;
+              }
+              case 88: {
+                JobsSimulatorFault = input.ReadUInt32();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 13: {
+                AccuracyScore = input.ReadFloat();
+                break;
+              }
+              case 21: {
+                ExperienceScore = input.ReadFloat();
+                break;
+              }
+              case 29: {
+                ScenarioPassRate = input.ReadFloat();
+                break;
+              }
+              case 34: {
+                if (stt_ == null) {
+                  Stt = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.STT();
+                }
+                input.ReadMessage(Stt);
+                break;
+              }
+              case 42: {
+                if (llm_ == null) {
+                  Llm = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.LLM();
+                }
+                input.ReadMessage(Llm);
+                break;
+              }
+              case 50: {
+                if (tts_ == null) {
+                  Tts = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.TTS();
+                }
+                input.ReadMessage(Tts);
+                break;
+              }
+              case 58: {
+                if (conversation_ == null) {
+                  Conversation = new global::LiveKit.Proto.SimulationRun.Types.JobMetrics.Types.Conversation();
+                }
+                input.ReadMessage(Conversation);
+                break;
+              }
+              case 72: {
+                JobsTotal = input.ReadUInt32();
+                break;
+              }
+              case 80: {
+                JobsFailed = input.ReadUInt32();
+                break;
+              }
+              case 88: {
+                JobsSimulatorFault = input.ReadUInt32();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class Create : pb::IMessage<Create>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -2574,7 +7796,7 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[1]; }
+          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[3]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3444,7 +8666,7 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[2]; }
+          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[4]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4046,7 +9268,7 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[3]; }
+          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[5]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4657,7 +9879,7 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[4]; }
+          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[6]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5357,7 +10579,7 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[5]; }
+          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[7]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5922,7 +11144,7 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[6]; }
+          get { return global::LiveKit.Proto.SimulationRun.Descriptor.NestedTypes[8]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
