@@ -1,4 +1,5 @@
 using System;
+using System.Text.RegularExpressions;
 using LiveKit.Services;
 using LiveKit.Authentication;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,7 +19,7 @@ public static class ServiceCollectionExtensions
     /// <summary>
     /// Adds LiveKit services to the specified <see cref="IServiceCollection"/>.
     /// <para>
-    /// Configures HTTP clients for all LiveKit services including Room, Egress, Ingress, SIP, Phone Number, Agent Dispatch, and Cloud Agent services.
+    /// Configures HTTP clients for all LiveKit services including Room, Egress, Ingress, SIP, Phone Number, Agent Dispatch, Cloud Agent, Connector, Agent Simulation, and Agent Database services.
     /// </para>
     /// </summary>
     /// <param name="services">The service collection to add services to.</param>
@@ -47,21 +48,49 @@ public static class ServiceCollectionExtensions
         RegisterHttpClient<ILiveKitSipService, LiveKitSipService>(services);
         RegisterHttpClient<ILiveKitPhoneNumberService, LiveKitPhoneNumberService>(services);
         RegisterHttpClient<ILiveKitAgentDispatchService, LiveKitAgentDispatchService>(services);
-        RegisterHttpClient<ILiveKitCloudAgentService, LiveKitCloudAgentService>(services);
+        RegisterHttpClient<ILiveKitCloudAgentService, LiveKitCloudAgentService>(services, useAgentsUrl: true);
         RegisterHttpClient<ILiveKitConnectorService, LiveKitConnectorService>(services);
         RegisterHttpClient<ILiveKitAgentSimulationService, LiveKitAgentSimulationService>(services);
+        RegisterHttpClient<ILiveKitAgentDBService, LiveKitAgentDBService>(services);
 
         return services;
     }
 
-    private static void RegisterHttpClient<TService, TImpl>(IServiceCollection services)
+    private static void RegisterHttpClient<TService, TImpl>(IServiceCollection services, bool useAgentsUrl = false)
         where TService : class
         where TImpl : class, TService
     {
         services.AddHttpClient<TService, TImpl>((sp, client) =>
         {
             var options = sp.GetRequiredService<IOptions<LiveKitOptions>>().Value;
-            client.BaseAddress = new Uri(options.BaseUrl);
+            client.BaseAddress = new Uri(ToHttpUrl(useAgentsUrl ? GetAgentsUrl(options) : options.BaseUrl));
         });
+    }
+
+    // Twirp runs over HTTP, and only some HTTP handlers accept ws/wss URLs, so convert them to http/https.
+    private static string ToHttpUrl(string url)
+    {
+        if (url.StartsWith("wss://", StringComparison.OrdinalIgnoreCase))
+        {
+            return "https://" + url.Substring("wss://".Length);
+        }
+
+        if (url.StartsWith("ws://", StringComparison.OrdinalIgnoreCase))
+        {
+            return "http://" + url.Substring("ws://".Length);
+        }
+
+        return url;
+    }
+
+    // Cloud Agent is served from its own host. Derived the same way as the official LiveKit SDKs.
+    private static string GetAgentsUrl(LiveKitOptions options)
+    {
+        if (!string.IsNullOrWhiteSpace(options.AgentsUrl))
+        {
+            return options.AgentsUrl!;
+        }
+
+        return Regex.Replace(ToHttpUrl(options.BaseUrl), @"^https?://[^.]+\.", "https://agents.", RegexOptions.IgnoreCase);
     }
 }

@@ -43,6 +43,11 @@ public static class LiveKitClaims
     public const string Sip = "sip";
 
     /// <summary>
+    /// The agent grant claim.
+    /// </summary>
+    public const string Agent = "agent";
+
+    /// <summary>
     /// The room configuration claim.
     /// </summary>
     public const string RoomConfig = "roomConfig";

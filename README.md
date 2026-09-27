@@ -135,7 +135,7 @@ public class WebhookController : ControllerBase
         var body = await new StreamReader(Request.Body).ReadToEndAsync();
         var authHeader = Request.Headers["Authorization"].ToString();
 
-        var webhookEvent = _webhookReceiver.Receive(body, authHeader);
+        var webhookEvent = await _webhookReceiver.ReceiveAsync(body, authHeader);
 
         // Handle webhook event
         switch (webhookEvent.Event)
@@ -184,6 +184,9 @@ public class WebhookController : ControllerBase
 - `ILiveKitAgentDispatchService` - Deploy agents to rooms
 - `ILiveKitPhoneNumberService` - Manage phone numbers
 - `ILiveKitCloudAgentService` - Manage LiveKit Cloud agents
+- `ILiveKitConnectorService` - Manage WhatsApp and Twilio call connectors
+- `ILiveKitAgentSimulationService` - Run and manage agent simulations
+- `ILiveKitAgentDBService` - Manage agent databases
 
 ## Documentation
 

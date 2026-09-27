@@ -182,7 +182,7 @@ public class WebhookController : ControllerBase
 [`ILiveKitSipService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitSipService.html) - Manage SIP trunks and dispatch rules
 
 ### Token Service
-[`ILiveKitTokenService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitTokenService.html) - Generate JWT tokens for client authentication
+[`ILiveKitTokenService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Authentication.ILiveKitTokenService.html) - Generate JWT tokens for client authentication
 
 ### Webhook Receiver
 [`ILiveKitWebhookReceiver`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitWebhookReceiver.html) - Validate and parse webhook events
@@ -192,6 +192,8 @@ public class WebhookController : ControllerBase
 - [`ILiveKitPhoneNumberService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitPhoneNumberService.html) - Manage phone numbers
 - [`ILiveKitCloudAgentService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitCloudAgentService.html) - Manage LiveKit Cloud agents
 - [`ILiveKitConnectorService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitConnectorService.html) - Manage WhatsApp and Twilio call connectors
+- [`ILiveKitAgentSimulationService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitAgentSimulationService.html) - Run and manage agent simulations
+- [`ILiveKitAgentDBService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitAgentDBService.html) - Manage agent databases
 
 ## Documentation
 

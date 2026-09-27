@@ -17,6 +17,13 @@ public sealed class LiveKitOptions
     public string BaseUrl { get; set; } = string.Empty;
 
     /// <summary>
+    /// Gets or sets the URL for the Cloud Agent service.
+    /// When not set, it is derived from <see cref="BaseUrl"/> by replacing its first subdomain with <c>agents</c>,
+    /// e.g. <c>https://my-project.livekit.cloud</c> becomes <c>https://agents.livekit.cloud</c>.
+    /// </summary>
+    public string? AgentsUrl { get; set; }
+
+    /// <summary>
     /// Gets or sets the API key for authentication.
     /// </summary>
     public string ApiKey { get; set; } = string.Empty;

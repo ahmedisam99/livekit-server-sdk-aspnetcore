@@ -71,4 +71,14 @@ public static class LiveKitWebhookEvents
     /// Event fired when an ingress session ends.
     /// </summary>
     public const string INGRESS_ENDED = "ingress_ended";
+
+    /// <summary>
+    /// Event fired when an agent job starts.
+    /// </summary>
+    public const string AGENT_JOB_STARTED = "agent_job_started";
+
+    /// <summary>
+    /// Event fired when an agent job ends.
+    /// </summary>
+    public const string AGENT_JOB_ENDED = "agent_job_ended";
 }

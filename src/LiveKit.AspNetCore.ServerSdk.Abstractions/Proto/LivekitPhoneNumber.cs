@@ -50,52 +50,63 @@ namespace LiveKit.Proto {
             "bnQYBCABKAUiWwoVR2V0UGhvbmVOdW1iZXJSZXF1ZXN0Eg8KAmlkGAEgASgJ",
             "SACIAQESGQoMcGhvbmVfbnVtYmVyGAIgASgJSAGIAQFCBQoDX2lkQg8KDV9w",
             "aG9uZV9udW1iZXIiRAoWR2V0UGhvbmVOdW1iZXJSZXNwb25zZRIqCgxwaG9u",
-            "ZV9udW1iZXIYASABKAsyFC5saXZla2l0LlBob25lTnVtYmVyIrABChhVcGRh",
+            "ZV9udW1iZXIYASABKAsyFC5saXZla2l0LlBob25lTnVtYmVyIswBChhVcGRh",
             "dGVQaG9uZU51bWJlclJlcXVlc3QSDwoCaWQYASABKAlIAIgBARIZCgxwaG9u",
             "ZV9udW1iZXIYAiABKAlIAYgBARI3ChRzaXBfZGlzcGF0Y2hfcnVsZV9pZBgD",
-            "IAEoCUIUulARc2lwRGlzcGF0Y2hSdWxlSURIAogBAUIFCgNfaWRCDwoNX3Bo",
-            "b25lX251bWJlckIXChVfc2lwX2Rpc3BhdGNoX3J1bGVfaWQiRwoZVXBkYXRl",
-            "UGhvbmVOdW1iZXJSZXNwb25zZRIqCgxwaG9uZV9udW1iZXIYASABKAsyFC5s",
-            "aXZla2l0LlBob25lTnVtYmVyIkAKGlJlbGVhc2VQaG9uZU51bWJlcnNSZXF1",
-            "ZXN0EgsKA2lkcxgBIAMoCRIVCg1waG9uZV9udW1iZXJzGAIgAygJIh0KG1Jl",
-            "bGVhc2VQaG9uZU51bWJlcnNSZXNwb25zZSKVBAoLUGhvbmVOdW1iZXISCgoC",
-            "aWQYASABKAkSEwoLZTE2NF9mb3JtYXQYAiABKAkSFAoMY291bnRyeV9jb2Rl",
-            "GAMgASgJEhEKCWFyZWFfY29kZRgEIAEoCRItCgtudW1iZXJfdHlwZRgFIAEo",
-            "DjIYLmxpdmVraXQuUGhvbmVOdW1iZXJUeXBlEhAKCGxvY2FsaXR5GAYgASgJ",
-            "Eg4KBnJlZ2lvbhgHIAEoCRISCgpzcGFtX3Njb3JlGAggASgBEi4KCmNyZWF0",
-            "ZWRfYXQYCSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCnVw",
-            "ZGF0ZWRfYXQYCiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhQK",
-            "DGNhcGFiaWxpdGllcxgLIAMoCRIqCgZzdGF0dXMYDCABKA4yGi5saXZla2l0",
-            "LlBob25lTnVtYmVyU3RhdHVzEi8KC2Fzc2lnbmVkX2F0GA0gASgLMhouZ29v",
-            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBIvCgtyZWxlYXNlZF9hdBgOIAEoCzIa",
-            "Lmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASNAoUc2lwX2Rpc3BhdGNoX3J1",
-            "bGVfaWQYDyABKAlCFhgBulARc2lwRGlzcGF0Y2hSdWxlSUQSHQoVc2lwX2Rp",
-            "c3BhdGNoX3J1bGVfaWRzGBAgAygJKrwBChFQaG9uZU51bWJlclN0YXR1cxIj",
-            "Ch9QSE9ORV9OVU1CRVJfU1RBVFVTX1VOU1BFQ0lGSUVEEAASHgoaUEhPTkVf",
-            "TlVNQkVSX1NUQVRVU19BQ1RJVkUQARIfChtQSE9ORV9OVU1CRVJfU1RBVFVT",
-            "X1BFTkRJTkcQAhIgChxQSE9ORV9OVU1CRVJfU1RBVFVTX1JFTEVBU0VEEAMS",
-            "HwobUEhPTkVfTlVNQkVSX1NUQVRVU19PRkZMSU5FEAQqjAEKD1Bob25lTnVt",
-            "YmVyVHlwZRIdChlQSE9ORV9OVU1CRVJfVFlQRV9VTktOT1dOEAASHAoYUEhP",
-            "TkVfTlVNQkVSX1RZUEVfTU9CSUxFEAESGwoXUEhPTkVfTlVNQkVSX1RZUEVf",
-            "TE9DQUwQAhIfChtQSE9ORV9OVU1CRVJfVFlQRV9UT0xMX0ZSRUUQAzLLBAoS",
-            "UGhvbmVOdW1iZXJTZXJ2aWNlEl8KElNlYXJjaFBob25lTnVtYmVycxIiLmxp",
-            "dmVraXQuU2VhcmNoUGhvbmVOdW1iZXJzUmVxdWVzdBojLmxpdmVraXQuU2Vh",
-            "cmNoUGhvbmVOdW1iZXJzUmVzcG9uc2UiABJiChNQdXJjaGFzZVBob25lTnVt",
-            "YmVyEiMubGl2ZWtpdC5QdXJjaGFzZVBob25lTnVtYmVyUmVxdWVzdBokLmxp",
-            "dmVraXQuUHVyY2hhc2VQaG9uZU51bWJlclJlc3BvbnNlIgASWQoQTGlzdFBo",
-            "b25lTnVtYmVycxIgLmxpdmVraXQuTGlzdFBob25lTnVtYmVyc1JlcXVlc3Qa",
-            "IS5saXZla2l0Lkxpc3RQaG9uZU51bWJlcnNSZXNwb25zZSIAElMKDkdldFBo",
-            "b25lTnVtYmVyEh4ubGl2ZWtpdC5HZXRQaG9uZU51bWJlclJlcXVlc3QaHy5s",
-            "aXZla2l0LkdldFBob25lTnVtYmVyUmVzcG9uc2UiABJcChFVcGRhdGVQaG9u",
-            "ZU51bWJlchIhLmxpdmVraXQuVXBkYXRlUGhvbmVOdW1iZXJSZXF1ZXN0GiIu",
-            "bGl2ZWtpdC5VcGRhdGVQaG9uZU51bWJlclJlc3BvbnNlIgASYgoTUmVsZWFz",
-            "ZVBob25lTnVtYmVycxIjLmxpdmVraXQuUmVsZWFzZVBob25lTnVtYmVyc1Jl",
-            "cXVlc3QaJC5saXZla2l0LlJlbGVhc2VQaG9uZU51bWJlcnNSZXNwb25zZSIA",
-            "QkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgINTGl2",
-            "ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
+            "IAEoCUIUulARc2lwRGlzcGF0Y2hSdWxlSURIAogBARIRCgRuYW1lGAQgASgJ",
+            "SAOIAQFCBQoDX2lkQg8KDV9waG9uZV9udW1iZXJCFwoVX3NpcF9kaXNwYXRj",
+            "aF9ydWxlX2lkQgcKBV9uYW1lIkcKGVVwZGF0ZVBob25lTnVtYmVyUmVzcG9u",
+            "c2USKgoMcGhvbmVfbnVtYmVyGAEgASgLMhQubGl2ZWtpdC5QaG9uZU51bWJl",
+            "ciJAChpSZWxlYXNlUGhvbmVOdW1iZXJzUmVxdWVzdBILCgNpZHMYASADKAkS",
+            "FQoNcGhvbmVfbnVtYmVycxgCIAMoCSIdChtSZWxlYXNlUGhvbmVOdW1iZXJz",
+            "UmVzcG9uc2UimwUKC1Bob25lTnVtYmVyEgoKAmlkGAEgASgJEgwKBG5hbWUY",
+            "ESABKAkSEwoLZTE2NF9mb3JtYXQYAiABKAkSFAoMY291bnRyeV9jb2RlGAMg",
+            "ASgJEhEKCWFyZWFfY29kZRgEIAEoCRItCgtudW1iZXJfdHlwZRgFIAEoDjIY",
+            "LmxpdmVraXQuUGhvbmVOdW1iZXJUeXBlEhAKCGxvY2FsaXR5GAYgASgJEg4K",
+            "BnJlZ2lvbhgHIAEoCRISCgpzcGFtX3Njb3JlGAggASgBEi4KCmNyZWF0ZWRf",
+            "YXQYCSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCnVwZGF0",
+            "ZWRfYXQYCiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEhQKDGNh",
+            "cGFiaWxpdGllcxgLIAMoCRIqCgZzdGF0dXMYDCABKA4yGi5saXZla2l0LlBo",
+            "b25lTnVtYmVyU3RhdHVzEjkKDmluYm91bmRfc3RhdHVzGBIgASgOMiEubGl2",
+            "ZWtpdC5QaG9uZU51bWJlckluYm91bmRTdGF0dXMSOwoPb3V0Ym91bmRfc3Rh",
+            "dHVzGBMgASgOMiIubGl2ZWtpdC5QaG9uZU51bWJlck91dGJvdW5kU3RhdHVz",
+            "Ei8KC2Fzc2lnbmVkX2F0GA0gASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVz",
+            "dGFtcBIvCgtyZWxlYXNlZF9hdBgOIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
+            "aW1lc3RhbXASNAoUc2lwX2Rpc3BhdGNoX3J1bGVfaWQYDyABKAlCFhgBulAR",
+            "c2lwRGlzcGF0Y2hSdWxlSUQSHQoVc2lwX2Rpc3BhdGNoX3J1bGVfaWRzGBAg",
+            "AygJKrwBChFQaG9uZU51bWJlclN0YXR1cxIjCh9QSE9ORV9OVU1CRVJfU1RB",
+            "VFVTX1VOU1BFQ0lGSUVEEAASHgoaUEhPTkVfTlVNQkVSX1NUQVRVU19BQ1RJ",
+            "VkUQARIfChtQSE9ORV9OVU1CRVJfU1RBVFVTX1BFTkRJTkcQAhIgChxQSE9O",
+            "RV9OVU1CRVJfU1RBVFVTX1JFTEVBU0VEEAMSHwobUEhPTkVfTlVNQkVSX1NU",
+            "QVRVU19PRkZMSU5FEAQqsgEKGFBob25lTnVtYmVySW5ib3VuZFN0YXR1cxIm",
+            "CiJQSE9ORV9OVU1CRVJfSU5fU1RBVFVTX1VOU1BFQ0lGSUVEEAASIQodUEhP",
+            "TkVfTlVNQkVSX0lOX1NUQVRVU19BQ1RJVkUQARImCiJQSE9ORV9OVU1CRVJf",
+            "SU5fU1RBVFVTX1VOQVZBSUxBQkxFEAISIwofUEhPTkVfTlVNQkVSX0lOX1NU",
+            "QVRVU19ERVRBQ0hFRBADKpEBChlQaG9uZU51bWJlck91dGJvdW5kU3RhdHVz",
+            "EicKI1BIT05FX05VTUJFUl9PVVRfU1RBVFVTX1VOU1BFQ0lGSUVEEAASIgoe",
+            "UEhPTkVfTlVNQkVSX09VVF9TVEFUVVNfQUNUSVZFEAESJwojUEhPTkVfTlVN",
+            "QkVSX09VVF9TVEFUVVNfVU5BVkFJTEFCTEUQAiqMAQoPUGhvbmVOdW1iZXJU",
+            "eXBlEh0KGVBIT05FX05VTUJFUl9UWVBFX1VOS05PV04QABIcChhQSE9ORV9O",
+            "VU1CRVJfVFlQRV9NT0JJTEUQARIbChdQSE9ORV9OVU1CRVJfVFlQRV9MT0NB",
+            "TBACEh8KG1BIT05FX05VTUJFUl9UWVBFX1RPTExfRlJFRRADMssEChJQaG9u",
+            "ZU51bWJlclNlcnZpY2USXwoSU2VhcmNoUGhvbmVOdW1iZXJzEiIubGl2ZWtp",
+            "dC5TZWFyY2hQaG9uZU51bWJlcnNSZXF1ZXN0GiMubGl2ZWtpdC5TZWFyY2hQ",
+            "aG9uZU51bWJlcnNSZXNwb25zZSIAEmIKE1B1cmNoYXNlUGhvbmVOdW1iZXIS",
+            "Iy5saXZla2l0LlB1cmNoYXNlUGhvbmVOdW1iZXJSZXF1ZXN0GiQubGl2ZWtp",
+            "dC5QdXJjaGFzZVBob25lTnVtYmVyUmVzcG9uc2UiABJZChBMaXN0UGhvbmVO",
+            "dW1iZXJzEiAubGl2ZWtpdC5MaXN0UGhvbmVOdW1iZXJzUmVxdWVzdBohLmxp",
+            "dmVraXQuTGlzdFBob25lTnVtYmVyc1Jlc3BvbnNlIgASUwoOR2V0UGhvbmVO",
+            "dW1iZXISHi5saXZla2l0LkdldFBob25lTnVtYmVyUmVxdWVzdBofLmxpdmVr",
+            "aXQuR2V0UGhvbmVOdW1iZXJSZXNwb25zZSIAElwKEVVwZGF0ZVBob25lTnVt",
+            "YmVyEiEubGl2ZWtpdC5VcGRhdGVQaG9uZU51bWJlclJlcXVlc3QaIi5saXZl",
+            "a2l0LlVwZGF0ZVBob25lTnVtYmVyUmVzcG9uc2UiABJiChNSZWxlYXNlUGhv",
+            "bmVOdW1iZXJzEiMubGl2ZWtpdC5SZWxlYXNlUGhvbmVOdW1iZXJzUmVxdWVz",
+            "dBokLmxpdmVraXQuUmVsZWFzZVBob25lTnVtYmVyc1Jlc3BvbnNlIgBCRloj",
+            "Z2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVraXSqAg1MaXZlS2l0",
+            "LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.PhoneNumberStatus), typeof(global::LiveKit.Proto.PhoneNumberType), }, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.PhoneNumberStatus), typeof(global::LiveKit.Proto.PhoneNumberInboundStatus), typeof(global::LiveKit.Proto.PhoneNumberOutboundStatus), typeof(global::LiveKit.Proto.PhoneNumberType), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SearchPhoneNumbersRequest), global::LiveKit.Proto.SearchPhoneNumbersRequest.Parser, new[]{ "CountryCode", "AreaCode", "Limit", "PageToken" }, new[]{ "AreaCode", "Limit", "PageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SearchPhoneNumbersResponse), global::LiveKit.Proto.SearchPhoneNumbersResponse.Parser, new[]{ "Items", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PurchasePhoneNumberRequest), global::LiveKit.Proto.PurchasePhoneNumberRequest.Parser, new[]{ "PhoneNumbers", "SipDispatchRuleId" }, new[]{ "SipDispatchRuleId" }, null, null, null),
@@ -104,11 +115,11 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ListPhoneNumbersResponse), global::LiveKit.Proto.ListPhoneNumbersResponse.Parser, new[]{ "Items", "NextPageToken", "TotalCount", "OfflineCount" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetPhoneNumberRequest), global::LiveKit.Proto.GetPhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber" }, new[]{ "Id", "PhoneNumber" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetPhoneNumberResponse), global::LiveKit.Proto.GetPhoneNumberResponse.Parser, new[]{ "PhoneNumber" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdatePhoneNumberRequest), global::LiveKit.Proto.UpdatePhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId" }, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdatePhoneNumberRequest), global::LiveKit.Proto.UpdatePhoneNumberRequest.Parser, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId", "Name" }, new[]{ "Id", "PhoneNumber", "SipDispatchRuleId", "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdatePhoneNumberResponse), global::LiveKit.Proto.UpdatePhoneNumberResponse.Parser, new[]{ "PhoneNumber" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ReleasePhoneNumbersRequest), global::LiveKit.Proto.ReleasePhoneNumbersRequest.Parser, new[]{ "Ids", "PhoneNumbers" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ReleasePhoneNumbersResponse), global::LiveKit.Proto.ReleasePhoneNumbersResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PhoneNumber), global::LiveKit.Proto.PhoneNumber.Parser, new[]{ "Id", "E164Format", "CountryCode", "AreaCode", "NumberType", "Locality", "Region", "SpamScore", "CreatedAt", "UpdatedAt", "Capabilities", "Status", "AssignedAt", "ReleasedAt", "SipDispatchRuleId", "SipDispatchRuleIds" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PhoneNumber), global::LiveKit.Proto.PhoneNumber.Parser, new[]{ "Id", "Name", "E164Format", "CountryCode", "AreaCode", "NumberType", "Locality", "Region", "SpamScore", "CreatedAt", "UpdatedAt", "Capabilities", "Status", "InboundStatus", "OutboundStatus", "AssignedAt", "ReleasedAt", "SipDispatchRuleId", "SipDispatchRuleIds" }, null, null, null, null)
           }));
     }
     #endregion
@@ -136,9 +147,43 @@ namespace LiveKit.Proto {
     /// </summary>
     [pbr::OriginalName("PHONE_NUMBER_STATUS_RELEASED")] Released = 3,
     /// <summary>
-    /// Number is offline (not associated with any dispatch rule)
+    /// Number is offline (provider is unreachable)
     /// </summary>
     [pbr::OriginalName("PHONE_NUMBER_STATUS_OFFLINE")] Offline = 4,
+  }
+
+  public enum PhoneNumberInboundStatus {
+    /// <summary>
+    /// Default value
+    /// </summary>
+    [pbr::OriginalName("PHONE_NUMBER_IN_STATUS_UNSPECIFIED")] PhoneNumberInStatusUnspecified = 0,
+    /// <summary>
+    /// Number is serving inbound calls
+    /// </summary>
+    [pbr::OriginalName("PHONE_NUMBER_IN_STATUS_ACTIVE")] PhoneNumberInStatusActive = 1,
+    /// <summary>
+    /// Inbound calling is unavailable
+    /// </summary>
+    [pbr::OriginalName("PHONE_NUMBER_IN_STATUS_UNAVAILABLE")] PhoneNumberInStatusUnavailable = 2,
+    /// <summary>
+    /// Number is not serving calls (not associated with dispatch rules)
+    /// </summary>
+    [pbr::OriginalName("PHONE_NUMBER_IN_STATUS_DETACHED")] PhoneNumberInStatusDetached = 3,
+  }
+
+  public enum PhoneNumberOutboundStatus {
+    /// <summary>
+    /// Default value
+    /// </summary>
+    [pbr::OriginalName("PHONE_NUMBER_OUT_STATUS_UNSPECIFIED")] PhoneNumberOutStatusUnspecified = 0,
+    /// <summary>
+    /// Number is can be used to initiate outbound calls
+    /// </summary>
+    [pbr::OriginalName("PHONE_NUMBER_OUT_STATUS_ACTIVE")] PhoneNumberOutStatusActive = 1,
+    /// <summary>
+    /// Outbound calling is unavailable
+    /// </summary>
+    [pbr::OriginalName("PHONE_NUMBER_OUT_STATUS_UNAVAILABLE")] PhoneNumberOutStatusUnavailable = 2,
   }
 
   /// <summary>
@@ -2415,6 +2460,7 @@ namespace LiveKit.Proto {
       id_ = other.id_;
       phoneNumber_ = other.phoneNumber_;
       sipDispatchRuleId_ = other.sipDispatchRuleId_;
+      name_ = other.name_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2511,6 +2557,32 @@ namespace LiveKit.Proto {
       sipDispatchRuleId_ = null;
     }
 
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 4;
+    private readonly static string NameDefaultValue = "";
+
+    private string name_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_ ?? NameDefaultValue; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "name" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasName {
+      get { return name_ != null; }
+    }
+    /// <summary>Clears the value of the "name" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearName() {
+      name_ = null;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2529,6 +2601,7 @@ namespace LiveKit.Proto {
       if (Id != other.Id) return false;
       if (PhoneNumber != other.PhoneNumber) return false;
       if (SipDispatchRuleId != other.SipDispatchRuleId) return false;
+      if (Name != other.Name) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2539,6 +2612,7 @@ namespace LiveKit.Proto {
       if (HasId) hash ^= Id.GetHashCode();
       if (HasPhoneNumber) hash ^= PhoneNumber.GetHashCode();
       if (HasSipDispatchRuleId) hash ^= SipDispatchRuleId.GetHashCode();
+      if (HasName) hash ^= Name.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2569,6 +2643,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(26);
         output.WriteString(SipDispatchRuleId);
       }
+      if (HasName) {
+        output.WriteRawTag(34);
+        output.WriteString(Name);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2591,6 +2669,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(26);
         output.WriteString(SipDispatchRuleId);
       }
+      if (HasName) {
+        output.WriteRawTag(34);
+        output.WriteString(Name);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2609,6 +2691,9 @@ namespace LiveKit.Proto {
       }
       if (HasSipDispatchRuleId) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SipDispatchRuleId);
+      }
+      if (HasName) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2630,6 +2715,9 @@ namespace LiveKit.Proto {
       }
       if (other.HasSipDispatchRuleId) {
         SipDispatchRuleId = other.SipDispatchRuleId;
+      }
+      if (other.HasName) {
+        Name = other.Name;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2662,6 +2750,10 @@ namespace LiveKit.Proto {
             SipDispatchRuleId = input.ReadString();
             break;
           }
+          case 34: {
+            Name = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2691,6 +2783,10 @@ namespace LiveKit.Proto {
           }
           case 26: {
             SipDispatchRuleId = input.ReadString();
+            break;
+          }
+          case 34: {
+            Name = input.ReadString();
             break;
           }
         }
@@ -3338,6 +3434,7 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public PhoneNumber(PhoneNumber other) : this() {
       id_ = other.id_;
+      name_ = other.name_;
       e164Format_ = other.e164Format_;
       countryCode_ = other.countryCode_;
       areaCode_ = other.areaCode_;
@@ -3349,6 +3446,8 @@ namespace LiveKit.Proto {
       updatedAt_ = other.updatedAt_ != null ? other.updatedAt_.Clone() : null;
       capabilities_ = other.capabilities_.Clone();
       status_ = other.status_;
+      inboundStatus_ = other.inboundStatus_;
+      outboundStatus_ = other.outboundStatus_;
       assignedAt_ = other.assignedAt_ != null ? other.assignedAt_.Clone() : null;
       releasedAt_ = other.releasedAt_ != null ? other.releasedAt_.Clone() : null;
       sipDispatchRuleId_ = other.sipDispatchRuleId_;
@@ -3374,6 +3473,21 @@ namespace LiveKit.Proto {
       get { return id_; }
       set {
         id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 17;
+    private string name_ = "";
+    /// <summary>
+    /// Human-readable name/label for the phone number
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -3541,6 +3655,36 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "inbound_status" field.</summary>
+    public const int InboundStatusFieldNumber = 18;
+    private global::LiveKit.Proto.PhoneNumberInboundStatus inboundStatus_ = global::LiveKit.Proto.PhoneNumberInboundStatus.PhoneNumberInStatusUnspecified;
+    /// <summary>
+    /// Inbound calling status
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.PhoneNumberInboundStatus InboundStatus {
+      get { return inboundStatus_; }
+      set {
+        inboundStatus_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "outbound_status" field.</summary>
+    public const int OutboundStatusFieldNumber = 19;
+    private global::LiveKit.Proto.PhoneNumberOutboundStatus outboundStatus_ = global::LiveKit.Proto.PhoneNumberOutboundStatus.PhoneNumberOutStatusUnspecified;
+    /// <summary>
+    /// Outbound calling status
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.PhoneNumberOutboundStatus OutboundStatus {
+      get { return outboundStatus_; }
+      set {
+        outboundStatus_ = value;
+      }
+    }
+
     /// <summary>Field number for the "assigned_at" field.</summary>
     public const int AssignedAtFieldNumber = 13;
     private global::Google.Protobuf.WellKnownTypes.Timestamp assignedAt_;
@@ -3617,6 +3761,7 @@ namespace LiveKit.Proto {
         return true;
       }
       if (Id != other.Id) return false;
+      if (Name != other.Name) return false;
       if (E164Format != other.E164Format) return false;
       if (CountryCode != other.CountryCode) return false;
       if (AreaCode != other.AreaCode) return false;
@@ -3628,6 +3773,8 @@ namespace LiveKit.Proto {
       if (!object.Equals(UpdatedAt, other.UpdatedAt)) return false;
       if(!capabilities_.Equals(other.capabilities_)) return false;
       if (Status != other.Status) return false;
+      if (InboundStatus != other.InboundStatus) return false;
+      if (OutboundStatus != other.OutboundStatus) return false;
       if (!object.Equals(AssignedAt, other.AssignedAt)) return false;
       if (!object.Equals(ReleasedAt, other.ReleasedAt)) return false;
       if (SipDispatchRuleId != other.SipDispatchRuleId) return false;
@@ -3640,6 +3787,7 @@ namespace LiveKit.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (E164Format.Length != 0) hash ^= E164Format.GetHashCode();
       if (CountryCode.Length != 0) hash ^= CountryCode.GetHashCode();
       if (AreaCode.Length != 0) hash ^= AreaCode.GetHashCode();
@@ -3651,6 +3799,8 @@ namespace LiveKit.Proto {
       if (updatedAt_ != null) hash ^= UpdatedAt.GetHashCode();
       hash ^= capabilities_.GetHashCode();
       if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) hash ^= Status.GetHashCode();
+      if (InboundStatus != global::LiveKit.Proto.PhoneNumberInboundStatus.PhoneNumberInStatusUnspecified) hash ^= InboundStatus.GetHashCode();
+      if (OutboundStatus != global::LiveKit.Proto.PhoneNumberOutboundStatus.PhoneNumberOutStatusUnspecified) hash ^= OutboundStatus.GetHashCode();
       if (assignedAt_ != null) hash ^= AssignedAt.GetHashCode();
       if (releasedAt_ != null) hash ^= ReleasedAt.GetHashCode();
       if (SipDispatchRuleId.Length != 0) hash ^= SipDispatchRuleId.GetHashCode();
@@ -3731,6 +3881,18 @@ namespace LiveKit.Proto {
         output.WriteString(SipDispatchRuleId);
       }
       sipDispatchRuleIds_.WriteTo(output, _repeated_sipDispatchRuleIds_codec);
+      if (Name.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(Name);
+      }
+      if (InboundStatus != global::LiveKit.Proto.PhoneNumberInboundStatus.PhoneNumberInStatusUnspecified) {
+        output.WriteRawTag(144, 1);
+        output.WriteEnum((int) InboundStatus);
+      }
+      if (OutboundStatus != global::LiveKit.Proto.PhoneNumberOutboundStatus.PhoneNumberOutStatusUnspecified) {
+        output.WriteRawTag(152, 1);
+        output.WriteEnum((int) OutboundStatus);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3799,6 +3961,18 @@ namespace LiveKit.Proto {
         output.WriteString(SipDispatchRuleId);
       }
       sipDispatchRuleIds_.WriteTo(ref output, _repeated_sipDispatchRuleIds_codec);
+      if (Name.Length != 0) {
+        output.WriteRawTag(138, 1);
+        output.WriteString(Name);
+      }
+      if (InboundStatus != global::LiveKit.Proto.PhoneNumberInboundStatus.PhoneNumberInStatusUnspecified) {
+        output.WriteRawTag(144, 1);
+        output.WriteEnum((int) InboundStatus);
+      }
+      if (OutboundStatus != global::LiveKit.Proto.PhoneNumberOutboundStatus.PhoneNumberOutStatusUnspecified) {
+        output.WriteRawTag(152, 1);
+        output.WriteEnum((int) OutboundStatus);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3811,6 +3985,9 @@ namespace LiveKit.Proto {
       int size = 0;
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
+      if (Name.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(Name);
       }
       if (E164Format.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(E164Format);
@@ -3843,6 +4020,12 @@ namespace LiveKit.Proto {
       if (Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
+      if (InboundStatus != global::LiveKit.Proto.PhoneNumberInboundStatus.PhoneNumberInStatusUnspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) InboundStatus);
+      }
+      if (OutboundStatus != global::LiveKit.Proto.PhoneNumberOutboundStatus.PhoneNumberOutStatusUnspecified) {
+        size += 2 + pb::CodedOutputStream.ComputeEnumSize((int) OutboundStatus);
+      }
       if (assignedAt_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(AssignedAt);
       }
@@ -3867,6 +4050,9 @@ namespace LiveKit.Proto {
       }
       if (other.Id.Length != 0) {
         Id = other.Id;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
       }
       if (other.E164Format.Length != 0) {
         E164Format = other.E164Format;
@@ -3904,6 +4090,12 @@ namespace LiveKit.Proto {
       capabilities_.Add(other.capabilities_);
       if (other.Status != global::LiveKit.Proto.PhoneNumberStatus.Unspecified) {
         Status = other.Status;
+      }
+      if (other.InboundStatus != global::LiveKit.Proto.PhoneNumberInboundStatus.PhoneNumberInStatusUnspecified) {
+        InboundStatus = other.InboundStatus;
+      }
+      if (other.OutboundStatus != global::LiveKit.Proto.PhoneNumberOutboundStatus.PhoneNumberOutStatusUnspecified) {
+        OutboundStatus = other.OutboundStatus;
       }
       if (other.assignedAt_ != null) {
         if (assignedAt_ == null) {
@@ -4016,6 +4208,18 @@ namespace LiveKit.Proto {
             sipDispatchRuleIds_.AddEntriesFrom(input, _repeated_sipDispatchRuleIds_codec);
             break;
           }
+          case 138: {
+            Name = input.ReadString();
+            break;
+          }
+          case 144: {
+            InboundStatus = (global::LiveKit.Proto.PhoneNumberInboundStatus) input.ReadEnum();
+            break;
+          }
+          case 152: {
+            OutboundStatus = (global::LiveKit.Proto.PhoneNumberOutboundStatus) input.ReadEnum();
+            break;
+          }
         }
       }
     #endif
@@ -4109,6 +4313,18 @@ namespace LiveKit.Proto {
           }
           case 130: {
             sipDispatchRuleIds_.AddEntriesFrom(ref input, _repeated_sipDispatchRuleIds_codec);
+            break;
+          }
+          case 138: {
+            Name = input.ReadString();
+            break;
+          }
+          case 144: {
+            InboundStatus = (global::LiveKit.Proto.PhoneNumberInboundStatus) input.ReadEnum();
+            break;
+          }
+          case 152: {
+            OutboundStatus = (global::LiveKit.Proto.PhoneNumberOutboundStatus) input.ReadEnum();
             break;
           }
         }

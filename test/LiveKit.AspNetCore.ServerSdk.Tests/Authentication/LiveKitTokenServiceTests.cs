@@ -129,6 +129,48 @@ public class LiveKitTokenServiceTests
     }
 
     [Fact]
+    public void CreateServerToken_IncludesAgentGrantForWrappedServices()
+    {
+        var service = CreateService();
+        var jwt = service.CreateServerToken();
+        var token = ReadToken(jwt);
+
+        var agentJson = GetClaim(token, "agent");
+        agentJson.Should().NotBeNull();
+
+        var doc = JsonDocument.Parse(agentJson);
+        doc.RootElement.GetProperty("admin").GetBoolean().Should().BeTrue();
+        doc.RootElement.GetProperty("simulationAdmin").GetBoolean().Should().BeTrue();
+        doc.RootElement.GetProperty("databaseAdmin").GetBoolean().Should().BeTrue();
+        doc.RootElement.TryGetProperty("dispatchAdmin", out _).Should().BeFalse();
+    }
+
+    [Fact]
+    public void CreateServerToken_WithDestinationRoom_IncludesDestinationRoomInVideoGrant()
+    {
+        var service = CreateService();
+        var jwt = service.CreateServerToken("my-room", null, "other-room");
+        var token = ReadToken(jwt);
+
+        var videoJson = GetClaim(token, "video");
+        var doc = JsonDocument.Parse(videoJson!);
+        doc.RootElement.GetProperty("room").GetString().Should().Be("my-room");
+        doc.RootElement.GetProperty("destinationRoom").GetString().Should().Be("other-room");
+    }
+
+    [Fact]
+    public void CreateServerToken_WithoutDestinationRoom_OmitsDestinationRoom()
+    {
+        var service = CreateService();
+        var jwt = service.CreateServerToken(roomName: "my-room");
+        var token = ReadToken(jwt);
+
+        var videoJson = GetClaim(token, "video");
+        var doc = JsonDocument.Parse(videoJson!);
+        doc.RootElement.TryGetProperty("destinationRoom", out _).Should().BeFalse();
+    }
+
+    [Fact]
     public void CreateServerToken_WithRoomName_IncludesRoomInVideoGrant()
     {
         var service = CreateService();

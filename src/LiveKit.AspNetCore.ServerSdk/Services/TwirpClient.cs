@@ -1,4 +1,5 @@
 using Google.Protobuf;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
@@ -58,14 +59,39 @@ public abstract class TwirpClient
     /// Thrown when the server returns a non-success HTTP status code.
     /// Contains the parsed Twirp error code, message, and HTTP status code.
     /// </exception>
-    protected async Task<TResponse> MakeRequestAsync<TResponse>(
+    protected Task<TResponse> MakeRequestAsync<TResponse>(
         string methodName,
         string? roomName,
         IMessage? requestBody,
         CancellationToken cancellationToken = default)
         where TResponse : IMessage<TResponse>, new()
     {
-        var authToken = _tokenService.CreateServerToken(roomName);
+        return MakeRequestAsync<TResponse>(methodName, roomName, null, requestBody, cancellationToken);
+    }
+
+    /// <summary>
+    /// Makes an authenticated HTTP request to a LiveKit Twirp service, with a destination room in the server token.
+    /// </summary>
+    /// <typeparam name="TResponse">The protobuf message type for the response.</typeparam>
+    /// <param name="methodName">The name of the Twirp method to call.</param>
+    /// <param name="roomName">The name of the room (optional, used to create server token).</param>
+    /// <param name="destinationRoom">The name of the destination room (optional, used to create server token for forwarding or moving participants).</param>
+    /// <param name="requestBody">The request body as a protobuf message.</param>
+    /// <param name="cancellationToken">Cancellation token.</param>
+    /// <returns>The response as a protobuf message.</returns>
+    /// <exception cref="LiveKitApiException">
+    /// Thrown when the server returns a non-success HTTP status code.
+    /// Contains the parsed Twirp error code, message, and HTTP status code.
+    /// </exception>
+    protected async Task<TResponse> MakeRequestAsync<TResponse>(
+        string methodName,
+        string? roomName,
+        string? destinationRoom,
+        IMessage? requestBody,
+        CancellationToken cancellationToken = default)
+        where TResponse : IMessage<TResponse>, new()
+    {
+        var authToken = _tokenService.CreateServerToken(roomName, null, destinationRoom);
         var url = $"/twirp/livekit.{_serviceName}/{methodName}";
 
         var request = new HttpRequestMessage(HttpMethod.Post, url);
@@ -90,10 +116,10 @@ public abstract class TwirpClient
         {
             _logger.LogWarning("Request to '{Url}' failed with status {StatusCode}: {Content}", url, response.StatusCode, responseContent);
 
-            var (twirpCode, twirpMessage) = ParseTwirpError(responseContent);
+            var (twirpCode, twirpMessage, twirpMeta) = ParseTwirpError(responseContent);
             var msg = $"Request to '{url}' failed with status {response.StatusCode}: {twirpMessage}";
 
-            throw new LiveKitApiException(msg, twirpCode, twirpMessage, response.StatusCode);
+            throw new LiveKitApiException(msg, twirpCode, twirpMessage, response.StatusCode, twirpMeta);
         }
 
         _logger.LogDebug("Response received: {Content}", responseContent);
@@ -106,7 +132,7 @@ public abstract class TwirpClient
         return _jsonParser.Parse<TResponse>(responseContent);
     }
 
-    private static (TwirpErrorCode code, string message) ParseTwirpError(string responseContent)
+    private static (TwirpErrorCode code, string message, IReadOnlyDictionary<string, string>? meta) ParseTwirpError(string responseContent)
     {
         try
         {
@@ -117,14 +143,32 @@ public abstract class TwirpClient
             {
                 var code = ParseTwirpErrorCode(codeElement.GetString());
                 var msg = msgElement.GetString() ?? string.Empty;
-                return (code, msg);
+                return (code, msg, ParseTwirpErrorMeta(root));
             }
         }
         catch (JsonException)
         {
         }
 
-        return (TwirpErrorCode.Unknown, responseContent);
+        return (TwirpErrorCode.Unknown, responseContent, null);
+    }
+
+    private static IReadOnlyDictionary<string, string>? ParseTwirpErrorMeta(JsonElement root)
+    {
+        if (!root.TryGetProperty("meta", out var metaElement) || metaElement.ValueKind != JsonValueKind.Object)
+        {
+            return null;
+        }
+
+        var meta = new Dictionary<string, string>();
+        foreach (var property in metaElement.EnumerateObject())
+        {
+            meta[property.Name] = property.Value.ValueKind == JsonValueKind.String
+                ? property.Value.GetString() ?? string.Empty
+                : property.Value.GetRawText();
+        }
+
+        return meta;
     }
 
     private static TwirpErrorCode ParseTwirpErrorCode(string? code) => code switch

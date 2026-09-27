@@ -7,7 +7,7 @@ namespace LiveKit.Authentication;
 /// <summary>
 /// Builder for creating LiveKit authentication tokens.
 /// <para>
-/// Provides a fluent API for constructing access tokens with video grants, SIP grants, and participant attributes.
+/// Provides a fluent API for constructing access tokens with video grants, SIP grants, agent grants, and participant attributes.
 /// See <see href="https://docs.livekit.io/home/get-started/authentication/">LiveKit Authentication Documentation</see> for more information.
 /// </para>
 /// </summary>
@@ -67,6 +67,16 @@ public interface ILiveKitTokenBuilder
     /// Sets SIP grant permissions.
     /// </summary>
     ILiveKitTokenBuilder WithSipGrant(SipGrant sipGrant);
+
+    /// <summary>
+    /// Configures agent grant permissions.
+    /// </summary>
+    ILiveKitTokenBuilder WithAgentGrant(Action<AgentGrant> configureAgentGrant);
+
+    /// <summary>
+    /// Sets agent grant permissions.
+    /// </summary>
+    ILiveKitTokenBuilder WithAgentGrant(AgentGrant agentGrant);
 
     /// <summary>
     /// Configures room configuration.

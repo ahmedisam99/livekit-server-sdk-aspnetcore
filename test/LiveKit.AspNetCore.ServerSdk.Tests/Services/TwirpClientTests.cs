@@ -1,10 +1,12 @@
 using System.Net;
+using System.Text.Json;
 using FluentAssertions;
 using LiveKit.Authentication;
 using LiveKit.Services;
 using LiveKit.Tests.Helpers;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.JsonWebTokens;
 using LiveKit.Proto;
 
 namespace LiveKit.Tests.Services;
@@ -64,6 +66,61 @@ public class TwirpClientTests
         handler.LastRequest!.Headers.Authorization.Should().NotBeNull();
         handler.LastRequest.Headers.Authorization!.Scheme.Should().Be("Bearer");
         handler.LastRequest.Headers.Authorization.Parameter.Should().NotBeNullOrEmpty();
+    }
+
+    [Fact]
+    public async Task ForwardParticipant_TokenIncludesRoomAndDestinationRoom()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse("{}");
+        var service = CreateRoomService(handler);
+
+        await service.ForwardParticipantAsync(new ForwardParticipantRequest
+        {
+            Room = "source-room",
+            Identity = "user1",
+            DestinationRoom = "destination-room"
+        });
+
+        var video = ReadVideoGrant(handler.LastRequest!);
+        video.GetProperty("room").GetString().Should().Be("source-room");
+        video.GetProperty("destinationRoom").GetString().Should().Be("destination-room");
+    }
+
+    [Fact]
+    public async Task MoveParticipant_TokenIncludesRoomAndDestinationRoom()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse("{}");
+        var service = CreateRoomService(handler);
+
+        await service.MoveParticipantAsync(new MoveParticipantRequest
+        {
+            Room = "source-room",
+            Identity = "user1",
+            DestinationRoom = "destination-room"
+        });
+
+        var video = ReadVideoGrant(handler.LastRequest!);
+        video.GetProperty("room").GetString().Should().Be("source-room");
+        video.GetProperty("destinationRoom").GetString().Should().Be("destination-room");
+    }
+
+    [Fact]
+    public async Task MakeRequest_WithoutDestinationRoom_TokenOmitsDestinationRoom()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse("{\"sid\": \"room-id\", \"name\": \"test-room\"}");
+        var service = CreateRoomService(handler);
+
+        await service.CreateRoomAsync(new CreateRoomRequest { Name = "test-room" });
+
+        var video = ReadVideoGrant(handler.LastRequest!);
+        video.TryGetProperty("destinationRoom", out _).Should().BeFalse();
+    }
+
+    private static JsonElement ReadVideoGrant(HttpRequestMessage request)
+    {
+        var token = new JsonWebTokenHandler().ReadJsonWebToken(request.Headers.Authorization!.Parameter);
+        var videoJson = token.Claims.First(c => c.Type == "video").Value;
+        return JsonDocument.Parse(videoJson).RootElement;
     }
 
     [Fact]
@@ -166,6 +223,35 @@ public class TwirpClientTests
         ex.Which.Code.Should().Be(TwirpErrorCode.NotFound);
         ex.Which.TwirpMessage.Should().Be("room not found");
         ex.Which.StatusCode.Should().Be(HttpStatusCode.NotFound);
+    }
+
+    [Fact]
+    public async Task MakeRequest_WithTwirpErrorMeta_ExposesMeta()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse(
+            """{"code": "failed_precondition", "msg": "transfer failed", "meta": {"sip_transfer_reason": "STR_REFER_REJECTED", "sip_status_code": "603"}}""",
+            HttpStatusCode.PreconditionFailed);
+        var service = CreateRoomService(handler);
+
+        var act = () => service.CreateRoomAsync(new CreateRoomRequest { Name = "test-room" });
+
+        var ex = await act.Should().ThrowAsync<LiveKitApiException>();
+        ex.Which.Meta.Should().Contain("sip_transfer_reason", "STR_REFER_REJECTED");
+        ex.Which.Meta.Should().Contain("sip_status_code", "603");
+    }
+
+    [Fact]
+    public async Task MakeRequest_WithoutTwirpErrorMeta_MetaIsEmpty()
+    {
+        var handler = MockHttpMessageHandler.WithJsonResponse(
+            """{"code": "not_found", "msg": "room not found"}""",
+            HttpStatusCode.NotFound);
+        var service = CreateRoomService(handler);
+
+        var act = () => service.CreateRoomAsync(new CreateRoomRequest { Name = "test-room" });
+
+        var ex = await act.Should().ThrowAsync<LiveKitApiException>();
+        ex.Which.Meta.Should().BeEmpty();
     }
 
     [Fact]

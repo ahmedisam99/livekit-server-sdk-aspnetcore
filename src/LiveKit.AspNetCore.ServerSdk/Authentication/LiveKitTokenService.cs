@@ -41,11 +41,18 @@ public sealed class LiveKitTokenService : ILiveKitTokenService
     /// <inheritdoc/>
     public string CreateServerToken(string? roomName = null, TimeSpan? ttl = null)
     {
+        return CreateServerToken(roomName, ttl, null);
+    }
+
+    /// <inheritdoc/>
+    public string CreateServerToken(string? roomName, TimeSpan? ttl, string? destinationRoom)
+    {
         return new LiveKitTokenBuilder(_options.ApiKey, _options.ApiSecret, "server")
             .WithParticipantName("server")
             .WithVideoGrant(grant =>
             {
                 grant.Room = roomName;
+                grant.DestinationRoom = destinationRoom;
                 grant.RoomJoin = true;
                 grant.RoomCreate = true;
                 grant.RoomList = true;
@@ -61,6 +68,12 @@ public sealed class LiveKitTokenService : ILiveKitTokenService
             {
                 options.Admin = true;
                 options.Call = true;
+            })
+            .WithAgentGrant(grant =>
+            {
+                grant.Admin = true;
+                grant.SimulationAdmin = true;
+                grant.DatabaseAdmin = true;
             })
             .WithTimeToLive(ttl ?? TimeSpan.FromMinutes(5))
             .ToJwt();

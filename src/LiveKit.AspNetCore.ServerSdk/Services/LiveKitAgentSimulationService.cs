@@ -49,6 +49,13 @@ public sealed class LiveKitAgentSimulationService : TwirpClient, ILiveKitAgentSi
     }
 
     /// <inheritdoc/>
+    public async Task<SimulationRun.Types.Counts.Types.Response> CountSimulationRunsAsync(SimulationRun.Types.Counts.Types.Request request,
+        CancellationToken cancellationToken = default)
+    {
+        return await MakeRequestAsync<SimulationRun.Types.Counts.Types.Response>("CountSimulationRuns", null, request, cancellationToken).ConfigureAwait(false);
+    }
+
+    /// <inheritdoc/>
     public async Task<SimulationRun.Types.Cancel.Types.Response> CancelSimulationRunAsync(SimulationRun.Types.Cancel.Types.Request request,
         CancellationToken cancellationToken = default)
     {

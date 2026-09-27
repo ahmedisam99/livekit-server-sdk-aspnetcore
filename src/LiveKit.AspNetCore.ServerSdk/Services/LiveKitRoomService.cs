@@ -92,13 +92,13 @@ public sealed class LiveKitRoomService : TwirpClient, ILiveKitRoomService
     public async Task<ForwardParticipantResponse> ForwardParticipantAsync(ForwardParticipantRequest request,
         CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<ForwardParticipantResponse>("ForwardParticipant", request.Room, request, cancellationToken).ConfigureAwait(false);
+        return await MakeRequestAsync<ForwardParticipantResponse>("ForwardParticipant", request.Room, request.DestinationRoom, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>
     public async Task<MoveParticipantResponse> MoveParticipantAsync(MoveParticipantRequest request, CancellationToken cancellationToken = default)
     {
-        return await MakeRequestAsync<MoveParticipantResponse>("MoveParticipant", request.Room, request, cancellationToken).ConfigureAwait(false);
+        return await MakeRequestAsync<MoveParticipantResponse>("MoveParticipant", request.Room, request.DestinationRoom, request, cancellationToken).ConfigureAwait(false);
     }
 
     /// <inheritdoc/>

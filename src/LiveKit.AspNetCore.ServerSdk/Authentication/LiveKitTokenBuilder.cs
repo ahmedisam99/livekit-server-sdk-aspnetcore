@@ -22,6 +22,7 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
     private string? RoomPreset { get; set; }
     private VideoGrant? VideoGrant { get; set; }
     private SipGrant? SipGrant { get; set; }
+    private AgentGrant? AgentGrant { get; set; }
     private RoomConfiguration? RoomConfiguration { get; set; }
     private TimeSpan Ttl { get; set; } = TimeSpan.FromMinutes(60);
 
@@ -154,6 +155,24 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
     }
 
     /// <inheritdoc/>
+    public ILiveKitTokenBuilder WithAgentGrant(Action<AgentGrant> configureAgentGrant)
+    {
+        var agentGrant = new AgentGrant();
+        configureAgentGrant.Invoke(agentGrant);
+        AgentGrant = agentGrant;
+
+        return this;
+    }
+
+    /// <inheritdoc/>
+    public ILiveKitTokenBuilder WithAgentGrant(AgentGrant agentGrant)
+    {
+        AgentGrant = agentGrant;
+
+        return this;
+    }
+
+    /// <inheritdoc/>
     public ILiveKitTokenBuilder WithRoomConfiguration(Action<RoomConfiguration> configureRoomConfiguration)
     {
         var roomConfiguration = new RoomConfiguration();
@@ -224,6 +243,12 @@ public sealed class LiveKitTokenBuilder : ILiveKitTokenBuilder
         {
             var sipGrantJson = JsonSerializer.Serialize(SipGrant, _jsonOptions);
             claims.Add(new Claim(LiveKitClaims.Sip, sipGrantJson, JsonClaimValueTypes.Json));
+        }
+
+        if (AgentGrant is not null)
+        {
+            var agentGrantJson = JsonSerializer.Serialize(AgentGrant, _jsonOptions);
+            claims.Add(new Claim(LiveKitClaims.Agent, agentGrantJson, JsonClaimValueTypes.Json));
         }
 
         if (RoomConfiguration is not null)

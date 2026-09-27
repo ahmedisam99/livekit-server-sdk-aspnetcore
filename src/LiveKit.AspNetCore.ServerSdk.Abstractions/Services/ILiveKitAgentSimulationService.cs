@@ -38,6 +38,13 @@ public interface ILiveKitAgentSimulationService
     Task<SimulationRun.Types.List.Types.Response> ListSimulationRunsAsync(SimulationRun.Types.List.Types.Request request, CancellationToken cancellationToken = default);
 
     /// <summary>
+    /// Counts simulation runs in a time window, grouped into time buckets.
+    /// Both the start and end time are required. Buckets with no runs are omitted from the response.
+    /// </summary>
+    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
+    Task<SimulationRun.Types.Counts.Types.Response> CountSimulationRunsAsync(SimulationRun.Types.Counts.Types.Request request, CancellationToken cancellationToken = default);
+
+    /// <summary>
     /// Cancels a simulation run.
     /// </summary>
     /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>

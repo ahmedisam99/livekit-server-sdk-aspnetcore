@@ -110,6 +110,9 @@ public interface ILiveKitSipService
     /// <summary>
     /// Transfers an active SIP participant to another number.
     /// </summary>
-    /// <exception cref="LiveKitApiException">Thrown when the server returns a non-success HTTP status code.</exception>
+    /// <exception cref="LiveKitApiException">
+    /// Thrown when the server returns a non-success HTTP status code.
+    /// For a failed transfer, <see cref="LiveKitApiException.Meta"/> holds details such as <c>sip_transfer_reason</c> and <c>sip_status_code</c>.
+    /// </exception>
     Task TransferSIPParticipantAsync(TransferSIPParticipantRequest request, CancellationToken cancellationToken = default);
 }

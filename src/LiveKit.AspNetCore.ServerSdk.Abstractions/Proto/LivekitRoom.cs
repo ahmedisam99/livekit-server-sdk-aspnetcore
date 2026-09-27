@@ -5259,7 +5259,7 @@ namespace LiveKit.Proto {
     public const int MaxParticipantsFieldNumber = 4;
     private uint maxParticipants_;
     /// <summary>
-    /// limit number of participants that can be in a room, excluding Egress and Ingress participants
+    /// limit number of participants that can be in a room, excluding Egress and Agent participants
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

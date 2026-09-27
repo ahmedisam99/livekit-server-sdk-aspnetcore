@@ -86,6 +86,7 @@ public class LiveKitTokenBuilderTests
         GetClaim(token, "attributes").Should().BeNull();
         GetClaim(token, "video").Should().BeNull();
         GetClaim(token, "sip").Should().BeNull();
+        GetClaim(token, "agent").Should().BeNull();
         GetClaim(token, "roomConfig").Should().BeNull();
     }
 
@@ -308,6 +309,45 @@ public class LiveKitTokenBuilderTests
     }
 
     [Fact]
+    public void ToJwt_WithAgentGrant_SerializesToJson()
+    {
+        var jwt = CreateBuilder()
+            .WithAgentGrant(a =>
+            {
+                a.Admin = true;
+                a.SimulationAdmin = true;
+                a.DatabaseAdmin = true;
+                a.DispatchAdmin = true;
+            })
+            .ToJwt();
+        var token = ReadToken(jwt);
+
+        var agentJson = GetClaim(token, "agent");
+        agentJson.Should().NotBeNull();
+
+        var doc = JsonDocument.Parse(agentJson);
+        doc.RootElement.GetProperty("admin").GetBoolean().Should().BeTrue();
+        doc.RootElement.GetProperty("simulationAdmin").GetBoolean().Should().BeTrue();
+        doc.RootElement.GetProperty("databaseAdmin").GetBoolean().Should().BeTrue();
+        doc.RootElement.GetProperty("dispatchAdmin").GetBoolean().Should().BeTrue();
+    }
+
+    [Fact]
+    public void ToJwt_WithAgentGrant_NullPropertiesOmitted()
+    {
+        var jwt = CreateBuilder()
+            .WithAgentGrant(new AgentGrant { SimulationAdmin = true })
+            .ToJwt();
+        var token = ReadToken(jwt);
+
+        var doc = JsonDocument.Parse(GetClaim(token, "agent")!);
+        doc.RootElement.GetProperty("simulationAdmin").GetBoolean().Should().BeTrue();
+        doc.RootElement.TryGetProperty("admin", out _).Should().BeFalse();
+        doc.RootElement.TryGetProperty("databaseAdmin", out _).Should().BeFalse();
+        doc.RootElement.TryGetProperty("dispatchAdmin", out _).Should().BeFalse();
+    }
+
+    [Fact]
     public void ToJwt_WithRoomConfiguration_SerializesToProtobufJson()
     {
         var roomConfig = new RoomConfiguration
@@ -335,6 +375,7 @@ public class LiveKitTokenBuilderTests
             .WithAttribute("role", "admin")
             .WithVideoGrant(g => { g.RoomJoin = true; })
             .WithSipGrant(s => { s.Admin = true; })
+            .WithAgentGrant(a => { a.Admin = true; })
             .WithRoomConfiguration(new RoomConfiguration { Name = "full-room" })
             .WithTimeToLive(TimeSpan.FromMinutes(15))
             .ToJwt();
@@ -349,6 +390,7 @@ public class LiveKitTokenBuilderTests
         GetClaim(token, "attributes").Should().NotBeNull();
         GetClaim(token, "video").Should().NotBeNull();
         GetClaim(token, "sip").Should().NotBeNull();
+        GetClaim(token, "agent").Should().NotBeNull();
         GetClaim(token, "roomConfig").Should().NotBeNull();
 
         var duration = token.ValidTo - token.ValidFrom;
