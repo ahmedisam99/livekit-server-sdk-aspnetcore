@@ -51,6 +51,21 @@ public class LiveKitWebhookReceiverTests
     }
 
     [Fact]
+    public async Task ReceiveAsync_WithAgentJobPendingEvent_ParsesJobState()
+    {
+        var mockVerifier = new Mock<ILiveKitTokenVerifier>();
+        var receiver = new LiveKitWebhookReceiver(mockVerifier.Object);
+        const string body = "{\"event\": \"agent_job_pending\", \"job\": {\"id\": \"AJ_123\", \"state\": {\"status\": \"JS_PENDING\", \"reason\": \"JSR_NO_CAPACITY\"}}}";
+
+        var result = await receiver.ReceiveAsync(body, skipAuth: true);
+
+        result.Event.Should().Be(LiveKitWebhookEvents.AGENT_JOB_PENDING);
+        result.Job.Id.Should().Be("AJ_123");
+        result.Job.State.Status.Should().Be(LiveKit.Proto.JobStatus.JsPending);
+        result.Job.State.Reason.Should().Be(LiveKit.Proto.JobStateReason.JsrNoCapacity);
+    }
+
+    [Fact]
     public async Task ReceiveAsync_WithSkipAuth_DoesNotCallTokenVerifier()
     {
         var mockVerifier = new Mock<ILiveKitTokenVerifier>();

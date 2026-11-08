@@ -193,7 +193,6 @@ public class WebhookController : ControllerBase
 - [`ILiveKitCloudAgentService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitCloudAgentService.html) - Manage LiveKit Cloud agents
 - [`ILiveKitConnectorService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitConnectorService.html) - Manage WhatsApp and Twilio call connectors
 - [`ILiveKitAgentSimulationService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitAgentSimulationService.html) - Run and manage agent simulations
-- [`ILiveKitAgentDBService`](/livekit-server-sdk-aspnetcore/api/LiveKit.Services.ILiveKitAgentDBService.html) - Manage agent databases
 
 ## Documentation
 

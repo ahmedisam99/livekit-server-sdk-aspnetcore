@@ -25,22 +25,23 @@ namespace LiveKit.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChpsaXZla2l0X3Rva2VuX3NvdXJjZS5wcm90bxIHbGl2ZWtpdBoSbGl2ZWtp",
-            "dF9yb29tLnByb3RvIsIDChJUb2tlblNvdXJjZVJlcXVlc3QSFgoJcm9vbV9u",
-            "YW1lGAEgASgJSACIAQESHQoQcGFydGljaXBhbnRfbmFtZRgCIAEoCUgBiAEB",
-            "EiEKFHBhcnRpY2lwYW50X2lkZW50aXR5GAMgASgJSAKIAQESIQoUcGFydGlj",
-            "aXBhbnRfbWV0YWRhdGEYBCABKAlIA4gBARJWChZwYXJ0aWNpcGFudF9hdHRy",
-            "aWJ1dGVzGAUgAygLMjYubGl2ZWtpdC5Ub2tlblNvdXJjZVJlcXVlc3QuUGFy",
-            "dGljaXBhbnRBdHRyaWJ1dGVzRW50cnkSNAoLcm9vbV9jb25maWcYBiABKAsy",
-            "Gi5saXZla2l0LlJvb21Db25maWd1cmF0aW9uSASIAQEaPAoaUGFydGljaXBh",
-            "bnRBdHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJ",
-            "OgI4AUIMCgpfcm9vbV9uYW1lQhMKEV9wYXJ0aWNpcGFudF9uYW1lQhcKFV9w",
-            "YXJ0aWNpcGFudF9pZGVudGl0eUIXChVfcGFydGljaXBhbnRfbWV0YWRhdGFC",
-            "DgoMX3Jvb21fY29uZmlnIkQKE1Rva2VuU291cmNlUmVzcG9uc2USEgoKc2Vy",
-            "dmVyX3VybBgBIAEoCRIZChFwYXJ0aWNpcGFudF90b2tlbhgCIAEoCUJGWiNn",
-            "aXRodWIuY29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdKoCDUxpdmVLaXQu",
-            "UHJvdG/qAg5MaXZlS2l0OjpQcm90b2IGcHJvdG8z"));
+            "dF9yb29tLnByb3RvGhRsb2dnZXIvb3B0aW9ucy5wcm90byLCAwoSVG9rZW5T",
+            "b3VyY2VSZXF1ZXN0EhYKCXJvb21fbmFtZRgBIAEoCUgAiAEBEh0KEHBhcnRp",
+            "Y2lwYW50X25hbWUYAiABKAlIAYgBARIhChRwYXJ0aWNpcGFudF9pZGVudGl0",
+            "eRgDIAEoCUgCiAEBEiEKFHBhcnRpY2lwYW50X21ldGFkYXRhGAQgASgJSAOI",
+            "AQESVgoWcGFydGljaXBhbnRfYXR0cmlidXRlcxgFIAMoCzI2LmxpdmVraXQu",
+            "VG9rZW5Tb3VyY2VSZXF1ZXN0LlBhcnRpY2lwYW50QXR0cmlidXRlc0VudHJ5",
+            "EjQKC3Jvb21fY29uZmlnGAYgASgLMhoubGl2ZWtpdC5Sb29tQ29uZmlndXJh",
+            "dGlvbkgEiAEBGjwKGlBhcnRpY2lwYW50QXR0cmlidXRlc0VudHJ5EgsKA2tl",
+            "eRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAFCDAoKX3Jvb21fbmFtZUITChFf",
+            "cGFydGljaXBhbnRfbmFtZUIXChVfcGFydGljaXBhbnRfaWRlbnRpdHlCFwoV",
+            "X3BhcnRpY2lwYW50X21ldGFkYXRhQg4KDF9yb29tX2NvbmZpZyJJChNUb2tl",
+            "blNvdXJjZVJlc3BvbnNlEhIKCnNlcnZlcl91cmwYASABKAkSHgoRcGFydGlj",
+            "aXBhbnRfdG9rZW4YAiABKAlCA8BQAkJGWiNnaXRodWIuY29tL2xpdmVraXQv",
+            "cHJvdG9jb2wvbGl2ZWtpdKoCDUxpdmVLaXQuUHJvdG/qAg5MaXZlS2l0OjpQ",
+            "cm90b2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitRoomReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitRoomReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TokenSourceRequest), global::LiveKit.Proto.TokenSourceRequest.Parser, new[]{ "RoomName", "ParticipantName", "ParticipantIdentity", "ParticipantMetadata", "ParticipantAttributes", "RoomConfig" }, new[]{ "RoomName", "ParticipantName", "ParticipantIdentity", "ParticipantMetadata", "RoomConfig" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TokenSourceResponse), global::LiveKit.Proto.TokenSourceResponse.Parser, new[]{ "ServerUrl", "ParticipantToken" }, null, null, null, null)

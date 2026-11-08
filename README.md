@@ -186,7 +186,6 @@ public class WebhookController : ControllerBase
 - `ILiveKitCloudAgentService` - Manage LiveKit Cloud agents
 - `ILiveKitConnectorService` - Manage WhatsApp and Twilio call connectors
 - `ILiveKitAgentSimulationService` - Run and manage agent simulations
-- `ILiveKitAgentDBService` - Manage agent databases
 
 ## Documentation
 

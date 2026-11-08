@@ -108,7 +108,7 @@ namespace LiveKit.Proto {
     /// <summary>
     /// one of room_started, room_finished, participant_joined, participant_left, participant_connection_aborted,
     /// track_published, track_unpublished, egress_started, egress_updated, egress_ended,
-    /// ingress_started, ingress_ended, agent_job_started, agent_job_ended
+    /// ingress_started, ingress_ended, agent_job_pending, agent_job_started, agent_job_ended
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]

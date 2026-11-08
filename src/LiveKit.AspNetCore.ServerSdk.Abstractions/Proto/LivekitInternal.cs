@@ -31,7 +31,7 @@ namespace LiveKit.Proto {
             "AmlkGAEgASgJEgoKAmlwGAIgASgJEhAKCG51bV9jcHVzGAMgASgNEiEKBXN0",
             "YXRzGAQgASgLMhIubGl2ZWtpdC5Ob2RlU3RhdHMSHwoEdHlwZRgFIAEoDjIR",
             "LmxpdmVraXQuTm9kZVR5cGUSIQoFc3RhdGUYBiABKA4yEi5saXZla2l0Lk5v",
-            "ZGVTdGF0ZRIOCgZyZWdpb24YByABKAki8A0KCU5vZGVTdGF0cxISCgpzdGFy",
+            "ZGVTdGF0ZRIOCgZyZWdpb24YByABKAkimg4KCU5vZGVTdGF0cxISCgpzdGFy",
             "dGVkX2F0GAEgASgDEhIKCnVwZGF0ZWRfYXQYAiABKAMSEQoJbnVtX3Jvb21z",
             "GAMgASgFEhMKC251bV9jbGllbnRzGAQgASgFEhUKDW51bV90cmFja3NfaW4Y",
             "BSABKAUSFgoObnVtX3RyYWNrc19vdXQYBiABKAUSIgoabnVtX3RyYWNrX3B1",
@@ -69,70 +69,71 @@ namespace LiveKit.Proto {
             "ARIcChRwYXJ0aWNpcGFudF9ydGNfaW5pdBguIAEoBBIoChxwYXJ0aWNpcGFu",
             "dF9ydGNfaW5pdF9wZXJfc2VjGC8gASgCQgIYARIgChhwYXJ0aWNpcGFudF9y",
             "dGNfY2FuY2VsZWQYNSABKAQSHgoWcGFydGljaXBhbnRfcnRjX2FjdGl2ZRg2",
-            "IAEoBBIXCg9mb3J3YXJkX2xhdGVuY3kYMCABKA0SFgoOZm9yd2FyZF9qaXR0",
-            "ZXIYMSABKA0SJQoFcmF0ZXMYMiADKAsyFi5saXZla2l0Lk5vZGVTdGF0c1Jh",
-            "dGUiqwYKDU5vZGVTdGF0c1JhdGUSEgoKc3RhcnRlZF9hdBgBIAEoAxIQCghl",
-            "bmRlZF9hdBgCIAEoAxIQCghkdXJhdGlvbhgDIAEoAxIeChZ0cmFja19wdWJs",
-            "aXNoX2F0dGVtcHRzGAQgASgCEh0KFXRyYWNrX3B1Ymxpc2hfc3VjY2VzcxgF",
-            "IAEoAhIdChV0cmFja19wdWJsaXNoX2NhbmNlbHMYGCABKAISIAoYdHJhY2tf",
-            "c3Vic2NyaWJlX2F0dGVtcHRzGAYgASgCEh8KF3RyYWNrX3N1YnNjcmliZV9z",
-            "dWNjZXNzGAcgASgCEh8KF3RyYWNrX3N1YnNjcmliZV9jYW5jZWxzGBkgASgC",
-            "EhAKCGJ5dGVzX2luGAggASgCEhEKCWJ5dGVzX291dBgJIAEoAhISCgpwYWNr",
-            "ZXRzX2luGAogASgCEhMKC3BhY2tldHNfb3V0GAsgASgCEhIKCm5hY2tfdG90",
-            "YWwYDCABKAISFwoPc3lzX3BhY2tldHNfb3V0GA0gASgCEhsKE3N5c19wYWNr",
-            "ZXRzX2Ryb3BwZWQYDiABKAISHAoUcmV0cmFuc21pdF9ieXRlc19vdXQYDyAB",
-            "KAISHgoWcmV0cmFuc21pdF9wYWNrZXRzX291dBgQIAEoAhIkChxwYXJ0aWNp",
-            "cGFudF9zaWduYWxfY29ubmVjdGVkGBEgASgCEiEKGXBhcnRpY2lwYW50X3Np",
-            "Z25hbF9mYWlsZWQYHCABKAISLAokcGFydGljaXBhbnRfc2lnbmFsX3ZhbGlk",
-            "YXRpb25fZmFpbGVkGB0gASgCEiEKGXBhcnRpY2lwYW50X3J0Y19jb25uZWN0",
-            "ZWQYEiABKAISHAoUcGFydGljaXBhbnRfcnRjX2luaXQYEyABKAISIAoYcGFy",
-            "dGljaXBhbnRfcnRjX2NhbmNlbGVkGBogASgCEh4KFnBhcnRpY2lwYW50X3J0",
-            "Y19hY3RpdmUYGyABKAISEAoIY3B1X2xvYWQYFCABKAISEwoLbWVtb3J5X2xv",
-            "YWQYFSABKAISEwoLbWVtb3J5X3VzZWQYFiABKAISFAoMbWVtb3J5X3RvdGFs",
-            "GBcgASgCIpIGCgxTdGFydFNlc3Npb24SEQoJcm9vbV9uYW1lGAEgASgJEhAK",
-            "CGlkZW50aXR5GAIgASgJEiYKDWNvbm5lY3Rpb25faWQYAyABKAlCD7pQDGNv",
-            "bm5lY3Rpb25JRBIRCglyZWNvbm5lY3QYBCABKAgSFgoOYXV0b19zdWJzY3Jp",
-            "YmUYCSABKAgSJgoZYXV0b19zdWJzY3JpYmVfZGF0YV90cmFjaxgZIAEoCEgA",
-            "iAEBEhIKBmhpZGRlbhgKIAEoCEICGAESIwoGY2xpZW50GAsgASgLMhMubGl2",
-            "ZWtpdC5DbGllbnRJbmZvEhQKCHJlY29yZGVyGAwgASgIQgIYARIMCgRuYW1l",
-            "GA0gASgJEhMKC2dyYW50c19qc29uGA4gASgJEhcKD2FkYXB0aXZlX3N0cmVh",
-            "bRgPIAEoCBIoCg5wYXJ0aWNpcGFudF9pZBgQIAEoCUIQulANcGFydGljaXBh",
-            "bnRJRBIyChByZWNvbm5lY3RfcmVhc29uGBEgASgOMhgubGl2ZWtpdC5SZWNv",
-            "bm5lY3RSZWFzb24SIwoWc3Vic2NyaWJlcl9hbGxvd19wYXVzZRgSIAEoCEgB",
-            "iAEBEhgKEGRpc2FibGVfaWNlX2xpdGUYEyABKAgSLwoLY3JlYXRlX3Jvb20Y",
-            "FCABKAsyGi5saXZla2l0LkNyZWF0ZVJvb21SZXF1ZXN0EjQKEmFkZF90cmFj",
-            "a19yZXF1ZXN0cxgVIAMoCzIYLmxpdmVraXQuQWRkVHJhY2tSZXF1ZXN0EjQK",
-            "D3B1Ymxpc2hlcl9vZmZlchgWIAEoCzIbLmxpdmVraXQuU2Vzc2lvbkRlc2Ny",
-            "aXB0aW9uEiYKCnN5bmNfc3RhdGUYFyABKAsyEi5saXZla2l0LlN5bmNTdGF0",
-            "ZRIiChp1c2Vfc2luZ2xlX3BlZXJfY29ubmVjdGlvbhgYIAEoCBIYChB0b2tl",
-            "bl9leHBpcmVzX2F0GBogASgDQhwKGl9hdXRvX3N1YnNjcmliZV9kYXRhX3Ry",
-            "YWNrQhkKF19zdWJzY3JpYmVyX2FsbG93X3BhdXNlIv0CCgxSb29tSW50ZXJu",
-            "YWwSLgoMdHJhY2tfZWdyZXNzGAEgASgLMhgubGl2ZWtpdC5BdXRvVHJhY2tF",
-            "Z3Jlc3MSOgoScGFydGljaXBhbnRfZWdyZXNzGAIgASgLMh4ubGl2ZWtpdC5B",
-            "dXRvUGFydGljaXBhbnRFZ3Jlc3MSLAoNcGxheW91dF9kZWxheRgDIAEoCzIV",
-            "LmxpdmVraXQuUGxheW91dERlbGF5EjQKEGFnZW50X2Rpc3BhdGNoZXMYBSAD",
-            "KAsyGi5saXZla2l0LlJvb21BZ2VudERpc3BhdGNoEhQKDHN5bmNfc3RyZWFt",
-            "cxgEIAEoCBIWCg5yZXBsYXlfZW5hYmxlZBgGIAEoCBITCgtleHBvcnRfcm9v",
-            "bRgHIAEoCBItCgR0YWdzGAggAygLMh8ubGl2ZWtpdC5Sb29tSW50ZXJuYWwu",
-            "VGFnc0VudHJ5GisKCVRhZ3NFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUY",
-            "AiABKAk6AjgBIn4KCUlDRUNvbmZpZxI4ChVwcmVmZXJlbmNlX3N1YnNjcmli",
-            "ZXIYASABKA4yGS5saXZla2l0LklDRUNhbmRpZGF0ZVR5cGUSNwoUcHJlZmVy",
-            "ZW5jZV9wdWJsaXNoZXIYAiABKA4yGS5saXZla2l0LklDRUNhbmRpZGF0ZVR5",
-            "cGUqdgoITm9kZVR5cGUSCgoGU0VSVkVSEAASDgoKQ09OVFJPTExFUhABEgkK",
-            "BU1FRElBEAISCAoEVFVSThAEEgsKB1NXRUVQRVIQBRIMCghESVJFQ1RPUhAG",
-            "EhAKDEhPU1RFRF9BR0VOVBAHEgwKCFNFVFRJTkdTEAgqSwoJTm9kZVN0YXRl",
-            "Eg8KC1NUQVJUSU5HX1VQEAASCwoHU0VSVklORxABEhEKDVNIVVRUSU5HX0RP",
-            "V04QAhINCglTVVNQRU5ERUQQAyo6ChBJQ0VDYW5kaWRhdGVUeXBlEgwKCElD",
-            "VF9OT05FEAASCwoHSUNUX1RDUBABEgsKB0lDVF9UTFMQAkJGWiNnaXRodWIu",
-            "Y29tL2xpdmVraXQvcHJvdG9jb2wvbGl2ZWtpdKoCDUxpdmVLaXQuUHJvdG/q",
-            "Ag5MaXZlS2l0OjpQcm90b2IGcHJvdG8z"));
+            "IAEoBBIXCg9mb3J3YXJkX2xhdGVuY3kYMCABKA0SGgoOZm9yd2FyZF9qaXR0",
+            "ZXIYMSABKA1CAhgBEiQKHGZvcndhcmRfcHJvY2Vzc2luZ19wZXJfd3JpdGUY",
+            "OSABKA0SJQoFcmF0ZXMYMiADKAsyFi5saXZla2l0Lk5vZGVTdGF0c1JhdGUi",
+            "qwYKDU5vZGVTdGF0c1JhdGUSEgoKc3RhcnRlZF9hdBgBIAEoAxIQCghlbmRl",
+            "ZF9hdBgCIAEoAxIQCghkdXJhdGlvbhgDIAEoAxIeChZ0cmFja19wdWJsaXNo",
+            "X2F0dGVtcHRzGAQgASgCEh0KFXRyYWNrX3B1Ymxpc2hfc3VjY2VzcxgFIAEo",
+            "AhIdChV0cmFja19wdWJsaXNoX2NhbmNlbHMYGCABKAISIAoYdHJhY2tfc3Vi",
+            "c2NyaWJlX2F0dGVtcHRzGAYgASgCEh8KF3RyYWNrX3N1YnNjcmliZV9zdWNj",
+            "ZXNzGAcgASgCEh8KF3RyYWNrX3N1YnNjcmliZV9jYW5jZWxzGBkgASgCEhAK",
+            "CGJ5dGVzX2luGAggASgCEhEKCWJ5dGVzX291dBgJIAEoAhISCgpwYWNrZXRz",
+            "X2luGAogASgCEhMKC3BhY2tldHNfb3V0GAsgASgCEhIKCm5hY2tfdG90YWwY",
+            "DCABKAISFwoPc3lzX3BhY2tldHNfb3V0GA0gASgCEhsKE3N5c19wYWNrZXRz",
+            "X2Ryb3BwZWQYDiABKAISHAoUcmV0cmFuc21pdF9ieXRlc19vdXQYDyABKAIS",
+            "HgoWcmV0cmFuc21pdF9wYWNrZXRzX291dBgQIAEoAhIkChxwYXJ0aWNpcGFu",
+            "dF9zaWduYWxfY29ubmVjdGVkGBEgASgCEiEKGXBhcnRpY2lwYW50X3NpZ25h",
+            "bF9mYWlsZWQYHCABKAISLAokcGFydGljaXBhbnRfc2lnbmFsX3ZhbGlkYXRp",
+            "b25fZmFpbGVkGB0gASgCEiEKGXBhcnRpY2lwYW50X3J0Y19jb25uZWN0ZWQY",
+            "EiABKAISHAoUcGFydGljaXBhbnRfcnRjX2luaXQYEyABKAISIAoYcGFydGlj",
+            "aXBhbnRfcnRjX2NhbmNlbGVkGBogASgCEh4KFnBhcnRpY2lwYW50X3J0Y19h",
+            "Y3RpdmUYGyABKAISEAoIY3B1X2xvYWQYFCABKAISEwoLbWVtb3J5X2xvYWQY",
+            "FSABKAISEwoLbWVtb3J5X3VzZWQYFiABKAISFAoMbWVtb3J5X3RvdGFsGBcg",
+            "ASgCIqMGCgxTdGFydFNlc3Npb24SEQoJcm9vbV9uYW1lGAEgASgJEhAKCGlk",
+            "ZW50aXR5GAIgASgJEiYKDWNvbm5lY3Rpb25faWQYAyABKAlCD7pQDGNvbm5l",
+            "Y3Rpb25JRBIRCglyZWNvbm5lY3QYBCABKAgSFgoOYXV0b19zdWJzY3JpYmUY",
+            "CSABKAgSJgoZYXV0b19zdWJzY3JpYmVfZGF0YV90cmFjaxgZIAEoCEgAiAEB",
+            "EhIKBmhpZGRlbhgKIAEoCEICGAESIwoGY2xpZW50GAsgASgLMhMubGl2ZWtp",
+            "dC5DbGllbnRJbmZvEhQKCHJlY29yZGVyGAwgASgIQgIYARIMCgRuYW1lGA0g",
+            "ASgJEhMKC2dyYW50c19qc29uGA4gASgJEhcKD2FkYXB0aXZlX3N0cmVhbRgP",
+            "IAEoCBIoCg5wYXJ0aWNpcGFudF9pZBgQIAEoCUIQulANcGFydGljaXBhbnRJ",
+            "RBIyChByZWNvbm5lY3RfcmVhc29uGBEgASgOMhgubGl2ZWtpdC5SZWNvbm5l",
+            "Y3RSZWFzb24SIwoWc3Vic2NyaWJlcl9hbGxvd19wYXVzZRgSIAEoCEgBiAEB",
+            "EhgKEGRpc2FibGVfaWNlX2xpdGUYEyABKAgSLwoLY3JlYXRlX3Jvb20YFCAB",
+            "KAsyGi5saXZla2l0LkNyZWF0ZVJvb21SZXF1ZXN0EjQKEmFkZF90cmFja19y",
+            "ZXF1ZXN0cxgVIAMoCzIYLmxpdmVraXQuQWRkVHJhY2tSZXF1ZXN0EjQKD3B1",
+            "Ymxpc2hlcl9vZmZlchgWIAEoCzIbLmxpdmVraXQuU2Vzc2lvbkRlc2NyaXB0",
+            "aW9uEiYKCnN5bmNfc3RhdGUYFyABKAsyEi5saXZla2l0LlN5bmNTdGF0ZRIi",
+            "Chp1c2Vfc2luZ2xlX3BlZXJfY29ubmVjdGlvbhgYIAEoCBIYChB0b2tlbl9l",
+            "eHBpcmVzX2F0GBogASgDEg8KB2FwaV9rZXkYGyABKAlCHAoaX2F1dG9fc3Vi",
+            "c2NyaWJlX2RhdGFfdHJhY2tCGQoXX3N1YnNjcmliZXJfYWxsb3dfcGF1c2Ui",
+            "/QIKDFJvb21JbnRlcm5hbBIuCgx0cmFja19lZ3Jlc3MYASABKAsyGC5saXZl",
+            "a2l0LkF1dG9UcmFja0VncmVzcxI6ChJwYXJ0aWNpcGFudF9lZ3Jlc3MYAiAB",
+            "KAsyHi5saXZla2l0LkF1dG9QYXJ0aWNpcGFudEVncmVzcxIsCg1wbGF5b3V0",
+            "X2RlbGF5GAMgASgLMhUubGl2ZWtpdC5QbGF5b3V0RGVsYXkSNAoQYWdlbnRf",
+            "ZGlzcGF0Y2hlcxgFIAMoCzIaLmxpdmVraXQuUm9vbUFnZW50RGlzcGF0Y2gS",
+            "FAoMc3luY19zdHJlYW1zGAQgASgIEhYKDnJlcGxheV9lbmFibGVkGAYgASgI",
+            "EhMKC2V4cG9ydF9yb29tGAcgASgIEi0KBHRhZ3MYCCADKAsyHy5saXZla2l0",
+            "LlJvb21JbnRlcm5hbC5UYWdzRW50cnkaKwoJVGFnc0VudHJ5EgsKA2tleRgB",
+            "IAEoCRINCgV2YWx1ZRgCIAEoCToCOAEifgoJSUNFQ29uZmlnEjgKFXByZWZl",
+            "cmVuY2Vfc3Vic2NyaWJlchgBIAEoDjIZLmxpdmVraXQuSUNFQ2FuZGlkYXRl",
+            "VHlwZRI3ChRwcmVmZXJlbmNlX3B1Ymxpc2hlchgCIAEoDjIZLmxpdmVraXQu",
+            "SUNFQ2FuZGlkYXRlVHlwZSp2CghOb2RlVHlwZRIKCgZTRVJWRVIQABIOCgpD",
+            "T05UUk9MTEVSEAESCQoFTUVESUEQAhIICgRUVVJOEAQSCwoHU1dFRVBFUhAF",
+            "EgwKCERJUkVDVE9SEAYSEAoMSE9TVEVEX0FHRU5UEAcSDAoIU0VUVElOR1MQ",
+            "CCpLCglOb2RlU3RhdGUSDwoLU1RBUlRJTkdfVVAQABILCgdTRVJWSU5HEAES",
+            "EQoNU0hVVFRJTkdfRE9XThACEg0KCVNVU1BFTkRFRBADKjoKEElDRUNhbmRp",
+            "ZGF0ZVR5cGUSDAoISUNUX05PTkUQABILCgdJQ1RfVENQEAESCwoHSUNUX1RM",
+            "UxACQkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgIN",
+            "TGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitAgentDispatchReflection.Descriptor, global::LiveKit.Proto.LivekitEgressReflection.Descriptor, global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.LivekitRoomReflection.Descriptor, global::LiveKit.Proto.LivekitRtcReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.NodeType), typeof(global::LiveKit.Proto.NodeState), typeof(global::LiveKit.Proto.ICECandidateType), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Node), global::LiveKit.Proto.Node.Parser, new[]{ "Id", "Ip", "NumCpus", "Stats", "Type", "State", "Region" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStats), global::LiveKit.Proto.NodeStats.Parser, new[]{ "StartedAt", "UpdatedAt", "NumRooms", "NumClients", "NumTracksIn", "NumTracksOut", "NumTrackPublishAttempts", "TrackPublishAttemptsPerSec", "NumTrackPublishSuccess", "TrackPublishSuccessPerSec", "NumTrackPublishCancels", "NumTrackSubscribeAttempts", "TrackSubscribeAttemptsPerSec", "NumTrackSubscribeSuccess", "TrackSubscribeSuccessPerSec", "NumTrackSubscribeCancels", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "BytesInPerSec", "BytesOutPerSec", "PacketsInPerSec", "PacketsOutPerSec", "NackPerSec", "NumCpus", "LoadAvgLast1Min", "LoadAvgLast5Min", "LoadAvgLast15Min", "CpuLoad", "MemoryLoad", "MemoryTotal", "MemoryUsed", "SysPacketsOut", "SysPacketsDropped", "SysPacketsOutPerSec", "SysPacketsDroppedPerSec", "SysPacketsDroppedPctPerSec", "RetransmitBytesOut", "RetransmitPacketsOut", "RetransmitBytesOutPerSec", "RetransmitPacketsOutPerSec", "ParticipantSignalConnected", "ParticipantSignalConnectedPerSec", "ParticipantSignalFailed", "ParticipantSignalValidationFailed", "ParticipantRtcConnected", "ParticipantRtcConnectedPerSec", "ParticipantRtcInit", "ParticipantRtcInitPerSec", "ParticipantRtcCanceled", "ParticipantRtcActive", "ForwardLatency", "ForwardJitter", "Rates" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStats), global::LiveKit.Proto.NodeStats.Parser, new[]{ "StartedAt", "UpdatedAt", "NumRooms", "NumClients", "NumTracksIn", "NumTracksOut", "NumTrackPublishAttempts", "TrackPublishAttemptsPerSec", "NumTrackPublishSuccess", "TrackPublishSuccessPerSec", "NumTrackPublishCancels", "NumTrackSubscribeAttempts", "TrackSubscribeAttemptsPerSec", "NumTrackSubscribeSuccess", "TrackSubscribeSuccessPerSec", "NumTrackSubscribeCancels", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "BytesInPerSec", "BytesOutPerSec", "PacketsInPerSec", "PacketsOutPerSec", "NackPerSec", "NumCpus", "LoadAvgLast1Min", "LoadAvgLast5Min", "LoadAvgLast15Min", "CpuLoad", "MemoryLoad", "MemoryTotal", "MemoryUsed", "SysPacketsOut", "SysPacketsDropped", "SysPacketsOutPerSec", "SysPacketsDroppedPerSec", "SysPacketsDroppedPctPerSec", "RetransmitBytesOut", "RetransmitPacketsOut", "RetransmitBytesOutPerSec", "RetransmitPacketsOutPerSec", "ParticipantSignalConnected", "ParticipantSignalConnectedPerSec", "ParticipantSignalFailed", "ParticipantSignalValidationFailed", "ParticipantRtcConnected", "ParticipantRtcConnectedPerSec", "ParticipantRtcInit", "ParticipantRtcInitPerSec", "ParticipantRtcCanceled", "ParticipantRtcActive", "ForwardLatency", "ForwardJitter", "ForwardProcessingPerWrite", "Rates" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NodeStatsRate), global::LiveKit.Proto.NodeStatsRate.Parser, new[]{ "StartedAt", "EndedAt", "Duration", "TrackPublishAttempts", "TrackPublishSuccess", "TrackPublishCancels", "TrackSubscribeAttempts", "TrackSubscribeSuccess", "TrackSubscribeCancels", "BytesIn", "BytesOut", "PacketsIn", "PacketsOut", "NackTotal", "SysPacketsOut", "SysPacketsDropped", "RetransmitBytesOut", "RetransmitPacketsOut", "ParticipantSignalConnected", "ParticipantSignalFailed", "ParticipantSignalValidationFailed", "ParticipantRtcConnected", "ParticipantRtcInit", "ParticipantRtcCanceled", "ParticipantRtcActive", "CpuLoad", "MemoryLoad", "MemoryUsed", "MemoryTotal" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StartSession), global::LiveKit.Proto.StartSession.Parser, new[]{ "RoomName", "Identity", "ConnectionId", "Reconnect", "AutoSubscribe", "AutoSubscribeDataTrack", "Hidden", "Client", "Recorder", "Name", "GrantsJson", "AdaptiveStream", "ParticipantId", "ReconnectReason", "SubscriberAllowPause", "DisableIceLite", "CreateRoom", "AddTrackRequests", "PublisherOffer", "SyncState", "UseSinglePeerConnection", "TokenExpiresAt" }, new[]{ "AutoSubscribeDataTrack", "SubscriberAllowPause" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StartSession), global::LiveKit.Proto.StartSession.Parser, new[]{ "RoomName", "Identity", "ConnectionId", "Reconnect", "AutoSubscribe", "AutoSubscribeDataTrack", "Hidden", "Client", "Recorder", "Name", "GrantsJson", "AdaptiveStream", "ParticipantId", "ReconnectReason", "SubscriberAllowPause", "DisableIceLite", "CreateRoom", "AddTrackRequests", "PublisherOffer", "SyncState", "UseSinglePeerConnection", "TokenExpiresAt", "ApiKey" }, new[]{ "AutoSubscribeDataTrack", "SubscriberAllowPause" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RoomInternal), global::LiveKit.Proto.RoomInternal.Parser, new[]{ "TrackEgress", "ParticipantEgress", "PlayoutDelay", "AgentDispatches", "SyncStreams", "ReplayEnabled", "ExportRoom", "Tags" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ICEConfig), global::LiveKit.Proto.ICEConfig.Parser, new[]{ "PreferenceSubscriber", "PreferencePublisher" }, null, null, null, null)
           }));
@@ -687,6 +688,7 @@ namespace LiveKit.Proto {
       participantRtcActive_ = other.participantRtcActive_;
       forwardLatency_ = other.forwardLatency_;
       forwardJitter_ = other.forwardJitter_;
+      forwardProcessingPerWrite_ = other.forwardProcessingPerWrite_;
       rates_ = other.rates_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1391,12 +1393,28 @@ namespace LiveKit.Proto {
     /// <summary>Field number for the "forward_jitter" field.</summary>
     public const int ForwardJitterFieldNumber = 49;
     private uint forwardJitter_;
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public uint ForwardJitter {
       get { return forwardJitter_; }
       set {
         forwardJitter_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "forward_processing_per_write" field.</summary>
+    public const int ForwardProcessingPerWriteFieldNumber = 57;
+    private uint forwardProcessingPerWrite_;
+    /// <summary>
+    /// mean forwarding work per write to a subscriber, in ns: (end of fan-out - dequeue) / writes
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint ForwardProcessingPerWrite {
+      get { return forwardProcessingPerWrite_; }
+      set {
+        forwardProcessingPerWrite_ = value;
       }
     }
 
@@ -1481,6 +1499,7 @@ namespace LiveKit.Proto {
       if (ParticipantRtcActive != other.ParticipantRtcActive) return false;
       if (ForwardLatency != other.ForwardLatency) return false;
       if (ForwardJitter != other.ForwardJitter) return false;
+      if (ForwardProcessingPerWrite != other.ForwardProcessingPerWrite) return false;
       if(!rates_.Equals(other.rates_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1544,6 +1563,7 @@ namespace LiveKit.Proto {
       if (ParticipantRtcActive != 0UL) hash ^= ParticipantRtcActive.GetHashCode();
       if (ForwardLatency != 0) hash ^= ForwardLatency.GetHashCode();
       if (ForwardJitter != 0) hash ^= ForwardJitter.GetHashCode();
+      if (ForwardProcessingPerWrite != 0) hash ^= ForwardProcessingPerWrite.GetHashCode();
       hash ^= rates_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1784,6 +1804,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(192, 3);
         output.WriteUInt64(ParticipantSignalValidationFailed);
       }
+      if (ForwardProcessingPerWrite != 0) {
+        output.WriteRawTag(200, 3);
+        output.WriteUInt32(ForwardProcessingPerWrite);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2015,6 +2039,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(192, 3);
         output.WriteUInt64(ParticipantSignalValidationFailed);
       }
+      if (ForwardProcessingPerWrite != 0) {
+        output.WriteRawTag(200, 3);
+        output.WriteUInt32(ForwardProcessingPerWrite);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2189,6 +2217,9 @@ namespace LiveKit.Proto {
       }
       if (ForwardJitter != 0) {
         size += 2 + pb::CodedOutputStream.ComputeUInt32Size(ForwardJitter);
+      }
+      if (ForwardProcessingPerWrite != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeUInt32Size(ForwardProcessingPerWrite);
       }
       size += rates_.CalculateSize(_repeated_rates_codec);
       if (_unknownFields != null) {
@@ -2367,6 +2398,9 @@ namespace LiveKit.Proto {
       }
       if (other.ForwardJitter != 0) {
         ForwardJitter = other.ForwardJitter;
+      }
+      if (other.ForwardProcessingPerWrite != 0) {
+        ForwardProcessingPerWrite = other.ForwardProcessingPerWrite;
       }
       rates_.Add(other.rates_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -2612,6 +2646,10 @@ namespace LiveKit.Proto {
             ParticipantSignalValidationFailed = input.ReadUInt64();
             break;
           }
+          case 456: {
+            ForwardProcessingPerWrite = input.ReadUInt32();
+            break;
+          }
         }
       }
     #endif
@@ -2853,6 +2891,10 @@ namespace LiveKit.Proto {
           }
           case 448: {
             ParticipantSignalValidationFailed = input.ReadUInt64();
+            break;
+          }
+          case 456: {
+            ForwardProcessingPerWrite = input.ReadUInt32();
             break;
           }
         }
@@ -4161,6 +4203,7 @@ namespace LiveKit.Proto {
       syncState_ = other.syncState_ != null ? other.syncState_.Clone() : null;
       useSinglePeerConnection_ = other.useSinglePeerConnection_;
       tokenExpiresAt_ = other.tokenExpiresAt_;
+      apiKey_ = other.apiKey_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4474,6 +4517,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "api_key" field.</summary>
+    public const int ApiKeyFieldNumber = 27;
+    private string apiKey_ = "";
+    /// <summary>
+    /// API key that issued the join token, for correlating sessions with the key
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string ApiKey {
+      get { return apiKey_; }
+      set {
+        apiKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4511,6 +4569,7 @@ namespace LiveKit.Proto {
       if (!object.Equals(SyncState, other.SyncState)) return false;
       if (UseSinglePeerConnection != other.UseSinglePeerConnection) return false;
       if (TokenExpiresAt != other.TokenExpiresAt) return false;
+      if (ApiKey != other.ApiKey) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4540,6 +4599,7 @@ namespace LiveKit.Proto {
       if (syncState_ != null) hash ^= SyncState.GetHashCode();
       if (UseSinglePeerConnection != false) hash ^= UseSinglePeerConnection.GetHashCode();
       if (TokenExpiresAt != 0L) hash ^= TokenExpiresAt.GetHashCode();
+      if (ApiKey.Length != 0) hash ^= ApiKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4643,6 +4703,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(208, 1);
         output.WriteInt64(TokenExpiresAt);
       }
+      if (ApiKey.Length != 0) {
+        output.WriteRawTag(218, 1);
+        output.WriteString(ApiKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4738,6 +4802,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(208, 1);
         output.WriteInt64(TokenExpiresAt);
       }
+      if (ApiKey.Length != 0) {
+        output.WriteRawTag(218, 1);
+        output.WriteString(ApiKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4811,6 +4879,9 @@ namespace LiveKit.Proto {
       }
       if (TokenExpiresAt != 0L) {
         size += 2 + pb::CodedOutputStream.ComputeInt64Size(TokenExpiresAt);
+      }
+      if (ApiKey.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeStringSize(ApiKey);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4899,6 +4970,9 @@ namespace LiveKit.Proto {
       }
       if (other.TokenExpiresAt != 0L) {
         TokenExpiresAt = other.TokenExpiresAt;
+      }
+      if (other.ApiKey.Length != 0) {
+        ApiKey = other.ApiKey;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5019,6 +5093,10 @@ namespace LiveKit.Proto {
             TokenExpiresAt = input.ReadInt64();
             break;
           }
+          case 218: {
+            ApiKey = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -5136,6 +5214,10 @@ namespace LiveKit.Proto {
           }
           case 208: {
             TokenExpiresAt = input.ReadInt64();
+            break;
+          }
+          case 218: {
+            ApiKey = input.ReadString();
             break;
           }
         }

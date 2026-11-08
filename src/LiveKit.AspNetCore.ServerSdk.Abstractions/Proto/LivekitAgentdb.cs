@@ -24,80 +24,76 @@ namespace LiveKit.Proto {
     static LivekitAgentdbReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChVsaXZla2l0X2FnZW50ZGIucHJvdG8SB2xpdmVraXQikxQKB0FnZW50REIa",
-            "NAoNQ3JlYXRlUmVxdWVzdBIOCgZyZWdpb24YASABKAkSEwoLdHRsX3NlY29u",
-            "ZHMYAiABKAMaOQoOQ3JlYXRlUmVzcG9uc2USEwoLZGF0YWJhc2VfaWQYASAB",
-            "KAkSEgoKZXhwaXJlc19hdBgCIAEoAxohCgpHZXRSZXF1ZXN0EhMKC2RhdGFi",
-            "YXNlX2lkGAEgASgJGjQKC0xpc3RSZXF1ZXN0EhEKCXBhZ2Vfc2l6ZRgBIAEo",
-            "BRISCgpwYWdlX3Rva2VuGAIgASgJGloKDExpc3RSZXNwb25zZRIxCglkYXRh",
-            "YmFzZXMYASADKAsyHi5saXZla2l0LkFnZW50REIuQWdlbnREYXRhYmFzZRIX",
-            "Cg9uZXh0X3BhZ2VfdG9rZW4YAiABKAkaaQoNQWdlbnREYXRhYmFzZRITCgtk",
-            "YXRhYmFzZV9pZBgBIAEoCRIOCgZyZWdpb24YAiABKAkSEgoKY3JlYXRlZF9h",
-            "dBgDIAEoAxISCgpleHBpcmVzX2F0GAQgASgDEgsKA3RpcBgFIAEoAxokCg1E",
-            "ZWxldGVSZXF1ZXN0EhMKC2RhdGFiYXNlX2lkGAEgASgJGhAKDkRlbGV0ZVJl",
-            "c3BvbnNlGiIKC0R1bXBSZXF1ZXN0EhMKC2RhdGFiYXNlX2lkGAEgASgJGkUK",
-            "DER1bXBSZXNwb25zZRIUCgxkb3dubG9hZF91cmwYASABKAkSEgoKZXhwaXJl",
-            "c19hdBgCIAEoAxILCgN0aXAYAyABKAMa0w8KBFdpcmUaiwQKDUNsaWVudE1l",
-            "c3NhZ2USEgoKcmVxdWVzdF9pZBgBIAEoDRIsCgVoZWxsbxgCIAEoCzIbLmxp",
-            "dmVraXQuQWdlbnREQi5XaXJlLkhlbGxvSAASLwoEZXhlYxgDIAEoCzIfLmxp",
-            "dmVraXQuQWdlbnREQi5XaXJlLlN0YXRlbWVudEgAEjAKBXF1ZXJ5GAQgASgL",
-            "Mh8ubGl2ZWtpdC5BZ2VudERCLldpcmUuU3RhdGVtZW50SAASLAoFYmF0Y2gY",
-            "BSABKAsyGy5saXZla2l0LkFnZW50REIuV2lyZS5CYXRjaEgAEiwKBWJlZ2lu",
-            "GAYgASgLMhsubGl2ZWtpdC5BZ2VudERCLldpcmUuQmVnaW5IABIuCgZjb21t",
-            "aXQYByABKAsyHC5saXZla2l0LkFnZW50REIuV2lyZS5Db21taXRIABIyCghy",
-            "b2xsYmFjaxgIIAEoCzIeLmxpdmVraXQuQWdlbnREQi5XaXJlLlJvbGxiYWNr",
-            "SAASLgoGY2FuY2VsGAkgASgLMhwubGl2ZWtpdC5BZ2VudERCLldpcmUuQ2Fu",
-            "Y2VsSAASLgoGY3JlZGl0GAogASgLMhwubGl2ZWtpdC5BZ2VudERCLldpcmUu",
-            "Q3JlZGl0SAASKgoEcGluZxgLIAEoCzIaLmxpdmVraXQuQWdlbnREQi5XaXJl",
-            "LlBpbmdIAEIJCgdtZXNzYWdlGo0DCg1TZXJ2ZXJNZXNzYWdlEhIKCnJlcXVl",
-            "c3RfaWQYASABKA0SMQoIaGVsbG9fb2sYAiABKAsyHS5saXZla2l0LkFnZW50",
-            "REIuV2lyZS5IZWxsb09rSAASMAoHY29sdW1ucxgDIAEoCzIdLmxpdmVraXQu",
-            "QWdlbnREQi5XaXJlLkNvbHVtbnNIABI5Cgxjb2x1bW5fYmF0Y2gYBCABKAsy",
-            "IS5saXZla2l0LkFnZW50REIuV2lyZS5Db2x1bW5CYXRjaEgAEjcKC2V4ZWNf",
-            "cmVzdWx0GAUgASgLMiAubGl2ZWtpdC5BZ2VudERCLldpcmUuRXhlY1Jlc3Vs",
-            "dEgAEioKBGRvbmUYBiABKAsyGi5saXZla2l0LkFnZW50REIuV2lyZS5Eb25l",
-            "SAASLAoFZXJyb3IYByABKAsyGy5saXZla2l0LkFnZW50REIuV2lyZS5FcnJv",
-            "ckgAEioKBHBvbmcYCCABKAsyGi5saXZla2l0LkFnZW50REIuV2lyZS5Qb25n",
-            "SABCCQoHbWVzc2FnZRp/CgVWYWx1ZRIUCgpudWxsX3ZhbHVlGAEgASgISAAS",
-            "EwoJaW50X3ZhbHVlGAIgASgDSAASFgoMZG91YmxlX3ZhbHVlGAMgASgBSAAS",
-            "FAoKdGV4dF92YWx1ZRgEIAEoCUgAEhQKCmJsb2JfdmFsdWUYBSABKAxIAEIH",
-            "CgV2YWx1ZRp0CglTdGF0ZW1lbnQSCwoDc3FsGAEgASgJEisKBnBhcmFtcxgC",
-            "IAMoCzIbLmxpdmVraXQuQWdlbnREQi5XaXJlLlZhbHVlEi0KBGxhbmcYAyAB",
-            "KA4yHy5saXZla2l0LkFnZW50REIuV2lyZS5RdWVyeUxhbmcaPAoFQmF0Y2gS",
-            "MwoKc3RhdGVtZW50cxgBIAMoCzIfLmxpdmVraXQuQWdlbnREQi5XaXJlLlN0",
-            "YXRlbWVudBoHCgVCZWdpbhoICgZDb21taXQaCgoIUm9sbGJhY2saCAoGQ2Fu",
-            "Y2VsGhkKBkNyZWRpdBIPCgdiYXRjaGVzGAEgASgNGhwKBFBpbmcSFAoMdGlt",
-            "ZXN0YW1wX21zGAEgASgDGjwKBFBvbmcSHgoWbGFzdF9waW5nX3RpbWVzdGFt",
-            "cF9tcxgBIAEoAxIUCgx0aW1lc3RhbXBfbXMYAiABKAMaKwoFSGVsbG8SDQoF",
-            "dG9rZW4YASABKAkSEwoLZGF0YWJhc2VfaWQYAiABKAkaSQoHSGVsbG9PaxIL",
-            "CgN0aXAYASABKAMSGAoQcGluZ19pbnRlcnZhbF9tcxgCIAEoDRIXCg9waW5n",
-            "X3RpbWVvdXRfbXMYAyABKA0aGAoHQ29sdW1ucxINCgVuYW1lcxgBIAMoCRqC",
-            "AQoGQ29sdW1uEg0KBXR5cGVzGAEgASgMEgwKBGludHMYAiADKBISDwoHZG91",
-            "YmxlcxgDIAMoARIRCgl0ZXh0X2RhdGEYBCABKAwSEQoJdGV4dF9lbmRzGAUg",
-            "AygNEhEKCWJsb2JfZGF0YRgGIAEoDBIRCglibG9iX2VuZHMYByADKA0aSgoL",
-            "Q29sdW1uQmF0Y2gSLQoHY29sdW1ucxgBIAMoCzIcLmxpdmVraXQuQWdlbnRE",
-            "Qi5XaXJlLkNvbHVtbhIMCgRyb3dzGAIgASgNGkgKCkV4ZWNSZXN1bHQSFQoN",
-            "cm93c19hZmZlY3RlZBgBIAEoAxIWCg5sYXN0X2luc2VydF9pZBgCIAEoAxIL",
-            "CgN0aXAYAyABKAMaJwoERG9uZRILCgN0aXAYASABKAMSEgoKdG90YWxfcm93",
-            "cxgCIAEoBBomCgVFcnJvchIMCgRjb2RlGAEgASgJEg8KB21lc3NhZ2UYAiAB",
-            "KAkiGgoJUXVlcnlMYW5nEgcKA1NRTBAAIgQIARABIj4KCVZhbHVlVHlwZRII",
-            "CgROVUxMEAASBwoDSU5UEAESCgoGRE9VQkxFEAISCAoEVEVYVBADEggKBEJM",
-            "T0IQBDKdAwoOQWdlbnREQlNlcnZpY2USUQoOQ3JlYXRlRGF0YWJhc2USHi5s",
-            "aXZla2l0LkFnZW50REIuQ3JlYXRlUmVxdWVzdBofLmxpdmVraXQuQWdlbnRE",
-            "Qi5DcmVhdGVSZXNwb25zZRJKCgtHZXREYXRhYmFzZRIbLmxpdmVraXQuQWdl",
-            "bnREQi5HZXRSZXF1ZXN0Gh4ubGl2ZWtpdC5BZ2VudERCLkFnZW50RGF0YWJh",
-            "c2USTAoNTGlzdERhdGFiYXNlcxIcLmxpdmVraXQuQWdlbnREQi5MaXN0UmVx",
-            "dWVzdBodLmxpdmVraXQuQWdlbnREQi5MaXN0UmVzcG9uc2USUQoORGVsZXRl",
-            "RGF0YWJhc2USHi5saXZla2l0LkFnZW50REIuRGVsZXRlUmVxdWVzdBofLmxp",
-            "dmVraXQuQWdlbnREQi5EZWxldGVSZXNwb25zZRJLCgxEdW1wRGF0YWJhc2US",
-            "HC5saXZla2l0LkFnZW50REIuRHVtcFJlcXVlc3QaHS5saXZla2l0LkFnZW50",
-            "REIuRHVtcFJlc3BvbnNlQkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2Nv",
-            "bC9saXZla2l0qgINTGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZw",
-            "cm90bzM="));
+            "ChVsaXZla2l0X2FnZW50ZGIucHJvdG8SB2xpdmVraXQaHmdvb2dsZS9wcm90",
+            "b2J1Zi9kdXJhdGlvbi5wcm90bxofZ29vZ2xlL3Byb3RvYnVmL3RpbWVzdGFt",
+            "cC5wcm90bxoUbG9nZ2VyL29wdGlvbnMucHJvdG8iyRUKB0FnZW50REIaNwoN",
+            "Q3JlYXRlUmVxdWVzdBImCgN0dGwYASABKAsyGS5nb29nbGUucHJvdG9idWYu",
+            "RHVyYXRpb24aVQoOQ3JlYXRlUmVzcG9uc2USEwoLZGF0YWJhc2VfaWQYASAB",
+            "KAkSLgoKZXhwaXJlc19hdBgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1l",
+            "c3RhbXAaIQoKR2V0UmVxdWVzdBITCgtkYXRhYmFzZV9pZBgBIAEoCRo0CgtM",
+            "aXN0UmVxdWVzdBIRCglwYWdlX3NpemUYASABKAUSEgoKcGFnZV90b2tlbhgC",
+            "IAEoCRpaCgxMaXN0UmVzcG9uc2USMQoJZGF0YWJhc2VzGAEgAygLMh4ubGl2",
+            "ZWtpdC5BZ2VudERCLkFnZW50RGF0YWJhc2USFwoPbmV4dF9wYWdlX3Rva2Vu",
+            "GAIgASgJGqEBCg1BZ2VudERhdGFiYXNlEhMKC2RhdGFiYXNlX2lkGAEgASgJ",
+            "Eg4KBnJlZ2lvbhgCIAEoCRIuCgpjcmVhdGVkX2F0GAMgASgLMhouZ29vZ2xl",
+            "LnByb3RvYnVmLlRpbWVzdGFtcBIuCgpleHBpcmVzX2F0GAQgASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcBILCgN0aXAYBSABKAMaJAoNRGVsZXRl",
+            "UmVxdWVzdBITCgtkYXRhYmFzZV9pZBgBIAEoCRoQCg5EZWxldGVSZXNwb25z",
+            "ZRokCg1FeHBvcnRSZXF1ZXN0EhMKC2RhdGFiYXNlX2lkGAEgASgJGmMKDkV4",
+            "cG9ydFJlc3BvbnNlEhQKDGRvd25sb2FkX3VybBgBIAEoCRIuCgpleHBpcmVz",
+            "X2F0GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBILCgN0aXAY",
+            "AyABKAMakRAKBFdpcmUaiwQKDUNsaWVudE1lc3NhZ2USEgoKcmVxdWVzdF9p",
+            "ZBgBIAEoDRIsCgVoZWxsbxgCIAEoCzIbLmxpdmVraXQuQWdlbnREQi5XaXJl",
+            "LkhlbGxvSAASLwoEZXhlYxgDIAEoCzIfLmxpdmVraXQuQWdlbnREQi5XaXJl",
+            "LlN0YXRlbWVudEgAEjAKBXF1ZXJ5GAQgASgLMh8ubGl2ZWtpdC5BZ2VudERC",
+            "LldpcmUuU3RhdGVtZW50SAASLAoFYmF0Y2gYBSABKAsyGy5saXZla2l0LkFn",
+            "ZW50REIuV2lyZS5CYXRjaEgAEiwKBWJlZ2luGAYgASgLMhsubGl2ZWtpdC5B",
+            "Z2VudERCLldpcmUuQmVnaW5IABIuCgZjb21taXQYByABKAsyHC5saXZla2l0",
+            "LkFnZW50REIuV2lyZS5Db21taXRIABIyCghyb2xsYmFjaxgIIAEoCzIeLmxp",
+            "dmVraXQuQWdlbnREQi5XaXJlLlJvbGxiYWNrSAASLgoGY2FuY2VsGAkgASgL",
+            "MhwubGl2ZWtpdC5BZ2VudERCLldpcmUuQ2FuY2VsSAASLgoGY3JlZGl0GAog",
+            "ASgLMhwubGl2ZWtpdC5BZ2VudERCLldpcmUuQ3JlZGl0SAASKgoEcGluZxgL",
+            "IAEoCzIaLmxpdmVraXQuQWdlbnREQi5XaXJlLlBpbmdIAEIJCgdtZXNzYWdl",
+            "Go0DCg1TZXJ2ZXJNZXNzYWdlEhIKCnJlcXVlc3RfaWQYASABKA0SMQoIaGVs",
+            "bG9fb2sYAiABKAsyHS5saXZla2l0LkFnZW50REIuV2lyZS5IZWxsb09rSAAS",
+            "MAoHY29sdW1ucxgDIAEoCzIdLmxpdmVraXQuQWdlbnREQi5XaXJlLkNvbHVt",
+            "bnNIABI5Cgxjb2x1bW5fYmF0Y2gYBCABKAsyIS5saXZla2l0LkFnZW50REIu",
+            "V2lyZS5Db2x1bW5CYXRjaEgAEjcKC2V4ZWNfcmVzdWx0GAUgASgLMiAubGl2",
+            "ZWtpdC5BZ2VudERCLldpcmUuRXhlY1Jlc3VsdEgAEioKBGRvbmUYBiABKAsy",
+            "Gi5saXZla2l0LkFnZW50REIuV2lyZS5Eb25lSAASLAoFZXJyb3IYByABKAsy",
+            "Gy5saXZla2l0LkFnZW50REIuV2lyZS5FcnJvckgAEioKBHBvbmcYCCABKAsy",
+            "Gi5saXZla2l0LkFnZW50REIuV2lyZS5Qb25nSABCCQoHbWVzc2FnZRp/CgVW",
+            "YWx1ZRIUCgpudWxsX3ZhbHVlGAEgASgISAASEwoJaW50X3ZhbHVlGAIgASgD",
+            "SAASFgoMZG91YmxlX3ZhbHVlGAMgASgBSAASFAoKdGV4dF92YWx1ZRgEIAEo",
+            "CUgAEhQKCmJsb2JfdmFsdWUYBSABKAxIAEIHCgV2YWx1ZRp0CglTdGF0ZW1l",
+            "bnQSCwoDc3FsGAEgASgJEisKBnBhcmFtcxgCIAMoCzIbLmxpdmVraXQuQWdl",
+            "bnREQi5XaXJlLlZhbHVlEi0KBGxhbmcYAyABKA4yHy5saXZla2l0LkFnZW50",
+            "REIuV2lyZS5RdWVyeUxhbmcaPAoFQmF0Y2gSMwoKc3RhdGVtZW50cxgBIAMo",
+            "CzIfLmxpdmVraXQuQWdlbnREQi5XaXJlLlN0YXRlbWVudBoHCgVCZWdpbhoI",
+            "CgZDb21taXQaCgoIUm9sbGJhY2saCAoGQ2FuY2VsGhkKBkNyZWRpdBIPCgdi",
+            "YXRjaGVzGAEgASgNGhwKBFBpbmcSFAoMdGltZXN0YW1wX21zGAEgASgDGjwK",
+            "BFBvbmcSHgoWbGFzdF9waW5nX3RpbWVzdGFtcF9tcxgBIAEoAxIUCgx0aW1l",
+            "c3RhbXBfbXMYAiABKAMaMAoFSGVsbG8SEgoFdG9rZW4YASABKAlCA8BQAhIT",
+            "CgtkYXRhYmFzZV9pZBgCIAEoCRpJCgdIZWxsb09rEgsKA3RpcBgBIAEoAxIY",
+            "ChBwaW5nX2ludGVydmFsX21zGAIgASgNEhcKD3BpbmdfdGltZW91dF9tcxgD",
+            "IAEoDRorCgdDb2x1bW5zEg0KBW5hbWVzGAEgAygJEhEKCXN0YXRlbWVudBgC",
+            "IAEoDRqCAQoGQ29sdW1uEg0KBXR5cGVzGAEgASgMEgwKBGludHMYAiADKBIS",
+            "DwoHZG91YmxlcxgDIAMoARIRCgl0ZXh0X2RhdGEYBCABKAwSEQoJdGV4dF9l",
+            "bmRzGAUgAygNEhEKCWJsb2JfZGF0YRgGIAEoDBIRCglibG9iX2VuZHMYByAD",
+            "KA0aXQoLQ29sdW1uQmF0Y2gSLQoHY29sdW1ucxgBIAMoCzIcLmxpdmVraXQu",
+            "QWdlbnREQi5XaXJlLkNvbHVtbhIMCgRyb3dzGAIgASgNEhEKCXN0YXRlbWVu",
+            "dBgDIAEoDRpbCgpFeGVjUmVzdWx0EhUKDXJvd3NfYWZmZWN0ZWQYASABKAMS",
+            "FgoObGFzdF9pbnNlcnRfaWQYAiABKAMSCwoDdGlwGAMgASgDEhEKCXN0YXRl",
+            "bWVudBgEIAEoDRonCgREb25lEgsKA3RpcBgBIAEoAxISCgp0b3RhbF9yb3dz",
+            "GAIgASgEGiYKBUVycm9yEgwKBGNvZGUYASABKAkSDwoHbWVzc2FnZRgCIAEo",
+            "CSIaCglRdWVyeUxhbmcSBwoDU1FMEAAiBAgBEAEiPgoJVmFsdWVUeXBlEggK",
+            "BE5VTEwQABIHCgNJTlQQARIKCgZET1VCTEUQAhIICgRURVhUEAMSCAoEQkxP",
+            "QhAEQkZaI2dpdGh1Yi5jb20vbGl2ZWtpdC9wcm90b2NvbC9saXZla2l0qgIN",
+            "TGl2ZUtpdC5Qcm90b+oCDkxpdmVLaXQ6OlByb3RvYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB), global::LiveKit.Proto.AgentDB.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.CreateRequest), global::LiveKit.Proto.AgentDB.Types.CreateRequest.Parser, new[]{ "Region", "TtlSeconds" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB), global::LiveKit.Proto.AgentDB.Parser, null, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.CreateRequest), global::LiveKit.Proto.AgentDB.Types.CreateRequest.Parser, new[]{ "Ttl" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.CreateResponse), global::LiveKit.Proto.AgentDB.Types.CreateResponse.Parser, new[]{ "DatabaseId", "ExpiresAt" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.GetRequest), global::LiveKit.Proto.AgentDB.Types.GetRequest.Parser, new[]{ "DatabaseId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.ListRequest), global::LiveKit.Proto.AgentDB.Types.ListRequest.Parser, new[]{ "PageSize", "PageToken" }, null, null, null, null),
@@ -105,8 +101,8 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.AgentDatabase), global::LiveKit.Proto.AgentDB.Types.AgentDatabase.Parser, new[]{ "DatabaseId", "Region", "CreatedAt", "ExpiresAt", "Tip" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.DeleteRequest), global::LiveKit.Proto.AgentDB.Types.DeleteRequest.Parser, new[]{ "DatabaseId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.DeleteResponse), global::LiveKit.Proto.AgentDB.Types.DeleteResponse.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.DumpRequest), global::LiveKit.Proto.AgentDB.Types.DumpRequest.Parser, new[]{ "DatabaseId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.DumpResponse), global::LiveKit.Proto.AgentDB.Types.DumpResponse.Parser, new[]{ "DownloadUrl", "ExpiresAt", "Tip" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.ExportRequest), global::LiveKit.Proto.AgentDB.Types.ExportRequest.Parser, new[]{ "DatabaseId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.ExportResponse), global::LiveKit.Proto.AgentDB.Types.ExportResponse.Parser, new[]{ "DownloadUrl", "ExpiresAt", "Tip" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire), global::LiveKit.Proto.AgentDB.Types.Wire.Parser, null, null, new[]{ typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.QueryLang), typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.ValueType) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.ClientMessage), global::LiveKit.Proto.AgentDB.Types.Wire.Types.ClientMessage.Parser, new[]{ "RequestId", "Hello", "Exec", "Query", "Batch", "Begin", "Commit", "Rollback", "Cancel", "Credit", "Ping" }, new[]{ "Message" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.ServerMessage), global::LiveKit.Proto.AgentDB.Types.Wire.Types.ServerMessage.Parser, new[]{ "RequestId", "HelloOk", "Columns", "ColumnBatch", "ExecResult", "Done", "Error", "Pong" }, new[]{ "Message" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.Value), global::LiveKit.Proto.AgentDB.Types.Wire.Types.Value.Parser, new[]{ "NullValue", "IntValue", "DoubleValue", "TextValue", "BlobValue" }, new[]{ "Value" }, null, null, null),
@@ -121,10 +117,10 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.Pong), global::LiveKit.Proto.AgentDB.Types.Wire.Types.Pong.Parser, new[]{ "LastPingTimestampMs", "TimestampMs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.Hello), global::LiveKit.Proto.AgentDB.Types.Wire.Types.Hello.Parser, new[]{ "Token", "DatabaseId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.HelloOk), global::LiveKit.Proto.AgentDB.Types.Wire.Types.HelloOk.Parser, new[]{ "Tip", "PingIntervalMs", "PingTimeoutMs" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.Columns), global::LiveKit.Proto.AgentDB.Types.Wire.Types.Columns.Parser, new[]{ "Names" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.Columns), global::LiveKit.Proto.AgentDB.Types.Wire.Types.Columns.Parser, new[]{ "Names", "Statement" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.Column), global::LiveKit.Proto.AgentDB.Types.Wire.Types.Column.Parser, new[]{ "Types_", "Ints", "Doubles", "TextData", "TextEnds", "BlobData", "BlobEnds" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.ColumnBatch), global::LiveKit.Proto.AgentDB.Types.Wire.Types.ColumnBatch.Parser, new[]{ "Columns", "Rows" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.ExecResult), global::LiveKit.Proto.AgentDB.Types.Wire.Types.ExecResult.Parser, new[]{ "RowsAffected", "LastInsertId", "Tip" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.ColumnBatch), global::LiveKit.Proto.AgentDB.Types.Wire.Types.ColumnBatch.Parser, new[]{ "Columns", "Rows", "Statement" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.ExecResult), global::LiveKit.Proto.AgentDB.Types.Wire.Types.ExecResult.Parser, new[]{ "RowsAffected", "LastInsertId", "Tip", "Statement" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.Done), global::LiveKit.Proto.AgentDB.Types.Wire.Types.Done.Parser, new[]{ "Tip", "TotalRows" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentDB.Types.Wire.Types.Error), global::LiveKit.Proto.AgentDB.Types.Wire.Types.Error.Parser, new[]{ "Code", "Message" }, null, null, null, null)})})
           }));
@@ -336,8 +332,7 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public CreateRequest(CreateRequest other) : this() {
-          region_ = other.region_;
-          ttlSeconds_ = other.ttlSeconds_;
+          ttl_ = other.ttl_ != null ? other.ttl_.Clone() : null;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -347,31 +342,19 @@ namespace LiveKit.Proto {
           return new CreateRequest(this);
         }
 
-        /// <summary>Field number for the "region" field.</summary>
-        public const int RegionFieldNumber = 1;
-        private string region_ = "";
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public string Region {
-          get { return region_; }
-          set {
-            region_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
-        /// <summary>Field number for the "ttl_seconds" field.</summary>
-        public const int TtlSecondsFieldNumber = 2;
-        private long ttlSeconds_;
+        /// <summary>Field number for the "ttl" field.</summary>
+        public const int TtlFieldNumber = 1;
+        private global::Google.Protobuf.WellKnownTypes.Duration ttl_;
         /// <summary>
-        /// Unset: never expires, and expires_at is then 0 everywhere.
+        /// Unset: never expires, and expires_at is then unset everywhere.
         /// Otherwise clamped to the server cap, and never extended.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public long TtlSeconds {
-          get { return ttlSeconds_; }
+        public global::Google.Protobuf.WellKnownTypes.Duration Ttl {
+          get { return ttl_; }
           set {
-            ttlSeconds_ = value;
+            ttl_ = value;
           }
         }
 
@@ -390,8 +373,7 @@ namespace LiveKit.Proto {
           if (ReferenceEquals(other, this)) {
             return true;
           }
-          if (Region != other.Region) return false;
-          if (TtlSeconds != other.TtlSeconds) return false;
+          if (!object.Equals(Ttl, other.Ttl)) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -399,8 +381,7 @@ namespace LiveKit.Proto {
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override int GetHashCode() {
           int hash = 1;
-          if (Region.Length != 0) hash ^= Region.GetHashCode();
-          if (TtlSeconds != 0L) hash ^= TtlSeconds.GetHashCode();
+          if (ttl_ != null) hash ^= Ttl.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -419,13 +400,9 @@ namespace LiveKit.Proto {
         #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           output.WriteRawMessage(this);
         #else
-          if (Region.Length != 0) {
+          if (ttl_ != null) {
             output.WriteRawTag(10);
-            output.WriteString(Region);
-          }
-          if (TtlSeconds != 0L) {
-            output.WriteRawTag(16);
-            output.WriteInt64(TtlSeconds);
+            output.WriteMessage(Ttl);
           }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
@@ -437,13 +414,9 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-          if (Region.Length != 0) {
+          if (ttl_ != null) {
             output.WriteRawTag(10);
-            output.WriteString(Region);
-          }
-          if (TtlSeconds != 0L) {
-            output.WriteRawTag(16);
-            output.WriteInt64(TtlSeconds);
+            output.WriteMessage(Ttl);
           }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
@@ -455,11 +428,8 @@ namespace LiveKit.Proto {
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public int CalculateSize() {
           int size = 0;
-          if (Region.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(Region);
-          }
-          if (TtlSeconds != 0L) {
-            size += 1 + pb::CodedOutputStream.ComputeInt64Size(TtlSeconds);
+          if (ttl_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(Ttl);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -473,11 +443,11 @@ namespace LiveKit.Proto {
           if (other == null) {
             return;
           }
-          if (other.Region.Length != 0) {
-            Region = other.Region;
-          }
-          if (other.TtlSeconds != 0L) {
-            TtlSeconds = other.TtlSeconds;
+          if (other.ttl_ != null) {
+            if (ttl_ == null) {
+              Ttl = new global::Google.Protobuf.WellKnownTypes.Duration();
+            }
+            Ttl.MergeFrom(other.Ttl);
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -499,11 +469,10 @@ namespace LiveKit.Proto {
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
               case 10: {
-                Region = input.ReadString();
-                break;
-              }
-              case 16: {
-                TtlSeconds = input.ReadInt64();
+                if (ttl_ == null) {
+                  Ttl = new global::Google.Protobuf.WellKnownTypes.Duration();
+                }
+                input.ReadMessage(Ttl);
                 break;
               }
             }
@@ -526,11 +495,10 @@ namespace LiveKit.Proto {
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
                 break;
               case 10: {
-                Region = input.ReadString();
-                break;
-              }
-              case 16: {
-                TtlSeconds = input.ReadInt64();
+                if (ttl_ == null) {
+                  Ttl = new global::Google.Protobuf.WellKnownTypes.Duration();
+                }
+                input.ReadMessage(Ttl);
                 break;
               }
             }
@@ -576,7 +544,7 @@ namespace LiveKit.Proto {
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public CreateResponse(CreateResponse other) : this() {
           databaseId_ = other.databaseId_;
-          expiresAt_ = other.expiresAt_;
+          expiresAt_ = other.expiresAt_ != null ? other.expiresAt_.Clone() : null;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -603,10 +571,10 @@ namespace LiveKit.Proto {
 
         /// <summary>Field number for the "expires_at" field.</summary>
         public const int ExpiresAtFieldNumber = 2;
-        private long expiresAt_;
+        private global::Google.Protobuf.WellKnownTypes.Timestamp expiresAt_;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public long ExpiresAt {
+        public global::Google.Protobuf.WellKnownTypes.Timestamp ExpiresAt {
           get { return expiresAt_; }
           set {
             expiresAt_ = value;
@@ -629,7 +597,7 @@ namespace LiveKit.Proto {
             return true;
           }
           if (DatabaseId != other.DatabaseId) return false;
-          if (ExpiresAt != other.ExpiresAt) return false;
+          if (!object.Equals(ExpiresAt, other.ExpiresAt)) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -638,7 +606,7 @@ namespace LiveKit.Proto {
         public override int GetHashCode() {
           int hash = 1;
           if (DatabaseId.Length != 0) hash ^= DatabaseId.GetHashCode();
-          if (ExpiresAt != 0L) hash ^= ExpiresAt.GetHashCode();
+          if (expiresAt_ != null) hash ^= ExpiresAt.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -661,9 +629,9 @@ namespace LiveKit.Proto {
             output.WriteRawTag(10);
             output.WriteString(DatabaseId);
           }
-          if (ExpiresAt != 0L) {
-            output.WriteRawTag(16);
-            output.WriteInt64(ExpiresAt);
+          if (expiresAt_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ExpiresAt);
           }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
@@ -679,9 +647,9 @@ namespace LiveKit.Proto {
             output.WriteRawTag(10);
             output.WriteString(DatabaseId);
           }
-          if (ExpiresAt != 0L) {
-            output.WriteRawTag(16);
-            output.WriteInt64(ExpiresAt);
+          if (expiresAt_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ExpiresAt);
           }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
@@ -696,8 +664,8 @@ namespace LiveKit.Proto {
           if (DatabaseId.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(DatabaseId);
           }
-          if (ExpiresAt != 0L) {
-            size += 1 + pb::CodedOutputStream.ComputeInt64Size(ExpiresAt);
+          if (expiresAt_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpiresAt);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -714,8 +682,11 @@ namespace LiveKit.Proto {
           if (other.DatabaseId.Length != 0) {
             DatabaseId = other.DatabaseId;
           }
-          if (other.ExpiresAt != 0L) {
-            ExpiresAt = other.ExpiresAt;
+          if (other.expiresAt_ != null) {
+            if (expiresAt_ == null) {
+              ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            ExpiresAt.MergeFrom(other.ExpiresAt);
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -740,8 +711,11 @@ namespace LiveKit.Proto {
                 DatabaseId = input.ReadString();
                 break;
               }
-              case 16: {
-                ExpiresAt = input.ReadInt64();
+              case 18: {
+                if (expiresAt_ == null) {
+                  ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(ExpiresAt);
                 break;
               }
             }
@@ -767,8 +741,11 @@ namespace LiveKit.Proto {
                 DatabaseId = input.ReadString();
                 break;
               }
-              case 16: {
-                ExpiresAt = input.ReadInt64();
+              case 18: {
+                if (expiresAt_ == null) {
+                  ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(ExpiresAt);
                 break;
               }
             }
@@ -1481,8 +1458,8 @@ namespace LiveKit.Proto {
         public AgentDatabase(AgentDatabase other) : this() {
           databaseId_ = other.databaseId_;
           region_ = other.region_;
-          createdAt_ = other.createdAt_;
-          expiresAt_ = other.expiresAt_;
+          createdAt_ = other.createdAt_ != null ? other.createdAt_.Clone() : null;
+          expiresAt_ = other.expiresAt_ != null ? other.expiresAt_.Clone() : null;
           tip_ = other.tip_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
@@ -1519,10 +1496,10 @@ namespace LiveKit.Proto {
 
         /// <summary>Field number for the "created_at" field.</summary>
         public const int CreatedAtFieldNumber = 3;
-        private long createdAt_;
+        private global::Google.Protobuf.WellKnownTypes.Timestamp createdAt_;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public long CreatedAt {
+        public global::Google.Protobuf.WellKnownTypes.Timestamp CreatedAt {
           get { return createdAt_; }
           set {
             createdAt_ = value;
@@ -1531,10 +1508,10 @@ namespace LiveKit.Proto {
 
         /// <summary>Field number for the "expires_at" field.</summary>
         public const int ExpiresAtFieldNumber = 4;
-        private long expiresAt_;
+        private global::Google.Protobuf.WellKnownTypes.Timestamp expiresAt_;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public long ExpiresAt {
+        public global::Google.Protobuf.WellKnownTypes.Timestamp ExpiresAt {
           get { return expiresAt_; }
           set {
             expiresAt_ = value;
@@ -1570,8 +1547,8 @@ namespace LiveKit.Proto {
           }
           if (DatabaseId != other.DatabaseId) return false;
           if (Region != other.Region) return false;
-          if (CreatedAt != other.CreatedAt) return false;
-          if (ExpiresAt != other.ExpiresAt) return false;
+          if (!object.Equals(CreatedAt, other.CreatedAt)) return false;
+          if (!object.Equals(ExpiresAt, other.ExpiresAt)) return false;
           if (Tip != other.Tip) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
@@ -1582,8 +1559,8 @@ namespace LiveKit.Proto {
           int hash = 1;
           if (DatabaseId.Length != 0) hash ^= DatabaseId.GetHashCode();
           if (Region.Length != 0) hash ^= Region.GetHashCode();
-          if (CreatedAt != 0L) hash ^= CreatedAt.GetHashCode();
-          if (ExpiresAt != 0L) hash ^= ExpiresAt.GetHashCode();
+          if (createdAt_ != null) hash ^= CreatedAt.GetHashCode();
+          if (expiresAt_ != null) hash ^= ExpiresAt.GetHashCode();
           if (Tip != 0L) hash ^= Tip.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -1611,13 +1588,13 @@ namespace LiveKit.Proto {
             output.WriteRawTag(18);
             output.WriteString(Region);
           }
-          if (CreatedAt != 0L) {
-            output.WriteRawTag(24);
-            output.WriteInt64(CreatedAt);
+          if (createdAt_ != null) {
+            output.WriteRawTag(26);
+            output.WriteMessage(CreatedAt);
           }
-          if (ExpiresAt != 0L) {
-            output.WriteRawTag(32);
-            output.WriteInt64(ExpiresAt);
+          if (expiresAt_ != null) {
+            output.WriteRawTag(34);
+            output.WriteMessage(ExpiresAt);
           }
           if (Tip != 0L) {
             output.WriteRawTag(40);
@@ -1641,13 +1618,13 @@ namespace LiveKit.Proto {
             output.WriteRawTag(18);
             output.WriteString(Region);
           }
-          if (CreatedAt != 0L) {
-            output.WriteRawTag(24);
-            output.WriteInt64(CreatedAt);
+          if (createdAt_ != null) {
+            output.WriteRawTag(26);
+            output.WriteMessage(CreatedAt);
           }
-          if (ExpiresAt != 0L) {
-            output.WriteRawTag(32);
-            output.WriteInt64(ExpiresAt);
+          if (expiresAt_ != null) {
+            output.WriteRawTag(34);
+            output.WriteMessage(ExpiresAt);
           }
           if (Tip != 0L) {
             output.WriteRawTag(40);
@@ -1669,11 +1646,11 @@ namespace LiveKit.Proto {
           if (Region.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(Region);
           }
-          if (CreatedAt != 0L) {
-            size += 1 + pb::CodedOutputStream.ComputeInt64Size(CreatedAt);
+          if (createdAt_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(CreatedAt);
           }
-          if (ExpiresAt != 0L) {
-            size += 1 + pb::CodedOutputStream.ComputeInt64Size(ExpiresAt);
+          if (expiresAt_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpiresAt);
           }
           if (Tip != 0L) {
             size += 1 + pb::CodedOutputStream.ComputeInt64Size(Tip);
@@ -1696,11 +1673,17 @@ namespace LiveKit.Proto {
           if (other.Region.Length != 0) {
             Region = other.Region;
           }
-          if (other.CreatedAt != 0L) {
-            CreatedAt = other.CreatedAt;
+          if (other.createdAt_ != null) {
+            if (createdAt_ == null) {
+              CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            CreatedAt.MergeFrom(other.CreatedAt);
           }
-          if (other.ExpiresAt != 0L) {
-            ExpiresAt = other.ExpiresAt;
+          if (other.expiresAt_ != null) {
+            if (expiresAt_ == null) {
+              ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            ExpiresAt.MergeFrom(other.ExpiresAt);
           }
           if (other.Tip != 0L) {
             Tip = other.Tip;
@@ -1732,12 +1715,18 @@ namespace LiveKit.Proto {
                 Region = input.ReadString();
                 break;
               }
-              case 24: {
-                CreatedAt = input.ReadInt64();
+              case 26: {
+                if (createdAt_ == null) {
+                  CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(CreatedAt);
                 break;
               }
-              case 32: {
-                ExpiresAt = input.ReadInt64();
+              case 34: {
+                if (expiresAt_ == null) {
+                  ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(ExpiresAt);
                 break;
               }
               case 40: {
@@ -1771,12 +1760,18 @@ namespace LiveKit.Proto {
                 Region = input.ReadString();
                 break;
               }
-              case 24: {
-                CreatedAt = input.ReadInt64();
+              case 26: {
+                if (createdAt_ == null) {
+                  CreatedAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(CreatedAt);
                 break;
               }
-              case 32: {
-                ExpiresAt = input.ReadInt64();
+              case 34: {
+                if (expiresAt_ == null) {
+                  ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(ExpiresAt);
                 break;
               }
               case 40: {
@@ -2150,16 +2145,16 @@ namespace LiveKit.Proto {
       }
 
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class DumpRequest : pb::IMessage<DumpRequest>
+      public sealed partial class ExportRequest : pb::IMessage<ExportRequest>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<DumpRequest> _parser = new pb::MessageParser<DumpRequest>(() => new DumpRequest());
+        private static readonly pb::MessageParser<ExportRequest> _parser = new pb::MessageParser<ExportRequest>(() => new ExportRequest());
         private pb::UnknownFieldSet _unknownFields;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<DumpRequest> Parser { get { return _parser; } }
+        public static pb::MessageParser<ExportRequest> Parser { get { return _parser; } }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2175,7 +2170,7 @@ namespace LiveKit.Proto {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public DumpRequest() {
+        public ExportRequest() {
           OnConstruction();
         }
 
@@ -2183,15 +2178,15 @@ namespace LiveKit.Proto {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public DumpRequest(DumpRequest other) : this() {
+        public ExportRequest(ExportRequest other) : this() {
           databaseId_ = other.databaseId_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public DumpRequest Clone() {
-          return new DumpRequest(this);
+        public ExportRequest Clone() {
+          return new ExportRequest(this);
         }
 
         /// <summary>Field number for the "database_id" field.</summary>
@@ -2209,12 +2204,12 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
-          return Equals(other as DumpRequest);
+          return Equals(other as ExportRequest);
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(DumpRequest other) {
+        public bool Equals(ExportRequest other) {
           if (ReferenceEquals(other, null)) {
             return false;
           }
@@ -2287,7 +2282,7 @@ namespace LiveKit.Proto {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(DumpRequest other) {
+        public void MergeFrom(ExportRequest other) {
           if (other == null) {
             return;
           }
@@ -2348,16 +2343,16 @@ namespace LiveKit.Proto {
       }
 
       [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-      public sealed partial class DumpResponse : pb::IMessage<DumpResponse>
+      public sealed partial class ExportResponse : pb::IMessage<ExportResponse>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
       #endif
       {
-        private static readonly pb::MessageParser<DumpResponse> _parser = new pb::MessageParser<DumpResponse>(() => new DumpResponse());
+        private static readonly pb::MessageParser<ExportResponse> _parser = new pb::MessageParser<ExportResponse>(() => new ExportResponse());
         private pb::UnknownFieldSet _unknownFields;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public static pb::MessageParser<DumpResponse> Parser { get { return _parser; } }
+        public static pb::MessageParser<ExportResponse> Parser { get { return _parser; } }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2373,7 +2368,7 @@ namespace LiveKit.Proto {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public DumpResponse() {
+        public ExportResponse() {
           OnConstruction();
         }
 
@@ -2381,17 +2376,17 @@ namespace LiveKit.Proto {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public DumpResponse(DumpResponse other) : this() {
+        public ExportResponse(ExportResponse other) : this() {
           downloadUrl_ = other.downloadUrl_;
-          expiresAt_ = other.expiresAt_;
+          expiresAt_ = other.expiresAt_ != null ? other.expiresAt_.Clone() : null;
           tip_ = other.tip_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public DumpResponse Clone() {
-          return new DumpResponse(this);
+        public ExportResponse Clone() {
+          return new ExportResponse(this);
         }
 
         /// <summary>Field number for the "download_url" field.</summary>
@@ -2411,13 +2406,13 @@ namespace LiveKit.Proto {
 
         /// <summary>Field number for the "expires_at" field.</summary>
         public const int ExpiresAtFieldNumber = 2;
-        private long expiresAt_;
+        private global::Google.Protobuf.WellKnownTypes.Timestamp expiresAt_;
         /// <summary>
         /// of the URL, not the database
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public long ExpiresAt {
+        public global::Google.Protobuf.WellKnownTypes.Timestamp ExpiresAt {
           get { return expiresAt_; }
           set {
             expiresAt_ = value;
@@ -2428,7 +2423,7 @@ namespace LiveKit.Proto {
         public const int TipFieldNumber = 3;
         private long tip_;
         /// <summary>
-        /// what the dump is consistent at
+        /// what the export is consistent at
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2442,12 +2437,12 @@ namespace LiveKit.Proto {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
-          return Equals(other as DumpResponse);
+          return Equals(other as ExportResponse);
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public bool Equals(DumpResponse other) {
+        public bool Equals(ExportResponse other) {
           if (ReferenceEquals(other, null)) {
             return false;
           }
@@ -2455,7 +2450,7 @@ namespace LiveKit.Proto {
             return true;
           }
           if (DownloadUrl != other.DownloadUrl) return false;
-          if (ExpiresAt != other.ExpiresAt) return false;
+          if (!object.Equals(ExpiresAt, other.ExpiresAt)) return false;
           if (Tip != other.Tip) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
@@ -2465,7 +2460,7 @@ namespace LiveKit.Proto {
         public override int GetHashCode() {
           int hash = 1;
           if (DownloadUrl.Length != 0) hash ^= DownloadUrl.GetHashCode();
-          if (ExpiresAt != 0L) hash ^= ExpiresAt.GetHashCode();
+          if (expiresAt_ != null) hash ^= ExpiresAt.GetHashCode();
           if (Tip != 0L) hash ^= Tip.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -2489,9 +2484,9 @@ namespace LiveKit.Proto {
             output.WriteRawTag(10);
             output.WriteString(DownloadUrl);
           }
-          if (ExpiresAt != 0L) {
-            output.WriteRawTag(16);
-            output.WriteInt64(ExpiresAt);
+          if (expiresAt_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ExpiresAt);
           }
           if (Tip != 0L) {
             output.WriteRawTag(24);
@@ -2511,9 +2506,9 @@ namespace LiveKit.Proto {
             output.WriteRawTag(10);
             output.WriteString(DownloadUrl);
           }
-          if (ExpiresAt != 0L) {
-            output.WriteRawTag(16);
-            output.WriteInt64(ExpiresAt);
+          if (expiresAt_ != null) {
+            output.WriteRawTag(18);
+            output.WriteMessage(ExpiresAt);
           }
           if (Tip != 0L) {
             output.WriteRawTag(24);
@@ -2532,8 +2527,8 @@ namespace LiveKit.Proto {
           if (DownloadUrl.Length != 0) {
             size += 1 + pb::CodedOutputStream.ComputeStringSize(DownloadUrl);
           }
-          if (ExpiresAt != 0L) {
-            size += 1 + pb::CodedOutputStream.ComputeInt64Size(ExpiresAt);
+          if (expiresAt_ != null) {
+            size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpiresAt);
           }
           if (Tip != 0L) {
             size += 1 + pb::CodedOutputStream.ComputeInt64Size(Tip);
@@ -2546,15 +2541,18 @@ namespace LiveKit.Proto {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public void MergeFrom(DumpResponse other) {
+        public void MergeFrom(ExportResponse other) {
           if (other == null) {
             return;
           }
           if (other.DownloadUrl.Length != 0) {
             DownloadUrl = other.DownloadUrl;
           }
-          if (other.ExpiresAt != 0L) {
-            ExpiresAt = other.ExpiresAt;
+          if (other.expiresAt_ != null) {
+            if (expiresAt_ == null) {
+              ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            ExpiresAt.MergeFrom(other.ExpiresAt);
           }
           if (other.Tip != 0L) {
             Tip = other.Tip;
@@ -2582,8 +2580,11 @@ namespace LiveKit.Proto {
                 DownloadUrl = input.ReadString();
                 break;
               }
-              case 16: {
-                ExpiresAt = input.ReadInt64();
+              case 18: {
+                if (expiresAt_ == null) {
+                  ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(ExpiresAt);
                 break;
               }
               case 24: {
@@ -2613,8 +2614,11 @@ namespace LiveKit.Proto {
                 DownloadUrl = input.ReadString();
                 break;
               }
-              case 16: {
-                ExpiresAt = input.ReadInt64();
+              case 18: {
+                if (expiresAt_ == null) {
+                  ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+                }
+                input.ReadMessage(ExpiresAt);
                 break;
               }
               case 24: {
@@ -2946,6 +2950,9 @@ namespace LiveKit.Proto {
 
             /// <summary>Field number for the "batch" field.</summary>
             public const int BatchFieldNumber = 5;
+            /// <summary>
+            /// answers one result per statement, then Done
+            /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public global::LiveKit.Proto.AgentDB.Types.Wire.Types.Batch Batch {
@@ -4897,6 +4904,14 @@ namespace LiveKit.Proto {
 
           }
 
+          /// <summary>
+          /// Applied atomically, in order, and answered with one result per
+          /// statement, in order: Columns then ColumnBatch frames for a statement
+          /// that returns rows, one ExecResult for one that does not, each tagged
+          /// with the statement's 0-based index, then a single Done for the whole
+          /// batch. A statement that returns no rows still sends its Columns. Credit
+          /// paces the ColumnBatch frames of the batch as a whole.
+          /// </summary>
           [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
           public sealed partial class Batch : pb::IMessage<Batch>
           #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -4947,9 +4962,6 @@ namespace LiveKit.Proto {
             private static readonly pb::FieldCodec<global::LiveKit.Proto.AgentDB.Types.Wire.Types.Statement> _repeated_statements_codec
                 = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.AgentDB.Types.Wire.Types.Statement.Parser);
             private readonly pbc::RepeatedField<global::LiveKit.Proto.AgentDB.Types.Wire.Types.Statement> statements_ = new pbc::RepeatedField<global::LiveKit.Proto.AgentDB.Types.Wire.Types.Statement>();
-            /// <summary>
-            /// applied atomically, in order
-            /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public pbc::RepeatedField<global::LiveKit.Proto.AgentDB.Types.Wire.Types.Statement> Statements {
@@ -6908,6 +6920,7 @@ namespace LiveKit.Proto {
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public Columns(Columns other) : this() {
               names_ = other.names_.Clone();
+              statement_ = other.statement_;
               _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
             }
 
@@ -6928,6 +6941,21 @@ namespace LiveKit.Proto {
               get { return names_; }
             }
 
+            /// <summary>Field number for the "statement" field.</summary>
+            public const int StatementFieldNumber = 2;
+            private uint statement_;
+            /// <summary>
+            /// index within a Batch; 0 and unused for a Query
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint Statement {
+              get { return statement_; }
+              set {
+                statement_ = value;
+              }
+            }
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public override bool Equals(object other) {
@@ -6944,6 +6972,7 @@ namespace LiveKit.Proto {
                 return true;
               }
               if(!names_.Equals(other.names_)) return false;
+              if (Statement != other.Statement) return false;
               return Equals(_unknownFields, other._unknownFields);
             }
 
@@ -6952,6 +6981,7 @@ namespace LiveKit.Proto {
             public override int GetHashCode() {
               int hash = 1;
               hash ^= names_.GetHashCode();
+              if (Statement != 0) hash ^= Statement.GetHashCode();
               if (_unknownFields != null) {
                 hash ^= _unknownFields.GetHashCode();
               }
@@ -6971,6 +7001,10 @@ namespace LiveKit.Proto {
               output.WriteRawMessage(this);
             #else
               names_.WriteTo(output, _repeated_names_codec);
+              if (Statement != 0) {
+                output.WriteRawTag(16);
+                output.WriteUInt32(Statement);
+              }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(output);
               }
@@ -6982,6 +7016,10 @@ namespace LiveKit.Proto {
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
               names_.WriteTo(ref output, _repeated_names_codec);
+              if (Statement != 0) {
+                output.WriteRawTag(16);
+                output.WriteUInt32(Statement);
+              }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(ref output);
               }
@@ -6993,6 +7031,9 @@ namespace LiveKit.Proto {
             public int CalculateSize() {
               int size = 0;
               size += names_.CalculateSize(_repeated_names_codec);
+              if (Statement != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Statement);
+              }
               if (_unknownFields != null) {
                 size += _unknownFields.CalculateSize();
               }
@@ -7006,6 +7047,9 @@ namespace LiveKit.Proto {
                 return;
               }
               names_.Add(other.names_);
+              if (other.Statement != 0) {
+                Statement = other.Statement;
+              }
               _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
             }
 
@@ -7029,6 +7073,10 @@ namespace LiveKit.Proto {
                     names_.AddEntriesFrom(input, _repeated_names_codec);
                     break;
                   }
+                  case 16: {
+                    Statement = input.ReadUInt32();
+                    break;
+                  }
                 }
               }
             #endif
@@ -7050,6 +7098,10 @@ namespace LiveKit.Proto {
                     break;
                   case 10: {
                     names_.AddEntriesFrom(ref input, _repeated_names_codec);
+                    break;
+                  }
+                  case 16: {
+                    Statement = input.ReadUInt32();
                     break;
                   }
                 }
@@ -7490,6 +7542,7 @@ namespace LiveKit.Proto {
             public ColumnBatch(ColumnBatch other) : this() {
               columns_ = other.columns_.Clone();
               rows_ = other.rows_;
+              statement_ = other.statement_;
               _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
             }
 
@@ -7525,6 +7578,21 @@ namespace LiveKit.Proto {
               }
             }
 
+            /// <summary>Field number for the "statement" field.</summary>
+            public const int StatementFieldNumber = 3;
+            private uint statement_;
+            /// <summary>
+            /// index within a Batch; 0 and unused for a Query
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint Statement {
+              get { return statement_; }
+              set {
+                statement_ = value;
+              }
+            }
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public override bool Equals(object other) {
@@ -7542,6 +7610,7 @@ namespace LiveKit.Proto {
               }
               if(!columns_.Equals(other.columns_)) return false;
               if (Rows != other.Rows) return false;
+              if (Statement != other.Statement) return false;
               return Equals(_unknownFields, other._unknownFields);
             }
 
@@ -7551,6 +7620,7 @@ namespace LiveKit.Proto {
               int hash = 1;
               hash ^= columns_.GetHashCode();
               if (Rows != 0) hash ^= Rows.GetHashCode();
+              if (Statement != 0) hash ^= Statement.GetHashCode();
               if (_unknownFields != null) {
                 hash ^= _unknownFields.GetHashCode();
               }
@@ -7574,6 +7644,10 @@ namespace LiveKit.Proto {
                 output.WriteRawTag(16);
                 output.WriteUInt32(Rows);
               }
+              if (Statement != 0) {
+                output.WriteRawTag(24);
+                output.WriteUInt32(Statement);
+              }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(output);
               }
@@ -7589,6 +7663,10 @@ namespace LiveKit.Proto {
                 output.WriteRawTag(16);
                 output.WriteUInt32(Rows);
               }
+              if (Statement != 0) {
+                output.WriteRawTag(24);
+                output.WriteUInt32(Statement);
+              }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(ref output);
               }
@@ -7602,6 +7680,9 @@ namespace LiveKit.Proto {
               size += columns_.CalculateSize(_repeated_columns_codec);
               if (Rows != 0) {
                 size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Rows);
+              }
+              if (Statement != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Statement);
               }
               if (_unknownFields != null) {
                 size += _unknownFields.CalculateSize();
@@ -7618,6 +7699,9 @@ namespace LiveKit.Proto {
               columns_.Add(other.columns_);
               if (other.Rows != 0) {
                 Rows = other.Rows;
+              }
+              if (other.Statement != 0) {
+                Statement = other.Statement;
               }
               _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
             }
@@ -7646,6 +7730,10 @@ namespace LiveKit.Proto {
                     Rows = input.ReadUInt32();
                     break;
                   }
+                  case 24: {
+                    Statement = input.ReadUInt32();
+                    break;
+                  }
                 }
               }
             #endif
@@ -7671,6 +7759,10 @@ namespace LiveKit.Proto {
                   }
                   case 16: {
                     Rows = input.ReadUInt32();
+                    break;
+                  }
+                  case 24: {
+                    Statement = input.ReadUInt32();
                     break;
                   }
                 }
@@ -7718,6 +7810,7 @@ namespace LiveKit.Proto {
               rowsAffected_ = other.rowsAffected_;
               lastInsertId_ = other.lastInsertId_;
               tip_ = other.tip_;
+              statement_ = other.statement_;
               _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
             }
 
@@ -7763,6 +7856,21 @@ namespace LiveKit.Proto {
               }
             }
 
+            /// <summary>Field number for the "statement" field.</summary>
+            public const int StatementFieldNumber = 4;
+            private uint statement_;
+            /// <summary>
+            /// index within a Batch; 0 and unused for an Exec
+            /// </summary>
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+            [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+            public uint Statement {
+              get { return statement_; }
+              set {
+                statement_ = value;
+              }
+            }
+
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
             public override bool Equals(object other) {
@@ -7781,6 +7889,7 @@ namespace LiveKit.Proto {
               if (RowsAffected != other.RowsAffected) return false;
               if (LastInsertId != other.LastInsertId) return false;
               if (Tip != other.Tip) return false;
+              if (Statement != other.Statement) return false;
               return Equals(_unknownFields, other._unknownFields);
             }
 
@@ -7791,6 +7900,7 @@ namespace LiveKit.Proto {
               if (RowsAffected != 0L) hash ^= RowsAffected.GetHashCode();
               if (LastInsertId != 0L) hash ^= LastInsertId.GetHashCode();
               if (Tip != 0L) hash ^= Tip.GetHashCode();
+              if (Statement != 0) hash ^= Statement.GetHashCode();
               if (_unknownFields != null) {
                 hash ^= _unknownFields.GetHashCode();
               }
@@ -7821,6 +7931,10 @@ namespace LiveKit.Proto {
                 output.WriteRawTag(24);
                 output.WriteInt64(Tip);
               }
+              if (Statement != 0) {
+                output.WriteRawTag(32);
+                output.WriteUInt32(Statement);
+              }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(output);
               }
@@ -7843,6 +7957,10 @@ namespace LiveKit.Proto {
                 output.WriteRawTag(24);
                 output.WriteInt64(Tip);
               }
+              if (Statement != 0) {
+                output.WriteRawTag(32);
+                output.WriteUInt32(Statement);
+              }
               if (_unknownFields != null) {
                 _unknownFields.WriteTo(ref output);
               }
@@ -7861,6 +7979,9 @@ namespace LiveKit.Proto {
               }
               if (Tip != 0L) {
                 size += 1 + pb::CodedOutputStream.ComputeInt64Size(Tip);
+              }
+              if (Statement != 0) {
+                size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Statement);
               }
               if (_unknownFields != null) {
                 size += _unknownFields.CalculateSize();
@@ -7882,6 +8003,9 @@ namespace LiveKit.Proto {
               }
               if (other.Tip != 0L) {
                 Tip = other.Tip;
+              }
+              if (other.Statement != 0) {
+                Statement = other.Statement;
               }
               _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
             }
@@ -7914,6 +8038,10 @@ namespace LiveKit.Proto {
                     Tip = input.ReadInt64();
                     break;
                   }
+                  case 32: {
+                    Statement = input.ReadUInt32();
+                    break;
+                  }
                 }
               }
             #endif
@@ -7943,6 +8071,10 @@ namespace LiveKit.Proto {
                   }
                   case 24: {
                     Tip = input.ReadInt64();
+                    break;
+                  }
+                  case 32: {
+                    Statement = input.ReadUInt32();
                     break;
                   }
                 }

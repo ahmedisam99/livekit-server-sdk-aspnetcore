@@ -141,7 +141,7 @@ public class LiveKitTokenServiceTests
         var doc = JsonDocument.Parse(agentJson);
         doc.RootElement.GetProperty("admin").GetBoolean().Should().BeTrue();
         doc.RootElement.GetProperty("simulationAdmin").GetBoolean().Should().BeTrue();
-        doc.RootElement.GetProperty("databaseAdmin").GetBoolean().Should().BeTrue();
+        doc.RootElement.TryGetProperty("databaseAdmin", out _).Should().BeFalse();
         doc.RootElement.TryGetProperty("dispatchAdmin", out _).Should().BeFalse();
     }
 

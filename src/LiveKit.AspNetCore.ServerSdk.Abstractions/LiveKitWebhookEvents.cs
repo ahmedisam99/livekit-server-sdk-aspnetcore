@@ -73,6 +73,11 @@ public static class LiveKitWebhookEvents
     public const string INGRESS_ENDED = "ingress_ended";
 
     /// <summary>
+    /// Event fired while a dispatched agent job is waiting for an agent.
+    /// </summary>
+    public const string AGENT_JOB_PENDING = "agent_job_pending";
+
+    /// <summary>
     /// Event fired when an agent job starts.
     /// </summary>
     public const string AGENT_JOB_STARTED = "agent_job_started";

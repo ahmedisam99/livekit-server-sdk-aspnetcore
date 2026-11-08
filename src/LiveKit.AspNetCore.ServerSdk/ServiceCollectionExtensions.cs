@@ -19,7 +19,7 @@ public static class ServiceCollectionExtensions
     /// <summary>
     /// Adds LiveKit services to the specified <see cref="IServiceCollection"/>.
     /// <para>
-    /// Configures HTTP clients for all LiveKit services including Room, Egress, Ingress, SIP, Phone Number, Agent Dispatch, Cloud Agent, Connector, Agent Simulation, and Agent Database services.
+    /// Configures HTTP clients for all LiveKit services including Room, Egress, Ingress, SIP, Phone Number, Agent Dispatch, Cloud Agent, Connector, and Agent Simulation services.
     /// </para>
     /// </summary>
     /// <param name="services">The service collection to add services to.</param>
@@ -51,7 +51,6 @@ public static class ServiceCollectionExtensions
         RegisterHttpClient<ILiveKitCloudAgentService, LiveKitCloudAgentService>(services, useAgentsUrl: true);
         RegisterHttpClient<ILiveKitConnectorService, LiveKitConnectorService>(services);
         RegisterHttpClient<ILiveKitAgentSimulationService, LiveKitAgentSimulationService>(services);
-        RegisterHttpClient<ILiveKitAgentDBService, LiveKitAgentDBService>(services);
 
         return services;
     }

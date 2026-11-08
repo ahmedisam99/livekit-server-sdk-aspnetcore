@@ -122,13 +122,6 @@ public class ServiceCollectionExtensionsTests
         provider.GetService<ILiveKitAgentSimulationService>().Should().NotBeNull();
     }
 
-    [Fact]
-    public void AddLiveKit_RegistersAgentDBService()
-    {
-        var provider = CreateServicesWithLiveKit().BuildServiceProvider();
-        provider.GetService<ILiveKitAgentDBService>().Should().NotBeNull();
-    }
-
     [Theory]
     [InlineData("https://my-project.livekit.cloud", "https://agents.livekit.cloud/")]
     [InlineData("wss://my-project.livekit.cloud", "https://agents.livekit.cloud/")]
@@ -163,7 +156,7 @@ public class ServiceCollectionExtensionsTests
                  {
                      nameof(ILiveKitRoomService), nameof(ILiveKitEgressService), nameof(ILiveKitIngressService),
                      nameof(ILiveKitSipService), nameof(ILiveKitPhoneNumberService), nameof(ILiveKitAgentDispatchService),
-                     nameof(ILiveKitConnectorService), nameof(ILiveKitAgentSimulationService), nameof(ILiveKitAgentDBService)
+                     nameof(ILiveKitConnectorService), nameof(ILiveKitAgentSimulationService)
                  })
         {
             GetBaseAddress(provider, clientName).Should().Be(expected, "{0} should use the base URL", clientName);

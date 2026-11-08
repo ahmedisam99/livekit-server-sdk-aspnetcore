@@ -25,7 +25,7 @@ namespace LiveKit.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChNsaXZla2l0X2FnZW50LnByb3RvEgdsaXZla2l0GhRsaXZla2l0X21vZGVs",
-            "cy5wcm90bxoUbG9nZ2VyL29wdGlvbnMucHJvdG8izAMKA0pvYhIKCgJpZBgB",
+            "cy5wcm90bxoUbG9nZ2VyL29wdGlvbnMucHJvdG8i4AMKA0pvYhIKCgJpZBgB",
             "IAEoCRIiCgtkaXNwYXRjaF9pZBgJIAEoCUINulAKZGlzcGF0Y2hJRBIeCgR0",
             "eXBlGAIgASgOMhAubGl2ZWtpdC5Kb2JUeXBlEhsKBHJvb20YAyABKAsyDS5s",
             "aXZla2l0LlJvb20SMgoLcGFydGljaXBhbnQYBCABKAsyGC5saXZla2l0LlBh",
@@ -34,82 +34,119 @@ namespace LiveKit.Proto {
             "YXRlGAggASgLMhEubGl2ZWtpdC5Kb2JTdGF0ZRIYChBlbmFibGVfcmVjb3Jk",
             "aW5nGAogASgIEhIKCmRlcGxveW1lbnQYCyABKAkSNQoKYXR0cmlidXRlcxgM",
             "IAMoCzIcLmxpdmVraXQuSm9iLkF0dHJpYnV0ZXNFbnRyeUIDwFABEhgKEGVu",
-            "YWJsZV9yZWRhY3Rpb24YDSABKAgaMQoPQXR0cmlidXRlc0VudHJ5EgsKA2tl",
-            "eRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAFCDgoMX3BhcnRpY2lwYW50ItMB",
-            "CghKb2JTdGF0ZRIiCgZzdGF0dXMYASABKA4yEi5saXZla2l0LkpvYlN0YXR1",
-            "cxINCgVlcnJvchgCIAEoCRISCgpzdGFydGVkX2F0GAMgASgDEhAKCGVuZGVk",
-            "X2F0GAQgASgDEhIKCnVwZGF0ZWRfYXQYBSABKAMSHAoUcGFydGljaXBhbnRf",
-            "aWRlbnRpdHkYBiABKAkSHgoJd29ya2VyX2lkGAcgASgJQgu6UAh3b3JrZXJJ",
-            "RBIcCghhZ2VudF9pZBgIIAEoCUIKulAHYWdlbnRJRCL4AgoNV29ya2VyTWVz",
-            "c2FnZRIyCghyZWdpc3RlchgBIAEoCzIeLmxpdmVraXQuUmVnaXN0ZXJXb3Jr",
-            "ZXJSZXF1ZXN0SAASNQoMYXZhaWxhYmlsaXR5GAIgASgLMh0ubGl2ZWtpdC5B",
-            "dmFpbGFiaWxpdHlSZXNwb25zZUgAEjQKDXVwZGF0ZV93b3JrZXIYAyABKAsy",
-            "Gy5saXZla2l0LlVwZGF0ZVdvcmtlclN0YXR1c0gAEi4KCnVwZGF0ZV9qb2IY",
-            "BCABKAsyGC5saXZla2l0LlVwZGF0ZUpvYlN0YXR1c0gAEiMKBHBpbmcYBSAB",
-            "KAsyEy5saXZla2l0LldvcmtlclBpbmdIABIzCgxzaW11bGF0ZV9qb2IYBiAB",
-            "KAsyGy5saXZla2l0LlNpbXVsYXRlSm9iUmVxdWVzdEgAEjEKC21pZ3JhdGVf",
-            "am9iGAcgASgLMhoubGl2ZWtpdC5NaWdyYXRlSm9iUmVxdWVzdEgAQgkKB21l",
-            "c3NhZ2UiiAIKDVNlcnZlck1lc3NhZ2USMwoIcmVnaXN0ZXIYASABKAsyHy5s",
-            "aXZla2l0LlJlZ2lzdGVyV29ya2VyUmVzcG9uc2VIABI0CgxhdmFpbGFiaWxp",
-            "dHkYAiABKAsyHC5saXZla2l0LkF2YWlsYWJpbGl0eVJlcXVlc3RIABIsCgph",
-            "c3NpZ25tZW50GAMgASgLMhYubGl2ZWtpdC5Kb2JBc3NpZ25tZW50SAASLgoL",
-            "dGVybWluYXRpb24YBSABKAsyFy5saXZla2l0LkpvYlRlcm1pbmF0aW9uSAAS",
-            "IwoEcG9uZxgEIAEoCzITLmxpdmVraXQuV29ya2VyUG9uZ0gAQgkKB21lc3Nh",
-            "Z2UigAEKElNpbXVsYXRlSm9iUmVxdWVzdBIeCgR0eXBlGAEgASgOMhAubGl2",
-            "ZWtpdC5Kb2JUeXBlEhsKBHJvb20YAiABKAsyDS5saXZla2l0LlJvb20SLQoL",
-            "cGFydGljaXBhbnQYAyABKAsyGC5saXZla2l0LlBhcnRpY2lwYW50SW5mbyIf",
-            "CgpXb3JrZXJQaW5nEhEKCXRpbWVzdGFtcBgBIAEoAyI3CgpXb3JrZXJQb25n",
-            "EhYKDmxhc3RfdGltZXN0YW1wGAEgASgDEhEKCXRpbWVzdGFtcBgCIAEoAyLq",
-            "AQoVUmVnaXN0ZXJXb3JrZXJSZXF1ZXN0Eh4KBHR5cGUYASABKA4yEC5saXZl",
-            "a2l0LkpvYlR5cGUSEgoKYWdlbnRfbmFtZRgIIAEoCRIPCgd2ZXJzaW9uGAMg",
-            "ASgJEhUKDXBpbmdfaW50ZXJ2YWwYBSABKA0SFgoJbmFtZXNwYWNlGAYgASgJ",
-            "SACIAQESOwoTYWxsb3dlZF9wZXJtaXNzaW9ucxgHIAEoCzIeLmxpdmVraXQu",
-            "UGFydGljaXBhbnRQZXJtaXNzaW9uEhIKCmRlcGxveW1lbnQYCSABKAlCDAoK",
-            "X25hbWVzcGFjZSJiChZSZWdpc3RlcldvcmtlclJlc3BvbnNlEh4KCXdvcmtl",
-            "cl9pZBgBIAEoCUILulAId29ya2VySUQSKAoLc2VydmVyX2luZm8YAyABKAsy",
-            "Ey5saXZla2l0LlNlcnZlckluZm8iJAoRTWlncmF0ZUpvYlJlcXVlc3QSDwoH",
-            "am9iX2lkcxgCIAMoCSJCChNBdmFpbGFiaWxpdHlSZXF1ZXN0EhkKA2pvYhgB",
-            "IAEoCzIMLmxpdmVraXQuSm9iEhAKCHJlc3VtaW5nGAIgASgIIt0CChRBdmFp",
-            "bGFiaWxpdHlSZXNwb25zZRIYCgZqb2JfaWQYASABKAlCCLpQBWpvYklEEhEK",
-            "CWF2YWlsYWJsZRgCIAEoCBIXCg9zdXBwb3J0c19yZXN1bWUYAyABKAgSEQoJ",
-            "dGVybWluYXRlGAggASgIEhgKEHBhcnRpY2lwYW50X25hbWUYBCABKAkSHAoU",
-            "cGFydGljaXBhbnRfaWRlbnRpdHkYBSABKAkSHAoUcGFydGljaXBhbnRfbWV0",
-            "YWRhdGEYBiABKAkSWAoWcGFydGljaXBhbnRfYXR0cmlidXRlcxgHIAMoCzI4",
-            "LmxpdmVraXQuQXZhaWxhYmlsaXR5UmVzcG9uc2UuUGFydGljaXBhbnRBdHRy",
-            "aWJ1dGVzRW50cnkaPAoaUGFydGljaXBhbnRBdHRyaWJ1dGVzRW50cnkSCwoD",
-            "a2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4ASJeCg9VcGRhdGVKb2JTdGF0",
-            "dXMSGAoGam9iX2lkGAEgASgJQgi6UAVqb2JJRBIiCgZzdGF0dXMYAiABKA4y",
-            "Ei5saXZla2l0LkpvYlN0YXR1cxINCgVlcnJvchgDIAEoCSJsChJVcGRhdGVX",
-            "b3JrZXJTdGF0dXMSKgoGc3RhdHVzGAEgASgOMhUubGl2ZWtpdC5Xb3JrZXJT",
-            "dGF0dXNIAIgBARIMCgRsb2FkGAMgASgCEhEKCWpvYl9jb3VudBgEIAEoDUIJ",
-            "Cgdfc3RhdHVzIlMKDUpvYkFzc2lnbm1lbnQSGQoDam9iGAEgASgLMgwubGl2",
-            "ZWtpdC5Kb2ISEAoDdXJsGAIgASgJSACIAQESDQoFdG9rZW4YAyABKAlCBgoE",
-            "X3VybCIqCg5Kb2JUZXJtaW5hdGlvbhIYCgZqb2JfaWQYASABKAlCCLpQBWpv",
-            "YklEKjwKB0pvYlR5cGUSCwoHSlRfUk9PTRAAEhAKDEpUX1BVQkxJU0hFUhAB",
+            "YWJsZV9yZWRhY3Rpb24YDSABKAgSEgoKY3JlYXRlZF9hdBgOIAEoAxoxCg9B",
+            "dHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4",
+            "AUIOCgxfcGFydGljaXBhbnQipgIKCEpvYlN0YXRlEiIKBnN0YXR1cxgBIAEo",
+            "DjISLmxpdmVraXQuSm9iU3RhdHVzEg0KBWVycm9yGAIgASgJEhIKCnN0YXJ0",
+            "ZWRfYXQYAyABKAMSEAoIZW5kZWRfYXQYBCABKAMSEgoKdXBkYXRlZF9hdBgF",
+            "IAEoAxIcChRwYXJ0aWNpcGFudF9pZGVudGl0eRgGIAEoCRIeCgl3b3JrZXJf",
+            "aWQYByABKAlCC7pQCHdvcmtlcklEEhwKCGFnZW50X2lkGAggASgJQgq6UAdh",
+            "Z2VudElEEicKBnJlYXNvbhgJIAEoDjIXLmxpdmVraXQuSm9iU3RhdGVSZWFz",
+            "b24SEwoLYWNjZXB0ZWRfYXQYCiABKAMSEwoLYXNzaWduZWRfYXQYCyABKAMi",
+            "+AIKDVdvcmtlck1lc3NhZ2USMgoIcmVnaXN0ZXIYASABKAsyHi5saXZla2l0",
+            "LlJlZ2lzdGVyV29ya2VyUmVxdWVzdEgAEjUKDGF2YWlsYWJpbGl0eRgCIAEo",
+            "CzIdLmxpdmVraXQuQXZhaWxhYmlsaXR5UmVzcG9uc2VIABI0Cg11cGRhdGVf",
+            "d29ya2VyGAMgASgLMhsubGl2ZWtpdC5VcGRhdGVXb3JrZXJTdGF0dXNIABIu",
+            "Cgp1cGRhdGVfam9iGAQgASgLMhgubGl2ZWtpdC5VcGRhdGVKb2JTdGF0dXNI",
+            "ABIjCgRwaW5nGAUgASgLMhMubGl2ZWtpdC5Xb3JrZXJQaW5nSAASMwoMc2lt",
+            "dWxhdGVfam9iGAYgASgLMhsubGl2ZWtpdC5TaW11bGF0ZUpvYlJlcXVlc3RI",
+            "ABIxCgttaWdyYXRlX2pvYhgHIAEoCzIaLmxpdmVraXQuTWlncmF0ZUpvYlJl",
+            "cXVlc3RIAEIJCgdtZXNzYWdlIrYCCg1TZXJ2ZXJNZXNzYWdlEjMKCHJlZ2lz",
+            "dGVyGAEgASgLMh8ubGl2ZWtpdC5SZWdpc3RlcldvcmtlclJlc3BvbnNlSAAS",
+            "NAoMYXZhaWxhYmlsaXR5GAIgASgLMhwubGl2ZWtpdC5BdmFpbGFiaWxpdHlS",
+            "ZXF1ZXN0SAASLAoKYXNzaWdubWVudBgDIAEoCzIWLmxpdmVraXQuSm9iQXNz",
+            "aWdubWVudEgAEi4KC3Rlcm1pbmF0aW9uGAUgASgLMhcubGl2ZWtpdC5Kb2JU",
+            "ZXJtaW5hdGlvbkgAEiMKBHBvbmcYBCABKAsyEy5saXZla2l0LldvcmtlclBv",
+            "bmdIABIsCgdnb19hd2F5GAYgASgLMhkubGl2ZWtpdC5BZ2VudEh0dHAuR29B",
+            "d2F5SABCCQoHbWVzc2FnZSKAAQoSU2ltdWxhdGVKb2JSZXF1ZXN0Eh4KBHR5",
+            "cGUYASABKA4yEC5saXZla2l0LkpvYlR5cGUSGwoEcm9vbRgCIAEoCzINLmxp",
+            "dmVraXQuUm9vbRItCgtwYXJ0aWNpcGFudBgDIAEoCzIYLmxpdmVraXQuUGFy",
+            "dGljaXBhbnRJbmZvIh8KCldvcmtlclBpbmcSEQoJdGltZXN0YW1wGAEgASgD",
+            "IjcKCldvcmtlclBvbmcSFgoObGFzdF90aW1lc3RhbXAYASABKAMSEQoJdGlt",
+            "ZXN0YW1wGAIgASgDIuoCChVSZWdpc3RlcldvcmtlclJlcXVlc3QSHgoEdHlw",
+            "ZRgBIAEoDjIQLmxpdmVraXQuSm9iVHlwZRISCgphZ2VudF9uYW1lGAggASgJ",
+            "Eg8KB3ZlcnNpb24YAyABKAkSFQoNcGluZ19pbnRlcnZhbBgFIAEoDRIWCglu",
+            "YW1lc3BhY2UYBiABKAlIAIgBARI7ChNhbGxvd2VkX3Blcm1pc3Npb25zGAcg",
+            "ASgLMh4ubGl2ZWtpdC5QYXJ0aWNpcGFudFBlcm1pc3Npb24SEgoKZGVwbG95",
+            "bWVudBgJIAEoCRIzCgllbmRwb2ludHMYCiADKAsyIC5saXZla2l0LkFnZW50",
+            "SHR0cC5BZ2VudEVuZHBvaW50EiIKC2luc3RhbmNlX2lkGAsgASgJQg26UApp",
+            "bnN0YW5jZUlEEhkKEWVuZHBvaW50X3Byb3RvY29sGAwgASgNQgwKCl9uYW1l",
+            "c3BhY2VKBAgCEANKBAgEEAUirQEKFlJlZ2lzdGVyV29ya2VyUmVzcG9uc2US",
+            "HgoJd29ya2VyX2lkGAEgASgJQgu6UAh3b3JrZXJJRBIoCgtzZXJ2ZXJfaW5m",
+            "bxgDIAEoCzITLmxpdmVraXQuU2VydmVySW5mbxJDChFlbmRwb2ludF9zZXR0",
+            "aW5ncxgEIAEoCzIoLmxpdmVraXQuQWdlbnRIdHRwLkFnZW50RW5kcG9pbnRT",
+            "ZXR0aW5nc0oECAIQAyJAChFNaWdyYXRlSm9iUmVxdWVzdBIPCgdqb2JfaWRz",
+            "GAIgAygJEhoKBGpvYnMYAyADKAsyDC5saXZla2l0LkpvYiJCChNBdmFpbGFi",
+            "aWxpdHlSZXF1ZXN0EhkKA2pvYhgBIAEoCzIMLmxpdmVraXQuSm9iEhAKCHJl",
+            "c3VtaW5nGAIgASgIIt0CChRBdmFpbGFiaWxpdHlSZXNwb25zZRIYCgZqb2Jf",
+            "aWQYASABKAlCCLpQBWpvYklEEhEKCWF2YWlsYWJsZRgCIAEoCBIXCg9zdXBw",
+            "b3J0c19yZXN1bWUYAyABKAgSEQoJdGVybWluYXRlGAggASgIEhgKEHBhcnRp",
+            "Y2lwYW50X25hbWUYBCABKAkSHAoUcGFydGljaXBhbnRfaWRlbnRpdHkYBSAB",
+            "KAkSHAoUcGFydGljaXBhbnRfbWV0YWRhdGEYBiABKAkSWAoWcGFydGljaXBh",
+            "bnRfYXR0cmlidXRlcxgHIAMoCzI4LmxpdmVraXQuQXZhaWxhYmlsaXR5UmVz",
+            "cG9uc2UuUGFydGljaXBhbnRBdHRyaWJ1dGVzRW50cnkaPAoaUGFydGljaXBh",
+            "bnRBdHRyaWJ1dGVzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJ",
+            "OgI4ASKLAQoPVXBkYXRlSm9iU3RhdHVzEhgKBmpvYl9pZBgBIAEoCUIIulAF",
+            "am9iSUQSIgoGc3RhdHVzGAIgASgOMhIubGl2ZWtpdC5Kb2JTdGF0dXMSDQoF",
+            "ZXJyb3IYAyABKAkSKwoLam9pbl90aW1pbmcYBCABKAsyFi5saXZla2l0Lkpv",
+            "YkpvaW5UaW1pbmci2QEKDUpvYkpvaW5UaW1pbmcSGQoRb2ZmZXJfcmVjZWl2",
+            "ZWRfdXMYASABKAMSEwoLYWNjZXB0ZWRfdXMYAiABKAMSHgoWYXNzaWdubWVu",
+            "dF9yZWNlaXZlZF91cxgDIAEoAxITCgtsYXVuY2hlZF91cxgEIAEoAxITCgts",
+            "YXVuY2hfd2FybRgFIAEoCBIdChVlbnRyeXBvaW50X3N0YXJ0ZWRfdXMYBiAB",
+            "KAMSGQoRY29ubmVjdF9jYWxsZWRfdXMYByABKAMSFAoMY29ubmVjdGVkX3Vz",
+            "GAggASgDIpEBChJVcGRhdGVXb3JrZXJTdGF0dXMSKgoGc3RhdHVzGAEgASgO",
+            "MhUubGl2ZWtpdC5Xb3JrZXJTdGF0dXNIAIgBARIMCgRsb2FkGAMgASgCEhEK",
+            "CWpvYl9jb3VudBgEIAEoDRIQCghkcmFpbmluZxgFIAEoCBILCgNzZXEYBiAB",
+            "KARCCQoHX3N0YXR1c0oECAIQAyJYCg1Kb2JBc3NpZ25tZW50EhkKA2pvYhgB",
+            "IAEoCzIMLmxpdmVraXQuSm9iEhAKA3VybBgCIAEoCUgAiAEBEhIKBXRva2Vu",
+            "GAMgASgJQgPAUAJCBgoEX3VybCIqCg5Kb2JUZXJtaW5hdGlvbhIYCgZqb2Jf",
+            "aWQYASABKAlCCLpQBWpvYklEIrcECglBZ2VudEh0dHAacgoNQWdlbnRFbmRw",
+            "b2ludBIMCgRwYXRoGAEgASgJEg8KB21ldGhvZHMYAiADKAkSMgoEa2luZBgD",
+            "IAEoDjIkLmxpdmVraXQuQWdlbnRIdHRwLkFnZW50RW5kcG9pbnRLaW5kEg4K",
+            "BnB1YmxpYxgEIAEoCBo1ChVBZ2VudEVuZHBvaW50U2V0dGluZ3MSEAoIcHJv",
+            "dG9jb2wYASABKA1KBAgCEANKBAgDEAQaxwEKDlN0cmVhbVByZWFtYmxlEjIK",
+            "BGtpbmQYASABKA4yJC5saXZla2l0LkFnZW50SHR0cC5BZ2VudEVuZHBvaW50",
+            "S2luZBIgCgpyZXF1ZXN0X2lkGAIgASgJQgy6UAlyZXF1ZXN0SUQSEgoKYXV0",
+            "aG9yaXplZBgDIAEoCBINCgVyb3V0ZRgEIAEoCRISCgp0aW1lb3V0X21zGAUg",
+            "ASgNEhgKC2NsaWVudF9hZGRyGAYgASgJQgPAUAESDgoGc2NoZW1lGAcgASgJ",
+            "GhgKBkdvQXdheRIOCgZyZWFzb24YASABKAkiLwoRQWdlbnRFbmRwb2ludEtp",
+            "bmQSDAoIQUVLX0hUVFAQABIMCghBRUtfVEVYVBABImoKE0h0dHBTdHJlYW1S",
+            "ZXNldENvZGUSDQoJSFNSX0FCT1JUEAASDwoLSFNSX1JFRlVTRUQQARIQCgxI",
+            "U1JfSU5URVJOQUwQAhIPCgtIU1JfVElNRU9VVBADEhAKDEhTUl9QUk9UT0NP",
+            "TBAEKjwKB0pvYlR5cGUSCwoHSlRfUk9PTRAAEhAKDEpUX1BVQkxJU0hFUhAB",
             "EhIKDkpUX1BBUlRJQ0lQQU5UEAIqLQoMV29ya2VyU3RhdHVzEhAKDFdTX0FW",
-            "QUlMQUJMRRAAEgsKB1dTX0ZVTEwQASpKCglKb2JTdGF0dXMSDgoKSlNfUEVO",
+            "QUlMQUJMRRAAEgsKB1dTX0ZVTEwQASpcCglKb2JTdGF0dXMSDgoKSlNfUEVO",
             "RElORxAAEg4KCkpTX1JVTk5JTkcQARIOCgpKU19TVUNDRVNTEAISDQoJSlNf",
-            "RkFJTEVEEANCRlojZ2l0aHViLmNvbS9saXZla2l0L3Byb3RvY29sL2xpdmVr",
-            "aXSqAg1MaXZlS2l0LlByb3Rv6gIOTGl2ZUtpdDo6UHJvdG9iBnByb3RvMw=="));
+            "RkFJTEVEEAMSEAoMSlNfQ0FOQ0VMTEVEEAQqewoOSm9iU3RhdGVSZWFzb24S",
+            "EwoPSlNSX1VOU1BFQ0lGSUVEEAASEwoPSlNSX05PX0NBUEFDSVRZEAESEwoP",
+            "SlNSX1JPT01fQ0xPU0VEEAISGAoUSlNSX0RJU1BBVENIX0RFTEVURUQQAxIQ",
+            "CgxKU1JfUkVUUllJTkcQBEJGWiNnaXRodWIuY29tL2xpdmVraXQvcHJvdG9j",
+            "b2wvbGl2ZWtpdKoCDUxpdmVLaXQuUHJvdG/qAg5MaXZlS2l0OjpQcm90b2IG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.LivekitModelsReflection.Descriptor, global::LiveKit.Proto.OptionsReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.JobType), typeof(global::LiveKit.Proto.WorkerStatus), typeof(global::LiveKit.Proto.JobStatus), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Job), global::LiveKit.Proto.Job.Parser, new[]{ "Id", "DispatchId", "Type", "Room", "Participant", "Namespace", "Metadata", "AgentName", "State", "EnableRecording", "Deployment", "Attributes", "EnableRedaction" }, new[]{ "Participant" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.JobState), global::LiveKit.Proto.JobState.Parser, new[]{ "Status", "Error", "StartedAt", "EndedAt", "UpdatedAt", "ParticipantIdentity", "WorkerId", "AgentId" }, null, null, null, null),
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.JobType), typeof(global::LiveKit.Proto.WorkerStatus), typeof(global::LiveKit.Proto.JobStatus), typeof(global::LiveKit.Proto.JobStateReason), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.Job), global::LiveKit.Proto.Job.Parser, new[]{ "Id", "DispatchId", "Type", "Room", "Participant", "Namespace", "Metadata", "AgentName", "State", "EnableRecording", "Deployment", "Attributes", "EnableRedaction", "CreatedAt" }, new[]{ "Participant" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.JobState), global::LiveKit.Proto.JobState.Parser, new[]{ "Status", "Error", "StartedAt", "EndedAt", "UpdatedAt", "ParticipantIdentity", "WorkerId", "AgentId", "Reason", "AcceptedAt", "AssignedAt" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.WorkerMessage), global::LiveKit.Proto.WorkerMessage.Parser, new[]{ "Register", "Availability", "UpdateWorker", "UpdateJob", "Ping", "SimulateJob", "MigrateJob" }, new[]{ "Message" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ServerMessage), global::LiveKit.Proto.ServerMessage.Parser, new[]{ "Register", "Availability", "Assignment", "Termination", "Pong" }, new[]{ "Message" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ServerMessage), global::LiveKit.Proto.ServerMessage.Parser, new[]{ "Register", "Availability", "Assignment", "Termination", "Pong", "GoAway" }, new[]{ "Message" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SimulateJobRequest), global::LiveKit.Proto.SimulateJobRequest.Parser, new[]{ "Type", "Room", "Participant" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.WorkerPing), global::LiveKit.Proto.WorkerPing.Parser, new[]{ "Timestamp" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.WorkerPong), global::LiveKit.Proto.WorkerPong.Parser, new[]{ "LastTimestamp", "Timestamp" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RegisterWorkerRequest), global::LiveKit.Proto.RegisterWorkerRequest.Parser, new[]{ "Type", "AgentName", "Version", "PingInterval", "Namespace", "AllowedPermissions", "Deployment" }, new[]{ "Namespace" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RegisterWorkerResponse), global::LiveKit.Proto.RegisterWorkerResponse.Parser, new[]{ "WorkerId", "ServerInfo" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.MigrateJobRequest), global::LiveKit.Proto.MigrateJobRequest.Parser, new[]{ "JobIds" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RegisterWorkerRequest), global::LiveKit.Proto.RegisterWorkerRequest.Parser, new[]{ "Type", "AgentName", "Version", "PingInterval", "Namespace", "AllowedPermissions", "Deployment", "Endpoints", "InstanceId", "EndpointProtocol" }, new[]{ "Namespace" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.RegisterWorkerResponse), global::LiveKit.Proto.RegisterWorkerResponse.Parser, new[]{ "WorkerId", "ServerInfo", "EndpointSettings" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.MigrateJobRequest), global::LiveKit.Proto.MigrateJobRequest.Parser, new[]{ "JobIds", "Jobs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AvailabilityRequest), global::LiveKit.Proto.AvailabilityRequest.Parser, new[]{ "Job", "Resuming" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AvailabilityResponse), global::LiveKit.Proto.AvailabilityResponse.Parser, new[]{ "JobId", "Available", "SupportsResume", "Terminate", "ParticipantName", "ParticipantIdentity", "ParticipantMetadata", "ParticipantAttributes" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdateJobStatus), global::LiveKit.Proto.UpdateJobStatus.Parser, new[]{ "JobId", "Status", "Error" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdateWorkerStatus), global::LiveKit.Proto.UpdateWorkerStatus.Parser, new[]{ "Status", "Load", "JobCount" }, new[]{ "Status" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdateJobStatus), global::LiveKit.Proto.UpdateJobStatus.Parser, new[]{ "JobId", "Status", "Error", "JoinTiming" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.JobJoinTiming), global::LiveKit.Proto.JobJoinTiming.Parser, new[]{ "OfferReceivedUs", "AcceptedUs", "AssignmentReceivedUs", "LaunchedUs", "LaunchWarm", "EntrypointStartedUs", "ConnectCalledUs", "ConnectedUs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.UpdateWorkerStatus), global::LiveKit.Proto.UpdateWorkerStatus.Parser, new[]{ "Status", "Load", "JobCount", "Draining", "Seq" }, new[]{ "Status" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.JobAssignment), global::LiveKit.Proto.JobAssignment.Parser, new[]{ "Job", "Url", "Token" }, new[]{ "Url" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.JobTermination), global::LiveKit.Proto.JobTermination.Parser, new[]{ "JobId" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.JobTermination), global::LiveKit.Proto.JobTermination.Parser, new[]{ "JobId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentHttp), global::LiveKit.Proto.AgentHttp.Parser, null, null, new[]{ typeof(global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind), typeof(global::LiveKit.Proto.AgentHttp.Types.HttpStreamResetCode) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentHttp.Types.AgentEndpoint), global::LiveKit.Proto.AgentHttp.Types.AgentEndpoint.Parser, new[]{ "Path", "Methods", "Kind", "Public" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentHttp.Types.AgentEndpointSettings), global::LiveKit.Proto.AgentHttp.Types.AgentEndpointSettings.Parser, new[]{ "Protocol" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentHttp.Types.StreamPreamble), global::LiveKit.Proto.AgentHttp.Types.StreamPreamble.Parser, new[]{ "Kind", "RequestId", "Authorized", "Route", "TimeoutMs", "ClientAddr", "Scheme" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AgentHttp.Types.GoAway), global::LiveKit.Proto.AgentHttp.Types.GoAway.Parser, new[]{ "Reason" }, null, null, null, null)})
           }));
     }
     #endregion
@@ -132,6 +169,30 @@ namespace LiveKit.Proto {
     [pbr::OriginalName("JS_RUNNING")] JsRunning = 1,
     [pbr::OriginalName("JS_SUCCESS")] JsSuccess = 2,
     [pbr::OriginalName("JS_FAILED")] JsFailed = 3,
+    /// <summary>
+    /// the job ended before it was assigned to an agent
+    /// </summary>
+    [pbr::OriginalName("JS_CANCELLED")] JsCancelled = 4,
+  }
+
+  public enum JobStateReason {
+    [pbr::OriginalName("JSR_UNSPECIFIED")] JsrUnspecified = 0,
+    /// <summary>
+    /// no agent was available to accept the job
+    /// </summary>
+    [pbr::OriginalName("JSR_NO_CAPACITY")] JsrNoCapacity = 1,
+    /// <summary>
+    /// the room closed before an agent was assigned
+    /// </summary>
+    [pbr::OriginalName("JSR_ROOM_CLOSED")] JsrRoomClosed = 2,
+    /// <summary>
+    /// the dispatch was deleted before an agent was assigned
+    /// </summary>
+    [pbr::OriginalName("JSR_DISPATCH_DELETED")] JsrDispatchDeleted = 3,
+    /// <summary>
+    /// the job failed and is being dispatched again
+    /// </summary>
+    [pbr::OriginalName("JSR_RETRYING")] JsrRetrying = 4,
   }
 
   #endregion
@@ -185,6 +246,7 @@ namespace LiveKit.Proto {
       deployment_ = other.deployment_;
       attributes_ = other.attributes_.Clone();
       enableRedaction_ = other.enableRedaction_;
+      createdAt_ = other.createdAt_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -350,6 +412,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "created_at" field.</summary>
+    public const int CreatedAtFieldNumber = 14;
+    private long createdAt_;
+    /// <summary>
+    /// when the server created the job, in Unix nanoseconds
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long CreatedAt {
+      get { return createdAt_; }
+      set {
+        createdAt_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -378,6 +455,7 @@ namespace LiveKit.Proto {
       if (Deployment != other.Deployment) return false;
       if (!Attributes.Equals(other.Attributes)) return false;
       if (EnableRedaction != other.EnableRedaction) return false;
+      if (CreatedAt != other.CreatedAt) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -398,6 +476,7 @@ namespace LiveKit.Proto {
       if (Deployment.Length != 0) hash ^= Deployment.GetHashCode();
       hash ^= Attributes.GetHashCode();
       if (EnableRedaction != false) hash ^= EnableRedaction.GetHashCode();
+      if (CreatedAt != 0L) hash ^= CreatedAt.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -465,6 +544,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(104);
         output.WriteBool(EnableRedaction);
       }
+      if (CreatedAt != 0L) {
+        output.WriteRawTag(112);
+        output.WriteInt64(CreatedAt);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -524,6 +607,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(104);
         output.WriteBool(EnableRedaction);
       }
+      if (CreatedAt != 0L) {
+        output.WriteRawTag(112);
+        output.WriteInt64(CreatedAt);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -570,6 +657,9 @@ namespace LiveKit.Proto {
       size += attributes_.CalculateSize(_map_attributes_codec);
       if (EnableRedaction != false) {
         size += 1 + 1;
+      }
+      if (CreatedAt != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CreatedAt);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -628,6 +718,9 @@ namespace LiveKit.Proto {
       attributes_.MergeFrom(other.attributes_);
       if (other.EnableRedaction != false) {
         EnableRedaction = other.EnableRedaction;
+      }
+      if (other.CreatedAt != 0L) {
+        CreatedAt = other.CreatedAt;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -707,6 +800,10 @@ namespace LiveKit.Proto {
           }
           case 104: {
             EnableRedaction = input.ReadBool();
+            break;
+          }
+          case 112: {
+            CreatedAt = input.ReadInt64();
             break;
           }
         }
@@ -789,6 +886,10 @@ namespace LiveKit.Proto {
             EnableRedaction = input.ReadBool();
             break;
           }
+          case 112: {
+            CreatedAt = input.ReadInt64();
+            break;
+          }
         }
       }
     }
@@ -839,6 +940,9 @@ namespace LiveKit.Proto {
       participantIdentity_ = other.participantIdentity_;
       workerId_ = other.workerId_;
       agentId_ = other.agentId_;
+      reason_ = other.reason_;
+      acceptedAt_ = other.acceptedAt_;
+      assignedAt_ = other.assignedAt_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -944,6 +1048,51 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "reason" field.</summary>
+    public const int ReasonFieldNumber = 9;
+    private global::LiveKit.Proto.JobStateReason reason_ = global::LiveKit.Proto.JobStateReason.JsrUnspecified;
+    /// <summary>
+    /// why the job has no agent, for JS_PENDING and JS_CANCELLED jobs
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.JobStateReason Reason {
+      get { return reason_; }
+      set {
+        reason_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "accepted_at" field.</summary>
+    public const int AcceptedAtFieldNumber = 10;
+    private long acceptedAt_;
+    /// <summary>
+    /// when the server received the worker's accept for this attempt, in Unix nanoseconds
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long AcceptedAt {
+      get { return acceptedAt_; }
+      set {
+        acceptedAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "assigned_at" field.</summary>
+    public const int AssignedAtFieldNumber = 11;
+    private long assignedAt_;
+    /// <summary>
+    /// when the server sent the assignment for this attempt, in Unix nanoseconds
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long AssignedAt {
+      get { return assignedAt_; }
+      set {
+        assignedAt_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -967,6 +1116,9 @@ namespace LiveKit.Proto {
       if (ParticipantIdentity != other.ParticipantIdentity) return false;
       if (WorkerId != other.WorkerId) return false;
       if (AgentId != other.AgentId) return false;
+      if (Reason != other.Reason) return false;
+      if (AcceptedAt != other.AcceptedAt) return false;
+      if (AssignedAt != other.AssignedAt) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -982,6 +1134,9 @@ namespace LiveKit.Proto {
       if (ParticipantIdentity.Length != 0) hash ^= ParticipantIdentity.GetHashCode();
       if (WorkerId.Length != 0) hash ^= WorkerId.GetHashCode();
       if (AgentId.Length != 0) hash ^= AgentId.GetHashCode();
+      if (Reason != global::LiveKit.Proto.JobStateReason.JsrUnspecified) hash ^= Reason.GetHashCode();
+      if (AcceptedAt != 0L) hash ^= AcceptedAt.GetHashCode();
+      if (AssignedAt != 0L) hash ^= AssignedAt.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1032,6 +1187,18 @@ namespace LiveKit.Proto {
         output.WriteRawTag(66);
         output.WriteString(AgentId);
       }
+      if (Reason != global::LiveKit.Proto.JobStateReason.JsrUnspecified) {
+        output.WriteRawTag(72);
+        output.WriteEnum((int) Reason);
+      }
+      if (AcceptedAt != 0L) {
+        output.WriteRawTag(80);
+        output.WriteInt64(AcceptedAt);
+      }
+      if (AssignedAt != 0L) {
+        output.WriteRawTag(88);
+        output.WriteInt64(AssignedAt);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1074,6 +1241,18 @@ namespace LiveKit.Proto {
         output.WriteRawTag(66);
         output.WriteString(AgentId);
       }
+      if (Reason != global::LiveKit.Proto.JobStateReason.JsrUnspecified) {
+        output.WriteRawTag(72);
+        output.WriteEnum((int) Reason);
+      }
+      if (AcceptedAt != 0L) {
+        output.WriteRawTag(80);
+        output.WriteInt64(AcceptedAt);
+      }
+      if (AssignedAt != 0L) {
+        output.WriteRawTag(88);
+        output.WriteInt64(AssignedAt);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1107,6 +1286,15 @@ namespace LiveKit.Proto {
       }
       if (AgentId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AgentId);
+      }
+      if (Reason != global::LiveKit.Proto.JobStateReason.JsrUnspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Reason);
+      }
+      if (AcceptedAt != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(AcceptedAt);
+      }
+      if (AssignedAt != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(AssignedAt);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1143,6 +1331,15 @@ namespace LiveKit.Proto {
       }
       if (other.AgentId.Length != 0) {
         AgentId = other.AgentId;
+      }
+      if (other.Reason != global::LiveKit.Proto.JobStateReason.JsrUnspecified) {
+        Reason = other.Reason;
+      }
+      if (other.AcceptedAt != 0L) {
+        AcceptedAt = other.AcceptedAt;
+      }
+      if (other.AssignedAt != 0L) {
+        AssignedAt = other.AssignedAt;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1195,6 +1392,18 @@ namespace LiveKit.Proto {
             AgentId = input.ReadString();
             break;
           }
+          case 72: {
+            Reason = (global::LiveKit.Proto.JobStateReason) input.ReadEnum();
+            break;
+          }
+          case 80: {
+            AcceptedAt = input.ReadInt64();
+            break;
+          }
+          case 88: {
+            AssignedAt = input.ReadInt64();
+            break;
+          }
         }
       }
     #endif
@@ -1244,6 +1453,18 @@ namespace LiveKit.Proto {
           }
           case 66: {
             AgentId = input.ReadString();
+            break;
+          }
+          case 72: {
+            Reason = (global::LiveKit.Proto.JobStateReason) input.ReadEnum();
+            break;
+          }
+          case 80: {
+            AcceptedAt = input.ReadInt64();
+            break;
+          }
+          case 88: {
+            AssignedAt = input.ReadInt64();
             break;
           }
         }
@@ -1881,6 +2102,9 @@ namespace LiveKit.Proto {
         case MessageOneofCase.Pong:
           Pong = other.Pong.Clone();
           break;
+        case MessageOneofCase.GoAway:
+          GoAway = other.GoAway.Clone();
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -1958,6 +2182,22 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "go_away" field.</summary>
+    public const int GoAwayFieldNumber = 6;
+    /// <summary>
+    /// the server is draining this control connection: re-register elsewhere,
+    /// in-flight agent HTTP streams run to completion
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.AgentHttp.Types.GoAway GoAway {
+      get { return messageCase_ == MessageOneofCase.GoAway ? (global::LiveKit.Proto.AgentHttp.Types.GoAway) message_ : null; }
+      set {
+        message_ = value;
+        messageCase_ = value == null ? MessageOneofCase.None : MessageOneofCase.GoAway;
+      }
+    }
+
     private object message_;
     /// <summary>Enum of possible cases for the "message" oneof.</summary>
     public enum MessageOneofCase {
@@ -1967,6 +2207,7 @@ namespace LiveKit.Proto {
       Assignment = 3,
       Termination = 5,
       Pong = 4,
+      GoAway = 6,
     }
     private MessageOneofCase messageCase_ = MessageOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2002,6 +2243,7 @@ namespace LiveKit.Proto {
       if (!object.Equals(Assignment, other.Assignment)) return false;
       if (!object.Equals(Termination, other.Termination)) return false;
       if (!object.Equals(Pong, other.Pong)) return false;
+      if (!object.Equals(GoAway, other.GoAway)) return false;
       if (MessageCase != other.MessageCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2015,6 +2257,7 @@ namespace LiveKit.Proto {
       if (messageCase_ == MessageOneofCase.Assignment) hash ^= Assignment.GetHashCode();
       if (messageCase_ == MessageOneofCase.Termination) hash ^= Termination.GetHashCode();
       if (messageCase_ == MessageOneofCase.Pong) hash ^= Pong.GetHashCode();
+      if (messageCase_ == MessageOneofCase.GoAway) hash ^= GoAway.GetHashCode();
       hash ^= (int) messageCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2054,6 +2297,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(42);
         output.WriteMessage(Termination);
       }
+      if (messageCase_ == MessageOneofCase.GoAway) {
+        output.WriteRawTag(50);
+        output.WriteMessage(GoAway);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2084,6 +2331,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(42);
         output.WriteMessage(Termination);
       }
+      if (messageCase_ == MessageOneofCase.GoAway) {
+        output.WriteRawTag(50);
+        output.WriteMessage(GoAway);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2108,6 +2359,9 @@ namespace LiveKit.Proto {
       }
       if (messageCase_ == MessageOneofCase.Pong) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pong);
+      }
+      if (messageCase_ == MessageOneofCase.GoAway) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GoAway);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2151,6 +2405,12 @@ namespace LiveKit.Proto {
             Pong = new global::LiveKit.Proto.WorkerPong();
           }
           Pong.MergeFrom(other.Pong);
+          break;
+        case MessageOneofCase.GoAway:
+          if (GoAway == null) {
+            GoAway = new global::LiveKit.Proto.AgentHttp.Types.GoAway();
+          }
+          GoAway.MergeFrom(other.GoAway);
           break;
       }
 
@@ -2218,6 +2478,15 @@ namespace LiveKit.Proto {
             Termination = subBuilder;
             break;
           }
+          case 50: {
+            global::LiveKit.Proto.AgentHttp.Types.GoAway subBuilder = new global::LiveKit.Proto.AgentHttp.Types.GoAway();
+            if (messageCase_ == MessageOneofCase.GoAway) {
+              subBuilder.MergeFrom(GoAway);
+            }
+            input.ReadMessage(subBuilder);
+            GoAway = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -2280,6 +2549,15 @@ namespace LiveKit.Proto {
             }
             input.ReadMessage(subBuilder);
             Termination = subBuilder;
+            break;
+          }
+          case 50: {
+            global::LiveKit.Proto.AgentHttp.Types.GoAway subBuilder = new global::LiveKit.Proto.AgentHttp.Types.GoAway();
+            if (messageCase_ == MessageOneofCase.GoAway) {
+              subBuilder.MergeFrom(GoAway);
+            }
+            input.ReadMessage(subBuilder);
+            GoAway = subBuilder;
             break;
           }
         }
@@ -3054,6 +3332,9 @@ namespace LiveKit.Proto {
       namespace_ = other.namespace_;
       allowedPermissions_ = other.allowedPermissions_ != null ? other.allowedPermissions_.Clone() : null;
       deployment_ = other.deployment_;
+      endpoints_ = other.endpoints_.Clone();
+      instanceId_ = other.instanceId_;
+      endpointProtocol_ = other.endpointProtocol_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3090,9 +3371,6 @@ namespace LiveKit.Proto {
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 3;
     private string version_ = "";
-    /// <summary>
-    /// string worker_id = 2;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Version {
@@ -3105,9 +3383,6 @@ namespace LiveKit.Proto {
     /// <summary>Field number for the "ping_interval" field.</summary>
     public const int PingIntervalFieldNumber = 5;
     private uint pingInterval_;
-    /// <summary>
-    /// string name = 4 [deprecated = true];
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public uint PingInterval {
@@ -3167,6 +3442,52 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "endpoints" field.</summary>
+    public const int EndpointsFieldNumber = 10;
+    private static readonly pb::FieldCodec<global::LiveKit.Proto.AgentHttp.Types.AgentEndpoint> _repeated_endpoints_codec
+        = pb::FieldCodec.ForMessage(82, global::LiveKit.Proto.AgentHttp.Types.AgentEndpoint.Parser);
+    private readonly pbc::RepeatedField<global::LiveKit.Proto.AgentHttp.Types.AgentEndpoint> endpoints_ = new pbc::RepeatedField<global::LiveKit.Proto.AgentHttp.Types.AgentEndpoint>();
+    /// <summary>
+    /// HTTP endpoints this worker serves through the data plane, in route order.
+    /// Empty means the worker exposes no endpoints and needs no data connections.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::LiveKit.Proto.AgentHttp.Types.AgentEndpoint> Endpoints {
+      get { return endpoints_; }
+    }
+
+    /// <summary>Field number for the "instance_id" field.</summary>
+    public const int InstanceIdFieldNumber = 11;
+    private string instanceId_ = "";
+    /// <summary>
+    /// random per process; a re-registration with a new instance_id supersedes the
+    /// previous epoch and closes its remaining connections
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string InstanceId {
+      get { return instanceId_; }
+      set {
+        instanceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "endpoint_protocol" field.</summary>
+    public const int EndpointProtocolFieldNumber = 12;
+    private uint endpointProtocol_;
+    /// <summary>
+    /// highest data-plane protocol version the worker supports; 0 = unsupported
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint EndpointProtocol {
+      get { return endpointProtocol_; }
+      set {
+        endpointProtocol_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3189,6 +3510,9 @@ namespace LiveKit.Proto {
       if (Namespace != other.Namespace) return false;
       if (!object.Equals(AllowedPermissions, other.AllowedPermissions)) return false;
       if (Deployment != other.Deployment) return false;
+      if(!endpoints_.Equals(other.endpoints_)) return false;
+      if (InstanceId != other.InstanceId) return false;
+      if (EndpointProtocol != other.EndpointProtocol) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3203,6 +3527,9 @@ namespace LiveKit.Proto {
       if (HasNamespace) hash ^= Namespace.GetHashCode();
       if (allowedPermissions_ != null) hash ^= AllowedPermissions.GetHashCode();
       if (Deployment.Length != 0) hash ^= Deployment.GetHashCode();
+      hash ^= endpoints_.GetHashCode();
+      if (InstanceId.Length != 0) hash ^= InstanceId.GetHashCode();
+      if (EndpointProtocol != 0) hash ^= EndpointProtocol.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3249,6 +3576,15 @@ namespace LiveKit.Proto {
         output.WriteRawTag(74);
         output.WriteString(Deployment);
       }
+      endpoints_.WriteTo(output, _repeated_endpoints_codec);
+      if (InstanceId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(InstanceId);
+      }
+      if (EndpointProtocol != 0) {
+        output.WriteRawTag(96);
+        output.WriteUInt32(EndpointProtocol);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3287,6 +3623,15 @@ namespace LiveKit.Proto {
         output.WriteRawTag(74);
         output.WriteString(Deployment);
       }
+      endpoints_.WriteTo(ref output, _repeated_endpoints_codec);
+      if (InstanceId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(InstanceId);
+      }
+      if (EndpointProtocol != 0) {
+        output.WriteRawTag(96);
+        output.WriteUInt32(EndpointProtocol);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3317,6 +3662,13 @@ namespace LiveKit.Proto {
       }
       if (Deployment.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Deployment);
+      }
+      size += endpoints_.CalculateSize(_repeated_endpoints_codec);
+      if (InstanceId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(InstanceId);
+      }
+      if (EndpointProtocol != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(EndpointProtocol);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3353,6 +3705,13 @@ namespace LiveKit.Proto {
       }
       if (other.Deployment.Length != 0) {
         Deployment = other.Deployment;
+      }
+      endpoints_.Add(other.endpoints_);
+      if (other.InstanceId.Length != 0) {
+        InstanceId = other.InstanceId;
+      }
+      if (other.EndpointProtocol != 0) {
+        EndpointProtocol = other.EndpointProtocol;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3404,6 +3763,18 @@ namespace LiveKit.Proto {
             Deployment = input.ReadString();
             break;
           }
+          case 82: {
+            endpoints_.AddEntriesFrom(input, _repeated_endpoints_codec);
+            break;
+          }
+          case 90: {
+            InstanceId = input.ReadString();
+            break;
+          }
+          case 96: {
+            EndpointProtocol = input.ReadUInt32();
+            break;
+          }
         }
       }
     #endif
@@ -3452,6 +3823,18 @@ namespace LiveKit.Proto {
           }
           case 74: {
             Deployment = input.ReadString();
+            break;
+          }
+          case 82: {
+            endpoints_.AddEntriesFrom(ref input, _repeated_endpoints_codec);
+            break;
+          }
+          case 90: {
+            InstanceId = input.ReadString();
+            break;
+          }
+          case 96: {
+            EndpointProtocol = input.ReadUInt32();
             break;
           }
         }
@@ -3498,6 +3881,7 @@ namespace LiveKit.Proto {
     public RegisterWorkerResponse(RegisterWorkerResponse other) : this() {
       workerId_ = other.workerId_;
       serverInfo_ = other.serverInfo_ != null ? other.serverInfo_.Clone() : null;
+      endpointSettings_ = other.endpointSettings_ != null ? other.endpointSettings_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3531,6 +3915,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "endpoint_settings" field.</summary>
+    public const int EndpointSettingsFieldNumber = 4;
+    private global::LiveKit.Proto.AgentHttp.Types.AgentEndpointSettings endpointSettings_;
+    /// <summary>
+    /// present iff the registration carried endpoints and the server supports the data plane
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.AgentHttp.Types.AgentEndpointSettings EndpointSettings {
+      get { return endpointSettings_; }
+      set {
+        endpointSettings_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3548,6 +3947,7 @@ namespace LiveKit.Proto {
       }
       if (WorkerId != other.WorkerId) return false;
       if (!object.Equals(ServerInfo, other.ServerInfo)) return false;
+      if (!object.Equals(EndpointSettings, other.EndpointSettings)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3557,6 +3957,7 @@ namespace LiveKit.Proto {
       int hash = 1;
       if (WorkerId.Length != 0) hash ^= WorkerId.GetHashCode();
       if (serverInfo_ != null) hash ^= ServerInfo.GetHashCode();
+      if (endpointSettings_ != null) hash ^= EndpointSettings.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3583,6 +3984,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(26);
         output.WriteMessage(ServerInfo);
       }
+      if (endpointSettings_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(EndpointSettings);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3601,6 +4006,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(26);
         output.WriteMessage(ServerInfo);
       }
+      if (endpointSettings_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(EndpointSettings);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3616,6 +4025,9 @@ namespace LiveKit.Proto {
       }
       if (serverInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ServerInfo);
+      }
+      if (endpointSettings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(EndpointSettings);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -3637,6 +4049,12 @@ namespace LiveKit.Proto {
           ServerInfo = new global::LiveKit.Proto.ServerInfo();
         }
         ServerInfo.MergeFrom(other.ServerInfo);
+      }
+      if (other.endpointSettings_ != null) {
+        if (endpointSettings_ == null) {
+          EndpointSettings = new global::LiveKit.Proto.AgentHttp.Types.AgentEndpointSettings();
+        }
+        EndpointSettings.MergeFrom(other.EndpointSettings);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -3668,6 +4086,13 @@ namespace LiveKit.Proto {
             input.ReadMessage(ServerInfo);
             break;
           }
+          case 34: {
+            if (endpointSettings_ == null) {
+              EndpointSettings = new global::LiveKit.Proto.AgentHttp.Types.AgentEndpointSettings();
+            }
+            input.ReadMessage(EndpointSettings);
+            break;
+          }
         }
       }
     #endif
@@ -3696,6 +4121,13 @@ namespace LiveKit.Proto {
               ServerInfo = new global::LiveKit.Proto.ServerInfo();
             }
             input.ReadMessage(ServerInfo);
+            break;
+          }
+          case 34: {
+            if (endpointSettings_ == null) {
+              EndpointSettings = new global::LiveKit.Proto.AgentHttp.Types.AgentEndpointSettings();
+            }
+            input.ReadMessage(EndpointSettings);
             break;
           }
         }
@@ -3741,6 +4173,7 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public MigrateJobRequest(MigrateJobRequest other) : this() {
       jobIds_ = other.jobIds_.Clone();
+      jobs_ = other.jobs_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3764,6 +4197,21 @@ namespace LiveKit.Proto {
       get { return jobIds_; }
     }
 
+    /// <summary>Field number for the "jobs" field.</summary>
+    public const int JobsFieldNumber = 3;
+    private static readonly pb::FieldCodec<global::LiveKit.Proto.Job> _repeated_jobs_codec
+        = pb::FieldCodec.ForMessage(26, global::LiveKit.Proto.Job.Parser);
+    private readonly pbc::RepeatedField<global::LiveKit.Proto.Job> jobs_ = new pbc::RepeatedField<global::LiveKit.Proto.Job>();
+    /// <summary>
+    /// the jobs in job_ids as they were assigned, with state.participant_identity
+    /// set to the identity the worker accepted them with
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::LiveKit.Proto.Job> Jobs {
+      get { return jobs_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3780,6 +4228,7 @@ namespace LiveKit.Proto {
         return true;
       }
       if(!jobIds_.Equals(other.jobIds_)) return false;
+      if(!jobs_.Equals(other.jobs_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3788,6 +4237,7 @@ namespace LiveKit.Proto {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= jobIds_.GetHashCode();
+      hash ^= jobs_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3807,6 +4257,7 @@ namespace LiveKit.Proto {
       output.WriteRawMessage(this);
     #else
       jobIds_.WriteTo(output, _repeated_jobIds_codec);
+      jobs_.WriteTo(output, _repeated_jobs_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3818,6 +4269,7 @@ namespace LiveKit.Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       jobIds_.WriteTo(ref output, _repeated_jobIds_codec);
+      jobs_.WriteTo(ref output, _repeated_jobs_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3829,6 +4281,7 @@ namespace LiveKit.Proto {
     public int CalculateSize() {
       int size = 0;
       size += jobIds_.CalculateSize(_repeated_jobIds_codec);
+      size += jobs_.CalculateSize(_repeated_jobs_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3842,6 +4295,7 @@ namespace LiveKit.Proto {
         return;
       }
       jobIds_.Add(other.jobIds_);
+      jobs_.Add(other.jobs_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3865,6 +4319,10 @@ namespace LiveKit.Proto {
             jobIds_.AddEntriesFrom(input, _repeated_jobIds_codec);
             break;
           }
+          case 26: {
+            jobs_.AddEntriesFrom(input, _repeated_jobs_codec);
+            break;
+          }
         }
       }
     #endif
@@ -3886,6 +4344,10 @@ namespace LiveKit.Proto {
             break;
           case 18: {
             jobIds_.AddEntriesFrom(ref input, _repeated_jobIds_codec);
+            break;
+          }
+          case 26: {
+            jobs_.AddEntriesFrom(ref input, _repeated_jobs_codec);
             break;
           }
         }
@@ -4630,6 +5092,7 @@ namespace LiveKit.Proto {
       jobId_ = other.jobId_;
       status_ = other.status_;
       error_ = other.error_;
+      joinTiming_ = other.joinTiming_ != null ? other.joinTiming_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4681,6 +5144,21 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "join_timing" field.</summary>
+    public const int JoinTimingFieldNumber = 4;
+    private global::LiveKit.Proto.JobJoinTiming joinTiming_;
+    /// <summary>
+    /// set once the agent has connected to the room
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.JobJoinTiming JoinTiming {
+      get { return joinTiming_; }
+      set {
+        joinTiming_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4699,6 +5177,7 @@ namespace LiveKit.Proto {
       if (JobId != other.JobId) return false;
       if (Status != other.Status) return false;
       if (Error != other.Error) return false;
+      if (!object.Equals(JoinTiming, other.JoinTiming)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -4709,6 +5188,7 @@ namespace LiveKit.Proto {
       if (JobId.Length != 0) hash ^= JobId.GetHashCode();
       if (Status != global::LiveKit.Proto.JobStatus.JsPending) hash ^= Status.GetHashCode();
       if (Error.Length != 0) hash ^= Error.GetHashCode();
+      if (joinTiming_ != null) hash ^= JoinTiming.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -4739,6 +5219,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(26);
         output.WriteString(Error);
       }
+      if (joinTiming_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(JoinTiming);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -4761,6 +5245,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(26);
         output.WriteString(Error);
       }
+      if (joinTiming_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(JoinTiming);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -4779,6 +5267,9 @@ namespace LiveKit.Proto {
       }
       if (Error.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (joinTiming_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(JoinTiming);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -4800,6 +5291,12 @@ namespace LiveKit.Proto {
       }
       if (other.Error.Length != 0) {
         Error = other.Error;
+      }
+      if (other.joinTiming_ != null) {
+        if (joinTiming_ == null) {
+          JoinTiming = new global::LiveKit.Proto.JobJoinTiming();
+        }
+        JoinTiming.MergeFrom(other.JoinTiming);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -4830,6 +5327,13 @@ namespace LiveKit.Proto {
           }
           case 26: {
             Error = input.ReadString();
+            break;
+          }
+          case 34: {
+            if (joinTiming_ == null) {
+              JoinTiming = new global::LiveKit.Proto.JobJoinTiming();
+            }
+            input.ReadMessage(JoinTiming);
             break;
           }
         }
@@ -4863,6 +5367,499 @@ namespace LiveKit.Proto {
             Error = input.ReadString();
             break;
           }
+          case 34: {
+            if (joinTiming_ == null) {
+              JoinTiming = new global::LiveKit.Proto.JobJoinTiming();
+            }
+            input.ReadMessage(JoinTiming);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Instants of one agent join on the worker host's monotonic clock, in microseconds. The
+  /// clock origin is arbitrary, so only differences between these values carry meaning on
+  /// their own. The worker and its job processes share this clock.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class JobJoinTiming : pb::IMessage<JobJoinTiming>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<JobJoinTiming> _parser = new pb::MessageParser<JobJoinTiming>(() => new JobJoinTiming());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<JobJoinTiming> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.LivekitAgentReflection.Descriptor.MessageTypes[13]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public JobJoinTiming() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public JobJoinTiming(JobJoinTiming other) : this() {
+      offerReceivedUs_ = other.offerReceivedUs_;
+      acceptedUs_ = other.acceptedUs_;
+      assignmentReceivedUs_ = other.assignmentReceivedUs_;
+      launchedUs_ = other.launchedUs_;
+      launchWarm_ = other.launchWarm_;
+      entrypointStartedUs_ = other.entrypointStartedUs_;
+      connectCalledUs_ = other.connectCalledUs_;
+      connectedUs_ = other.connectedUs_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public JobJoinTiming Clone() {
+      return new JobJoinTiming(this);
+    }
+
+    /// <summary>Field number for the "offer_received_us" field.</summary>
+    public const int OfferReceivedUsFieldNumber = 1;
+    private long offerReceivedUs_;
+    /// <summary>
+    /// availability request received
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long OfferReceivedUs {
+      get { return offerReceivedUs_; }
+      set {
+        offerReceivedUs_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "accepted_us" field.</summary>
+    public const int AcceptedUsFieldNumber = 2;
+    private long acceptedUs_;
+    /// <summary>
+    /// request handler accepted the job
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long AcceptedUs {
+      get { return acceptedUs_; }
+      set {
+        acceptedUs_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "assignment_received_us" field.</summary>
+    public const int AssignmentReceivedUsFieldNumber = 3;
+    private long assignmentReceivedUs_;
+    /// <summary>
+    /// job assignment received
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long AssignmentReceivedUs {
+      get { return assignmentReceivedUs_; }
+      set {
+        assignmentReceivedUs_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "launched_us" field.</summary>
+    public const int LaunchedUsFieldNumber = 4;
+    private long launchedUs_;
+    /// <summary>
+    /// a job process was handed the job
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long LaunchedUs {
+      get { return launchedUs_; }
+      set {
+        launchedUs_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "launch_warm" field.</summary>
+    public const int LaunchWarmFieldNumber = 5;
+    private bool launchWarm_;
+    /// <summary>
+    /// an idle process took the job; false means one was spawned
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool LaunchWarm {
+      get { return launchWarm_; }
+      set {
+        launchWarm_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "entrypoint_started_us" field.</summary>
+    public const int EntrypointStartedUsFieldNumber = 6;
+    private long entrypointStartedUs_;
+    /// <summary>
+    /// the agent's entrypoint started
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long EntrypointStartedUs {
+      get { return entrypointStartedUs_; }
+      set {
+        entrypointStartedUs_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "connect_called_us" field.</summary>
+    public const int ConnectCalledUsFieldNumber = 7;
+    private long connectCalledUs_;
+    /// <summary>
+    /// the agent called room connect
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long ConnectCalledUs {
+      get { return connectCalledUs_; }
+      set {
+        connectCalledUs_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "connected_us" field.</summary>
+    public const int ConnectedUsFieldNumber = 8;
+    private long connectedUs_;
+    /// <summary>
+    /// the agent's primary transport connected
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long ConnectedUs {
+      get { return connectedUs_; }
+      set {
+        connectedUs_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as JobJoinTiming);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(JobJoinTiming other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OfferReceivedUs != other.OfferReceivedUs) return false;
+      if (AcceptedUs != other.AcceptedUs) return false;
+      if (AssignmentReceivedUs != other.AssignmentReceivedUs) return false;
+      if (LaunchedUs != other.LaunchedUs) return false;
+      if (LaunchWarm != other.LaunchWarm) return false;
+      if (EntrypointStartedUs != other.EntrypointStartedUs) return false;
+      if (ConnectCalledUs != other.ConnectCalledUs) return false;
+      if (ConnectedUs != other.ConnectedUs) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OfferReceivedUs != 0L) hash ^= OfferReceivedUs.GetHashCode();
+      if (AcceptedUs != 0L) hash ^= AcceptedUs.GetHashCode();
+      if (AssignmentReceivedUs != 0L) hash ^= AssignmentReceivedUs.GetHashCode();
+      if (LaunchedUs != 0L) hash ^= LaunchedUs.GetHashCode();
+      if (LaunchWarm != false) hash ^= LaunchWarm.GetHashCode();
+      if (EntrypointStartedUs != 0L) hash ^= EntrypointStartedUs.GetHashCode();
+      if (ConnectCalledUs != 0L) hash ^= ConnectCalledUs.GetHashCode();
+      if (ConnectedUs != 0L) hash ^= ConnectedUs.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (OfferReceivedUs != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(OfferReceivedUs);
+      }
+      if (AcceptedUs != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(AcceptedUs);
+      }
+      if (AssignmentReceivedUs != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(AssignmentReceivedUs);
+      }
+      if (LaunchedUs != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(LaunchedUs);
+      }
+      if (LaunchWarm != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(LaunchWarm);
+      }
+      if (EntrypointStartedUs != 0L) {
+        output.WriteRawTag(48);
+        output.WriteInt64(EntrypointStartedUs);
+      }
+      if (ConnectCalledUs != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(ConnectCalledUs);
+      }
+      if (ConnectedUs != 0L) {
+        output.WriteRawTag(64);
+        output.WriteInt64(ConnectedUs);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (OfferReceivedUs != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(OfferReceivedUs);
+      }
+      if (AcceptedUs != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(AcceptedUs);
+      }
+      if (AssignmentReceivedUs != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(AssignmentReceivedUs);
+      }
+      if (LaunchedUs != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(LaunchedUs);
+      }
+      if (LaunchWarm != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(LaunchWarm);
+      }
+      if (EntrypointStartedUs != 0L) {
+        output.WriteRawTag(48);
+        output.WriteInt64(EntrypointStartedUs);
+      }
+      if (ConnectCalledUs != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(ConnectCalledUs);
+      }
+      if (ConnectedUs != 0L) {
+        output.WriteRawTag(64);
+        output.WriteInt64(ConnectedUs);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (OfferReceivedUs != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(OfferReceivedUs);
+      }
+      if (AcceptedUs != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(AcceptedUs);
+      }
+      if (AssignmentReceivedUs != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(AssignmentReceivedUs);
+      }
+      if (LaunchedUs != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(LaunchedUs);
+      }
+      if (LaunchWarm != false) {
+        size += 1 + 1;
+      }
+      if (EntrypointStartedUs != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(EntrypointStartedUs);
+      }
+      if (ConnectCalledUs != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ConnectCalledUs);
+      }
+      if (ConnectedUs != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ConnectedUs);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(JobJoinTiming other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OfferReceivedUs != 0L) {
+        OfferReceivedUs = other.OfferReceivedUs;
+      }
+      if (other.AcceptedUs != 0L) {
+        AcceptedUs = other.AcceptedUs;
+      }
+      if (other.AssignmentReceivedUs != 0L) {
+        AssignmentReceivedUs = other.AssignmentReceivedUs;
+      }
+      if (other.LaunchedUs != 0L) {
+        LaunchedUs = other.LaunchedUs;
+      }
+      if (other.LaunchWarm != false) {
+        LaunchWarm = other.LaunchWarm;
+      }
+      if (other.EntrypointStartedUs != 0L) {
+        EntrypointStartedUs = other.EntrypointStartedUs;
+      }
+      if (other.ConnectCalledUs != 0L) {
+        ConnectCalledUs = other.ConnectCalledUs;
+      }
+      if (other.ConnectedUs != 0L) {
+        ConnectedUs = other.ConnectedUs;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            OfferReceivedUs = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            AcceptedUs = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            AssignmentReceivedUs = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            LaunchedUs = input.ReadInt64();
+            break;
+          }
+          case 40: {
+            LaunchWarm = input.ReadBool();
+            break;
+          }
+          case 48: {
+            EntrypointStartedUs = input.ReadInt64();
+            break;
+          }
+          case 56: {
+            ConnectCalledUs = input.ReadInt64();
+            break;
+          }
+          case 64: {
+            ConnectedUs = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            OfferReceivedUs = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            AcceptedUs = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            AssignmentReceivedUs = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            LaunchedUs = input.ReadInt64();
+            break;
+          }
+          case 40: {
+            LaunchWarm = input.ReadBool();
+            break;
+          }
+          case 48: {
+            EntrypointStartedUs = input.ReadInt64();
+            break;
+          }
+          case 56: {
+            ConnectCalledUs = input.ReadInt64();
+            break;
+          }
+          case 64: {
+            ConnectedUs = input.ReadInt64();
+            break;
+          }
         }
       }
     }
@@ -4886,7 +5883,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitAgentReflection.Descriptor.MessageTypes[13]; }
+      get { return global::LiveKit.Proto.LivekitAgentReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4910,6 +5907,8 @@ namespace LiveKit.Proto {
       status_ = other.status_;
       load_ = other.load_;
       jobCount_ = other.jobCount_;
+      draining_ = other.draining_;
+      seq_ = other.seq_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4949,9 +5948,6 @@ namespace LiveKit.Proto {
     /// <summary>Field number for the "load" field.</summary>
     public const int LoadFieldNumber = 3;
     private float load_;
-    /// <summary>
-    /// optional string metadata = 2 [deprecated=true];
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public float Load {
@@ -4973,6 +5969,37 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "draining" field.</summary>
+    public const int DrainingFieldNumber = 5;
+    private bool draining_;
+    /// <summary>
+    /// worker wants no new streams; existing streams run to completion
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Draining {
+      get { return draining_; }
+      set {
+        draining_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "seq" field.</summary>
+    public const int SeqFieldNumber = 6;
+    private ulong seq_;
+    /// <summary>
+    /// monotonic per registration; status updates may interleave across connections
+    /// and a stale report must not regress newer state
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong Seq {
+      get { return seq_; }
+      set {
+        seq_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -4991,6 +6018,8 @@ namespace LiveKit.Proto {
       if (Status != other.Status) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Load, other.Load)) return false;
       if (JobCount != other.JobCount) return false;
+      if (Draining != other.Draining) return false;
+      if (Seq != other.Seq) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5001,6 +6030,8 @@ namespace LiveKit.Proto {
       if (HasStatus) hash ^= Status.GetHashCode();
       if (Load != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Load);
       if (JobCount != 0) hash ^= JobCount.GetHashCode();
+      if (Draining != false) hash ^= Draining.GetHashCode();
+      if (Seq != 0UL) hash ^= Seq.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5031,6 +6062,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(32);
         output.WriteUInt32(JobCount);
       }
+      if (Draining != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Draining);
+      }
+      if (Seq != 0UL) {
+        output.WriteRawTag(48);
+        output.WriteUInt64(Seq);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5053,6 +6092,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(32);
         output.WriteUInt32(JobCount);
       }
+      if (Draining != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(Draining);
+      }
+      if (Seq != 0UL) {
+        output.WriteRawTag(48);
+        output.WriteUInt64(Seq);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5071,6 +6118,12 @@ namespace LiveKit.Proto {
       }
       if (JobCount != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(JobCount);
+      }
+      if (Draining != false) {
+        size += 1 + 1;
+      }
+      if (Seq != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(Seq);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5092,6 +6145,12 @@ namespace LiveKit.Proto {
       }
       if (other.JobCount != 0) {
         JobCount = other.JobCount;
+      }
+      if (other.Draining != false) {
+        Draining = other.Draining;
+      }
+      if (other.Seq != 0UL) {
+        Seq = other.Seq;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5122,6 +6181,14 @@ namespace LiveKit.Proto {
           }
           case 32: {
             JobCount = input.ReadUInt32();
+            break;
+          }
+          case 40: {
+            Draining = input.ReadBool();
+            break;
+          }
+          case 48: {
+            Seq = input.ReadUInt64();
             break;
           }
         }
@@ -5155,6 +6222,14 @@ namespace LiveKit.Proto {
             JobCount = input.ReadUInt32();
             break;
           }
+          case 40: {
+            Draining = input.ReadBool();
+            break;
+          }
+          case 48: {
+            Seq = input.ReadUInt64();
+            break;
+          }
         }
       }
     }
@@ -5177,7 +6252,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitAgentReflection.Descriptor.MessageTypes[14]; }
+      get { return global::LiveKit.Proto.LivekitAgentReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5472,7 +6547,7 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::LiveKit.Proto.LivekitAgentReflection.Descriptor.MessageTypes[15]; }
+      get { return global::LiveKit.Proto.LivekitAgentReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5652,6 +6727,1428 @@ namespace LiveKit.Proto {
       }
     }
     #endif
+
+  }
+
+  /// <summary>
+  /// ----- agent HTTP endpoints data plane -----
+  ///
+  /// AgentHttp namespaces the data plane: workers expose HTTP endpoints served at
+  /// /agents/{agent_name}/{deployment}/{path} without binding any local listener.
+  /// The worker opens ONE WebTransport (QUIC) session to /agent that carries both
+  /// its control stream (the same WorkerMessage/ServerMessage exchange as the
+  /// WebSocket control connection, length-delimited) and every HTTP exchange: the
+  /// node opens one bidirectional QUIC stream per request. QUIC provides the
+  /// multiplexing and per-stream flow control, so there is no credit accounting
+  /// and no attach handshake.
+  ///
+  /// Each exchange stream is:
+  ///
+  ///   [len:u32be][StreamPreamble]   the only LiveKit framing
+  ///   [ ... opaque bytes ... ]      one HTTP/1.1 exchange, to FIN or RESET_STREAM
+  ///
+  /// After the preamble the stream is byte-transparent: the node writes a
+  /// canonical HTTP/1.1 request and the worker replies with an HTTP/1.1 response,
+  /// each parsed by whatever HTTP implementation the side already has. A WebSocket
+  /// upgrade is therefore an ordinary request whose response is a 101, after which
+  /// the stream is a byte pipe. The protocol evolves by version negotiation at
+  /// registration, so the preamble carries no version of its own.
+  ///
+  /// Bodies use ordinary HTTP/1.1 framing, Content-Length or chunked, and are
+  /// unbounded: a body may be many gigabytes and must be streamed. Request and
+  /// response size limits are policy for the layer above.
+  ///
+  /// How one direction ends:
+  ///
+  ///   success             end of message per the body's own framing, then FIN.
+  ///   failed mid-body     chunked trailer fields x-lk-completion and x-lk-error,
+  ///                       in band, so the outcome cannot race the bytes it
+  ///                       describes.
+  ///   failed before any   RESET_STREAM carrying an HttpStreamResetCode, sound
+  ///   bytes               only here, where nothing is in flight.
+  ///
+  /// FIN before the body's own framing says it is complete is truncation, and a
+  /// receiver must surface it as such.
+  ///
+  /// The x-lk- header prefix is reserved for this signalling in both directions.
+  /// A node strips it from client-supplied request headers, so a client cannot
+  /// forge one, and strips it from responses, so it never reaches the end client.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class AgentHttp : pb::IMessage<AgentHttp>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AgentHttp> _parser = new pb::MessageParser<AgentHttp>(() => new AgentHttp());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AgentHttp> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.LivekitAgentReflection.Descriptor.MessageTypes[17]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AgentHttp() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AgentHttp(AgentHttp other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AgentHttp Clone() {
+      return new AgentHttp(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AgentHttp);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AgentHttp other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AgentHttp other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the AgentHttp message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static partial class Types {
+      public enum AgentEndpointKind {
+        [pbr::OriginalName("AEK_HTTP")] AekHttp = 0,
+        /// <summary>
+        /// reserved for future text-mode endpoints
+        /// </summary>
+        [pbr::OriginalName("AEK_TEXT")] AekText = 1,
+      }
+
+      /// <summary>
+      /// why a stream was reset before any HTTP bytes flowed. This travels as the
+      /// QUIC RESET_STREAM / STOP_SENDING error code, so it is a number with no room
+      /// for detail: the reason string is logged by the side that reset and joined
+      /// to this by request_id. An outcome after bytes have flowed travels in
+      /// trailers instead, where it cannot race them.
+      /// </summary>
+      public enum HttpStreamResetCode {
+        /// <summary>
+        /// no information. The ordinary cancel code, sent whenever a stream is torn
+        /// down without a specific outcome, so it must stay the zero value and must
+        /// not imply that anything was or was not applied.
+        /// </summary>
+        [pbr::OriginalName("HSR_ABORT")] HsrAbort = 0,
+        /// <summary>
+        /// the worker aborted before any application code observed the request, so
+        /// nothing was applied and the exchange is safe to retry. Requires that the
+        /// application was never entered; a 404 it returned is an ordinary response.
+        /// </summary>
+        [pbr::OriginalName("HSR_REFUSED")] HsrRefused = 1,
+        /// <summary>
+        /// the application was entered and then failed before producing a response
+        /// head; side effects may already have happened, so this is not safe to
+        /// retry.
+        /// </summary>
+        [pbr::OriginalName("HSR_INTERNAL")] HsrInternal = 2,
+        /// <summary>
+        /// the deadline elapsed before a response head was produced
+        /// </summary>
+        [pbr::OriginalName("HSR_TIMEOUT")] HsrTimeout = 3,
+        /// <summary>
+        /// the peer's bytes were not valid HTTP/1.1
+        /// </summary>
+        [pbr::OriginalName("HSR_PROTOCOL")] HsrProtocol = 4,
+      }
+
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class AgentEndpoint : pb::IMessage<AgentEndpoint>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<AgentEndpoint> _parser = new pb::MessageParser<AgentEndpoint>(() => new AgentEndpoint());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<AgentEndpoint> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::LiveKit.Proto.AgentHttp.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public AgentEndpoint() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public AgentEndpoint(AgentEndpoint other) : this() {
+          path_ = other.path_;
+          methods_ = other.methods_.Clone();
+          kind_ = other.kind_;
+          public_ = other.public_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public AgentEndpoint Clone() {
+          return new AgentEndpoint(this);
+        }
+
+        /// <summary>Field number for the "path" field.</summary>
+        public const int PathFieldNumber = 1;
+        private string path_ = "";
+        /// <summary>
+        /// starlette-style path template rooted at '/': {name} (one segment, default),
+        /// {name:int}, {name:float}, {name:uuid} (constrained single segments),
+        /// {name:path} (multi-segment). Custom converters are rejected.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Path {
+          get { return path_; }
+          set {
+            path_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "methods" field.</summary>
+        public const int MethodsFieldNumber = 2;
+        private static readonly pb::FieldCodec<string> _repeated_methods_codec
+            = pb::FieldCodec.ForString(18);
+        private readonly pbc::RepeatedField<string> methods_ = new pbc::RepeatedField<string>();
+        /// <summary>
+        /// uppercase, exactly as the application routes them (FastAPI does not imply
+        /// HEAD from GET)
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public pbc::RepeatedField<string> Methods {
+          get { return methods_; }
+        }
+
+        /// <summary>Field number for the "kind" field.</summary>
+        public const int KindFieldNumber = 3;
+        private global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind kind_ = global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind Kind {
+          get { return kind_; }
+          set {
+            kind_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "public" field.</summary>
+        public const int PublicFieldNumber = 4;
+        private bool public_;
+        /// <summary>
+        /// reachable without a project token
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Public {
+          get { return public_; }
+          set {
+            public_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as AgentEndpoint);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(AgentEndpoint other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Path != other.Path) return false;
+          if(!methods_.Equals(other.methods_)) return false;
+          if (Kind != other.Kind) return false;
+          if (Public != other.Public) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Path.Length != 0) hash ^= Path.GetHashCode();
+          hash ^= methods_.GetHashCode();
+          if (Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) hash ^= Kind.GetHashCode();
+          if (Public != false) hash ^= Public.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Path.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Path);
+          }
+          methods_.WriteTo(output, _repeated_methods_codec);
+          if (Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) {
+            output.WriteRawTag(24);
+            output.WriteEnum((int) Kind);
+          }
+          if (Public != false) {
+            output.WriteRawTag(32);
+            output.WriteBool(Public);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Path.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Path);
+          }
+          methods_.WriteTo(ref output, _repeated_methods_codec);
+          if (Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) {
+            output.WriteRawTag(24);
+            output.WriteEnum((int) Kind);
+          }
+          if (Public != false) {
+            output.WriteRawTag(32);
+            output.WriteBool(Public);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Path.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Path);
+          }
+          size += methods_.CalculateSize(_repeated_methods_codec);
+          if (Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Kind);
+          }
+          if (Public != false) {
+            size += 1 + 1;
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(AgentEndpoint other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Path.Length != 0) {
+            Path = other.Path;
+          }
+          methods_.Add(other.methods_);
+          if (other.Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) {
+            Kind = other.Kind;
+          }
+          if (other.Public != false) {
+            Public = other.Public;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Path = input.ReadString();
+                break;
+              }
+              case 18: {
+                methods_.AddEntriesFrom(input, _repeated_methods_codec);
+                break;
+              }
+              case 24: {
+                Kind = (global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind) input.ReadEnum();
+                break;
+              }
+              case 32: {
+                Public = input.ReadBool();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                Path = input.ReadString();
+                break;
+              }
+              case 18: {
+                methods_.AddEntriesFrom(ref input, _repeated_methods_codec);
+                break;
+              }
+              case 24: {
+                Kind = (global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind) input.ReadEnum();
+                break;
+              }
+              case 32: {
+                Public = input.ReadBool();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+      /// <summary>
+      /// registration-level settings negotiated on the control connection, returned
+      /// in RegisterWorkerResponse when the worker declares endpoints and the server
+      /// supports the data plane.
+      /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class AgentEndpointSettings : pb::IMessage<AgentEndpointSettings>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<AgentEndpointSettings> _parser = new pb::MessageParser<AgentEndpointSettings>(() => new AgentEndpointSettings());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<AgentEndpointSettings> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::LiveKit.Proto.AgentHttp.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public AgentEndpointSettings() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public AgentEndpointSettings(AgentEndpointSettings other) : this() {
+          protocol_ = other.protocol_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public AgentEndpointSettings Clone() {
+          return new AgentEndpointSettings(this);
+        }
+
+        /// <summary>Field number for the "protocol" field.</summary>
+        public const int ProtocolFieldNumber = 1;
+        private uint protocol_;
+        /// <summary>
+        /// the negotiated data-plane protocol version; the worker speaks exactly this
+        /// or closes the session
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public uint Protocol {
+          get { return protocol_; }
+          set {
+            protocol_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as AgentEndpointSettings);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(AgentEndpointSettings other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Protocol != other.Protocol) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Protocol != 0) hash ^= Protocol.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Protocol != 0) {
+            output.WriteRawTag(8);
+            output.WriteUInt32(Protocol);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Protocol != 0) {
+            output.WriteRawTag(8);
+            output.WriteUInt32(Protocol);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Protocol != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Protocol);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(AgentEndpointSettings other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Protocol != 0) {
+            Protocol = other.Protocol;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                Protocol = input.ReadUInt32();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 8: {
+                Protocol = input.ReadUInt32();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+      /// <summary>
+      /// the first thing on every exchange stream, node -> worker. It carries only
+      /// what the worker cannot derive from the HTTP bytes that follow and what it
+      /// must not infer from client-supplied headers - identity above all.
+      /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class StreamPreamble : pb::IMessage<StreamPreamble>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<StreamPreamble> _parser = new pb::MessageParser<StreamPreamble>(() => new StreamPreamble());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<StreamPreamble> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::LiveKit.Proto.AgentHttp.Descriptor.NestedTypes[2]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public StreamPreamble() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public StreamPreamble(StreamPreamble other) : this() {
+          kind_ = other.kind_;
+          requestId_ = other.requestId_;
+          authorized_ = other.authorized_;
+          route_ = other.route_;
+          timeoutMs_ = other.timeoutMs_;
+          clientAddr_ = other.clientAddr_;
+          scheme_ = other.scheme_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public StreamPreamble Clone() {
+          return new StreamPreamble(this);
+        }
+
+        /// <summary>Field number for the "kind" field.</summary>
+        public const int KindFieldNumber = 1;
+        private global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind kind_ = global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp;
+        /// <summary>
+        /// what the bytes after this preamble are. A field rather than a framing
+        /// tag, so a new stream semantic costs no new mechanism.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind Kind {
+          get { return kind_; }
+          set {
+            kind_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "request_id" field.</summary>
+        public const int RequestIdFieldNumber = 2;
+        private string requestId_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string RequestId {
+          get { return requestId_; }
+          set {
+            requestId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "authorized" field.</summary>
+        public const int AuthorizedFieldNumber = 3;
+        private bool authorized_;
+        /// <summary>
+        /// the caller holds agent-endpoint call permission for this agent and
+        /// deployment. Always true on a non-public route.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Authorized {
+          get { return authorized_; }
+          set {
+            authorized_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "route" field.</summary>
+        public const int RouteFieldNumber = 4;
+        private string route_ = "";
+        /// <summary>
+        /// the manifest template that matched, e.g. "/items/{id}"
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Route {
+          get { return route_; }
+          set {
+            route_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "timeout_ms" field.</summary>
+        public const int TimeoutMsFieldNumber = 5;
+        private uint timeoutMs_;
+        /// <summary>
+        /// relative, because node and worker clocks are not synchronized. 0 imposes
+        /// no deadline.
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public uint TimeoutMs {
+          get { return timeoutMs_; }
+          set {
+            timeoutMs_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "client_addr" field.</summary>
+        public const int ClientAddrFieldNumber = 6;
+        private string clientAddr_ = "";
+        /// <summary>
+        /// end client address, host only
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string ClientAddr {
+          get { return clientAddr_; }
+          set {
+            clientAddr_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "scheme" field.</summary>
+        public const int SchemeFieldNumber = 7;
+        private string scheme_ = "";
+        /// <summary>
+        /// "http" or "https" as the end client saw it; not derivable worker-side
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Scheme {
+          get { return scheme_; }
+          set {
+            scheme_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as StreamPreamble);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(StreamPreamble other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Kind != other.Kind) return false;
+          if (RequestId != other.RequestId) return false;
+          if (Authorized != other.Authorized) return false;
+          if (Route != other.Route) return false;
+          if (TimeoutMs != other.TimeoutMs) return false;
+          if (ClientAddr != other.ClientAddr) return false;
+          if (Scheme != other.Scheme) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) hash ^= Kind.GetHashCode();
+          if (RequestId.Length != 0) hash ^= RequestId.GetHashCode();
+          if (Authorized != false) hash ^= Authorized.GetHashCode();
+          if (Route.Length != 0) hash ^= Route.GetHashCode();
+          if (TimeoutMs != 0) hash ^= TimeoutMs.GetHashCode();
+          if (ClientAddr.Length != 0) hash ^= ClientAddr.GetHashCode();
+          if (Scheme.Length != 0) hash ^= Scheme.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) {
+            output.WriteRawTag(8);
+            output.WriteEnum((int) Kind);
+          }
+          if (RequestId.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(RequestId);
+          }
+          if (Authorized != false) {
+            output.WriteRawTag(24);
+            output.WriteBool(Authorized);
+          }
+          if (Route.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(Route);
+          }
+          if (TimeoutMs != 0) {
+            output.WriteRawTag(40);
+            output.WriteUInt32(TimeoutMs);
+          }
+          if (ClientAddr.Length != 0) {
+            output.WriteRawTag(50);
+            output.WriteString(ClientAddr);
+          }
+          if (Scheme.Length != 0) {
+            output.WriteRawTag(58);
+            output.WriteString(Scheme);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) {
+            output.WriteRawTag(8);
+            output.WriteEnum((int) Kind);
+          }
+          if (RequestId.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(RequestId);
+          }
+          if (Authorized != false) {
+            output.WriteRawTag(24);
+            output.WriteBool(Authorized);
+          }
+          if (Route.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(Route);
+          }
+          if (TimeoutMs != 0) {
+            output.WriteRawTag(40);
+            output.WriteUInt32(TimeoutMs);
+          }
+          if (ClientAddr.Length != 0) {
+            output.WriteRawTag(50);
+            output.WriteString(ClientAddr);
+          }
+          if (Scheme.Length != 0) {
+            output.WriteRawTag(58);
+            output.WriteString(Scheme);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Kind);
+          }
+          if (RequestId.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(RequestId);
+          }
+          if (Authorized != false) {
+            size += 1 + 1;
+          }
+          if (Route.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Route);
+          }
+          if (TimeoutMs != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TimeoutMs);
+          }
+          if (ClientAddr.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientAddr);
+          }
+          if (Scheme.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Scheme);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(StreamPreamble other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Kind != global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind.AekHttp) {
+            Kind = other.Kind;
+          }
+          if (other.RequestId.Length != 0) {
+            RequestId = other.RequestId;
+          }
+          if (other.Authorized != false) {
+            Authorized = other.Authorized;
+          }
+          if (other.Route.Length != 0) {
+            Route = other.Route;
+          }
+          if (other.TimeoutMs != 0) {
+            TimeoutMs = other.TimeoutMs;
+          }
+          if (other.ClientAddr.Length != 0) {
+            ClientAddr = other.ClientAddr;
+          }
+          if (other.Scheme.Length != 0) {
+            Scheme = other.Scheme;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                Kind = (global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind) input.ReadEnum();
+                break;
+              }
+              case 18: {
+                RequestId = input.ReadString();
+                break;
+              }
+              case 24: {
+                Authorized = input.ReadBool();
+                break;
+              }
+              case 34: {
+                Route = input.ReadString();
+                break;
+              }
+              case 40: {
+                TimeoutMs = input.ReadUInt32();
+                break;
+              }
+              case 50: {
+                ClientAddr = input.ReadString();
+                break;
+              }
+              case 58: {
+                Scheme = input.ReadString();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 8: {
+                Kind = (global::LiveKit.Proto.AgentHttp.Types.AgentEndpointKind) input.ReadEnum();
+                break;
+              }
+              case 18: {
+                RequestId = input.ReadString();
+                break;
+              }
+              case 24: {
+                Authorized = input.ReadBool();
+                break;
+              }
+              case 34: {
+                Route = input.ReadString();
+                break;
+              }
+              case 40: {
+                TimeoutMs = input.ReadUInt32();
+                break;
+              }
+              case 50: {
+                ClientAddr = input.ReadString();
+                break;
+              }
+              case 58: {
+                Scheme = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+      /// <summary>
+      /// the server is draining: the worker should re-register elsewhere; in-flight
+      /// HTTP exchanges run to completion
+      /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+      public sealed partial class GoAway : pb::IMessage<GoAway>
+      #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          , pb::IBufferMessage
+      #endif
+      {
+        private static readonly pb::MessageParser<GoAway> _parser = new pb::MessageParser<GoAway>(() => new GoAway());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pb::MessageParser<GoAway> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::LiveKit.Proto.AgentHttp.Descriptor.NestedTypes[3]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GoAway() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GoAway(GoAway other) : this() {
+          reason_ = other.reason_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public GoAway Clone() {
+          return new GoAway(this);
+        }
+
+        /// <summary>Field number for the "reason" field.</summary>
+        public const int ReasonFieldNumber = 1;
+        private string reason_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public string Reason {
+          get { return reason_; }
+          set {
+            reason_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override bool Equals(object other) {
+          return Equals(other as GoAway);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public bool Equals(GoAway other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Reason != other.Reason) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Reason.Length != 0) hash ^= Reason.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void WriteTo(pb::CodedOutputStream output) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          output.WriteRawMessage(this);
+        #else
+          if (Reason.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Reason);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+          if (Reason.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Reason);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(ref output);
+          }
+        }
+        #endif
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public int CalculateSize() {
+          int size = 0;
+          if (Reason.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Reason);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(GoAway other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Reason.Length != 0) {
+            Reason = other.Reason;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public void MergeFrom(pb::CodedInputStream input) {
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+          input.ReadRawMessage(this);
+        #else
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Reason = input.ReadString();
+                break;
+              }
+            }
+          }
+        #endif
+        }
+
+        #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+                break;
+              case 10: {
+                Reason = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+        #endif
+
+      }
+
+    }
+    #endregion
 
   }
 

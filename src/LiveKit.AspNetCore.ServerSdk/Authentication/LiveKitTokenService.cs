@@ -73,7 +73,6 @@ public sealed class LiveKitTokenService : ILiveKitTokenService
             {
                 grant.Admin = true;
                 grant.SimulationAdmin = true;
-                grant.DatabaseAdmin = true;
             })
             .WithTimeToLive(ttl ?? TimeSpan.FromMinutes(5))
             .ToJwt();

@@ -3,7 +3,7 @@ namespace LiveKit.Authentication;
 /// <summary>
 /// Agent grant containing permissions for LiveKit Cloud agent APIs.
 /// <para>
-/// In order to interact with the Cloud Agent, Agent Simulation, and Agent Database services, or to manage the agent dispatch queue, permission must be granted in the agent field of the JWT.
+/// In order to interact with the Cloud Agent and Agent Simulation services, or to manage agent databases or the agent dispatch queue, permission must be granted in the agent field of the JWT.
 /// See <see href="https://docs.livekit.io/home/get-started/authentication/">LiveKit Authentication Documentation</see> for more information.
 /// </para>
 /// </summary>
